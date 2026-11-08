@@ -8,11 +8,31 @@ from catalog_src import P
 IMG=getattr(catalog_src,'IMG',{})
 RU=getattr(catalog_src,'RU',{})
 
+import re
+TYPE_RU={'shampoo':'Шампунь','conditioner':'Кондиционер','mask':'Маска','leavein':'Несмываемый уход','oil':'Масло','serum':'Сыворотка',
+ 'styling':'Средство для укладки','ampoule':'Ампула','tonic':'Тоник','kit':'Набор','perfume':'Парфюм для волос'}
+WORD_RU=[('hairspray','Лак'),('lacca','Лак'),('spray','Спрей'),('gel','Гель'),('mousse','Мусс'),('wax','Воск'),('paste','Паста'),('clay','Глина'),
+ ('powder','Пудра'),('texturizer','Текстурайзер'),('milk','Молочко'),('lotion','Лосьон'),('balm','Бальзам'),('primer','Праймер'),('fluid','Флюид'),('cream','Крем')]
+NEED_RU={'blonde':'для светлых волос','repair':'для восстановления','volume':'для объёма','curls':'для кудрявых волос','hairloss':'против выпадения',
+ 'shine':'для блеска','oily':'для жирной кожи головы','dry':'для увлажнения','color':'для окрашенных волос','scalp':'для кожи головы','heat':'с термозащитой'}
+STRIP=r'\b(hair mask|shampoo|conditioner|masque|mask|serum|spray|cream|gel|mousse|wax|paste|fluid|lotion|tonic|ampoules?|hairspray)\b'
+def auto_ru(name,typ,need):
+    if typ in ('accessory','tool') or not need: return ''
+    head=TYPE_RU.get(typ,'')
+    if typ in ('styling','leavein'):
+        low=name.lower()
+        for w,r in WORD_RU:
+            if w in low: head=r;break
+    line=re.sub(STRIP,'',name,flags=re.I)
+    if typ=='oil': line=re.sub(r'\boil\b','',line,flags=re.I)
+    line=re.sub(r'\s+',' ',line).strip(' -&')
+    return ' '.join(x for x in (head,NEED_RU.get(need,''),line) if x)
+
 def products():
     out=[]
     for pid,(brand,name,vol,typ,need,price,stock) in P.items():
         if not price: continue
-        item=dict(id=pid,brand=brand,name=name,name_ru=RU.get(pid,''),vol=vol,type=typ,need=need,price=price,stock=max(0,int(stock)))
+        item=dict(id=pid,brand=brand,name=name,name_ru=RU.get(pid) or auto_ru(name,typ,need),vol=vol,type=typ,need=need,price=price,stock=max(0,int(stock)))
         for ext in ('webp','jpg','png'):
             if os.path.exists(os.path.join(ROOT,'photos',f'{pid}.{ext}')):
                 item['img']=f'photos/{pid}.{ext}'; break
