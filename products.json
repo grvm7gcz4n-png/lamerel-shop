@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T19:29:45+00:00",
+"updated": "2026-11-08T19:35:40+00:00",
 "products": [
 {
 "id": 25494550,
@@ -1080,7 +1080,8 @@
 "type": "conditioner",
 "need": "shine",
 "price": 100,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/1de/w2hbmpinqni9z54knqht9syc7a4zaniu.jpg"
 },
 {
 "id": 21723300,
@@ -1092,7 +1093,8 @@
 "type": "mask",
 "need": "repair",
 "price": 35,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/c5e/ejvj1zq8cyjs7by20y2nopuxw0d4i2bl.jpg"
 },
 {
 "id": 21723306,
@@ -1104,7 +1106,8 @@
 "type": "mask",
 "need": "scalp",
 "price": 35,
-"stock": 2
+"stock": 2,
+"img": "https://davines.ru/upload/iblock/e09/4vw28ukcbab6gg7ttaxjr46ez4or98i2.jpg"
 },
 {
 "id": 21762561,
@@ -1116,7 +1119,8 @@
 "type": "shampoo",
 "need": "shine",
 "price": 35,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/1d6/tbzxqk1yuyiy5smmkcgtf7dmryfn345o.jpg"
 },
 {
 "id": 21762562,
@@ -1140,7 +1144,8 @@
 "type": "shampoo",
 "need": "oily",
 "price": 85,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/6d1/bgp3s13119k2ghdccnp0tfbaltlyofge.jpg"
 },
 {
 "id": 21847387,
@@ -1152,7 +1157,8 @@
 "type": "styling",
 "need": "hold",
 "price": 80,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/b54/el16kojs6lou8iyephswa1qppqeolxyr.jpg"
 },
 {
 "id": 21847388,
@@ -1200,7 +1206,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 35,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/107/h5qcvkrmp0smcqa1hdj0jv7ldqpq4zgn.jpg"
 },
 {
 "id": 21847401,
@@ -1212,7 +1219,8 @@
 "type": "conditioner",
 "need": "curls",
 "price": 35,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/aae/76uvlu23joijg5irdl7tyla9c2onv1c7.jpg"
 },
 {
 "id": 21872787,
@@ -1236,7 +1244,8 @@
 "type": "styling",
 "need": "curls",
 "price": 85,
-"stock": 2
+"stock": 2,
+"img": "https://davines.ru/upload/iblock/b2a/ma2i20gc1rj8vklv5t24wbdb094whuq8.jpg"
 },
 {
 "id": 21930279,
@@ -1260,7 +1269,8 @@
 "type": "shampoo",
 "need": "shine",
 "price": 65,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/1d6/tbzxqk1yuyiy5smmkcgtf7dmryfn345o.jpg"
 },
 {
 "id": 22869544,
@@ -1272,7 +1282,8 @@
 "type": "shampoo",
 "need": "shine",
 "price": 35,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/1d6/tbzxqk1yuyiy5smmkcgtf7dmryfn345o.jpg"
 },
 {
 "id": 22929627,
@@ -1284,7 +1295,8 @@
 "type": "styling",
 "need": "volume",
 "price": 80,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/441/h4q9jbev020i0a0wd0lg89z2yesa0ijt.jpg"
 },
 {
 "id": 22929628,
@@ -1320,7 +1332,8 @@
 "type": "styling",
 "need": "curls",
 "price": 80,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/d07/umiayre28q0tsb2zkunh6rh4bq8n4o41.jpg"
 },
 {
 "id": 23833942,
@@ -1344,7 +1357,8 @@
 "type": "shampoo",
 "need": "shine",
 "price": 65,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/1d6/tbzxqk1yuyiy5smmkcgtf7dmryfn345o.jpg"
 },
 {
 "id": 24783636,
@@ -1356,7 +1370,8 @@
 "type": "leavein",
 "need": "shine",
 "price": 80,
-"stock": 2
+"stock": 2,
+"img": "https://davines.ru/upload/iblock/67c/y0iidwd001ae3cpov6mitjmpgcyr7ofy.jpg"
 },
 {
 "id": 24926867,
@@ -1428,7 +1443,8 @@
 "type": "mask",
 "need": "dry",
 "price": 35,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/8a0/j3edet8741v6c0h9pkw6hquv59vzd10n.jpg"
 },
 {
 "id": 25723181,
@@ -1464,7 +1480,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 80,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/107/h5qcvkrmp0smcqa1hdj0jv7ldqpq4zgn.jpg"
 },
 {
 "id": 25873631,
@@ -1476,7 +1493,8 @@
 "type": "conditioner",
 "need": "curls",
 "price": 80,
-"stock": 2
+"stock": 2,
+"img": "https://davines.ru/upload/iblock/aae/76uvlu23joijg5irdl7tyla9c2onv1c7.jpg"
 },
 {
 "id": 25873649,
@@ -1548,7 +1566,8 @@
 "type": "leavein",
 "need": "blonde",
 "price": 95,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/f80/abwzrfvkni7jj0tu6batr281mbbp2hzc.jpg"
 },
 {
 "id": 17905304,
@@ -1572,7 +1591,8 @@
 "type": "shampoo",
 "need": "blonde",
 "price": 85,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/1c0/3ao1tfq2su00u0qgneh93a9gmqxyqw8b.jpg"
 },
 {
 "id": 17905344,
@@ -1584,7 +1604,8 @@
 "type": "conditioner",
 "need": "blonde",
 "price": 100,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/d14/s4jhtxwer30j9zzrvpdwd1rbsk5ess1f.jpg"
 },
 {
 "id": 17905431,
@@ -1608,7 +1629,8 @@
 "type": "shampoo",
 "need": "color",
 "price": 75,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/49f/1s91tfn3ih4sz5mcpoissdyu67s6o0ui.jpg"
 },
 {
 "id": 19560540,
@@ -1632,7 +1654,8 @@
 "type": "conditioner",
 "need": "curls",
 "price": 85,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/aae/76uvlu23joijg5irdl7tyla9c2onv1c7.jpg"
 },
 {
 "id": 21180523,
@@ -1644,7 +1667,8 @@
 "type": "shampoo",
 "need": "shine",
 "price": 90,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/427/6h7g3l48bddx00zyuh0b09y1k1upvmr1.png"
 },
 {
 "id": 21343284,
@@ -1692,7 +1716,8 @@
 "type": "leavein",
 "need": "heat",
 "price": 95,
-"stock": 2
+"stock": 2,
+"img": "https://davines.ru/upload/iblock/7a8/xp7u1rf2g3vtd2p2sdqmcgdh1kyp2sfd.jpg"
 },
 {
 "id": 21476231,
@@ -1716,7 +1741,8 @@
 "type": "oil",
 "need": "shine",
 "price": 75,
-"stock": 2
+"stock": 2,
+"img": "https://davines.ru/upload/iblock/c2e/iu95yfr74jsy04vnrt9au8h19g5zfar7.jpg"
 },
 {
 "id": 21580315,
@@ -1728,7 +1754,8 @@
 "type": "oil",
 "need": "shine",
 "price": 140,
-"stock": 3
+"stock": 3,
+"img": "https://davines.ru/upload/iblock/3fa/9g95blkty0avi9pd24289cawtarv7t65.jpg"
 },
 {
 "id": 21762563,
@@ -1776,7 +1803,8 @@
 "type": "shampoo",
 "need": "hairloss",
 "price": 75,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/9e9/98s236z64awl62p79d90dnyrge1nd8l2.jpg"
 },
 {
 "id": 21824062,
@@ -1788,7 +1816,8 @@
 "type": "leavein",
 "need": "shine",
 "price": 60,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/9fe/cvhmtse7ex83tea2x0amkq6f5xbdsaw9.jpg"
 },
 {
 "id": 21824067,
@@ -1800,7 +1829,8 @@
 "type": "shampoo",
 "need": "curls",
 "price": 75,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/e51/tiqfp5qc1m33370br53t0zk2lp64a5xg.jpg"
 },
 {
 "id": 21930339,
@@ -1860,7 +1890,8 @@
 "type": "serum",
 "need": "hairloss",
 "price": 200,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/815/7szichb0u5k84ta0wmqe8jwxyuyubyz5.jpg"
 },
 {
 "id": 22099075,
@@ -1872,7 +1903,8 @@
 "type": "styling",
 "need": "curls",
 "price": 65,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/d07/umiayre28q0tsb2zkunh6rh4bq8n4o41.jpg"
 },
 {
 "id": 22161999,
@@ -1908,7 +1940,8 @@
 "type": "shampoo",
 "need": "oily",
 "price": 90,
-"stock": 4
+"stock": 4,
+"img": "https://davines.ru/upload/iblock/6d1/bgp3s13119k2ghdccnp0tfbaltlyofge.jpg"
 },
 {
 "id": 22204544,
@@ -1920,7 +1953,8 @@
 "type": "shampoo",
 "need": "blonde",
 "price": 265,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/1c0/3ao1tfq2su00u0qgneh93a9gmqxyqw8b.jpg"
 },
 {
 "id": 22204555,
@@ -1932,7 +1966,8 @@
 "type": "conditioner",
 "need": "blonde",
 "price": 200,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/d14/s4jhtxwer30j9zzrvpdwd1rbsk5ess1f.jpg"
 },
 {
 "id": 22297073,
@@ -1956,7 +1991,8 @@
 "type": "mask",
 "need": "blonde",
 "price": 85,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/fab/keszv95w6gcto5a545kyywybiotiihgo.jpg"
 },
 {
 "id": 22297145,
@@ -1992,7 +2028,8 @@
 "type": "leavein",
 "need": "volume",
 "price": 75,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/e3f/cxta88xwk2vw3e90thoyfhg2xrlqk3hm.jpg"
 },
 {
 "id": 22535914,
@@ -2040,7 +2077,8 @@
 "type": "leavein",
 "need": "volume",
 "price": 65,
-"stock": 2
+"stock": 2,
+"img": "https://davines.ru/upload/iblock/e3f/cxta88xwk2vw3e90thoyfhg2xrlqk3hm.jpg"
 },
 {
 "id": 23435517,
@@ -2052,7 +2090,8 @@
 "type": "leavein",
 "need": "volume",
 "price": 45,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/b7e/28phcfpigokpm8tut0v02u3bwzv01fpe.jpg"
 },
 {
 "id": 24001227,
@@ -2100,7 +2139,8 @@
 "type": "shampoo",
 "need": "curls",
 "price": 40,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/e51/tiqfp5qc1m33370br53t0zk2lp64a5xg.jpg"
 },
 {
 "id": 24926894,
@@ -2136,7 +2176,8 @@
 "type": "shampoo",
 "need": "oily",
 "price": 60,
-"stock": 2
+"stock": 2,
+"img": "https://davines.ru/upload/iblock/6d1/bgp3s13119k2ghdccnp0tfbaltlyofge.jpg"
 },
 {
 "id": 18744685,
@@ -2148,7 +2189,8 @@
 "type": "leavein",
 "need": "shine",
 "price": 95,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/dcd/1op7uubxrraciqb3o42bh6e64n0ubeur.jpg"
 },
 {
 "id": 21180535,
@@ -2160,7 +2202,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 75,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/627/s2ajl19wdza1y21mkbe6k67x0un04cey.jpg"
 },
 {
 "id": 21180571,
@@ -2172,7 +2215,8 @@
 "type": "mask",
 "need": "dry",
 "price": 35,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/4bf/reszbdiefpattc7ka8zw6t4gmb05uf1x.jpg"
 },
 {
 "id": 21343290,
@@ -2196,7 +2240,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 75,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/e5c/8i2ey3k7kfuag9obj66zizji02720h7a.jpg"
 },
 {
 "id": 21343472,
@@ -2208,7 +2253,8 @@
 "type": "mask",
 "need": "dry",
 "price": 105,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/141/q8qyrsl25u0q94fq8ddsf2tc0vj4g5p5.jpg"
 },
 {
 "id": 21343479,
@@ -2232,7 +2278,8 @@
 "type": "mask",
 "need": "shine",
 "price": 40,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/587/eavtivtpw01l79vhug5cqqhlz354ldxw.jpg"
 },
 {
 "id": 21476224,
@@ -2244,7 +2291,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 80,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/cd2/4idrktkis19tb7dp1q1elbsg6w6h05ff.jpg"
 },
 {
 "id": 21720946,
@@ -2256,7 +2304,8 @@
 "type": "mask",
 "need": "shine",
 "price": 110,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/587/eavtivtpw01l79vhug5cqqhlz354ldxw.jpg"
 },
 {
 "id": 21762554,
@@ -2280,7 +2329,8 @@
 "type": "shampoo",
 "need": "hairloss",
 "price": 35,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/9e9/98s236z64awl62p79d90dnyrge1nd8l2.jpg"
 },
 {
 "id": 21762556,
@@ -2292,7 +2342,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 35,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/e5c/8i2ey3k7kfuag9obj66zizji02720h7a.jpg"
 },
 {
 "id": 21762558,
@@ -2304,7 +2355,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 35,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/627/s2ajl19wdza1y21mkbe6k67x0un04cey.jpg"
 },
 {
 "id": 21762567,
@@ -2316,7 +2368,8 @@
 "type": "shampoo",
 "need": "color",
 "price": 35,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/49f/1s91tfn3ih4sz5mcpoissdyu67s6o0ui.jpg"
 },
 {
 "id": 21762569,
@@ -2376,7 +2429,8 @@
 "type": "shampoo",
 "need": "shine",
 "price": 35,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/ca4/5nuqprw972yqtybad0cnrjfvdjmmnjzf.jpg"
 },
 {
 "id": 21872788,
@@ -2400,7 +2454,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 95,
-"stock": 3
+"stock": 3,
+"img": "https://davines.ru/upload/iblock/154/a7m6jdj37wezot73ibmbhgu50lw38unj.jpg"
 },
 {
 "id": 21872792,
@@ -2412,7 +2467,8 @@
 "type": "leavein",
 "need": "shine",
 "price": 115,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/73f/x4r4u02wl83v13r3wdujkbkdan07ldci.jpg"
 },
 {
 "id": 21885745,
@@ -2424,7 +2480,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 85,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/107/h5qcvkrmp0smcqa1hdj0jv7ldqpq4zgn.jpg"
 },
 {
 "id": 21885746,
@@ -2448,7 +2505,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 75,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/592/5k36fvunf2p2yy7jzkufdiq3tfga1akd.jpg"
 },
 {
 "id": 21885772,
@@ -2460,7 +2518,8 @@
 "type": "conditioner",
 "need": "repair",
 "price": 75,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/6cb/n0i799o6b3krqpe1uqxhu2e2gr8ju9kp.jpg"
 },
 {
 "id": 21885781,
@@ -2484,7 +2543,8 @@
 "type": "conditioner",
 "need": "shine",
 "price": 35,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/1de/w2hbmpinqni9z54knqht9syc7a4zaniu.jpg"
 },
 {
 "id": 22099079,
@@ -2496,7 +2556,8 @@
 "type": "shampoo",
 "need": "",
 "price": 85,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/300/rx1z8a3qr9tnrzoug7m52n9svbv5f0yj.jpg"
 },
 {
 "id": 22099085,
@@ -2508,7 +2569,8 @@
 "type": "leavein",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/89f/th0v25uooy8kqun6j95n25ei6t07e4ra.jpg"
 },
 {
 "id": 22099086,
@@ -2520,7 +2582,8 @@
 "type": "oil",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/299/bki3tgmrwy2gup27txj5dwzocpsfqrbl.jpg"
 },
 {
 "id": 22161996,
@@ -2568,7 +2631,8 @@
 "type": "mask",
 "need": "repair",
 "price": 185,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/c5e/ejvj1zq8cyjs7by20y2nopuxw0d4i2bl.jpg"
 },
 {
 "id": 22686978,
@@ -2580,7 +2644,8 @@
 "type": "shampoo",
 "need": "",
 "price": 80,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/155/ph2aklo5wah5eb450vd5so691tmqttnr.jpg"
 },
 {
 "id": 22686980,
@@ -2616,7 +2681,8 @@
 "type": "shampoo",
 "need": "shine",
 "price": 205,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/427/6h7g3l48bddx00zyuh0b09y1k1upvmr1.png"
 },
 {
 "id": 23029630,
@@ -2640,7 +2706,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 80,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/9df/1mb1hvwo5ybi66xk179wa26kih7fue31.jpg"
 },
 {
 "id": 24292655,
@@ -2652,7 +2719,8 @@
 "type": "leavein",
 "need": "shine",
 "price": 55,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/73f/x4r4u02wl83v13r3wdujkbkdan07ldci.jpg"
 },
 {
 "id": 24292656,
@@ -2676,7 +2744,8 @@
 "type": "leavein",
 "need": "shine",
 "price": 60,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/67c/y0iidwd001ae3cpov6mitjmpgcyr7ofy.jpg"
 },
 {
 "id": 24868138,
@@ -2688,7 +2757,8 @@
 "type": "styling",
 "need": "curls",
 "price": 60,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/d07/umiayre28q0tsb2zkunh6rh4bq8n4o41.jpg"
 },
 {
 "id": 24868141,
@@ -2700,7 +2770,8 @@
 "type": "styling",
 "need": "volume",
 "price": 60,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/79b/rwlnd6ef8sv9ke5r334rgjpv1u9wjpwk.jpg"
 },
 {
 "id": 24868154,
@@ -2712,7 +2783,8 @@
 "type": "styling",
 "need": "hold",
 "price": 60,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/b5a/wv6xg36i4qhlduhqkhmz7b4ks3ak9rbc.jpg"
 },
 {
 "id": 24926892,
@@ -2748,7 +2820,8 @@
 "type": "mask",
 "need": "scalp",
 "price": 35,
-"stock": 2
+"stock": 2,
+"img": "https://davines.ru/upload/iblock/fd2/qlvmilb7upf4ik86ikmapxkg1topltmw.jpg"
 },
 {
 "id": 22006384,
@@ -2796,7 +2869,8 @@
 "type": "mask",
 "need": "shine",
 "price": 35,
-"stock": 3
+"stock": 3,
+"img": "https://davines.ru/upload/iblock/46a/u3nthb0xn2emrlp8bf0er159mqggzybk.jpg"
 },
 {
 "id": 21885778,
@@ -2808,7 +2882,8 @@
 "type": "styling",
 "need": "hold",
 "price": 85,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/b5a/wv6xg36i4qhlduhqkhmz7b4ks3ak9rbc.jpg"
 },
 {
 "id": 21723315,
@@ -2820,7 +2895,8 @@
 "type": "mask",
 "need": "dry",
 "price": 100,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/1fc/sct0gdeniik4ncz0ernu9rp5lcoostyr.jpg"
 },
 {
 "id": 21723313,
@@ -2832,7 +2908,8 @@
 "type": "leavein",
 "need": "dry",
 "price": 100,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/e91/q5s9r76d1weomog9wzbu69jq48bhzsei.jpg"
 },
 {
 "id": 21723317,
@@ -2844,7 +2921,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 75,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/769/etu54u029q9j2z6tspt4lriuldh29769.jpg"
 },
 {
 "id": 21789082,
@@ -2856,7 +2934,8 @@
 "type": "leavein",
 "need": "dry",
 "price": 65,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/5e6/14hwmne7oq6g5kfpy2w5kt6w8mc5b8ts.jpg"
 },
 {
 "id": 22162453,
@@ -2868,7 +2947,8 @@
 "type": "mask",
 "need": "shine",
 "price": 185,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/iblock/46a/u3nthb0xn2emrlp8bf0er159mqggzybk.jpg"
 },
 {
 "id": 21872790,
@@ -2880,7 +2960,8 @@
 "type": "mask",
 "need": "volume",
 "price": 35,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/893/ez60li4l441ja94wph75xub9w9fl3dg8.jpg"
 },
 {
 "id": 21885761,
@@ -2892,7 +2973,8 @@
 "type": "shampoo",
 "need": "volume",
 "price": 75,
-"stock": 1
+"stock": 1,
+"img": "https://davines.ru/upload/iblock/b8a/0riov8sl4glmbj1wy7h7vrms0krec772.jpg"
 },
 {
 "id": 24292660,
@@ -2904,7 +2986,8 @@
 "type": "leavein",
 "need": "dry",
 "price": 75,
-"stock": 0
+"stock": 0,
+"img": "https://davines.ru/upload/resize_cache/iblock/c9c/1200_1600_1/83pa6q7vdn81algwfd0p03ee6cig3t9j.jpg"
 },
 {
 "id": 14054578,
