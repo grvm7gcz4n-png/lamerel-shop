@@ -8,6 +8,8 @@ from catalog_src import P
 IMG=getattr(catalog_src,'IMG',{})
 RU=getattr(catalog_src,'RU',{})
 DEPT=getattr(catalog_src,'DEPT',{})
+FACE=getattr(catalog_src,'FACE',{})
+FACE_BRANDS=getattr(catalog_src,'FACE_BRANDS',set())
 
 import re
 TYPE_RU={'shampoo':'Шампунь','conditioner':'Кондиционер','mask':'Маска','leavein':'Несмываемый уход','oil':'Масло','serum':'Сыворотка',
@@ -60,12 +62,38 @@ def parse_title(title,brand):
         if re.search(rx,title,re.I): typ=ty;break
     return t or title, vol, typ
 
+FACE_GUESS=[(r'eye|глаз|თვალ','eye'),(r'spf|sunscreen|sun ','spf'),(r'toner|тоник','toner'),(r'clean|soap|мыло|wash|gel','cleanser'),
+  (r'peel|foliant|pads','peel'),(r'mask|masque|маска','mask'),(r'serum|сыворот','serum'),(r'set|kit|to go|набор','kit')]
+GEO=re.compile(r'[\u10A0-\u10FF][\u10A0-\u10FF.\s]*')
+def face_row(pid,g,snap):
+    brand=g['brand'];title=g['title']
+    vol=''
+    m=VOL_RE.search(title)
+    if m:
+        u=m.group(2).lower(); vol=f"{m.group(1).replace(',','.')} {'ml' if u in ('ml','мл','მლ') else 'g'}"
+    old=snap.get(str(pid))
+    if old is None: snap[str(pid)]=title
+    if pid in FACE and (old is None or old==title):
+        n,typ,need,ru=FACE[pid]
+        return (pid,brand,n,vol,typ,need,g['price'],g['stock'],ru)
+    t=re.sub(r'^\s*(zo\s?skin|dermalogica|gigi)\b','',title,flags=re.I)
+    t=VOL_RE.sub('',GEO.sub('',t)); t=re.sub(r'\s+',' ',t).strip(' -,')
+    if re.search('[А-Яа-яЁё]',t):
+        base=FACE.get(pid)
+        n,ru=(base[0] if base else t),t
+    else: n,ru=t.title() if t.islower() else t,None
+    typ='cream'
+    for rx,ty in FACE_GUESS:
+        if re.search(rx,title,re.I): typ=ty;break
+    need=FACE[pid][2] if pid in FACE else ''
+    return (pid,brand,n,vol,typ,need,g['price'],g['stock'],ru)
+
 def products():
     live=None
     if os.path.exists(LIVE_F):
         live=json.load(open(LIVE_F))['goods']
     snap=json.load(open(SNAP_F)) if os.path.exists(SNAP_F) else {}
-    rows=[]
+    rows=[];face_rows=[]
     for pid,(brand,name,vol,typ,need,price,stock) in P.items():
         ru=RU.get(pid)
         if live is not None:
@@ -83,10 +111,20 @@ def products():
         known={str(p) for p in P}
         for sid,g in live.items():
             if sid in known: continue
+            if g['brand'] in FACE_BRANDS:
+                if g['stock']<=0: continue            # уход за лицом: только то, что есть на складе «Продажа»
+                face_rows.append(face_row(int(sid),g,snap)); continue
             name,vol,typ=parse_title(g['title'],g['brand'])
             rows.append((int(sid),g['brand'],name,vol,typ,'',g['price'],g['stock'],None))
         json.dump(snap,open(SNAP_F,'w'),ensure_ascii=False,indent=0,sort_keys=True)
     out=[]
+    for pid,brand,name,vol,typ,need,price,stock,ru in face_rows:
+        if not price: continue
+        item=dict(id=pid,brand=brand,name=name,name_ru=ru,dept='face',vol=vol,type=typ,need=need,price=price,stock=max(0,int(stock)))
+        bc=live.get(str(pid),{}).get('barcode','')
+        if bc: item['barcode']=str(bc).strip()
+        if pid in IMG: item['img']=IMG[pid]
+        out.append(item)
     for pid,brand,name,vol,typ,need,price,stock,ru in rows:
         if not price: continue
         dept=dept_of(pid,name,typ,need) if (need or pid in P) else 'hair'

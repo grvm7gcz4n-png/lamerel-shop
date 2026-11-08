@@ -12,6 +12,7 @@ BRAND_CATEGORIES = {            # категория Altegio -> бренд на 
     748233: 'Davines', 932351: 'Balmain', 1002242: 'BRAE', 1081956: 'CHI',
     865448: 'Kérastase', 791804: 'Keune', 702068: "L'Oréal Professionnel",
     1026089: 'MOCHEQI', 728170: "Philip Martin's",
+    790220: 'ZO Skin Health', 983813: 'Dermalogica', 602624: 'GIGI',   # уход за лицом
 }
 BASES = ['https://api.alteg.io/api/v1']
 ACCEPTS = ['application/vnd.api.v2+json', 'application/json']
