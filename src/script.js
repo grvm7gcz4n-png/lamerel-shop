@@ -404,13 +404,15 @@ const BOOK='https://n235464.alteg.io/';
 // ссылка сразу на выбранную услугу: дальше клиент выбирает мастера и время
 const bookSvc=id=>`${BOOK}company/231935/personal/select-master?o=s${id}`;
 const PHONE='+995 555 27-77-00',PHONE_RAW='+995555277700';
+const WA_ICON='<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.2A9.8 9.8 0 0 0 3.6 17l-1.3 4.8 4.9-1.3A9.8 9.8 0 1 0 12 2.2zm0 1.8a8 8 0 1 1-4.1 14.9l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 0 1 12 4z"/><path fill="currentColor" d="M9.1 7.3c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 1.9 3 4.7 4.1 2.3.9 2.8.7 3.3.7.5 0 1.6-.7 1.8-1.3.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3l-1.9-.9c-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6l.4-.5.3-.5c.1-.2 0-.4 0-.5l-.9-2.4z"/></svg>';
+const waLink=()=>'https://wa.me/'+PHONE_RAW.slice(1)+'?text='+encodeURIComponent(h().waText);
 const MAP='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent('LamereL Beauty Center, Zurab Gorgiladze St 98, Batumi');
 const H={
 ru:{home:'Главная',salon:'Салон',shop:'Магазин',book:'Онлайн-запись',
  kick:'Батуми · ул. Зураба Горгиладзе, 98',
  h1:'Центр красоты и магазин профессиональной косметики',
  lead:'LamereL — один центр красоты, где собраны практически все бьюти-услуги: более 400 процедур для волос, лица, тела и ногтей. А в нашем магазине — оригинальная косметика всех категорий: уход за волосами, лицом и телом, декоративная косметика, люкс-бренды и любимые марки на каждый день.',
- bookBtn:'Записаться онлайн',shopBtn:'Перейти в магазин',
+ bookBtn:'Записаться онлайн',waBtn:'Записаться через администратора',waText:'Здравствуйте! Хочу записаться на услугу.',shopBtn:'Перейти в магазин',
  salonT:'Салон',salonP:'Услуги и цены, онлайн-запись к мастеру в удобное время.',salonA:'Смотреть услуги',
  shopT:'Магазин',shopP:'Оригинальная косметика всех категорий: уход, декоративная, люкс и на каждый день. Бесплатная доставка по Грузии от 300 ₾.',shopA:'Смотреть товары',
  dirT:'Направления',
@@ -427,7 +429,7 @@ ka:{home:'მთავარი',salon:'სალონი',shop:'მაღა�
  kick:'ბათუმი · ზურაბ გორგილაძის ქ. 98',
  h1:'სილამაზის ცენტრი და პროფესიონალური კოსმეტიკის მაღაზია',
  lead:'LamereL — ერთი სილამაზის ცენტრი, სადაც თითქმის ყველა ბიუტი მომსახურებაა: 400-ზე მეტი პროცედურა თმის, სახის, სხეულისა და ფრჩხილებისთვის. ჩვენს მაღაზიაში კი — ყველა კატეგორიის ორიგინალური კოსმეტიკა: თმის, სახისა და სხეულის მოვლა, დეკორატიული კოსმეტიკა, ლუქს ბრენდები და ყოველდღიური საყვარელი ბრენდები.',
- bookBtn:'ონლაინ ჩაწერა',shopBtn:'მაღაზიაში გადასვლა',
+ bookBtn:'ონლაინ ჩაწერა',waBtn:'ჩაწერა ადმინისტრატორთან',waText:'გამარჯობა! მინდა ჩავეწერო მომსახურებაზე.',shopBtn:'მაღაზიაში გადასვლა',
  salonT:'სალონი',salonP:'მომსახურებები და ფასები, ონლაინ ჩაწერა სასურველ დროს.',salonA:'მომსახურებების ნახვა',
  shopT:'მაღაზია',shopP:'ყველა კატეგორიის ორიგინალური კოსმეტიკა: მოვლა, დეკორატიული, ლუქსი და ყოველდღიური. უფასო მიწოდება საქართველოში 300 ₾-დან.',shopA:'პროდუქტების ნახვა',
  dirT:'მიმართულებები',
@@ -444,7 +446,7 @@ en:{home:'Home',salon:'Salon',shop:'Shop',book:'Book online',
  kick:'Batumi · 98 Zurab Gorgiladze St',
  h1:'Beauty center and professional cosmetics shop',
  lead:'LamereL is one beauty center with almost every beauty service in one place: more than 400 treatments for hair, face, body and nails. Our shop offers original cosmetics in every category: hair, face and body care, make-up, luxury brands and everyday favourites.',
- bookBtn:'Book online',shopBtn:'Go to the shop',
+ bookBtn:'Book online',waBtn:'Book via our administrator',waText:'Hello! I would like to book a service.',shopBtn:'Go to the shop',
  salonT:'Salon',salonP:'Services and prices, online booking at a time that suits you.',salonA:'See services',
  shopT:'Shop',shopP:'Original cosmetics in every category: care, make-up, luxury and everyday. Free delivery across Georgia from 300 ₾.',shopA:'See products',
  dirT:'What we do',
@@ -514,7 +516,7 @@ function renderHome(){
     <p class="kick">${L.kick}</p>
     <h1>${L.h1}</h1>
     <p class="hm-lead">${L.lead}</p>
-    <div class="hm-ctas"><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a><a class="btn" href="#shop" data-go="shop">${L.shopBtn}</a></div>
+    <div class="hm-ctas"><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a><a class="btn wa" href="${waLink()}" target="_blank" rel="noopener">${WA_ICON}${L.waBtn}</a><a class="btn" href="#shop" data-go="shop">${L.shopBtn}</a></div>
   </div></section>
   <section class="wrap hm-two">
     <a class="hm-tile salon" href="#salon" data-go="salon"><span class="hm-n">01</span><h2>${L.salonT}</h2><p>${L.salonP}</p><span class="hm-a">${L.salonA} →</span></a>
@@ -534,7 +536,7 @@ function contactsHTML(){
   return `<section class="wrap hm-sec" id="contacts"><h2 class="hm-h">${L.contT}</h2>
     <div class="cont">
       <div><span class="cl">${L.addrL}</span><p>${L.addr}</p><a href="${MAP}" target="_blank" rel="noopener">${L.map} →</a></div>
-      <div><span class="cl">${L.phoneL}</span><p><a href="tel:${PHONE_RAW}">${PHONE}</a></p><a href="https://wa.me/${PHONE_RAW.slice(1)}" target="_blank" rel="noopener">${L.wa} →</a></div>
+      <div><span class="cl">${L.phoneL}</span><p><a href="tel:${PHONE_RAW}">${PHONE}</a></p><a class="walink" href="${waLink()}" target="_blank" rel="noopener">${WA_ICON}${L.wa}</a></div>
       <div><span class="cl">${L.book}</span><p>${L.salonP}</p><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a></div>
     </div></section>`;
 }
