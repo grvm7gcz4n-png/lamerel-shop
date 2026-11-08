@@ -7,6 +7,7 @@ import catalog_src
 from catalog_src import P
 IMG=getattr(catalog_src,'IMG',{})
 RU=getattr(catalog_src,'RU',{})
+DEPT=getattr(catalog_src,'DEPT',{})
 
 import re
 TYPE_RU={'shampoo':'Шампунь','conditioner':'Кондиционер','mask':'Маска','leavein':'Несмываемый уход','oil':'Масло','serum':'Сыворотка',
@@ -28,11 +29,20 @@ def auto_ru(name,typ,need):
     line=re.sub(r'\s+',' ',line).strip(' -&')
     return ' '.join(x for x in (head,NEED_RU.get(need,''),line) if x)
 
+def dept_of(pid,name,typ,need):
+    if pid in DEPT: return DEPT[pid]
+    low=name.lower()
+    if typ in ('accessory','tool'): return 'acc'
+    if typ=='kit' and re.search(r'gift|box|set|kit',low): return 'gifts'
+    if re.search(r'pasta & love|\bmen\b|beard|shave|homme',low): return 'men'
+    if not need: return 'body'
+    return 'hair'
+
 def products():
     out=[]
     for pid,(brand,name,vol,typ,need,price,stock) in P.items():
         if not price: continue
-        item=dict(id=pid,brand=brand,name=name,name_ru=RU.get(pid) or auto_ru(name,typ,need),vol=vol,type=typ,need=need,price=price,stock=max(0,int(stock)))
+        item=dict(id=pid,brand=brand,name=name,name_ru=RU.get(pid) or auto_ru(name,typ,need),dept=dept_of(pid,name,typ,need),vol=vol,type=typ,need=need,price=price,stock=max(0,int(stock)))
         for ext in ('webp','jpg','png'):
             if os.path.exists(os.path.join(ROOT,'photos',f'{pid}.{ext}')):
                 item['img']=f'photos/{pid}.{ext}'; break
