@@ -264,6 +264,18 @@ nav.sitenav a.booklink{margin-left:auto;background:var(--accent);color:#fff}
 .cont a.btn{color:#fff;margin-top:6px}
 .dchip{font-weight:700!important;color:var(--ink)!important;opacity:1!important}
 .dchip.hot{color:var(--accent)!important}
+.lz{margin:8px 0 18px}
+.lz-t{font-size:20px;margin:18px 0 6px}
+.lz-p{color:var(--muted);margin:0 0 16px;font-size:14px;line-height:1.5}
+.lz-g{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.lz-c{background:var(--tile);border:1px solid var(--line);padding:20px;display:flex;flex-direction:column;gap:8px}
+.lz-c.on{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.lz-w{font-size:11px;font-weight:700;letter-spacing:.12em;color:var(--accent);text-transform:uppercase}
+.lz-c h4{margin:0;font-size:18px}
+.lz-c p{margin:0;font-size:14px;line-height:1.5;color:var(--ink);flex:1}
+.lz-b{align-self:flex-start;background:none;border:0;padding:6px 0 0;color:var(--accent);font-weight:700;font-size:14px;text-decoration:none;cursor:pointer}
+.lz-all{background:none;border:0;padding:12px 0 0;font-weight:700;font-size:14px;cursor:pointer;color:var(--ink)}
+@media (max-width:760px){.lz-g{grid-template-columns:1fr}}
 .svnote{color:var(--muted);font-size:14px;line-height:1.5;max-width:70ch;margin:-8px 0 18px}
 .svcat{margin-top:0;border-bottom:1px solid var(--line)}
 .svcat summary{list-style:none;cursor:pointer;padding:16px 0}
@@ -828,12 +840,13 @@ en:{home:'Home',salon:'Salon',shop:'Shop',book:'Book online',
 // направления: группы категорий Altegio
 const DIRS=[
  {k:'offers',ic:'%',n:{ru:'Спецпредложения',ka:'სპეც. შეთავაზებები',en:'Special offers'},c:[13490722]},
+ {k:'laser',ic:'✳',n:{ru:'Лазерная эпиляция',ka:'ლაზერული ეპილაცია',en:'Laser hair removal'},c:[7239117,7239112,12906472,13644329,6543931,13903235]},
+ {k:'electro',ic:'ϟ',n:{ru:'Электроэпиляция',ka:'ელექტროეპილაცია',en:'Electrolysis'},c:[13234291]},
  {k:'hair',ic:'✂',n:{ru:'Волосы',ka:'თმა',en:'Hair'},c:[13489348,10853988]},
  {k:'nails',ic:'✦',n:{ru:'Маникюр и педикюр',ka:'მანიკიური და პედიკიური',en:'Manicure & pedicure'},c:[7239103]},
  {k:'podo',ic:'◦',n:{ru:'Подология',ka:'პოდოლოგია',en:'Podiatry'},c:[13534059]},
  {k:'cosm',ic:'◌',n:{ru:'Косметология',ka:'კოსმეტოლოგია',en:'Cosmetology'},c:[7072531,13292037]},
  {k:'inj',ic:'◇',n:{ru:'Инъекционная косметология',ka:'ინექციური კოსმეტოლოგია',en:'Injection cosmetology'},c:[10853987]},
- {k:'laser',ic:'✳',n:{ru:'Лазерная эпиляция',ka:'ლაზერული ეპილაცია',en:'Laser hair removal'},c:[7239117,7239112,12906472,13644329,6543931,13903235,13234291]},
  {k:'wax',ic:'○',n:{ru:'Депиляция воском и нитью',ka:'ცვილით და ძაფით დეპილაცია',en:'Waxing & threading'},c:[7239107,12906474,7171919]},
  {k:'massage',ic:'≈',n:{ru:'Массаж и коррекция тела',ka:'მასაჟი და სხეულის კორექცია',en:'Massage & body'},c:[7072522]},
  {k:'brows',ic:'⌒',n:{ru:'Брови и ресницы',ka:'წარბები და წამწამები',en:'Brows & lashes'},c:[7171915,7171916]},
@@ -841,7 +854,24 @@ const DIRS=[
  {k:'makeup',ic:'◐',n:{ru:'Макияж',ka:'მაკიაჟი',en:'Make-up'},c:[7239108]},
  {k:'sol',ic:'☀',n:{ru:'Коллагеновый солярий',ka:'კოლაგენური სოლარიუმი',en:'Collagen solarium'},c:[12906473]}
 ];
-let SV=null;S.dir='all';
+let SV=null;S.dir='all';S.lsub='all';
+const LASERS=[
+ {k:'alex',c:[7239117,7239112],n:{ru:'Александритовый лазер',ka:'ალექსანდრიტის ლაზერი',en:'Alexandrite laser'},w:'755 nm',
+  d:{ru:'Самый быстрый и эффективный для светлой кожи и тёмных волос. Заметный результат уже после первых процедур, крупные зоны обрабатываются быстро.',
+     ka:'ყველაზე სწრაფი და ეფექტური ღია კანისა და მუქი თმისთვის. შესამჩნევი შედეგი პირველივე პროცედურებიდან.',
+     en:'The fastest and most effective option for fair skin and dark hair. Visible results after the first sessions; large areas are treated quickly.'}},
+ {k:'nd',c:[12906472,13644329],n:{ru:'Неодимовый лазер',ka:'ნეოდიმის ლაზერი',en:'Nd:YAG laser'},w:'1064 nm',
+  d:{ru:'Проникает глубже всех и безопасен для смуглой и загорелой кожи. Хорошо справляется с жёсткими и глубоко сидящими волосами.',
+     ka:'ყველაზე ღრმად აღწევს და უსაფრთხოა მუქი და გარუჯული კანისთვის. კარგად შორდება უხეშ თმას.',
+     en:'Penetrates the deepest and is safe for darker and tanned skin. Works well on coarse, deep-rooted hair.'}},
+ {k:'diode',c:[6543931,13903235],n:{ru:'Диодный лазер',ka:'დიოდური ლაზერი',en:'Diode laser'},w:'808 nm',
+  d:{ru:'Универсальный и комфортный: подходит для большинства типов кожи и волос, процедура проходит мягко.',
+     ka:'უნივერსალური და კომფორტული: შეესაბამება კანისა და თმის უმეტეს ტიპს.',
+     en:'Versatile and comfortable: suits most skin and hair types, with a gentle treatment.'}}
+];
+const LH={ru:{t:'У нас три вида лазерной эпиляции',p:'Какой лазер подойдёт именно вам, специалист подберёт на консультации по типу кожи и волос.',see:'Смотреть услуги',all:'Все лазеры',phone:'Запись через администратора'},
+ ka:{t:'ჩვენთან ლაზერული ეპილაციის სამი სახეობაა',p:'რომელი ლაზერი მოგერგებათ, სპეციალისტი შეარჩევს კონსულტაციაზე.',see:'მომსახურებების ნახვა',all:'ყველა ლაზერი',phone:'ჩაწერა ადმინისტრატორთან'},
+ en:{t:'We offer three types of laser hair removal',p:'Your specialist will choose the right laser for your skin and hair type at a consultation.',see:'See services',all:'All lasers',phone:'Book via reception'}};
 const h=()=>H[S.lang];
 const view=()=>{const x=location.hash;return /^#p-\d+$/.test(x)?'product':x==='#shop'?'shop':x==='#salon'?'salon':'home'};
 function go(v){history.pushState(null,'',v==='home'?location.pathname+location.search:'#'+v);route()}
@@ -894,16 +924,26 @@ function renderSalon(){
   const q=S.q.trim().toLowerCase();
   const dirOf=c=>(DIRS.find(d=>d.c.includes(c))||{k:'other'}).k;
   const dirs=DIRS.filter(d=>svs.some(x=>d.c.includes(x.cat)));
-  const list=svs.filter(x=>(S.dir==='all'||dirOf(x.cat)===S.dir)&&(!q||Object.values(x.n).join(' ').toLowerCase().includes(q)));
+  const lz=S.dir==='laser'&&S.lsub!=='all'?LASERS.find(l=>l.k===S.lsub):null;
+  const list=svs.filter(x=>(S.dir==='all'||dirOf(x.cat)===S.dir)&&(!lz||lz.c.includes(x.cat))&&(!q||Object.values(x.n).join(' ').toLowerCase().includes(q)));
   const order=DIRS.flatMap(d=>d.c);
   const byCat=cats.filter(c=>list.some(x=>x.cat===c.id)).sort((a,b)=>{const ia=order.indexOf(a.id),ib=order.indexOf(b.id);return (ia<0?999:ia)-(ib<0?999:ib)});
   $('#salon').innerHTML=`<div class="wrap sec">
     <div class="sec-h"><div><h2>${L.svcT}</h2></div><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a></div>
     <p class="svnote">${L.svcNote}</p>
     <div class="subrow">${['all',...dirs.map(d=>d.k)].map(k=>`<button class="schip dchip${k==='offers'?' hot':''}" data-dir="${k}" aria-pressed="${S.dir===k}">${k==='all'?L.allSvc:DIRS.find(d=>d.k===k).n[S.lang]}</button>`).join('')}</div>
+    ${S.dir==='laser'?laserIntro(svs):''}
     ${svs.length?(byCat.length?byCat.map(c=>`<details class="svcat"${S.dir!=='all'||q?' open':''}><summary><h3>${esc(svN(c))}<span>${list.filter(x=>x.cat===c.id).length}</span></h3></summary>
       <ul class="svl">${list.filter(x=>x.cat===c.id).sort((a,b)=>(a.w||0)-(b.w||0)||svN(a).localeCompare(svN(b))).map(x=>`<li><div class="svn">${esc(svN(x))}${durFmt(x.dur)?`<small>${durFmt(x.dur)}</small>`:''}</div><div class="svp">${priceFmt(x)}</div><a class="svb" href="${bookSvc(x.id)}" target="_blank" rel="noopener">${L.bookS}</a></li>`).join('')}</ul></details>`).join(''):`<p class="empty">${L.noSvc}</p>`):`<p class="empty">${L.svcEmpty}</p>`}
   </div>${contactsHTML()}`;
+}
+function laserIntro(svs){
+  const L=LH[S.lang];
+  return `<div class="lz"><h3 class="lz-t">${L.t}</h3><p class="lz-p">${L.p}</p>
+  <div class="lz-g">${LASERS.map(l=>{const n=svs.filter(x=>l.c.includes(x.cat)).length;
+    return `<div class="lz-c${S.lsub===l.k?' on':''}"><span class="lz-w">${l.w}</span><h4>${l.n[S.lang]}</h4><p>${l.d[S.lang]}</p>
+    ${n?`<button class="lz-b" data-lsub="${l.k}">${L.see} (${n}) →</button>`:`<a class="lz-b" href="tel:${PHONE_RAW}">${L.phone} →</a>`}</div>`}).join('')}</div>
+  ${S.lsub!=='all'?`<button class="lz-all" data-lsub="all">← ${L.all}</button>`:''}</div>`;
 }
 function route(){
   const v=view();
@@ -922,10 +962,11 @@ function route(){
 let lastView=null;
 window.addEventListener('hashchange',()=>{route();if(view()!==lastView)window.scrollTo(0,0);lastView=view()});
 document.addEventListener('click',e=>{
-  const el=e.target.closest('[data-go],[data-dir]');if(!el)return;
+  const el=e.target.closest('[data-go],[data-dir],[data-lsub]');if(!el)return;
   const d=el.dataset;
   if(d.go){e.preventDefault();go(d.go);window.scrollTo(0,0);return}
-  if(d.dir){e.preventDefault();S.dir=d.dir;if(view()!=='salon'){go('salon');window.scrollTo(0,0)}else renderSalon()}
+  if(d.lsub){S.lsub=d.lsub;renderSalon();const g=document.querySelector('.svcat');if(g&&d.lsub!=='all')g.scrollIntoView({behavior:'smooth',block:'start'});return}
+  if(d.dir){e.preventDefault();S.dir=d.dir;S.lsub='all';if(view()!=='salon'){go('salon');window.scrollTo(0,0)}else renderSalon()}
 });
 fetch('services.json?v='+Date.now()).then(r=>r.ok?r.json():{categories:[],services:[]}).catch(()=>({categories:[],services:[]})).then(d=>{SV=d;if(view()==='salon')renderSalon()});
 
