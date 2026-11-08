@@ -216,6 +216,64 @@ a.img{color:inherit;text-decoration:none}
 .pv-panel p{margin:0 0 12px}.pv-note{font-size:12px;color:var(--muted)}
 .pv-h2{font-size:20px;margin:40px 0 18px}
 @media (max-width:760px){.pv{grid-template-columns:1fr;gap:18px}.pv-name{font-size:20px}.specs div{grid-template-columns:120px 1fr}.pv-sim{grid-template-columns:repeat(2,minmax(0,1fr))}}
+nav.sitenav{border-top:1px solid var(--line)}
+nav.sitenav .wrap{display:flex;gap:6px;align-items:center;overflow-x:auto;scrollbar-width:none;padding-block:6px}
+nav.sitenav .wrap::-webkit-scrollbar{display:none}
+nav.sitenav a{white-space:nowrap;padding:8px 12px;font-size:14px;font-weight:600;color:var(--ink);text-decoration:none;border-radius:999px}
+nav.sitenav a[aria-current="page"]{background:var(--ink);color:#fff}
+nav.sitenav a.booklink{margin-left:auto;background:var(--accent);color:#fff}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;background:transparent}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}
+.hm-hero{padding:56px 0 40px;background:radial-gradient(120% 90% at 85% 0%,var(--accent-soft) 0%,transparent 60%)}
+.kick{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px}
+.hm-hero h1{font-family:var(--wordmark),Unbounded,sans-serif;font-weight:600;font-size:clamp(30px,5.2vw,64px);line-height:1.05;letter-spacing:-.02em;margin:0;max-width:16ch}
+.hm-lead{font-size:clamp(16px,1.6vw,19px);line-height:1.55;color:var(--muted);max-width:60ch;margin:20px 0 28px}
+.hm-ctas{display:flex;gap:10px;flex-wrap:wrap}
+.hm-two{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding-block:8px 8px}
+.hm-tile{position:relative;display:flex;flex-direction:column;gap:10px;min-height:260px;padding:28px;text-decoration:none;color:var(--ink);background:var(--tile);border:1px solid var(--line);overflow:hidden}
+.hm-tile.shop{background:var(--band)}
+.hm-tile.salon{background:var(--accent);color:#fff;border-color:var(--accent)}
+.hm-tile h2{font-family:var(--wordmark),Unbounded,sans-serif;font-size:clamp(28px,3.4vw,44px);margin:auto 0 0;text-transform:uppercase;letter-spacing:-.01em}
+.hm-tile p{margin:0;max-width:40ch;line-height:1.5;opacity:.85}
+.hm-n{font-size:13px;font-weight:700;letter-spacing:.1em;opacity:.7}
+.hm-a{font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;margin-top:8px}
+.hm-tile:hover .hm-a{text-decoration:underline}
+.hm-sec{padding-block:44px 8px}
+.hm-h{font-family:var(--wordmark),Unbounded,sans-serif;font-weight:600;font-size:clamp(22px,3vw,34px);text-transform:uppercase;margin:0 0 20px}
+.dirs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.dirs a{display:flex;align-items:center;gap:12px;padding:16px;background:var(--tile);border:1px solid var(--line);color:var(--ink);text-decoration:none;font-weight:600;font-size:14px;line-height:1.3}
+.dirs a:hover{border-color:var(--ink)}
+.dirs .ic{flex:none;width:34px;height:34px;display:grid;place-items:center;border-radius:50%;background:var(--accent-soft);color:var(--accent);font-size:16px}
+.ab-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:start}
+.ab-grid p{font-size:16px;line-height:1.65;margin:0 0 14px}
+.facts{margin:0;display:grid;gap:10px}
+.facts div{padding:18px 20px;background:var(--tile);border:1px solid var(--line);display:flex;align-items:baseline;gap:12px}
+.facts dt{font-family:var(--wordmark),Unbounded,sans-serif;font-size:30px;font-weight:600;color:var(--accent)}
+.facts dd{margin:0;color:var(--muted);font-size:14px}
+.cont{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;padding-bottom:40px}
+.cont>div{padding:22px;background:var(--tile);border:1px solid var(--line);display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.cont .cl{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.cont p{margin:0;font-size:16px;line-height:1.5}
+.cont a{color:var(--accent);font-weight:600}
+.cont a.btn{color:#fff;margin-top:6px}
+.svnote{color:var(--muted);font-size:14px;line-height:1.5;max-width:70ch;margin:-8px 0 18px}
+.svcat{margin-top:28px}
+.svcat h3{font-size:17px;margin:0 0 6px;padding-bottom:10px;border-bottom:2px solid var(--ink)}
+.svl{list-style:none;margin:0;padding:0}
+.svl li{display:grid;grid-template-columns:1fr auto auto;gap:16px;align-items:center;padding:13px 0;border-bottom:1px solid var(--line)}
+.svn{font-size:15px;line-height:1.4}
+.svn small{display:block;color:var(--muted);font-size:12px;margin-top:2px}
+.svp{font-weight:700;white-space:nowrap;font-size:15px}
+.svb{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);text-decoration:none;border:1px solid var(--accent);padding:8px 12px;white-space:nowrap}
+@media (max-width:760px){
+ .hm-two{grid-template-columns:1fr}.hm-tile{min-height:200px;padding:22px}
+ .dirs{grid-template-columns:1fr 1fr}.dirs a{padding:12px;font-size:13px}
+ .ab-grid{grid-template-columns:1fr;gap:20px}
+ .cont{grid-template-columns:1fr}
+ .svl li{grid-template-columns:1fr auto;gap:6px 12px}.svb{grid-column:1/-1;justify-self:start}
+ nav.sitenav a{padding:7px 10px;font-size:13px}
+ .hm-hero{padding:32px 0 28px}
+}
 @media (max-width:980px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (max-width:760px){
   .hrow{grid-template-columns:auto 1fr auto;gap:8px}
@@ -249,17 +307,20 @@ a.img{color:inherit;text-decoration:none}
 <header class="top">
   <div class="wrap hrow">
     <label class="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" aria-label="Search"></label>
-    <a class="logo" href="#top" aria-label="LamereL Beauty Shop"><img src="logo.png" alt="LamereL" width="900" height="339"><small>Beauty Shop</small></a>
+    <a class="logo" href="#" data-go="home" aria-label="LamereL"><img src="logo.png" alt="LamereL" width="900" height="339"><small>Beauty Shop</small></a>
     <div class="icons">
       <button class="ib" id="favBtn" aria-label="Favourites"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><span class="n" id="favCount"></span></button>
       <button class="ib" id="openCart" aria-label="Cart"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 8h14l-1.2 12H6.2z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="n" id="cartCount"></span></button>
     </div>
   </div>
   <div class="wrap"><label class="search msearch"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q2" type="search" aria-label="Search"></label></div>
+  <nav class="sitenav" aria-label="Site"><div class="wrap" id="siteNav"></div></nav>
   <nav class="cats" aria-label="Categories"><div class="wrap" id="catNav"></div></nav>
 </header>
 
 <main id="top">
+  <div id="home" hidden></div>
+  <div id="salon" hidden></div>
   <div class="brands"><div class="marq" id="marq"></div></div>
 
   <section class="wrap sec" id="catalog">

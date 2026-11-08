@@ -233,7 +233,7 @@ function placeOrder(){
 
 document.addEventListener('click',e=>{
   const el=e.target.closest('button,a');if(!el)return;const d=el.dataset;if(el.classList.contains('ban'))e.preventDefault();
-  if((d.dept||d.cat||d.brand||el.id==='favBtn')&&/^#p-/.test(location.hash)){history.pushState('',document.title,location.pathname+location.search);route()}
+  if((d.dept||d.cat||d.brand||el.id==='favBtn')&&view()!=='shop'){history.pushState(null,'','#shop');route();window.scrollTo(0,0)}
   if(d.lang){S.lang=d.lang;ls.set('lml-lang',S.lang);renderStatic();renderGrid();refreshP();if(!$('#drawer').hidden)renderCart()}
   else if(d.dept){S.dept=d.dept;S.cat='all';S.brand='all';renderStatic();renderGrid();if(el.closest('#hero'))$('#catalog').scrollIntoView({behavior:'smooth'})}
   else if(d.cat){S.cat=d.cat;renderStatic();renderGrid()}
@@ -254,9 +254,10 @@ document.addEventListener('click',e=>{
 });
 $('#scrim').addEventListener('click',closeCart);
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeCart()});
-['#q','#q2'].forEach(id=>$(id).addEventListener('input',e=>{S.q=e.target.value;$('#q').value=$('#q2').value=S.q;if(/^#p-/.test(location.hash)){history.pushState('',document.title,location.pathname+location.search);route()}renderGrid()}));
+['#q','#q2'].forEach(id=>$(id).addEventListener('input',e=>{S.q=e.target.value;$('#q').value=$('#q2').value=S.q;if(view()==='salon'){renderSalon();return}if(view()!=='shop'){history.pushState(null,'','#shop');route()}renderGrid()}));
 $('#sort').addEventListener('change',e=>{S.sort=e.target.value;renderGrid()});
 renderStatic();renderGrid();counts();
+setTimeout(()=>{route();lastView=view()});
 fetch('products.json?v='+Date.now()).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{
   P=d.products||[];UPDATED=d.updated||'';S.loaded=true;renderStatic();renderGrid();counts();route();
 }).catch(()=>{S.err=true;renderGrid()});
@@ -347,7 +348,7 @@ const navOf=p=>{const N=SUBNAV[p.dept];return N?Object.keys(N).find(k=>N[k].incl
 function productHTML(p){
   const L=t(),Q=PT[S.lang],ok=inStock(p),fav=S.fav.includes(p.id);
   const typeName=L.type[p.type]||'';
-  const crumbs=[`<a href="#" data-home="1">${Q.home}</a>`];
+  const crumbs=[`<a href="#" data-go="home">${H[S.lang].home}</a>`,`<a href="#shop" data-home="1">${H[S.lang].shop}</a>`];
   if(p.dept){crumbs.push(`<a href="#catalog" data-crumb-dept="${p.dept}">${L.dept[p.dept]||''}</a>`)}
   const sub=navOf(p);
   if(sub)crumbs.push(`<a href="#catalog" data-crumb-sub="${sub}" data-crumb-sdept="${p.dept}">${L.nav[sub]}</a>`);
@@ -384,20 +385,7 @@ function productHTML(p){
   <p style="margin-top:28px"><a href="#" data-home="1" class="linkbtn">${Q.back}</a></p>`;
 }
 
-function refreshP(){const m=(location.hash||'').match(/^#p-(\d+)$/);if(m&&S.loaded){const y=scrollY;route();scrollTo(0,y)}}
-function route(){
-  const h=location.hash||'';const m=h.match(/^#p-(\d+)$/);
-  const pv=$('#pview'),cat=$('#catalog');
-  if(m&&S.loaded){
-    const p=byId(+m[1]);
-    pv.innerHTML=p?productHTML(p):`<p class="empty">${PT[S.lang].notFound}</p>`;
-    pv.hidden=false;cat.hidden=true;window.scrollTo(0,0);
-    document.title=p?`${p.brand} ${nm(p)} — LamereL Beauty Shop`:'LamereL Beauty Shop';
-  } else {
-    pv.hidden=true;cat.hidden=false;document.title='LamereL Beauty Shop';
-  }
-}
-window.addEventListener('hashchange',route);
+function refreshP(){if(view()==='product'||view()==='home'||view()==='salon'){const y=scrollY;route();scrollTo(0,y)}}
 document.addEventListener('click',e=>{
   const el=e.target.closest('[data-ptab],[data-home],[data-crumb-dept],[data-crumb-sub],[data-crumb-brand],#shareP');if(!el)return;
   const d=el.dataset;
@@ -408,6 +396,166 @@ document.addEventListener('click',e=>{
   if(d.crumbDept){S.dept=d.crumbDept;S.cat='all';S.brand='all'}
   if(d.crumbSub){S.dept=d.crumbSdept||'hair';S.cat=d.crumbSub;S.brand='all'}
   if(d.crumbBrand){S.dept=d.crumbBdept||'all';S.cat='all';S.brand=d.crumbBrand}
-  history.pushState('',document.title,location.pathname+location.search);route();renderStatic();renderGrid();
+  history.pushState(null,'','#shop');route();renderStatic();renderGrid();
   $('#catalog').scrollIntoView();
 });
+// ===== Главная, салон, навигация по разделам =====
+const BOOK='https://n235464.alteg.io/';
+const PHONE='+995 555 27-77-00',PHONE_RAW='+995555277700';
+const MAP='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent('LamereL Beauty Center, Zurab Gorgiladze St 98, Batumi');
+const H={
+ru:{home:'Главная',salon:'Салон',shop:'Магазин',book:'Онлайн-запись',
+ kick:'Батуми · ул. Зураба Горгиладзе, 98',
+ h1:'Центр красоты и магазин профессиональной косметики',
+ lead:'LamereL — это салон, где более 20 мастеров заботятся о волосах, коже и ногтях, и магазин, где можно купить тот же профессиональный уход, которым мы работаем в кабинетах.',
+ bookBtn:'Записаться онлайн',shopBtn:'Перейти в магазин',
+ salonT:'Салон',salonP:'Услуги и цены, онлайн-запись к мастеру в удобное время.',salonA:'Смотреть услуги',
+ shopT:'Магазин',shopP:'Оригинальная профессиональная косметика. Бесплатная доставка по Грузии от 300 ₾.',shopA:'Смотреть товары',
+ dirT:'Направления',
+ aboutT:'О нас',
+ about:['Мы собрали в одном месте всё, что нужно для красоты: парикмахерский зал, маникюр и подологию, эстетическую, аппаратную и инъекционную косметологию, лазерную эпиляцию, массаж, брови и ресницы, перманентный макияж и коллагеновый солярий.',
+  'Наши гости приезжают со всего мира, поэтому мы говорим с вами на удобном языке и принимаем оплату картой, переводом и наличными.',
+  'В магазине LamereL Beauty Shop — профессиональный уход для дома: Davines, Kérastase, GIGI, ZO Skin Health и другие бренды. Только оригинальная продукция, а то, чего нет в наличии, привезём под заказ.'],
+ facts:[['20+','мастеров'],['12','направлений'],['300 ₾','бесплатная доставка от']],
+ contT:'Контакты',addrL:'Адрес',addr:'Батуми, ул. Зураба Горгиладзе, 98',phoneL:'Телефон',map:'Открыть на карте',wa:'Написать в WhatsApp',
+ svcT:'Услуги салона',svcNote:'Цены указаны в лари. «от» означает, что точная стоимость зависит от зоны, длины волос или препарата — мастер уточнит её на консультации.',
+ allSvc:'Все',from:'от',free:'бесплатно',ask:'по консультации',bookS:'Записаться',min:'мин',hr:'ч',svcSearch:'Найти услугу',noSvc:'Ничего не нашлось. Позвоните нам, и мы подскажем.',svcLoading:'Загружаем услуги…',
+ svcEmpty:'Список услуг скоро появится. Записаться можно онлайн или по телефону.'},
+ka:{home:'მთავარი',salon:'სალონი',shop:'მაღაზია',book:'ონლაინ ჩაწერა',
+ kick:'ბათუმი · ზურაბ გორგილაძის ქ. 98',
+ h1:'სილამაზის ცენტრი და პროფესიონალური კოსმეტიკის მაღაზია',
+ lead:'LamereL არის სალონი, სადაც 20-ზე მეტი სპეციალისტი ზრუნავს თმაზე, კანსა და ფრჩხილებზე, და მაღაზია, სადაც შეგიძლიათ შეიძინოთ იგივე პროფესიონალური მოვლა, რომლითაც ჩვენ ვმუშაობთ.',
+ bookBtn:'ონლაინ ჩაწერა',shopBtn:'მაღაზიაში გადასვლა',
+ salonT:'სალონი',salonP:'მომსახურებები და ფასები, ონლაინ ჩაწერა სასურველ დროს.',salonA:'მომსახურებების ნახვა',
+ shopT:'მაღაზია',shopP:'ორიგინალური პროფესიონალური კოსმეტიკა. უფასო მიწოდება საქართველოში 300 ₾-დან.',shopA:'პროდუქტების ნახვა',
+ dirT:'მიმართულებები',
+ aboutT:'ჩვენ შესახებ',
+ about:['ერთ სივრცეში გავაერთიანეთ ყველაფერი სილამაზისთვის: თმის დარბაზი, მანიკიური და პოდოლოგია, ესთეტიკური, აპარატული და ინექციური კოსმეტოლოგია, ლაზერული ეპილაცია, მასაჟი, წარბები და წამწამები, პერმანენტული მაკიაჟი და კოლაგენური სოლარიუმი.',
+  'ჩვენთან სტუმრები მთელი მსოფლიოდან მოდიან, ამიტომ გესაუბრებით თქვენთვის მოსახერხებელ ენაზე და ვიღებთ გადახდას ბარათით, გადარიცხვით და ნაღდი ფულით.',
+  'LamereL Beauty Shop-ში — პროფესიონალური მოვლა სახლისთვის: Davines, Kérastase, GIGI, ZO Skin Health და სხვა ბრენდები. მხოლოდ ორიგინალური პროდუქცია.'],
+ facts:[['20+','სპეციალისტი'],['12','მიმართულება'],['300 ₾','უფასო მიწოდება']],
+ contT:'კონტაქტი',addrL:'მისამართი',addr:'ბათუმი, ზურაბ გორგილაძის ქ. 98',phoneL:'ტელეფონი',map:'რუკაზე ნახვა',wa:'მოგვწერეთ WhatsApp-ში',
+ svcT:'სალონის მომსახურებები',svcNote:'ფასები მითითებულია ლარში. „-დან“ ნიშნავს, რომ ზუსტი ღირებულება დამოკიდებულია ზონაზე, თმის სიგრძეზე ან პრეპარატზე.',
+ allSvc:'ყველა',from:'-დან',free:'უფასო',ask:'კონსულტაციით',bookS:'ჩაწერა',min:'წთ',hr:'სთ',svcSearch:'მომსახურების ძებნა',noSvc:'ვერაფერი მოიძებნა. დაგვირეკეთ და დაგეხმარებით.',svcLoading:'იტვირთება…',
+ svcEmpty:'მომსახურებების სია მალე გამოჩნდება. ჩაწერა შესაძლებელია ონლაინ ან ტელეფონით.'},
+en:{home:'Home',salon:'Salon',shop:'Shop',book:'Book online',
+ kick:'Batumi · 98 Zurab Gorgiladze St',
+ h1:'Beauty center and professional cosmetics shop',
+ lead:'LamereL is a salon where more than 20 specialists take care of hair, skin and nails — and a shop where you can buy the same professional products we use in our treatment rooms.',
+ bookBtn:'Book online',shopBtn:'Go to the shop',
+ salonT:'Salon',salonP:'Services and prices, online booking at a time that suits you.',salonA:'See services',
+ shopT:'Shop',shopP:'Original professional cosmetics. Free delivery across Georgia from 300 ₾.',shopA:'See products',
+ dirT:'What we do',
+ aboutT:'About us',
+ about:['Everything for beauty in one place: hair salon, manicure and podiatry, aesthetic, device and injection cosmetology, laser hair removal, massage, brows and lashes, permanent make-up and a collagen solarium.',
+  'Our guests come from all over the world, so we speak your language and accept card, bank transfer and cash.',
+  'LamereL Beauty Shop offers professional home care: Davines, Kérastase, GIGI, ZO Skin Health and more. Only original products — and anything we don’t stock, we can order for you.'],
+ facts:[['20+','specialists'],['12','service areas'],['300 ₾','free delivery from']],
+ contT:'Contacts',addrL:'Address',addr:'98 Zurab Gorgiladze St, Batumi',phoneL:'Phone',map:'Open in maps',wa:'Message on WhatsApp',
+ svcT:'Salon services',svcNote:'Prices in GEL. “from” means the final price depends on the area, hair length or product — your specialist will confirm it.',
+ allSvc:'All',from:'from',free:'free',ask:'on consultation',bookS:'Book',min:'min',hr:'h',svcSearch:'Find a service',noSvc:'Nothing found. Call us and we will help.',svcLoading:'Loading services…',
+ svcEmpty:'The service list is coming soon. You can book online or by phone.'}
+};
+// направления: группы категорий Altegio
+const DIRS=[
+ {k:'hair',ic:'✂',n:{ru:'Волосы',ka:'თმა',en:'Hair'},c:[13489348,10853988]},
+ {k:'nails',ic:'✦',n:{ru:'Маникюр и педикюр',ka:'მანიკიური და პედიკიური',en:'Manicure & pedicure'},c:[7239103]},
+ {k:'podo',ic:'◦',n:{ru:'Подология',ka:'პოდოლოგია',en:'Podiatry'},c:[13534059]},
+ {k:'cosm',ic:'◌',n:{ru:'Косметология',ka:'კოსმეტოლოგია',en:'Cosmetology'},c:[7072531,13292037]},
+ {k:'inj',ic:'◇',n:{ru:'Инъекционная косметология',ka:'ინექციური კოსმეტოლოგია',en:'Injection cosmetology'},c:[10853987]},
+ {k:'laser',ic:'✳',n:{ru:'Лазерная эпиляция',ka:'ლაზერული ეპილაცია',en:'Laser hair removal'},c:[7239117,7239112,12906472,13644329,6543931,13903235,13234291]},
+ {k:'wax',ic:'○',n:{ru:'Депиляция воском и нитью',ka:'ცვილით და ძაფით დეპილაცია',en:'Waxing & threading'},c:[7239107,12906474,7171919]},
+ {k:'massage',ic:'≈',n:{ru:'Массаж и коррекция тела',ka:'მასაჟი და სხეულის კორექცია',en:'Massage & body'},c:[7072522]},
+ {k:'brows',ic:'⌒',n:{ru:'Брови и ресницы',ka:'წარბები და წამწამები',en:'Brows & lashes'},c:[7171915,7171916]},
+ {k:'pmu',ic:'∕',n:{ru:'Перманентный макияж',ka:'პერმანენტული მაკიაჟი',en:'Permanent make-up'},c:[7239104]},
+ {k:'makeup',ic:'◐',n:{ru:'Макияж',ka:'მაკიაჟი',en:'Make-up'},c:[7239108]},
+ {k:'sol',ic:'☀',n:{ru:'Коллагеновый солярий',ka:'კოლაგენური სოლარიუმი',en:'Collagen solarium'},c:[12906473]},
+ {k:'offers',ic:'%',n:{ru:'Спецпредложения',ka:'სპეც. შეთავაზებები',en:'Special offers'},c:[13490722]}
+];
+let SV=null;S.dir='all';
+const h=()=>H[S.lang];
+const view=()=>{const x=location.hash;return /^#p-\d+$/.test(x)?'product':x==='#shop'?'shop':x==='#salon'?'salon':'home'};
+function go(v){history.pushState(null,'',v==='home'?location.pathname+location.search:'#'+v);route()}
+const durFmt=s=>{const m=Math.round((s||0)/60);if(!m)return'';const L=h();return m>=60?`${Math.floor(m/60)} ${L.hr}${m%60?' '+m%60+' '+L.min:''}`:`${m} ${L.min}`};
+const priceFmt=x=>{const L=h();if(!x.pmax&&!x.pmin)return L.ask;if(!x.pmin&&x.pmax)return `0–${x.pmax} ₾`;if(x.pmin&&x.pmax&&x.pmin!==x.pmax)return S.lang==='ka'?`${x.pmin}${L.from} ₾`:`${L.from} ${x.pmin} ₾`;const p=x.pmin||x.pmax;return p+' ₾'};
+const svN=x=>x.n[S.lang]||x.n.ru;
+
+function renderSiteNav(){
+  const L=h(),v=view(),act=v==='product'?'shop':v;
+  $('#siteNav').innerHTML=['home','salon','shop'].map(k=>`<a href="${k==='home'?'#':'#'+k}" data-go="${k}" aria-current="${act===k?'page':'false'}">${L[k]}</a>`).join('')+
+    `<a class="booklink" href="${BOOK}" target="_blank" rel="noopener">${L.book}</a>`;
+  $('#q').placeholder=$('#q2').placeholder=v==='salon'?L.svcSearch:t().search;
+  const sm=$('.logo small');if(sm)sm.textContent=(v==='shop'||v==='product')?'Beauty Shop':'Beauty Center';
+}
+function renderHome(){
+  const L=h();
+  $('#home').innerHTML=`
+  <section class="hm-hero"><div class="wrap">
+    <p class="kick">${L.kick}</p>
+    <h1>${L.h1}</h1>
+    <p class="hm-lead">${L.lead}</p>
+    <div class="hm-ctas"><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a><a class="btn" href="#shop" data-go="shop">${L.shopBtn}</a></div>
+  </div></section>
+  <section class="wrap hm-two">
+    <a class="hm-tile salon" href="#salon" data-go="salon"><span class="hm-n">01</span><h2>${L.salonT}</h2><p>${L.salonP}</p><span class="hm-a">${L.salonA} →</span></a>
+    <a class="hm-tile shop" href="#shop" data-go="shop"><span class="hm-n">02</span><h2>${L.shopT}</h2><p>${L.shopP}</p><span class="hm-a">${L.shopA} →</span></a>
+  </section>
+  <section class="wrap hm-sec"><h2 class="hm-h">${L.dirT}</h2>
+    <div class="dirs">${DIRS.filter(d=>d.k!=='offers').map(d=>`<a href="#salon" data-dir="${d.k}"><span class="ic" aria-hidden="true">${d.ic}</span>${d.n[S.lang]}</a>`).join('')}</div>
+  </section>
+  <section class="wrap hm-sec hm-about"><h2 class="hm-h">${L.aboutT}</h2>
+    <div class="ab-grid"><div>${L.about.map(p=>`<p>${p}</p>`).join('')}</div>
+    <dl class="facts">${L.facts.map(f=>`<div><dt>${f[0]}</dt><dd>${f[1]}</dd></div>`).join('')}</dl></div>
+  </section>
+  ${contactsHTML()}`;
+}
+function contactsHTML(){
+  const L=h();
+  return `<section class="wrap hm-sec" id="contacts"><h2 class="hm-h">${L.contT}</h2>
+    <div class="cont">
+      <div><span class="cl">${L.addrL}</span><p>${L.addr}</p><a href="${MAP}" target="_blank" rel="noopener">${L.map} →</a></div>
+      <div><span class="cl">${L.phoneL}</span><p><a href="tel:${PHONE_RAW}">${PHONE}</a></p><a href="https://wa.me/${PHONE_RAW.slice(1)}" target="_blank" rel="noopener">${L.wa} →</a></div>
+      <div><span class="cl">${L.book}</span><p>${L.salonP}</p><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a></div>
+    </div></section>`;
+}
+function renderSalon(){
+  const L=h();
+  if(!SV){$('#salon').innerHTML=`<div class="wrap sec"><p class="empty">${L.svcLoading}</p></div>`;return}
+  const cats=SV.categories||[],svs=SV.services||[];
+  const q=S.q.trim().toLowerCase();
+  const dirOf=c=>(DIRS.find(d=>d.c.includes(c))||{k:'other'}).k;
+  const dirs=DIRS.filter(d=>svs.some(x=>d.c.includes(x.cat)));
+  const list=svs.filter(x=>(S.dir==='all'||dirOf(x.cat)===S.dir)&&(!q||Object.values(x.n).join(' ').toLowerCase().includes(q)));
+  const order=DIRS.flatMap(d=>d.c);
+  const byCat=cats.filter(c=>list.some(x=>x.cat===c.id)).sort((a,b)=>{const ia=order.indexOf(a.id),ib=order.indexOf(b.id);return (ia<0?999:ia)-(ib<0?999:ib)});
+  $('#salon').innerHTML=`<div class="wrap sec">
+    <div class="sec-h"><div><h2>${L.svcT}</h2></div><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a></div>
+    <p class="svnote">${L.svcNote}</p>
+    <div class="subrow">${['all',...dirs.map(d=>d.k)].map(k=>`<button class="schip" data-dir="${k}" aria-pressed="${S.dir===k}">${k==='all'?L.allSvc:DIRS.find(d=>d.k===k).n[S.lang]}</button>`).join('')}</div>
+    ${svs.length?(byCat.length?byCat.map(c=>`<section class="svcat"><h3>${esc(svN(c))}</h3>
+      <ul class="svl">${list.filter(x=>x.cat===c.id).sort((a,b)=>(a.w||0)-(b.w||0)||svN(a).localeCompare(svN(b))).map(x=>`<li><div class="svn">${esc(svN(x))}${durFmt(x.dur)?`<small>${durFmt(x.dur)}</small>`:''}</div><div class="svp">${priceFmt(x)}</div><a class="svb" href="${BOOK}" target="_blank" rel="noopener">${L.bookS}</a></li>`).join('')}</ul></section>`).join(''):`<p class="empty">${L.noSvc}</p>`):`<p class="empty">${L.svcEmpty}</p>`}
+  </div>${contactsHTML()}`;
+}
+function route(){
+  const v=view();
+  const show=(sel,on)=>{const e=$(sel);if(e)e.hidden=!on};
+  show('#home',v==='home');show('#salon',v==='salon');show('#catalog',v==='shop');show('#pview',v==='product');
+  show('.brands',v==='shop'||v==='product');show('nav.cats',v==='shop'||v==='product');show('section.band',v==='shop'||v==='product');
+  if(v==='home')renderHome();
+  if(v==='salon')renderSalon();
+  if(v==='product'){
+    const id=+location.hash.slice(3),p=S.loaded?byId(id):null;
+    $('#pview').innerHTML=S.loaded?(p?productHTML(p):`<p class="empty">${PT[S.lang].notFound}</p>`):`<p class="empty">${t().loading}</p>`;
+    document.title=p?`${p.brand} ${nm(p)} — LamereL Beauty Shop`:'LamereL';
+  } else document.title=v==='shop'?'LamereL Beauty Shop':'LamereL Beauty Center — Батуми';
+  renderSiteNav();
+}
+let lastView=null;
+window.addEventListener('hashchange',()=>{route();if(view()!==lastView)window.scrollTo(0,0);lastView=view()});
+document.addEventListener('click',e=>{
+  const el=e.target.closest('[data-go],[data-dir]');if(!el)return;
+  const d=el.dataset;
+  if(d.go){e.preventDefault();go(d.go);window.scrollTo(0,0);return}
+  if(d.dir){e.preventDefault();S.dir=d.dir;if(view()!=='salon'){go('salon');window.scrollTo(0,0)}else renderSalon()}
+});
+fetch('services.json?v='+Date.now()).then(r=>r.ok?r.json():{categories:[],services:[]}).catch(()=>({categories:[],services:[]})).then(d=>{SV=d;if(view()==='salon')renderSalon()});

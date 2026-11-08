@@ -150,7 +150,8 @@ def split3(title):
     base=ru or en or ka or t.strip()
     out=dict(ru=ru or en or ka,ka=ka or ru or en,en=en or ru or ka)
     if len(parts)==3 and not (ka and ru and en): out=dict(ka=parts[0],ru=parts[1],en=parts[2])
-    return {k:(v or base)[:1].upper()+(v or base)[1:] for k,v in out.items()}
+    cap=lambda x:(x[:1].upper()+x[1:]) if re.match('[a-zа-яё]',x[:1]) else x
+    return {k:cap(v or base) for k,v in out.items()}
 
 def build_services():
     f=os.path.join(ROOT,'tools/services_live.json')
