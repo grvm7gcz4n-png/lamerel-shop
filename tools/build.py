@@ -104,8 +104,11 @@ HEAD=('<!doctype html>\n<html lang="ru">\n<head>\n<meta charset="utf-8">\n'
 
 def main(write_products=True):
     if write_products:
-        data=dict(updated=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'),products=products())
-        json.dump(data,open(os.path.join(ROOT,'products.json'),'w'),ensure_ascii=False,indent=0)
+        prods=products(); pf=os.path.join(ROOT,'products.json')
+        old=json.load(open(pf)) if os.path.exists(pf) else {}
+        if old.get('products')!=prods:   # дату обновляем только если каталог реально изменился
+            data=dict(updated=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'),products=prods)
+            json.dump(data,open(pf,'w'),ensure_ascii=False,indent=0)
     page=open(os.path.join(ROOT,'src/page.html')).read().replace('/*__SCRIPT__*/',open(os.path.join(ROOT,'src/script.js')).read())
     open(os.path.join(ROOT,'src/artifact.html'),'w').write(page)
     i=page.index('</style>')+len('</style>')

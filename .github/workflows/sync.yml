@@ -37,12 +37,13 @@ jobs:
         run: |
           git config user.name "LamereL sync"
           git config user.email "sync@users.noreply.github.com"
-          git add products.json index.html src/artifact.html tools/altegio_live.json tools/altegio_titles_snapshot.json tools/sync_status.json 2>/dev/null || true
-          if git diff --cached --quiet -- products.json tools/altegio_live.json tools/altegio_titles_snapshot.json; then
-            echo "Изменений в каталоге нет"
-            git diff --cached --quiet || (git commit -qm "Статус синхронизации" && git pull -q --rebase origin main && git push -q) || true
-            exit 0
+          if [ "$SYNC_FAILED" = "1" ]; then
+            git add tools/sync_status.json
+            git commit -qm "Синхронизация с Altegio: ошибка (см. tools/sync_status.json)" || exit 0
+          else
+            git add products.json tools/altegio_live.json tools/altegio_titles_snapshot.json
+            if git diff --cached --quiet; then echo "Изменений нет"; exit 0; fi
+            git commit -qm "Синхронизация с Altegio: цены и наличие"
           fi
-          git commit -qm "Синхронизация с Altegio: цены и наличие"
           git pull -q --rebase origin main
           git push -q
