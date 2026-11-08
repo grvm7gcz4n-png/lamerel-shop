@@ -460,6 +460,7 @@ en:{home:'Home',salon:'Salon',shop:'Shop',book:'Book online',
 };
 // направления: группы категорий Altegio
 const DIRS=[
+ {k:'offers',ic:'%',n:{ru:'Спецпредложения',ka:'სპეც. შეთავაზებები',en:'Special offers'},c:[13490722]},
  {k:'hair',ic:'✂',n:{ru:'Волосы',ka:'თმა',en:'Hair'},c:[13489348,10853988]},
  {k:'nails',ic:'✦',n:{ru:'Маникюр и педикюр',ka:'მანიკიური და პედიკიური',en:'Manicure & pedicure'},c:[7239103]},
  {k:'podo',ic:'◦',n:{ru:'Подология',ka:'პოდოლოგია',en:'Podiatry'},c:[13534059]},
@@ -471,8 +472,7 @@ const DIRS=[
  {k:'brows',ic:'⌒',n:{ru:'Брови и ресницы',ka:'წარბები და წამწამები',en:'Brows & lashes'},c:[7171915,7171916]},
  {k:'pmu',ic:'∕',n:{ru:'Перманентный макияж',ka:'პერმანენტული მაკიაჟი',en:'Permanent make-up'},c:[7239104]},
  {k:'makeup',ic:'◐',n:{ru:'Макияж',ka:'მაკიაჟი',en:'Make-up'},c:[7239108]},
- {k:'sol',ic:'☀',n:{ru:'Коллагеновый солярий',ka:'კოლაგენური სოლარიუმი',en:'Collagen solarium'},c:[12906473]},
- {k:'offers',ic:'%',n:{ru:'Спецпредложения',ka:'სპეც. შეთავაზებები',en:'Special offers'},c:[13490722]}
+ {k:'sol',ic:'☀',n:{ru:'Коллагеновый солярий',ka:'კოლაგენური სოლარიუმი',en:'Collagen solarium'},c:[12906473]}
 ];
 let SV=null;S.dir='all';
 const h=()=>H[S.lang];
@@ -533,7 +533,7 @@ function renderSalon(){
   $('#salon').innerHTML=`<div class="wrap sec">
     <div class="sec-h"><div><h2>${L.svcT}</h2></div><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a></div>
     <p class="svnote">${L.svcNote}</p>
-    <div class="subrow">${['all',...dirs.map(d=>d.k)].map(k=>`<button class="schip" data-dir="${k}" aria-pressed="${S.dir===k}">${k==='all'?L.allSvc:DIRS.find(d=>d.k===k).n[S.lang]}</button>`).join('')}</div>
+    <div class="subrow">${['all',...dirs.map(d=>d.k)].map(k=>`<button class="schip dchip${k==='offers'?' hot':''}" data-dir="${k}" aria-pressed="${S.dir===k}">${k==='all'?L.allSvc:DIRS.find(d=>d.k===k).n[S.lang]}</button>`).join('')}</div>
     ${svs.length?(byCat.length?byCat.map(c=>`<details class="svcat"${S.dir!=='all'||q?' open':''}><summary><h3>${esc(svN(c))}<span>${list.filter(x=>x.cat===c.id).length}</span></h3></summary>
       <ul class="svl">${list.filter(x=>x.cat===c.id).sort((a,b)=>(a.w||0)-(b.w||0)||svN(a).localeCompare(svN(b))).map(x=>`<li><div class="svn">${esc(svN(x))}${durFmt(x.dur)?`<small>${durFmt(x.dur)}</small>`:''}</div><div class="svp">${priceFmt(x)}</div><a class="svb" href="${bookSvc(x.id)}" target="_blank" rel="noopener">${L.bookS}</a></li>`).join('')}</ul></details>`).join(''):`<p class="empty">${L.noSvc}</p>`):`<p class="empty">${L.svcEmpty}</p>`}
   </div>${contactsHTML()}`;
