@@ -111,7 +111,7 @@ function renderStatic(){
   $('#hero').innerHTML=`
    <a href="#catalog" class="ban main" data-dept="hair">
      <div class="stage">${pick.map((p,i)=>pkg({...p,img:''},[1.25,1.35,1.15][i])).join('')}</div>
-     <span class="k">${L.heroK}</span><h2>${L.heroH}</h2><p>${L.heroP}</p><span class="cta">${L.heroCta}</span></a>
+     <h2>${L.heroH}</h2><p>${L.heroP}</p><span class="cta">${L.heroCta}</span></a>
    <a href="#catalog" class="ban order" id="toBand"><span class="k">${L.orderK}</span><h2>${L.orderH}</h2></a>`;
   const brands=[...new Set(P.map(p=>p.brand))];
   const b=brands.map(x=>`<span>${esc(x)}</span>`).join('');$('#marq').innerHTML=(b+b+b+b);
