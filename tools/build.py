@@ -76,7 +76,7 @@ def face_row(pid,g,snap):
     if pid in FACE and (old is None or old==title):
         n,typ,need,ru=FACE[pid]
         return (pid,brand,n,vol,typ,need,g['price'],g['stock'],ru)
-    t=re.sub(r'^\s*(zo\s?skin|dermalogica|gigi)\b','',title,flags=re.I)
+    t=re.sub(r'^\s*(zo\s?skin(\s?health)?|zo|is clinical|dermalogica|gigi)\b','',title,flags=re.I)
     t=VOL_RE.sub('',GEO.sub('',t)); t=re.sub(r'\s+',' ',t).strip(' -,')
     if re.search('[А-Яа-яЁё]',t):
         base=FACE.get(pid)

@@ -1,6 +1,66 @@
 {
-"updated": "2026-11-08T21:12:51+00:00",
+"updated": "2026-11-08T21:17:02+00:00",
 "products": [
+{
+"id": 18994012,
+"brand": "ZO Skin Health",
+"name": "Hydrating Crème",
+"name_ru": "Увлажняющий крем Hydrating Crème",
+"dept": "face",
+"vol": "",
+"type": "cream",
+"need": "dry",
+"price": 385,
+"stock": 1
+},
+{
+"id": 19665708,
+"brand": "ZO Skin Health",
+"name": "Exfoliating Polish",
+"name_ru": "Отшелушивающий полироль для лица Exfoliating Polish",
+"dept": "face",
+"vol": "16.6 g",
+"type": "peel",
+"need": "",
+"price": 95,
+"stock": 1
+},
+{
+"id": 20301502,
+"brand": "ZO Skin Health",
+"name": "Eye Brightening Crème",
+"name_ru": "Осветляющий крем для век Eye Brightening",
+"dept": "face",
+"vol": "",
+"type": "eye",
+"need": "bright",
+"price": 390,
+"stock": 1
+},
+{
+"id": 20620304,
+"brand": "ZO Skin Health",
+"name": "10% Vitamin C Self-Activating",
+"name_ru": "Сыворотка с 10% витамином C Self-Activating",
+"dept": "face",
+"vol": "",
+"type": "serum",
+"need": "bright",
+"price": 170,
+"stock": 1
+},
+{
+"id": 21189206,
+"brand": "ZO Skin Health",
+"name": "Calming Toner pH Balancer",
+"name_ru": "Успокаивающий тоник Calming pH Balancer",
+"dept": "face",
+"vol": "50 ml",
+"type": "toner",
+"need": "sensitive",
+"price": 60,
+"stock": 1
+},
 {
 "id": 21740443,
 "brand": "GIGI",
@@ -11,6 +71,18 @@
 "type": "serum",
 "need": "dry",
 "price": 160,
+"stock": 1
+},
+{
+"id": 21857776,
+"brand": "ZO Skin Health",
+"name": "Exfoliating Polish",
+"name_ru": "Отшелушивающий полироль для лица Exfoliating Polish",
+"dept": "face",
+"vol": "65 g",
+"type": "peel",
+"need": "",
+"price": 215,
 "stock": 1
 },
 {
@@ -26,6 +98,18 @@
 "stock": 2
 },
 {
+"id": 22247049,
+"brand": "ZO Skin Health",
+"name": "Sunscreen + Powder SPF 30 Refill Medium",
+"name_ru": "Солнцезащитная пудра SPF 30, сменный блок, средний тон",
+"dept": "face",
+"vol": "2.7 g",
+"type": "spf",
+"need": "",
+"price": 190,
+"stock": 1
+},
+{
 "id": 22929640,
 "brand": "GIGI",
 "name": "Nutri-Peptide Lactic Cream 10%",
@@ -35,6 +119,30 @@
 "type": "cream",
 "need": "bright",
 "price": 130,
+"stock": 1
+},
+{
+"id": 23041504,
+"brand": "ZO Skin Health",
+"name": "Sheer Fluid SPF 50",
+"name_ru": "Солнцезащитный флюид SPF 50 Sheer Fluid",
+"dept": "face",
+"vol": "50 ml",
+"type": "spf",
+"need": "",
+"price": 220,
+"stock": 1
+},
+{
+"id": 23041542,
+"brand": "ZO Skin Health",
+"name": "Daily Sheer SPF 50",
+"name_ru": "Солнцезащитный крем SPF 50 Daily Sheer",
+"dept": "face",
+"vol": "45 ml",
+"type": "spf",
+"need": "",
+"price": 220,
 "stock": 1
 },
 {
@@ -59,6 +167,18 @@
 "type": "cream",
 "need": "antiage",
 "price": 260,
+"stock": 1
+},
+{
+"id": 23982649,
+"brand": "iS Clinical",
+"name": "Active Serum",
+"name_ru": "Активная сыворотка Active Serum",
+"dept": "face",
+"vol": "",
+"type": "serum",
+"need": "acne",
+"price": 660,
 "stock": 1
 },
 {
