@@ -75,7 +75,9 @@ def products():
             old=snap.get(str(pid))
             if old is None: snap[str(pid)]=g['title']   # первое знакомство: запоминаем название
             elif g['title']!=old:                      # название поменяли в Altegio — берём его
-                name,v2,_=parse_title(g['title'],brand); vol=v2 or vol; ru=None
+                n2,v2,_=parse_title(g['title'],brand)
+                if re.search('[А-Яа-яЁё]',n2): ru=n2; vol=v2 or vol   # русское название -> RU-версия сайта, английское остаётся
+                else: name=n2; vol=v2 or vol; ru=None
         rows.append((pid,brand,name,vol,typ,need,price,stock,ru))
     if live is not None:
         known={str(p) for p in P}
