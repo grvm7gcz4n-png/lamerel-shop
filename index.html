@@ -12,7 +12,7 @@
 /* Layout: монохромная витрина в духе бьюти-ритейла — полоса-объявление, шапка с вордмарком, меню категорий, сетка баннеров, лента брендов, плотная сетка карточек на серых «подложках» */
 :root{
   --bg:#F8F3EE; --ink:#1A1716; --muted:#7A716B; --line:#E6DDD4; --tile:#FFFFFF; --tile-2:#EFE7DF;
-  --accent:#A8344F; --accent-soft:#F4E2E4; --inv:#FFFFFF; --ok:#2F7A52; --band:#EFE5DA; --card:#FFFFFF; color-scheme:light;
+  --accent:#681956; --accent-soft:#F1E3EC; --brand:#681956; --inv:#FFFFFF; --ok:#2F7A52; --band:#EFE5DA; --card:#FFFFFF; color-scheme:light;
   --wordmark:"Unbounded","Noto Sans Georgian",system-ui,sans-serif;
   --body:"Onest","Noto Sans Georgian",system-ui,-apple-system,"Segoe UI",sans-serif;
   --shadow:0 18px 50px rgba(14,13,14,.18);
@@ -40,9 +40,9 @@ header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;background
 .search{display:flex;align-items:center;gap:8px;border-bottom:1.5px solid var(--ink);max-width:300px;padding:6px 0}
 .search input{border:0;background:transparent;outline:none;width:100%;min-width:0;font-size:14px}
 .search svg{flex-shrink:0}
-.logo{text-align:center;text-decoration:none;color:var(--ink);line-height:1}
-.logo b{display:block;font-family:"Unbounded",system-ui,sans-serif;font-weight:800;font-size:clamp(26px,4vw,40px);letter-spacing:-.02em}
-.logo small{display:block;font-size:10px;font-weight:700;letter-spacing:.42em;text-transform:uppercase;margin-top:6px;padding-left:.42em}
+.logo{position:relative;display:block;justify-self:center;width:clamp(170px,20vw,250px);text-decoration:none}
+.logo img{display:block;width:100%;height:auto}
+.logo small{position:absolute;left:27.5%;right:0;top:73%;text-align:center;font-family:var(--body);font-size:clamp(8px,.85vw,10.5px);font-weight:600;letter-spacing:.34em;padding-left:.34em;text-transform:uppercase;color:var(--brand);white-space:nowrap}
 .icons{display:flex;justify-content:flex-end;gap:6px}
 .ib{position:relative;border:0;background:transparent;width:42px;height:42px;display:grid;place-items:center;border-radius:50%}
 .ib:hover{background:var(--tile)}
@@ -191,8 +191,7 @@ form.co input,form.co select,form.co textarea{border:1px solid var(--line);backg
 @media (max-width:760px){
   .hrow{grid-template-columns:auto 1fr auto;gap:8px}
   .hrow .search{display:none}
-  .logo{text-align:left}
-  .logo small{letter-spacing:.3em}
+  .logo{justify-self:start;width:150px}
   .msearch{display:flex!important;max-width:none;margin-bottom:10px}
   .hero{grid-template-columns:1fr 1fr;grid-template-rows:auto auto}
   .ban.main{grid-column:1/3;grid-row:auto;min-height:380px}
@@ -223,7 +222,7 @@ form.co input,form.co select,form.co textarea{border:1px solid var(--line);backg
 <header class="top">
   <div class="wrap hrow">
     <label class="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" aria-label="Search"></label>
-    <a class="logo" href="#top" aria-label="LamereL Beauty Shop"><b>LamereL</b><small>Beauty Shop</small></a>
+    <a class="logo" href="#top" aria-label="LamereL Beauty Shop"><img src="logo.png" alt="LamereL" width="900" height="339"><small>Beauty Shop</small></a>
     <div class="icons">
       <button class="ib" id="favBtn" aria-label="Favourites"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><span class="n" id="favCount"></span></button>
       <button class="ib" id="openCart" aria-label="Cart"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 8h14l-1.2 12H6.2z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="n" id="cartCount"></span></button>
