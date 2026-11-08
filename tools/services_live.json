@@ -1,0 +1,3091 @@
+{
+"categories": [
+{
+"id": 13490722,
+"title": "სპეც. შეთავაზებები / Спец. предложения / Special offers",
+"weight": 24
+},
+{
+"id": 12906473,
+"title": "კოლაგენური სოლარიუმი/ Коллагеновый солярий/ Collagen Solarium",
+"weight": 23
+},
+{
+"id": 13489348,
+"title": "თმის მომსახურებები / услуги для волос / hair services",
+"weight": 22
+},
+{
+"id": 10853988,
+"title": "მამაკაცთა თმის მომსახურებები/Мужские услуги для волос/Men's Hair&Barber Services",
+"weight": 21
+},
+{
+"id": 7239103,
+"title": "მანიკიური და პედიკიური/Маникюр и педикюр/Manicure&Pedicure",
+"weight": 20
+},
+{
+"id": 13534059,
+"title": "პოდოლოგია / Подология / Podiatry",
+"weight": 19
+},
+{
+"id": 7072531,
+"title": "ესთეტიკური და აპარატული კოსმეტოლოგია / Эстетическая и аппаратная косметология / Aesthetic & Hardware Cosmetology",
+"weight": 18
+},
+{
+"id": 7171915,
+"title": "წარბების მომსახურებები / Услуги для бровей / Eyebrows Services",
+"weight": 17
+},
+{
+"id": 7239108,
+"title": "მაკიაჟი / Макияж / Make-up",
+"weight": 16
+},
+{
+"id": 10853987,
+"title": "ინექციური კოსმეტოლოგია/Инъекционная косметология/Injection Cosmetology",
+"weight": 15
+},
+{
+"id": 13292037,
+"title": "მიკრონევსოვანი რფ ლიფტინგიი / Микроигольчатый RF лифтинг / Microneedle RF Lifting",
+"weight": 14
+},
+{
+"id": 7072522,
+"title": "მასაჟი და სხეულის კორექცია/ Массаж и коррекция тела/ Massage & Body Sculpting",
+"weight": 13
+},
+{
+"id": 7171916,
+"title": "წამწამების მომსახურებები/ Услуги для ресниц / Lashes Services",
+"weight": 12
+},
+{
+"id": 7239104,
+"title": "პერმანენტული მაკიაჟი/ Перманентный макияж/ Permanent MakeUp",
+"weight": 11
+},
+{
+"id": 7239107,
+"title": "ცვილით დეპილაცია ♀ / Восковая депиляция ♀ / Waxing♀",
+"weight": 9
+},
+{
+"id": 13234291,
+"title": "ელექტროეპილაცია / Электроэпиляция / Electrolysis Hair Removal",
+"weight": 8
+},
+{
+"id": 7239117,
+"title": "ალექსანდრიტის ლაზერული ეპილაცია ქალბატონებისთვის/ Александритовая лазерная эпиляция для женщин/ Alexandrite Laser Hair Removal for Women",
+"weight": 7
+},
+{
+"id": 7239112,
+"title": "ალექსანდრიტის ლაზერული ეპილაცია მამაკაცებისთვის/ Александритовая лазерная эпиляция для мужчин/ Alexandrite Laser Hair Removal for Men",
+"weight": 6
+},
+{
+"id": 12906472,
+"title": "ნეოდიმური ლაზერული ეპილაცია (ქალის ზონები) /  Неодимовая лазерная эпиляция (женские зоны) / ND:YAG Laser Hair Removal for Women",
+"weight": 5
+},
+{
+"id": 13644329,
+"title": "ნეოდიმური ლაზერული ეპილაცია (მამაკაცთა ზონები) ♂✴️/ Неодимовая лазерная эпиляция (мужские зоны) ♂✴️/ ND:YAG Laser Hair Removal for Men ♂✴️",
+"weight": 4
+},
+{
+"id": 7171919,
+"title": "ძაფით ეპილაცია / Тридинг / Treading",
+"weight": 1
+}
+],
+"services": [
+{
+"category_id": 13490722,
+"duration": 0,
+"id": 13883354,
+"price_max": 230,
+"price_min": 230,
+"title": "სახის ღრმა წმენდა + პილინგი / Глубокая чистка лица + пилинг / Deep facial cleansing + peeling",
+"weight": 0
+},
+{
+"category_id": 13490722,
+"duration": 0,
+"id": 13883358,
+"price_max": 550,
+"price_min": 550,
+"title": "მიკრონემსოვანი RF ლიფტინგ სახე / Микроигольчатый РФ лифтинг Лицо / Microneedle RF Face Lifting",
+"weight": 0
+},
+{
+"category_id": 13490722,
+"duration": 0,
+"id": 13883364,
+"price_max": 700,
+"price_min": 700,
+"title": "მიკრონემსოვანი RF ლიფტინგი სახე + ყელი / Микроигольчатый РФ лифтинг Лицо + Шея / Microneedle RF lifting Face + Neck",
+"weight": 0
+},
+{
+"category_id": 13490722,
+"duration": 0,
+"id": 13883368,
+"price_max": 450,
+"price_min": 450,
+"title": "მიკრონემსოვანი RF ლიფტინი დეკოლტე / Микроигольчатый РФ лифтинг Декольте / Microneedle RF lifting of the décolleté",
+"weight": 0
+},
+{
+"category_id": 13490722,
+"duration": 0,
+"id": 13883370,
+"price_max": 120,
+"price_min": 120,
+"title": "სხეულის სარელაქსაციო მასაჟი / Расслабляющий массаж тела / Full body relax massage",
+"weight": 0
+},
+{
+"category_id": 13490722,
+"duration": 0,
+"id": 13883379,
+"price_max": 500,
+"price_min": 500,
+"title": "RSL მასაჟი (ენდოსფერო) 5 პროცედურა + 1 პროცედურა საჩუქრად + 1 შეფუთვა საჩუქრად / RSL массаж (эндосфера) 5 процедуры + 1 процедура в подарок + 1 обертывание в подарок \\ RSL massage (endospheres) 5 treatments + 1 treatment as a gift + 1 wrap as a gift",
+"weight": 0
+},
+{
+"category_id": 13490722,
+"duration": 0,
+"id": 13891843,
+"price_max": 140,
+"price_min": 140,
+"title": "მანიკიური + პედიკიური გელ ლაქით / Маникюр и педикюр с покрытием гель лак / Manicure + Pedicure with Gel polish",
+"weight": 0
+},
+{
+"category_id": 13490722,
+"duration": 0,
+"id": 13883388,
+"price_max": 506.6,
+"price_min": 178.5,
+"title": "თმის შეჭრა + თმის მოვლის პროცედურა / Стрижка волос + уходовая процедура для волос / Haircut + hair care treatment",
+"weight": 0
+},
+{
+"category_id": 13490722,
+"duration": 0,
+"id": 13883396,
+"price_max": 386.75,
+"price_min": 137.27,
+"title": "თმის შეჭრა + ცივი აღდგენის პროცედურა / Стрижка + процедура холодного восстановления волос / Haircut + cold hair restoration treatment",
+"weight": 0
+},
+{
+"category_id": 12906473,
+"duration": 0,
+"id": 12394068,
+"price_max": 0,
+"price_min": 3,
+"title": "Collagen Solarium",
+"weight": 0
+},
+{
+"category_id": 12906473,
+"duration": 0,
+"id": 12906468,
+"price_max": 75,
+"price_min": 75,
+"title": "30წთ კოლაგენური სოლარიუმი",
+"weight": 0
+},
+{
+"category_id": 12906473,
+"duration": 0,
+"id": 12906469,
+"price_max": 135,
+"price_min": 135,
+"title": "60წთ კოლაგენური სოლარიუმი",
+"weight": 0
+},
+{
+"category_id": 12906473,
+"duration": 0,
+"id": 12906470,
+"price_max": 200,
+"price_min": 200,
+"title": "100წთ კოლაგენური სოლარიუმი",
+"weight": 0
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13484922,
+"price_max": 200,
+"price_min": 60,
+"title": "Стрижка с укладкой и мытьем / თმის შეჭრა, დაბანა და სტაილინგი / haircut with washing and styling",
+"weight": 39
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13484932,
+"price_max": 150,
+"price_min": 35,
+"title": "ბრაშინგით სტაილინგი / blowout / укладка на брашинг",
+"weight": 38
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13477938,
+"price_max": 140,
+"price_min": 40,
+"title": "დახვევა ბრაშინგით / кудри на брашинг /curls with brushing",
+"weight": 37
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13484943,
+"price_max": 120,
+"price_min": 50,
+"title": "სტაილერით სტაილინგი / styling with a hair styler / Укладка на стайлер",
+"weight": 36
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13484957,
+"price_max": 150,
+"price_min": 60,
+"title": "საღამოს სტაილინგი /evening styling / Вечерняя укладка",
+"weight": 35
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13484923,
+"price_max": 50,
+"price_min": 20,
+"title": "Стрижка челки / ჩოლკის შეჭრა / bangs trim",
+"weight": 34
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13484993,
+"price_max": 150,
+"price_min": 30,
+"title": "თმის წნვა / braiding / Плетение",
+"weight": 33
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13484988,
+"price_max": 120,
+"price_min": 80,
+"title": "აფრო კულულები / afro curls / Афро кудри",
+"weight": 32
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485156,
+"price_max": 50,
+"price_min": 50,
+"title": "თავის კანის დეტოქს პილინგის ნიღაბი Kerastase /Detox scalp peeling mask Kerastase / Детокс пилинг маска для кожи головы от Kerastase",
+"weight": 31
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13092945,
+"price_max": 400,
+"price_min": 150,
+"title": "თმის დამატენიანებელი მოვლა Philip Martin's / Увлажняющий уход для волос Philip Martin's",
+"weight": 30
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13494499,
+"price_max": 250,
+"price_min": 130,
+"title": "Brae სამსაფეხურიანი თმის აღდგენის მოვლა /Brae трехступенчатый уход для восстановления волос / Brae three-step hair repair treatment",
+"weight": 29
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485160,
+"price_max": 50,
+"price_min": 50,
+"title": "Mocheqi მოვლა / Mocheqi hair treatment / Уход Mocheqi",
+"weight": 28
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485194,
+"price_max": 250,
+"price_min": 150,
+"title": "თმის აღდგენა K18 / Hair restoration K18 / Восcтановление волос от K18",
+"weight": 27
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485075,
+"price_max": 50,
+"price_min": 50,
+"title": "თმის ღრმა მკვებავი მოვლა Kerastase Nutritive / Deep nourishing hair treatment Kerastase Nutritive / Уход для глубокого питания волос Kerastase Nutritive",
+"weight": 26
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13353415,
+"price_max": 600,
+"price_min": 250,
+"title": "ბიოდახვევა / Биозавивка волос",
+"weight": 25
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485179,
+"price_max": 250,
+"price_min": 150,
+"title": "Kerastase Fusio-Dose ამპულური მოვლა / Kerastase Fusio-Dose ampoule treatment / Ампульный уход Kerastase Fusio Dose",
+"weight": 25
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485197,
+"price_max": 300,
+"price_min": 130,
+"title": "ცივი თმის აღდგენა FELPS / Cold hair restoration FELPS / холодное восстановление FELPS /",
+"weight": 24
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485055,
+"price_max": 50,
+"price_min": 50,
+"title": "Восстанавливающий флюид и маска для придания блеска и укрепления окрашенных волос Kerastase Chroma /აღმდგენი ფლუიდი და ნიღაბი ბზინვარებისა და შეღებილი თმის გასაძლიერებლად Kerastase Chroma / Restorative fluid and mask for shine and strengthening of color-treated hair Kerastase Chroma",
+"weight": 23
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485030,
+"price_max": 250,
+"price_min": 150,
+"title": "ამპულური მოვლა თმის ტიპის მიხედვით BRAE / Ampoule hair treatment by hair type BRAE / Ампульный уход по типу волос BRAE",
+"weight": 22
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13495816,
+"price_max": 500,
+"price_min": 350,
+"title": "პრემიალური იაპონური თმის მოვლა Le Lumiss/Премиальный японский уход за волосами Le Lumiss/Premium Japanese hair care Le Lumiss",
+"weight": 21
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485139,
+"price_max": 40,
+"price_min": 40,
+"title": "შეღებილი თმის მოვლა L'Oréal-ისგან / Hair care for color-treated hair by L'Oréal / Уход для окрашеных волос от L'Oréal",
+"weight": 20
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485205,
+"price_max": 250,
+"price_min": 160,
+"title": "თმის ბოტოქსი / Ботокс для волос / Hair Botox",
+"weight": 19
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485208,
+"price_max": 900,
+"price_min": 300,
+"title": "ნანოპლასტიკა / Nanoplasty / Нанопластика",
+"weight": 18
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485216,
+"price_max": 800,
+"price_min": 250,
+"title": "კერატინით თმის გასწორება / Keratin hair straightening / Кератиновое выпрямление волос/",
+"weight": 17
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485224,
+"price_max": 140,
+"price_min": 90,
+"title": "ერთტონიანი თმის შეღებვა Farmavita / Single-tone hair coloring Farmavita / Окрашивание в один тон Farmavita",
+"weight": 16
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485257,
+"price_max": 250,
+"price_min": 110,
+"title": "ფესვების შეღებვა ერთ ტონში Londa (2 სმ-ზე მეტი) / Root coloring in one tone Londa (more than 2 cm) / Окрашивание корней в один тон Londa ( более 2-х см )",
+"weight": 15
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485232,
+"price_max": 250,
+"price_min": 120,
+"title": "Окрашивание в один тон Wella / L'Oréal",
+"weight": 14
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485226,
+"price_max": 160,
+"price_min": 100,
+"title": "ერთტონიანი თმის შეღებვა Londa / Single-tone hair coloring Londa / Окрашивание в один тон Londa",
+"weight": 13
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485278,
+"price_max": 500,
+"price_min": 100,
+"title": "ერთტონიანი თმის შეღებვა Farmavita / Single-tone hair coloring Farmavita / Окрашивание в один тон Farmavita",
+"weight": 12
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485277,
+"price_max": 200,
+"price_min": 120,
+"title": "ერთტონიანი თმის შეღებვა Londa / Single-tone hair coloring Londа / Окрашивание в один тон Londa",
+"weight": 11
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485274,
+"price_max": 500,
+"price_min": 150,
+"title": "ერთტონიანი თმის შეღებვა Wella / L'Oréal / Single-tone hair coloring Wella / L'Oréal / Окрашивание в один тон Wella / L'Oréal",
+"weight": 10
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485288,
+"price_max": 350,
+"price_min": 120,
+"title": "ტონირება ფერის გადანაწილებით Londa / Toning with color melt Londa / Тонирование с растяжкой цвета Londa",
+"weight": 9
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485296,
+"price_max": 350,
+"price_min": 150,
+"title": "ტონირება ფერის გადანაწილებით Wella / L'Oréal / Toning with color melt Wella / L'Oréal / Тонирование с растяжкой цвета Wella / L'Oréal",
+"weight": 8
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485268,
+"price_max": 500,
+"price_min": 300,
+"title": "ფესვების გაუფერულება და ტონირება Londa / Root bleaching and toning Londa / Обесцвечивание корней и тонирование Londa",
+"weight": 7
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485264,
+"price_max": 600,
+"price_min": 220,
+"title": "ფესვების გაუფერულება და ტონირება Wella / L'Oréal / Root bleaching and toning Wella / L'Oréal / Обесцвечивание корней и тонирование Wella / L'Oréal",
+"weight": 6
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485306,
+"price_max": 1200,
+"price_min": 400,
+"title": "შავი ფერიდან გამოსვლა / Color correction from black / выход из черного",
+"weight": 5
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485304,
+"price_max": 700,
+"price_min": 300,
+"title": "ტოტალ ბლონდ /Total Blonde",
+"weight": 4
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485300,
+"price_max": 1300,
+"price_min": 300,
+"title": "რთული შეღებვის ტექნიკები: Airtouch, შატუშ, ბალაიაჟი, რელიეფური შეღებვა / Complex coloring techniques: AirTouch, Shatush, Balayage, dimensional coloring / Окрашивание в сложной технике Airtouch , Шатуш , Балаяж , рельефное окрашивание",
+"weight": 3
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13485303,
+"price_max": 500,
+"price_min": 100,
+"title": "კონტურინგი, ჰაილაითები / Contouring, highlights / Контуринг , Highlights",
+"weight": 2
+},
+{
+"category_id": 13489348,
+"duration": 0,
+"id": 13505607,
+"price_max": 120,
+"price_min": 60,
+"title": "თმის შეღებვა კლიენტის საღებავით / Окрашивание клиента его красителем / Hair coloring with the client’s own dye",
+"weight": 1
+},
+{
+"category_id": 10853988,
+"duration": 0,
+"id": 13009928,
+"price_max": 100,
+"price_min": 40,
+"title": "შეჭრა მამ. / Мусжкая стрижка / Men's Haircut",
+"weight": 6
+},
+{
+"category_id": 10853988,
+"duration": 0,
+"id": 13009927,
+"price_max": 60,
+"price_min": 60,
+"title": "შეჭრა + წვერი / Стрижка + коррекция бороды / Hair&Beard Cut",
+"weight": 5
+},
+{
+"category_id": 10853988,
+"duration": 0,
+"id": 13009930,
+"price_max": 50,
+"price_min": 50,
+"title": "წვერის შეღებვა / Окрашивание бороды / Beard Coloring",
+"weight": 4
+},
+{
+"category_id": 10853988,
+"duration": 0,
+"id": 13009926,
+"price_max": 30,
+"price_min": 30,
+"title": "გადაპარსვა / Стрижка под ноль / Hair Shave",
+"weight": 3
+},
+{
+"category_id": 10853988,
+"duration": 0,
+"id": 13009929,
+"price_max": 30,
+"price_min": 30,
+"title": "წვერის კორექცია / Коррекция бороды / Beard Correction",
+"weight": 2
+},
+{
+"category_id": 10853988,
+"duration": 0,
+"id": 13009931,
+"price_max": 80,
+"price_min": 80,
+"title": "ჭაღარის კამუფლიაჟი / Камуфляж седины / Gray Camouflage",
+"weight": 1
+},
+{
+"category_id": 10853988,
+"duration": 0,
+"id": 13479267,
+"price_max": 100,
+"price_min": 60,
+"title": "Камуфляж седины / gray hair camouflage / ჭაღარა თმის კამუფლაჟი",
+"weight": 0
+},
+{
+"category_id": 10853988,
+"duration": 0,
+"id": 13479277,
+"price_max": 15,
+"price_min": 15,
+"title": "Восковая депиляция (брови , нос , уши , скулы )/ waxing (eyebrows, nose, ears, cheekbones) / ცვილით დეპილაცია (წარბები, ცხვირი, ყურები, ლოყები)",
+"weight": 0
+},
+{
+"category_id": 10853988,
+"duration": 0,
+"id": 13479282,
+"price_max": 25,
+"price_min": 25,
+"title": "Бакенбарды / sideburns / ბაკენბარდები",
+"weight": 0
+},
+{
+"category_id": 10853988,
+"duration": 0,
+"id": 13479286,
+"price_max": 20,
+"price_min": 20,
+"title": "Область лба / forehead area / შუბლის არე",
+"weight": 0
+},
+{
+"category_id": 10853988,
+"duration": 0,
+"id": 13479289,
+"price_max": 15,
+"price_min": 15,
+"title": "Ноздри / nostrils / ნესტოები",
+"weight": 0
+},
+{
+"category_id": 10853988,
+"duration": 0,
+"id": 13479310,
+"price_max": 40,
+"price_min": 40,
+"title": "Коррекция Бровей (мужская) /men’s eyebrow shaping / წარბების კორექცია (მამაკაცის)",
+"weight": 0
+},
+{
+"category_id": 10853988,
+"duration": 0,
+"id": 13504242,
+"price_max": 50,
+"price_min": 50,
+"title": "სახის სრული დეპილაცია ცვილით / Восковая депиляция все лицо /Full face waxing",
+"weight": 0
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854134,
+"price_max": 75,
+"price_min": 65,
+"title": "მანიკიური + გელ ლაქით დაფარვა / Маникюр с покрытием гель лак / Manicure with gel polish",
+"weight": 22
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 13688034,
+"price_max": 95,
+"price_min": 80,
+"title": "მანიკიური + გამყარება + გელ ლაქით დაფარვა / Маникюр с покрытием гель лак и укреплением / Manicure with gel polish and strengthening",
+"weight": 21
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854143,
+"price_max": 130,
+"price_min": 95,
+"title": "პედიკიური კომპლექსი / Педикюр комплекс / Pedicure Complex",
+"weight": 20
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854130,
+"price_max": 60,
+"price_min": 60,
+"title": "მანიკიური + ლაქით დაფარვა / Маникюр + покрытие лаком /Manicure + polish",
+"weight": 19
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854138,
+"price_max": 80,
+"price_min": 80,
+"title": "პედიკიური + ლაქით დაფარვა / Педикюр + покрытие лаком / Pedicure + polish",
+"weight": 18
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854132,
+"price_max": 50,
+"price_min": 50,
+"title": "მანიკიური / Маникюр / Manicure",
+"weight": 17
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854140,
+"price_max": 70,
+"price_min": 70,
+"title": "პედიკიური / Педикюр / Pedicure",
+"weight": 16
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 13010060,
+"price_max": 70,
+"price_min": 70,
+"title": "იაპონური მანიკიური / Japanese Manicure",
+"weight": 15
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854127,
+"price_max": 60,
+"price_min": 60,
+"title": "მამაკაცთა მანიკიური / Мужской маникюр / Men's Manicure s",
+"weight": 14
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854129,
+"price_max": 90,
+"price_min": 90,
+"title": "მამაკაცთა პედიკიური / Мужской педикюр / Men's Pedicure",
+"weight": 13
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854120,
+"price_max": 40,
+"price_min": 40,
+"title": "გელ ლაქით დაფარვა / Gel polish",
+"weight": 10
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854126,
+"price_max": 20,
+"price_min": 20,
+"title": "ლაქით დაფარვა / Покрытие лаком / Nails Polish",
+"weight": 9
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854122,
+"price_max": 20,
+"price_min": 20,
+"title": "გელით გამყარება",
+"weight": 8
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854121,
+"price_max": 15,
+"price_min": 15,
+"title": "გელ ლაქის მოშორება / Снятие покрытия гель лак / Removal of gel polish",
+"weight": 7
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854146,
+"price_max": 130,
+"price_min": 130,
+"title": "ფრჩხილების დაგრძელება 0,5 სმ / Наращивание ногтей длина 0.5см / Nails Extension 0,5 size",
+"weight": 5
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854123,
+"price_max": 180,
+"price_min": 90,
+"title": "დაგრძელებული ფრჩხილების კორექცია",
+"weight": 3
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854145,
+"price_max": 15,
+"price_min": 15,
+"title": "ფრენჩის დიზაინი / Френч / French Design",
+"weight": 3
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854116,
+"price_max": 15,
+"price_min": 15,
+"title": "1 ფრჩხილის დაგრძელება + დაფარვა",
+"weight": 2
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 10854124,
+"price_max": 25,
+"price_min": 20,
+"title": "დაგრძელებული ფრჩხილების მოშორება / Removal of Extented Nails",
+"weight": 1
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 13260500,
+"price_max": 45,
+"price_min": 30,
+"title": "პარაფინოთერაპია / Парафинотерапия / Paraffin Therapy",
+"weight": 1
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 13830259,
+"price_max": 160,
+"price_min": 160,
+"title": "ფრჩხილების დაგრძელება 3-4 ზომა / Наращивание ногтей длина 3-4 / Nails Extension 3-4 size",
+"weight": 0
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 13830264,
+"price_max": 220,
+"price_min": 220,
+"title": "ფრჩხილების დაგრძელება 5-6 ზომა / Наращивание ногтей длина 5-6 / Nails Extension 5-6 size",
+"weight": 0
+},
+{
+"category_id": 7239103,
+"duration": 0,
+"id": 13830303,
+"price_max": 270,
+"price_min": 270,
+"title": "ფრჩხილების დაგრძელება 2-3სმ / Наращивание ногтей длина 2-3см / Nails Extension 2-3cm",
+"weight": 0
+},
+{
+"category_id": 13534059,
+"duration": 0,
+"id": 13534070,
+"price_max": 80,
+"price_min": 80,
+"title": "ესთეტიკური პედიკიური / Эстетический педикюр / Aesthetic pedicure",
+"weight": 5
+},
+{
+"category_id": 13534059,
+"duration": 0,
+"id": 13534072,
+"price_max": 100,
+"price_min": 100,
+"title": "მამაკაცთა ესთეტიკური პედიკიური / Мужской эстетический педикюр / Men's Aesthetic Pedicure",
+"weight": 4
+},
+{
+"category_id": 13534059,
+"duration": 0,
+"id": 13534063,
+"price_max": 150,
+"price_min": 100,
+"title": "სამედიცინო პედიკიური / Медицинский педикюр / Medical Pedicure",
+"weight": 3
+},
+{
+"category_id": 13534059,
+"duration": 0,
+"id": 13534073,
+"price_max": 200,
+"price_min": 150,
+"title": "მამაკაცთა სამედიციონო პედიკიური / Мужской медицинский педикюр / Men's Medical Pedicure",
+"weight": 2
+},
+{
+"category_id": 13534059,
+"duration": 0,
+"id": 13534069,
+"price_max": 60,
+"price_min": 60,
+"title": "სოკოვანი ფრჩხილის დამუშავება / Обработка грибкого ногтя / Fungal nail treatment",
+"weight": 1
+},
+{
+"category_id": 13534059,
+"duration": 0,
+"id": 13534080,
+"price_max": 100,
+"price_min": 100,
+"title": "კორექციული სისტემა ტიტანიუმის ძაფით / Коррекционная система с титоновой нитью / Corrective system with Titon thread",
+"weight": 0
+},
+{
+"category_id": 13534059,
+"duration": 0,
+"id": 13534086,
+"price_max": 120,
+"price_min": 120,
+"title": "კაუჭის კორექციული სისტემა / Крючковая коррекционная система / Hook correction system",
+"weight": 0
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 6547569,
+"price_max": 500,
+"price_min": 50,
+"title": "როზაცეას,კუპეროზის მკურნალობა",
+"weight": 43
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 6547568,
+"price_max": 500,
+"price_min": 50,
+"title": "პიგმენტური ლაქების მოშორება",
+"weight": 42
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854077,
+"price_max": 800,
+"price_min": 50,
+"title": "ნაწიბურების მოშორება /Удаление рубцов / Scar removal",
+"weight": 41
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854088,
+"price_max": 300,
+"price_min": 100,
+"title": "ფართო ფორების მკურნალობა /Лечение расширенных пор / Treatment of enlarged pores",
+"weight": 40
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854086,
+"price_max": 1000,
+"price_min": 150,
+"title": "სტრიების მოშორება /Stretch mark removal /Удаление растяжек",
+"weight": 39
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854087,
+"price_max": 50,
+"price_min": 50,
+"title": "ტატუს მოშორება /Tattoo removal / Удаление татуировок",
+"weight": 38
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854072,
+"price_max": 300,
+"price_min": 200,
+"title": "ლიფტინგ მასაჟი + ნიღაბი /Лифтинг-массаж + маска /Lifting massage + mask",
+"weight": 37
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854085,
+"price_max": 100,
+"price_min": 100,
+"title": "სახის, დეკოლტეს, ყელის ლიფტინგ მასაჟი /Lifting massage of the face, neck, and décolleté / Лифтинг-массаж лица, шеи и декольте",
+"weight": 36
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854083,
+"price_max": 80,
+"price_min": 80,
+"title": "სახის მასაჟი /Facial massage / Массаж лица",
+"weight": 35
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854061,
+"price_max": 180,
+"price_min": 180,
+"title": "pH ფორმულა პილინგი /pH-формула пилинга / pH peeling formula",
+"weight": 34
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854062,
+"price_max": 60,
+"price_min": 60,
+"title": "ალმასური პილინგი / Алмазный пилинг / Diamond peeling",
+"weight": 33
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854075,
+"price_max": 150,
+"price_min": 150,
+"title": "ლიფტინგ მოვლა და დატენიანება GIGI BIOPLASMA / Лифтинг-уход и увлажнение GIGI BIOPLASMA / Lifting care and hydration by GIGI BIOPLASMA",
+"weight": 32
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854070,
+"price_max": 150,
+"price_min": 150,
+"title": "კარბოქსითერაპია GIGI COSMETICS / Карбокситерапия GIGI COSMETICS / Carboxytherapy by GIGI COSMETICS",
+"weight": 31
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854067,
+"price_max": 100,
+"price_min": 100,
+"title": "ულტრაბგერითი სახის წმენდა / Ультразвуковая чистка лица / Ultrasonic facial cleansing",
+"weight": 30
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854084,
+"price_max": 200,
+"price_min": 150,
+"title": "სახის ღრმა, კომბინირებული წმენდა / Combined facial cleansing / Глубокая комбинированная чистка лица",
+"weight": 29
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 6547431,
+"price_max": 2000,
+"price_min": 400,
+"title": "სახის კონტურული კორექცია / Контурная пластика лица / Facial contouring",
+"weight": 28
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854063,
+"price_max": 250,
+"price_min": 250,
+"title": "ელოს გაახალგაზრდავება + ლიფტინგი დეკოლტე / ELOS-омоложение + лифтинг зоны декольте / ELOS rejuvenation + décolleté lifting",
+"weight": 27
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854064,
+"price_max": 250,
+"price_min": 250,
+"title": "ელოს გაახალგაზრდავება + დეკოლტე მტევნები /ELOS-омоложение + декольте и кисти рук /ELOS rejuvenation + décolleté and hands",
+"weight": 26
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854065,
+"price_max": 350,
+"price_min": 350,
+"title": "ელოს გაახალგაზრდავება + ლიფტინგი სახე / ELOS-омоложение + лифтинг лица / ELOS rejuvenation + face lifting",
+"weight": 24
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 6537784,
+"price_max": 250,
+"price_min": 250,
+"title": "ელოს გაახალგაზრდავება სახე / ELOS-омоложение лица / ELOS facial rejuvenation",
+"weight": 23
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854069,
+"price_max": 250,
+"price_min": 100,
+"title": "კარბონული პილინგი / Карбоновый пилинг / Carbon Peeling",
+"weight": 22
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854068,
+"price_max": 50,
+"price_min": 50,
+"title": "კაპილარების მოშორება 10-50იმპ /Удаление капилляров 10–50 импульсов / Capillary removal 10–50 pulses",
+"weight": 21
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 13260534,
+"price_max": 85,
+"price_min": 85,
+"title": "კაპილარების მოშორება 50-100იმპ",
+"weight": 20
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 13260547,
+"price_max": 120,
+"price_min": 120,
+"title": "კაპილარების მოშორება 100-200იმპ",
+"weight": 19
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 13260530,
+"price_max": 120,
+"price_min": 70,
+"title": "ტატუაჟის მოშორება ტუჩებზე",
+"weight": 18
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 13260527,
+"price_max": 120,
+"price_min": 80,
+"title": "წარბების ტატუაჟის მოშორება",
+"weight": 17
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 13260523,
+"price_max": 70,
+"price_min": 70,
+"title": "სახის რფ ლიფტინგი / РФ Лифтинг лица / Facial RF Lifting",
+"weight": 16
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 13260513,
+"price_max": 250,
+"price_min": 250,
+"title": "ზურგის მექანიკური წმენდა / Механическая чистка спины / Mechanical back cleaning",
+"weight": 15
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 12688210,
+"price_max": 200,
+"price_min": 150,
+"title": "BioRePeel პილინგი",
+"weight": 14
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854090,
+"price_max": 0,
+"price_min": 0,
+"title": "პაპილომის მოშორება / Removal of papillomas / papillomas /Удаление родинок / папиллом",
+"weight": 12
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854089,
+"price_max": 0,
+"price_min": 0,
+"title": "ფოტოთერაპია /Phototherapy /Фототерапия",
+"weight": 11
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854080,
+"price_max": 0,
+"price_min": 0,
+"title": "პლაზმით ნაოჭების კორექცია /Plasma wrinkle correction /Плазменная коррекция морщин",
+"weight": 10
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 10854066,
+"price_max": 0,
+"price_min": 0,
+"title": "ელოს ლიფტინგი მუცელი / ELOS-лифтинг живота / ELOS abdominal lifting",
+"weight": 7
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 9226746,
+"price_max": 400,
+"price_min": 400,
+"title": "ელოს ლიფტინგი მუცელი",
+"weight": 6
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 8438016,
+"price_max": 120,
+"price_min": 80,
+"title": "ფოტოთერაპია / Фототерапия / Phototherapy",
+"weight": 5
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 7362859,
+"price_max": 30,
+"price_min": 300,
+"title": "ხალის, პაპილომის მოშორება / Удаление родинок, папиллом / Mole and papilloma removal",
+"weight": 4
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 6926249,
+"price_max": 80,
+"price_min": 350,
+"title": "პლაზმით ნაოჭების კორექცია / Плазменная коррекция морщин / Plasma wrinkle correction",
+"weight": 2
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 6547581,
+"price_max": 20,
+"price_min": 0,
+"title": "კონსულტაცია / Consultation",
+"weight": 1
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 13647534,
+"price_max": 160,
+"price_min": 160,
+"title": "კაპილარების მოშორება 200-300იმპ / Удаление капилляров 200-300имп / Capillary removal 200-300imp",
+"weight": 0
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 13647535,
+"price_max": 220,
+"price_min": 220,
+"title": "კაპილარების მოშორება 300-500იმპ / Удаление капилляров 300-500имп / Capillary removal 300-500imp",
+"weight": 0
+},
+{
+"category_id": 7072531,
+"duration": 0,
+"id": 13647536,
+"price_max": 290,
+"price_min": 290,
+"title": "კაპილარების მოშორება 500-800იმპ / Удаление капилляров 500-800имп / Capillary removal 500-800imp",
+"weight": 0
+},
+{
+"category_id": 7171915,
+"duration": 0,
+"id": 6566817,
+"price_max": 30,
+"price_min": 30,
+"title": "წარბების კორექცია / Eyebrows Correction",
+"weight": 8
+},
+{
+"category_id": 7171915,
+"duration": 0,
+"id": 6566835,
+"price_max": 60,
+"price_min": 60,
+"title": "წარბების შეღებვა + კორექცია / Correction + Coloring",
+"weight": 7
+},
+{
+"category_id": 7171915,
+"duration": 0,
+"id": 6545727,
+"price_max": 100,
+"price_min": 100,
+"title": "წარბების ლამინირება + კორექცია + შეღებვა / Eyebrows lamination + correction + coloring",
+"weight": 6
+},
+{
+"category_id": 7171915,
+"duration": 0,
+"id": 10154468,
+"price_max": 70,
+"price_min": 70,
+"title": "წარბების ლამინირება / Eyebrows Lamination",
+"weight": 5
+},
+{
+"category_id": 7171915,
+"duration": 0,
+"id": 10854114,
+"price_max": 35,
+"price_min": 35,
+"title": "წარბების/წამწამების შეღებვა / Окрашивание бровей/ресниц / Eyebrow/eyelash tinting",
+"weight": 3
+},
+{
+"category_id": 7171915,
+"duration": 0,
+"id": 13504236,
+"price_max": 80,
+"price_min": 80,
+"title": "წარბების ლამინაცია + კორექცია / Ламинирование + коррекция бровей /",
+"weight": 0
+},
+{
+"category_id": 7171915,
+"duration": 0,
+"id": 13940724,
+"price_max": 150,
+"price_min": 150,
+"title": "LED წარბების დაგრძელება / LED наращивание бровей / LED eyebrow extensions",
+"weight": 0
+},
+{
+"category_id": 7239108,
+"duration": 0,
+"id": 10854156,
+"price_max": 120,
+"price_min": 120,
+"title": "დღის მაკიაჟი",
+"weight": 6
+},
+{
+"category_id": 7239108,
+"duration": 0,
+"id": 10854160,
+"price_max": 150,
+"price_min": 150,
+"title": "საღამოს მაკიაჟი",
+"weight": 5
+},
+{
+"category_id": 7239108,
+"duration": 0,
+"id": 10854158,
+"price_max": 100,
+"price_min": 100,
+"title": "მამაკაცის მაკიაჟი",
+"weight": 4
+},
+{
+"category_id": 7239108,
+"duration": 0,
+"id": 10854159,
+"price_max": 400,
+"price_min": 250,
+"title": "საქორწინო მაკიაჟი",
+"weight": 1
+},
+{
+"category_id": 7239108,
+"duration": 0,
+"id": 13009933,
+"price_max": 90,
+"price_min": 90,
+"title": "EXPRESS მაკიაჟი",
+"weight": 0
+},
+{
+"category_id": 10853987,
+"duration": 0,
+"id": 10854082,
+"price_max": 900,
+"price_min": 400,
+"title": "სახის კონტურული კორექცია ფილერით 1მლ",
+"weight": 174
+},
+{
+"category_id": 10853987,
+"duration": 0,
+"id": 6547426,
+"price_max": 250,
+"price_min": 180,
+"title": "მეზოთერაპია / Мезотерапия / Mesotherapy",
+"weight": 14
+},
+{
+"category_id": 10853987,
+"duration": 0,
+"id": 6547425,
+"price_max": 650,
+"price_min": 200,
+"title": "ბიორევიტალიზაცია / Биоревитализация / Biorevitalization",
+"weight": 13
+},
+{
+"category_id": 10853987,
+"duration": 0,
+"id": 12312039,
+"price_max": 1800,
+"price_min": 1800,
+"title": "Sculptra",
+"weight": 13
+},
+{
+"category_id": 10853987,
+"duration": 0,
+"id": 6547428,
+"price_max": 950,
+"price_min": 450,
+"title": "ცხვირის კორექცია / Коррекция носа / Nose Correction",
+"weight": 12
+},
+{
+"category_id": 10853987,
+"duration": 0,
+"id": 6547427,
+"price_max": 900,
+"price_min": 400,
+"title": "ტუჩის კორექცია / Коррекция губ / Lips Correction",
+"weight": 11
+},
+{
+"category_id": 10853987,
+"duration": 0,
+"id": 6547432,
+"price_max": 900,
+"price_min": 80,
+"title": "ბოტულოტოქსინის ინექციები / Инъекции ботулотоксина / Botulotoxin Injections",
+"weight": 10
+},
+{
+"category_id": 10853987,
+"duration": 0,
+"id": 8381352,
+"price_max": 800,
+"price_min": 250,
+"title": "პლაზმოთერაპია / Плазмотерапия / Plasmotherapy",
+"weight": 9
+},
+{
+"category_id": 10853987,
+"duration": 0,
+"id": 6547430,
+"price_max": 1200,
+"price_min": 900,
+"title": "საცრემლე არხის შევსება / Заполнение носослезной борозды / Tear duct filling",
+"weight": 8
+},
+{
+"category_id": 10853987,
+"duration": 0,
+"id": 6547434,
+"price_max": 800,
+"price_min": 90,
+"title": "ლიპოლიტიკის ინექციები / Инъекции липолитиками / Lipolytic Injections",
+"weight": 7
+},
+{
+"category_id": 10853987,
+"duration": 0,
+"id": 6547433,
+"price_max": 2000,
+"price_min": 600,
+"title": "ტრედლიფტინგი / Тредлифтинг /  Threadlifting",
+"weight": 6
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13288093,
+"price_max": 350,
+"price_min": 350,
+"title": "Microneedle RF Lifting Eyes",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291754,
+"price_max": 750,
+"price_min": 750,
+"title": "ნემსოვანი RF ლიფტინგი სახე / Microneedle RF Lifting Face",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291779,
+"price_max": 1000,
+"price_min": 1000,
+"title": "ნემსოვანი RF ლიფტინგი სახე + ყელი / Микроигольчатый RF лифтинг лицо+шея / Microneedle RF Lifting Face+Neck",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291780,
+"price_max": 1300,
+"price_min": 1300,
+"title": "ნემსოვანი RF ლიფტინგი სახე+ყელი+დეკოლტე/ Микроигольчатый RF лифтинг лицо+шея+декольте / Microneedle RF Lifting Face+Neck+Decollete",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291794,
+"price_max": 900,
+"price_min": 900,
+"title": "ნემსოვანი RF ლიფტინგი ყელი+დეკოლტე/ Микроигольчатый RF лифтинг шея+декольте / Microneedle RF Lifting Neck+Decollete",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291797,
+"price_max": 500,
+"price_min": 500,
+"title": "ნემსოვანი RF ლიფტინგი ყელი / Микроигольчатый RF лифтинг шеи / Microneedle RF Lifting Neck",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291802,
+"price_max": 300,
+"price_min": 300,
+"title": "ნემსოვანი RF ლიფტინგი ღაბაბი / Микроигольчатый RF лифтинг подбородка / Microneedle RF Lifting Chin",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291814,
+"price_max": 700,
+"price_min": 700,
+"title": "ნემსოვანი RF ლიფტინგი დეკოლტე / Микроигольчатый RF лифтинг декольте / Microneedle RF Lifting Decollete",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291845,
+"price_max": 600,
+"price_min": 600,
+"title": "ნემსოვანი RF ლიფტინგი ხელის მტევნები / Микроигольчатый RF лифтинг кистей рук / Microneedle RF Lifting Hands",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291959,
+"price_max": 400,
+"price_min": 400,
+"title": "ნემსოვანი RF ლიფტინგი იდაყვები/ Микроигольчатый RF лифтинг локтей / Microneedle RF Lifting Elbows",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291962,
+"price_max": 900,
+"price_min": 900,
+"title": "ნემსოვანი RF ლიფტინგი მუცელი / Микроигольчатый RF лифтинг живота / Microneedle RF Lifting Belly",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291973,
+"price_max": 900,
+"price_min": 900,
+"title": "ნემსოვანი RF ლიფტინგი ბარძაყების შიდა/უკანა მხარე / Микроигольчатый RF лифтинг внутренней/задней поверхности бедер / Microneedle RF Lifting inner/back of the thighs",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291978,
+"price_max": 900,
+"price_min": 900,
+"title": "ნემსოვანი RF ლიფტინგი დუნდულები / Микроигольчатый RF лифтинг ягодиц/ Microneedle RF Lifting buttocks",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291980,
+"price_max": 700,
+"price_min": 700,
+"title": "ნემსოვანი RF ლიფტინგი მუხლები/ Микроигольчатый RF лифтинг зоны колен / Microneedle RF Lifting knees",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291988,
+"price_max": 500,
+"price_min": 500,
+"title": "ნემსოვანი RF ლიფტინგი თავის კანზე / Микроигольчатый RF лифтинг волосистой части головы / Microneedle RF Lifting scalp",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291994,
+"price_max": 500,
+"price_min": 500,
+"title": "სტრიების მკურნალობა 10х10 / Лечение стрий/растяжек 10х10 / Treatment of stretch marks 10x10",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13291998,
+"price_max": 800,
+"price_min": 800,
+"title": "პოსტაკნეს/გაფართოებული ფორების მკურნალობა / Лечение постакне/расширенных пор / Treatment of post-acne/enlarged pores",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292051,
+"price_max": 900,
+"price_min": 900,
+"title": "ნემსოვანი RF ლიფტინგი ბარძაყების შიდა/უკანა მხარე / Микроигольчатый RF лифтинг внутренней/задней поверхности бедер / Microneedle RF Lifting inner/back of the thighs",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292057,
+"price_max": 700,
+"price_min": 700,
+"title": "ნემსოვანი RF ლიფტინგი დეკოლტე / Микроигольчатый RF лифтинг декольте / Microneedle RF Lifting Decollete",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292058,
+"price_max": 900,
+"price_min": 900,
+"title": "ნემსოვანი RF ლიფტინგი დუნდულები / Микроигольчатый RF лифтинг ягодиц/ Microneedle RF Lifting buttocks",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292059,
+"price_max": 500,
+"price_min": 500,
+"title": "ნემსოვანი RF ლიფტინგი თავის კანზე / Микроигольчатый RF лифтинг волосистой части головы / Microneedle RF Lifting scalp",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292060,
+"price_max": 350,
+"price_min": 350,
+"title": "Microneedle RF Lifting Eyes",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292061,
+"price_max": 400,
+"price_min": 400,
+"title": "ნემსოვანი RF ლიფტინგი იდაყვები/ Микроигольчатый RF лифтинг локтей / Microneedle RF Lifting Elbows",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292062,
+"price_max": 900,
+"price_min": 900,
+"title": "ნემსოვანი RF ლიფტინგი მუცელი / Микроигольчатый RF лифтинг живота / Microneedle RF Lifting Belly",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292063,
+"price_max": 700,
+"price_min": 700,
+"title": "ნემსოვანი RF ლიფტინგი მუხლები/ Микроигольчатый RF лифтинг зоны колен / Microneedle RF Lifting knees",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292064,
+"price_max": 1000,
+"price_min": 1000,
+"title": "ნემსოვანი RF ლიფტინგი სახე + ყელი / Микроигольчатый RF лифтинг лицо+шея / Microneedle RF Lifting Face+Neck",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292065,
+"price_max": 750,
+"price_min": 750,
+"title": "ნემსოვანი RF ლიფტინგი სახე / Microneedle RF Lifting Face",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292066,
+"price_max": 1300,
+"price_min": 1300,
+"title": "ნემსოვანი RF ლიფტინგი სახე+ყელი+დეკოლტე/ Микроигольчатый RF лифтинг лицо+шея+декольте / Microneedle RF Lifting Face+Neck+Decollete",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292067,
+"price_max": 300,
+"price_min": 300,
+"title": "ნემსოვანი RF ლიფტინგი ღაბაბი / Микроигольчатый RF лифтинг подбородка / Microneedle RF Lifting Chin",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292068,
+"price_max": 500,
+"price_min": 500,
+"title": "ნემსოვანი RF ლიფტინგი ყელი / Микроигольчатый RF лифтинг шеи / Microneedle RF Lifting Neck",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292069,
+"price_max": 900,
+"price_min": 900,
+"title": "ნემსოვანი RF ლიფტინგი ყელი+დეკოლტე/ Микроигольчатый RF лифтинг шея+декольте / Microneedle RF Lifting Neck+Decollete",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292070,
+"price_max": 600,
+"price_min": 600,
+"title": "ნემსოვანი RF ლიფტინგი ხელის მტევნები / Микроигольчатый RF лифтинг кистей рук / Microneedle RF Lifting Hands",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292071,
+"price_max": 800,
+"price_min": 800,
+"title": "პოსტაკნეს/გაფართოებული ფორების მკურნალობა / Лечение постакне/расширенных пор / Treatment of post-acne/enlarged pores",
+"weight": 0
+},
+{
+"category_id": 13292037,
+"duration": 0,
+"id": 13292072,
+"price_max": 500,
+"price_min": 500,
+"title": "სტრიების მკურნალობა 10х10 / Лечение стрий/растяжек 10х10 / Treatment of stretch marks 10x10",
+"weight": 0
+},
+{
+"category_id": 7072522,
+"duration": 0,
+"id": 10854048,
+"price_max": 75,
+"price_min": 75,
+"title": "ზურგის სამედიცინო მასაჟი/Медицинский массаж спины / Medical Back massage",
+"weight": 104
+},
+{
+"category_id": 7072522,
+"duration": 0,
+"id": 10854058,
+"price_max": 170,
+"price_min": 150,
+"title": "სხეულის სარელაქსაციო მასაჟი (1სთ) / Релак массаж всего тела (1час) / Full Body Relax Massage (1hour)",
+"weight": 100
+},
+{
+"category_id": 7072522,
+"duration": 0,
+"id": 12821413,
+"price_max": 100,
+"price_min": 100,
+"title": "RSL სკულპტურირება (ენდოსფერი) 45წთ / RSL-скульптурирование (эндосфера) 45 мин / RSL body sculpting (Endospheres) 45 min",
+"weight": 0
+},
+{
+"category_id": 7072522,
+"duration": 0,
+"id": 12821414,
+"price_max": 120,
+"price_min": 120,
+"title": "RSL სკულპტურირება (ენდოსფერი) 60წთ",
+"weight": 0
+},
+{
+"category_id": 7072522,
+"duration": 0,
+"id": 13267761,
+"price_max": 180,
+"price_min": 180,
+"title": "მთლიანი სხეულის ანტიცელულიტური / ლიმფოდრენაჟული მასაჟი (1სთ) / Антицеллюлитный/лимфодренажный массаж тела (1час)/ Anti-cellulite/lymphatic drainage body massage (1 hour)",
+"weight": 0
+},
+{
+"category_id": 7072522,
+"duration": 0,
+"id": 13267767,
+"price_max": 200,
+"price_min": 200,
+"title": "სხეულის სპორტული/ძლიერი მასაჟი (1სთ) / Sports body massage (1hour)",
+"weight": 0
+},
+{
+"category_id": 7072522,
+"duration": 0,
+"id": 13489645,
+"price_max": 80,
+"price_min": 80,
+"title": "სახის მასაჟი / массаж лица",
+"weight": 0
+},
+{
+"category_id": 7171916,
+"duration": 0,
+"id": 13291785,
+"price_max": 90,
+"price_min": 90,
+"title": "გარე კუთხეების დაგრძელება / Наращивание внешних уголков / Extension of outer corners",
+"weight": 9
+},
+{
+"category_id": 7171916,
+"duration": 0,
+"id": 10854107,
+"price_max": 25,
+"price_min": 25,
+"title": "წამწამების მოშორება (სხვისი ნამუშევარი) / Снятие Ресниц (чужая работа) / Lashes Removal (not our specialist work)",
+"weight": 2
+},
+{
+"category_id": 7171916,
+"duration": 0,
+"id": 10854106,
+"price_max": 100,
+"price_min": 100,
+"title": "წამწამების ლამინირება / Ламинирование Ресниц / Lashes Lamination",
+"weight": 1
+},
+{
+"category_id": 7239104,
+"duration": 0,
+"id": 6537848,
+"price_max": 300,
+"price_min": 300,
+"title": "ტუჩის დაფერვა",
+"weight": 9
+},
+{
+"category_id": 7239104,
+"duration": 0,
+"id": 6537849,
+"price_max": 300,
+"price_min": 300,
+"title": "წარბების დაფერვა",
+"weight": 8
+},
+{
+"category_id": 7239104,
+"duration": 0,
+"id": 6537853,
+"price_max": 150,
+"price_min": 100,
+"title": "კორექცია",
+"weight": 3
+},
+{
+"category_id": 7239104,
+"duration": 0,
+"id": 6537851,
+"price_max": 200,
+"price_min": 200,
+"title": "ნულოვანი ქუთოთოს დაფერვა",
+"weight": 2
+},
+{
+"category_id": 7239107,
+"duration": 0,
+"id": 6567004,
+"price_max": 20,
+"price_min": 20,
+"title": "კლასიკური ბიკინი ვოსკი / Восковая депиляция: классическое бикини / Waxing: classic bikini",
+"weight": 310
+},
+{
+"category_id": 7239107,
+"duration": 0,
+"id": 6567003,
+"price_max": 30,
+"price_min": 30,
+"title": "ღრმა ბიკინი ვოსკი / Восковая депиляция: глубокое бикини / Waxing: deep bikini",
+"weight": 309
+},
+{
+"category_id": 7239107,
+"duration": 0,
+"id": 6567002,
+"price_max": 10,
+"price_min": 10,
+"title": "იღლიები ვოსკი / Восковая депиляция: подмышки / Waxing: underarms",
+"weight": 308
+},
+{
+"category_id": 7239107,
+"duration": 0,
+"id": 6567001,
+"price_max": 10,
+"price_min": 10,
+"title": "ყელი/კეფა ვოსკი / Восковая депиляция: шея / Waxing: neck",
+"weight": 307
+},
+{
+"category_id": 7239107,
+"duration": 0,
+"id": 6567000,
+"price_max": 8,
+"price_min": 8,
+"title": "შუბლი ვოსკი / Восковая депиляция: лоб / Waxing: forehead",
+"weight": 306
+},
+{
+"category_id": 7239107,
+"duration": 0,
+"id": 6566999,
+"price_max": 8,
+"price_min": 8,
+"title": "ბაკები ვოსკი / Восковая депиляция: бакенбарды / Waxing: sideburns",
+"weight": 305
+},
+{
+"category_id": 7239107,
+"duration": 0,
+"id": 6566998,
+"price_max": 5,
+"price_min": 5,
+"title": "ზედა ტუჩი ვოსკი / Восковая депиляция: верхняя губа / Waxing: upper lip",
+"weight": 304
+},
+{
+"category_id": 7239107,
+"duration": 0,
+"id": 6566997,
+"price_max": 15,
+"price_min": 15,
+"title": "სახე მთლიანი ვოსკი / Восковая депиляция: лицо полностью / Waxing: full face",
+"weight": 303
+},
+{
+"category_id": 7239107,
+"duration": 0,
+"id": 6566996,
+"price_max": 15,
+"price_min": 15,
+"title": "ხელები იდაყვამდე ვოსკი / Восковая депиляция: руки до локтя / Waxing: arms to the elbow",
+"weight": 302
+},
+{
+"category_id": 7239107,
+"duration": 0,
+"id": 6566995,
+"price_max": 20,
+"price_min": 20,
+"title": "ხელები მთლიანი ვოსკი / Восковая депиляция: руки полностью / Waxing: full arms",
+"weight": 301
+},
+{
+"category_id": 13234291,
+"duration": 0,
+"id": 13234294,
+"price_max": 80,
+"price_min": 80,
+"title": "ელექტროეპილაცია 1სთ / Электроэпиляция 1час / Electrolysis 1 hour",
+"weight": 0
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 10854178,
+"price_max": 45,
+"price_min": 45,
+"title": "XS კომპლექსი სახე მთლიანი + ყელი / XS комплекс Лицо полностью + шея/ XS Complex Full face + neck",
+"weight": 28
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 12325430,
+"price_max": 65,
+"price_min": 65,
+"title": "S კომპლექსი ხელები+იღლიები / S комплекс руки и подмышки / S Complex of Full hands and underarms",
+"weight": 27
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 12760559,
+"price_max": 140,
+"price_min": 140,
+"title": "M კომპლექსი ფეხები+ღრმა ბიკინი / M комплекс ноги полностью и глубокое бикини / M Complex of Full legs and bikini area",
+"weight": 26
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 12325435,
+"price_max": 160,
+"price_min": 160,
+"title": "L კომპლექსი ფეხები+იღლიები+ბიკინი / L комплекс ноги , подмышки , бикини / L Complex of full legs, underarms, bikini area",
+"weight": 25
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 12325429,
+"price_max": 200,
+"price_min": 200,
+"title": "XL კომპლექსი ფეხები+ხელები+იღლიები+ბიკინი / XL комплекс ноги, руки , подмышки , бикини / XL Complex of Full legs and hands, underarms, bikini area",
+"weight": 24
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171819,
+"price_max": 40,
+"price_min": 40,
+"title": "სახე მთლიანი / лицо полностью / full face",
+"weight": 23
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171823,
+"price_max": 15,
+"price_min": 15,
+"title": "ზედა ტუჩი / верхняя губа / Upper lip",
+"weight": 22
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171820,
+"price_max": 20,
+"price_min": 20,
+"title": "შუბლი / лоб / forehead",
+"weight": 21
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171822,
+"price_max": 25,
+"price_min": 25,
+"title": "ბაკები / бакенбарды / sideburns",
+"weight": 20
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171824,
+"price_max": 15,
+"price_min": 15,
+"title": "ნიკაპი / подбородок / Chin",
+"weight": 19
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171825,
+"price_max": 25,
+"price_min": 25,
+"title": "ყელი /шея /  Front of the neck",
+"weight": 18
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171826,
+"price_max": 30,
+"price_min": 30,
+"title": "კეფა / Задняя сторона шеи / Back of the neck",
+"weight": 17
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171827,
+"price_max": 30,
+"price_min": 30,
+"title": "იღლიები /подмышки /  Armpits",
+"weight": 16
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171829,
+"price_max": 35,
+"price_min": 35,
+"title": "ხელები იდაყვამდე /руки до локтя /  Hands half",
+"weight": 15
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171828,
+"price_max": 50,
+"price_min": 50,
+"title": "ხელები მთლიანი / руки полностью /  Full hands",
+"weight": 14
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171830,
+"price_max": 45,
+"price_min": 45,
+"title": "გულ-მკერდი / грудь /  Chest",
+"weight": 13
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171832,
+"price_max": 15,
+"price_min": 15,
+"title": "დვრილები / ареолы /  Areola",
+"weight": 12
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171831,
+"price_max": 15,
+"price_min": 15,
+"title": "დეკოლტე / декольте / Neckline",
+"weight": 11
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 10854181,
+"price_max": 50,
+"price_min": 50,
+"title": "ღრმა ბიკინი / Глубокое бикикни / Deep bikini",
+"weight": 10
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 10854173,
+"price_max": 35,
+"price_min": 35,
+"title": "კლასიკური ბიკინი/ Классическое бикини/ Classic bikini",
+"weight": 9
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171843,
+"price_max": 40,
+"price_min": 40,
+"title": "დუნდულები / ягодицы / Buttocks",
+"weight": 8
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 10854186,
+"price_max": 50,
+"price_min": 50,
+"title": "წვივები / голени / Shins",
+"weight": 7
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 13509129,
+"price_max": 65,
+"price_min": 65,
+"title": "ბარძაყები / Бедра / Thighs",
+"weight": 6
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171837,
+"price_max": 110,
+"price_min": 110,
+"title": "ფეხები მთლიანი / ноги полностью / Full legs",
+"weight": 5
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 10854185,
+"price_max": 30,
+"price_min": 30,
+"title": "წელი / Поясница / small of the back",
+"weight": 4
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 10854170,
+"price_max": 70,
+"price_min": 70,
+"title": "ზურგი მთლიანი/ Спина полностью/ Back completely",
+"weight": 3
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171834,
+"price_max": 20,
+"price_min": 20,
+"title": "მუცლის თეთრი ხაზი / белая линия живота /  White belly band",
+"weight": 2
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 7171833,
+"price_max": 45,
+"price_min": 45,
+"title": "მუცელი მთლიანი / живот полностью / Full belly",
+"weight": 1
+},
+{
+"category_id": 7239117,
+"duration": 0,
+"id": 13975094,
+"price_max": 15,
+"price_min": 15,
+"title": "ცხვირი / Нос / Nose",
+"weight": 0
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 13459145,
+"price_max": 45,
+"price_min": 45,
+"title": "ღაწვები + ყელი ♂ / Скулы + передняя сторона шеи ♂ / Cheekbones + front of neck ♂",
+"weight": 25
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 12325449,
+"price_max": 50,
+"price_min": 50,
+"title": "ღაწვები + კეფა ♂ / Скулы + задняя сторона шеи ♂ / Cheekbones + back of neck ♂",
+"weight": 24
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 13510449,
+"price_max": 70,
+"price_min": 70,
+"title": "ღაწვები+ყელი+კეფა ♂ / Скулы + задняя и передняя сторона шеи ♂ / Cheekbones + back and front of the neck ♂",
+"weight": 23
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 12325453,
+"price_max": 85,
+"price_min": 85,
+"title": "ღაწვები+ყელი+კეფა+წარბები ♂ / Скулы + задняя и передняя сторона шеи + брови ♂ / Cheekbones + back and front of neck + eyebrows ♂",
+"weight": 22
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 12325460,
+"price_max": 100,
+"price_min": 100,
+"title": "მუცელი+მკერდი ♂ / Живот + грудь ♂ / Belly + chest ♂",
+"weight": 21
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 12325456,
+"price_max": 250,
+"price_min": 250,
+"title": "მუცელი+ზურგი+მკერდი+ხელები ♂ / Живот + спина + грудь + руки ♂ / Stomach + back + chest + arms ♂",
+"weight": 20
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 10854206,
+"price_max": 20,
+"price_min": 20,
+"title": "წარბები ♂ / Брови ♂ / Eyebrows♂",
+"weight": 19
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 10854202,
+"price_max": 25,
+"price_min": 25,
+"title": "ღაწვები ♂ / Скулы ♂ / Cheekbones ♂",
+"weight": 18
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 10854205,
+"price_max": 20,
+"price_min": 20,
+"title": "ცხვირი ♂ / Нос ♂ / Nose ♂",
+"weight": 17
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 13644006,
+"price_max": 30,
+"price_min": 30,
+"title": "შუბლის ♂ / Область лба ♂ / Forehead ♂",
+"weight": 16
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 13597109,
+"price_max": 20,
+"price_min": 20,
+"title": "ყურები ♂ / Уши ♂ / Ears♂",
+"weight": 15
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 10854196,
+"price_max": 35,
+"price_min": 35,
+"title": "კეფა ♂ / Задняя сторона шеи ♂ / The back of the neck ♂",
+"weight": 14
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 10854203,
+"price_max": 30,
+"price_min": 30,
+"title": "ყელი ♂ / Передняя сторона шеи ♂ / Front of the neck ♂",
+"weight": 13
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 10854193,
+"price_max": 60,
+"price_min": 60,
+"title": "გულ-მკერდი ♂ / Грудь ♂ / Breast ♂",
+"weight": 12
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 10854198,
+"price_max": 60,
+"price_min": 60,
+"title": "მუცელი მთლიანი ♂ / Живот полностью ♂ / Belly ♂",
+"weight": 11
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 10854195,
+"price_max": 40,
+"price_min": 40,
+"title": "იღლიები ♂ / Подмышки ♂ / Underarms ♂",
+"weight": 10
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 10854210,
+"price_max": 50,
+"price_min": 50,
+"title": "ხელები იდაყვამდე ♂ / Руки до локтей ♂ / Half of hands ♂",
+"weight": 9
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 10854211,
+"price_max": 80,
+"price_min": 80,
+"title": "ხელები მთლიანი ♂ / Руки полностью ♂ / Full hands ♂",
+"weight": 8
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 10854194,
+"price_max": 100,
+"price_min": 100,
+"title": "ზურგი მთლიანი ♂ / Спина полностью ♂ / Full back ♂",
+"weight": 7
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 10854208,
+"price_max": 45,
+"price_min": 45,
+"title": "წელი ♂ / Поясница ♂ / Small of the back ♂",
+"weight": 6
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 12325448,
+"price_max": 150,
+"price_min": 150,
+"title": "კლასიკური ბიკინი",
+"weight": 5
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 13155678,
+"price_max": 250,
+"price_min": 250,
+"title": "ღრმა ბიკინი ♂ / Глубокое бикини ♂ / Deep bikini ♂",
+"weight": 4
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 10854209,
+"price_max": 80,
+"price_min": 80,
+"title": "წვივები ♂ / Голени ♂ / Shins ♂",
+"weight": 3
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 13644041,
+"price_max": 110,
+"price_min": 110,
+"title": "ბარძაყები ♂ / Бедра ♂ / Thigs ♂",
+"weight": 2
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 13644037,
+"price_max": 180,
+"price_min": 180,
+"title": "ფეხები მთლიანი ♂ / Ноги полностью ♂ / Full legs ♂",
+"weight": 1
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 13644030,
+"price_max": 60,
+"price_min": 60,
+"title": "დუნდულები ♂ / Ягодицы ♂ / Buttocks ♂",
+"weight": 0
+},
+{
+"category_id": 7239112,
+"duration": 0,
+"id": 13644047,
+"price_max": 50,
+"price_min": 50,
+"title": "მხრები ♂ / Плечи ♂ / Shoulders ♂",
+"weight": 0
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760561,
+"price_max": 65,
+"price_min": 65,
+"title": "XS კომპლექსი სახე მთლიანი + ყელი ✴️/ XS комплекс Лицо полностью + шея✴️/ XS Complex Full face + neck✴️",
+"weight": 26
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760563,
+"price_max": 80,
+"price_min": 80,
+"title": "S კომპლექსი ხელები+იღლიები ✴️/ S комплекс руки и подмышки ✴️/ S Complex of Full hands and underarms ✴️",
+"weight": 25
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760564,
+"price_max": 180,
+"price_min": 180,
+"title": "M კომპლექსი ფეხები+ღრმა ბიკინი ✴️/ M комплекс ноги полностью и глубокое бикини ✴️/ M Complex of Full legs and bikini area ✴️",
+"weight": 24
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760565,
+"price_max": 220,
+"price_min": 220,
+"title": "L კომპლექსი ფეხები+იღლიები+ბიკინი ✴️ / L комплекс ноги , подмышки , бикини ✴️/ L Complex of full legs, underarms, bikini area ✴️",
+"weight": 23
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760566,
+"price_max": 260,
+"price_min": 260,
+"title": "XL კომპლექსი ფეხები+ხელები+იღლიები+ბიკინი ✴️/ XL комплекс ноги, руки , подмышки , бикини ✴️/ XL Complex of Full legs and hands, underarms, bikini area✴️",
+"weight": 22
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760524,
+"price_max": 60,
+"price_min": 60,
+"title": "სახე მთლიანი ✴️/ лицо полностью ✴️/ full face✴️",
+"weight": 21
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760527,
+"price_max": 20,
+"price_min": 20,
+"title": "ზედა ტუჩი ✴️/ верхняя губа ✴️/upper lip✴️",
+"weight": 20
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760525,
+"price_max": 35,
+"price_min": 35,
+"title": "ბაკები ✴️/ бакенбарды ✴️/ sideburns✴️",
+"weight": 19
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760528,
+"price_max": 30,
+"price_min": 30,
+"title": "ყელი ✴️/ Передняя сторона шеи ✴️/ Front of the neck✴️",
+"weight": 18
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760529,
+"price_max": 35,
+"price_min": 35,
+"title": "კეფა ✴️ / Задняя сторона шеи ✴️ / Back of the neck ✴️",
+"weight": 17
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760530,
+"price_max": 55,
+"price_min": 55,
+"title": "გულ-მკერდი ✴️ / грудь ✴️ /Chest ✴️",
+"weight": 16
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760531,
+"price_max": 20,
+"price_min": 20,
+"title": "დვრილები  ✴️/ ареолы  ✴️ /Areola ✴️",
+"weight": 15
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760532,
+"price_max": 20,
+"price_min": 20,
+"title": "დეკოლტე ✴️/ декольте ✴️/Neckline✴️",
+"weight": 14
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760537,
+"price_max": 40,
+"price_min": 40,
+"title": "იღლიები ✴️/ подмышки ✴️/ Armpits✴️",
+"weight": 13
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760536,
+"price_max": 50,
+"price_min": 50,
+"title": "ხელები იდაყვამდე ✴️",
+"weight": 12
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760535,
+"price_max": 70,
+"price_min": 70,
+"title": "ხელები მთლიანად ✴️",
+"weight": 11
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760533,
+"price_max": 70,
+"price_min": 70,
+"title": "მუცელი მთლიანად ✴️",
+"weight": 10
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760547,
+"price_max": 120,
+"price_min": 120,
+"title": "ზურგი მთლიანი ✴️/ Спина полностью ✴️/ Back completely ✴️",
+"weight": 9
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760534,
+"price_max": 25,
+"price_min": 25,
+"title": "მუცლის თეთრი ხაზი ✴️/ белая линия живота ✴️/ White belly band ✴️",
+"weight": 8
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760546,
+"price_max": 40,
+"price_min": 40,
+"title": "წელი ✴️ / Поясница ✴️/ Small of the back✴️",
+"weight": 7
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760544,
+"price_max": 150,
+"price_min": 150,
+"title": "ფეხები მთლიანი ✴️/ ноги полностью ✴️/ Full legs✴️",
+"weight": 6
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760543,
+"price_max": 90,
+"price_min": 90,
+"title": "ბარძაყები ✴️/ Бедра ✴️/ Thighs✴️",
+"weight": 5
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760542,
+"price_max": 70,
+"price_min": 70,
+"title": "წვივები ✴️/ голени ✴️/ shins ✴️",
+"weight": 4
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760541,
+"price_max": 60,
+"price_min": 60,
+"title": "დუნდულები ✴️",
+"weight": 3
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760539,
+"price_max": 50,
+"price_min": 50,
+"title": "კლასიკური ბიკინი ✴️/ Классическое бикини ✴️/ Classic bikini ✴️",
+"weight": 2
+},
+{
+"category_id": 12906472,
+"duration": 0,
+"id": 12760540,
+"price_max": 70,
+"price_min": 70,
+"title": "ღრმა ბიკინი ✴️/ Глубокое бикикни ✴️/ Deep bikini✴️",
+"weight": 1
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13644339,
+"price_max": 65,
+"price_min": 65,
+"title": "ღაწვები + ყელი ♂✴️/ Скулы + передняя сторона шеи ♂✴️/ Cheekbones + front of neck ♂✴️",
+"weight": 26
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13644343,
+"price_max": 70,
+"price_min": 70,
+"title": "ღაწვები + კეფა ♂✴️/ Скулы + задняя сторона шеи ♂✴️ / Cheekbones + back of neck ♂✴️",
+"weight": 25
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13644346,
+"price_max": 85,
+"price_min": 85,
+"title": "ღაწვები+ყელი+კეფა ♂✴️/ Скулы + задняя и передняя сторона шеи♂✴️/ Cheekbones + back and front of the neck ♂✴️",
+"weight": 24
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13644348,
+"price_max": 100,
+"price_min": 100,
+"title": "ღაწვები+ყელი+კეფა+წარბები ♂✴️ / Скулы + задняя и передняя сторона шеи + брови ♂✴️ / Cheekbones + back and front of neck + eyebrows ♂✴️",
+"weight": 23
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13644364,
+"price_max": 150,
+"price_min": 150,
+"title": "მუცელი+მკერდი ♂✴️ / Живот + грудь ♂✴️ / Belly + chest ♂✴️",
+"weight": 22
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13644367,
+"price_max": 350,
+"price_min": 350,
+"title": "მუცელი+ზურგი+მკერდი+ხელები ♂✴️ / Живот + спина + грудь + руки ♂✴️ / Stomach + back + chest + arms ♂✴️",
+"weight": 21
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653934,
+"price_max": 40,
+"price_min": 40,
+"title": "ყელი ♂✴️ / Передняя сторона шеи ♂✴️ / Front of the neck ♂✴️",
+"weight": 19
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653933,
+"price_max": 25,
+"price_min": 25,
+"title": "ყურები ♂ / Уши ♂ / Ears♂",
+"weight": 18
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653932,
+"price_max": 35,
+"price_min": 35,
+"title": "შუბლი ♂✴️ / Область лба ♂✴️ / Forehead ♂✴️",
+"weight": 17
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653931,
+"price_max": 25,
+"price_min": 25,
+"title": "ცხვირი ♂✴️ / Нос ♂✴️ / Nose ♂✴️",
+"weight": 16
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653930,
+"price_max": 35,
+"price_min": 35,
+"title": "ღაწვები ♂✴️ / Скулы ♂✴️ / Cheekbones ♂✴️",
+"weight": 15
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653929,
+"price_max": 30,
+"price_min": 30,
+"title": "წარბები ♂✴️ / Брови ♂✴️ / Eyebrows ♂✴️",
+"weight": 14
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653924,
+"price_max": 150,
+"price_min": 150,
+"title": "ზურგი მთლიანი ♂✴️ / Спина полностью ♂✴️ / Full back ♂✴️",
+"weight": 13
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653921,
+"price_max": 55,
+"price_min": 55,
+"title": "წელი ♂✴️ / Поясница ♂✴️ / Small of the back ♂✴️",
+"weight": 12
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653919,
+"price_max": 220,
+"price_min": 220,
+"title": "ფეხები მთლიანი ♂✴️ / Ноги полностью ♂✴️ / Full legs ♂✴️",
+"weight": 11
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653916,
+"price_max": 180,
+"price_min": 180,
+"title": "ბარძაყები ♂✴️ / Бедра ♂✴️ / Thigs ♂✴️",
+"weight": 10
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653912,
+"price_max": 140,
+"price_min": 140,
+"title": "წვივები ♂✴️ / Голени ♂✴️ / Shins ♂✴️",
+"weight": 9
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653910,
+"price_max": 80,
+"price_min": 80,
+"title": "დუნდულები ♂✴️ / Ягодицы ♂✴️ / Buttocks ♂✴️",
+"weight": 8
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653906,
+"price_max": 300,
+"price_min": 300,
+"title": "ღრმა ბიკინი ♂✴️ / Глубокое бикини ♂✴️ / Deep bikini ♂✴️",
+"weight": 7
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653902,
+"price_max": 180,
+"price_min": 180,
+"title": "კლასიკური ბიკინი ♂✴️ / Классическое бикини ♂✴️/ Classic bikini ♂✴️",
+"weight": 6
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653896,
+"price_max": 50,
+"price_min": 50,
+"title": "იღლიები ♂✴️ / Подмышки ♂✴️/ Underarms ♂✴️",
+"weight": 5
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653890,
+"price_max": 80,
+"price_min": 80,
+"title": "ხელები იდაყვამდე ♂✴️ / Руки до локтей ♂✴️ / Half of hands ♂✴️",
+"weight": 4
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653885,
+"price_max": 100,
+"price_min": 100,
+"title": "ხელები მთლიანი ♂✴️ / Руки полностью ♂✴️ / Full hands ♂✴️",
+"weight": 3
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653881,
+"price_max": 100,
+"price_min": 100,
+"title": "მუცელი მთლიანი ♂✴️ / Живот полностью ♂✴️ / Belly ♂✴️",
+"weight": 2
+},
+{
+"category_id": 13644329,
+"duration": 0,
+"id": 13653870,
+"price_max": 90,
+"price_min": 90,
+"title": "გულ-მკერდი ♂✴️ / Грудь ♂ ✴️/ Breast ♂✴️",
+"weight": 1
+},
+{
+"category_id": 7171919,
+"duration": 0,
+"id": 13010070,
+"price_max": 30,
+"price_min": 30,
+"title": "კეფა ძაფი",
+"weight": 328
+},
+{
+"category_id": 7171919,
+"duration": 0,
+"id": 13010071,
+"price_max": 20,
+"price_min": 20,
+"title": "ნიკაპი ძაფი",
+"weight": 327
+},
+{
+"category_id": 7171919,
+"duration": 0,
+"id": 13010067,
+"price_max": 25,
+"price_min": 25,
+"title": "ბაკები ძაფი",
+"weight": 325
+},
+{
+"category_id": 7171919,
+"duration": 0,
+"id": 13010068,
+"price_max": 20,
+"price_min": 20,
+"title": "ზედა ტუჩი ძაფი",
+"weight": 324
+},
+{
+"category_id": 7171919,
+"duration": 0,
+"id": 13010072,
+"price_max": 60,
+"price_min": 60,
+"title": "სახე მთლიანი ძაფი",
+"weight": 323
+}
+],
+"source": "book_services"
+}

@@ -1,6 +1,303 @@
 {
-"updated": "2026-11-08T21:17:02+00:00",
+"updated": "2026-11-08T21:40:37+00:00",
 "products": [
+{
+"id": 14176858,
+"brand": "GIGI",
+"name": "AROMA ESSENSE 250",
+"name_ru": null,
+"dept": "face",
+"vol": "250 ml",
+"type": "cream",
+"need": "",
+"price": 90,
+"stock": 1,
+"barcode": "7290003568208"
+},
+{
+"id": 14176859,
+"brand": "GIGI",
+"name": "AROMA ESSENSE 250",
+"name_ru": null,
+"dept": "face",
+"vol": "250 ml",
+"type": "cream",
+"need": "",
+"price": 90,
+"stock": 2,
+"barcode": "7290003568215"
+},
+{
+"id": 14176870,
+"brand": "GIGI",
+"name": "VIT.E SPF 20 50",
+"name_ru": null,
+"dept": "face",
+"vol": "50 ml",
+"type": "spf",
+"need": "",
+"price": 180,
+"stock": 1,
+"barcode": "7290003568451"
+},
+{
+"id": 14176873,
+"brand": "GIGI",
+"name": "VIT.E P.H.5.5",
+"name_ru": null,
+"dept": "face",
+"vol": "",
+"type": "cream",
+"need": "",
+"price": 140,
+"stock": 1,
+"barcode": "7290018221006"
+},
+{
+"id": 14176882,
+"brand": "GIGI",
+"name": "NUTRI-PEPTIDE 50",
+"name_ru": null,
+"dept": "face",
+"vol": "",
+"type": "cream",
+"need": "",
+"price": 130,
+"stock": 1,
+"barcode": "7290015443326"
+},
+{
+"id": 14176883,
+"brand": "GIGI",
+"name": "NUTRI-PEPTIDE 20",
+"name_ru": null,
+"dept": "face",
+"vol": "20 ml",
+"type": "eye",
+"need": "",
+"price": 120,
+"stock": 1,
+"barcode": "7290015443364"
+},
+{
+"id": 14178841,
+"brand": "GIGI",
+"name": "AROMA ESSENCE calendula soap 200",
+"name_ru": null,
+"dept": "face",
+"vol": "200 ml",
+"type": "cleanser",
+"need": "",
+"price": 95,
+"stock": 1,
+"barcode": "7290003568376"
+},
+{
+"id": 14178915,
+"brand": "GIGI",
+"name": "VIT.E 30",
+"name_ru": null,
+"dept": "face",
+"vol": "30 ml",
+"type": "cream",
+"need": "",
+"price": 180,
+"stock": 1,
+"barcode": "7290003568475"
+},
+{
+"id": 14178929,
+"brand": "GIGI",
+"name": "VIT.E 50",
+"name_ru": null,
+"dept": "face",
+"vol": "50 ml",
+"type": "cream",
+"need": "",
+"price": 180,
+"stock": 1,
+"barcode": "7290011905057"
+},
+{
+"id": 14179054,
+"brand": "GIGI",
+"name": "NUTRI-PEPTIDE 50",
+"name_ru": null,
+"dept": "face",
+"vol": "50 ml",
+"type": "cream",
+"need": "",
+"price": 130,
+"stock": 1,
+"barcode": "7290015443340"
+},
+{
+"id": 14179146,
+"brand": "GIGI",
+"name": "ESTER C 50",
+"name_ru": null,
+"dept": "face",
+"vol": "50 ml",
+"type": "cream",
+"need": "",
+"price": 120,
+"stock": 1,
+"barcode": "7290015443098"
+},
+{
+"id": 14179551,
+"brand": "GIGI",
+"name": "SUN CARE SPF30 75",
+"name_ru": null,
+"dept": "face",
+"vol": "75 ml",
+"type": "spf",
+"need": "",
+"price": 130,
+"stock": 2
+},
+{
+"id": 14179581,
+"brand": "GIGI",
+"name": "A.N",
+"name_ru": null,
+"dept": "face",
+"vol": "",
+"type": "cream",
+"need": "",
+"price": 300,
+"stock": 1,
+"barcode": "7290016912562"
+},
+{
+"id": 14179676,
+"brand": "GIGI",
+"name": "ESTER C SPF 20 50",
+"name_ru": null,
+"dept": "face",
+"vol": "50 ml",
+"type": "spf",
+"need": "",
+"price": 140,
+"stock": 1,
+"barcode": "7290015443081"
+},
+{
+"id": 14179885,
+"brand": "GIGI",
+"name": "RECOVERY 50",
+"name_ru": null,
+"dept": "face",
+"vol": "50 ml",
+"type": "cream",
+"need": "",
+"price": 250,
+"stock": 1,
+"barcode": "7290011905583"
+},
+{
+"id": 14179904,
+"brand": "GIGI",
+"name": "ESTER C 50",
+"name_ru": null,
+"dept": "face",
+"vol": "50 ml",
+"type": "cream",
+"need": "",
+"price": 190,
+"stock": 1,
+"barcode": "7290015443029"
+},
+{
+"id": 14179931,
+"brand": "GIGI",
+"name": "A.N, 100",
+"name_ru": null,
+"dept": "face",
+"vol": "100 ml",
+"type": "cream",
+"need": "",
+"price": 120,
+"stock": 2,
+"barcode": "7290015443203"
+},
+{
+"id": 14179993,
+"brand": "GIGI",
+"name": "BIO DERM \" \" 250",
+"name_ru": null,
+"dept": "face",
+"vol": "250 ml",
+"type": "cream",
+"need": "",
+"price": 130,
+"stock": 1,
+"barcode": "7290011905460"
+},
+{
+"id": 14180127,
+"brand": "GIGI",
+"name": "ESTER C Total Serum",
+"name_ru": null,
+"dept": "face",
+"vol": "30 ml",
+"type": "serum",
+"need": "",
+"price": 240,
+"stock": 1,
+"barcode": "7290015443074"
+},
+{
+"id": 14802184,
+"brand": "GIGI",
+"name": "Pore Purifying Mask For oily & problematic skin",
+"name_ru": null,
+"dept": "face",
+"vol": "",
+"type": "mask",
+"need": "",
+"price": 130,
+"stock": 1,
+"barcode": "7290015443227"
+},
+{
+"id": 15761197,
+"brand": "GIGI",
+"name": "SUN CARE SPF 30 75",
+"name_ru": null,
+"dept": "face",
+"vol": "75 ml",
+"type": "spf",
+"need": "",
+"price": 130,
+"stock": 2
+},
+{
+"id": 17443182,
+"brand": "GIGI",
+"name": "SUN CARE SPF 40 Ultra Light Facial Sun Screen Advanced Protection",
+"name_ru": null,
+"dept": "face",
+"vol": "",
+"type": "spf",
+"need": "",
+"price": 140,
+"stock": 1,
+"barcode": "7290016871159"
+},
+{
+"id": 18993892,
+"brand": "ZO Skin Health",
+"name": "ZEIN OBAGI Complexion Clearing Masque",
+"name_ru": null,
+"dept": "face",
+"vol": "",
+"type": "mask",
+"need": "",
+"price": 155,
+"stock": 1,
+"barcode": "810866012747"
+},
 {
 "id": 18994012,
 "brand": "ZO Skin Health",
@@ -11,7 +308,8 @@
 "type": "cream",
 "need": "dry",
 "price": 385,
-"stock": 1
+"stock": 1,
+"barcode": "810866011351"
 },
 {
 "id": 19665708,
@@ -23,7 +321,21 @@
 "type": "peel",
 "need": "",
 "price": 95,
-"stock": 1
+"stock": 1,
+"barcode": "810866010118"
+},
+{
+"id": 19970782,
+"brand": "GIGI",
+"name": "A..N",
+"name_ru": null,
+"dept": "face",
+"vol": "",
+"type": "cream",
+"need": "",
+"price": 95,
+"stock": 1,
+"barcode": "7290016906509"
 },
 {
 "id": 20301502,
@@ -35,7 +347,8 @@
 "type": "eye",
 "need": "bright",
 "price": 390,
-"stock": 1
+"stock": 1,
+"barcode": "810866012396"
 },
 {
 "id": 20620304,
@@ -47,7 +360,21 @@
 "type": "serum",
 "need": "bright",
 "price": 170,
-"stock": 1
+"stock": 1,
+"barcode": "810866010415"
+},
+{
+"id": 21181932,
+"brand": "GIGI",
+"name": "NA G4",
+"name_ru": null,
+"dept": "face",
+"vol": "",
+"type": "cream",
+"need": "",
+"price": 160,
+"stock": 1,
+"barcode": "7290018221662"
 },
 {
 "id": 21189206,
@@ -59,7 +386,8 @@
 "type": "toner",
 "need": "sensitive",
 "price": 60,
-"stock": 1
+"stock": 1,
+"barcode": "810866017469"
 },
 {
 "id": 21740443,
@@ -71,7 +399,34 @@
 "type": "serum",
 "need": "dry",
 "price": 160,
-"stock": 1
+"stock": 1,
+"barcode": "7290015443357"
+},
+{
+"id": 21740447,
+"brand": "GIGI",
+"name": "Acnon Day Control Moisturizer",
+"name_ru": null,
+"dept": "face",
+"vol": "",
+"type": "cream",
+"need": "",
+"price": 140,
+"stock": 1,
+"barcode": "7290015443845"
+},
+{
+"id": 21839988,
+"brand": "GIGI",
+"name": "NEW AGE G4 GLOW UP 30",
+"name_ru": null,
+"dept": "face",
+"vol": "30 ml",
+"type": "cream",
+"need": "",
+"price": 270,
+"stock": 1,
+"barcode": "7290018221303"
 },
 {
 "id": 21857776,
@@ -83,7 +438,21 @@
 "type": "peel",
 "need": "",
 "price": 215,
-"stock": 1
+"stock": 1,
+"barcode": "810866010040"
+},
+{
+"id": 21872800,
+"brand": "GIGI",
+"name": "A.N, 100",
+"name_ru": null,
+"dept": "face",
+"vol": "100 ml",
+"type": "cream",
+"need": "",
+"price": 135,
+"stock": 1,
+"barcode": "7290016931754"
 },
 {
 "id": 21965207,
@@ -95,7 +464,21 @@
 "type": "cream",
 "need": "acne",
 "price": 140,
-"stock": 2
+"stock": 2,
+"barcode": "7290015443234"
+},
+{
+"id": 22121343,
+"brand": "GIGI",
+"name": "R A M.R.S 75",
+"name_ru": null,
+"dept": "face",
+"vol": "75 ml",
+"type": "cream",
+"need": "",
+"price": 160,
+"stock": 1,
+"barcode": "7290018221556"
 },
 {
 "id": 22247049,
@@ -107,7 +490,8 @@
 "type": "spf",
 "need": "",
 "price": 190,
-"stock": 1
+"stock": 1,
+"barcode": "810866017254"
 },
 {
 "id": 22929640,
@@ -119,7 +503,8 @@
 "type": "cream",
 "need": "bright",
 "price": 130,
-"stock": 1
+"stock": 1,
+"barcode": "7290015443791"
 },
 {
 "id": 23041504,
@@ -131,7 +516,8 @@
 "type": "spf",
 "need": "",
 "price": 220,
-"stock": 1
+"stock": 1,
+"barcode": "810866011696"
 },
 {
 "id": 23041542,
@@ -143,7 +529,21 @@
 "type": "spf",
 "need": "",
 "price": 220,
-"stock": 1
+"stock": 1,
+"barcode": "810866014178"
+},
+{
+"id": 23209748,
+"brand": "Dermalogica",
+"name": "Daily Microfoliant",
+"name_ru": null,
+"dept": "face",
+"vol": "74 g",
+"type": "peel",
+"need": "",
+"price": 190,
+"stock": 1,
+"barcode": "666151020467"
 },
 {
 "id": 23260528,
@@ -155,7 +555,8 @@
 "type": "eye",
 "need": "antiage",
 "price": 230,
-"stock": 1
+"stock": 1,
+"barcode": "7290018221082"
 },
 {
 "id": 23260530,
@@ -167,7 +568,8 @@
 "type": "cream",
 "need": "antiage",
 "price": 260,
-"stock": 1
+"stock": 1,
+"barcode": "7290018221495"
 },
 {
 "id": 23982649,
@@ -179,7 +581,8 @@
 "type": "serum",
 "need": "acne",
 "price": 660,
-"stock": 1
+"stock": 1,
+"barcode": "817244010036"
 },
 {
 "id": 24014372,
@@ -191,7 +594,8 @@
 "type": "spf",
 "need": "",
 "price": 215,
-"stock": 1
+"stock": 1,
+"barcode": "810866012174"
 },
 {
 "id": 24655402,
@@ -203,7 +607,46 @@
 "type": "serum",
 "need": "bright",
 "price": 225,
+"stock": 1,
+"barcode": "666151750135"
+},
+{
+"id": 24655526,
+"brand": "ZO Skin Health",
+"name": "Daily Power Defense & Smart Tone",
+"name_ru": null,
+"dept": "face",
+"vol": "15 ml",
+"type": "cream",
+"need": "",
+"price": 255,
 "stock": 1
+},
+{
+"id": 24655547,
+"brand": "ZO Skin Health",
+"name": "Broad Spectrum Sunscreen SPF50",
+"name_ru": null,
+"dept": "face",
+"vol": "",
+"type": "spf",
+"need": "",
+"price": 190,
+"stock": 1,
+"barcode": "810866014062"
+},
+{
+"id": 24655557,
+"brand": "ZO Skin Health",
+"name": "Firming Serum",
+"name_ru": null,
+"dept": "face",
+"vol": "47 ml",
+"type": "serum",
+"need": "",
+"price": 650,
+"stock": 1,
+"barcode": "810866012389"
 },
 {
 "id": 25142635,
@@ -215,7 +658,8 @@
 "type": "cream",
 "need": "antiage",
 "price": 250,
-"stock": 1
+"stock": 1,
+"barcode": "7290018221891"
 },
 {
 "id": 25142642,
@@ -227,7 +671,8 @@
 "type": "cream",
 "need": "antiage",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "7290018221983"
 },
 {
 "id": 25142649,
@@ -239,7 +684,8 @@
 "type": "cream",
 "need": "acne",
 "price": 60,
-"stock": 1
+"stock": 1,
+"barcode": "7290019465768"
 },
 {
 "id": 25142655,
@@ -251,7 +697,8 @@
 "type": "serum",
 "need": "antiage",
 "price": 110,
-"stock": 1
+"stock": 1,
+"barcode": "7290018221501"
 },
 {
 "id": 25142666,
@@ -275,7 +722,8 @@
 "type": "cleanser",
 "need": "",
 "price": 50,
-"stock": 1
+"stock": 1,
+"barcode": "7290018221198"
 },
 {
 "id": 25142745,
@@ -287,7 +735,8 @@
 "type": "cream",
 "need": "sensitive",
 "price": 60,
-"stock": 1
+"stock": 1,
+"barcode": "7290019465775"
 },
 {
 "id": 25142764,
@@ -299,7 +748,8 @@
 "type": "mask",
 "need": "dry",
 "price": 45,
-"stock": 1
+"stock": 1,
+"barcode": "7290015443333"
 },
 {
 "id": 25142774,
@@ -311,7 +761,8 @@
 "type": "eye",
 "need": "",
 "price": 170,
-"stock": 1
+"stock": 1,
+"barcode": "7290019465119"
 },
 {
 "id": 25142785,
@@ -323,7 +774,8 @@
 "type": "cream",
 "need": "dry",
 "price": 150,
-"stock": 1
+"stock": 1,
+"barcode": "7290019465096"
 },
 {
 "id": 25142811,
@@ -335,7 +787,8 @@
 "type": "spf",
 "need": "",
 "price": 150,
-"stock": 2
+"stock": 2,
+"barcode": "7290019465577"
 },
 {
 "id": 25142819,
@@ -347,7 +800,8 @@
 "type": "cream",
 "need": "sensitive",
 "price": 60,
-"stock": 1
+"stock": 1,
+"barcode": "7290019465102"
 },
 {
 "id": 25142825,
@@ -359,19 +813,47 @@
 "type": "peel",
 "need": "",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "7290019465546"
 },
 {
 "id": 25369627,
 "brand": "Dermalogica",
 "name": "All Time Greats To Go",
-"name_ru": "Дорожный набор бестселлеров All Time Greats",
+"name_ru": null,
 "dept": "face",
 "vol": "",
 "type": "kit",
 "need": "",
 "price": 55,
-"stock": 1
+"stock": 1,
+"barcode": "666151915756"
+},
+{
+"id": 25669126,
+"brand": "Dermalogica",
+"name": "Daily Milkfoliant",
+"name_ru": null,
+"dept": "face",
+"vol": "13 g",
+"type": "peel",
+"need": "",
+"price": 55,
+"stock": 1,
+"barcode": "666151112780"
+},
+{
+"id": 25669192,
+"brand": "Dermalogica",
+"name": "Liquid peelfoliant",
+"name_ru": null,
+"dept": "face",
+"vol": "59 ml",
+"type": "peel",
+"need": "",
+"price": 165,
+"stock": 1,
+"barcode": "666151113060"
 },
 {
 "id": 25681850,
@@ -383,7 +865,8 @@
 "type": "cream",
 "need": "dry",
 "price": 120,
-"stock": 1
+"stock": 1,
+"barcode": "7290015443807"
 },
 {
 "id": 25681851,
@@ -395,7 +878,21 @@
 "type": "cream",
 "need": "bright",
 "price": 145,
-"stock": 1
+"stock": 1,
+"barcode": "7290015443012"
+},
+{
+"id": 25895623,
+"brand": "GIGI",
+"name": "ESTER C sebotherapy",
+"name_ru": null,
+"dept": "face",
+"vol": "50 ml",
+"type": "cream",
+"need": "",
+"price": 150,
+"stock": 1,
+"barcode": "7290015443036"
 },
 {
 "id": 25895630,
@@ -407,7 +904,8 @@
 "type": "toner",
 "need": "",
 "price": 130,
-"stock": 1
+"stock": 1,
+"barcode": "7290019465355"
 },
 {
 "id": 25895638,
@@ -419,7 +917,8 @@
 "type": "spf",
 "need": "",
 "price": 160,
-"stock": 1
+"stock": 1,
+"barcode": "7290019465614"
 },
 {
 "id": 25895877,
@@ -431,7 +930,8 @@
 "type": "mask",
 "need": "",
 "price": 180,
-"stock": 1
+"stock": 1,
+"barcode": "7290019465485"
 },
 {
 "id": 25895882,
@@ -443,7 +943,47 @@
 "type": "serum",
 "need": "",
 "price": 180,
-"stock": 1
+"stock": 1,
+"barcode": "7290019465126"
+},
+{
+"id": 25895891,
+"brand": "GIGI",
+"name": "Acnon spotless skin refresher for oily problematic skin",
+"name_ru": null,
+"dept": "face",
+"vol": "",
+"type": "cream",
+"need": "",
+"price": 160,
+"stock": 1,
+"barcode": "7290015443210"
+},
+{
+"id": 25895896,
+"brand": "GIGI",
+"name": "Acnon blemish cover stik",
+"name_ru": null,
+"dept": "face",
+"vol": "",
+"type": "cream",
+"need": "",
+"price": 130,
+"stock": 1,
+"barcode": "7290019465911"
+},
+{
+"id": 25895907,
+"brand": "GIGI",
+"name": "Acnon triple acidrapid wipes",
+"name_ru": null,
+"dept": "face",
+"vol": "",
+"type": "cream",
+"need": "",
+"price": 150,
+"stock": 1,
+"barcode": "7290016914580"
 },
 {
 "id": 25494550,

@@ -1,12 +1,14 @@
 {
- "started": "2026-11-08T19:54:48+00:00",
+ "started": "2026-11-08T21:40:19+00:00",
  "steps": [
   "Авторизация: ок",
   "Категорий: 12",
   "Товаров в Altegio: 3869",
-  "Товаров брендов магазина: 962",
-  "Поля товара: actual_amounts, actual_cost, article, barcode, category, category_id, comment, cost, critical_amount, desired_amount, good_id, is_chain, is_goods_mark_enabled, label, last_change_date, loyalty_abonement_type_id, loyalty_allow_empty_code, loyalty_certificate_type, loyalty_certificate_type_id, loyalty_expiration_type_id, loyalty_serial_number_limited, salon_id, service_unit_id, service_unit_short_title, title, unit_actual_cost, unit_actual_cost_format, unit_equals, unit_id, unit_short_title, value"
+  "Товаров брендов магазина: 1220",
+  "Поля товара: actual_amounts, actual_cost, article, barcode, category, category_id, comment, cost, critical_amount, desired_amount, good_id, is_chain, is_goods_mark_enabled, label, last_change_date, loyalty_abonement_type_id, loyalty_allow_empty_code, loyalty_certificate_type, loyalty_certificate_type_id, loyalty_expiration_type_id, loyalty_serial_number_limited, salon_id, service_unit_id, service_unit_short_title, title, unit_actual_cost, unit_actual_cost_format, unit_equals, unit_id, unit_short_title, value",
+  "Поля услуги: abonement_restriction, active, category_id, comment, composite_details, discount, id, image, images, is_chain, is_composite, payment_policy_applicable, prepaid, prepaid_settings, price_max, price_min, seance_length, sex, title, weight",
+  "Услуг: 331 (book_services), категорий: 21"
  ],
  "ok": true,
- "finished": "2026-11-08T19:55:03+00:00"
+ "finished": "2026-11-08T21:40:37+00:00"
 }
