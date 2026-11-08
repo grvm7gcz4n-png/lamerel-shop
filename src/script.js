@@ -460,20 +460,20 @@ en:{home:'Home',salon:'Salon',shop:'Shop',book:'Book online',
 };
 // направления: группы категорий Altegio
 const DIRS=[
- {k:'offers',ic:'%',n:{ru:'Спецпредложения',ka:'სპეც. შეთავაზებები',en:'Special offers'},c:[13490722]},
- {k:'laser',ic:'✳',n:{ru:'Лазерная эпиляция',ka:'ლაზერული ეპილაცია',en:'Laser hair removal'},c:[7239117,7239112,12906472,13644329,6543931,13903235]},
- {k:'electro',ic:'ϟ',n:{ru:'Электроэпиляция',ka:'ელექტროეპილაცია',en:'Electrolysis'},c:[13234291]},
- {k:'hair',ic:'✂',n:{ru:'Волосы',ka:'თმა',en:'Hair'},c:[13489348,10853988]},
- {k:'nails',ic:'✦',n:{ru:'Маникюр и педикюр',ka:'მანიკიური და პედიკიური',en:'Manicure & pedicure'},c:[7239103]},
- {k:'podo',ic:'◦',n:{ru:'Подология',ka:'პოდოლოგია',en:'Podiatry'},c:[13534059]},
- {k:'cosm',ic:'◌',n:{ru:'Косметология',ka:'კოსმეტოლოგია',en:'Cosmetology'},c:[7072531,13292037]},
- {k:'inj',ic:'◇',n:{ru:'Инъекционная косметология',ka:'ინექციური კოსმეტოლოგია',en:'Injection cosmetology'},c:[10853987]},
- {k:'wax',ic:'○',n:{ru:'Депиляция воском и нитью',ka:'ცვილით და ძაფით დეპილაცია',en:'Waxing & threading'},c:[7239107,12906474,7171919]},
- {k:'massage',ic:'≈',n:{ru:'Массаж и коррекция тела',ka:'მასაჟი და სხეულის კორექცია',en:'Massage & body'},c:[7072522]},
- {k:'brows',ic:'⌒',n:{ru:'Брови и ресницы',ka:'წარბები და წამწამები',en:'Brows & lashes'},c:[7171915,7171916]},
- {k:'pmu',ic:'∕',n:{ru:'Перманентный макияж',ka:'პერმანენტული მაკიაჟი',en:'Permanent make-up'},c:[7239104]},
- {k:'makeup',ic:'◐',n:{ru:'Макияж',ka:'მაკიაჟი',en:'Make-up'},c:[7239108]},
- {k:'sol',ic:'☀',n:{ru:'Коллагеновый солярий',ka:'კოლაგენური სოლარიუმი',en:'Collagen solarium'},c:[12906473]}
+ {k:'offers',ic:'🎁',n:{ru:'Спецпредложения',ka:'სპეც. შეთავაზებები',en:'Special offers'},c:[13490722]},
+ {k:'laser',ic:'✨',n:{ru:'Лазерная эпиляция',ka:'ლაზერული ეპილაცია',en:'Laser hair removal'},c:[7239117,7239112,12906472,13644329,6543931,13903235]},
+ {k:'electro',ic:'⚡',n:{ru:'Электроэпиляция',ka:'ელექტროეპილაცია',en:'Electrolysis'},c:[13234291]},
+ {k:'hair',ic:'💇‍♀️',n:{ru:'Волосы',ka:'თმა',en:'Hair'},c:[13489348,10853988]},
+ {k:'nails',ic:'💅',n:{ru:'Маникюр и педикюр',ka:'მანიკიური და პედიკიური',en:'Manicure & pedicure'},c:[7239103]},
+ {k:'podo',ic:'🦶',n:{ru:'Подология',ka:'პოდოლოგია',en:'Podiatry'},c:[13534059]},
+ {k:'cosm',ic:'🧖‍♀️',n:{ru:'Косметология',ka:'კოსმეტოლოგია',en:'Cosmetology'},c:[7072531,13292037]},
+ {k:'inj',ic:'💉',n:{ru:'Инъекционная косметология',ka:'ინექციური კოსმეტოლოგია',en:'Injection cosmetology'},c:[10853987]},
+ {k:'wax',ic:'🍯',n:{ru:'Депиляция воском и нитью',ka:'ცვილით და ძაფით დეპილაცია',en:'Waxing & threading'},c:[7239107,12906474,7171919]},
+ {k:'massage',ic:'💆‍♀️',n:{ru:'Массаж и коррекция тела',ka:'მასაჟი და სხეულის კორექცია',en:'Massage & body'},c:[7072522]},
+ {k:'brows',ic:'👁️',n:{ru:'Брови и ресницы',ka:'წარბები და წამწამები',en:'Brows & lashes'},c:[7171915,7171916]},
+ {k:'pmu',ic:'✍️',n:{ru:'Перманентный макияж',ka:'პერმანენტული მაკიაჟი',en:'Permanent make-up'},c:[7239104]},
+ {k:'makeup',ic:'💄',n:{ru:'Макияж',ka:'მაკიაჟი',en:'Make-up'},c:[7239108]},
+ {k:'sol',ic:'☀️',n:{ru:'Коллагеновый солярий',ka:'კოლაგენური სოლარიუმი',en:'Collagen solarium'},c:[12906473]}
 ];
 let SV=null;S.dir='all';S.lsub='all';
 const LASERS=[
@@ -521,7 +521,7 @@ function renderHome(){
     <a class="hm-tile shop" href="#shop" data-go="shop"><span class="hm-n">02</span><h2>${L.shopT}</h2><p>${L.shopP}</p><span class="hm-a">${L.shopA} →</span></a>
   </section>
   <section class="wrap hm-sec"><h2 class="hm-h">${L.dirT}</h2>
-    <div class="dirs">${DIRS.filter(d=>d.k!=='offers').map(d=>`<a href="#salon" data-dir="${d.k}"><span class="ic" aria-hidden="true">${d.ic}</span>${d.n[S.lang]}</a>`).join('')}</div>
+    <div class="dirs">${DIRS.map(d=>`<a href="#salon" data-dir="${d.k}"><span class="ic" aria-hidden="true">${d.ic}</span>${d.n[S.lang]}</a>`).join('')}</div>
   </section>
   <section class="wrap hm-sec hm-about"><h2 class="hm-h">${L.aboutT}</h2>
     <div class="ab-grid"><div>${L.about.map(p=>`<p>${p}</p>`).join('')}</div>
@@ -552,7 +552,7 @@ function renderSalon(){
   $('#salon').innerHTML=`<div class="wrap sec">
     <div class="sec-h"><div><h2>${L.svcT}</h2></div><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a></div>
     <p class="svnote">${L.svcNote}</p>
-    <div class="subrow dirrow">${['all',...dirs.map(d=>d.k)].map(k=>`<button class="schip dchip${k==='offers'?' hot':''}" data-dir="${k}" aria-pressed="${S.dir===k}">${k==='all'?L.allSvc:DIRS.find(d=>d.k===k).n[S.lang]}</button>`).join('')}</div>
+    <div class="subrow dirrow">${['all',...dirs.map(d=>d.k)].map(k=>`<button class="schip dchip${k==='offers'?' hot':''}" data-dir="${k}" aria-pressed="${S.dir===k}">${k==='all'?L.allSvc:`<span class="di" aria-hidden="true">${DIRS.find(d=>d.k===k).ic}</span>`+DIRS.find(d=>d.k===k).n[S.lang]}</button>`).join('')}</div>
     ${S.dir==='laser'?laserIntro(svs):''}
     ${svs.length?(byCat.length?byCat.map(c=>`<details class="svcat"${S.dir!=='all'||q?' open':''}><summary><h3>${esc(svN(c))}<span>${list.filter(x=>x.cat===c.id).length}</span></h3></summary>
       <ul class="svl">${list.filter(x=>x.cat===c.id).sort((a,b)=>(a.w||0)-(b.w||0)||svN(a).localeCompare(svN(b))).map(x=>`<li><div class="svn">${esc(svN(x))}${durFmt(x.dur)?`<small>${durFmt(x.dur)}</small>`:''}</div><div class="svp">${priceFmt(x)}</div><a class="svb" href="${bookSvc(x.id)}" target="_blank" rel="noopener">${L.bookS}</a></li>`).join('')}</ul></details>`).join(''):`<p class="empty">${L.noSvc}</p>`):`<p class="empty">${L.svcEmpty}</p>`}
