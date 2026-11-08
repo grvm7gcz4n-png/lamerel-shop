@@ -91,6 +91,8 @@ def products():
         if not price: continue
         dept=dept_of(pid,name,typ,need) if (need or pid in P) else 'hair'
         item=dict(id=pid,brand=brand,name=name,name_ru=ru or auto_ru(name,typ,need or 'repair' if pid not in P else need),dept=dept,vol=vol,type=typ,need=need,price=price,stock=max(0,int(stock)))
+        bc=(live or {}).get(str(pid),{}).get('barcode','')
+        if bc: item['barcode']=str(bc).strip()
         for ext in ('webp','jpg','png'):
             if os.path.exists(os.path.join(ROOT,'photos',f'{pid}.{ext}')):
                 item['img']=f'photos/{pid}.{ext}'; break

@@ -128,7 +128,7 @@ function filtered(){
     else if(S.dept==='fav'){if(!S.fav.includes(p.id))return false}
     else if(S.dept!=='all'&&p.dept!==S.dept)return false;
     if(S.dept==='hair'&&NAV[S.cat]&&!NAV[S.cat].includes(p.type))return false;
-    if(q&&!(p.brand+' '+p.name+' '+(p.name_ru||'')+' '+desc(p)).toLowerCase().includes(q))return false;
+    if(q&&!(p.brand+' '+p.name+' '+(p.name_ru||'')+' '+(p.barcode||'')+' '+desc(p)).toLowerCase().includes(q))return false;
     return true});
   const nm=(x,y)=>(x.brand+x.name).localeCompare(y.brand+y.name);
   a.sort((x,y)=>S.sort==='cheap'?x.price-y.price:S.sort==='exp'?y.price-x.price:S.sort==='name'?nm(x,y):((inStock(y)-inStock(x))||nm(x,y)));
@@ -141,20 +141,21 @@ function renderGrid(){
   $('#secTitle').textContent=S.dept==='all'?L.hits:(S.dept==='hair'&&S.cat!=='all'?L.nav[S.cat]:L.dept[S.dept]);
   $('#count').textContent=L.items(items.length);
   if(!items.length){$('#grid').innerHTML=`<p class="empty">${S.dept==='fav'?L.favEmpty:(SOON.includes(S.dept)&&!S.q&&S.brand==='all'?L.soon:L.empty)}</p>`;return}
-  $('#grid').innerHTML=items.map(p=>{
+  $('#grid').innerHTML=items.map(cardHTML).join('');
+}
+function cardHTML(p){const L=t();
     const ok=inStock(p),fav=S.fav.includes(p.id);
     return `<article class="card${ok?'':' out'}">
-      <div class="img">${pkg(p)}
+      <a class="img" href="#p-${p.id}" aria-label="${esc(p.brand+' '+nm(p))}">${pkg(p)}
         <div class="badges">${!ok?`<span class="badge out">${L.out}</span>`:''}</div>
         <button class="heart" data-fav="${p.id}" aria-pressed="${fav}" aria-label="${L.nav.fav}"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button>
-      </div>
+      </a>
       <div class="brand">${esc(p.brand)}</div>
-      <h3 class="pname">${esc(nm(p))}</h3>
+      <h3 class="pname"><a href="#p-${p.id}">${esc(nm(p))}</a></h3>
       <div class="pmeta">${desc(p)}${p.vol?' · '+esc(p.vol):''}</div>
       <div class="price"><b>${fmt(p.price)}</b></div>
       <button class="add" data-add="${p.id}" id="add-${p.id}" ${ok?'':'disabled'}>${ok?L.add:L.out}</button>
-    </article>`}).join('');
-}
+    </article>`}
 function counts(){
   const n=S.cart.reduce((a,l)=>a+l.q,0);$('#cartCount').textContent=n||'';$('#favCount').textContent=S.fav.length||'';
 }
@@ -229,12 +230,13 @@ function placeOrder(){
 
 document.addEventListener('click',e=>{
   const el=e.target.closest('button,a');if(!el)return;const d=el.dataset;if(el.classList.contains('ban'))e.preventDefault();
-  if(d.lang){S.lang=d.lang;ls.set('lml-lang',S.lang);renderStatic();renderGrid();if(!$('#drawer').hidden)renderCart()}
+  if((d.dept||d.cat||d.brand||el.id==='favBtn')&&/^#p-/.test(location.hash)){history.pushState('',document.title,location.pathname+location.search);route()}
+  if(d.lang){S.lang=d.lang;ls.set('lml-lang',S.lang);renderStatic();renderGrid();refreshP();if(!$('#drawer').hidden)renderCart()}
   else if(d.dept){S.dept=d.dept;S.cat='all';S.brand='all';renderStatic();renderGrid();if(el.closest('#hero'))$('#catalog').scrollIntoView({behavior:'smooth'})}
   else if(d.cat){S.cat=d.cat;renderStatic();renderGrid()}
   else if(d.brand){S.brand=d.brand;renderStatic();renderGrid()}
   else if(d.add)add(+d.add);
-  else if(d.fav){const id=+d.fav;S.fav=S.fav.includes(id)?S.fav.filter(x=>x!==id):[...S.fav,id];ls.set('lml-fav',S.fav);counts();renderGrid()}
+  else if(d.fav){const id=+d.fav;S.fav=S.fav.includes(id)?S.fav.filter(x=>x!==id):[...S.fav,id];ls.set('lml-fav',S.fav);counts();renderGrid();refreshP()}
   else if(d.inc){const l=S.cart[+d.inc],p=byId(l.id);if(l.q<(p?p.stock:0))l.q++;ls.set('lml-cart',S.cart);counts();renderCart()}
   else if(d.dec){const i=+d.dec;S.cart[i].q--;if(!S.cart[i].q)S.cart.splice(i,1);ls.set('lml-cart',S.cart);counts();renderCart()}
   else if(el.id==='openCart')openCart();
@@ -249,9 +251,134 @@ document.addEventListener('click',e=>{
 });
 $('#scrim').addEventListener('click',closeCart);
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeCart()});
-['#q','#q2'].forEach(id=>$(id).addEventListener('input',e=>{S.q=e.target.value;$('#q').value=$('#q2').value=S.q;renderGrid()}));
+['#q','#q2'].forEach(id=>$(id).addEventListener('input',e=>{S.q=e.target.value;$('#q').value=$('#q2').value=S.q;if(/^#p-/.test(location.hash)){history.pushState('',document.title,location.pathname+location.search);route()}renderGrid()}));
 $('#sort').addEventListener('change',e=>{S.sort=e.target.value;renderGrid()});
 renderStatic();renderGrid();counts();
 fetch('products.json?v='+Date.now()).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{
-  P=d.products||[];UPDATED=d.updated||'';S.loaded=true;renderStatic();renderGrid();counts();
+  P=d.products||[];UPDATED=d.updated||'';S.loaded=true;renderStatic();renderGrid();counts();route();
 }).catch(()=>{S.err=true;renderGrid()});
+// ===== Страница товара (#p-<id>) =====
+const PT={
+ru:{home:'Главная',code:'Код товара',barcode:'Штрихкод',brandL:'Бренд',vol:'Объём',typeL:'Тип средства',needL:'Назначение',
+  tabs:{desc:'Описание',use:'Как применять',brand:'О бренде'},inStock:'В наличии',outStock:'Нет в наличии — привезём под заказ',
+  similar:'Похожие товары',back:'← Назад к каталогу',notFound:'Товар не найден. Возможно, его убрали из каталога.',share:'Скопировать ссылку',copied:'Ссылка скопирована',
+  note:'Описание носит общий характер. Точный состав и рекомендации — на упаковке.',
+  lead:(t,b)=>`${t} ${b} — профессиональный уход, которым работают в салонах. Подходит для домашнего ухода между визитами к стилисту.`},
+ka:{home:'მთავარი',code:'პროდუქტის კოდი',barcode:'შტრიხკოდი',brandL:'ბრენდი',vol:'მოცულობა',typeL:'საშუალების ტიპი',needL:'დანიშნულება',
+  tabs:{desc:'აღწერა',use:'გამოყენება',brand:'ბრენდის შესახებ'},inStock:'მარაგშია',outStock:'არ არის მარაგში — შეკვეთით ჩამოვიტანთ',
+  similar:'მსგავსი პროდუქტები',back:'← კატალოგში დაბრუნება',notFound:'პროდუქტი ვერ მოიძებნა.',share:'ბმულის კოპირება',copied:'ბმული დაკოპირდა',
+  note:'აღწერა ზოგადი ხასიათისაა. ზუსტი შემადგენლობა და რეკომენდაციები — შეფუთვაზე.',
+  lead:(t,b)=>`${t} ${b} — პროფესიონალური მოვლა, რომელსაც სალონებში იყენებენ. შესაფერისია სახლის მოვლისთვის სტილისტთან ვიზიტებს შორის.`},
+en:{home:'Home',code:'Product code',barcode:'Barcode',brandL:'Brand',vol:'Size',typeL:'Product type',needL:'Concern',
+  tabs:{desc:'Description',use:'How to use',brand:'About the brand'},inStock:'In stock',outStock:'Out of stock — available to order',
+  similar:'You may also like',back:'← Back to the catalogue',notFound:'Product not found. It may have been removed.',share:'Copy link',copied:'Link copied',
+  note:'General description. See the pack for exact ingredients and directions.',
+  lead:(t,b)=>`${t} by ${b} — professional care used in salons. Suitable for home care between stylist visits.`}
+};
+const BENEFIT={
+ blonde:{ru:'Нейтрализует желтизну, сохраняет чистый оттенок светлых и осветлённых волос и делает их мягкими и блестящими.',ka:'ანეიტრალებს სიყვითლეს, ინარჩუნებს ქერა და გაღიავებული თმის სუფთა ელფერს და ხდის მას რბილს და ბზინვარეს.',en:'Neutralises brassiness, keeps blonde and lightened hair a clean shade and leaves it soft and shiny.'},
+ repair:{ru:'Восстанавливает повреждённые волосы, укрепляет их структуру, уменьшает ломкость и возвращает мягкость.',ka:'აღადგენს დაზიანებულ თმას, აძლიერებს მის სტრუქტურას, ამცირებს მტვრევადობას და უბრუნებს სირბილეს.',en:'Repairs damaged hair, strengthens its structure, reduces breakage and restores softness.'},
+ volume:{ru:'Придаёт объём от корней, делает тонкие волосы плотнее на вид и не утяжеляет их.',ka:'ძირებიდან აძლევს მოცულობას, თხელ თმას ვიზუალურად ამკვრივებს და არ ამძიმებს.',en:'Adds volume from the roots and makes fine hair look thicker without weighing it down.'},
+ curls:{ru:'Подчёркивает и разделяет локоны, увлажняет и уменьшает пушистость кудрявых и вьющихся волос.',ka:'გამოკვეთს და ჰყოფს კულულებს, ატენიანებს და ამცირებს ხვეული თმის აბურძგვნას.',en:'Defines and separates curls, hydrates and reduces frizz in curly and wavy hair.'},
+ hairloss:{ru:'Помогает уменьшить выпадение волос, тонизирует кожу головы и поддерживает рост здоровых волос.',ka:'ხელს უწყობს თმის ცვენის შემცირებას, ატონიზირებს სკალპს და ხელს უწყობს ჯანსაღი თმის ზრდას.',en:'Helps reduce hair loss, energises the scalp and supports healthy growth.'},
+ shine:{ru:'Дарит волосам зеркальный блеск, разглаживает поверхность волоса и облегчает расчёсывание.',ka:'თმას აძლევს სარკისებრ ბზინვარებას, ასწორებს თმის ზედაპირს და აადვილებს დავარცხნას.',en:'Gives hair a mirror shine, smooths the hair surface and makes combing easier.'},
+ oily:{ru:'Мягко очищает кожу головы, регулирует выработку себума и сохраняет свежесть волос дольше.',ka:'რბილად წმენდს სკალპს, არეგულირებს ცხიმის გამოყოფას და თმას დიდხანს ინარჩუნებს სუფთად.',en:'Gently cleanses the scalp, balances oil production and keeps hair fresh for longer.'},
+ dry:{ru:'Глубоко увлажняет и питает сухие волосы, делает их мягкими, эластичными и послушными.',ka:'ღრმად ატენიანებს და კვებავს მშრალ თმას, ხდის მას რბილს, ელასტიურს და დამყოლს.',en:'Deeply hydrates and nourishes dry hair, leaving it soft, supple and manageable.'},
+ color:{ru:'Защищает цвет окрашенных волос от вымывания и тусклости, сохраняет яркость оттенка.',ka:'იცავს შეღებილი თმის ფერს ჩამორეცხვისა და მქრქალობისგან, ინარჩუნებს ელფერის სიკაშკაშეს.',en:'Protects colour-treated hair from fading and dullness and keeps the shade vibrant.'},
+ scalp:{ru:'Освежает и очищает кожу головы, снимает дискомфорт и создаёт условия для здоровых волос.',ka:'აგრილებს და წმენდს სკალპს, ხსნის დისკომფორტს და ქმნის პირობებს ჯანსაღი თმისთვის.',en:'Refreshes and cleanses the scalp, soothes discomfort and creates the conditions for healthy hair.'},
+ hold:{ru:'Надёжно фиксирует укладку, сохраняет форму в течение дня и легко удаляется расчёсыванием.',ka:'საიმედოდ აფიქსირებს ვარცხნილობას, ინარჩუნებს ფორმას მთელი დღე და ადვილად შორდება დავარცხნით.',en:'Holds the style securely all day and brushes out easily.'},
+ heat:{ru:'Защищает волосы от высоких температур фена, утюжка и плойки, предотвращает пересушивание.',ka:'იცავს თმას ფენის, უთოსა და სახვევის მაღალი ტემპერატურისგან, ხელს უშლის გამოშრობას.',en:'Protects hair from the heat of dryers, straighteners and curling irons and prevents drying out.'}
+};
+const USE={
+ shampoo:{ru:'Нанесите на влажные волосы, вспеньте массажными движениями и смойте. При необходимости повторите.',ka:'წაისვით სველ თმაზე, მასაჟური მოძრაობებით აქაფეთ და ჩამოიბანეთ. საჭიროების შემთხვევაში გაიმეორეთ.',en:'Apply to wet hair, massage into a lather and rinse. Repeat if needed.'},
+ conditioner:{ru:'После шампуня нанесите на длины и кончики, оставьте на 1–3 минуты и смойте.',ka:'შამპუნის შემდეგ წაისვით თმის სიგრძეზე და ბოლოებზე, დატოვეთ 1–3 წუთით და ჩამოიბანეთ.',en:'After shampooing, apply to the lengths and ends, leave for 1–3 minutes and rinse.'},
+ mask:{ru:'Нанесите на чистые влажные волосы, оставьте на 5–10 минут и тщательно смойте. Используйте 1–2 раза в неделю.',ka:'წაისვით სუფთა სველ თმაზე, დატოვეთ 5–10 წუთით და კარგად ჩამოიბანეთ. გამოიყენეთ კვირაში 1–2-ჯერ.',en:'Apply to clean, damp hair, leave for 5–10 minutes and rinse thoroughly. Use 1–2 times a week.'},
+ leavein:{ru:'Нанесите на влажные или сухие волосы по длине. Не смывайте, затем приступайте к укладке.',ka:'წაისვით სველ ან მშრალ თმაზე სიგრძეზე. არ ჩამოიბანოთ, შემდეგ დაიწყეთ დავარცხნა.',en:'Apply to damp or dry hair through the lengths. Do not rinse; style as usual.'},
+ oil:{ru:'Разотрите несколько капель в ладонях и распределите по длинам и кончикам влажных или сухих волос.',ka:'რამდენიმე წვეთი გაზილეთ ხელისგულებში და გაანაწილეთ სველი ან მშრალი თმის სიგრძეზე და ბოლოებზე.',en:'Warm a few drops between your palms and smooth through the lengths and ends of damp or dry hair.'},
+ serum:{ru:'Нанесите небольшое количество на волосы или кожу головы, как указано на упаковке. Не смывайте.',ka:'წაისვით მცირე რაოდენობა თმაზე ან სკალპზე, როგორც შეფუთვაზეა მითითებული. არ ჩამოიბანოთ.',en:'Apply a small amount to hair or scalp as directed on the pack. Do not rinse.'},
+ styling:{ru:'Нанесите на влажные или сухие волосы перед укладкой или для завершения образа. Количество подбирайте по длине и густоте волос.',ka:'წაისვით სველ ან მშრალ თმაზე დავარცხნამდე ან ვარცხნილობის დასასრულებლად. რაოდენობა შეარჩიეთ თმის სიგრძისა და სიხშირის მიხედვით.',en:'Apply to damp or dry hair before styling or as a finishing touch. Adjust the amount to your hair length and density.'},
+ ampoule:{ru:'Используйте курсом по инструкции на упаковке или по рекомендации вашего стилиста.',ka:'გამოიყენეთ კურსად შეფუთვაზე მითითებული ინსტრუქციით ან თქვენი სტილისტის რეკომენდაციით.',en:'Use as a course following the pack instructions or your stylist’s advice.'},
+ tonic:{ru:'Нанесите на кожу головы по проборам и помассируйте. Не смывайте.',ka:'წაისვით სკალპზე გაყოფის ხაზებზე და დაიზილეთ. არ ჩამოიბანოთ.',en:'Apply to the scalp section by section and massage in. Do not rinse.'},
+ perfume:{ru:'Распылите на волосы с расстояния 20–30 см.',ka:'მოასხურეთ თმაზე 20–30 სმ-ის მანძილიდან.',en:'Spray onto hair from 20–30 cm away.'},
+ _:{ru:'Используйте по инструкции на упаковке.',ka:'გამოიყენეთ შეფუთვაზე მითითებული ინსტრუქციით.',en:'Use according to the instructions on the pack.'}
+};
+const BRANDINFO={
+ 'Davines':{ru:'Итальянский бренд из Пармы. Davines создаёт профессиональный уход и стайлинг с натуральными ингредиентами и заботой об экологии.',ka:'იტალიური ბრენდი პარმიდან. Davines ქმნის პროფესიონალურ მოვლასა და სტაილინგს ნატურალური ინგრედიენტებით და ეკოლოგიაზე ზრუნვით.',en:'An Italian brand from Parma. Davines makes professional care and styling with natural ingredients and a focus on sustainability.'},
+ 'Kérastase':{ru:'Французский бренд профессионального ухода класса люкс. Kérastase используют в салонах по всему миру для индивидуальных ритуалов ухода.',ka:'ფრანგული ლუქს-კლასის პროფესიონალური მოვლის ბრენდი. Kérastase-ს იყენებენ სალონებში მთელ მსოფლიოში.',en:'A French luxury professional hair care brand used in salons worldwide for tailored care rituals.'},
+ "L'Oréal Professionnel":{ru:'Французский профессиональный бренд. Средства L’Oréal Professionnel созданы для работы стилистов и домашнего ухода между визитами.',ka:'ფრანგული პროფესიონალური ბრენდი. L’Oréal Professionnel-ის საშუალებები შექმნილია სტილისტებისთვის და სახლის მოვლისთვის.',en:'A French professional brand made for stylists and for home care between salon visits.'},
+ 'Keune':{ru:'Нидерландский профессиональный бренд с многолетней историей. Keune известен уходом, окрашиванием и стайлингом для салонов.',ka:'ნიდერლანდური პროფესიონალური ბრენდი ხანგრძლივი ისტორიით. Keune ცნობილია მოვლის, შეღებვისა და სტაილინგის საშუალებებით.',en:'A Dutch professional brand with a long history, known for salon care, colour and styling.'},
+ 'CHI':{ru:'Американский профессиональный бренд. CHI известен шёлковыми комплексами и средствами для укладки и термозащиты.',ka:'ამერიკული პროფესიონალური ბრენდი. CHI ცნობილია აბრეშუმის კომპლექსებით, სტაილინგისა და თერმოდაცვის საშუალებებით.',en:'An American professional brand known for its silk treatments, styling and heat protection.'},
+ 'BRAE':{ru:'Бразильский профессиональный бренд ухода за волосами. BRAE создаёт восстанавливающие и уходовые линии для салонов и дома.',ka:'ბრაზილიური პროფესიონალური თმის მოვლის ბრენდი. BRAE ქმნის აღმდგენ და მომვლელ ხაზებს სალონისა და სახლისთვის.',en:'A Brazilian professional hair care brand making repair and care ranges for salon and home.'},
+ "Philip Martin's":{ru:'Итальянский бренд натуральной профессиональной косметики для волос и тела.',ka:'იტალიური ბრენდი, ნატურალური პროფესიონალური კოსმეტიკა თმისა და სხეულისთვის.',en:'An Italian brand of natural professional cosmetics for hair and body.'},
+ 'Balmain':{ru:'Balmain Hair Couture — линия ухода, стайлинга и аксессуаров для волос от модного дома Balmain.',ka:'Balmain Hair Couture — Balmain-ის მოდის სახლის თმის მოვლის, სტაილინგისა და აქსესუარების ხაზი.',en:'Balmain Hair Couture — the hair care, styling and accessories line from the Balmain fashion house.'},
+ 'MOCHEQI':{ru:'MOCHEQI Musk — уходовая косметика для волос: шампуни, кондиционеры, маски и масла для ежедневного ухода.',ka:'MOCHEQI Musk — თმის მოვლის კოსმეტიკა: შამპუნები, კონდიციონერები, ნიღბები და ზეთები ყოველდღიური მოვლისთვის.',en:'MOCHEQI Musk — hair care for every day: shampoos, conditioners, masks and oils.'}
+};
+const tr=(o)=>o?(o[S.lang]||o.ru):'';
+const navOf=p=>Object.keys(NAV).find(k=>NAV[k].includes(p.type));
+
+function productHTML(p){
+  const L=t(),Q=PT[S.lang],ok=inStock(p),fav=S.fav.includes(p.id);
+  const typeName=L.type[p.type]||'';
+  const crumbs=[`<a href="#" data-home="1">${Q.home}</a>`];
+  if(p.dept){crumbs.push(`<a href="#catalog" data-crumb-dept="${p.dept}">${L.dept[p.dept]||''}</a>`)}
+  const sub=p.dept==='hair'?navOf(p):null;
+  if(sub)crumbs.push(`<a href="#catalog" data-crumb-sub="${sub}">${L.nav[sub]}</a>`);
+  crumbs.push(`<a href="#catalog" data-crumb-brand="${esc(p.brand)}" data-crumb-bdept="${p.dept||''}">${esc(p.brand)}</a>`);
+  const accL={ru:`${typeName} ${p.brand} — аксессуар для ухода за волосами и создания причёсок.`,ka:`${typeName} ${p.brand} — აქსესუარი თმის მოვლისა და ვარცხნილობისთვის.`,en:`${typeName} by ${p.brand} — a hair accessory for care and styling.`};
+  const descTxt=[(['accessory','tool'].includes(p.type)?accL[S.lang]:Q.lead(typeName,p.brand)),tr(BENEFIT[p.need]),(p.desc&&p.desc[S.lang])||''].filter(Boolean);
+  const sim=P.filter(x=>x.id!==p.id&&x.type===p.type&&(x.need===p.need||x.brand===p.brand)).sort((a,b)=>(inStock(b)-inStock(a))||((b.brand===p.brand)-(a.brand===p.brand))).slice(0,4);
+  const spec=[[Q.brandL,esc(p.brand)],[Q.typeL,typeName],p.need?[Q.needL,L.need[p.need]]:null,p.vol?[Q.vol,esc(p.vol)]:null,p.barcode?[Q.barcode,`<span class="mono">${esc(p.barcode)}</span>`]:null,[Q.code,String(p.id)]].filter(Boolean);
+  return `<nav class="crumbs" aria-label="breadcrumbs">${crumbs.join('<span>›</span>')}</nav>
+  <div class="pv">
+    <div class="pv-img img">${pkg(p)}</div>
+    <div class="pv-info">
+      <div class="brand">${esc(p.brand)}</div>
+      <h1 class="pv-name">${esc(nm(p))}</h1>
+      <div class="pmeta">${desc(p)}${p.vol?' · '+esc(p.vol):''}</div>
+      <div class="pv-price">${fmt(p.price)}</div>
+      <div class="pv-stock ${ok?'ok':'no'}">${ok?Q.inStock:Q.outStock}</div>
+      <div class="pv-actions">
+        <button class="add" data-add="${p.id}" id="add-${p.id}" ${ok?'':'disabled'}>${ok?L.add:L.out}</button>
+        <button class="pv-fav heart" data-fav="${p.id}" aria-pressed="${fav}" aria-label="${L.nav.fav}"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button>
+      </div>
+      <dl class="specs">${spec.map(([a,b])=>`<div><dt>${a}</dt><dd>${b}</dd></div>`).join('')}</dl>
+      <button class="linkbtn" id="shareP">${Q.share}</button>
+    </div>
+  </div>
+  <div class="pv-tabs" role="tablist">
+    ${['desc','use','brand'].map((k,i)=>`<button role="tab" data-ptab="${k}" aria-selected="${i===0}">${Q.tabs[k]}</button>`).join('')}
+  </div>
+  <div class="pv-panel" data-panel="desc">${descTxt.map(x=>`<p>${esc(x)}</p>`).join('')}<p class="pv-note">${Q.note}</p></div>
+  <div class="pv-panel" data-panel="use" hidden><p>${esc(tr(USE[p.type]||USE._))}</p></div>
+  <div class="pv-panel" data-panel="brand" hidden><p>${esc(tr(BRANDINFO[p.brand])||p.brand)}</p></div>
+  ${sim.length?`<h2 class="pv-h2">${Q.similar}</h2><div class="grid pv-sim">${sim.map(cardHTML).join('')}</div>`:''}
+  <p style="margin-top:28px"><a href="#" data-home="1" class="linkbtn">${Q.back}</a></p>`;
+}
+
+function refreshP(){const m=(location.hash||'').match(/^#p-(\d+)$/);if(m&&S.loaded){const y=scrollY;route();scrollTo(0,y)}}
+function route(){
+  const h=location.hash||'';const m=h.match(/^#p-(\d+)$/);
+  const pv=$('#pview'),cat=$('#catalog');
+  if(m&&S.loaded){
+    const p=byId(+m[1]);
+    pv.innerHTML=p?productHTML(p):`<p class="empty">${PT[S.lang].notFound}</p>`;
+    pv.hidden=false;cat.hidden=true;window.scrollTo(0,0);
+    document.title=p?`${p.brand} ${nm(p)} — LamereL Beauty Shop`:'LamereL Beauty Shop';
+  } else {
+    pv.hidden=true;cat.hidden=false;document.title='LamereL Beauty Shop';
+  }
+}
+window.addEventListener('hashchange',route);
+document.addEventListener('click',e=>{
+  const el=e.target.closest('[data-ptab],[data-home],[data-crumb-dept],[data-crumb-sub],[data-crumb-brand],#shareP');if(!el)return;
+  const d=el.dataset;
+  if(d.ptab){document.querySelectorAll('[data-ptab]').forEach(b=>b.setAttribute('aria-selected',b===el));document.querySelectorAll('.pv-panel').forEach(x=>x.hidden=x.dataset.panel!==d.ptab);return}
+  e.preventDefault();
+  if(el.id==='shareP'){const u=location.href;(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(()=>el.textContent=PT[S.lang].copied).catch(()=>{el.textContent=u});return}
+  if(d.home){S.dept='all';S.cat='all';S.brand='all'}
+  if(d.crumbDept){S.dept=d.crumbDept;S.cat='all';S.brand='all'}
+  if(d.crumbSub){S.dept='hair';S.cat=d.crumbSub;S.brand='all'}
+  if(d.crumbBrand){S.dept=d.crumbBdept||'all';S.cat='all';S.brand=d.crumbBrand}
+  history.pushState('',document.title,location.pathname+location.search);route();renderStatic();renderGrid();
+  $('#catalog').scrollIntoView();
+});

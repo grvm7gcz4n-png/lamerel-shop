@@ -190,6 +190,32 @@ form.co input,form.co select,form.co textarea{border:1px solid var(--line);backg
 .pkg.dark .lbl{color:rgba(255,255,255,.7)}
 
 /* responsive */
+a.img{color:inherit;text-decoration:none}
+.pname a{color:inherit;text-decoration:none}
+#pview{padding-top:20px;padding-bottom:48px}
+.crumbs{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+.crumbs a{color:var(--muted);text-decoration:none}.crumbs a:hover{color:var(--ink);text-decoration:underline}
+.pv{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:40px;align-items:start}
+.pv-img{aspect-ratio:1/1}
+.pv-info{display:flex;flex-direction:column;gap:8px}
+.pv-name{font-family:Unbounded,Onest,'Noto Sans Georgian',sans-serif;font-weight:500;font-size:26px;line-height:1.25;margin:0}
+.pv-price{font-size:28px;font-weight:800;margin-top:10px}
+.pv-stock{font-size:14px;font-weight:600}.pv-stock.ok{color:#2E6B3F}.pv-stock.no{color:var(--muted)}
+.pv-actions{display:flex;gap:10px;align-items:stretch;margin:10px 0 6px}
+.pv-actions .add{flex:1;max-width:340px}
+.pv-fav{position:static;border:1px solid var(--line);width:48px;height:auto}
+.specs{margin:12px 0 0;border-top:1px solid var(--line)}
+.specs div{display:grid;grid-template-columns:140px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}
+.specs dt{color:var(--muted)}.specs dd{margin:0}
+.mono{font-family:ui-monospace,Menlo,monospace;letter-spacing:.04em}
+.linkbtn{background:none;border:0;padding:0;color:var(--accent);font-size:14px;text-decoration:underline;cursor:pointer;align-self:flex-start;margin-top:8px}
+.pv-tabs{display:flex;gap:28px;border-bottom:1px solid var(--line);margin-top:44px;overflow-x:auto}
+.pv-tabs button{background:none;border:0;padding:12px 0;font-size:15px;font-weight:700;color:var(--muted);border-bottom:2px solid transparent;white-space:nowrap}
+.pv-tabs button[aria-selected="true"]{color:var(--ink);border-color:var(--ink)}
+.pv-panel{max-width:760px;padding:18px 0;font-size:15px;line-height:1.6}
+.pv-panel p{margin:0 0 12px}.pv-note{font-size:12px;color:var(--muted)}
+.pv-h2{font-size:20px;margin:40px 0 18px}
+@media (max-width:760px){.pv{grid-template-columns:1fr;gap:18px}.pv-name{font-size:20px}.specs div{grid-template-columns:120px 1fr}.pv-sim{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:980px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (max-width:760px){
   .hrow{grid-template-columns:auto 1fr auto;gap:8px}
@@ -245,6 +271,8 @@ form.co input,form.co select,form.co textarea{border:1px solid var(--line);backg
     <div class="brandrow" id="brandRow"></div>
     <div class="grid" id="grid"></div>
   </section>
+
+  <section class="wrap" id="pview" hidden></section>
 
   <section class="band"><div class="wrap" id="band"></div></section>
 </main>

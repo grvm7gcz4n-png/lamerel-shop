@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T20:38:14+00:00",
+"updated": "2026-11-08T21:06:17+00:00",
 "products": [
 {
 "id": 25494550,
@@ -11,7 +11,8 @@
 "type": "oil",
 "need": "shine",
 "price": 30,
-"stock": 0
+"stock": 0,
+"barcode": "633911788134"
 },
 {
 "id": 25494319,
@@ -23,7 +24,8 @@
 "type": "shampoo",
 "need": "oily",
 "price": 125,
-"stock": 1
+"stock": 1,
+"barcode": "633911855515"
 },
 {
 "id": 25494314,
@@ -35,7 +37,8 @@
 "type": "styling",
 "need": "volume",
 "price": 125,
-"stock": 1
+"stock": 1,
+"barcode": "633911871027"
 },
 {
 "id": 25494347,
@@ -47,7 +50,8 @@
 "type": "styling",
 "need": "volume",
 "price": 55,
-"stock": 0
+"stock": 0,
+"barcode": "633911871126"
 },
 {
 "id": 25494559,
@@ -59,7 +63,8 @@
 "type": "styling",
 "need": "hold",
 "price": 55,
-"stock": 1
+"stock": 1,
+"barcode": "633911693384"
 },
 {
 "id": 25494557,
@@ -71,7 +76,8 @@
 "type": "styling",
 "need": "hold",
 "price": 55,
-"stock": 0
+"stock": 0,
+"barcode": "633911693346"
 },
 {
 "id": 25494553,
@@ -83,7 +89,8 @@
 "type": "styling",
 "need": "volume",
 "price": 55,
-"stock": 1
+"stock": 1,
+"barcode": "633911693261"
 },
 {
 "id": 25494332,
@@ -95,7 +102,8 @@
 "type": "styling",
 "need": "shine",
 "price": 125,
-"stock": 1
+"stock": 1,
+"barcode": "633911855270"
 },
 {
 "id": 25494343,
@@ -107,7 +115,8 @@
 "type": "serum",
 "need": "repair",
 "price": 30,
-"stock": 0
+"stock": 0,
+"barcode": "633911631904"
 },
 {
 "id": 25494352,
@@ -119,7 +128,8 @@
 "type": "serum",
 "need": "repair",
 "price": 95,
-"stock": 2
+"stock": 2,
+"barcode": "633911616338"
 },
 {
 "id": 25494368,
@@ -131,7 +141,8 @@
 "type": "serum",
 "need": "repair",
 "price": 170,
-"stock": 2
+"stock": 2,
+"barcode": "633911630891"
 },
 {
 "id": 25494551,
@@ -143,7 +154,8 @@
 "type": "leavein",
 "need": "heat",
 "price": 110,
-"stock": 1
+"stock": 1,
+"barcode": "633911722053"
 },
 {
 "id": 25494340,
@@ -155,7 +167,8 @@
 "type": "styling",
 "need": "hold",
 "price": 125,
-"stock": 1
+"stock": 1,
+"barcode": "633911855577"
 },
 {
 "id": 25494324,
@@ -167,7 +180,8 @@
 "type": "styling",
 "need": "volume",
 "price": 125,
-"stock": 1
+"stock": 1,
+"barcode": "633911855539"
 },
 {
 "id": 23601983,
@@ -179,7 +193,8 @@
 "type": "shampoo",
 "need": "blonde",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "7898667821938"
 },
 {
 "id": 23601966,
@@ -191,7 +206,8 @@
 "type": "conditioner",
 "need": "blonde",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821945"
 },
 {
 "id": 23602058,
@@ -203,7 +219,8 @@
 "type": "leavein",
 "need": "blonde",
 "price": 120,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821969"
 },
 {
 "id": 23602067,
@@ -215,7 +232,8 @@
 "type": "mask",
 "need": "blonde",
 "price": 120,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821952"
 },
 {
 "id": 25731068,
@@ -227,7 +245,8 @@
 "type": "shampoo",
 "need": "blonde",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "7898667822898"
 },
 {
 "id": 25731079,
@@ -239,7 +258,8 @@
 "type": "conditioner",
 "need": "blonde",
 "price": 105,
-"stock": 0
+"stock": 0,
+"barcode": "7898667822911"
 },
 {
 "id": 24214274,
@@ -251,7 +271,8 @@
 "type": "shampoo",
 "need": "blonde",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "7898994690733"
 },
 {
 "id": 24214296,
@@ -263,7 +284,8 @@
 "type": "conditioner",
 "need": "blonde",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "7898994690740"
 },
 {
 "id": 23602074,
@@ -275,7 +297,8 @@
 "type": "perfume",
 "need": "shine",
 "price": 115,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821006"
 },
 {
 "id": 24214049,
@@ -287,7 +310,8 @@
 "type": "perfume",
 "need": "shine",
 "price": 190,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821594"
 },
 {
 "id": 24219621,
@@ -299,7 +323,8 @@
 "type": "ampoule",
 "need": "repair",
 "price": 50,
-"stock": 1
+"stock": 1,
+"barcode": "7898667820535"
 },
 {
 "id": 24497422,
@@ -311,7 +336,8 @@
 "type": "ampoule",
 "need": "repair",
 "price": 45,
-"stock": 0
+"stock": 0,
+"barcode": "7898667820528"
 },
 {
 "id": 23602093,
@@ -323,7 +349,8 @@
 "type": "ampoule",
 "need": "repair",
 "price": 50,
-"stock": 2
+"stock": 2,
+"barcode": "7898667820542"
 },
 {
 "id": 24214289,
@@ -335,7 +362,8 @@
 "type": "leavein",
 "need": "repair",
 "price": 115,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821662"
 },
 {
 "id": 23602091,
@@ -347,7 +375,8 @@
 "type": "ampoule",
 "need": "repair",
 "price": 50,
-"stock": 4
+"stock": 4,
+"barcode": "7898667821389"
 },
 {
 "id": 24772412,
@@ -359,7 +388,8 @@
 "type": "ampoule",
 "need": "color",
 "price": 50,
-"stock": 0
+"stock": 0,
+"barcode": "7898667820566"
 },
 {
 "id": 23602108,
@@ -371,7 +401,8 @@
 "type": "kit",
 "need": "repair",
 "price": 110,
-"stock": 0
+"stock": 0,
+"barcode": "7898667823062"
 },
 {
 "id": 23602069,
@@ -383,7 +414,8 @@
 "type": "tonic",
 "need": "hairloss",
 "price": 105,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821563"
 },
 {
 "id": 24214267,
@@ -395,7 +427,8 @@
 "type": "shampoo",
 "need": "hairloss",
 "price": 70,
-"stock": 1
+"stock": 1,
+"barcode": "7898667821532"
 },
 {
 "id": 24214269,
@@ -407,7 +440,8 @@
 "type": "conditioner",
 "need": "hairloss",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "7898667821549"
 },
 {
 "id": 24214298,
@@ -419,7 +453,8 @@
 "type": "ampoule",
 "need": "hairloss",
 "price": 40,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821556"
 },
 {
 "id": 24214297,
@@ -431,7 +466,8 @@
 "type": "leavein",
 "need": "heat",
 "price": 55,
-"stock": 0
+"stock": 0,
+"barcode": "7898667820870"
 },
 {
 "id": 24214278,
@@ -443,7 +479,8 @@
 "type": "conditioner",
 "need": "repair",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821433"
 },
 {
 "id": 23602001,
@@ -455,7 +492,8 @@
 "type": "leavein",
 "need": "heat",
 "price": 120,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821167"
 },
 {
 "id": 24214270,
@@ -467,7 +505,8 @@
 "type": "shampoo",
 "need": "volume",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821808"
 },
 {
 "id": 24214280,
@@ -479,7 +518,8 @@
 "type": "conditioner",
 "need": "volume",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821815"
 },
 {
 "id": 23602063,
@@ -491,7 +531,8 @@
 "type": "styling",
 "need": "volume",
 "price": 110,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821846"
 },
 {
 "id": 23602019,
@@ -503,7 +544,8 @@
 "type": "oil",
 "need": "shine",
 "price": 110,
-"stock": 1
+"stock": 1,
+"barcode": "7898667821112"
 },
 {
 "id": 23601949,
@@ -515,7 +557,8 @@
 "type": "serum",
 "need": "shine",
 "price": 120,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821914"
 },
 {
 "id": 24214041,
@@ -527,7 +570,8 @@
 "type": "mask",
 "need": "shine",
 "price": 120,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821891"
 },
 {
 "id": 24214374,
@@ -539,7 +583,8 @@
 "type": "serum",
 "need": "shine",
 "price": 125,
-"stock": 1
+"stock": 1,
+"barcode": "7898667820986"
 },
 {
 "id": 24214030,
@@ -551,7 +596,8 @@
 "type": "shampoo",
 "need": "curls",
 "price": 70,
-"stock": 1
+"stock": 1,
+"barcode": "7898667821013"
 },
 {
 "id": 24214362,
@@ -563,7 +609,8 @@
 "type": "conditioner",
 "need": "curls",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "7898667821020"
 },
 {
 "id": 24214359,
@@ -575,7 +622,8 @@
 "type": "conditioner",
 "need": "curls",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821051"
 },
 {
 "id": 24214033,
@@ -587,7 +635,8 @@
 "type": "styling",
 "need": "curls",
 "price": 150,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821525"
 },
 {
 "id": 24214036,
@@ -599,7 +648,8 @@
 "type": "styling",
 "need": "curls",
 "price": 130,
-"stock": 1
+"stock": 1,
+"barcode": "7898667822065"
 },
 {
 "id": 23602088,
@@ -611,7 +661,8 @@
 "type": "leavein",
 "need": "repair",
 "price": 100,
-"stock": 1
+"stock": 1,
+"barcode": "7898667822027"
 },
 {
 "id": 23602059,
@@ -623,7 +674,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "7898667820436"
 },
 {
 "id": 25120621,
@@ -635,7 +687,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "7898667821211"
 },
 {
 "id": 24154786,
@@ -648,6 +701,7 @@
 "need": "scalp",
 "price": 55,
 "stock": 2,
+"barcode": "6961136589859",
 "img": "https://mocheqi.ru/assets/images/1m8a4702-1-696x860.webp"
 },
 {
@@ -661,6 +715,7 @@
 "need": "scalp",
 "price": 70,
 "stock": 8,
+"barcode": "6961136589866",
 "img": "https://mocheqi.ru/assets/images/1m8a4702-1-696x860.webp"
 },
 {
@@ -674,6 +729,7 @@
 "need": "scalp",
 "price": 55,
 "stock": 4,
+"barcode": "6961136589798",
 "img": "https://mocheqi.ru/assets/images/135749942-1094699950992476-3064410060967038318-n-816x816.webp"
 },
 {
@@ -687,6 +743,7 @@
 "need": "scalp",
 "price": 70,
 "stock": 6,
+"barcode": "6961136589804",
 "img": "https://mocheqi.ru/assets/images/135749942-1094699950992476-3064410060967038318-n-816x816.webp"
 },
 {
@@ -700,6 +757,7 @@
 "need": "scalp",
 "price": 60,
 "stock": 2,
+"barcode": "6961136590152",
 "img": "https://mocheqi.ru/assets/images/1m8a1114-1-752x940.webp"
 },
 {
@@ -713,6 +771,7 @@
 "need": "oily",
 "price": 55,
 "stock": 7,
+"barcode": "6961136589880",
 "img": "https://mocheqi.ru/assets/images/1m8a47091-696x854.webp"
 },
 {
@@ -726,6 +785,7 @@
 "need": "oily",
 "price": 70,
 "stock": 4,
+"barcode": "6961136589897",
 "img": "https://mocheqi.ru/assets/images/1m8a47091-696x854.webp"
 },
 {
@@ -739,6 +799,7 @@
 "need": "dry",
 "price": 55,
 "stock": 3,
+"barcode": "6961136589828",
 "img": "https://mocheqi.ru/assets/images/1m8a49231-696x852.webp"
 },
 {
@@ -752,6 +813,7 @@
 "need": "dry",
 "price": 70,
 "stock": 3,
+"barcode": "6961136589835",
 "img": "https://mocheqi.ru/assets/images/1m8a49231-696x852.webp"
 },
 {
@@ -765,6 +827,7 @@
 "need": "repair",
 "price": 55,
 "stock": 1,
+"barcode": "6961136589910",
 "img": "https://mocheqi.ru/assets/images/122119534-263754561671986-3964089937847019640-n-816x985.webp"
 },
 {
@@ -778,6 +841,7 @@
 "need": "repair",
 "price": 70,
 "stock": 2,
+"barcode": "6961136589927",
 "img": "https://mocheqi.ru/assets/images/122119534-263754561671986-3964089937847019640-n-816x985.webp"
 },
 {
@@ -791,6 +855,7 @@
 "need": "repair",
 "price": 55,
 "stock": 8,
+"barcode": "6961136589941",
 "img": "https://mocheqi.ru/assets/images/1m8a5482-1.webp"
 },
 {
@@ -804,6 +869,7 @@
 "need": "repair",
 "price": 70,
 "stock": 6,
+"barcode": "6961136589958",
 "img": "https://mocheqi.ru/assets/images/1m8a5482-1.webp"
 },
 {
@@ -816,7 +882,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "6961136589842"
 },
 {
 "id": 24447718,
@@ -829,6 +896,7 @@
 "need": "repair",
 "price": 55,
 "stock": 9,
+"barcode": "6961136590008",
 "img": "https://mocheqi.ru/assets/images/1m8a5857-1.webp"
 },
 {
@@ -842,6 +910,7 @@
 "need": "repair",
 "price": 70,
 "stock": 5,
+"barcode": "6961136590015",
 "img": "https://mocheqi.ru/assets/images/1m8a5857-1.webp"
 },
 {
@@ -855,6 +924,7 @@
 "need": "dry",
 "price": 60,
 "stock": 7,
+"barcode": "6961136589972",
 "img": "https://mocheqi.ru/assets/images/217428027-917631778834596-6055637849160414582-n-816x816.webp"
 },
 {
@@ -868,6 +938,7 @@
 "need": "dry",
 "price": 70,
 "stock": 6,
+"barcode": "6961136589989",
 "img": "https://mocheqi.ru/assets/images/217428027-917631778834596-6055637849160414582-n-816x816.webp"
 },
 {
@@ -881,6 +952,7 @@
 "need": "dry",
 "price": 90,
 "stock": 1,
+"barcode": "6961136589996",
 "img": "https://mocheqi.ru/assets/images/217428027-917631778834596-6055637849160414582-n-816x816.webp"
 },
 {
@@ -893,7 +965,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 90,
-"stock": 1
+"stock": 1,
+"barcode": "6961136589811"
 },
 {
 "id": 24154770,
@@ -906,6 +979,7 @@
 "need": "repair",
 "price": 90,
 "stock": 2,
+"barcode": "6961136590138",
 "img": "https://mocheqi.ru/assets/images/50252765-145474079781-696x696.webp"
 },
 {
@@ -919,6 +993,7 @@
 "need": "repair",
 "price": 90,
 "stock": 7,
+"barcode": "6961136590046",
 "img": "https://mocheqi.ru/assets/images/107889484-2403467386618691-586492749168690093-n-752x940.webp"
 },
 {
@@ -931,7 +1006,8 @@
 "type": "mask",
 "need": "dry",
 "price": 80,
-"stock": 7
+"stock": 7,
+"barcode": "6961136590039"
 },
 {
 "id": 25825223,
@@ -944,6 +1020,7 @@
 "need": "repair",
 "price": 120,
 "stock": 3,
+"barcode": "6961136651624",
 "img": "https://mocheqi.ru/assets/images/1m8a4055.jpg1.webp"
 },
 {
@@ -957,6 +1034,7 @@
 "need": "dry",
 "price": 60,
 "stock": 3,
+"barcode": "6961136590183",
 "img": "https://mocheqi.ru/assets/images/photo-2024-02-03-16-11-23-1074x1032.webp"
 },
 {
@@ -969,7 +1047,8 @@
 "type": "leavein",
 "need": "curls",
 "price": 55,
-"stock": 4
+"stock": 4,
+"barcode": "6961136590176"
 },
 {
 "id": 24154779,
@@ -982,6 +1061,7 @@
 "need": "repair",
 "price": 55,
 "stock": 6,
+"barcode": "6961136590107",
 "img": "https://mocheqi.ru/assets/images/49327550-2065486150239017-2080425372513005699-n-752x752.webp"
 },
 {
@@ -995,6 +1075,7 @@
 "need": "repair",
 "price": 55,
 "stock": 6,
+"barcode": "6961136590060",
 "img": "https://mocheqi.ru/assets/images/p4254645-1-816x1020.webp"
 },
 {
@@ -1007,7 +1088,8 @@
 "type": "oil",
 "need": "shine",
 "price": 55,
-"stock": 5
+"stock": 5,
+"barcode": "6961136590084"
 },
 {
 "id": 24154777,
@@ -1020,6 +1102,7 @@
 "need": "dry",
 "price": 55,
 "stock": 4,
+"barcode": "6961136590077",
 "img": "https://mocheqi.ru/assets/images/43914570-333904113832381-3295599825259659808-n-816x816.webp"
 },
 {
@@ -1032,7 +1115,8 @@
 "type": "styling",
 "need": "volume",
 "price": 55,
-"stock": 2
+"stock": 2,
+"barcode": "6961136590091"
 },
 {
 "id": 25353320,
@@ -1044,7 +1128,8 @@
 "type": "ampoule",
 "need": "repair",
 "price": 20,
-"stock": 3
+"stock": 3,
+"barcode": "6961136590169"
 },
 {
 "id": 25353325,
@@ -1068,7 +1153,8 @@
 "type": "conditioner",
 "need": "shine",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8004608276937"
 },
 {
 "id": 18744669,
@@ -1081,6 +1167,7 @@
 "need": "shine",
 "price": 100,
 "stock": 0,
+"barcode": "8004608266495",
 "img": "https://davines.ru/upload/iblock/1de/w2hbmpinqni9z54knqht9syc7a4zaniu.jpg"
 },
 {
@@ -1094,6 +1181,7 @@
 "need": "repair",
 "price": 35,
 "stock": 1,
+"barcode": "8004608258230",
 "img": "https://davines.ru/upload/iblock/c5e/ejvj1zq8cyjs7by20y2nopuxw0d4i2bl.jpg"
 },
 {
@@ -1107,6 +1195,7 @@
 "need": "scalp",
 "price": 35,
 "stock": 2,
+"barcode": "8004608258179",
 "img": "https://davines.ru/upload/iblock/e09/4vw28ukcbab6gg7ttaxjr46ez4or98i2.jpg"
 },
 {
@@ -1120,6 +1209,7 @@
 "need": "shine",
 "price": 35,
 "stock": 0,
+"barcode": "8004608242987",
 "img": "https://davines.ru/upload/iblock/1d6/tbzxqk1yuyiy5smmkcgtf7dmryfn345o.jpg"
 },
 {
@@ -1132,7 +1222,8 @@
 "type": "conditioner",
 "need": "shine",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8004608262442"
 },
 {
 "id": 21847386,
@@ -1145,6 +1236,7 @@
 "need": "oily",
 "price": 85,
 "stock": 0,
+"barcode": "8004608247555",
 "img": "https://davines.ru/upload/iblock/6d1/bgp3s13119k2ghdccnp0tfbaltlyofge.jpg"
 },
 {
@@ -1158,6 +1250,7 @@
 "need": "hold",
 "price": 80,
 "stock": 1,
+"barcode": "8004608252122",
 "img": "https://davines.ru/upload/iblock/b54/el16kojs6lou8iyephswa1qppqeolxyr.jpg"
 },
 {
@@ -1170,7 +1263,8 @@
 "type": "styling",
 "need": "dry",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "8004608237495"
 },
 {
 "id": 21847390,
@@ -1182,7 +1276,8 @@
 "type": "conditioner",
 "need": "color",
 "price": 35,
-"stock": 2
+"stock": 2,
+"barcode": "8004608253396"
 },
 {
 "id": 21847393,
@@ -1194,7 +1289,8 @@
 "type": "conditioner",
 "need": "shine",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8004608275602"
 },
 {
 "id": 21847396,
@@ -1207,6 +1303,7 @@
 "need": "dry",
 "price": 35,
 "stock": 1,
+"barcode": "8004608242970",
 "img": "https://davines.ru/upload/iblock/107/h5qcvkrmp0smcqa1hdj0jv7ldqpq4zgn.jpg"
 },
 {
@@ -1220,6 +1317,7 @@
 "need": "curls",
 "price": 35,
 "stock": 0,
+"barcode": "8004608257141",
 "img": "https://davines.ru/upload/iblock/aae/76uvlu23joijg5irdl7tyla9c2onv1c7.jpg"
 },
 {
@@ -1232,7 +1330,8 @@
 "type": "leavein",
 "need": "volume",
 "price": 95,
-"stock": 1
+"stock": 1,
+"barcode": "8004608242543"
 },
 {
 "id": 21885776,
@@ -1245,6 +1344,7 @@
 "need": "curls",
 "price": 85,
 "stock": 2,
+"barcode": "8004608247203",
 "img": "https://davines.ru/upload/iblock/b2a/ma2i20gc1rj8vklv5t24wbdb094whuq8.jpg"
 },
 {
@@ -1257,7 +1357,8 @@
 "type": "shampoo",
 "need": "shine",
 "price": 60,
-"stock": 0
+"stock": 0,
+"barcode": "8004608265443"
 },
 {
 "id": 22297077,
@@ -1270,6 +1371,7 @@
 "need": "shine",
 "price": 65,
 "stock": 0,
+"barcode": "8004608242185",
 "img": "https://davines.ru/upload/iblock/1d6/tbzxqk1yuyiy5smmkcgtf7dmryfn345o.jpg"
 },
 {
@@ -1283,6 +1385,7 @@
 "need": "shine",
 "price": 35,
 "stock": 1,
+"barcode": "8004608282266",
 "img": "https://davines.ru/upload/iblock/1d6/tbzxqk1yuyiy5smmkcgtf7dmryfn345o.jpg"
 },
 {
@@ -1296,6 +1399,7 @@
 "need": "volume",
 "price": 80,
 "stock": 0,
+"barcode": "8004608258346",
 "img": "https://davines.ru/upload/iblock/441/h4q9jbev020i0a0wd0lg89z2yesa0ijt.jpg"
 },
 {
@@ -1308,7 +1412,8 @@
 "type": "styling",
 "need": "shine",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "8004608252153"
 },
 {
 "id": 22929629,
@@ -1320,7 +1425,8 @@
 "type": "styling",
 "need": "hold",
 "price": 95,
-"stock": 1
+"stock": 1,
+"barcode": "8004608285816"
 },
 {
 "id": 23435558,
@@ -1333,6 +1439,7 @@
 "need": "curls",
 "price": 80,
 "stock": 1,
+"barcode": "8004608284390",
 "img": "https://davines.ru/upload/iblock/d07/umiayre28q0tsb2zkunh6rh4bq8n4o41.jpg"
 },
 {
@@ -1345,7 +1452,8 @@
 "type": "serum",
 "need": "repair",
 "price": 70,
-"stock": 4
+"stock": 4,
+"barcode": "8004608275411"
 },
 {
 "id": 24279815,
@@ -1358,6 +1466,7 @@
 "need": "shine",
 "price": 65,
 "stock": 0,
+"barcode": "8004608280484",
 "img": "https://davines.ru/upload/iblock/1d6/tbzxqk1yuyiy5smmkcgtf7dmryfn345o.jpg"
 },
 {
@@ -1371,6 +1480,7 @@
 "need": "shine",
 "price": 80,
 "stock": 2,
+"barcode": "8004608286950",
 "img": "https://davines.ru/upload/iblock/67c/y0iidwd001ae3cpov6mitjmpgcyr7ofy.jpg"
 },
 {
@@ -1383,7 +1493,8 @@
 "type": "kit",
 "need": "shine",
 "price": 145,
-"stock": 0
+"stock": 0,
+"barcode": "8004608290162"
 },
 {
 "id": 24926875,
@@ -1395,7 +1506,8 @@
 "type": "kit",
 "need": "dry",
 "price": 195,
-"stock": 0
+"stock": 0,
+"barcode": "8004608295792"
 },
 {
 "id": 24926885,
@@ -1407,7 +1519,8 @@
 "type": "kit",
 "need": "curls",
 "price": 195,
-"stock": 0
+"stock": 0,
+"barcode": "8004608295785"
 },
 {
 "id": 25438676,
@@ -1419,7 +1532,8 @@
 "type": "mask",
 "need": "curls",
 "price": 95,
-"stock": 2
+"stock": 2,
+"barcode": "8004608296447"
 },
 {
 "id": 25438695,
@@ -1431,7 +1545,8 @@
 "type": "shampoo",
 "need": "curls",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8004608296379"
 },
 {
 "id": 25695347,
@@ -1444,6 +1559,7 @@
 "need": "dry",
 "price": 35,
 "stock": 1,
+"barcode": "8004608264170",
 "img": "https://davines.ru/upload/iblock/8a0/j3edet8741v6c0h9pkw6hquv59vzd10n.jpg"
 },
 {
@@ -1456,7 +1572,8 @@
 "type": "styling",
 "need": "hold",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "8004608248965"
 },
 {
 "id": 25798358,
@@ -1468,7 +1585,8 @@
 "type": "conditioner",
 "need": "shine",
 "price": 80,
-"stock": 3
+"stock": 3,
+"barcode": "8004608293149"
 },
 {
 "id": 25873611,
@@ -1481,6 +1599,7 @@
 "need": "dry",
 "price": 80,
 "stock": 1,
+"barcode": "8004608276715",
 "img": "https://davines.ru/upload/iblock/107/h5qcvkrmp0smcqa1hdj0jv7ldqpq4zgn.jpg"
 },
 {
@@ -1494,6 +1613,7 @@
 "need": "curls",
 "price": 80,
 "stock": 2,
+"barcode": "8004608296416",
 "img": "https://davines.ru/upload/iblock/aae/76uvlu23joijg5irdl7tyla9c2onv1c7.jpg"
 },
 {
@@ -1506,7 +1626,8 @@
 "type": "conditioner",
 "need": "repair",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "8004608293439"
 },
 {
 "id": 25873651,
@@ -1518,7 +1639,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8004608293422"
 },
 {
 "id": 25873653,
@@ -1530,7 +1652,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "8004608289005"
 },
 {
 "id": 25873660,
@@ -1542,7 +1665,8 @@
 "type": "serum",
 "need": "dry",
 "price": 80,
-"stock": 2
+"stock": 2,
+"barcode": "8004608289029"
 },
 {
 "id": 25873674,
@@ -1554,7 +1678,8 @@
 "type": "shampoo",
 "need": "oily",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "8004608279327"
 },
 {
 "id": 17905286,
@@ -1567,6 +1692,7 @@
 "need": "blonde",
 "price": 95,
 "stock": 0,
+"barcode": "8004608271741",
 "img": "https://davines.ru/upload/iblock/f80/abwzrfvkni7jj0tu6batr281mbbp2hzc.jpg"
 },
 {
@@ -1579,7 +1705,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "8004608256533"
 },
 {
 "id": 17905338,
@@ -1592,6 +1719,7 @@
 "need": "blonde",
 "price": 85,
 "stock": 0,
+"barcode": "8004608271666",
 "img": "https://davines.ru/upload/iblock/1c0/3ao1tfq2su00u0qgneh93a9gmqxyqw8b.jpg"
 },
 {
@@ -1605,6 +1733,7 @@
 "need": "blonde",
 "price": 100,
 "stock": 0,
+"barcode": "8004608271697",
 "img": "https://davines.ru/upload/iblock/d14/s4jhtxwer30j9zzrvpdwd1rbsk5ess1f.jpg"
 },
 {
@@ -1617,7 +1746,8 @@
 "type": "shampoo",
 "need": "shine",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "8004608274865"
 },
 {
 "id": 17905451,
@@ -1630,6 +1760,7 @@
 "need": "color",
 "price": 75,
 "stock": 1,
+"barcode": "8004608242550",
 "img": "https://davines.ru/upload/iblock/49f/1s91tfn3ih4sz5mcpoissdyu67s6o0ui.jpg"
 },
 {
@@ -1642,7 +1773,8 @@
 "type": "leavein",
 "need": "shine",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "8004608275039"
 },
 {
 "id": 21180431,
@@ -1655,6 +1787,7 @@
 "need": "curls",
 "price": 85,
 "stock": 0,
+"barcode": "8004608275893",
 "img": "https://davines.ru/upload/iblock/aae/76uvlu23joijg5irdl7tyla9c2onv1c7.jpg"
 },
 {
@@ -1668,6 +1801,7 @@
 "need": "shine",
 "price": 90,
 "stock": 0,
+"barcode": "8004608247630",
 "img": "https://davines.ru/upload/iblock/427/6h7g3l48bddx00zyuh0b09y1k1upvmr1.png"
 },
 {
@@ -1680,7 +1814,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "8004608246206"
 },
 {
 "id": 21343308,
@@ -1692,7 +1827,8 @@
 "type": "styling",
 "need": "curls",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8004608257271"
 },
 {
 "id": 21343324,
@@ -1704,7 +1840,8 @@
 "type": "styling",
 "need": "curls",
 "price": 80,
-"stock": 2
+"stock": 2,
+"barcode": "8004608257196"
 },
 {
 "id": 21343389,
@@ -1717,6 +1854,7 @@
 "need": "heat",
 "price": 95,
 "stock": 2,
+"barcode": "8004608242505",
 "img": "https://davines.ru/upload/iblock/7a8/xp7u1rf2g3vtd2p2sdqmcgdh1kyp2sfd.jpg"
 },
 {
@@ -1729,7 +1867,8 @@
 "type": "conditioner",
 "need": "color",
 "price": 80,
-"stock": 2
+"stock": 2,
+"barcode": "8004608275879"
 },
 {
 "id": 21580299,
@@ -1742,6 +1881,7 @@
 "need": "shine",
 "price": 75,
 "stock": 2,
+"barcode": "8004608247609",
 "img": "https://davines.ru/upload/iblock/c2e/iu95yfr74jsy04vnrt9au8h19g5zfar7.jpg"
 },
 {
@@ -1755,6 +1895,7 @@
 "need": "shine",
 "price": 140,
 "stock": 3,
+"barcode": "8004608247593",
 "img": "https://davines.ru/upload/iblock/3fa/9g95blkty0avi9pd24289cawtarv7t65.jpg"
 },
 {
@@ -1767,7 +1908,8 @@
 "type": "styling",
 "need": "curls",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8004608257943"
 },
 {
 "id": 21762566,
@@ -1779,7 +1921,8 @@
 "type": "shampoo",
 "need": "shine",
 "price": 35,
-"stock": 1
+"stock": 1,
+"barcode": "8004608275589"
 },
 {
 "id": 21795377,
@@ -1791,7 +1934,8 @@
 "type": "conditioner",
 "need": "shine",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8004608274889"
 },
 {
 "id": 21795379,
@@ -1804,6 +1948,7 @@
 "need": "hairloss",
 "price": 75,
 "stock": 1,
+"barcode": "8004608255505",
 "img": "https://davines.ru/upload/iblock/9e9/98s236z64awl62p79d90dnyrge1nd8l2.jpg"
 },
 {
@@ -1817,6 +1962,7 @@
 "need": "shine",
 "price": 60,
 "stock": 0,
+"barcode": "8004608285205",
 "img": "https://davines.ru/upload/iblock/9fe/cvhmtse7ex83tea2x0amkq6f5xbdsaw9.jpg"
 },
 {
@@ -1830,6 +1976,7 @@
 "need": "curls",
 "price": 75,
 "stock": 0,
+"barcode": "8004608257097",
 "img": "https://davines.ru/upload/iblock/e51/tiqfp5qc1m33370br53t0zk2lp64a5xg.jpg"
 },
 {
@@ -1842,7 +1989,8 @@
 "type": "conditioner",
 "need": "repair",
 "price": 85,
-"stock": 1
+"stock": 1,
+"barcode": "8004608276722"
 },
 {
 "id": 21930344,
@@ -1854,7 +2002,8 @@
 "type": "mask",
 "need": "color",
 "price": 95,
-"stock": 1
+"stock": 1,
+"barcode": "8004608276753"
 },
 {
 "id": 21930345,
@@ -1866,7 +2015,8 @@
 "type": "mask",
 "need": "shine",
 "price": 95,
-"stock": 1
+"stock": 1,
+"barcode": "8004608275565"
 },
 {
 "id": 21930350,
@@ -1878,7 +2028,8 @@
 "type": "mask",
 "need": "curls",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8004608276739"
 },
 {
 "id": 22083865,
@@ -1891,6 +2042,7 @@
 "need": "hairloss",
 "price": 200,
 "stock": 1,
+"barcode": "8004608275374",
 "img": "https://davines.ru/upload/iblock/815/7szichb0u5k84ta0wmqe8jwxyuyubyz5.jpg"
 },
 {
@@ -1904,6 +2056,7 @@
 "need": "curls",
 "price": 65,
 "stock": 0,
+"barcode": "8004608237488",
 "img": "https://davines.ru/upload/iblock/d07/umiayre28q0tsb2zkunh6rh4bq8n4o41.jpg"
 },
 {
@@ -1916,7 +2069,8 @@
 "type": "serum",
 "need": "color",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "8004608242666"
 },
 {
 "id": 22162000,
@@ -1928,7 +2082,8 @@
 "type": "leavein",
 "need": "shine",
 "price": 95,
-"stock": 1
+"stock": 1,
+"barcode": "8004608242215"
 },
 {
 "id": 22190039,
@@ -1941,6 +2096,7 @@
 "need": "oily",
 "price": 90,
 "stock": 4,
+"barcode": "8004608277408",
 "img": "https://davines.ru/upload/iblock/6d1/bgp3s13119k2ghdccnp0tfbaltlyofge.jpg"
 },
 {
@@ -1954,6 +2110,7 @@
 "need": "blonde",
 "price": 265,
 "stock": 0,
+"barcode": "8004608271673",
 "img": "https://davines.ru/upload/iblock/1c0/3ao1tfq2su00u0qgneh93a9gmqxyqw8b.jpg"
 },
 {
@@ -1967,6 +2124,7 @@
 "need": "blonde",
 "price": 200,
 "stock": 0,
+"barcode": "8004608271703",
 "img": "https://davines.ru/upload/iblock/d14/s4jhtxwer30j9zzrvpdwd1rbsk5ess1f.jpg"
 },
 {
@@ -1979,7 +2137,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 85,
-"stock": 3
+"stock": 3,
+"barcode": "8004608276944"
 },
 {
 "id": 22297131,
@@ -1992,6 +2151,7 @@
 "need": "blonde",
 "price": 85,
 "stock": 1,
+"barcode": "8004608271727",
 "img": "https://davines.ru/upload/iblock/fab/keszv95w6gcto5a545kyywybiotiihgo.jpg"
 },
 {
@@ -2004,7 +2164,8 @@
 "type": "leavein",
 "need": "dry",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "8004608262466"
 },
 {
 "id": 22297146,
@@ -2016,7 +2177,8 @@
 "type": "leavein",
 "need": "shine",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "8004608275558"
 },
 {
 "id": 22535910,
@@ -2029,6 +2191,7 @@
 "need": "volume",
 "price": 75,
 "stock": 0,
+"barcode": "8004608271246",
 "img": "https://davines.ru/upload/iblock/e3f/cxta88xwk2vw3e90thoyfhg2xrlqk3hm.jpg"
 },
 {
@@ -2041,7 +2204,8 @@
 "type": "conditioner",
 "need": "repair",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8004608253419"
 },
 {
 "id": 22535918,
@@ -2053,7 +2217,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 35,
-"stock": 2
+"stock": 2,
+"barcode": "8004608281924"
 },
 {
 "id": 22551214,
@@ -2065,7 +2230,8 @@
 "type": "leavein",
 "need": "curls",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8004608284475"
 },
 {
 "id": 23029599,
@@ -2078,6 +2244,7 @@
 "need": "volume",
 "price": 65,
 "stock": 2,
+"barcode": "8004608286417",
 "img": "https://davines.ru/upload/iblock/e3f/cxta88xwk2vw3e90thoyfhg2xrlqk3hm.jpg"
 },
 {
@@ -2091,6 +2258,7 @@
 "need": "volume",
 "price": 45,
 "stock": 0,
+"barcode": "8004608286424",
 "img": "https://davines.ru/upload/iblock/b7e/28phcfpigokpm8tut0v02u3bwzv01fpe.jpg"
 },
 {
@@ -2103,7 +2271,8 @@
 "type": "mask",
 "need": "curls",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8004608257240"
 },
 {
 "id": 24032789,
@@ -2115,7 +2284,8 @@
 "type": "styling",
 "need": "volume",
 "price": 80,
-"stock": 4
+"stock": 4,
+"barcode": "8004608248941"
 },
 {
 "id": 24868132,
@@ -2127,7 +2297,8 @@
 "type": "mask",
 "need": "repair",
 "price": 40,
-"stock": 0
+"stock": 0,
+"barcode": "8004608253402"
 },
 {
 "id": 24868153,
@@ -2140,6 +2311,7 @@
 "need": "curls",
 "price": 40,
 "stock": 0,
+"barcode": "8004608257110",
 "img": "https://davines.ru/upload/iblock/e51/tiqfp5qc1m33370br53t0zk2lp64a5xg.jpg"
 },
 {
@@ -2152,7 +2324,8 @@
 "type": "kit",
 "need": "color",
 "price": 195,
-"stock": 0
+"stock": 0,
+"barcode": "8004608295778"
 },
 {
 "id": 24926921,
@@ -2164,7 +2337,8 @@
 "type": "kit",
 "need": "shine",
 "price": 195,
-"stock": 0
+"stock": 0,
+"barcode": "8004608295754"
 },
 {
 "id": 25115880,
@@ -2177,6 +2351,7 @@
 "need": "oily",
 "price": 60,
 "stock": 2,
+"barcode": "8004608282013",
 "img": "https://davines.ru/upload/iblock/6d1/bgp3s13119k2ghdccnp0tfbaltlyofge.jpg"
 },
 {
@@ -2190,6 +2365,7 @@
 "need": "shine",
 "price": 95,
 "stock": 1,
+"barcode": "8004608285199",
 "img": "https://davines.ru/upload/iblock/dcd/1op7uubxrraciqb3o42bh6e64n0ubeur.jpg"
 },
 {
@@ -2203,6 +2379,7 @@
 "need": "scalp",
 "price": 75,
 "stock": 1,
+"barcode": "8004608236580",
 "img": "https://davines.ru/upload/iblock/627/s2ajl19wdza1y21mkbe6k67x0un04cey.jpg"
 },
 {
@@ -2216,6 +2393,7 @@
 "need": "dry",
 "price": 35,
 "stock": 0,
+"barcode": "8004608258216",
 "img": "https://davines.ru/upload/iblock/4bf/reszbdiefpattc7ka8zw6t4gmb05uf1x.jpg"
 },
 {
@@ -2228,7 +2406,8 @@
 "type": "shampoo",
 "need": "",
 "price": 65,
-"stock": 1
+"stock": 1,
+"barcode": "8004608247760"
 },
 {
 "id": 21343302,
@@ -2241,6 +2420,7 @@
 "need": "dry",
 "price": 75,
 "stock": 1,
+"barcode": "8004608269113",
 "img": "https://davines.ru/upload/iblock/e5c/8i2ey3k7kfuag9obj66zizji02720h7a.jpg"
 },
 {
@@ -2254,6 +2434,7 @@
 "need": "dry",
 "price": 105,
 "stock": 0,
+"barcode": "8004608269151",
 "img": "https://davines.ru/upload/iblock/141/q8qyrsl25u0q94fq8ddsf2tc0vj4g5p5.jpg"
 },
 {
@@ -2266,7 +2447,8 @@
 "type": "leavein",
 "need": "",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "8004608247746"
 },
 {
 "id": 21343483,
@@ -2279,6 +2461,7 @@
 "need": "shine",
 "price": 40,
 "stock": 0,
+"barcode": "8004608264606",
 "img": "https://davines.ru/upload/iblock/587/eavtivtpw01l79vhug5cqqhlz354ldxw.jpg"
 },
 {
@@ -2292,6 +2475,7 @@
 "need": "dry",
 "price": 80,
 "stock": 1,
+"barcode": "8004608256502",
 "img": "https://davines.ru/upload/iblock/cd2/4idrktkis19tb7dp1q1elbsg6w6h05ff.jpg"
 },
 {
@@ -2305,6 +2489,7 @@
 "need": "shine",
 "price": 110,
 "stock": 0,
+"barcode": "8004608264590",
 "img": "https://davines.ru/upload/iblock/587/eavtivtpw01l79vhug5cqqhlz354ldxw.jpg"
 },
 {
@@ -2317,7 +2502,8 @@
 "type": "shampoo",
 "need": "oily",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8004608256816"
 },
 {
 "id": 21762555,
@@ -2330,6 +2516,7 @@
 "need": "hairloss",
 "price": 35,
 "stock": 1,
+"barcode": "8004608255499",
 "img": "https://davines.ru/upload/iblock/9e9/98s236z64awl62p79d90dnyrge1nd8l2.jpg"
 },
 {
@@ -2343,6 +2530,7 @@
 "need": "dry",
 "price": 35,
 "stock": 0,
+"barcode": "8004608271444",
 "img": "https://davines.ru/upload/iblock/e5c/8i2ey3k7kfuag9obj66zizji02720h7a.jpg"
 },
 {
@@ -2356,6 +2544,7 @@
 "need": "scalp",
 "price": 35,
 "stock": 0,
+"barcode": "8004608236597",
 "img": "https://davines.ru/upload/iblock/627/s2ajl19wdza1y21mkbe6k67x0un04cey.jpg"
 },
 {
@@ -2369,6 +2558,7 @@
 "need": "color",
 "price": 35,
 "stock": 0,
+"barcode": "8004608243083",
 "img": "https://davines.ru/upload/iblock/49f/1s91tfn3ih4sz5mcpoissdyu67s6o0ui.jpg"
 },
 {
@@ -2381,7 +2571,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8004608242932"
 },
 {
 "id": 21762572,
@@ -2393,7 +2584,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8004608241997"
 },
 {
 "id": 21762574,
@@ -2405,7 +2597,8 @@
 "type": "conditioner",
 "need": "repair",
 "price": 85,
-"stock": 1
+"stock": 1,
+"barcode": "8004608275886"
 },
 {
 "id": 21832513,
@@ -2417,7 +2610,8 @@
 "type": "mask",
 "need": "repair",
 "price": 95,
-"stock": 1
+"stock": 1,
+"barcode": "8004608276746"
 },
 {
 "id": 21832525,
@@ -2430,6 +2624,7 @@
 "need": "shine",
 "price": 35,
 "stock": 0,
+"barcode": "8004608247654",
 "img": "https://davines.ru/upload/iblock/ca4/5nuqprw972yqtybad0cnrjfvdjmmnjzf.jpg"
 },
 {
@@ -2442,7 +2637,8 @@
 "type": "shampoo",
 "need": "",
 "price": 105,
-"stock": 0
+"stock": 0,
+"barcode": "8004608276982"
 },
 {
 "id": 21872789,
@@ -2455,6 +2651,7 @@
 "need": "dry",
 "price": 95,
 "stock": 3,
+"barcode": "8004608269250",
 "img": "https://davines.ru/upload/iblock/154/a7m6jdj37wezot73ibmbhgu50lw38unj.jpg"
 },
 {
@@ -2468,6 +2665,7 @@
 "need": "shine",
 "price": 115,
 "stock": 1,
+"barcode": "8004608278450",
 "img": "https://davines.ru/upload/iblock/73f/x4r4u02wl83v13r3wdujkbkdan07ldci.jpg"
 },
 {
@@ -2481,6 +2679,7 @@
 "need": "dry",
 "price": 85,
 "stock": 1,
+"barcode": "8004608290339",
 "img": "https://davines.ru/upload/iblock/107/h5qcvkrmp0smcqa1hdj0jv7ldqpq4zgn.jpg"
 },
 {
@@ -2493,7 +2692,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "8004608280460"
 },
 {
 "id": 21885765,
@@ -2506,6 +2706,7 @@
 "need": "repair",
 "price": 75,
 "stock": 1,
+"barcode": "8004608256557",
 "img": "https://davines.ru/upload/iblock/592/5k36fvunf2p2yy7jzkufdiq3tfga1akd.jpg"
 },
 {
@@ -2519,6 +2720,7 @@
 "need": "repair",
 "price": 75,
 "stock": 0,
+"barcode": "8004608240419",
 "img": "https://davines.ru/upload/iblock/6cb/n0i799o6b3krqpe1uqxhu2e2gr8ju9kp.jpg"
 },
 {
@@ -2531,7 +2733,8 @@
 "type": "styling",
 "need": "shine",
 "price": 85,
-"stock": 1
+"stock": 1,
+"barcode": "8004608258865"
 },
 {
 "id": 21930328,
@@ -2544,6 +2747,7 @@
 "need": "shine",
 "price": 35,
 "stock": 0,
+"barcode": "8004608266518",
 "img": "https://davines.ru/upload/iblock/1de/w2hbmpinqni9z54knqht9syc7a4zaniu.jpg"
 },
 {
@@ -2557,6 +2761,7 @@
 "need": "",
 "price": 85,
 "stock": 1,
+"barcode": "8004608267034",
 "img": "https://davines.ru/upload/iblock/300/rx1z8a3qr9tnrzoug7m52n9svbv5f0yj.jpg"
 },
 {
@@ -2570,6 +2775,7 @@
 "need": "",
 "price": 85,
 "stock": 0,
+"barcode": "8004608267041",
 "img": "https://davines.ru/upload/iblock/89f/th0v25uooy8kqun6j95n25ei6t07e4ra.jpg"
 },
 {
@@ -2583,6 +2789,7 @@
 "need": "",
 "price": 85,
 "stock": 0,
+"barcode": "8004608267058",
 "img": "https://davines.ru/upload/iblock/299/bki3tgmrwy2gup27txj5dwzocpsfqrbl.jpg"
 },
 {
@@ -2595,7 +2802,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8004608230762"
 },
 {
 "id": 22161997,
@@ -2607,7 +2815,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "8004608256519"
 },
 {
 "id": 22162002,
@@ -2619,7 +2828,8 @@
 "type": "serum",
 "need": "scalp",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8004608282099"
 },
 {
 "id": 22309418,
@@ -2632,6 +2842,7 @@
 "need": "repair",
 "price": 185,
 "stock": 0,
+"barcode": "8004608258247",
 "img": "https://davines.ru/upload/iblock/c5e/ejvj1zq8cyjs7by20y2nopuxw0d4i2bl.jpg"
 },
 {
@@ -2645,6 +2856,7 @@
 "need": "",
 "price": 80,
 "stock": 1,
+"barcode": "8004608280507",
 "img": "https://davines.ru/upload/iblock/155/ph2aklo5wah5eb450vd5so691tmqttnr.jpg"
 },
 {
@@ -2657,7 +2869,8 @@
 "type": "styling",
 "need": "hold",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "8004608280491"
 },
 {
 "id": 22686981,
@@ -2669,7 +2882,8 @@
 "type": "styling",
 "need": "hold",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "8004608276470"
 },
 {
 "id": 23029606,
@@ -2682,6 +2896,7 @@
 "need": "shine",
 "price": 205,
 "stock": 1,
+"barcode": "8004608247647",
 "img": "https://davines.ru/upload/iblock/427/6h7g3l48bddx00zyuh0b09y1k1upvmr1.png"
 },
 {
@@ -2694,7 +2909,8 @@
 "type": "shampoo",
 "need": "oily",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8004608279341"
 },
 {
 "id": 23260180,
@@ -2707,6 +2923,7 @@
 "need": "repair",
 "price": 80,
 "stock": 1,
+"barcode": "8004608255093",
 "img": "https://davines.ru/upload/iblock/9df/1mb1hvwo5ybi66xk179wa26kih7fue31.jpg"
 },
 {
@@ -2720,6 +2937,7 @@
 "need": "shine",
 "price": 55,
 "stock": 1,
+"barcode": "8004608281689",
 "img": "https://davines.ru/upload/iblock/73f/x4r4u02wl83v13r3wdujkbkdan07ldci.jpg"
 },
 {
@@ -2732,7 +2950,8 @@
 "type": "styling",
 "need": "shine",
 "price": 55,
-"stock": 3
+"stock": 3,
+"barcode": "8004608292418"
 },
 {
 "id": 24868137,
@@ -2745,6 +2964,7 @@
 "need": "shine",
 "price": 60,
 "stock": 1,
+"barcode": "8004608286967",
 "img": "https://davines.ru/upload/iblock/67c/y0iidwd001ae3cpov6mitjmpgcyr7ofy.jpg"
 },
 {
@@ -2758,6 +2978,7 @@
 "need": "curls",
 "price": 60,
 "stock": 1,
+"barcode": "8004608284604",
 "img": "https://davines.ru/upload/iblock/d07/umiayre28q0tsb2zkunh6rh4bq8n4o41.jpg"
 },
 {
@@ -2771,6 +2992,7 @@
 "need": "volume",
 "price": 60,
 "stock": 0,
+"barcode": "8004608265993",
 "img": "https://davines.ru/upload/iblock/79b/rwlnd6ef8sv9ke5r334rgjpv1u9wjpwk.jpg"
 },
 {
@@ -2784,6 +3006,7 @@
 "need": "hold",
 "price": 60,
 "stock": 1,
+"barcode": "8004608250623",
 "img": "https://davines.ru/upload/iblock/b5a/wv6xg36i4qhlduhqkhmz7b4ks3ak9rbc.jpg"
 },
 {
@@ -2796,7 +3019,8 @@
 "type": "kit",
 "need": "repair",
 "price": 195,
-"stock": 0
+"stock": 0,
+"barcode": "8004608295761"
 },
 {
 "id": 24926932,
@@ -2808,7 +3032,8 @@
 "type": "kit",
 "need": "shine",
 "price": 325,
-"stock": 0
+"stock": 0,
+"barcode": "8004608295723"
 },
 {
 "id": 21476238,
@@ -2821,6 +3046,7 @@
 "need": "scalp",
 "price": 35,
 "stock": 2,
+"barcode": "8004608267263",
 "img": "https://davines.ru/upload/iblock/fd2/qlvmilb7upf4ik86ikmapxkg1topltmw.jpg"
 },
 {
@@ -2833,7 +3059,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "8004608280477"
 },
 {
 "id": 21762560,
@@ -2845,7 +3072,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8004608266006"
 },
 {
 "id": 22115586,
@@ -2857,7 +3085,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8004608282297"
 },
 {
 "id": 21180978,
@@ -2870,6 +3099,7 @@
 "need": "shine",
 "price": 35,
 "stock": 3,
+"barcode": "8004608258155",
 "img": "https://davines.ru/upload/iblock/46a/u3nthb0xn2emrlp8bf0er159mqggzybk.jpg"
 },
 {
@@ -2883,6 +3113,7 @@
 "need": "hold",
 "price": 85,
 "stock": 0,
+"barcode": "8004608252139",
 "img": "https://davines.ru/upload/iblock/b5a/wv6xg36i4qhlduhqkhmz7b4ks3ak9rbc.jpg"
 },
 {
@@ -2896,6 +3127,7 @@
 "need": "dry",
 "price": 100,
 "stock": 1,
+"barcode": "8004608270591",
 "img": "https://davines.ru/upload/iblock/1fc/sct0gdeniik4ncz0ernu9rp5lcoostyr.jpg"
 },
 {
@@ -2909,6 +3141,7 @@
 "need": "dry",
 "price": 100,
 "stock": 0,
+"barcode": "8004608261780",
 "img": "https://davines.ru/upload/iblock/e91/q5s9r76d1weomog9wzbu69jq48bhzsei.jpg"
 },
 {
@@ -2922,6 +3155,7 @@
 "need": "dry",
 "price": 75,
 "stock": 1,
+"barcode": "8004608261803",
 "img": "https://davines.ru/upload/iblock/769/etu54u029q9j2z6tspt4lriuldh29769.jpg"
 },
 {
@@ -2935,6 +3169,7 @@
 "need": "dry",
 "price": 65,
 "stock": 0,
+"barcode": "8004608261797",
 "img": "https://davines.ru/upload/iblock/5e6/14hwmne7oq6g5kfpy2w5kt6w8mc5b8ts.jpg"
 },
 {
@@ -2948,6 +3183,7 @@
 "need": "shine",
 "price": 185,
 "stock": 0,
+"barcode": "8004608258162",
 "img": "https://davines.ru/upload/iblock/46a/u3nthb0xn2emrlp8bf0er159mqggzybk.jpg"
 },
 {
@@ -2961,6 +3197,7 @@
 "need": "volume",
 "price": 35,
 "stock": 1,
+"barcode": "8004608258193",
 "img": "https://davines.ru/upload/iblock/893/ez60li4l441ja94wph75xub9w9fl3dg8.jpg"
 },
 {
@@ -2974,6 +3211,7 @@
 "need": "volume",
 "price": 75,
 "stock": 1,
+"barcode": "8004608289036",
 "img": "https://davines.ru/upload/iblock/b8a/0riov8sl4glmbj1wy7h7vrms0krec772.jpg"
 },
 {
@@ -2987,6 +3225,7 @@
 "need": "dry",
 "price": 75,
 "stock": 0,
+"barcode": "8004608294603",
 "img": "https://davines.ru/upload/resize_cache/iblock/c9c/1200_1600_1/83pa6q7vdn81algwfd0p03ee6cig3t9j.jpg"
 },
 {
@@ -2999,7 +3238,8 @@
 "type": "shampoo",
 "need": "shine",
 "price": 81,
-"stock": 1
+"stock": 1,
+"barcode": "8054726576150"
 },
 {
 "id": 14054590,
@@ -3011,7 +3251,8 @@
 "type": "oil",
 "need": "volume",
 "price": 58,
-"stock": 0
+"stock": 0,
+"barcode": "8054726574897"
 },
 {
 "id": 14054591,
@@ -3023,7 +3264,8 @@
 "type": "serum",
 "need": "scalp",
 "price": 73,
-"stock": 1
+"stock": 1,
+"barcode": "8054726570646"
 },
 {
 "id": 14890097,
@@ -3035,7 +3277,8 @@
 "type": "leavein",
 "need": "scalp",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "8054726572404"
 },
 {
 "id": 14890099,
@@ -3047,7 +3290,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8054726578505"
 },
 {
 "id": 16545031,
@@ -3059,7 +3303,8 @@
 "type": "leavein",
 "need": "repair",
 "price": 80,
-"stock": 2
+"stock": 2,
+"barcode": "8054726574118"
 },
 {
 "id": 16617499,
@@ -3071,7 +3316,8 @@
 "type": "styling",
 "need": "hold",
 "price": 50,
-"stock": 0
+"stock": 0,
+"barcode": "8054726573883"
 },
 {
 "id": 21179968,
@@ -3083,7 +3329,8 @@
 "type": "shampoo",
 "need": "hairloss",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8054726577515"
 },
 {
 "id": 21179974,
@@ -3095,7 +3342,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "8057587040792"
 },
 {
 "id": 21243533,
@@ -3107,7 +3355,8 @@
 "type": "conditioner",
 "need": "oily",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "8054726574804"
 },
 {
 "id": 21832643,
@@ -3119,7 +3368,8 @@
 "type": "leavein",
 "need": "repair",
 "price": 95,
-"stock": 3
+"stock": 3,
+"barcode": "8054726574163"
 },
 {
 "id": 21884761,
@@ -3131,7 +3381,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 75,
-"stock": 2
+"stock": 2,
+"barcode": "8057587040754"
 },
 {
 "id": 22781533,
@@ -3143,7 +3394,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "8054726578475"
 },
 {
 "id": 22781576,
@@ -3155,7 +3407,8 @@
 "type": "shampoo",
 "need": "hairloss",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "8054726578512"
 },
 {
 "id": 25499881,
@@ -3167,7 +3420,8 @@
 "type": "leavein",
 "need": "",
 "price": 35,
-"stock": 1
+"stock": 1,
+"barcode": "8054726579120"
 },
 {
 "id": 25499983,
@@ -3179,7 +3433,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 210,
-"stock": 1
+"stock": 1,
+"barcode": "8057587041379"
 },
 {
 "id": 25500011,
@@ -3191,7 +3446,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 210,
-"stock": 0
+"stock": 0,
+"barcode": "8057587041386"
 },
 {
 "id": 25500037,
@@ -3203,7 +3459,8 @@
 "type": "shampoo",
 "need": "",
 "price": 210,
-"stock": 1
+"stock": 1,
+"barcode": "8057587041393"
 },
 {
 "id": 25733322,
@@ -3215,7 +3472,8 @@
 "type": "shampoo",
 "need": "blonde",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "8057587043403"
 },
 {
 "id": 14054566,
@@ -3227,7 +3485,8 @@
 "type": "styling",
 "need": "curls",
 "price": 70,
-"stock": 1
+"stock": 1,
+"barcode": "8054726574828"
 },
 {
 "id": 14054567,
@@ -3239,7 +3498,8 @@
 "type": "conditioner",
 "need": "volume",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "8054726573647"
 },
 {
 "id": 14054568,
@@ -3251,7 +3511,8 @@
 "type": "conditioner",
 "need": "blonde",
 "price": 88,
-"stock": 1
+"stock": 1,
+"barcode": "8054726575467"
 },
 {
 "id": 14054569,
@@ -3263,7 +3524,8 @@
 "type": "mask",
 "need": "repair",
 "price": 104,
-"stock": 0
+"stock": 0,
+"barcode": "8054726574491"
 },
 {
 "id": 14054570,
@@ -3275,7 +3537,8 @@
 "type": "shampoo",
 "need": "blonde",
 "price": 60,
-"stock": 0
+"stock": 0,
+"barcode": "8054726574187"
 },
 {
 "id": 14054572,
@@ -3287,7 +3550,8 @@
 "type": "shampoo",
 "need": "oily",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "8054726574774"
 },
 {
 "id": 14054573,
@@ -3299,7 +3563,8 @@
 "type": "shampoo",
 "need": "volume",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "8054726578369"
 },
 {
 "id": 14054574,
@@ -3311,7 +3576,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8054726572596"
 },
 {
 "id": 14054575,
@@ -3323,7 +3589,8 @@
 "type": "shampoo",
 "need": "color",
 "price": 70,
-"stock": 1
+"stock": 1,
+"barcode": "8054726573074"
 },
 {
 "id": 14054576,
@@ -3335,7 +3602,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8054726578345"
 },
 {
 "id": 14054577,
@@ -3347,7 +3615,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "8054726578376"
 },
 {
 "id": 14054579,
@@ -3359,7 +3628,8 @@
 "type": "shampoo",
 "need": "",
 "price": 73,
-"stock": 1
+"stock": 1,
+"barcode": "8054726578499"
 },
 {
 "id": 14054580,
@@ -3371,7 +3641,8 @@
 "type": "conditioner",
 "need": "color",
 "price": 75,
-"stock": 2
+"stock": 2,
+"barcode": "8054726573661"
 },
 {
 "id": 14054582,
@@ -3383,7 +3654,8 @@
 "type": "conditioner",
 "need": "scalp",
 "price": 75,
-"stock": 2
+"stock": 2,
+"barcode": "8054726573654"
 },
 {
 "id": 14054583,
@@ -3395,7 +3667,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8054726573630"
 },
 {
 "id": 14054584,
@@ -3407,7 +3680,8 @@
 "type": "conditioner",
 "need": "color",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "8054726574224"
 },
 {
 "id": 14054585,
@@ -3419,7 +3693,8 @@
 "type": "conditioner",
 "need": "blonde",
 "price": 104,
-"stock": 0
+"stock": 0,
+"barcode": "8054726574248"
 },
 {
 "id": 14054586,
@@ -3431,7 +3706,8 @@
 "type": "oil",
 "need": "shine",
 "price": 130,
-"stock": 1
+"stock": 1,
+"barcode": "8054726574132"
 },
 {
 "id": 14054587,
@@ -3443,7 +3719,8 @@
 "type": "tonic",
 "need": "scalp",
 "price": 100,
-"stock": 1
+"stock": 1,
+"barcode": "8054726573715"
 },
 {
 "id": 14054588,
@@ -3455,7 +3732,8 @@
 "type": "oil",
 "need": "dry",
 "price": 78,
-"stock": 0
+"stock": 0,
+"barcode": "8054726574194"
 },
 {
 "id": 14054589,
@@ -3467,7 +3745,8 @@
 "type": "oil",
 "need": "dry",
 "price": 78,
-"stock": 0
+"stock": 0,
+"barcode": "8054726570660"
 },
 {
 "id": 14054592,
@@ -3479,7 +3758,8 @@
 "type": "styling",
 "need": "volume",
 "price": 40,
-"stock": 0
+"stock": 0,
+"barcode": "8054726570561"
 },
 {
 "id": 14054593,
@@ -3491,7 +3771,8 @@
 "type": "styling",
 "need": "volume",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8054726574125"
 },
 {
 "id": 14054594,
@@ -3503,7 +3784,8 @@
 "type": "styling",
 "need": "hold",
 "price": 75,
-"stock": 2
+"stock": 2,
+"barcode": "8054726573876"
 },
 {
 "id": 14054595,
@@ -3515,7 +3797,8 @@
 "type": "styling",
 "need": "hold",
 "price": 50,
-"stock": 0
+"stock": 0,
+"barcode": "8054726575481"
 },
 {
 "id": 14054596,
@@ -3527,7 +3810,8 @@
 "type": "mask",
 "need": "repair",
 "price": 133,
-"stock": 0
+"stock": 0,
+"barcode": "8054726573760"
 },
 {
 "id": 15575514,
@@ -3539,7 +3823,8 @@
 "type": "leavein",
 "need": "repair",
 "price": 60,
-"stock": 0
+"stock": 0,
+"barcode": "8054726570578"
 },
 {
 "id": 21243515,
@@ -3551,7 +3836,8 @@
 "type": "leavein",
 "need": "shine",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "8054726574101"
 },
 {
 "id": 21385176,
@@ -3563,7 +3849,8 @@
 "type": "conditioner",
 "need": "hairloss",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8054726577553"
 },
 {
 "id": 23081759,
@@ -3575,7 +3862,8 @@
 "type": "leavein",
 "need": "heat",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "8054726575504"
 },
 {
 "id": 24032797,
@@ -3587,7 +3875,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 60,
-"stock": 1
+"stock": 1,
+"barcode": "8057587040952"
 },
 {
 "id": 24158872,
@@ -3599,7 +3888,8 @@
 "type": "leavein",
 "need": "",
 "price": 190,
-"stock": 0
+"stock": 0,
+"barcode": "8057587040341"
 },
 {
 "id": 24158876,
@@ -3611,7 +3901,8 @@
 "type": "shampoo",
 "need": "",
 "price": 150,
-"stock": 0
+"stock": 0,
+"barcode": "8057587040334"
 },
 {
 "id": 24158880,
@@ -3623,7 +3914,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 150,
-"stock": 0
+"stock": 0,
+"barcode": "8057587040327"
 },
 {
 "id": 25260794,
@@ -3635,7 +3927,8 @@
 "type": "shampoo",
 "need": "",
 "price": 150,
-"stock": 1
+"stock": 1,
+"barcode": "8057587041072"
 },
 {
 "id": 25260795,
@@ -3647,7 +3940,8 @@
 "type": "oil",
 "need": "shine",
 "price": 165,
-"stock": 2
+"stock": 2,
+"barcode": "8057587040631"
 },
 {
 "id": 25260796,
@@ -3659,7 +3953,8 @@
 "type": "ampoule",
 "need": "scalp",
 "price": 205,
-"stock": 1
+"stock": 1,
+"barcode": "8054726573708"
 },
 {
 "id": 25260797,
@@ -3671,7 +3966,8 @@
 "type": "styling",
 "need": "hold",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "8054726577348"
 },
 {
 "id": 25260798,
@@ -3683,7 +3979,8 @@
 "type": "leavein",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8054726573913"
 },
 {
 "id": 25260799,
@@ -3695,7 +3992,8 @@
 "type": "styling",
 "need": "volume",
 "price": 85,
-"stock": 1
+"stock": 1,
+"barcode": "8054726577621"
 },
 {
 "id": 25260800,
@@ -3707,7 +4005,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "8057587040792"
 },
 {
 "id": 25260802,
@@ -3719,7 +4018,8 @@
 "type": "mask",
 "need": "dry",
 "price": 135,
-"stock": 1
+"stock": 1,
+"barcode": "8054726579205"
 },
 {
 "id": 25260803,
@@ -3731,7 +4031,8 @@
 "type": "conditioner",
 "need": "oily",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8054726574804"
 },
 {
 "id": 25260804,
@@ -3743,7 +4044,8 @@
 "type": "leavein",
 "need": "volume",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "8057587040617"
 },
 {
 "id": 25260805,
@@ -3755,7 +4057,8 @@
 "type": "leavein",
 "need": "scalp",
 "price": 70,
-"stock": 1
+"stock": 1,
+"barcode": "8057587040679"
 },
 {
 "id": 25260806,
@@ -3767,7 +4070,8 @@
 "type": "styling",
 "need": "volume",
 "price": 85,
-"stock": 2
+"stock": 2,
+"barcode": "8057587040662"
 },
 {
 "id": 25260807,
@@ -3779,7 +4083,8 @@
 "type": "styling",
 "need": "volume",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8057587040662"
 },
 {
 "id": 25260808,
@@ -3791,7 +4096,8 @@
 "type": "shampoo",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8054726578499"
 },
 {
 "id": 14054565,
@@ -3803,7 +4109,8 @@
 "type": "shampoo",
 "need": "",
 "price": 68,
-"stock": 0
+"stock": 0,
+"barcode": "8054726573678"
 },
 {
 "id": 15715562,
@@ -3815,7 +4122,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 240,
-"stock": 0
+"stock": 0,
+"barcode": "8054726572343"
 },
 {
 "id": 24032795,
@@ -3827,7 +4135,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8057587040914"
 },
 {
 "id": 24158878,
@@ -3839,7 +4148,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 150,
-"stock": 0
+"stock": 0,
+"barcode": "8057587040310"
 },
 {
 "id": 25260809,
@@ -3851,7 +4161,8 @@
 "type": "shampoo",
 "need": "blonde",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "8054726574187"
 },
 {
 "id": 25260810,
@@ -3863,7 +4174,8 @@
 "type": "shampoo",
 "need": "color",
 "price": 90,
-"stock": 1
+"stock": 1,
+"barcode": "8054726578536"
 },
 {
 "id": 25260811,
@@ -3875,7 +4187,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "8057587040754"
 },
 {
 "id": 25260812,
@@ -3887,7 +4200,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8057587040914"
 },
 {
 "id": 25260813,
@@ -3899,7 +4213,8 @@
 "type": "shampoo",
 "need": "oily",
 "price": 90,
-"stock": 2
+"stock": 2,
+"barcode": "8054726578482"
 },
 {
 "id": 25260814,
@@ -3911,7 +4226,8 @@
 "type": "styling",
 "need": "hold",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8057587049672"
 },
 {
 "id": 25953929,
@@ -3923,7 +4239,8 @@
 "type": "leavein",
 "need": "repair",
 "price": 90,
-"stock": 1
+"stock": 1,
+"barcode": "3474637277772"
 },
 {
 "id": 25411932,
@@ -3935,7 +4252,8 @@
 "type": "tool",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "6977001790282"
 },
 {
 "id": 21965155,
@@ -3947,7 +4265,8 @@
 "type": "shampoo",
 "need": "blonde",
 "price": 150,
-"stock": 1
+"stock": 1,
+"barcode": "3474636948642"
 },
 {
 "id": 20692203,
@@ -3959,7 +4278,8 @@
 "type": "shampoo",
 "need": "blonde",
 "price": 140,
-"stock": 0
+"stock": 0,
+"barcode": "3474636692170"
 },
 {
 "id": 24738398,
@@ -3971,7 +4291,8 @@
 "type": "shampoo",
 "need": "blonde",
 "price": 50,
-"stock": 1
+"stock": 1,
+"barcode": "3474637196561"
 },
 {
 "id": 21732544,
@@ -3983,7 +4304,8 @@
 "type": "shampoo",
 "need": "blonde",
 "price": 135,
-"stock": 1
+"stock": 1,
+"barcode": "3474636692231"
 },
 {
 "id": 21992682,
@@ -3995,7 +4317,8 @@
 "type": "leavein",
 "need": "blonde",
 "price": 110,
-"stock": 0
+"stock": 0,
+"barcode": "3474636692446"
 },
 {
 "id": 22302927,
@@ -4007,7 +4330,8 @@
 "type": "leavein",
 "need": "blonde",
 "price": 170,
-"stock": 1
+"stock": 1,
+"barcode": "3474636692422"
 },
 {
 "id": 24515523,
@@ -4019,7 +4343,8 @@
 "type": "kit",
 "need": "blonde",
 "price": 155,
-"stock": 1
+"stock": 1,
+"barcode": "3474637240745"
 },
 {
 "id": 21825765,
@@ -4031,7 +4356,8 @@
 "type": "conditioner",
 "need": "blonde",
 "price": 185,
-"stock": 0
+"stock": 0,
+"barcode": "3474636692361"
 },
 {
 "id": 21937533,
@@ -4043,7 +4369,8 @@
 "type": "oil",
 "need": "blonde",
 "price": 190,
-"stock": 1
+"stock": 1,
+"barcode": "3474636948888"
 },
 {
 "id": 22067468,
@@ -4055,7 +4382,8 @@
 "type": "oil",
 "need": "blonde",
 "price": 50,
-"stock": 0
+"stock": 0,
+"barcode": "4640193003257"
 },
 {
 "id": 21965143,
@@ -4067,7 +4395,8 @@
 "type": "mask",
 "need": "blonde",
 "price": 240,
-"stock": 0
+"stock": 0,
+"barcode": "3474636948529"
 },
 {
 "id": 21010800,
@@ -4079,7 +4408,8 @@
 "type": "mask",
 "need": "blonde",
 "price": 215,
-"stock": 1
+"stock": 1,
+"barcode": "3474636692408"
 },
 {
 "id": 20692269,
@@ -4091,7 +4421,8 @@
 "type": "serum",
 "need": "blonde",
 "price": 240,
-"stock": 0
+"stock": 0,
+"barcode": "3474636909292"
 },
 {
 "id": 20692166,
@@ -4103,7 +4434,8 @@
 "type": "shampoo",
 "need": "color",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "3474637059248"
 },
 {
 "id": 22369501,
@@ -4115,7 +4447,8 @@
 "type": "shampoo",
 "need": "color",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "3474637059002"
 },
 {
 "id": 20692147,
@@ -4127,7 +4460,8 @@
 "type": "shampoo",
 "need": "color",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "3474637058975"
 },
 {
 "id": 22369503,
@@ -4139,7 +4473,8 @@
 "type": "shampoo",
 "need": "color",
 "price": 135,
-"stock": 1
+"stock": 1,
+"barcode": "3474637059019"
 },
 {
 "id": 22228789,
@@ -4151,7 +4486,8 @@
 "type": "conditioner",
 "need": "color",
 "price": 215,
-"stock": 1
+"stock": 1,
+"barcode": "3474637059187"
 },
 {
 "id": 25365503,
@@ -4163,7 +4499,8 @@
 "type": "oil",
 "need": "color",
 "price": 200,
-"stock": 0
+"stock": 0,
+"barcode": "3474637219659"
 },
 {
 "id": 22228821,
@@ -4175,7 +4512,8 @@
 "type": "mask",
 "need": "color",
 "price": 220,
-"stock": 1
+"stock": 1,
+"barcode": "3474637059132"
 },
 {
 "id": 21832610,
@@ -4187,7 +4525,8 @@
 "type": "conditioner",
 "need": "color",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "3474637059255"
 },
 {
 "id": 22022566,
@@ -4211,7 +4550,8 @@
 "type": "conditioner",
 "need": "color",
 "price": 240,
-"stock": 2
+"stock": 2,
+"barcode": "3474637059101"
 },
 {
 "id": 21464445,
@@ -4223,7 +4563,8 @@
 "type": "leavein",
 "need": "color",
 "price": 190,
-"stock": 1
+"stock": 1,
+"barcode": "3474637059057"
 },
 {
 "id": 25586627,
@@ -4235,7 +4576,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 150,
-"stock": 1
+"stock": 1,
+"barcode": "3474637332440"
 },
 {
 "id": 20692142,
@@ -4247,7 +4589,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 150,
-"stock": 0
+"stock": 0,
+"barcode": "3474636728268"
 },
 {
 "id": 23227428,
@@ -4259,7 +4602,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 50,
-"stock": 0
+"stock": 0,
+"barcode": "3474637196592"
 },
 {
 "id": 21441442,
@@ -4271,7 +4615,8 @@
 "type": "oil",
 "need": "shine",
 "price": 250,
-"stock": 0
+"stock": 0,
+"barcode": "3474636728336"
 },
 {
 "id": 25775011,
@@ -4283,7 +4628,8 @@
 "type": "mask",
 "need": "repair",
 "price": 250,
-"stock": 1
+"stock": 1,
+"barcode": "3474637332457"
 },
 {
 "id": 20692227,
@@ -4295,7 +4641,8 @@
 "type": "mask",
 "need": "repair",
 "price": 300,
-"stock": 0
+"stock": 0,
+"barcode": "3474636728299"
 },
 {
 "id": 22007995,
@@ -4307,7 +4654,8 @@
 "type": "mask",
 "need": "repair",
 "price": 230,
-"stock": 0
+"stock": 0,
+"barcode": "3474636873999"
 },
 {
 "id": 21965137,
@@ -4319,7 +4667,8 @@
 "type": "serum",
 "need": "repair",
 "price": 480,
-"stock": 0
+"stock": 0,
+"barcode": "3474636728329"
 },
 {
 "id": 21010738,
@@ -4331,7 +4680,8 @@
 "type": "leavein",
 "need": "heat",
 "price": 225,
-"stock": 0
+"stock": 0,
+"barcode": "3474636874033"
 },
 {
 "id": 20692179,
@@ -4343,7 +4693,8 @@
 "type": "shampoo",
 "need": "curls",
 "price": 135,
-"stock": 2
+"stock": 2,
+"barcode": "3474636968688"
 },
 {
 "id": 22228810,
@@ -4355,7 +4706,8 @@
 "type": "leavein",
 "need": "curls",
 "price": 215,
-"stock": 0
+"stock": 0,
+"barcode": "3474636968749"
 },
 {
 "id": 22440727,
@@ -4367,7 +4719,8 @@
 "type": "leavein",
 "need": "curls",
 "price": 210,
-"stock": 2
+"stock": 2,
+"barcode": "3474636968756"
 },
 {
 "id": 20692260,
@@ -4379,7 +4732,8 @@
 "type": "conditioner",
 "need": "curls",
 "price": 185,
-"stock": 0
+"stock": 0,
+"barcode": "3474636968787"
 },
 {
 "id": 21762590,
@@ -4391,7 +4745,8 @@
 "type": "styling",
 "need": "curls",
 "price": 175,
-"stock": 0
+"stock": 0,
+"barcode": "3474636968725"
 },
 {
 "id": 22302925,
@@ -4403,7 +4758,8 @@
 "type": "mask",
 "need": "curls",
 "price": 220,
-"stock": 1
+"stock": 1,
+"barcode": "3474636968817"
 },
 {
 "id": 22252251,
@@ -4415,7 +4771,8 @@
 "type": "mask",
 "need": "curls",
 "price": 40,
-"stock": 0
+"stock": 0,
+"barcode": "3474637049454"
 },
 {
 "id": 22228818,
@@ -4427,7 +4784,8 @@
 "type": "styling",
 "need": "curls",
 "price": 175,
-"stock": 1
+"stock": 1,
+"barcode": "3474636970155"
 },
 {
 "id": 21937511,
@@ -4439,7 +4797,8 @@
 "type": "shampoo",
 "need": "volume",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "3474636403912"
 },
 {
 "id": 23227444,
@@ -4451,7 +4810,8 @@
 "type": "shampoo",
 "need": "volume",
 "price": 50,
-"stock": 0
+"stock": 0,
+"barcode": "3474637196462"
 },
 {
 "id": 20692127,
@@ -4463,7 +4823,8 @@
 "type": "shampoo",
 "need": "hairloss",
 "price": 135,
-"stock": 1
+"stock": 1,
+"barcode": "3474636404384"
 },
 {
 "id": 23030567,
@@ -4475,7 +4836,8 @@
 "type": "ampoule",
 "need": "hairloss",
 "price": 440,
-"stock": 0
+"stock": 0,
+"barcode": "3474636356003"
 },
 {
 "id": 21225360,
@@ -4487,7 +4849,8 @@
 "type": "conditioner",
 "need": "volume",
 "price": 215,
-"stock": 2
+"stock": 2,
+"barcode": "3474636404391"
 },
 {
 "id": 25365510,
@@ -4499,7 +4862,8 @@
 "type": "mask",
 "need": "volume",
 "price": 220,
-"stock": 1
+"stock": 1,
+"barcode": "3474636403929"
 },
 {
 "id": 21732548,
@@ -4511,7 +4875,8 @@
 "type": "shampoo",
 "need": "shine",
 "price": 135,
-"stock": 1
+"stock": 1,
+"barcode": "3474636400195"
 },
 {
 "id": 21441476,
@@ -4523,7 +4888,8 @@
 "type": "leavein",
 "need": "shine",
 "price": 170,
-"stock": 0
+"stock": 0,
+"barcode": "3474630655201"
 },
 {
 "id": 22660898,
@@ -4535,7 +4901,8 @@
 "type": "conditioner",
 "need": "shine",
 "price": 215,
-"stock": 1
+"stock": 1,
+"barcode": "3474636400201"
 },
 {
 "id": 21937551,
@@ -4547,7 +4914,8 @@
 "type": "mask",
 "need": "shine",
 "price": 210,
-"stock": 0
+"stock": 0,
+"barcode": "3474636400218"
 },
 {
 "id": 20692275,
@@ -4559,7 +4927,8 @@
 "type": "oil",
 "need": "shine",
 "price": 195,
-"stock": 0
+"stock": 0,
+"barcode": "3474636613908"
 },
 {
 "id": 21930696,
@@ -4571,7 +4940,8 @@
 "type": "oil",
 "need": "shine",
 "price": 60,
-"stock": 0
+"stock": 0,
+"barcode": "3474637049423"
 },
 {
 "id": 21955857,
@@ -4583,7 +4953,8 @@
 "type": "oil",
 "need": "shine",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "3474636613922"
 },
 {
 "id": 24468626,
@@ -4595,7 +4966,8 @@
 "type": "oil",
 "need": "shine",
 "price": 200,
-"stock": 1
+"stock": 1,
+"barcode": "3474637215125"
 },
 {
 "id": 20692288,
@@ -4607,7 +4979,8 @@
 "type": "oil",
 "need": "color",
 "price": 195,
-"stock": 0
+"stock": 0,
+"barcode": "3474636624768"
 },
 {
 "id": 20692137,
@@ -4619,7 +4992,8 @@
 "type": "shampoo",
 "need": "shine",
 "price": 135,
-"stock": 1
+"stock": 1,
+"barcode": "3474636614103"
 },
 {
 "id": 21298748,
@@ -4631,7 +5005,8 @@
 "type": "conditioner",
 "need": "shine",
 "price": 215,
-"stock": 0
+"stock": 0,
+"barcode": "3474636614028"
 },
 {
 "id": 21010775,
@@ -4643,7 +5018,8 @@
 "type": "mask",
 "need": "shine",
 "price": 215,
-"stock": 1
+"stock": 1,
+"barcode": "3474636614172"
 },
 {
 "id": 24247283,
@@ -4655,7 +5031,8 @@
 "type": "perfume",
 "need": "shine",
 "price": 250,
-"stock": 1
+"stock": 1,
+"barcode": "3474637219611"
 },
 {
 "id": 21442084,
@@ -4667,7 +5044,8 @@
 "type": "shampoo",
 "need": "oily",
 "price": 155,
-"stock": 0
+"stock": 0,
+"barcode": "884486442543"
 },
 {
 "id": 21949424,
@@ -4679,7 +5057,8 @@
 "type": "shampoo",
 "need": "oily",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "884486442550"
 },
 {
 "id": 21770184,
@@ -4691,7 +5070,8 @@
 "type": "mask",
 "need": "scalp",
 "price": 220,
-"stock": 0
+"stock": 0,
+"barcode": "3474636757039"
 },
 {
 "id": 20692155,
@@ -4703,7 +5083,8 @@
 "type": "shampoo",
 "need": "hairloss",
 "price": 140,
-"stock": 1
+"stock": 1,
+"barcode": "3474636857814"
 },
 {
 "id": 24554530,
@@ -4715,7 +5096,8 @@
 "type": "shampoo",
 "need": "hairloss",
 "price": 25,
-"stock": 2
+"stock": 2,
+"barcode": "3474637049409"
 },
 {
 "id": 24738400,
@@ -4727,7 +5109,8 @@
 "type": "shampoo",
 "need": "hairloss",
 "price": 50,
-"stock": 0
+"stock": 0,
+"barcode": "3474637196479"
 },
 {
 "id": 20692196,
@@ -4739,7 +5122,8 @@
 "type": "shampoo",
 "need": "hairloss",
 "price": 135,
-"stock": 1
+"stock": 1,
+"barcode": "3474636858033"
 },
 {
 "id": 24515522,
@@ -4751,7 +5135,8 @@
 "type": "kit",
 "need": "hairloss",
 "price": 155,
-"stock": 0
+"stock": 0,
+"barcode": "3474637213213"
 },
 {
 "id": 23113562,
@@ -4763,7 +5148,8 @@
 "type": "leavein",
 "need": "heat",
 "price": 170,
-"stock": 1
+"stock": 1,
+"barcode": "3474636857975"
 },
 {
 "id": 21524143,
@@ -4775,7 +5161,8 @@
 "type": "conditioner",
 "need": "hairloss",
 "price": 235,
-"stock": 1
+"stock": 1,
+"barcode": "3474636857883"
 },
 {
 "id": 22660958,
@@ -4787,7 +5174,8 @@
 "type": "shampoo",
 "need": "hairloss",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "3474637077525"
 },
 {
 "id": 23113561,
@@ -4799,7 +5187,8 @@
 "type": "shampoo",
 "need": "hairloss",
 "price": 135,
-"stock": 1
+"stock": 1,
+"barcode": "3474637077518"
 },
 {
 "id": 22661028,
@@ -4811,7 +5200,8 @@
 "type": "styling",
 "need": "hold",
 "price": 170,
-"stock": 1
+"stock": 1,
+"barcode": "3474637077594"
 },
 {
 "id": 21937543,
@@ -4823,7 +5213,8 @@
 "type": "mask",
 "need": "hairloss",
 "price": 220,
-"stock": 1
+"stock": 1,
+"barcode": "3474636857937"
 },
 {
 "id": 22067470,
@@ -4835,7 +5226,8 @@
 "type": "serum",
 "need": "hairloss",
 "price": 50,
-"stock": 0
+"stock": 0,
+"barcode": "4640193003240"
 },
 {
 "id": 21937530,
@@ -4847,7 +5239,8 @@
 "type": "serum",
 "need": "hairloss",
 "price": 330,
-"stock": 1
+"stock": 1,
+"barcode": "3474636858002"
 },
 {
 "id": 24468629,
@@ -4859,7 +5252,8 @@
 "type": "leavein",
 "need": "shine",
 "price": 180,
-"stock": 1
+"stock": 1,
+"barcode": "3474637283445"
 },
 {
 "id": 24468620,
@@ -4871,7 +5265,8 @@
 "type": "shampoo",
 "need": "shine",
 "price": 140,
-"stock": 1
+"stock": 1,
+"barcode": "3474637308728"
 },
 {
 "id": 24554529,
@@ -4883,7 +5278,8 @@
 "type": "shampoo",
 "need": "shine",
 "price": 25,
-"stock": 0
+"stock": 0,
+"barcode": "3474637285074"
 },
 {
 "id": 24515520,
@@ -4895,7 +5291,8 @@
 "type": "kit",
 "need": "shine",
 "price": 155,
-"stock": 0
+"stock": 0,
+"barcode": "3474637310721"
 },
 {
 "id": 24469703,
@@ -4907,7 +5304,8 @@
 "type": "conditioner",
 "need": "shine",
 "price": 190,
-"stock": 1
+"stock": 1,
+"barcode": "3474637283421"
 },
 {
 "id": 25524114,
@@ -4919,7 +5317,8 @@
 "type": "leavein",
 "need": "shine",
 "price": 220,
-"stock": 1
+"stock": 1,
+"barcode": "3474637329860"
 },
 {
 "id": 24651513,
@@ -4931,7 +5330,8 @@
 "type": "kit",
 "need": "shine",
 "price": 390,
-"stock": 0
+"stock": 0,
+"barcode": "3474637304249"
 },
 {
 "id": 24468616,
@@ -4943,7 +5343,8 @@
 "type": "serum",
 "need": "shine",
 "price": 170,
-"stock": 1
+"stock": 1,
+"barcode": "3474637285012"
 },
 {
 "id": 25645832,
@@ -4955,7 +5356,8 @@
 "type": "mask",
 "need": "shine",
 "price": 225,
-"stock": 1
+"stock": 1,
+"barcode": "3474637303365"
 },
 {
 "id": 25953919,
@@ -4967,7 +5369,8 @@
 "type": "perfume",
 "need": "shine",
 "price": 190,
-"stock": 1
+"stock": 1,
+"barcode": "3474637326692"
 },
 {
 "id": 21904423,
@@ -4979,7 +5382,8 @@
 "type": "serum",
 "need": "dry",
 "price": 45,
-"stock": 0
+"stock": 0,
+"barcode": "3474637049478"
 },
 {
 "id": 21928743,
@@ -4991,7 +5395,8 @@
 "type": "serum",
 "need": "dry",
 "price": 185,
-"stock": 0
+"stock": 0,
+"barcode": "3474636721832"
 },
 {
 "id": 22440731,
@@ -5003,7 +5408,8 @@
 "type": "serum",
 "need": "dry",
 "price": 225,
-"stock": 1
+"stock": 1,
+"barcode": "3474637155025"
 },
 {
 "id": 22369499,
@@ -5015,7 +5421,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "3474637154912"
 },
 {
 "id": 22660996,
@@ -5027,7 +5434,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 135,
-"stock": 1
+"stock": 1,
+"barcode": "3474637154943"
 },
 {
 "id": 22660902,
@@ -5039,7 +5447,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 190,
-"stock": 1
+"stock": 1,
+"barcode": "3474637154981"
 },
 {
 "id": 21937508,
@@ -5051,7 +5460,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 185,
-"stock": 0
+"stock": 0,
+"barcode": "3474636382699"
 },
 {
 "id": 22440676,
@@ -5063,7 +5473,8 @@
 "type": "leavein",
 "need": "heat",
 "price": 170,
-"stock": 0
+"stock": 0,
+"barcode": "3474637155049"
 },
 {
 "id": 21010794,
@@ -5075,7 +5486,8 @@
 "type": "mask",
 "need": "dry",
 "price": 215,
-"stock": 0
+"stock": 0,
+"barcode": "3474636382477"
 },
 {
 "id": 22228822,
@@ -5087,7 +5499,8 @@
 "type": "mask",
 "need": "dry",
 "price": 220,
-"stock": 0
+"stock": 0,
+"barcode": "3474636382705"
 },
 {
 "id": 22660626,
@@ -5099,7 +5512,8 @@
 "type": "mask",
 "need": "dry",
 "price": 220,
-"stock": 1
+"stock": 1,
+"barcode": "3474637154967"
 },
 {
 "id": 22661101,
@@ -5111,7 +5525,8 @@
 "type": "mask",
 "need": "dry",
 "price": 390,
-"stock": 0
+"stock": 0,
+"barcode": "3474637154974"
 },
 {
 "id": 22660617,
@@ -5123,7 +5538,8 @@
 "type": "mask",
 "need": "dry",
 "price": 220,
-"stock": 0
+"stock": 0,
+"barcode": "3474637155001"
 },
 {
 "id": 23307509,
@@ -5135,7 +5551,8 @@
 "type": "mask",
 "need": "dry",
 "price": 385,
-"stock": 0
+"stock": 0,
+"barcode": "3474637155018"
 },
 {
 "id": 22660926,
@@ -5147,7 +5564,8 @@
 "type": "leavein",
 "need": "heat",
 "price": 200,
-"stock": 1
+"stock": 1,
+"barcode": "3474637155063"
 },
 {
 "id": 21937516,
@@ -5159,7 +5577,8 @@
 "type": "leavein",
 "need": "heat",
 "price": 160,
-"stock": 0
+"stock": 0,
+"barcode": "3474636382736"
 },
 {
 "id": 22661016,
@@ -5171,7 +5590,8 @@
 "type": "serum",
 "need": "dry",
 "price": 185,
-"stock": 0
+"stock": 0,
+"barcode": "3474637155032"
 },
 {
 "id": 22660893,
@@ -5183,7 +5603,8 @@
 "type": "serum",
 "need": "scalp",
 "price": 185,
-"stock": 1
+"stock": 1,
+"barcode": "3474637155209"
 },
 {
 "id": 25108390,
@@ -5195,7 +5616,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 150,
-"stock": 1
+"stock": 1,
+"barcode": "3474637195809"
 },
 {
 "id": 24554523,
@@ -5207,7 +5629,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 25,
-"stock": 3
+"stock": 3,
+"barcode": "3474637195847"
 },
 {
 "id": 24515524,
@@ -5219,7 +5642,8 @@
 "type": "kit",
 "need": "repair",
 "price": 185,
-"stock": 1
+"stock": 1,
+"barcode": "3474637244361"
 },
 {
 "id": 25108367,
@@ -5231,7 +5655,8 @@
 "type": "conditioner",
 "need": "repair",
 "price": 220,
-"stock": 1
+"stock": 1,
+"barcode": "3474637196707"
 },
 {
 "id": 25108409,
@@ -5243,7 +5668,8 @@
 "type": "mask",
 "need": "repair",
 "price": 250,
-"stock": 2
+"stock": 2,
+"barcode": "3474637196646"
 },
 {
 "id": 25108438,
@@ -5255,7 +5681,8 @@
 "type": "serum",
 "need": "repair",
 "price": 250,
-"stock": 0
+"stock": 0,
+"barcode": "3474637196677"
 },
 {
 "id": 22007982,
@@ -5267,7 +5694,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "3474636612666"
 },
 {
 "id": 21298753,
@@ -5279,7 +5707,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 135,
-"stock": 2
+"stock": 2,
+"barcode": "3474636397945"
 },
 {
 "id": 21930595,
@@ -5291,7 +5720,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 40,
-"stock": 0
+"stock": 0,
+"barcode": "3474637049515"
 },
 {
 "id": 20692246,
@@ -5303,7 +5733,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 150,
-"stock": 1
+"stock": 1,
+"barcode": "3474636397969"
 },
 {
 "id": 22660983,
@@ -5315,7 +5746,8 @@
 "type": "shampoo",
 "need": "volume",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "3474636397891"
 },
 {
 "id": 22302926,
@@ -5327,7 +5759,8 @@
 "type": "conditioner",
 "need": "repair",
 "price": 190,
-"stock": 2
+"stock": 2,
+"barcode": "3474636397884"
 },
 {
 "id": 22007964,
@@ -5339,7 +5772,8 @@
 "type": "conditioner",
 "need": "repair",
 "price": 220,
-"stock": 1
+"stock": 1,
+"barcode": "3474636397495"
 },
 {
 "id": 21937513,
@@ -5351,7 +5785,8 @@
 "type": "leavein",
 "need": "heat",
 "price": 160,
-"stock": 0
+"stock": 0,
+"barcode": "3474630652439"
 },
 {
 "id": 21992677,
@@ -5363,7 +5798,8 @@
 "type": "leavein",
 "need": "heat",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "3474636818266"
 },
 {
 "id": 22007956,
@@ -5375,7 +5811,8 @@
 "type": "leavein",
 "need": "heat",
 "price": 185,
-"stock": 0
+"stock": 0,
+"barcode": "3474636818259"
 },
 {
 "id": 22007947,
@@ -5387,7 +5824,8 @@
 "type": "conditioner",
 "need": "repair",
 "price": 195,
-"stock": 1
+"stock": 1,
+"barcode": "3474636612918"
 },
 {
 "id": 22007938,
@@ -5399,7 +5837,8 @@
 "type": "mask",
 "need": "repair",
 "price": 240,
-"stock": 1
+"stock": 1,
+"barcode": "3474636613168"
 },
 {
 "id": 21298738,
@@ -5411,7 +5850,8 @@
 "type": "mask",
 "need": "repair",
 "price": 215,
-"stock": 2
+"stock": 2,
+"barcode": "3474636397952"
 },
 {
 "id": 22661105,
@@ -5423,7 +5863,8 @@
 "type": "mask",
 "need": "repair",
 "price": 390,
-"stock": 0
+"stock": 0,
+"barcode": "3474630713109"
 },
 {
 "id": 20692217,
@@ -5435,7 +5876,8 @@
 "type": "mask",
 "need": "repair",
 "price": 210,
-"stock": 0
+"stock": 0,
+"barcode": "3474636397983"
 },
 {
 "id": 21937521,
@@ -5447,7 +5889,8 @@
 "type": "serum",
 "need": "repair",
 "price": 210,
-"stock": 0
+"stock": 0,
+"barcode": "3474636636341"
 },
 {
 "id": 21762589,
@@ -5459,7 +5902,8 @@
 "type": "serum",
 "need": "repair",
 "price": 180,
-"stock": 0
+"stock": 0,
+"barcode": "3474630713383"
 },
 {
 "id": 21832594,
@@ -5471,7 +5915,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 45,
-"stock": 0
+"stock": 0,
+"barcode": "4690214745734"
 },
 {
 "id": 21928726,
@@ -5483,7 +5928,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "3474636695249"
 },
 {
 "id": 22228783,
@@ -5495,7 +5941,8 @@
 "type": "leavein",
 "need": "dry",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "3474636695300"
 },
 {
 "id": 21832601,
@@ -5507,7 +5954,8 @@
 "type": "leavein",
 "need": "dry",
 "price": 45,
-"stock": 0
+"stock": 0,
+"barcode": "3474636695348"
 },
 {
 "id": 22228787,
@@ -5519,7 +5967,8 @@
 "type": "leavein",
 "need": "dry",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "3474636695324"
 },
 {
 "id": 22234830,
@@ -5531,7 +5980,8 @@
 "type": "mask",
 "need": "dry",
 "price": 240,
-"stock": 0
+"stock": 0,
+"barcode": "3474636695287"
 },
 {
 "id": 22661117,
@@ -5543,7 +5993,8 @@
 "type": "mask",
 "need": "oily",
 "price": 390,
-"stock": 0
+"stock": 0,
+"barcode": "3474636954674"
 },
 {
 "id": 22949276,
@@ -5555,7 +6006,8 @@
 "type": "mask",
 "need": "oily",
 "price": 215,
-"stock": 1
+"stock": 1,
+"barcode": "3474636954681"
 },
 {
 "id": 20692163,
@@ -5567,7 +6019,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "3474636397402"
 },
 {
 "id": 21762588,
@@ -5579,7 +6032,8 @@
 "type": "shampoo",
 "need": "oily",
 "price": 135,
-"stock": 1
+"stock": 1,
+"barcode": "3474636954766"
 },
 {
 "id": 24738389,
@@ -5591,7 +6045,8 @@
 "type": "shampoo",
 "need": "oily",
 "price": 50,
-"stock": 0
+"stock": 0,
+"barcode": "3474637202804"
 },
 {
 "id": 20692186,
@@ -5603,7 +6058,8 @@
 "type": "shampoo",
 "need": "hairloss",
 "price": 135,
-"stock": 2
+"stock": 2,
+"barcode": "3474636397433"
 },
 {
 "id": 21225369,
@@ -5615,7 +6071,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "3474636397396"
 },
 {
 "id": 22228812,
@@ -5627,7 +6084,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 140,
-"stock": 1
+"stock": 1,
+"barcode": "3474636397389"
 },
 {
 "id": 23030565,
@@ -5639,7 +6097,8 @@
 "type": "ampoule",
 "need": "hairloss",
 "price": 190,
-"stock": 0
+"stock": 0,
+"barcode": "3474636397556"
 },
 {
 "id": 22106568,
@@ -5651,7 +6110,8 @@
 "type": "mask",
 "need": "oily",
 "price": 175,
-"stock": 0
+"stock": 0,
+"barcode": "3474636954742"
 },
 {
 "id": 23307487,
@@ -5663,7 +6123,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "3474637135690"
 },
 {
 "id": 23307503,
@@ -5675,7 +6136,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 140,
-"stock": 0
+"stock": 0,
+"barcode": "3474637135713"
 },
 {
 "id": 23307501,
@@ -5687,7 +6149,8 @@
 "type": "conditioner",
 "need": "scalp",
 "price": 190,
-"stock": 1
+"stock": 1,
+"barcode": "3474637136383"
 },
 {
 "id": 23307485,
@@ -5699,7 +6162,8 @@
 "type": "mask",
 "need": "scalp",
 "price": 215,
-"stock": 0
+"stock": 0,
+"barcode": "3474637136345"
 },
 {
 "id": 23307496,
@@ -5711,7 +6175,8 @@
 "type": "mask",
 "need": "scalp",
 "price": 195,
-"stock": 0
+"stock": 0,
+"barcode": "3474637135744"
 },
 {
 "id": 23307494,
@@ -5723,7 +6188,8 @@
 "type": "mask",
 "need": "scalp",
 "price": 410,
-"stock": 0
+"stock": 0,
+"barcode": "3474637136277"
 },
 {
 "id": 21885852,
@@ -5735,7 +6201,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 10,
-"stock": 0
+"stock": 0,
+"barcode": "3474636992812"
 },
 {
 "id": 22160261,
@@ -5747,7 +6214,8 @@
 "type": "oil",
 "need": "dry",
 "price": 185,
-"stock": 0
+"stock": 0,
+"barcode": "8718503824215"
 },
 {
 "id": 22160233,
@@ -5759,7 +6227,8 @@
 "type": "accessory",
 "need": "",
 "price": 120,
-"stock": 0
+"stock": 0,
+"barcode": "8719638140645"
 },
 {
 "id": 22160236,
@@ -5771,7 +6240,8 @@
 "type": "accessory",
 "need": "",
 "price": 150,
-"stock": 0
+"stock": 0,
+"barcode": "8719638140638"
 },
 {
 "id": 22160230,
@@ -5783,7 +6253,8 @@
 "type": "accessory",
 "need": "",
 "price": 170,
-"stock": 0
+"stock": 0,
+"barcode": "8719638140621"
 },
 {
 "id": 22374640,
@@ -5795,7 +6266,8 @@
 "type": "accessory",
 "need": "",
 "price": 230,
-"stock": 0
+"stock": 0,
+"barcode": "8720791750725"
 },
 {
 "id": 22160223,
@@ -5807,7 +6279,8 @@
 "type": "conditioner",
 "need": "color",
 "price": 190,
-"stock": 0
+"stock": 0,
+"barcode": "8720246240337"
 },
 {
 "id": 22160387,
@@ -5819,7 +6292,8 @@
 "type": "mask",
 "need": "color",
 "price": 195,
-"stock": 0
+"stock": 0,
+"barcode": "8720246244939"
 },
 {
 "id": 22374634,
@@ -5831,7 +6305,8 @@
 "type": "shampoo",
 "need": "color",
 "price": 180,
-"stock": 0
+"stock": 0,
+"barcode": "8720246240320"
 },
 {
 "id": 22160383,
@@ -5843,7 +6318,8 @@
 "type": "accessory",
 "need": "",
 "price": 185,
-"stock": 1
+"stock": 1,
+"barcode": "8720246246582"
 },
 {
 "id": 22160382,
@@ -5855,7 +6331,8 @@
 "type": "accessory",
 "need": "",
 "price": 170,
-"stock": 0
+"stock": 0,
+"barcode": "8720246240627"
 },
 {
 "id": 22374515,
@@ -5867,7 +6344,8 @@
 "type": "accessory",
 "need": "",
 "price": 290,
-"stock": 2
+"stock": 2,
+"barcode": "8720246240122"
 },
 {
 "id": 22160379,
@@ -5879,7 +6357,8 @@
 "type": "accessory",
 "need": "",
 "price": 330,
-"stock": 0
+"stock": 0,
+"barcode": "8720246246537"
 },
 {
 "id": 22374520,
@@ -5891,7 +6370,8 @@
 "type": "accessory",
 "need": "",
 "price": 290,
-"stock": 2
+"stock": 2,
+"barcode": "8720246241525"
 },
 {
 "id": 22160372,
@@ -5903,7 +6383,8 @@
 "type": "accessory",
 "need": "",
 "price": 240,
-"stock": 3
+"stock": 3,
+"barcode": "8720246240153"
 },
 {
 "id": 22160375,
@@ -5915,7 +6396,8 @@
 "type": "accessory",
 "need": "",
 "price": 230,
-"stock": 3
+"stock": 3,
+"barcode": "8720246240146"
 },
 {
 "id": 22160377,
@@ -5927,7 +6409,8 @@
 "type": "accessory",
 "need": "",
 "price": 240,
-"stock": 3
+"stock": 3,
+"barcode": "8720246240160"
 },
 {
 "id": 22829769,
@@ -5939,7 +6422,8 @@
 "type": "accessory",
 "need": "",
 "price": 195,
-"stock": 0
+"stock": 0,
+"barcode": "8718969473422"
 },
 {
 "id": 22827741,
@@ -5951,7 +6435,8 @@
 "type": "accessory",
 "need": "",
 "price": 195,
-"stock": 1
+"stock": 1,
+"barcode": "8718969476294"
 },
 {
 "id": 22374594,
@@ -5963,7 +6448,8 @@
 "type": "accessory",
 "need": "",
 "price": 380,
-"stock": 0
+"stock": 0,
+"barcode": "8720791750800"
 },
 {
 "id": 22374606,
@@ -5975,7 +6461,8 @@
 "type": "accessory",
 "need": "",
 "price": 245,
-"stock": 2
+"stock": 2,
+"barcode": "8720246240238"
 },
 {
 "id": 22374573,
@@ -5987,7 +6474,8 @@
 "type": "accessory",
 "need": "",
 "price": 245,
-"stock": 3
+"stock": 3,
+"barcode": "8720246240245"
 },
 {
 "id": 22640995,
@@ -5999,7 +6487,8 @@
 "type": "accessory",
 "need": "",
 "price": 350,
-"stock": 0
+"stock": 0,
+"barcode": "8720246240184"
 },
 {
 "id": 22640988,
@@ -6011,7 +6500,8 @@
 "type": "accessory",
 "need": "",
 "price": 630,
-"stock": 0
+"stock": 0,
+"barcode": "8720791750787"
 },
 {
 "id": 22374618,
@@ -6023,7 +6513,8 @@
 "type": "accessory",
 "need": "",
 "price": 350,
-"stock": 0
+"stock": 0,
+"barcode": "8720246240177"
 },
 {
 "id": 22641004,
@@ -6035,7 +6526,8 @@
 "type": "accessory",
 "need": "",
 "price": 630,
-"stock": 0
+"stock": 0,
+"barcode": "8720791751852"
 },
 {
 "id": 22160371,
@@ -6047,7 +6539,8 @@
 "type": "accessory",
 "need": "",
 "price": 330,
-"stock": 1
+"stock": 1,
+"barcode": "8720246240214"
 },
 {
 "id": 22374586,
@@ -6059,7 +6552,8 @@
 "type": "accessory",
 "need": "",
 "price": 520,
-"stock": 0
+"stock": 0,
+"barcode": "8720791750794"
 },
 {
 "id": 22160373,
@@ -6071,7 +6565,8 @@
 "type": "accessory",
 "need": "",
 "price": 330,
-"stock": 1
+"stock": 1,
+"barcode": "8720246240207"
 },
 {
 "id": 22640998,
@@ -6083,7 +6578,8 @@
 "type": "accessory",
 "need": "",
 "price": 530,
-"stock": 0
+"stock": 0,
+"barcode": "8720791751906"
 },
 {
 "id": 22160370,
@@ -6095,7 +6591,8 @@
 "type": "accessory",
 "need": "",
 "price": 330,
-"stock": 2
+"stock": 2,
+"barcode": "8720246240221"
 },
 {
 "id": 22641027,
@@ -6107,7 +6604,8 @@
 "type": "accessory",
 "need": "",
 "price": 380,
-"stock": 0
+"stock": 0,
+"barcode": "8720791751968"
 },
 {
 "id": 23849575,
@@ -6119,7 +6617,8 @@
 "type": "accessory",
 "need": "",
 "price": 240,
-"stock": 1
+"stock": 1,
+"barcode": "8720246240252"
 },
 {
 "id": 23141801,
@@ -6131,7 +6630,8 @@
 "type": "tool",
 "need": "",
 "price": 1100,
-"stock": 1
+"stock": 1,
+"barcode": "8720246242164"
 },
 {
 "id": 25119694,
@@ -6143,7 +6643,8 @@
 "type": "accessory",
 "need": "",
 "price": 235,
-"stock": 2
+"stock": 2,
+"barcode": "8720246240283"
 },
 {
 "id": 25119711,
@@ -6155,7 +6656,8 @@
 "type": "accessory",
 "need": "",
 "price": 235,
-"stock": 2
+"stock": 2,
+"barcode": "8720246240276"
 },
 {
 "id": 22160364,
@@ -6167,7 +6669,8 @@
 "type": "perfume",
 "need": "shine",
 "price": 385,
-"stock": 0
+"stock": 0,
+"barcode": "8719874339940"
 },
 {
 "id": 22748085,
@@ -6179,7 +6682,8 @@
 "type": "tool",
 "need": "",
 "price": 820,
-"stock": 0
+"stock": 0,
+"barcode": "8720246242157"
 },
 {
 "id": 22160354,
@@ -6191,7 +6695,8 @@
 "type": "oil",
 "need": "shine",
 "price": 275,
-"stock": 0
+"stock": 0,
+"barcode": "8719874336826"
 },
 {
 "id": 22160466,
@@ -6203,7 +6708,8 @@
 "type": "kit",
 "need": "scalp",
 "price": 650,
-"stock": 0
+"stock": 0,
+"barcode": "8720246249378"
 },
 {
 "id": 22374630,
@@ -6215,7 +6721,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 170,
-"stock": 0
+"stock": 0,
+"barcode": "8719874336833"
 },
 {
 "id": 22160222,
@@ -6227,7 +6734,8 @@
 "type": "perfume",
 "need": "shine",
 "price": 385,
-"stock": 0
+"stock": 0,
+"barcode": "8720246245080"
 },
 {
 "id": 22160359,
@@ -6239,7 +6747,8 @@
 "type": "mask",
 "need": "scalp",
 "price": 215,
-"stock": 0
+"stock": 0,
+"barcode": "8719874336840"
 },
 {
 "id": 22160241,
@@ -6251,7 +6760,8 @@
 "type": "styling",
 "need": "hold",
 "price": 165,
-"stock": 0
+"stock": 0,
+"barcode": "8720246249927"
 },
 {
 "id": 22160247,
@@ -6263,7 +6773,8 @@
 "type": "leavein",
 "need": "blonde",
 "price": 145,
-"stock": 0
+"stock": 0,
+"barcode": "8718969478656"
 },
 {
 "id": 22302935,
@@ -6275,7 +6786,8 @@
 "type": "leavein",
 "need": "dry",
 "price": 145,
-"stock": 0
+"stock": 0,
+"barcode": "8720246245226"
 },
 {
 "id": 22374646,
@@ -6287,7 +6799,8 @@
 "type": "leavein",
 "need": "dry",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "8718503829838"
 },
 {
 "id": 22160262,
@@ -6299,7 +6812,8 @@
 "type": "leavein",
 "need": "dry",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "8720246245288"
 },
 {
 "id": 22160244,
@@ -6311,7 +6825,8 @@
 "type": "styling",
 "need": "hold",
 "price": 145,
-"stock": 0
+"stock": 0,
+"barcode": "8718969473187"
 },
 {
 "id": 22160395,
@@ -6323,7 +6838,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 190,
-"stock": 0
+"stock": 0,
+"barcode": "8718969473309"
 },
 {
 "id": 22160260,
@@ -6335,7 +6851,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "8718969473354"
 },
 {
 "id": 22160252,
@@ -6347,7 +6864,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 180,
-"stock": 0
+"stock": 0,
+"barcode": "8718969473293"
 },
 {
 "id": 22160356,
@@ -6359,7 +6877,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "8718969473347"
 },
 {
 "id": 22160217,
@@ -6371,7 +6890,8 @@
 "type": "accessory",
 "need": "",
 "price": 210,
-"stock": 0
+"stock": 0,
+"barcode": "8720246249590"
 },
 {
 "id": 24402109,
@@ -6383,7 +6903,8 @@
 "type": "accessory",
 "need": "",
 "price": 750,
-"stock": 1
+"stock": 1,
+"barcode": "8720791754327"
 },
 {
 "id": 24402108,
@@ -6395,7 +6916,8 @@
 "type": "accessory",
 "need": "",
 "price": 750,
-"stock": 1
+"stock": 1,
+"barcode": "8720791754426"
 },
 {
 "id": 24402105,
@@ -6407,7 +6929,8 @@
 "type": "accessory",
 "need": "",
 "price": 750,
-"stock": 0
+"stock": 0,
+"barcode": "8720791756840"
 },
 {
 "id": 24402101,
@@ -6419,7 +6942,8 @@
 "type": "accessory",
 "need": "",
 "price": 750,
-"stock": 0
+"stock": 0,
+"barcode": "8720791754372"
 },
 {
 "id": 22160254,
@@ -6431,7 +6955,8 @@
 "type": "conditioner",
 "need": "repair",
 "price": 190,
-"stock": 0
+"stock": 0,
+"barcode": "8718969473392"
 },
 {
 "id": 22160357,
@@ -6443,7 +6968,8 @@
 "type": "mask",
 "need": "repair",
 "price": 195,
-"stock": 0
+"stock": 0,
+"barcode": "8718969473408"
 },
 {
 "id": 22160257,
@@ -6455,7 +6981,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 180,
-"stock": 0
+"stock": 0,
+"barcode": "8718969473385"
 },
 {
 "id": 22160366,
@@ -6467,7 +6994,8 @@
 "type": "styling",
 "need": "hold",
 "price": 145,
-"stock": 0
+"stock": 0,
+"barcode": "8718503824222"
 },
 {
 "id": 22160242,
@@ -6479,7 +7007,8 @@
 "type": "styling",
 "need": "shine",
 "price": 145,
-"stock": 0
+"stock": 0,
+"barcode": "8718969473170"
 },
 {
 "id": 22374645,
@@ -6491,7 +7020,8 @@
 "type": "perfume",
 "need": "shine",
 "price": 170,
-"stock": 0
+"stock": 0,
+"barcode": "8718503824208"
 },
 {
 "id": 22374660,
@@ -6503,7 +7033,8 @@
 "type": "perfume",
 "need": "shine",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "8718503829272"
 },
 {
 "id": 22160238,
@@ -6515,7 +7046,8 @@
 "type": "mask",
 "need": "blonde",
 "price": 195,
-"stock": 0
+"stock": 0,
+"barcode": "8720246246001"
 },
 {
 "id": 22160256,
@@ -6527,7 +7059,8 @@
 "type": "shampoo",
 "need": "blonde",
 "price": 180,
-"stock": 0
+"stock": 0,
+"barcode": "8719638142519"
 },
 {
 "id": 25119683,
@@ -6539,7 +7072,8 @@
 "type": "accessory",
 "need": "",
 "price": 360,
-"stock": 1
+"stock": 1,
+"barcode": "8719638146623"
 },
 {
 "id": 22160216,
@@ -6551,7 +7085,8 @@
 "type": "accessory",
 "need": "",
 "price": 195,
-"stock": 1
+"stock": 1,
+"barcode": "8719638146654"
 },
 {
 "id": 22699301,
@@ -6563,7 +7098,8 @@
 "type": "styling",
 "need": "hold",
 "price": 150,
-"stock": 0
+"stock": 0,
+"barcode": "8718969473200"
 },
 {
 "id": 22374647,
@@ -6575,7 +7111,8 @@
 "type": "styling",
 "need": "volume",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "8718503829289"
 },
 {
 "id": 22160221,
@@ -6587,7 +7124,8 @@
 "type": "styling",
 "need": "volume",
 "price": 160,
-"stock": 0
+"stock": 0,
+"barcode": "8720246247893"
 },
 {
 "id": 22374675,
@@ -6599,7 +7137,8 @@
 "type": "leavein",
 "need": "heat",
 "price": 145,
-"stock": 0
+"stock": 0,
+"barcode": "8718969478649"
 },
 {
 "id": 22160465,
@@ -6611,7 +7150,8 @@
 "type": "tool",
 "need": "",
 "price": 975,
-"stock": 1
+"stock": 1,
+"barcode": "8719638146722"
 },
 {
 "id": 22160363,
@@ -6623,7 +7163,8 @@
 "type": "conditioner",
 "need": "volume",
 "price": 190,
-"stock": 0
+"stock": 0,
+"barcode": "8720246243925"
 },
 {
 "id": 22160367,
@@ -6635,7 +7176,8 @@
 "type": "styling",
 "need": "volume",
 "price": 145,
-"stock": 0
+"stock": 0,
+"barcode": "8718503824246"
 },
 {
 "id": 22160226,
@@ -6647,7 +7189,8 @@
 "type": "shampoo",
 "need": "volume",
 "price": 180,
-"stock": 0
+"stock": 0,
+"barcode": "8720246243956"
 },
 {
 "id": 22374649,
@@ -6659,7 +7202,8 @@
 "type": "styling",
 "need": "volume",
 "price": 145,
-"stock": 0
+"stock": 0,
+"barcode": "8718969472197"
 },
 {
 "id": 13967448,
@@ -6671,7 +7215,8 @@
 "type": "mask",
 "need": "",
 "price": 125,
-"stock": 1
+"stock": 1,
+"barcode": "3474636976072"
 },
 {
 "id": 14010463,
@@ -6683,7 +7228,8 @@
 "type": "shampoo",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "3474636974405"
 },
 {
 "id": 14010465,
@@ -6695,7 +7241,8 @@
 "type": "shampoo",
 "need": "",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "3474636974429"
 },
 {
 "id": 14010466,
@@ -6707,7 +7254,8 @@
 "type": "leavein",
 "need": "",
 "price": 110,
-"stock": 1
+"stock": 1,
+"barcode": "3474636977307"
 },
 {
 "id": 14010467,
@@ -6719,7 +7267,8 @@
 "type": "oil",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "3474636501960"
 },
 {
 "id": 14010469,
@@ -6731,7 +7280,8 @@
 "type": "oil",
 "need": "",
 "price": 115,
-"stock": 1
+"stock": 1,
+"barcode": "3474636977369"
 },
 {
 "id": 14010471,
@@ -6743,7 +7293,8 @@
 "type": "mask",
 "need": "",
 "price": 120,
-"stock": 0
+"stock": 0,
+"barcode": "3474636975327"
 },
 {
 "id": 14010473,
@@ -6755,7 +7306,8 @@
 "type": "mask",
 "need": "",
 "price": 90,
-"stock": 4
+"stock": 4,
+"barcode": "3474636976034"
 },
 {
 "id": 14010479,
@@ -6767,7 +7319,8 @@
 "type": "leavein",
 "need": "",
 "price": 95,
-"stock": 1
+"stock": 1,
+"barcode": "3474636975709"
 },
 {
 "id": 14010483,
@@ -6779,7 +7332,8 @@
 "type": "shampoo",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "3474636974184"
 },
 {
 "id": 14010484,
@@ -6791,7 +7345,8 @@
 "type": "shampoo",
 "need": "",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "3474636974115"
 },
 {
 "id": 14010485,
@@ -6803,7 +7358,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "3474636974382"
 },
 {
 "id": 14010490,
@@ -6815,7 +7371,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "3474636974092"
 },
 {
 "id": 14011792,
@@ -6827,7 +7384,8 @@
 "type": "leavein",
 "need": "",
 "price": 55,
-"stock": 0
+"stock": 0,
+"barcode": "3474630740921"
 },
 {
 "id": 14011793,
@@ -6839,7 +7397,8 @@
 "type": "leavein",
 "need": "",
 "price": 50,
-"stock": 0
+"stock": 0,
+"barcode": "3474630740853"
 },
 {
 "id": 14011794,
@@ -6851,7 +7410,8 @@
 "type": "mask",
 "need": "",
 "price": 40,
-"stock": 0
+"stock": 0,
+"barcode": "3474636265596"
 },
 {
 "id": 14011795,
@@ -6863,7 +7423,8 @@
 "type": "leavein",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "3474636597833"
 },
 {
 "id": 14011796,
@@ -6875,7 +7436,8 @@
 "type": "leavein",
 "need": "",
 "price": 40,
-"stock": 0
+"stock": 0,
+"barcode": "3474636597857"
 },
 {
 "id": 14011799,
@@ -6887,7 +7449,8 @@
 "type": "leavein",
 "need": "",
 "price": 55,
-"stock": 0
+"stock": 0,
+"barcode": "3474630741218"
 },
 {
 "id": 14011800,
@@ -6899,7 +7462,8 @@
 "type": "leavein",
 "need": "",
 "price": 40,
-"stock": 0
+"stock": 0,
+"barcode": "3474630741133"
 },
 {
 "id": 14011801,
@@ -6911,7 +7475,8 @@
 "type": "mask",
 "need": "",
 "price": 40,
-"stock": 0
+"stock": 0,
+"barcode": "3474636265602"
 },
 {
 "id": 14011805,
@@ -6923,7 +7488,8 @@
 "type": "leavein",
 "need": "",
 "price": 55,
-"stock": 0
+"stock": 0,
+"barcode": "3474636679812"
 },
 {
 "id": 14744341,
@@ -6935,7 +7501,8 @@
 "type": "shampoo",
 "need": "",
 "price": 12,
-"stock": 0
+"stock": 0,
+"barcode": "884486225924"
 },
 {
 "id": 14744352,
@@ -6947,7 +7514,8 @@
 "type": "shampoo",
 "need": "",
 "price": 50,
-"stock": 0
+"stock": 0,
+"barcode": "3474636839155"
 },
 {
 "id": 14744372,
@@ -6959,7 +7527,8 @@
 "type": "conditioner",
 "need": "",
 "price": 60,
-"stock": 0
+"stock": 0,
+"barcode": "3474636839186"
 },
 {
 "id": 14744436,
@@ -6971,7 +7540,8 @@
 "type": "mask",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "884486428998"
 },
 {
 "id": 14830439,
@@ -6983,7 +7553,8 @@
 "type": "leavein",
 "need": "",
 "price": 20,
-"stock": 0
+"stock": 0,
+"barcode": "3474636568956"
 },
 {
 "id": 14830444,
@@ -6995,7 +7566,8 @@
 "type": "mask",
 "need": "",
 "price": 20,
-"stock": 0
+"stock": 0,
+"barcode": "4690214403375"
 },
 {
 "id": 14850913,
@@ -7007,7 +7579,8 @@
 "type": "mask",
 "need": "",
 "price": 190,
-"stock": 0
+"stock": 0,
+"barcode": "3474636730995"
 },
 {
 "id": 16385023,
@@ -7019,7 +7592,8 @@
 "type": "leavein",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "3474636476626"
 },
 {
 "id": 16385024,
@@ -7031,7 +7605,8 @@
 "type": "leavein",
 "need": "",
 "price": 30,
-"stock": 0
+"stock": 0,
+"barcode": "3474636476657"
 },
 {
 "id": 16385044,
@@ -7043,7 +7618,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "3474636974221"
 },
 {
 "id": 17377043,
@@ -7055,7 +7631,8 @@
 "type": "shampoo",
 "need": "",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "3474636975518"
 },
 {
 "id": 18184728,
@@ -7067,7 +7644,8 @@
 "type": "mask",
 "need": "",
 "price": 120,
-"stock": 2
+"stock": 2,
+"barcode": "3474636976058"
 },
 {
 "id": 18314524,
@@ -7079,7 +7657,8 @@
 "type": "conditioner",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "3474636975211"
 },
 {
 "id": 18314534,
@@ -7091,7 +7670,8 @@
 "type": "shampoo",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "3474636975259"
 },
 {
 "id": 18314549,
@@ -7103,7 +7683,8 @@
 "type": "conditioner",
 "need": "",
 "price": 60,
-"stock": 0
+"stock": 0,
+"barcode": "3474636973668"
 },
 {
 "id": 18314553,
@@ -7115,7 +7696,8 @@
 "type": "shampoo",
 "need": "",
 "price": 50,
-"stock": 0
+"stock": 0,
+"barcode": "3474636973736"
 },
 {
 "id": 18314559,
@@ -7127,7 +7709,8 @@
 "type": "conditioner",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "3474636976096"
 },
 {
 "id": 19031383,
@@ -7139,7 +7722,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281988410"
 },
 {
 "id": 19031397,
@@ -7151,7 +7735,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281988441"
 },
 {
 "id": 19031417,
@@ -7163,7 +7748,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281988502"
 },
 {
 "id": 19031845,
@@ -7175,7 +7761,8 @@
 "type": "leavein",
 "need": "",
 "price": 150,
-"stock": 0
+"stock": 0,
+"barcode": "8719281045878"
 },
 {
 "id": 19032086,
@@ -7187,7 +7774,8 @@
 "type": "leavein",
 "need": "",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "8719281987499"
 },
 {
 "id": 19032130,
@@ -7199,7 +7787,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 1
+"stock": 1,
+"barcode": "8719281988472"
 },
 {
 "id": 19032160,
@@ -7211,7 +7800,8 @@
 "type": "conditioner",
 "need": "",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "8719281988564"
 },
 {
 "id": 19032267,
@@ -7223,7 +7813,8 @@
 "type": "leavein",
 "need": "",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "8718375521762"
 },
 {
 "id": 19032282,
@@ -7235,7 +7826,8 @@
 "type": "oil",
 "need": "",
 "price": 115,
-"stock": 0
+"stock": 0,
+"barcode": "8718375522622"
 },
 {
 "id": 19032292,
@@ -7247,7 +7839,8 @@
 "type": "leavein",
 "need": "",
 "price": 120,
-"stock": 0
+"stock": 0,
+"barcode": "8718734853091"
 },
 {
 "id": 19032308,
@@ -7259,7 +7852,8 @@
 "type": "styling",
 "need": "",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "8718375522011"
 },
 {
 "id": 19032336,
@@ -7271,7 +7865,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8718375524572"
 },
 {
 "id": 19032445,
@@ -7283,7 +7878,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8718734853077"
 },
 {
 "id": 19032468,
@@ -7295,7 +7891,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281988083"
 },
 {
 "id": 19032494,
@@ -7307,7 +7904,8 @@
 "type": "oil",
 "need": "",
 "price": 180,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103288"
 },
 {
 "id": 19032635,
@@ -7319,7 +7917,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103479"
 },
 {
 "id": 19032710,
@@ -7331,7 +7930,8 @@
 "type": "mask",
 "need": "",
 "price": 160,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103868"
 },
 {
 "id": 19032751,
@@ -7343,7 +7943,8 @@
 "type": "conditioner",
 "need": "",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103493"
 },
 {
 "id": 19032777,
@@ -7355,7 +7956,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103424"
 },
 {
 "id": 19033243,
@@ -7367,7 +7969,8 @@
 "type": "conditioner",
 "need": "",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103547"
 },
 {
 "id": 19033254,
@@ -7379,7 +7982,8 @@
 "type": "mask",
 "need": "",
 "price": 160,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103899"
 },
 {
 "id": 19033300,
@@ -7391,7 +7995,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103462"
 },
 {
 "id": 19033336,
@@ -7403,7 +8008,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103486"
 },
 {
 "id": 19033383,
@@ -7415,7 +8021,8 @@
 "type": "conditioner",
 "need": "",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103554"
 },
 {
 "id": 19033399,
@@ -7427,7 +8034,8 @@
 "type": "mask",
 "need": "",
 "price": 150,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103905"
 },
 {
 "id": 19033412,
@@ -7439,7 +8047,8 @@
 "type": "conditioner",
 "need": "",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103530"
 },
 {
 "id": 19034505,
@@ -7451,7 +8060,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8718375521786"
 },
 {
 "id": 19035763,
@@ -7463,7 +8073,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8718375521731"
 },
 {
 "id": 19035772,
@@ -7475,7 +8086,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8718375521953"
 },
 {
 "id": 19035790,
@@ -7487,7 +8099,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8718375521878"
 },
 {
 "id": 19035854,
@@ -7499,7 +8112,8 @@
 "type": "leavein",
 "need": "",
 "price": 160,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103875"
 },
 {
 "id": 19035866,
@@ -7511,7 +8125,8 @@
 "type": "leavein",
 "need": "",
 "price": 160,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103882"
 },
 {
 "id": 19035870,
@@ -7523,7 +8138,8 @@
 "type": "shampoo",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103431"
 },
 {
 "id": 19035879,
@@ -7535,7 +8151,8 @@
 "type": "shampoo",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103455"
 },
 {
 "id": 19035898,
@@ -7547,7 +8164,8 @@
 "type": "conditioner",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103509"
 },
 {
 "id": 19035905,
@@ -7559,7 +8177,8 @@
 "type": "conditioner",
 "need": "",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103523"
 },
 {
 "id": 19137625,
@@ -7571,7 +8190,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103417"
 },
 {
 "id": 19137629,
@@ -7583,7 +8203,8 @@
 "type": "shampoo",
 "need": "",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "8719281104438"
 },
 {
 "id": 19137644,
@@ -7595,7 +8216,8 @@
 "type": "conditioner",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8719281034599"
 },
 {
 "id": 19999423,
@@ -7607,7 +8229,8 @@
 "type": "styling",
 "need": "",
 "price": 51,
-"stock": 0
+"stock": 0,
+"barcode": "8719281039631"
 },
 {
 "id": 20181964,
@@ -7619,7 +8242,8 @@
 "type": "leavein",
 "need": "",
 "price": 95,
-"stock": 1
+"stock": 1,
+"barcode": "3474636976119"
 },
 {
 "id": 20531823,
@@ -7631,7 +8255,8 @@
 "type": "leavein",
 "need": "",
 "price": 120,
-"stock": 0
+"stock": 0,
+"barcode": "8718375521854"
 },
 {
 "id": 20861749,
@@ -7643,7 +8268,8 @@
 "type": "leavein",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "3474636977321"
 },
 {
 "id": 20861753,
@@ -7655,7 +8281,8 @@
 "type": "leavein",
 "need": "",
 "price": 180,
-"stock": 0
+"stock": 0,
+"barcode": "3474636975358"
 },
 {
 "id": 20861759,
@@ -7679,7 +8306,8 @@
 "type": "mask",
 "need": "",
 "price": 160,
-"stock": 0
+"stock": 0,
+"barcode": "3474636975679"
 },
 {
 "id": 20861769,
@@ -7691,7 +8319,8 @@
 "type": "styling",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "30160262"
 },
 {
 "id": 20861775,
@@ -7703,7 +8332,8 @@
 "type": "leavein",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "30162846"
 },
 {
 "id": 20861783,
@@ -7715,7 +8345,8 @@
 "type": "leavein",
 "need": "",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "3474636977338"
 },
 {
 "id": 21107385,
@@ -7727,7 +8358,8 @@
 "type": "leavein",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "30160293"
 },
 {
 "id": 21107690,
@@ -7739,7 +8371,8 @@
 "type": "leavein",
 "need": "",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "3474636974368"
 },
 {
 "id": 21122272,
@@ -7751,7 +8384,8 @@
 "type": "styling",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040200"
 },
 {
 "id": 21122286,
@@ -7763,7 +8397,8 @@
 "type": "styling",
 "need": "",
 "price": 40,
-"stock": 0
+"stock": 0,
+"barcode": "8719281054757"
 },
 {
 "id": 21122298,
@@ -7775,7 +8410,8 @@
 "type": "styling",
 "need": "",
 "price": 55,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040224"
 },
 {
 "id": 21123155,
@@ -7787,7 +8423,8 @@
 "type": "leavein",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8719281949156"
 },
 {
 "id": 21123520,
@@ -7799,7 +8436,8 @@
 "type": "styling",
 "need": "",
 "price": 70,
-"stock": 1
+"stock": 1,
+"barcode": "8719281062066"
 },
 {
 "id": 21124060,
@@ -7811,7 +8449,8 @@
 "type": "styling",
 "need": "",
 "price": 30,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040217"
 },
 {
 "id": 21124075,
@@ -7823,7 +8462,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040095"
 },
 {
 "id": 21124086,
@@ -7835,7 +8475,8 @@
 "type": "leavein",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040071"
 },
 {
 "id": 21125670,
@@ -7847,7 +8488,8 @@
 "type": "styling",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8719281039853"
 },
 {
 "id": 21125678,
@@ -7859,7 +8501,8 @@
 "type": "leavein",
 "need": "",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040163"
 },
 {
 "id": 21125697,
@@ -7871,7 +8514,8 @@
 "type": "leavein",
 "need": "",
 "price": 55,
-"stock": 0
+"stock": 0,
+"barcode": "8719281039990"
 },
 {
 "id": 21125729,
@@ -7883,7 +8527,8 @@
 "type": "styling",
 "need": "",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "8719281039846"
 },
 {
 "id": 21125753,
@@ -7895,7 +8540,8 @@
 "type": "styling",
 "need": "",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040194"
 },
 {
 "id": 21125774,
@@ -7907,7 +8553,8 @@
 "type": "styling",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "27406"
 },
 {
 "id": 21181086,
@@ -7919,7 +8566,8 @@
 "type": "leavein",
 "need": "",
 "price": 130,
-"stock": 0
+"stock": 0,
+"barcode": "3474636971039"
 },
 {
 "id": 21243765,
@@ -7931,7 +8579,8 @@
 "type": "styling",
 "need": "",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "8719281039761"
 },
 {
 "id": 21243780,
@@ -7943,7 +8592,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040156"
 },
 {
 "id": 21441401,
@@ -7955,7 +8605,8 @@
 "type": "shampoo",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "3474636974078"
 },
 {
 "id": 21441409,
@@ -7967,7 +8618,8 @@
 "type": "shampoo",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "3474637044985"
 },
 {
 "id": 21441414,
@@ -7979,7 +8631,8 @@
 "type": "shampoo",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "3474637045005"
 },
 {
 "id": 21441449,
@@ -7991,7 +8644,8 @@
 "type": "leavein",
 "need": "",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "30160163"
 },
 {
 "id": 21442660,
@@ -8003,7 +8657,8 @@
 "type": "conditioner",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "3474636977239"
 },
 {
 "id": 21524157,
@@ -8015,7 +8670,8 @@
 "type": "leavein",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "3474630698345"
 },
 {
 "id": 21524167,
@@ -8027,7 +8683,8 @@
 "type": "leavein",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "3474630698000"
 },
 {
 "id": 21524170,
@@ -8039,7 +8696,8 @@
 "type": "leavein",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "3474630698185"
 },
 {
 "id": 21613126,
@@ -8051,7 +8709,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281067047"
 },
 {
 "id": 21613134,
@@ -8063,7 +8722,8 @@
 "type": "shampoo",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8719281058168"
 },
 {
 "id": 21613148,
@@ -8075,7 +8735,8 @@
 "type": "leavein",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8718375521847"
 },
 {
 "id": 21732546,
@@ -8087,7 +8748,8 @@
 "type": "mask",
 "need": "",
 "price": 130,
-"stock": 1
+"stock": 1,
+"barcode": "30160606"
 },
 {
 "id": 21732547,
@@ -8099,7 +8761,8 @@
 "type": "shampoo",
 "need": "",
 "price": 130,
-"stock": 1
+"stock": 1,
+"barcode": "30158078"
 },
 {
 "id": 21762584,
@@ -8111,7 +8774,8 @@
 "type": "leavein",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "3474637044961"
 },
 {
 "id": 21762587,
@@ -8123,7 +8787,8 @@
 "type": "leavein",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "30165120"
 },
 {
 "id": 21762591,
@@ -8135,7 +8800,8 @@
 "type": "leavein",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "30165410"
 },
 {
 "id": 21776200,
@@ -8147,7 +8813,8 @@
 "type": "conditioner",
 "need": "",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "8719281058199"
 },
 {
 "id": 21776202,
@@ -8159,7 +8826,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281067023"
 },
 {
 "id": 21776203,
@@ -8171,7 +8839,8 @@
 "type": "shampoo",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8719281041313"
 },
 {
 "id": 21825762,
@@ -8183,7 +8852,8 @@
 "type": "mask",
 "need": "",
 "price": 120,
-"stock": 0
+"stock": 0,
+"barcode": "3474636975297"
 },
 {
 "id": 21825764,
@@ -8195,7 +8865,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "3474636993949"
 },
 {
 "id": 21847945,
@@ -8207,7 +8878,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040057"
 },
 {
 "id": 21847953,
@@ -8219,7 +8891,8 @@
 "type": "styling",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040118"
 },
 {
 "id": 21848010,
@@ -8231,7 +8904,8 @@
 "type": "styling",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040033"
 },
 {
 "id": 21848038,
@@ -8243,7 +8917,8 @@
 "type": "styling",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8719281062110"
 },
 {
 "id": 21848076,
@@ -8255,7 +8930,8 @@
 "type": "shampoo",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8719281051961"
 },
 {
 "id": 21848085,
@@ -8267,7 +8943,8 @@
 "type": "styling",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8719281062042"
 },
 {
 "id": 21848092,
@@ -8279,7 +8956,8 @@
 "type": "styling",
 "need": "",
 "price": 55,
-"stock": 0
+"stock": 0,
+"barcode": "8719281052180"
 },
 {
 "id": 21848099,
@@ -8291,7 +8969,8 @@
 "type": "styling",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8719281052012"
 },
 {
 "id": 21848263,
@@ -8303,7 +8982,8 @@
 "type": "styling",
 "need": "",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "8719281079262"
 },
 {
 "id": 21848275,
@@ -8315,7 +8995,8 @@
 "type": "styling",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8719281079255"
 },
 {
 "id": 21848293,
@@ -8327,7 +9008,8 @@
 "type": "styling",
 "need": "",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "8719281054559"
 },
 {
 "id": 21848295,
@@ -8339,7 +9021,8 @@
 "type": "styling",
 "need": "",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "8719281079279"
 },
 {
 "id": 21848303,
@@ -8351,7 +9034,8 @@
 "type": "styling",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8719281066712"
 },
 {
 "id": 21848309,
@@ -8363,7 +9047,8 @@
 "type": "leavein",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8719281066736"
 },
 {
 "id": 21848314,
@@ -8375,7 +9060,8 @@
 "type": "serum",
 "need": "",
 "price": 235,
-"stock": 0
+"stock": 0,
+"barcode": "8719281098270"
 },
 {
 "id": 21848347,
@@ -8387,7 +9073,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 1
+"stock": 1,
+"barcode": "8719281988533"
 },
 {
 "id": 21848371,
@@ -8399,7 +9086,8 @@
 "type": "styling",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281066279"
 },
 {
 "id": 21848376,
@@ -8411,7 +9099,8 @@
 "type": "styling",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281066286"
 },
 {
 "id": 21848396,
@@ -8423,7 +9112,8 @@
 "type": "styling",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8719281104032"
 },
 {
 "id": 21848402,
@@ -8435,7 +9125,8 @@
 "type": "styling",
 "need": "",
 "price": 40,
-"stock": 0
+"stock": 0,
+"barcode": "8719281062097"
 },
 {
 "id": 21848407,
@@ -8447,7 +9138,8 @@
 "type": "leavein",
 "need": "",
 "price": 105,
-"stock": 0
+"stock": 0,
+"barcode": "8719281039020"
 },
 {
 "id": 21848412,
@@ -8459,7 +9151,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "8719281062073"
 },
 {
 "id": 21848418,
@@ -8471,7 +9164,8 @@
 "type": "styling",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8719281052166"
 },
 {
 "id": 21848425,
@@ -8483,7 +9177,8 @@
 "type": "styling",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8719281051893"
 },
 {
 "id": 21878932,
@@ -8495,7 +9190,8 @@
 "type": "leavein",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "30162853"
 },
 {
 "id": 21892755,
@@ -8507,7 +9203,8 @@
 "type": "styling",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "8719281062080"
 },
 {
 "id": 21928962,
@@ -8519,7 +9216,8 @@
 "type": "leavein",
 "need": "",
 "price": 15,
-"stock": 0
+"stock": 0,
+"barcode": "3474637094249"
 },
 {
 "id": 21928964,
@@ -8531,7 +9229,8 @@
 "type": "leavein",
 "need": "",
 "price": 15,
-"stock": 0
+"stock": 0,
+"barcode": "4640193020643"
 },
 {
 "id": 21928967,
@@ -8543,7 +9242,8 @@
 "type": "leavein",
 "need": "",
 "price": 20,
-"stock": 0
+"stock": 0,
+"barcode": "4640193020650"
 },
 {
 "id": 21937555,
@@ -8555,7 +9255,8 @@
 "type": "leavein",
 "need": "",
 "price": 140,
-"stock": 0
+"stock": 0,
+"barcode": "3474637090616"
 },
 {
 "id": 21937559,
@@ -8567,7 +9268,8 @@
 "type": "leavein",
 "need": "",
 "price": 200,
-"stock": 0
+"stock": 0,
+"barcode": "3474636975617"
 },
 {
 "id": 21937562,
@@ -8579,7 +9281,8 @@
 "type": "leavein",
 "need": "",
 "price": 115,
-"stock": 0
+"stock": 0,
+"barcode": "884486475473"
 },
 {
 "id": 21937649,
@@ -8591,7 +9294,8 @@
 "type": "leavein",
 "need": "",
 "price": 240,
-"stock": 0
+"stock": 0,
+"barcode": "3474636974344"
 },
 {
 "id": 21938332,
@@ -8603,7 +9307,8 @@
 "type": "serum",
 "need": "",
 "price": 105,
-"stock": 1
+"stock": 1,
+"barcode": "3474636974320"
 },
 {
 "id": 21939424,
@@ -8615,7 +9320,8 @@
 "type": "leavein",
 "need": "",
 "price": 20,
-"stock": 0
+"stock": 0,
+"barcode": "4640193020681"
 },
 {
 "id": 21939456,
@@ -8627,7 +9333,8 @@
 "type": "leavein",
 "need": "",
 "price": 30,
-"stock": 0
+"stock": 0,
+"barcode": "3474637053604"
 },
 {
 "id": 21947961,
@@ -8639,7 +9346,8 @@
 "type": "styling",
 "need": "",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "8719281039747"
 },
 {
 "id": 21967213,
@@ -8651,7 +9359,8 @@
 "type": "leavein",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "3474636976010"
 },
 {
 "id": 21967218,
@@ -8663,7 +9372,8 @@
 "type": "leavein",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "884486493699"
 },
 {
 "id": 22007975,
@@ -8675,7 +9385,8 @@
 "type": "conditioner",
 "need": "",
 "price": 60,
-"stock": 0
+"stock": 0,
+"barcode": "3474637068608"
 },
 {
 "id": 22067472,
@@ -8687,7 +9398,8 @@
 "type": "shampoo",
 "need": "",
 "price": 40,
-"stock": 0
+"stock": 0,
+"barcode": "4690214964104"
 },
 {
 "id": 22106561,
@@ -8699,7 +9411,8 @@
 "type": "leavein",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "30157729"
 },
 {
 "id": 22106562,
@@ -8711,7 +9424,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "3474630698505"
 },
 {
 "id": 22106564,
@@ -8723,7 +9437,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "30157743"
 },
 {
 "id": 22132007,
@@ -8735,7 +9450,8 @@
 "type": "conditioner",
 "need": "",
 "price": 95,
-"stock": 1
+"stock": 1,
+"barcode": "8719281984894"
 },
 {
 "id": 22132010,
@@ -8747,7 +9463,8 @@
 "type": "leavein",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "27457"
 },
 {
 "id": 22132017,
@@ -8759,7 +9476,8 @@
 "type": "mask",
 "need": "",
 "price": 160,
-"stock": 0
+"stock": 0,
+"barcode": "8719281080152"
 },
 {
 "id": 22132022,
@@ -8771,7 +9489,8 @@
 "type": "leavein",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8719281066743"
 },
 {
 "id": 22132031,
@@ -8783,7 +9502,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281080145"
 },
 {
 "id": 22132034,
@@ -8795,7 +9515,8 @@
 "type": "styling",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281053231"
 },
 {
 "id": 22132038,
@@ -8807,7 +9528,8 @@
 "type": "leavein",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040064"
 },
 {
 "id": 22132041,
@@ -8819,7 +9541,8 @@
 "type": "conditioner",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8718375521823"
 },
 {
 "id": 22132047,
@@ -8831,7 +9554,8 @@
 "type": "shampoo",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "8719281039693"
 },
 {
 "id": 22132051,
@@ -8843,7 +9567,8 @@
 "type": "leavein",
 "need": "",
 "price": 55,
-"stock": 0
+"stock": 0,
+"barcode": "8719281054337"
 },
 {
 "id": 22132060,
@@ -8855,7 +9580,8 @@
 "type": "conditioner",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8718375521991"
 },
 {
 "id": 22132072,
@@ -8867,7 +9593,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040149"
 },
 {
 "id": 22132079,
@@ -8879,7 +9606,8 @@
 "type": "styling",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8719281039037"
 },
 {
 "id": 22132081,
@@ -8891,7 +9619,8 @@
 "type": "oil",
 "need": "",
 "price": 140,
-"stock": 0
+"stock": 0,
+"barcode": "8719281987574"
 },
 {
 "id": 22132139,
@@ -8903,7 +9632,8 @@
 "type": "styling",
 "need": "",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "8719281066903"
 },
 {
 "id": 22158627,
@@ -8915,7 +9645,8 @@
 "type": "leavein",
 "need": "",
 "price": 125,
-"stock": 0
+"stock": 0,
+"barcode": "4640193084553"
 },
 {
 "id": 22158631,
@@ -8927,7 +9658,8 @@
 "type": "leavein",
 "need": "",
 "price": 125,
-"stock": 0
+"stock": 0,
+"barcode": "4640193084577"
 },
 {
 "id": 22198040,
@@ -8939,7 +9671,8 @@
 "type": "serum",
 "need": "",
 "price": 215,
-"stock": 0
+"stock": 0,
+"barcode": "3474637106331"
 },
 {
 "id": 22198042,
@@ -8951,7 +9684,8 @@
 "type": "mask",
 "need": "",
 "price": 135,
-"stock": 0
+"stock": 0,
+"barcode": "3474637090531"
 },
 {
 "id": 22198043,
@@ -8963,7 +9697,8 @@
 "type": "leavein",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "3474637109387"
 },
 {
 "id": 22198045,
@@ -8975,7 +9710,8 @@
 "type": "leavein",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "3474637090586"
 },
 {
 "id": 22198047,
@@ -8987,7 +9723,8 @@
 "type": "leavein",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "3474637090470"
 },
 {
 "id": 22198048,
@@ -8999,7 +9736,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "3474637106409"
 },
 {
 "id": 22198049,
@@ -9011,7 +9749,8 @@
 "type": "shampoo",
 "need": "",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "3474637106461"
 },
 {
 "id": 22228746,
@@ -9023,7 +9762,8 @@
 "type": "styling",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "884486496485"
 },
 {
 "id": 22228747,
@@ -9035,7 +9775,8 @@
 "type": "styling",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "884486496492"
 },
 {
 "id": 22228749,
@@ -9047,7 +9788,8 @@
 "type": "leavein",
 "need": "",
 "price": 75,
-"stock": 0
+"stock": 0,
+"barcode": "3474636770458"
 },
 {
 "id": 22228753,
@@ -9059,7 +9801,8 @@
 "type": "mask",
 "need": "",
 "price": 125,
-"stock": 0
+"stock": 0,
+"barcode": "884486465825"
 },
 {
 "id": 22228755,
@@ -9071,7 +9814,8 @@
 "type": "shampoo",
 "need": "",
 "price": 50,
-"stock": 0
+"stock": 0,
+"barcode": "3474636484805"
 },
 {
 "id": 22228762,
@@ -9083,7 +9827,8 @@
 "type": "conditioner",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "3474636976126"
 },
 {
 "id": 22228825,
@@ -9095,7 +9840,8 @@
 "type": "leavein",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "3474636977949"
 },
 {
 "id": 22229137,
@@ -9107,7 +9853,8 @@
 "type": "conditioner",
 "need": "",
 "price": 60,
-"stock": 0
+"stock": 0,
+"barcode": "3474636484867"
 },
 {
 "id": 22235032,
@@ -9119,7 +9866,8 @@
 "type": "leavein",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "3474630305557"
 },
 {
 "id": 22260696,
@@ -9131,7 +9879,8 @@
 "type": "leavein",
 "need": "",
 "price": 125,
-"stock": 0
+"stock": 0,
+"barcode": "3474637076498"
 },
 {
 "id": 22260697,
@@ -9143,7 +9892,8 @@
 "type": "leavein",
 "need": "",
 "price": 125,
-"stock": 0
+"stock": 0,
+"barcode": "3474637069155"
 },
 {
 "id": 22260751,
@@ -9155,7 +9905,8 @@
 "type": "mask",
 "need": "",
 "price": 160,
-"stock": 1
+"stock": 1,
+"barcode": "3474637069223"
 },
 {
 "id": 22260753,
@@ -9167,7 +9918,8 @@
 "type": "mask",
 "need": "",
 "price": 165,
-"stock": 0
+"stock": 0,
+"barcode": "3474637069247"
 },
 {
 "id": 22260758,
@@ -9179,7 +9931,8 @@
 "type": "mask",
 "need": "",
 "price": 60,
-"stock": 0
+"stock": 0,
+"barcode": "884486462480"
 },
 {
 "id": 22260763,
@@ -9191,7 +9944,8 @@
 "type": "leavein",
 "need": "",
 "price": 110,
-"stock": 1
+"stock": 1,
+"barcode": "3474637069209"
 },
 {
 "id": 22260764,
@@ -9203,7 +9957,8 @@
 "type": "shampoo",
 "need": "",
 "price": 110,
-"stock": 0
+"stock": 0,
+"barcode": "3474637069070"
 },
 {
 "id": 22260766,
@@ -9215,7 +9970,8 @@
 "type": "leavein",
 "need": "",
 "price": 55,
-"stock": 0
+"stock": 0,
+"barcode": "884486462404"
 },
 {
 "id": 22260767,
@@ -9227,7 +9983,8 @@
 "type": "styling",
 "need": "",
 "price": 120,
-"stock": 0
+"stock": 0,
+"barcode": "3474637109738"
 },
 {
 "id": 22260769,
@@ -9239,7 +9996,8 @@
 "type": "styling",
 "need": "",
 "price": 85,
-"stock": 0
+"stock": 0,
+"barcode": "884486462633"
 },
 {
 "id": 22299155,
@@ -9251,7 +10009,8 @@
 "type": "shampoo",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "884486442277"
 },
 {
 "id": 22343945,
@@ -9263,7 +10022,8 @@
 "type": "shampoo",
 "need": "",
 "price": 125,
-"stock": 0
+"stock": 0,
+"barcode": "8719281108252"
 },
 {
 "id": 22343946,
@@ -9275,7 +10035,8 @@
 "type": "conditioner",
 "need": "",
 "price": 125,
-"stock": 0
+"stock": 0,
+"barcode": "8719281108276"
 },
 {
 "id": 22343947,
@@ -9287,7 +10048,8 @@
 "type": "shampoo",
 "need": "",
 "price": 125,
-"stock": 0
+"stock": 0,
+"barcode": "8719281108290"
 },
 {
 "id": 22343948,
@@ -9299,7 +10061,8 @@
 "type": "conditioner",
 "need": "",
 "price": 125,
-"stock": 0
+"stock": 0,
+"barcode": "8719281108313"
 },
 {
 "id": 22343949,
@@ -9311,7 +10074,8 @@
 "type": "shampoo",
 "need": "",
 "price": 125,
-"stock": 0
+"stock": 0,
+"barcode": "8719281108337"
 },
 {
 "id": 22343950,
@@ -9323,7 +10087,8 @@
 "type": "conditioner",
 "need": "",
 "price": 125,
-"stock": 0
+"stock": 0,
+"barcode": "8719281108351"
 },
 {
 "id": 22343951,
@@ -9335,7 +10100,8 @@
 "type": "shampoo",
 "need": "",
 "price": 125,
-"stock": 0
+"stock": 0,
+"barcode": "8719281108375"
 },
 {
 "id": 22343952,
@@ -9347,7 +10113,8 @@
 "type": "conditioner",
 "need": "",
 "price": 125,
-"stock": 0
+"stock": 0,
+"barcode": "8719281108399"
 },
 {
 "id": 22343953,
@@ -9359,7 +10126,8 @@
 "type": "mask",
 "need": "",
 "price": 130,
-"stock": 0
+"stock": 0,
+"barcode": "8719281108450"
 },
 {
 "id": 22343954,
@@ -9371,7 +10139,8 @@
 "type": "mask",
 "need": "",
 "price": 130,
-"stock": 0
+"stock": 0,
+"barcode": "8719281108467"
 },
 {
 "id": 22374313,
@@ -9383,7 +10152,8 @@
 "type": "shampoo",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8718375521687"
 },
 {
 "id": 22374321,
@@ -9395,7 +10165,8 @@
 "type": "conditioner",
 "need": "",
 "price": 120,
-"stock": 0
+"stock": 0,
+"barcode": "8718734853084"
 },
 {
 "id": 22374341,
@@ -9407,7 +10178,8 @@
 "type": "styling",
 "need": "",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "8719281062103"
 },
 {
 "id": 22374352,
@@ -9419,7 +10191,8 @@
 "type": "leavein",
 "need": "",
 "price": 50,
-"stock": 0
+"stock": 0,
+"barcode": "8719281056300"
 },
 {
 "id": 22374356,
@@ -9431,7 +10204,8 @@
 "type": "styling",
 "need": "",
 "price": 105,
-"stock": 0
+"stock": 0,
+"barcode": "8719281103233"
 },
 {
 "id": 22414647,
@@ -9443,7 +10217,8 @@
 "type": "mask",
 "need": "",
 "price": 120,
-"stock": 0
+"stock": 0,
+"barcode": "3474636975990"
 },
 {
 "id": 22440784,
@@ -9455,7 +10230,8 @@
 "type": "styling",
 "need": "",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040132"
 },
 {
 "id": 22471002,
@@ -9467,7 +10243,8 @@
 "type": "serum",
 "need": "",
 "price": 230,
-"stock": 0
+"stock": 0,
+"barcode": "3474637106348"
 },
 {
 "id": 22577701,
@@ -9479,7 +10256,8 @@
 "type": "leavein",
 "need": "",
 "price": 125,
-"stock": 0
+"stock": 0,
+"barcode": "3474637069124"
 },
 {
 "id": 22577708,
@@ -9491,7 +10269,8 @@
 "type": "leavein",
 "need": "",
 "price": 215,
-"stock": 0
+"stock": 0,
+"barcode": "4640193084584"
 },
 {
 "id": 22577732,
@@ -9503,7 +10282,8 @@
 "type": "leavein",
 "need": "",
 "price": 140,
-"stock": 0
+"stock": 0,
+"barcode": "30161153"
 },
 {
 "id": 22577751,
@@ -9515,7 +10295,8 @@
 "type": "shampoo",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "4640193109195"
 },
 {
 "id": 22577753,
@@ -9527,7 +10308,8 @@
 "type": "shampoo",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "4640193109171"
 },
 {
 "id": 22577756,
@@ -9539,7 +10321,8 @@
 "type": "mask",
 "need": "",
 "price": 40,
-"stock": 0
+"stock": 0,
+"barcode": "4640193109164"
 },
 {
 "id": 22577758,
@@ -9551,7 +10334,8 @@
 "type": "mask",
 "need": "",
 "price": 40,
-"stock": 0
+"stock": 0,
+"barcode": "4640193109201"
 },
 {
 "id": 22626270,
@@ -9563,7 +10347,8 @@
 "type": "leavein",
 "need": "",
 "price": 30,
-"stock": 0
+"stock": 0,
+"barcode": "666"
 },
 {
 "id": 22795576,
@@ -9575,7 +10360,8 @@
 "type": "leavein",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "4640193109157"
 },
 {
 "id": 22949273,
@@ -9587,7 +10373,8 @@
 "type": "mask",
 "need": "",
 "price": 25,
-"stock": 0
+"stock": 0,
+"barcode": "3474637054175"
 },
 {
 "id": 22949285,
@@ -9599,7 +10386,8 @@
 "type": "styling",
 "need": "",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "30160279"
 },
 {
 "id": 22949296,
@@ -9611,7 +10399,8 @@
 "type": "shampoo",
 "need": "",
 "price": 150,
-"stock": 1
+"stock": 1,
+"barcode": "3474637153533"
 },
 {
 "id": 23030526,
@@ -9623,7 +10412,8 @@
 "type": "mask",
 "need": "",
 "price": 375,
-"stock": 0
+"stock": 0,
+"barcode": "3474637059125"
 },
 {
 "id": 23079655,
@@ -9635,7 +10425,8 @@
 "type": "leavein",
 "need": "",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "8004608251125"
 },
 {
 "id": 23227421,
@@ -9647,7 +10438,8 @@
 "type": "styling",
 "need": "",
 "price": 55,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040026"
 },
 {
 "id": 23227424,
@@ -9659,7 +10451,8 @@
 "type": "styling",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8719281040019"
 },
 {
 "id": 23243373,
@@ -9671,7 +10464,8 @@
 "type": "shampoo",
 "need": "",
 "price": 180,
-"stock": 0
+"stock": 0,
+"barcode": "3474636975266"
 },
 {
 "id": 23243377,
@@ -9683,7 +10477,8 @@
 "type": "conditioner",
 "need": "",
 "price": 150,
-"stock": 0
+"stock": 0,
+"barcode": "3474636975303"
 },
 {
 "id": 23375281,
@@ -9695,7 +10490,8 @@
 "type": "leavein",
 "need": "",
 "price": 120,
-"stock": 2
+"stock": 2,
+"barcode": "3474637069131"
 },
 {
 "id": 23375282,
@@ -9707,7 +10503,8 @@
 "type": "leavein",
 "need": "",
 "price": 160,
-"stock": 1
+"stock": 1,
+"barcode": "3474637153496"
 },
 {
 "id": 23375285,
@@ -9719,7 +10516,8 @@
 "type": "conditioner",
 "need": "",
 "price": 180,
-"stock": 0
+"stock": 0,
+"barcode": "3474637217891"
 },
 {
 "id": 23435511,
@@ -9731,7 +10529,8 @@
 "type": "leavein",
 "need": "",
 "price": 70,
-"stock": 0
+"stock": 0,
+"barcode": "8004608251842"
 },
 {
 "id": 23468505,
@@ -9743,7 +10542,8 @@
 "type": "leavein",
 "need": "",
 "price": 125,
-"stock": 0
+"stock": 0,
+"barcode": "3474637069148"
 },
 {
 "id": 23609535,
@@ -9755,7 +10555,8 @@
 "type": "shampoo",
 "need": "",
 "price": 40,
-"stock": 2
+"stock": 2,
+"barcode": "3474637154806"
 },
 {
 "id": 23609539,
@@ -9767,7 +10568,8 @@
 "type": "conditioner",
 "need": "",
 "price": 40,
-"stock": 0
+"stock": 0,
+"barcode": "3474637154783"
 },
 {
 "id": 23681029,
@@ -9779,7 +10581,8 @@
 "type": "leavein",
 "need": "",
 "price": 195,
-"stock": 0
+"stock": 0,
+"barcode": "8719281116547"
 },
 {
 "id": 23681033,
@@ -9791,7 +10594,8 @@
 "type": "mask",
 "need": "",
 "price": 150,
-"stock": 0
+"stock": 0,
+"barcode": "8719281109822"
 },
 {
 "id": 23681052,
@@ -9803,7 +10607,8 @@
 "type": "conditioner",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "21458"
 },
 {
 "id": 23681053,
@@ -9815,7 +10620,8 @@
 "type": "shampoo",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "21455"
 },
 {
 "id": 23681054,
@@ -9827,7 +10633,8 @@
 "type": "leavein",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8719281051985"
 },
 {
 "id": 23681055,
@@ -9839,7 +10646,8 @@
 "type": "leavein",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281109853"
 },
 {
 "id": 23681056,
@@ -9851,7 +10659,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "8719281039808"
 },
 {
 "id": 23681057,
@@ -9863,7 +10672,8 @@
 "type": "styling",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "8719281062059"
 },
 {
 "id": 23681161,
@@ -9875,7 +10685,8 @@
 "type": "leavein",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8719281119302"
 },
 {
 "id": 23695756,
@@ -9887,7 +10698,8 @@
 "type": "shampoo",
 "need": "",
 "price": 105,
-"stock": 0
+"stock": 0,
+"barcode": "3474636975853"
 },
 {
 "id": 24087746,
@@ -9899,7 +10711,8 @@
 "type": "shampoo",
 "need": "",
 "price": 60,
-"stock": 0
+"stock": 0,
+"barcode": "3474636391134"
 },
 {
 "id": 24087748,
@@ -9911,7 +10724,8 @@
 "type": "mask",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "3474636391165"
 },
 {
 "id": 24087751,
@@ -9923,7 +10737,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "3474636973675"
 },
 {
 "id": 24087752,
@@ -9935,7 +10750,8 @@
 "type": "mask",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "3474636959006"
 },
 {
 "id": 24087755,
@@ -9947,7 +10763,8 @@
 "type": "conditioner",
 "need": "",
 "price": 20,
-"stock": 0
+"stock": 0,
+"barcode": "884486399175"
 },
 {
 "id": 24101808,
@@ -9959,7 +10776,8 @@
 "type": "serum",
 "need": "",
 "price": 160,
-"stock": 1
+"stock": 1,
+"barcode": "3474637188214"
 },
 {
 "id": 24334085,
@@ -9971,7 +10789,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 2
+"stock": 2,
+"barcode": "8719281124207"
 },
 {
 "id": 24334086,
@@ -9983,7 +10802,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124214"
 },
 {
 "id": 24334087,
@@ -9995,7 +10815,8 @@
 "type": "styling",
 "need": "",
 "price": 80,
-"stock": 2
+"stock": 2,
+"barcode": "8719281124221"
 },
 {
 "id": 24334088,
@@ -10007,7 +10828,8 @@
 "type": "leavein",
 "need": "",
 "price": 88,
-"stock": 2
+"stock": 2,
+"barcode": "8719281124245"
 },
 {
 "id": 24334089,
@@ -10019,7 +10841,8 @@
 "type": "styling",
 "need": "",
 "price": 75,
-"stock": 2
+"stock": 2,
+"barcode": "8719281124252"
 },
 {
 "id": 24334090,
@@ -10031,7 +10854,8 @@
 "type": "leavein",
 "need": "",
 "price": 65,
-"stock": 1
+"stock": 1,
+"barcode": "8719281124276"
 },
 {
 "id": 24334091,
@@ -10043,7 +10867,8 @@
 "type": "styling",
 "need": "",
 "price": 65,
-"stock": 1
+"stock": 1,
+"barcode": "8719281124290"
 },
 {
 "id": 24334092,
@@ -10055,7 +10880,8 @@
 "type": "styling",
 "need": "",
 "price": 65,
-"stock": 1
+"stock": 1,
+"barcode": "8719281124306"
 },
 {
 "id": 24334093,
@@ -10067,7 +10893,8 @@
 "type": "leavein",
 "need": "",
 "price": 100,
-"stock": 2
+"stock": 2,
+"barcode": "8719281124337"
 },
 {
 "id": 24334094,
@@ -10079,7 +10906,8 @@
 "type": "styling",
 "need": "",
 "price": 75,
-"stock": 2
+"stock": 2,
+"barcode": "8719281124368"
 },
 {
 "id": 24334095,
@@ -10091,7 +10919,8 @@
 "type": "leavein",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124382"
 },
 {
 "id": 24334096,
@@ -10103,7 +10932,8 @@
 "type": "serum",
 "need": "",
 "price": 130,
-"stock": 1
+"stock": 1,
+"barcode": "8719281124399"
 },
 {
 "id": 24334097,
@@ -10115,7 +10945,8 @@
 "type": "shampoo",
 "need": "",
 "price": 80,
-"stock": 2
+"stock": 2,
+"barcode": "8719281124405"
 },
 {
 "id": 24334098,
@@ -10127,7 +10958,8 @@
 "type": "styling",
 "need": "",
 "price": 80,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124429"
 },
 {
 "id": 24334099,
@@ -10139,7 +10971,8 @@
 "type": "leavein",
 "need": "",
 "price": 80,
-"stock": 1
+"stock": 1,
+"barcode": "8719281124467"
 },
 {
 "id": 24334100,
@@ -10151,7 +10984,8 @@
 "type": "leavein",
 "need": "",
 "price": 65,
-"stock": 1
+"stock": 1,
+"barcode": "8719281124474"
 },
 {
 "id": 24334101,
@@ -10163,7 +10997,8 @@
 "type": "leavein",
 "need": "",
 "price": 65,
-"stock": 1
+"stock": 1,
+"barcode": "8719281124504"
 },
 {
 "id": 24334102,
@@ -10175,7 +11010,8 @@
 "type": "leavein",
 "need": "",
 "price": 90,
-"stock": 2
+"stock": 2,
+"barcode": "8719281124528"
 },
 {
 "id": 24334103,
@@ -10187,7 +11023,8 @@
 "type": "styling",
 "need": "",
 "price": 75,
-"stock": 1
+"stock": 1,
+"barcode": "8719281124573"
 },
 {
 "id": 24334104,
@@ -10199,7 +11036,8 @@
 "type": "leavein",
 "need": "",
 "price": 95,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124597"
 },
 {
 "id": 24334105,
@@ -10211,7 +11049,8 @@
 "type": "styling",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124610"
 },
 {
 "id": 24334106,
@@ -10223,7 +11062,8 @@
 "type": "styling",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124627"
 },
 {
 "id": 24334107,
@@ -10235,7 +11075,8 @@
 "type": "leavein",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124634"
 },
 {
 "id": 24334108,
@@ -10247,7 +11088,8 @@
 "type": "styling",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124641"
 },
 {
 "id": 24334109,
@@ -10259,7 +11101,8 @@
 "type": "styling",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124665"
 },
 {
 "id": 24334110,
@@ -10271,7 +11114,8 @@
 "type": "styling",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124672"
 },
 {
 "id": 24334111,
@@ -10283,7 +11127,8 @@
 "type": "styling",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124696"
 },
 {
 "id": 24334112,
@@ -10295,7 +11140,8 @@
 "type": "styling",
 "need": "",
 "price": 35,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124719"
 },
 {
 "id": 24468632,
@@ -10307,7 +11153,8 @@
 "type": "mask",
 "need": "",
 "price": 150,
-"stock": 0
+"stock": 0,
+"barcode": "3474637268466"
 },
 {
 "id": 24468636,
@@ -10319,7 +11166,8 @@
 "type": "conditioner",
 "need": "",
 "price": 140,
-"stock": 1
+"stock": 1,
+"barcode": "3474637269029"
 },
 {
 "id": 24468638,
@@ -10331,7 +11179,8 @@
 "type": "shampoo",
 "need": "",
 "price": 100,
-"stock": 1
+"stock": 1,
+"barcode": "3474637268527"
 },
 {
 "id": 24541292,
@@ -10343,7 +11192,8 @@
 "type": "shampoo",
 "need": "",
 "price": 185,
-"stock": 0
+"stock": 0,
+"barcode": "3474636975600"
 },
 {
 "id": 24651542,
@@ -10355,7 +11205,8 @@
 "type": "shampoo",
 "need": "",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "3474636975952"
 },
 {
 "id": 24868395,
@@ -10367,7 +11218,8 @@
 "type": "styling",
 "need": "",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124542"
 },
 {
 "id": 24868401,
@@ -10379,7 +11231,8 @@
 "type": "styling",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124580"
 },
 {
 "id": 24868403,
@@ -10391,7 +11244,8 @@
 "type": "styling",
 "need": "",
 "price": 100,
-"stock": 1
+"stock": 1,
+"barcode": "8719281124443"
 },
 {
 "id": 24868413,
@@ -10403,7 +11257,8 @@
 "type": "styling",
 "need": "",
 "price": 65,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124283"
 },
 {
 "id": 24868424,
@@ -10415,7 +11270,8 @@
 "type": "styling",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124313"
 },
 {
 "id": 24868428,
@@ -10427,7 +11283,8 @@
 "type": "leavein",
 "need": "",
 "price": 100,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124566"
 },
 {
 "id": 24868444,
@@ -10439,7 +11296,8 @@
 "type": "styling",
 "need": "",
 "price": 90,
-"stock": 0
+"stock": 0,
+"barcode": "8719281124559"
 },
 {
 "id": 24953495,
@@ -10451,7 +11309,8 @@
 "type": "serum",
 "need": "",
 "price": 120,
-"stock": 0
+"stock": 0,
+"barcode": "3474637268442"
 },
 {
 "id": 25116351,
@@ -10463,7 +11322,8 @@
 "type": "mask",
 "need": "",
 "price": 95,
-"stock": 1
+"stock": 1,
+"barcode": "3474636976133"
 },
 {
 "id": 25355891,
@@ -10475,7 +11335,8 @@
 "type": "leavein",
 "need": "",
 "price": 95,
-"stock": 1
+"stock": 1,
+"barcode": "8719281124344"
 },
 {
 "id": 25414580,
@@ -10487,7 +11348,8 @@
 "type": "leavein",
 "need": "",
 "price": 170,
-"stock": 0
+"stock": 0,
+"barcode": "3474637324704"
 },
 {
 "id": 25439274,
@@ -10499,7 +11361,8 @@
 "type": "leavein",
 "need": "",
 "price": 170,
-"stock": 0
+"stock": 0,
+"barcode": "3474637324711"
 },
 {
 "id": 25723801,
@@ -10511,7 +11374,8 @@
 "type": "leavein",
 "need": "",
 "price": 105,
-"stock": 1
+"stock": 1,
+"barcode": "8719281128878"
 }
 ]
 }
