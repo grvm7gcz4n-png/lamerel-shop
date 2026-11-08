@@ -552,9 +552,9 @@ function renderSalon(){
   const order=DIRS.flatMap(d=>d.c);
   const byCat=cats.filter(c=>list.some(x=>x.cat===c.id)).sort((a,b)=>{const ia=order.indexOf(a.id),ib=order.indexOf(b.id);return (ia<0?999:ia)-(ib<0?999:ib)});
   $('#salon').innerHTML=`<div class="wrap sec">
-    <div class="sec-h"><div><h2>${L.svcT}</h2></div><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a></div>
-    <p class="svnote">${L.svcNote}</p>
+    <div class="sec-h svh"><h2>${L.svcT}</h2><a class="btn pri sm" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a></div>
     <div class="subrow dirrow">${['all',...dirs.map(d=>d.k)].map(k=>`<button class="schip dchip${k==='offers'?' hot':''}" data-dir="${k}" aria-pressed="${S.dir===k}">${k==='all'?L.allSvc:`<span class="di" aria-hidden="true">${DIRS.find(d=>d.k===k).ic}</span>`+DIRS.find(d=>d.k===k).n[S.lang]}</button>`).join('')}</div>
+    <p class="svnote">${L.svcNote}</p>
     ${S.dir==='laser'?laserIntro(svs):''}
     ${svs.length?(byCat.length?byCat.map(c=>`<details class="svcat"${S.dir!=='all'||q?' open':''}><summary><h3>${esc(svN(c))}<span>${list.filter(x=>x.cat===c.id).length}</span></h3></summary>
       <ul class="svl">${list.filter(x=>x.cat===c.id).sort(svSort).map(x=>`<li><div class="svn">${esc(svN(x))}${durFmt(x.dur)?`<small>${durFmt(x.dur)}</small>`:''}</div><div class="svp">${priceFmt(x)}</div><a class="svb" href="${bookSvc(x.id)}" target="_blank" rel="noopener">${L.bookS}</a></li>`).join('')}</ul></details>`).join(''):`<p class="empty">${L.noSvc}</p>`):`<p class="empty">${L.svcEmpty}</p>`}
