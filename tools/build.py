@@ -38,11 +38,57 @@ def dept_of(pid,name,typ,need):
     if not need: return 'body'
     return 'hair'
 
+LIVE_F=os.path.join(ROOT,'tools/altegio_live.json')
+SNAP_F=os.path.join(ROOT,'tools/altegio_titles_snapshot.json')
+VOL_RE=re.compile(r'(\d+(?:[.,]\d+)?)\s?(ml|мл|მლ|g|gr|гр|г|გრ)\b',re.I)
+GUESS=[(r'shampoo|шампун|wash|შამპუნ','shampoo'),(r'conditioner|кондиционер|rinse|бальзам|კონდიც','conditioner'),
+       (r'mask|masque|маска|ნიღაბ','mask'),(r'\boil\b|масл|ზეთ','oil'),(r'serum|сыворот|შრატ','serum'),
+       (r'spray|лак|\bgel\b|гель|mousse|мусс|wax|воск|paste|clay|სპრეი|გელ','styling'),(r'ampoule|ампул|ამპულ','ampoule')]
+def parse_title(title,brand):
+    t=title
+    t=re.sub(r'^(BR_|PM\s)','',t)
+    for b in {brand,brand.split()[0],'Kerastase','Loreal',"L'Oreal",'Philip Martins',"Philip Martin's",'Balmain','Mocheqi'}:
+        t=re.sub(r'^\s*'+re.escape(b)+r'\b[\s\-:/]*','',t,flags=re.I)
+    vol=''
+    m=VOL_RE.search(t)
+    if m:
+        u=m.group(2).lower(); u='ml' if u in ('ml','мл','მლ') else 'g'
+        vol=f"{m.group(1).replace(',','.')} {u}"; t=(t[:m.start()]+t[m.end():])
+    t=re.sub(r'\s+',' ',t).strip(' -,')
+    typ='leavein'
+    for rx,ty in GUESS:
+        if re.search(rx,title,re.I): typ=ty;break
+    return t or title, vol, typ
+
 def products():
-    out=[]
+    live=None
+    if os.path.exists(LIVE_F):
+        live=json.load(open(LIVE_F))['goods']
+    snap=json.load(open(SNAP_F)) if os.path.exists(SNAP_F) else {}
+    rows=[]
     for pid,(brand,name,vol,typ,need,price,stock) in P.items():
+        ru=RU.get(pid)
+        if live is not None:
+            g=live.get(str(pid))
+            if not g: continue                      # товара больше нет в Altegio / в категории бренда
+            price,stock=g['price'],g['stock']
+            old=snap.get(str(pid))
+            if old is None: snap[str(pid)]=g['title']   # первое знакомство: запоминаем название
+            elif g['title']!=old:                      # название поменяли в Altegio — берём его
+                name,v2,_=parse_title(g['title'],brand); vol=v2 or vol; ru=None
+        rows.append((pid,brand,name,vol,typ,need,price,stock,ru))
+    if live is not None:
+        known={str(p) for p in P}
+        for sid,g in live.items():
+            if sid in known: continue
+            name,vol,typ=parse_title(g['title'],g['brand'])
+            rows.append((int(sid),g['brand'],name,vol,typ,'',g['price'],g['stock'],None))
+        json.dump(snap,open(SNAP_F,'w'),ensure_ascii=False,indent=0,sort_keys=True)
+    out=[]
+    for pid,brand,name,vol,typ,need,price,stock,ru in rows:
         if not price: continue
-        item=dict(id=pid,brand=brand,name=name,name_ru=RU.get(pid) or auto_ru(name,typ,need),dept=dept_of(pid,name,typ,need),vol=vol,type=typ,need=need,price=price,stock=max(0,int(stock)))
+        dept=dept_of(pid,name,typ,need) if (need or pid in P) else 'hair'
+        item=dict(id=pid,brand=brand,name=name,name_ru=ru or auto_ru(name,typ,need or 'repair' if pid not in P else need),dept=dept,vol=vol,type=typ,need=need,price=price,stock=max(0,int(stock)))
         for ext in ('webp','jpg','png'):
             if os.path.exists(os.path.join(ROOT,'photos',f'{pid}.{ext}')):
                 item['img']=f'photos/{pid}.{ext}'; break

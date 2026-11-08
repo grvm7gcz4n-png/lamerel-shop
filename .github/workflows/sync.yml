@@ -1,0 +1,48 @@
+name: Синхронизация с Altegio
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/sync.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: altegio-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Забрать товары, цены и остатки из Altegio
+        env:
+          ALTEGIO_PARTNER_TOKEN: ${{ secrets.ALTEGIO_PARTNER_TOKEN }}
+          ALTEGIO_LOGIN: ${{ secrets.ALTEGIO_LOGIN }}
+          ALTEGIO_PASSWORD: ${{ secrets.ALTEGIO_PASSWORD }}
+        run: python3 tools/sync_altegio.py || echo "SYNC_FAILED=1" >> $GITHUB_ENV
+      - name: Собрать сайт
+        if: env.SYNC_FAILED != '1'
+        run: python3 tools/build.py
+      - name: Сохранить изменения
+        run: |
+          git config user.name "LamereL sync"
+          git config user.email "sync@users.noreply.github.com"
+          git add products.json index.html src/artifact.html tools/altegio_live.json tools/altegio_titles_snapshot.json tools/sync_status.json 2>/dev/null || true
+          if git diff --cached --quiet -- products.json tools/altegio_live.json tools/altegio_titles_snapshot.json; then
+            echo "Изменений в каталоге нет"
+            git diff --cached --quiet || (git commit -qm "Статус синхронизации" && git pull -q --rebase origin main && git push -q) || true
+            exit 0
+          fi
+          git commit -qm "Синхронизация с Altegio: цены и наличие"
+          git pull -q --rebase origin main
+          git push -q
