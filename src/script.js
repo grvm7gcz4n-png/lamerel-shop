@@ -80,12 +80,12 @@ const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 const desc=p=>{const L=t();const a=L.type[p.type]||'';const b=L.need[p.need]||'';return a+(b?' · '+b:'')};
 
 function pkg(p,scale){
-  if(p.img)return `<img class="ph" src="${esc(p.img)}" alt="${esc(p.brand+' '+p.name)}" loading="lazy">`;
   const look=BRANDLOOK[p.brand]||{c:'#E8E1D9',k:'#222'};
   const c=look.dark?look.c:(TINT[p.need]||look.c);
   const form=FORM[p.type]||'bottle';
   const lbl=['bottle','jar','wide','tube'].includes(form)?`<span class="lbl">${esc(p.brand)}</span>`:'';
-  return `<div class="pkg ${form}${look.dark?' dark':''}" style="--c:${c};--k:${look.k}${scale?`;transform:scale(${scale})`:''}">${lbl}</div>`;
+  const ph=p.img?`<img class="ph" src="${esc(p.img)}" alt="${esc(p.brand+' '+p.name)}" loading="lazy" referrerpolicy="no-referrer" onload="this.parentNode.classList.add('hasph')" onerror="this.remove()">`:'';
+  return ph+`<div class="pkg ${form}${look.dark?' dark':''}" style="--c:${c};--k:${look.k}${scale?`;transform:scale(${scale})`:''}">${lbl}</div>`;
 }
 
 function renderStatic(){
@@ -98,7 +98,7 @@ function renderStatic(){
   const pick=['mask','oil','shampoo'].map(ty=>P.find(p=>p.type===ty&&p.brand!=='CHI')).filter(Boolean);
   $('#hero').innerHTML=`
    <a href="#catalog" class="ban main" data-cat="all">
-     <div class="stage">${pick.map((p,i)=>pkg(p,[1.25,1.35,1.15][i])).join('')}</div>
+     <div class="stage">${pick.map((p,i)=>pkg({...p,img:''},[1.25,1.35,1.15][i])).join('')}</div>
      <span class="k">${L.heroK}</span><h2>${L.heroH}</h2><p>${L.heroP}</p><span class="cta">${L.heroCta}</span></a>
    <a href="#catalog" class="ban order" id="toBand"><span class="k">${L.orderK}</span><h2>${L.orderH}</h2></a>`;
   const brands=[...new Set(P.map(p=>p.brand))];

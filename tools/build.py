@@ -3,7 +3,9 @@
 import json, os, sys, datetime
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT,'tools'))
+import catalog_src
 from catalog_src import P
+IMG=getattr(catalog_src,'IMG',{})
 
 def products():
     out=[]
@@ -13,6 +15,8 @@ def products():
         for ext in ('webp','jpg','png'):
             if os.path.exists(os.path.join(ROOT,'photos',f'{pid}.{ext}')):
                 item['img']=f'photos/{pid}.{ext}'; break
+        else:
+            if pid in IMG: item['img']=IMG[pid]
         out.append(item)
     return out
 

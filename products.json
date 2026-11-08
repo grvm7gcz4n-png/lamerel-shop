@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T19:15:08+00:00",
+"updated": "2026-11-08T19:16:35+00:00",
 "products": [
 {
 "id": 25494550,
@@ -539,7 +539,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 55,
-"stock": 2
+"stock": 2,
+"img": "https://mocheqi.ru/assets/images/1m8a4702-1-696x860.webp"
 },
 {
 "id": 24154784,
@@ -549,7 +550,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 70,
-"stock": 8
+"stock": 8,
+"img": "https://mocheqi.ru/assets/images/1m8a4702-1-696x860.webp"
 },
 {
 "id": 24154782,
@@ -559,7 +561,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 55,
-"stock": 4
+"stock": 4,
+"img": "https://mocheqi.ru/assets/images/135749942-1094699950992476-3064410060967038318-n-816x816.webp"
 },
 {
 "id": 24154794,
@@ -569,7 +572,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 70,
-"stock": 6
+"stock": 6,
+"img": "https://mocheqi.ru/assets/images/135749942-1094699950992476-3064410060967038318-n-816x816.webp"
 },
 {
 "id": 24154788,
@@ -579,7 +583,8 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 60,
-"stock": 2
+"stock": 2,
+"img": "https://mocheqi.ru/assets/images/1m8a1114-1-752x940.webp"
 },
 {
 "id": 24154790,
@@ -589,7 +594,8 @@
 "type": "shampoo",
 "need": "oily",
 "price": 55,
-"stock": 7
+"stock": 7,
+"img": "https://mocheqi.ru/assets/images/1m8a47091-696x854.webp"
 },
 {
 "id": 24154785,
@@ -599,7 +605,8 @@
 "type": "shampoo",
 "need": "oily",
 "price": 70,
-"stock": 4
+"stock": 4,
+"img": "https://mocheqi.ru/assets/images/1m8a47091-696x854.webp"
 },
 {
 "id": 24154789,
@@ -609,7 +616,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 55,
-"stock": 3
+"stock": 3,
+"img": "https://mocheqi.ru/assets/images/1m8a49231-696x852.webp"
 },
 {
 "id": 24154783,
@@ -619,7 +627,8 @@
 "type": "shampoo",
 "need": "dry",
 "price": 70,
-"stock": 3
+"stock": 3,
+"img": "https://mocheqi.ru/assets/images/1m8a49231-696x852.webp"
 },
 {
 "id": 24154791,
@@ -629,7 +638,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 55,
-"stock": 1
+"stock": 1,
+"img": "https://mocheqi.ru/assets/images/122119534-263754561671986-3964089937847019640-n-816x985.webp"
 },
 {
 "id": 24154781,
@@ -639,7 +649,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 70,
-"stock": 2
+"stock": 2,
+"img": "https://mocheqi.ru/assets/images/122119534-263754561671986-3964089937847019640-n-816x985.webp"
 },
 {
 "id": 24447698,
@@ -649,7 +660,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 55,
-"stock": 8
+"stock": 8,
+"img": "https://mocheqi.ru/assets/images/1m8a5482-1.webp"
 },
 {
 "id": 24447702,
@@ -659,7 +671,8 @@
 "type": "shampoo",
 "need": "repair",
 "price": 70,
-"stock": 6
+"stock": 6,
+"img": "https://mocheqi.ru/assets/images/1m8a5482-1.webp"
 },
 {
 "id": 24956873,
@@ -679,7 +692,8 @@
 "type": "conditioner",
 "need": "repair",
 "price": 55,
-"stock": 9
+"stock": 9,
+"img": "https://mocheqi.ru/assets/images/1m8a5857-1.webp"
 },
 {
 "id": 24447722,
@@ -689,7 +703,8 @@
 "type": "conditioner",
 "need": "repair",
 "price": 70,
-"stock": 5
+"stock": 5,
+"img": "https://mocheqi.ru/assets/images/1m8a5857-1.webp"
 },
 {
 "id": 24154787,
@@ -699,7 +714,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 60,
-"stock": 7
+"stock": 7,
+"img": "https://mocheqi.ru/assets/images/217428027-917631778834596-6055637849160414582-n-816x816.webp"
 },
 {
 "id": 24154780,
@@ -709,7 +725,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 70,
-"stock": 6
+"stock": 6,
+"img": "https://mocheqi.ru/assets/images/217428027-917631778834596-6055637849160414582-n-816x816.webp"
 },
 {
 "id": 24387706,
@@ -719,7 +736,8 @@
 "type": "conditioner",
 "need": "dry",
 "price": 90,
-"stock": 1
+"stock": 1,
+"img": "https://mocheqi.ru/assets/images/217428027-917631778834596-6055637849160414582-n-816x816.webp"
 },
 {
 "id": 24387707,
@@ -739,7 +757,8 @@
 "type": "conditioner",
 "need": "repair",
 "price": 90,
-"stock": 2
+"stock": 2,
+"img": "https://mocheqi.ru/assets/images/50252765-145474079781-696x696.webp"
 },
 {
 "id": 24154773,
@@ -749,7 +768,8 @@
 "type": "mask",
 "need": "repair",
 "price": 90,
-"stock": 7
+"stock": 7,
+"img": "https://mocheqi.ru/assets/images/107889484-2403467386618691-586492749168690093-n-752x940.webp"
 },
 {
 "id": 24154771,
@@ -769,7 +789,8 @@
 "type": "mask",
 "need": "repair",
 "price": 120,
-"stock": 3
+"stock": 3,
+"img": "https://mocheqi.ru/assets/images/1m8a4055.jpg1.webp"
 },
 {
 "id": 24154772,
@@ -779,7 +800,8 @@
 "type": "leavein",
 "need": "dry",
 "price": 60,
-"stock": 3
+"stock": 3,
+"img": "https://mocheqi.ru/assets/images/photo-2024-02-03-16-11-23-1074x1032.webp"
 },
 {
 "id": 24154774,
@@ -799,7 +821,8 @@
 "type": "serum",
 "need": "repair",
 "price": 55,
-"stock": 6
+"stock": 6,
+"img": "https://mocheqi.ru/assets/images/49327550-2065486150239017-2080425372513005699-n-752x752.webp"
 },
 {
 "id": 24154778,
@@ -809,7 +832,8 @@
 "type": "serum",
 "need": "repair",
 "price": 55,
-"stock": 6
+"stock": 6,
+"img": "https://mocheqi.ru/assets/images/p4254645-1-816x1020.webp"
 },
 {
 "id": 24154776,
@@ -829,7 +853,8 @@
 "type": "oil",
 "need": "dry",
 "price": 55,
-"stock": 4
+"stock": 4,
+"img": "https://mocheqi.ru/assets/images/43914570-333904113832381-3295599825259659808-n-816x816.webp"
 },
 {
 "id": 24154775,
