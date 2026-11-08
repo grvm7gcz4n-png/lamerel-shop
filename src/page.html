@@ -66,14 +66,14 @@ nav.cats button.sale{color:var(--accent)}
 .stage .pkg{transform-origin:bottom center}
 
 /* brand strip */
-.brands{border-block:1px solid var(--line);overflow:hidden;margin-block:8px 0}
+.brands{border-block:1px solid var(--line);overflow:hidden;margin-top:40px}
 .marq{display:flex;gap:56px;width:max-content;padding-block:18px;animation:mq 40s linear infinite}
 .marq span{font-family:"Unbounded",sans-serif;font-weight:600;font-size:18px;letter-spacing:.02em;white-space:nowrap;text-transform:uppercase}
 @keyframes mq{to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){.marq{animation:none}}
 
 /* sections */
-.sec{padding-block:44px 12px}
+.sec{padding-block:28px 12px}
 .sec-h{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:20px}
 .sec-h h2{font-family:var(--wordmark);font-weight:600;font-size:clamp(22px,3vw,34px);margin:0;letter-spacing:-.01em;text-transform:uppercase}
 .sec-h .count{font-size:13px;color:var(--muted)}
@@ -120,9 +120,10 @@ nav.cats button.sale{color:var(--accent)}
 .empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:48px 0}
 
 /* promo band */
-.band{margin-top:48px;background:var(--band)}
+.band{margin-top:0;background:var(--band)}
+.band .k{display:block;font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
 .band .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:24px;align-items:center;padding-block:44px}
-.band h2{font-family:var(--wordmark);font-weight:600;font-size:clamp(22px,3vw,34px);margin:0 0 10px;text-transform:uppercase;letter-spacing:-.01em}
+.band h2{font-family:var(--wordmark);font-weight:600;font-size:clamp(22px,2.6vw,32px);margin:0 0 12px;letter-spacing:-.01em;max-width:22ch}
 .band p{margin:0;color:var(--muted);max-width:52ch}
 .steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .steps div{background:var(--bg);padding:16px;font-size:13px;min-width:0}
@@ -233,8 +234,6 @@ form.co input,form.co select,form.co textarea{border:1px solid var(--line);backg
 </header>
 
 <main id="top">
-  <section class="wrap hero" id="hero"></section>
-  <div class="brands"><div class="marq" id="marq"></div></div>
 
   <section class="wrap sec" id="catalog">
     <div class="sec-h">
@@ -246,6 +245,7 @@ form.co input,form.co select,form.co textarea{border:1px solid var(--line);backg
     <div class="grid" id="grid"></div>
   </section>
 
+  <div class="brands"><div class="marq" id="marq"></div></div>
   <section class="band"><div class="wrap" id="band"></div></section>
 </main>
 

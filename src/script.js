@@ -8,7 +8,7 @@ ru:{ann:'Бесплатная доставка по Грузии от 300 ₾',a
  allBrands:'Все бренды',
  heroK:'Из кабинетов LamereL',heroH:'Профессиональный уход за волосами, которым работают наши стилисты',heroP:'Шампуни, маски и масла брендов, которые мы используем в салоне. Теперь для дома.',heroCta:'Смотреть',
  saleK:'Забрать сегодня',saleH:'Всё, что есть в салоне прямо сейчас',orderK:'Под заказ',orderH:'Привезём всё, что захотите: люкс-бренды косметики и парфюмерии',
- hits:'Уход за волосами',items:n=>`${n} ${n%10==1&&n%100!=11?'товар':(n%10>=2&&n%10<=4&&(n%100<10||n%100>=20)?'товара':'товаров')}`,
+ hits:'Все товары',items:n=>`${n} ${n%10==1&&n%100!=11?'товар':(n%10>=2&&n%10<=4&&(n%100<10||n%100>=20)?'товара':'товаров')}`,
  sort:{stock:'Сначала в наличии',cheap:'Сначала дешевле',exp:'Сначала дороже',name:'По названию'},
  add:'В корзину',added:'Добавлено',out:'Нет в наличии',left:n=>`Осталось ${n} шт.`,empty:'Ничего не нашлось. Напишите нам, привезём под заказ.',favEmpty:'В избранном пока пусто. Нажмите ♡ на товаре.',loading:'Загружаем каталог…',loadErr:'Не удалось загрузить каталог. Обновите страницу.',
  bandH:'Нет нужного средства?',bandP:'Мы байеры и закупаем напрямую в США, Европе и Азии. Пришлите ссылку или название, посчитаем цену с доставкой.',
@@ -30,7 +30,7 @@ ka:{ann:'უფასო მიწოდება საქართველო
  allBrands:'ყველა ბრენდი',
  heroK:'LamereL-ის კაბინეტებიდან',heroH:'პროფესიონალური თმის მოვლა, რომლითაც ჩვენი სტილისტები მუშაობენ',heroP:'შამპუნები, ნიღბები და ზეთები ბრენდებისგან, რომლებსაც სალონში ვიყენებთ. ახლა სახლისთვისაც.',heroCta:'ნახვა',
  saleK:'წაიღეთ დღესვე',saleH:'ყველაფერი, რაც ახლა სალონშია',orderK:'შეკვეთით',orderH:'ჩამოვიტანთ ყველაფერს, რაც გსურთ: ლუქს ბრენდების კოსმეტიკა და პარფიუმერია',
- hits:'თმის მოვლა',items:n=>`${n} პროდუქტი`,
+ hits:'ყველა პროდუქტი',items:n=>`${n} პროდუქტი`,
  sort:{stock:'ჯერ მარაგში არსებული',cheap:'ჯერ იაფი',exp:'ჯერ ძვირი',name:'სახელით'},
  add:'კალათაში',added:'დამატებულია',out:'არ არის მარაგში',left:n=>`დარჩა ${n} ც.`,empty:'ვერაფერი მოიძებნა. მოგვწერეთ და შეკვეთით ჩამოვიტანთ.',favEmpty:'რჩეულებში ჯერ არაფერია. დააჭირეთ ♡ პროდუქტზე.',loading:'კატალოგი იტვირთება…',loadErr:'კატალოგი ვერ ჩაიტვირთა. განაახლეთ გვერდი.',
  bandH:'ვერ იპოვეთ სასურველი პროდუქტი?',bandP:'ჩვენ ბაიერები ვართ და პირდაპირ ვყიდულობთ აშშ-ში, ევროპასა და აზიაში. გამოგვიგზავნეთ ბმული ან სახელი და დაგითვლით ფასს მიწოდებით.',
@@ -52,7 +52,7 @@ en:{ann:'Free delivery across Georgia on orders over 300 ₾',ann2:'Pickup: 98 Z
  allBrands:'All brands',
  heroK:'From the LamereL salon',heroH:'The professional hair care our stylists work with',heroP:'Shampoos, masks and oils from the brands we use in the salon. Now for home.',heroCta:'Shop now',
  saleK:'Pick up today',saleH:'Everything in stock at the salon right now',orderK:'Pre-order',orderH:'We’ll bring anything you want: luxury beauty and fragrance brands',
- hits:'Hair care',items:n=>`${n} ${n==1?'product':'products'}`,
+ hits:'All products',items:n=>`${n} ${n==1?'product':'products'}`,
  sort:{stock:'In stock first',cheap:'Price: low to high',exp:'Price: high to low',name:'By name'},
  add:'Add to bag',added:'Added',out:'Out of stock',left:n=>`Only ${n} left`,empty:'Nothing found. Message us and we will order it for you.',favEmpty:'No favourites yet. Tap ♡ on a product.',loading:'Loading the catalogue…',loadErr:'The catalogue did not load. Please refresh the page.',
  bandH:'Can’t find your product?',bandP:'We are buyers and shop directly in the US, Europe and Asia. Send a link or a name and we will quote a price with delivery.',
@@ -107,19 +107,13 @@ function renderStatic(){
   const subs=['all','shampoo','conditioner','mask','leavein','oils','styling','treat'].filter(k=>k==='all'||P.some(p=>p.dept==='hair'&&NAV[k].includes(p.type)));
   $('#subRow').hidden=S.dept!=='hair';
   $('#subRow').innerHTML=subs.map(k=>`<button class="schip" data-cat="${k}" aria-pressed="${S.cat===k}">${k==='all'?L.allHair:L.nav[k]}</button>`).join('');
-  const pick=['mask','oil','shampoo'].map(ty=>P.find(p=>p.type===ty&&p.brand!=='CHI')).filter(Boolean);
-  $('#hero').innerHTML=`
-   <a href="#catalog" class="ban main" data-dept="hair">
-     <div class="stage">${pick.map((p,i)=>pkg({...p,img:''},[1.25,1.35,1.15][i])).join('')}</div>
-     <h2>${L.heroH}</h2><p>${L.heroP}</p><span class="cta">${L.heroCta}</span></a>
-   <a href="#catalog" class="ban order" id="toBand"><span class="k">${L.orderK}</span><h2>${L.orderH}</h2></a>`;
   const brands=[...new Set(P.map(p=>p.brand))];
   const b=brands.map(x=>`<span>${esc(x)}</span>`).join('');$('#marq').innerHTML=(b+b+b+b);
   const dbr=[...new Set(P.filter(p=>!['all','instock','fav'].includes(S.dept)?p.dept===S.dept:true).map(p=>p.brand))];
   $('#brandRow').hidden=dbr.length<2;
   $('#brandRow').innerHTML=['all',...dbr].map(x=>`<button class="bchip" data-brand="${esc(x)}" aria-pressed="${S.brand===x}">${x==='all'?L.allBrands:esc(x)}</button>`).join('');
   $('#sort').innerHTML=Object.entries(L.sort).map(([k,v])=>`<option value="${k}"${k===S.sort?' selected':''}>${v}</option>`).join('');
-  $('#band').innerHTML=`<div><h2>${L.bandH}</h2><p>${L.bandP}</p></div>
+  $('#band').innerHTML=`<div><span class="k">${L.orderK}</span><h2>${L.orderH}</h2><p>${L.bandP}</p></div>
     <div class="steps">${L.st.map(s=>`<div><b>${s[0]}</b>${s[1]}</div>`).join('')}</div>`;
   const upd=UPDATED?new Date(UPDATED).toLocaleString(S.lang==='en'?'en-GB':(S.lang==='ka'?'ka-GE':'ru-RU'),{day:'numeric',month:'long',hour:'2-digit',minute:'2-digit'}):'';
   $('#foot').innerHTML=`<div class="fl"><b>LamereL</b><p style="margin-top:10px">${L.fAbout}</p>${upd?`<p style="margin-top:10px;opacity:.6;font-size:12px">${L.updated}: ${upd}</p>`:''}</div>
