@@ -257,8 +257,14 @@ nav.sitenav a.booklink{margin-left:auto;background:var(--accent);color:#fff}
 .cont a{color:var(--accent);font-weight:600}
 .cont a.btn{color:#fff;margin-top:6px}
 .svnote{color:var(--muted);font-size:14px;line-height:1.5;max-width:70ch;margin:-8px 0 18px}
-.svcat{margin-top:28px}
-.svcat h3{font-size:17px;margin:0 0 6px;padding-bottom:10px;border-bottom:2px solid var(--ink)}
+.svcat{margin-top:0;border-bottom:1px solid var(--line)}
+.svcat summary{list-style:none;cursor:pointer;padding:16px 0}
+.svcat summary::-webkit-details-marker{display:none}
+.svcat h3{font-size:16px;margin:0;display:flex;align-items:center;gap:10px}
+.svcat h3 span{font-size:12px;font-weight:600;color:var(--muted);background:var(--tile-2);border-radius:999px;padding:2px 8px}
+.svcat h3::after{content:'+';margin-left:auto;font-size:22px;font-weight:400}
+.svcat[open] h3::after{content:'−'}
+.svcat[open] summary{border-bottom:2px solid var(--ink)}
 .svl{list-style:none;margin:0;padding:0}
 .svl li{display:grid;grid-template-columns:1fr auto auto;gap:16px;align-items:center;padding:13px 0;border-bottom:1px solid var(--line)}
 .svn{font-size:15px;line-height:1.4}
