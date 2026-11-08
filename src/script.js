@@ -151,7 +151,7 @@ function renderGrid(){
     const ok=inStock(p),fav=S.fav.includes(p.id);
     return `<article class="card${ok?'':' out'}">
       <div class="img">${pkg(p)}
-        <div class="badges">${!ok?`<span class="badge out">${L.out}</span>`:(p.stock<=2?`<span class="badge">${L.left(p.stock)}</span>`:'')}</div>
+        <div class="badges">${!ok?`<span class="badge out">${L.out}</span>`:''}</div>
         <button class="heart" data-fav="${p.id}" aria-pressed="${fav}" aria-label="${L.nav.fav}"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button>
       </div>
       <div class="brand">${esc(p.brand)}</div>
