@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
+<title>LamereL Beauty Shop</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Onest:wght@400;500;600;700;800&family=Noto+Sans+Georgian:wght@400;500;600;700;800&display=swap">
+<style>
+/* Layout: монохромная витрина в духе бьюти-ритейла — полоса-объявление, шапка с вордмарком, меню категорий, сетка баннеров, лента брендов, плотная сетка карточек на серых «подложках» */
+:root{
+  --bg:#F8F3EE; --ink:#1A1716; --muted:#7A716B; --line:#E6DDD4; --tile:#FFFFFF; --tile-2:#EFE7DF;
+  --accent:#A8344F; --accent-soft:#F4E2E4; --inv:#FFFFFF; --ok:#2F7A52; --band:#EFE5DA; --card:#FFFFFF; color-scheme:light;
+  --wordmark:"Unbounded","Noto Sans Georgian",system-ui,sans-serif;
+  --body:"Onest","Noto Sans Georgian",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --shadow:0 18px 50px rgba(14,13,14,.18);
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1280px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1,h2,h3{text-wrap:balance}
+
+/* announcement */
+.announce{background:var(--ink);color:var(--inv);font-size:12px;letter-spacing:.04em}
+.announce .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-block:8px}
+.announce span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.langs{display:flex;gap:2px;flex-shrink:0}
+.langs button{border:0;background:transparent;color:var(--inv);opacity:.55;font-weight:700;font-size:12px;padding:2px 6px;letter-spacing:.08em}
+.langs button[aria-pressed="true"]{opacity:1;text-decoration:underline;text-underline-offset:4px}
+
+/* header */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;background:var(--bg);border-bottom:1px solid var(--line)}
+.hrow{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px;padding-block:14px}
+.search{display:flex;align-items:center;gap:8px;border-bottom:1.5px solid var(--ink);max-width:300px;padding:6px 0}
+.search input{border:0;background:transparent;outline:none;width:100%;min-width:0;font-size:14px}
+.search svg{flex-shrink:0}
+.logo{text-align:center;text-decoration:none;color:var(--ink);line-height:1}
+.logo b{display:block;font-family:"Unbounded",system-ui,sans-serif;font-weight:800;font-size:clamp(26px,4vw,40px);letter-spacing:-.02em}
+.logo small{display:block;font-size:10px;font-weight:700;letter-spacing:.42em;text-transform:uppercase;margin-top:6px;padding-left:.42em}
+.icons{display:flex;justify-content:flex-end;gap:6px}
+.ib{position:relative;border:0;background:transparent;width:42px;height:42px;display:grid;place-items:center;border-radius:50%}
+.ib:hover{background:var(--tile)}
+.ib .n{position:absolute;top:3px;right:2px;background:var(--accent);color:#fff;font-size:10px;font-weight:800;min-width:18px;height:18px;border-radius:9px;display:grid;place-items:center;padding:0 4px;font-variant-numeric:tabular-nums}
+.ib .n:empty{display:none}
+nav.cats{border-top:1px solid var(--line)}
+nav.cats .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding-block:4px}
+nav.cats .wrap::-webkit-scrollbar{display:none}
+nav.cats button{border:0;background:transparent;white-space:nowrap;padding:10px 12px;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;border-bottom:2px solid transparent}
+nav.cats button[aria-pressed="true"]{border-bottom-color:var(--ink)}
+nav.cats button.sale{color:var(--accent)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:2fr 1fr;grid-template-rows:1fr 1fr;gap:12px;padding-block:20px}
+.ban{text-decoration:none;position:relative;overflow:hidden;border:0;text-align:left;padding:28px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;min-height:220px}
+.ban.main{grid-row:1/3;background:#E9DCCD;color:var(--ink);min-height:460px}
+.ban.sale{background:var(--accent);color:#fff}
+.ban.order{background:var(--band);color:var(--ink)}
+.ban .k{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;opacity:.8}
+.ban h2{font-family:var(--wordmark);font-weight:600;margin:0;line-height:1.05;letter-spacing:-.01em;position:relative;z-index:1;max-width:14ch}
+.ban.main h2{font-size:clamp(30px,4.6vw,58px)}
+.ban.sale h2,.ban.order h2{font-size:clamp(20px,2.2vw,28px)}
+.ban p{margin:0;max-width:40ch;opacity:.8;position:relative;z-index:1}
+.ban .cta{align-self:flex-start;border:1.5px solid currentColor;padding:10px 18px;font-weight:800;font-size:12px;letter-spacing:.14em;text-transform:uppercase;position:relative;z-index:1;background:transparent;color:inherit}
+.ban .big{position:absolute;right:-10px;top:-24px;font-family:"Unbounded",sans-serif;font-weight:800;font-size:clamp(90px,11vw,150px);line-height:1;opacity:.18;letter-spacing:-.04em}
+.stage{position:absolute;right:6%;top:10%;bottom:34%;width:48%;display:flex;align-items:flex-end;justify-content:center;gap:4%}
+.stage .pkg{transform-origin:bottom center}
+
+/* brand strip */
+.brands{border-block:1px solid var(--line);overflow:hidden;margin-block:8px 0}
+.marq{display:flex;gap:56px;width:max-content;padding-block:18px;animation:mq 40s linear infinite}
+.marq span{font-family:"Unbounded",sans-serif;font-weight:600;font-size:18px;letter-spacing:.02em;white-space:nowrap;text-transform:uppercase}
+@keyframes mq{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.marq{animation:none}}
+
+/* sections */
+.sec{padding-block:44px 12px}
+.sec-h{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:20px}
+.sec-h h2{font-family:var(--wordmark);font-weight:600;font-size:clamp(22px,3vw,34px);margin:0;letter-spacing:-.01em;text-transform:uppercase}
+.sec-h .count{font-size:13px;color:var(--muted)}
+.sort{border:1px solid var(--line);background:var(--bg);padding:8px 12px;font-size:13px;font-weight:600}
+
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px 16px}
+.card{display:flex;flex-direction:column;gap:6px;min-width:0}
+.img{position:relative;aspect-ratio:1/1;max-width:100%;background:var(--tile);display:flex;align-items:flex-end;justify-content:center;padding-bottom:14%;overflow:hidden}
+.card.out .img .pkg{opacity:.35;filter:grayscale(.6)}
+.badges{position:absolute;top:10px;left:10px;display:flex;flex-direction:column;gap:4px;align-items:flex-start}
+.badge{font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:4px 7px;background:var(--bg);color:var(--ink)}
+.badge.sale{background:var(--accent);color:#fff}
+.badge.pro{background:var(--ink);color:var(--inv)}
+.badge.out{background:var(--tile-2);color:var(--muted)}
+.heart{position:absolute;top:6px;right:6px;border:0;background:transparent;width:38px;height:38px;display:grid;place-items:center}
+.heart path{fill:none;stroke:var(--ink);stroke-width:1.6}
+.heart[aria-pressed="true"] path{fill:var(--accent);stroke:var(--accent)}
+.brand{font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;margin-top:6px}
+.pname{font-size:14px;line-height:1.35;color:var(--ink);margin:0}
+.pmeta{font-size:12px;color:var(--muted)}
+.shades{display:flex;gap:6px;flex-wrap:wrap}
+.shades button{width:20px;height:20px;border-radius:50%;border:2px solid var(--bg);box-shadow:0 0 0 1px var(--line);padding:0}
+.shades button[aria-pressed="true"]{box-shadow:0 0 0 1.5px var(--ink)}
+.price{display:flex;gap:8px;align-items:baseline;font-variant-numeric:tabular-nums;margin-top:auto;padding-top:4px}
+.price b{font-size:17px;font-weight:800}
+.price b.red{color:var(--accent)}
+.price s{font-size:13px;color:var(--muted)}
+.add{border:0;background:var(--ink);color:var(--inv);padding:12px;font-weight:800;font-size:12px;letter-spacing:.12em;text-transform:uppercase;width:100%}
+.add:hover{opacity:.88}
+.add.done{background:var(--ok);color:#fff}
+.add:disabled{background:var(--tile-2);color:var(--muted);cursor:not-allowed}
+.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:48px 0}
+
+/* promo band */
+.band{margin-top:48px;background:var(--band)}
+.band .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:24px;align-items:center;padding-block:44px}
+.band h2{font-family:var(--wordmark);font-weight:600;font-size:clamp(22px,3vw,34px);margin:0 0 10px;text-transform:uppercase;letter-spacing:-.01em}
+.band p{margin:0;color:var(--muted);max-width:52ch}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.steps div{background:var(--bg);padding:16px;font-size:13px;min-width:0}
+.steps b{display:block;font-family:"Unbounded",sans-serif;font-size:22px;margin-bottom:6px}
+
+footer{background:var(--ink);color:var(--inv);margin-top:0}
+footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:28px;padding-block:44px}
+footer .fl b{font-family:"Unbounded",sans-serif;font-weight:800;font-size:28px;letter-spacing:-.02em}
+footer h4{margin:0 0 10px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;opacity:.6}
+footer p{margin:0;font-size:14px;opacity:.85}
+
+/* drawer */
+.scrim{position:fixed;inset:0;background:rgba(10,8,10,.5);z-index:20}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(460px,100%);background:var(--bg);z-index:21;display:flex;flex-direction:column;box-shadow:var(--shadow);
+  padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);padding-right:env(safe-area-inset-right,0px)}
+.dh{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;border-bottom:1px solid var(--line)}
+.dh h2{font-family:var(--wordmark);font-weight:600;font-size:20px;margin:0;text-transform:uppercase}
+.x{border:0;background:transparent;font-size:28px;line-height:1}
+.db{flex:1;overflow-y:auto;padding:16px 20px;display:grid;gap:16px;align-content:start}
+.line{display:grid;grid-template-columns:64px 1fr auto;gap:12px;align-items:center}
+.thumb{width:64px;height:64px;background:var(--band);display:flex;align-items:flex-end;justify-content:center;padding-bottom:8px;overflow:hidden}
+.thumb .pkg{transform:scale(.42);transform-origin:bottom center}
+.line .t{min-width:0;font-size:13px}
+.line .t b{display:block;text-transform:uppercase;font-size:12px}
+.line .t span{color:var(--muted);font-size:12px}
+.qty{display:flex;align-items:center;gap:6px;font-variant-numeric:tabular-nums;font-weight:700}
+.qty button{width:28px;height:28px;border:1px solid var(--line);background:var(--bg)}
+.df{border-top:1px solid var(--line);padding:16px 20px;display:grid;gap:10px}
+.row{display:flex;justify-content:space-between;gap:12px;font-variant-numeric:tabular-nums;font-size:14px}
+.row.total{font-size:18px;font-weight:800}
+.hint{font-size:12px;color:var(--ok);font-weight:600}
+.primary{border:0;background:var(--ink);color:var(--inv);padding:15px;font-weight:800;font-size:13px;letter-spacing:.12em;text-transform:uppercase;width:100%}
+.ghost{border:1.5px solid var(--ink);background:transparent;color:var(--ink);padding:13px;font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;text-align:center;text-decoration:none;display:block}
+form.co{display:grid;gap:12px}
+form.co label{display:grid;gap:4px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+form.co input,form.co select,form.co textarea{border:1px solid var(--line);background:var(--bg);padding:11px 12px;font-weight:400;text-transform:none;letter-spacing:0;font-size:14px}
+.err{color:var(--accent);font-size:13px}
+.order-text{white-space:pre-wrap;font-size:13px;background:var(--band);padding:14px;user-select:all}
+.sendrow{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+
+/* ===== product renders ===== */
+.pkg{position:relative;--c:#ddd;--k:#111}
+.pkg.bottle{width:64px;height:132px;background:var(--c);border-radius:6px 6px 10px 10px;box-shadow:inset -12px 0 18px rgba(0,0,0,.14),inset 8px 0 12px rgba(255,255,255,.35)}
+.pkg.bottle::before{content:"";position:absolute;left:18px;right:18px;top:-30px;height:30px;background:var(--k);border-radius:3px 3px 0 0}
+.pkg.dropper{width:58px;height:96px;background:var(--c);border-radius:8px 8px 12px 12px;box-shadow:inset -10px 0 16px rgba(0,0,0,.18),inset 6px 0 10px rgba(255,255,255,.35)}
+.pkg.dropper::before{content:"";position:absolute;left:17px;right:17px;top:-22px;height:22px;background:var(--k)}
+.pkg.dropper::after{content:"";position:absolute;left:21px;right:21px;top:-46px;height:26px;background:var(--k);border-radius:10px 10px 4px 4px;opacity:.9}
+.pkg.jar{width:104px;height:62px;background:var(--c);border-radius:6px 6px 12px 12px;box-shadow:inset -14px 0 18px rgba(0,0,0,.12),inset 10px 0 14px rgba(255,255,255,.35)}
+.pkg.jar::before{content:"";position:absolute;left:-4px;right:-4px;top:-24px;height:24px;background:var(--k);border-radius:5px}
+.pkg.tube{width:62px;height:140px;background:var(--c);clip-path:polygon(0 0,100% 0,88% 86%,12% 86%);box-shadow:inset -10px 0 14px rgba(0,0,0,.12)}
+.pkg.tube::after{content:"";position:absolute;left:18px;right:18px;bottom:0;height:20px;background:var(--k)}
+.pkg.tube{clip-path:none;border-radius:4px 4px 0 0;background:linear-gradient(90deg,rgba(255,255,255,.35),transparent 30%,rgba(0,0,0,.12)),var(--c);height:120px;margin-bottom:20px}
+.pkg.tube::after{bottom:-20px}
+.pkg.lipstick{width:38px;height:86px;background:linear-gradient(90deg,#3a3a3a,#111 40%,#2a2a2a);border-radius:2px}
+.pkg.lipstick::before{content:"";position:absolute;left:7px;right:7px;top:-40px;height:40px;background:var(--c);border-radius:12px 2px 0 0;box-shadow:inset -5px 0 8px rgba(0,0,0,.22)}
+.pkg.lipstick::after{content:"";position:absolute;left:4px;right:4px;top:-6px;height:8px;background:#c9a96a}
+.pkg.compact{width:108px;height:22px;background:var(--k);border-radius:50%/60%;margin-bottom:6px}
+.pkg.compact::before{content:"";position:absolute;left:14px;right:14px;top:-12px;height:26px;border-radius:50%;background:var(--c);box-shadow:inset -8px -4px 10px rgba(0,0,0,.2)}
+.pkg.pencil{width:16px;height:150px;background:var(--k);border-radius:2px;transform:rotate(18deg)}
+.pkg.pencil::before{content:"";position:absolute;left:3px;right:3px;top:-14px;height:14px;background:var(--c);border-radius:6px 6px 0 0}
+.pkg.wide{width:120px;height:80px;background:var(--c);border-radius:4px;box-shadow:inset -10px -10px 16px rgba(0,0,0,.12)}
+.pkg.wide::before{content:"";position:absolute;inset:12px;border:1.5px solid rgba(255,255,255,.55)}
+.pkg .lbl{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-family:"Unbounded",sans-serif;font-size:7px;font-weight:600;letter-spacing:.14em;color:rgba(0,0,0,.55);text-transform:uppercase;white-space:nowrap}
+.pkg.dark .lbl{color:rgba(255,255,255,.7)}
+
+/* responsive */
+@media (max-width:980px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:760px){
+  .hrow{grid-template-columns:auto 1fr auto;gap:8px}
+  .hrow .search{display:none}
+  .logo{text-align:left}
+  .logo small{letter-spacing:.3em}
+  .msearch{display:flex!important;max-width:none;margin-bottom:10px}
+  .hero{grid-template-columns:1fr 1fr;grid-template-rows:auto auto}
+  .ban.main{grid-column:1/3;grid-row:auto;min-height:380px}
+  .ban{padding:18px;min-height:190px}
+  .stage{width:70%;right:4%;top:6%;bottom:44%}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 10px}
+  .add{padding:11px 6px;font-size:11px;letter-spacing:.06em}
+  .band .wrap{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+  footer .wrap{grid-template-columns:1fr}
+  .announce .ship2{display:none}
+}
+.msearch{display:none}
+@media (prefers-reduced-motion:no-preference){.drawer{animation:slide .25s ease-out}@keyframes slide{from{transform:translateX(30px);opacity:.6}}}
+</style>
+</head>
+<body>
+
+
+<div class="announce"><div class="wrap">
+  <span id="annText"></span>
+  <div class="langs" role="group" aria-label="Language">
+    <button data-lang="ru">RU</button><button data-lang="ka">KA</button><button data-lang="en">EN</button>
+  </div>
+</div></div>
+
+<header class="top">
+  <div class="wrap hrow">
+    <label class="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" aria-label="Search"></label>
+    <a class="logo" href="#top" aria-label="LamereL Beauty Shop"><b>LamereL</b><small>Beauty Shop</small></a>
+    <div class="icons">
+      <button class="ib" id="favBtn" aria-label="Favourites"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><span class="n" id="favCount"></span></button>
+      <button class="ib" id="openCart" aria-label="Cart"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 8h14l-1.2 12H6.2z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="n" id="cartCount"></span></button>
+    </div>
+  </div>
+  <div class="wrap"><label class="search msearch"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q2" type="search" aria-label="Search"></label></div>
+  <nav class="cats" aria-label="Categories"><div class="wrap" id="catNav"></div></nav>
+</header>
+
+<main id="top">
+  <section class="wrap hero" id="hero"></section>
+  <div class="brands"><div class="marq" id="marq"></div></div>
+
+  <section class="wrap sec" id="catalog">
+    <div class="sec-h">
+      <div><h2 id="secTitle"></h2><div class="count" id="count"></div></div>
+      <select class="sort" id="sort" aria-label="Sort"></select>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="band"><div class="wrap" id="band"></div></section>
+</main>
+
+<footer><div class="wrap" id="foot"></div></footer>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" hidden>
+  <div class="dh"><h2 id="dTitle"></h2><button class="x" id="closeCart" aria-label="Close">×</button></div>
+  <div class="db" id="dBody"></div>
+  <div class="df" id="dFoot"></div>
+</aside>
+
+<script>
+const T={
+ru:{ann:'Бесплатная доставка по Батуми от 200 ₾',ann2:'Самовывоз: ул. Зураба Горгиладзе, 98',search:'Поиск по бренду или средству',
+ cats:{all:'Все',new:'Новинки',face:'Уход за лицом',makeup:'Макияж',hair:'Волосы',body:'Тело',nails:'Ногти',pro:'Профессиональное',sale:'Sale',fav:'Избранное'},
+ heroK:'Из кабинетов LamereL',heroH:'Профессиональный уход, которым работают наши мастера',heroP:'Сыворотки, кремы и средства для волос, которые мы используем на процедурах в салоне. Теперь домой.',heroCta:'Смотреть',
+ saleK:'Только неделю',saleH:'Макияж со скидкой до 20%',orderK:'Под заказ',orderH:'Привезём из Sephora, Nordstrom и Европы',
+ hits:'Бестселлеры',items:n=>`${n} ${n%10==1&&n%100!=11?'товар':(n%10>=2&&n%10<=4&&(n%100<10||n%100>=20)?'товара':'товаров')}`,
+ sort:{pop:'По популярности',cheap:'Сначала дешевле',exp:'Сначала дороже'},
+ add:'В корзину',added:'Добавлено',out:'Нет в наличии',new:'New',pro:'Pro',shade:'Оттенок',empty:'Ничего не нашлось. Напишите нам, привезём под заказ.',favEmpty:'В избранном пока пусто. Нажмите ♡ на товаре.',
+ bandH:'Нет нужного средства?',bandP:'Мы байеры и закупаем напрямую в США, Европе и Азии. Пришлите ссылку или название, посчитаем цену с доставкой.',
+ st:[['1','Пришлите ссылку или фото средства'],['2','Назовём цену в лари с доставкой'],['3','Привезём за 2–3 недели']],
+ fAbout:'Магазин при LamereL Beauty Center в Батуми. Только оригинальная косметика.',fAddr:'Адрес',addr:'ул. Зураба Горгиладзе, 98, Батуми',fPay:'Оплата',pay:'Картой, переводом или наличными при получении',
+ cart:'Корзина',cartEmpty:'Корзина пуста. Выберите средства в каталоге.',total:'Итого',goods:'Товары',delivery:'Доставка',toPay:'К оплате',checkout:'Оформить заказ',back:'Назад в корзину',confirm:'Подтвердить заказ',
+ freeLeft:x=>`До бесплатной доставки по Батуми: ${x}`,freeOk:'Доставка по Батуми бесплатно',
+ coTitle:'Оформление',name:'Имя',namePh:'Как к вам обращаться',phone:'Телефон или WhatsApp',get:'Получение',dPick:'Самовывоз из салона, Горгиладзе 98',dBat:'Курьер по Батуми',dGeo:'Доставка по Грузии',
+ address:'Адрес',addrPh:'Улица, дом, квартира',payL:'Оплата',pays:['Картой при получении','Переводом на счёт','Наличными'],note:'Комментарий',notePh:'Например, нужен подарочный пакет',from15:'от 15 ₾',
+ fill:'Заполните: ',fName:'имя',fPhone:'телефон (минимум 9 цифр)',fAddrE:'адрес доставки',
+ doneTitle:'Заказ готов',doneP:'Отправьте этот текст нам в Telegram или WhatsApp. Администратор подтвердит наличие и время.',copy:'Скопировать текст заказа',copied:'Скопировано',selected:'Текст выделен, скопируйте его',again:'Вернуться в каталог',
+ orderHead:'Заказ LamereL Beauty Shop',oName:'Имя',oPhone:'Телефон',oGet:'Получение',oPay:'Оплата',oNote:'Комментарий'},
+ka:{ann:'უფასო მიწოდება ბათუმში 200 ₾-დან',ann2:'თვითგატანა: ზურაბ გორგილაძის ქ. 98',search:'ძიება ბრენდით ან პროდუქტით',
+ cats:{all:'ყველა',new:'სიახლეები',face:'სახის მოვლა',makeup:'მაკიაჟი',hair:'თმა',body:'სხეული',nails:'ფრჩხილები',pro:'პროფესიონალური',sale:'Sale',fav:'რჩეულები'},
+ heroK:'LamereL-ის კაბინეტებიდან',heroH:'პროფესიონალური მოვლა, რომლითაც ჩვენი ოსტატები მუშაობენ',heroP:'შრატები, კრემები და თმის საშუალებები, რომლებსაც სალონში პროცედურებზე ვიყენებთ. ახლა სახლისთვისაც.',heroCta:'ნახვა',
+ saleK:'მხოლოდ ერთი კვირა',saleH:'მაკიაჟი 20%-მდე ფასდაკლებით',orderK:'შეკვეთით',orderH:'ჩამოვიტანთ Sephora-დან, Nordstrom-დან და ევროპიდან',
+ hits:'ბესტსელერები',items:n=>`${n} პროდუქტი`,
+ sort:{pop:'პოპულარობით',cheap:'ჯერ იაფი',exp:'ჯერ ძვირი'},
+ add:'კალათაში',added:'დამატებულია',out:'არ არის მარაგში',new:'New',pro:'Pro',shade:'ტონი',empty:'ვერაფერი მოიძებნა. მოგვწერეთ და შეკვეთით ჩამოვიტანთ.',favEmpty:'რჩეულებში ჯერ არაფერია. დააჭირეთ ♡ პროდუქტზე.',
+ bandH:'ვერ იპოვეთ სასურველი პროდუქტი?',bandP:'ჩვენ ბაიერები ვართ და პირდაპირ ვყიდულობთ აშშ-ში, ევროპასა და აზიაში. გამოგვიგზავნეთ ბმული ან სახელი და დაგითვლით ფასს მიწოდებით.',
+ st:[['1','გამოგვიგზავნეთ ბმული ან ფოტო'],['2','გეტყვით ფასს ლარში მიწოდებით'],['3','ჩამოვიტანთ 2–3 კვირაში']],
+ fAbout:'მაღაზია LamereL Beauty Center-თან, ბათუმში. მხოლოდ ორიგინალი კოსმეტიკა.',fAddr:'მისამართი',addr:'ზურაბ გორგილაძის ქ. 98, ბათუმი',fPay:'გადახდა',pay:'ბარათით, გადარიცხვით ან ნაღდით მიღებისას',
+ cart:'კალათა',cartEmpty:'კალათა ცარიელია. აირჩიეთ პროდუქტები კატალოგში.',total:'სულ',goods:'პროდუქტები',delivery:'მიწოდება',toPay:'გადასახდელი',checkout:'შეკვეთის გაფორმება',back:'კალათაში დაბრუნება',confirm:'შეკვეთის დადასტურება',
+ freeLeft:x=>`უფასო მიწოდებამდე ბათუმში: ${x}`,freeOk:'მიწოდება ბათუმში უფასოა',
+ coTitle:'გაფორმება',name:'სახელი',namePh:'როგორ მოგმართოთ',phone:'ტელეფონი ან WhatsApp',get:'მიღება',dPick:'თვითგატანა სალონიდან, გორგილაძის 98',dBat:'კურიერი ბათუმში',dGeo:'მიწოდება საქართველოში',
+ address:'მისამართი',addrPh:'ქუჩა, სახლი, ბინა',payL:'გადახდა',pays:['ბარათით მიღებისას','გადარიცხვით','ნაღდი ფულით'],note:'კომენტარი',notePh:'მაგალითად, საჩუქრის პაკეტი',from15:'15 ₾-დან',
+ fill:'შეავსეთ: ',fName:'სახელი',fPhone:'ტელეფონი (მინიმუმ 9 ციფრი)',fAddrE:'მიწოდების მისამართი',
+ doneTitle:'შეკვეთა მზადაა',doneP:'გამოგვიგზავნეთ ეს ტექსტი Telegram-ში ან WhatsApp-ში. ადმინისტრატორი დაადასტურებს მარაგს და დროს.',copy:'შეკვეთის ტექსტის კოპირება',copied:'დაკოპირდა',selected:'ტექსტი მონიშნულია, დააკოპირეთ',again:'კატალოგში დაბრუნება',
+ orderHead:'შეკვეთა LamereL Beauty Shop',oName:'სახელი',oPhone:'ტელეფონი',oGet:'მიღება',oPay:'გადახდა',oNote:'კომენტარი'},
+en:{ann:'Free delivery in Batumi on orders over 200 ₾',ann2:'Pickup: 98 Zurab Gorgiladze St.',search:'Search brands or products',
+ cats:{all:'All',new:'New in',face:'Skincare',makeup:'Makeup',hair:'Hair',body:'Body',nails:'Nails',pro:'Professional',sale:'Sale',fav:'Favourites'},
+ heroK:'From the LamereL treatment rooms',heroH:'The professional care our specialists work with',heroP:'Serums, creams and hair care we use in salon treatments. Now for home.',heroCta:'Shop now',
+ saleK:'This week only',saleH:'Up to 20% off makeup',orderK:'Pre-order',orderH:'Shipped in from Sephora, Nordstrom and Europe',
+ hits:'Bestsellers',items:n=>`${n} ${n==1?'product':'products'}`,
+ sort:{pop:'Most popular',cheap:'Price: low to high',exp:'Price: high to low'},
+ add:'Add to bag',added:'Added',out:'Out of stock',new:'New',pro:'Pro',shade:'Shade',empty:'Nothing found. Message us and we will order it for you.',favEmpty:'No favourites yet. Tap ♡ on a product.',
+ bandH:'Can’t find your product?',bandP:'We are buyers and shop directly in the US, Europe and Asia. Send a link or a name and we will quote a price with delivery.',
+ st:[['1','Send a link or a photo'],['2','Get a price in lari, delivery included'],['3','Receive it in 2–3 weeks']],
+ fAbout:'The shop of LamereL Beauty Center in Batumi. Authentic cosmetics only.',fAddr:'Address',addr:'98 Zurab Gorgiladze St., Batumi',fPay:'Payment',pay:'Card, bank transfer or cash on receipt',
+ cart:'Your bag',cartEmpty:'Your bag is empty. Pick something from the catalogue.',total:'Total',goods:'Products',delivery:'Delivery',toPay:'To pay',checkout:'Checkout',back:'Back to bag',confirm:'Confirm order',
+ freeLeft:x=>`${x} more for free delivery in Batumi`,freeOk:'Free delivery in Batumi',
+ coTitle:'Checkout',name:'Name',namePh:'Your name',phone:'Phone or WhatsApp',get:'Delivery method',dPick:'Pickup at the salon, 98 Gorgiladze',dBat:'Courier in Batumi',dGeo:'Delivery across Georgia',
+ address:'Address',addrPh:'Street, building, flat',payL:'Payment',pays:['Card on receipt','Bank transfer','Cash'],note:'Comment',notePh:'For example, gift wrapping',from15:'from 15 ₾',
+ fill:'Please fill in: ',fName:'name',fPhone:'phone (at least 9 digits)',fAddrE:'delivery address',
+ doneTitle:'Order ready',doneP:'Send this text to us on Telegram or WhatsApp. Our administrator will confirm availability and timing.',copy:'Copy order text',copied:'Copied',selected:'Text selected, copy it',again:'Back to the catalogue',
+ orderHead:'LamereL Beauty Shop order',oName:'Name',oPhone:'Phone',oGet:'Delivery',oPay:'Payment',oNote:'Comment'}
+};
+
+// Примерный ассортимент — заменить на реальные товары
+const P=[
+ {id:1,pro:1,cat:'face',brand:'Medik8',name:'Crystal Retinal 6',vol:'30 ml',price:185,form:'dropper',c:'#E9C46A',k:'#1d1d1d',pop:9,
+  note:{ru:'Ночная сыворотка с ретиналем',ka:'ღამის შრატი რეტინალით',en:'Night serum with retinal'}},
+ {id:2,pro:1,cat:'face',brand:'Dermalogica',name:'Daily Microfoliant',vol:'74 g',price:165,form:'bottle',c:'#E6E1D6',k:'#222',pop:8,
+  note:{ru:'Энзимная пудра для умывания',ka:'ფერმენტული პუდრა დასაბანად',en:'Enzyme exfoliating powder'}},
+ {id:3,pro:1,cat:'face',brand:'Holy Land',name:'Alpha-Beta & Retinol Restoring Cream',vol:'50 ml',price:140,form:'jar',c:'#F3EEE6',k:'#8A6C3E',pop:7,isNew:1,
+  note:{ru:'Используем на чистках в салоне',ka:'ვიყენებთ სალონში წმენდისას',en:'Used in our salon facials'}},
+ {id:4,pro:1,cat:'face',brand:'Christina',name:'Unstress Stabilizing Mask',vol:'75 ml',price:120,old:145,form:'tube',c:'#C9DDE3',k:'#f2f2f2',pop:5,
+  note:{ru:'Успокаивающая маска',ka:'დამამშვიდებელი ნიღაბი',en:'Calming mask'}},
+ {id:5,pro:1,cat:'hair',brand:'Olaplex',name:'Nº.3 Hair Perfector',vol:'100 ml',price:95,form:'bottle',c:'#F4F6F8',k:'#1A1A1A',pop:10,
+  note:{ru:'Восстановление после окрашивания',ka:'აღდგენა შეღებვის შემდეგ',en:'Repair after colouring'}},
+ {id:6,pro:1,cat:'hair',brand:'Kérastase',name:'Elixir Ultime L’Huile Originale',vol:'100 ml',price:150,form:'dropper',c:'#D9A441',k:'#2a2a2a',pop:8,stock:0,
+  note:{ru:'Масло для всех типов волос',ka:'ზეთი თმის ყველა ტიპისთვის',en:'Oil for all hair types'}},
+ {id:7,pro:1,cat:'nails',brand:'CND',name:'SolarOil',vol:'15 ml',price:35,form:'dropper',c:'#E8B04B',k:'#7a1f3d',pop:6,
+  note:{ru:'Масло для кутикулы, как после маникюра у нас',ka:'კუტიკულის ზეთი',en:'Cuticle oil, as after our manicure'}},
+ {id:8,pro:0,cat:'body',brand:'Sultane de Saba',name:'Ayurvedic Body Scrub',vol:'300 ml',price:110,form:'jar',c:'#C88A5A',k:'#3a2418',pop:6,isNew:1,
+  note:{ru:'Скраб для тела с аюрведическими маслами',ka:'სხეულის სკრაბი',en:'Body scrub with Ayurvedic oils'}},
+ {id:9,pro:0,cat:'makeup',brand:'Dior',name:'Addict Lip Glow',vol:'3.2 g',price:115,form:'lipstick',pop:10,
+  shades:[['001 Pink','#E8A2B4'],['004 Coral','#E8846A'],['012 Rosewood','#B35A6A'],['020 Mahogany','#7A3A3A']],
+  note:{ru:'Бальзам для губ',ka:'ტუჩის ბალზამი',en:'Lip balm'}},
+ {id:10,pro:0,cat:'makeup',brand:'Rare Beauty',name:'Soft Pinch Liquid Blush',vol:'7.5 ml',price:76,old:95,form:'dropper',k:'#E7E1DC',pop:9,
+  shades:[['Hope','#D98478'],['Joy','#E0607A'],['Grace','#B4405B'],['Encourage','#C9887A']],
+  note:{ru:'Жидкие румяна',ka:'თხევადი ფერუმარილი',en:'Liquid blush'}},
+ {id:11,pro:0,cat:'makeup',brand:'Charlotte Tilbury',name:'Airbrush Flawless Setting Spray',vol:'100 ml',price:125,form:'bottle',c:'#E7C9C0',k:'#C9A27E',pop:7,
+  note:{ru:'Фиксирующий спрей',ka:'მაფიქსირებელი სპრეი',en:'Setting spray'}},
+ {id:12,pro:0,cat:'makeup',brand:'Huda Beauty',name:'Legit Lashes Mascara',vol:'10 ml',price:79,old:99,form:'tube',c:'#1E1A1C',k:'#D8B4A6',dark:1,pop:6,
+  note:{ru:'Тушь для объёма и длины',ka:'მოცულობის ტუში',en:'Volumising mascara'}},
+ {id:13,pro:0,cat:'makeup',brand:'NARS',name:'Light Reflecting Foundation',vol:'30 ml',price:170,form:'bottle',k:'#111',pop:8,isNew:1,
+  shades:[['Mont Blanc','#F1D6C2'],['Gobi','#E6C2A2'],['Barcelona','#C99A72'],['Macao','#9C6B4A']],
+  note:{ru:'Тональное средство',ka:'ტონალური საშუალება',en:'Foundation'}},
+ {id:14,pro:0,cat:'makeup',brand:'Charlotte Tilbury',name:'Matte Revolution Lipstick',vol:'3.5 g',price:110,form:'lipstick',pop:9,
+  shades:[['Pillow Talk','#C68A80'],['Walk of No Shame','#9E4A4E'],['Red Carpet Red','#A3242F']],
+  note:{ru:'Матовая помада',ka:'მქრქალი პომადა',en:'Matte lipstick'}},
+ {id:15,pro:0,cat:'makeup',brand:'Anastasia Beverly Hills',name:'Brow Wiz',vol:'0.085 g',price:70,form:'pencil',k:'#2A2A2A',pop:7,
+  shades:[['Taupe','#8A7462'],['Medium Brown','#6B4B36'],['Ebony','#2D2420']],
+  note:{ru:'Карандаш для бровей',ka:'წარბის ფანქარი',en:'Brow pencil'}},
+ {id:16,pro:1,cat:'face',brand:'Medik8',name:'C-Tetra Vitamin C Serum',vol:'30 ml',price:150,form:'dropper',c:'#F2A65A',k:'#1d1d1d',pop:7,
+  note:{ru:'Антиоксидантная сыворотка с витамином C',ka:'ანტიოქსიდანტური შრატი C ვიტამინით',en:'Antioxidant vitamin C serum'}}
+];
+const BRANDS=['Medik8','Dermalogica','Holy Land','Christina','Olaplex','Kérastase','Dior','Charlotte Tilbury','Rare Beauty','NARS','Huda Beauty','Sultane de Saba','CND'];
+
+const $=s=>document.querySelector(s);
+const ls={get(k,d){try{const v=JSON.parse(localStorage.getItem(k));return v??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const S={lang:ls.get('lml-lang','ru'),cat:'all',q:'',sort:'pop',shade:{},cart:ls.get('lml-cart',[]),fav:ls.get('lml-fav',[]),step:'cart',del:'pickup'};
+if(!T[S.lang])S.lang='ru';
+const t=()=>T[S.lang];
+const fmt=n=>n.toLocaleString(S.lang==='en'?'en-US':'ru-RU')+' ₾';
+const inStock=p=>p.stock!==0;
+const colorOf=(p,sh)=>p.shades?((p.shades.find(x=>x[0]===sh)||p.shades[0])[1]):p.c;
+const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+
+function pkg(p,sh,scale){
+  const c=colorOf(p,sh)||'#ddd',k=p.k||'#111';
+  const lbl=['bottle','jar','wide'].includes(p.form)?`<span class="lbl">${esc(p.brand)}</span>`:'';
+  return `<div class="pkg ${p.form}${p.dark?' dark':''}" style="--c:${c};--k:${k}${scale?`;transform:scale(${scale})`:''}">${lbl}</div>`;
+}
+
+function renderStatic(){
+  const L=t();document.documentElement.lang=S.lang;
+  document.querySelectorAll('.langs button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.lang===S.lang));
+  $('#annText').innerHTML=`${L.ann}<span class="ship2"> · ${L.ann2}</span>`;
+  $('#q').placeholder=$('#q2').placeholder=L.search;
+  $('#catNav').innerHTML=['all','new','face','makeup','hair','body','nails','pro','sale','fav'].map(k=>
+    `<button data-cat="${k}" class="${k==='sale'?'sale':''}" aria-pressed="${S.cat===k}">${L.cats[k]}</button>`).join('');
+  const hp=[P[0],P[4],P[2],P[8]];
+  $('#hero').innerHTML=`
+   <a href="#catalog" class="ban main" data-cat="pro">
+     <div class="stage">${pkg(P[4],null,1.25)}${pkg(P[0],null,1.35)}${pkg(P[2],null,1.1)}</div>
+     <span class="k">${L.heroK}</span><h2>${L.heroH}</h2><p>${L.heroP}</p><span class="cta">${L.heroCta}</span></a>
+   <a href="#catalog" class="ban sale" data-cat="sale"><span class="big">−20%</span><span class="k">${L.saleK}</span><h2>${L.saleH}</h2></a>
+   <a href="#catalog" class="ban order" id="toBand"><span class="k">${L.orderK}</span><h2>${L.orderH}</h2></a>`;
+  const b=BRANDS.map(x=>`<span>${x}</span>`).join('');$('#marq').innerHTML=b+b;
+  $('#sort').innerHTML=Object.entries(L.sort).map(([k,v])=>`<option value="${k}"${k===S.sort?' selected':''}>${v}</option>`).join('');
+  $('#band').innerHTML=`<div><h2>${L.bandH}</h2><p>${L.bandP}</p></div>
+    <div class="steps">${L.st.map(s=>`<div><b>${s[0]}</b>${s[1]}</div>`).join('')}</div>`;
+  $('#foot').innerHTML=`<div class="fl"><b>LamereL</b><p style="margin-top:10px">${L.fAbout}</p></div>
+    <div><h4>${L.fAddr}</h4><p>${L.addr}</p></div><div><h4>${L.fPay}</h4><p>${L.pay}</p></div>`;
+}
+
+function filtered(){
+  const q=S.q.trim().toLowerCase();
+  let a=P.filter(p=>{
+    if(S.cat==='new'&&!p.isNew)return false;
+    if(S.cat==='pro'&&!p.pro)return false;
+    if(S.cat==='sale'&&!p.old)return false;
+    if(S.cat==='fav'&&!S.fav.includes(p.id))return false;
+    if(['face','makeup','hair','body','nails'].includes(S.cat)&&p.cat!==S.cat)return false;
+    if(q&&!(p.brand+' '+p.name+' '+Object.values(p.note).join(' ')).toLowerCase().includes(q))return false;
+    return true});
+  a.sort((x,y)=>(inStock(y)-inStock(x))||(S.sort==='cheap'?x.price-y.price:S.sort==='exp'?y.price-x.price:y.pop-x.pop));
+  return a;
+}
+function renderGrid(){
+  const L=t(),items=filtered();
+  $('#secTitle').textContent=S.cat==='all'?L.hits:L.cats[S.cat];
+  $('#count').textContent=L.items(items.length);
+  if(!items.length){$('#grid').innerHTML=`<p class="empty">${S.cat==='fav'?L.favEmpty:L.empty}</p>`;return}
+  $('#grid').innerHTML=items.map(p=>{
+    const sh=S.shade[p.id]||(p.shades?p.shades[0][0]:null),ok=inStock(p),fav=S.fav.includes(p.id);
+    const pct=p.old?Math.round((1-p.price/p.old)*100):0;
+    return `<article class="card${ok?'':' out'}">
+      <div class="img">${pkg(p,sh)}
+        <div class="badges">${!ok?`<span class="badge out">${L.out}</span>`:''}${p.old?`<span class="badge sale">−${pct}%</span>`:''}${p.isNew?`<span class="badge">${L.new}</span>`:''}${p.pro?`<span class="badge pro">${L.pro}</span>`:''}</div>
+        <button class="heart" data-fav="${p.id}" aria-pressed="${fav}" aria-label="${L.cats.fav}"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button>
+      </div>
+      <div class="brand">${esc(p.brand)}</div>
+      <h3 class="pname">${esc(p.name)}</h3>
+      <div class="pmeta">${p.note[S.lang]} · ${p.vol}</div>
+      ${p.shades?`<div class="shades">${p.shades.map(s=>`<button aria-label="${esc(s[0])}" aria-pressed="${s[0]===sh}" data-shade="${p.id}|${esc(s[0])}" style="background:${s[1]}"></button>`).join('')}</div><div class="pmeta">${L.shade}: ${esc(sh)}</div>`:''}
+      <div class="price"><b class="${p.old?'red':''}">${fmt(p.price)}</b>${p.old?`<s>${fmt(p.old)}</s>`:''}</div>
+      <button class="add" data-add="${p.id}" id="add-${p.id}" ${ok?'':'disabled'}>${ok?L.add:L.out}</button>
+    </article>`}).join('');
+}
+function counts(){
+  const n=S.cart.reduce((a,l)=>a+l.q,0);$('#cartCount').textContent=n||'';$('#favCount').textContent=S.fav.length||'';
+}
+const sub=()=>S.cart.reduce((a,l)=>a+l.q*P.find(p=>p.id===l.id).price,0);
+const delivery=()=>S.del==='pickup'?0:S.del==='batumi'?(sub()>=200?0:10):15;
+
+function add(id){
+  const p=P.find(x=>x.id===id);if(!inStock(p))return;
+  const sh=p.shades?(S.shade[id]||p.shades[0][0]):null;
+  const ex=S.cart.find(l=>l.id===id&&l.sh===sh);ex?ex.q++:S.cart.push({id,sh,q:1});
+  ls.set('lml-cart',S.cart);counts();
+  const b=$('#add-'+id);if(b){b.textContent=t().added;b.classList.add('done');setTimeout(()=>{b.textContent=t().add;b.classList.remove('done')},1200)}
+}
+
+function openCart(){S.step='cart';$('#scrim').hidden=false;$('#drawer').hidden=false;renderCart()}
+function closeCart(){$('#scrim').hidden=true;$('#drawer').hidden=true}
+
+function renderCart(){
+  const L=t(),body=$('#dBody'),foot=$('#dFoot');
+  if(S.step==='cart'){
+    $('#dTitle').textContent=L.cart;
+    if(!S.cart.length){body.innerHTML=`<p style="color:var(--muted)">${L.cartEmpty}</p>`;foot.innerHTML='';return}
+    body.innerHTML=S.cart.map((l,i)=>{const p=P.find(x=>x.id===l.id);return `<div class="line">
+      <div class="thumb">${pkg(p,l.sh,.42)}</div>
+      <div class="t"><b>${esc(p.brand)}</b>${esc(p.name)}<br><span>${l.sh?esc(l.sh)+' · ':''}${fmt(p.price)}</span></div>
+      <div class="qty"><button data-dec="${i}" aria-label="−">−</button>${l.q}<button data-inc="${i}" aria-label="+">+</button></div></div>`}).join('');
+    const left=200-sub();
+    foot.innerHTML=`<div class="row total"><span>${L.total}</span><span>${fmt(sub())}</span></div>
+      <div class="hint">${left>0?L.freeLeft(fmt(left)):L.freeOk}</div>
+      <button class="primary" id="toCheckout">${L.checkout}</button>`;
+  } else if(S.step==='checkout'){
+    $('#dTitle').textContent=L.coTitle;
+    body.innerHTML=`<form class="co" id="co" novalidate>
+      <label>${L.name}<input id="co-name" autocomplete="name" placeholder="${L.namePh}"></label>
+      <label>${L.phone}<input id="co-phone" type="tel" autocomplete="tel" placeholder="+995 5__ ___ ___"></label>
+      <label>${L.get}<select id="co-del"><option value="pickup">${L.dPick}</option><option value="batumi">${L.dBat}</option><option value="georgia">${L.dGeo}</option></select></label>
+      <label id="addrWrap" hidden>${L.address}<input id="co-addr" autocomplete="street-address" placeholder="${L.addrPh}"></label>
+      <label>${L.payL}<select id="co-pay">${L.pays.map(x=>`<option>${x}</option>`).join('')}</select></label>
+      <label>${L.note}<textarea id="co-note" rows="2" placeholder="${L.notePh}"></textarea></label>
+      <div class="err" id="co-err"></div></form>`;
+    $('#co-del').value=S.del;
+    const sync=()=>{S.del=$('#co-del').value;$('#addrWrap').hidden=S.del==='pickup';sumFoot()};
+    $('#co-del').addEventListener('change',sync);sync();
+  } else {
+    $('#dTitle').textContent=L.doneTitle;
+    body.innerHTML=`<p style="margin:0">${L.doneP}</p><div class="order-text" id="otext">${esc(S.text)}</div><button class="ghost" id="copy">${L.copy}</button>`;
+    foot.innerHTML=`<div class="sendrow"><a class="ghost" href="https://wa.me/?text=${encodeURIComponent(S.text)}" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="ghost" href="https://t.me/share/url?url=%20&text=${encodeURIComponent(S.text)}" target="_blank" rel="noopener">Telegram</a></div>
+      <button class="primary" id="newOrder">${L.again}</button>`;
+  }
+}
+function sumFoot(){
+  const L=t();
+  $('#dFoot').innerHTML=`<div class="row"><span>${L.goods}</span><span>${fmt(sub())}</span></div>
+    <div class="row"><span>${L.delivery}</span><span>${S.del==='georgia'?L.from15:fmt(delivery())}</span></div>
+    <div class="row total"><span>${L.toPay}</span><span>${fmt(sub()+delivery())}</span></div>
+    <button class="ghost" id="backCart">${L.back}</button><button class="primary" id="placeOrder">${L.confirm}</button>`;
+}
+function placeOrder(){
+  const L=t(),n=$('#co-name').value.trim(),ph=$('#co-phone').value.trim(),a=$('#co-addr').value.trim();
+  const e=[];if(!n)e.push(L.fName);if(ph.replace(/\D/g,'').length<9)e.push(L.fPhone);if(S.del!=='pickup'&&!a)e.push(L.fAddrE);
+  if(e.length){$('#co-err').textContent=L.fill+e.join(', ')+'.';return}
+  const dn={pickup:L.dPick,batumi:L.dBat,georgia:L.dGeo}[S.del];
+  const lines=S.cart.map(l=>{const p=P.find(x=>x.id===l.id);return `• ${p.brand} ${p.name}${l.sh?' ('+l.sh+')':''} × ${l.q} = ${fmt(p.price*l.q)}`});
+  const note=$('#co-note').value.trim();
+  S.text=[L.orderHead,...lines,`${L.goods}: ${fmt(sub())}`,`${L.delivery}: ${S.del==='georgia'?L.from15:fmt(delivery())}`,`${L.total}: ${fmt(sub()+delivery())}`,'',
+    `${L.oName}: ${n}`,`${L.oPhone}: ${ph}`,`${L.oGet}: ${dn}${S.del!=='pickup'?', '+a:''}`,`${L.oPay}: ${$('#co-pay').value}`,...(note?[`${L.oNote}: ${note}`]:[])].join('\n');
+  S.step='done';renderCart();
+}
+
+document.addEventListener('click',e=>{
+  const el=e.target.closest('button,a');if(!el)return;const d=el.dataset;if(el.classList.contains('ban'))e.preventDefault();
+  if(d.lang){S.lang=d.lang;ls.set('lml-lang',S.lang);renderStatic();renderGrid();if(!$('#drawer').hidden)renderCart()}
+  else if(d.cat){S.cat=d.cat;renderStatic();renderGrid();if(el.closest('#hero'))$('#catalog').scrollIntoView({behavior:'smooth'})}
+  else if(d.shade){const [id,s]=d.shade.split('|');S.shade[id]=s;renderGrid()}
+  else if(d.add)add(+d.add);
+  else if(d.fav){const id=+d.fav;S.fav=S.fav.includes(id)?S.fav.filter(x=>x!==id):[...S.fav,id];ls.set('lml-fav',S.fav);counts();renderGrid()}
+  else if(d.inc){S.cart[+d.inc].q++;ls.set('lml-cart',S.cart);counts();renderCart()}
+  else if(d.dec){const i=+d.dec;S.cart[i].q--;if(!S.cart[i].q)S.cart.splice(i,1);ls.set('lml-cart',S.cart);counts();renderCart()}
+  else if(el.id==='openCart')openCart();
+  else if(el.id==='favBtn'){S.cat='fav';renderStatic();renderGrid();$('#catalog').scrollIntoView({behavior:'smooth'})}
+  else if(el.id==='toBand')$('#band').scrollIntoView({behavior:'smooth'});
+  else if(el.id==='closeCart')closeCart();
+  else if(el.id==='toCheckout'){S.step='checkout';renderCart()}
+  else if(el.id==='backCart'){S.step='cart';renderCart()}
+  else if(el.id==='placeOrder')placeOrder();
+  else if(el.id==='copy'){const L=t();(navigator.clipboard?navigator.clipboard.writeText(S.text):Promise.reject()).then(()=>el.textContent=L.copied).catch(()=>{const r=document.createRange();r.selectNodeContents($('#otext'));const s=getSelection();s.removeAllRanges();s.addRange(r);el.textContent=L.selected})}
+  else if(el.id==='newOrder'){S.cart=[];ls.set('lml-cart',S.cart);counts();closeCart()}
+});
+$('#scrim').addEventListener('click',closeCart);
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeCart()});
+['#q','#q2'].forEach(id=>$(id).addEventListener('input',e=>{S.q=e.target.value;$('#q').value=$('#q2').value=S.q;renderGrid()}));
+$('#sort').addEventListener('change',e=>{S.sort=e.target.value;renderGrid()});
+renderStatic();renderGrid();counts();
+</script>
+
+</body>
+</html>
