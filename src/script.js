@@ -80,6 +80,7 @@ const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 const desc=p=>{const L=t();const a=L.type[p.type]||'';const b=L.need[p.need]||'';return a+(b?' · '+b:'')};
 
 function pkg(p,scale){
+  if(p.img)return `<img class="ph" src="${esc(p.img)}" alt="${esc(p.brand+' '+p.name)}" loading="lazy">`;
   const look=BRANDLOOK[p.brand]||{c:'#E8E1D9',k:'#222'};
   const c=look.dark?look.c:(TINT[p.need]||look.c);
   const form=FORM[p.type]||'bottle';

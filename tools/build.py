@@ -9,7 +9,11 @@ def products():
     out=[]
     for pid,(brand,name,vol,typ,need,price,stock) in P.items():
         if not price: continue
-        out.append(dict(id=pid,brand=brand,name=name,vol=vol,type=typ,need=need,price=price,stock=max(0,int(stock))))
+        item=dict(id=pid,brand=brand,name=name,vol=vol,type=typ,need=need,price=price,stock=max(0,int(stock)))
+        for ext in ('webp','jpg','png'):
+            if os.path.exists(os.path.join(ROOT,'photos',f'{pid}.{ext}')):
+                item['img']=f'photos/{pid}.{ext}'; break
+        out.append(item)
     return out
 
 HEAD=('<!doctype html>\n<html lang="ru">\n<head>\n<meta charset="utf-8">\n'
