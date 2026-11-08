@@ -77,6 +77,7 @@ const fmt=n=>n.toLocaleString(S.lang==='en'?'en-US':'ru-RU')+' ₾';
 const byId=id=>P.find(p=>p.id===id);
 const inStock=p=>p&&p.stock>0;
 const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const nm=p=>p['name_'+S.lang]||p.name;
 const desc=p=>{const L=t();const a=L.type[p.type]||'';const b=L.need[p.need]||'';return a+(b?' · '+b:'')};
 
 function pkg(p,scale){
@@ -119,7 +120,7 @@ function filtered(){
     if(S.cat==='instock'&&!inStock(p))return false;
     if(S.cat==='fav'&&!S.fav.includes(p.id))return false;
     if(NAV[S.cat]&&!NAV[S.cat].includes(p.type))return false;
-    if(q&&!(p.brand+' '+p.name+' '+desc(p)).toLowerCase().includes(q))return false;
+    if(q&&!(p.brand+' '+p.name+' '+(p.name_ru||'')+' '+desc(p)).toLowerCase().includes(q))return false;
     return true});
   const nm=(x,y)=>(x.brand+x.name).localeCompare(y.brand+y.name);
   a.sort((x,y)=>S.sort==='cheap'?x.price-y.price:S.sort==='exp'?y.price-x.price:S.sort==='name'?nm(x,y):((inStock(y)-inStock(x))||nm(x,y)));
@@ -140,7 +141,7 @@ function renderGrid(){
         <button class="heart" data-fav="${p.id}" aria-pressed="${fav}" aria-label="${L.nav.fav}"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button>
       </div>
       <div class="brand">${esc(p.brand)}</div>
-      <h3 class="pname">${esc(p.name)}</h3>
+      <h3 class="pname">${esc(nm(p))}</h3>
       <div class="pmeta">${desc(p)}${p.vol?' · '+esc(p.vol):''}</div>
       <div class="price"><b>${fmt(p.price)}</b></div>
       <button class="add" data-add="${p.id}" id="add-${p.id}" ${ok?'':'disabled'}>${ok?L.add:L.out}</button>
@@ -172,7 +173,7 @@ function renderCart(){
     if(!S.cart.length){body.innerHTML=`<p style="color:var(--muted)">${L.cartEmpty}</p>`;foot.innerHTML='';return}
     body.innerHTML=S.cart.map((l,i)=>{const p=byId(l.id);return `<div class="line">
       <div class="thumb">${pkg(p,.42)}</div>
-      <div class="t"><b>${esc(p.brand)}</b>${esc(p.name)}<br><span>${p.vol?esc(p.vol)+' · ':''}${fmt(p.price)}${inStock(p)?'':' · '+L.out}</span></div>
+      <div class="t"><b>${esc(p.brand)}</b>${esc(nm(p))}<br><span>${p.vol?esc(p.vol)+' · ':''}${fmt(p.price)}${inStock(p)?'':' · '+L.out}</span></div>
       <div class="qty"><button data-dec="${i}" aria-label="−">−</button>${l.q}<button data-inc="${i}" aria-label="+">+</button></div></div>`}).join('');
     const left=FREE-sub();
     foot.innerHTML=`<div class="row total"><span>${L.total}</span><span>${fmt(sub())}</span></div>
@@ -211,7 +212,7 @@ function placeOrder(){
   const e=[];if(!n)e.push(L.fName);if(ph.replace(/\D/g,'').length<9)e.push(L.fPhone);if(S.del!=='pickup'&&!a)e.push(L.fAddrE);
   if(e.length){$('#co-err').textContent=L.fill+e.join(', ')+'.';return}
   const dn={pickup:L.dPick,batumi:L.dBat,georgia:L.dGeo}[S.del];
-  const lines=S.cart.map(l=>{const p=byId(l.id);return `• ${p.brand} ${p.name}${p.vol?' '+p.vol:''} × ${l.q} = ${fmt(p.price*l.q)}`});
+  const lines=S.cart.map(l=>{const p=byId(l.id);return `• ${p.brand} ${nm(p)}${p.vol?' '+p.vol:''} × ${l.q} = ${fmt(p.price*l.q)}`});
   const note=$('#co-note').value.trim();
   S.text=[L.orderHead,...lines,`${L.goods}: ${fmt(sub())}`,`${L.delivery}: ${S.del==='georgia'&&delivery()?L.from15:fmt(delivery())}`,`${L.total}: ${fmt(sub()+delivery())}`,'',
     `${L.oName}: ${n}`,`${L.oPhone}: ${ph}`,`${L.oGet}: ${dn}${S.del!=='pickup'?', '+a:''}`,`${L.oPay}: ${$('#co-pay').value}`,...(note?[`${L.oNote}: ${note}`]:[])].join('\n');

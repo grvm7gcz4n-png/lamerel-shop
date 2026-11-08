@@ -19,3 +19,6 @@ Davines 748233 · Balmain 932351 · KERASTASE 865448 · KEUNE 791804 · Loreal/M
    - назначение: blonde, repair, volume, curls, hairloss, shine, oily, dry, color, scalp, hold, heat, '' (пусто для аксессуаров)
 5. Если появились новые бренды — добавить их цвета в BRANDLOOK в src/script.js (необязательно).
 6. `python3 tools/build.py`, проверить `node` синтаксис скрипта index.html, commit, `git fetch origin main && git rebase origin/main`, push в main.
+7. Русские названия: для каждого добавленного товара добавь запись в словарь RU в tools/catalog_src.py:
+   id: 'Тип по-русски + назначение + название линейки латиницей', например 'Шампунь для объёма Gorgeous Volume',
+   'Маска для светлых волос Blonde Repair', 'Термозащитный спрей Thermique'. Без бренда и без объёма.

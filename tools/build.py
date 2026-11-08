@@ -6,12 +6,13 @@ sys.path.insert(0, os.path.join(ROOT,'tools'))
 import catalog_src
 from catalog_src import P
 IMG=getattr(catalog_src,'IMG',{})
+RU=getattr(catalog_src,'RU',{})
 
 def products():
     out=[]
     for pid,(brand,name,vol,typ,need,price,stock) in P.items():
         if not price: continue
-        item=dict(id=pid,brand=brand,name=name,vol=vol,type=typ,need=need,price=price,stock=max(0,int(stock)))
+        item=dict(id=pid,brand=brand,name=name,name_ru=RU.get(pid,''),vol=vol,type=typ,need=need,price=price,stock=max(0,int(stock)))
         for ext in ('webp','jpg','png'):
             if os.path.exists(os.path.join(ROOT,'photos',f'{pid}.{ext}')):
                 item['img']=f'photos/{pid}.{ext}'; break
