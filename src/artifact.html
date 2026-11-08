@@ -256,7 +256,8 @@ nav.sitenav a.booklink{margin-left:auto;background:var(--accent);color:#fff}
 .cont p{margin:0;font-size:16px;line-height:1.5}
 .cont a{color:var(--accent);font-weight:600}
 .cont a.btn{color:#fff;margin-top:6px}
-.dchip{font-weight:700!important;color:var(--ink)!important;opacity:1!important}
+.dirrow{gap:0;margin:0 0 10px}
+.dchip{font-weight:700!important;color:var(--ink)!important;opacity:1!important;font-size:16px!important;padding:4px 0!important;margin-right:12px!important}
 .dchip.hot{color:var(--accent)!important}
 .lz{margin:8px 0 18px}
 .lz-t{font-size:20px;margin:18px 0 6px}
@@ -922,7 +923,7 @@ function renderSalon(){
   $('#salon').innerHTML=`<div class="wrap sec">
     <div class="sec-h"><div><h2>${L.svcT}</h2></div><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a></div>
     <p class="svnote">${L.svcNote}</p>
-    <div class="subrow">${['all',...dirs.map(d=>d.k)].map(k=>`<button class="schip dchip${k==='offers'?' hot':''}" data-dir="${k}" aria-pressed="${S.dir===k}">${k==='all'?L.allSvc:DIRS.find(d=>d.k===k).n[S.lang]}</button>`).join('')}</div>
+    <div class="subrow dirrow">${['all',...dirs.map(d=>d.k)].map(k=>`<button class="schip dchip${k==='offers'?' hot':''}" data-dir="${k}" aria-pressed="${S.dir===k}">${k==='all'?L.allSvc:DIRS.find(d=>d.k===k).n[S.lang]}</button>`).join('')}</div>
     ${S.dir==='laser'?laserIntro(svs):''}
     ${svs.length?(byCat.length?byCat.map(c=>`<details class="svcat"${S.dir!=='all'||q?' open':''}><summary><h3>${esc(svN(c))}<span>${list.filter(x=>x.cat===c.id).length}</span></h3></summary>
       <ul class="svl">${list.filter(x=>x.cat===c.id).sort((a,b)=>(a.w||0)-(b.w||0)||svN(a).localeCompare(svN(b))).map(x=>`<li><div class="svn">${esc(svN(x))}${durFmt(x.dur)?`<small>${durFmt(x.dur)}</small>`:''}</div><div class="svp">${priceFmt(x)}</div><a class="svb" href="${bookSvc(x.id)}" target="_blank" rel="noopener">${L.bookS}</a></li>`).join('')}</ul></details>`).join(''):`<p class="empty">${L.noSvc}</p>`):`<p class="empty">${L.svcEmpty}</p>`}
