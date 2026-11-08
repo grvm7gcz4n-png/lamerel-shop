@@ -66,7 +66,7 @@ nav.cats button.sale{color:var(--accent)}
 .stage .pkg{transform-origin:bottom center}
 
 /* brand strip */
-.brands{border-block:1px solid var(--line);overflow:hidden;margin-top:40px}
+.brands{border-bottom:1px solid var(--line);overflow:hidden}
 .marq{display:flex;gap:56px;width:max-content;padding-block:18px;animation:mq 40s linear infinite}
 .marq span{font-family:"Unbounded",sans-serif;font-weight:600;font-size:18px;letter-spacing:.02em;white-space:nowrap;text-transform:uppercase}
 @keyframes mq{to{transform:translateX(-50%)}}
@@ -120,7 +120,7 @@ nav.cats button.sale{color:var(--accent)}
 .empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:48px 0}
 
 /* promo band */
-.band{margin-top:0;background:var(--band)}
+.band{margin-top:40px;background:var(--band)}
 .band .k{display:block;font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
 .band .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:24px;align-items:center;padding-block:44px}
 .band h2{font-family:var(--wordmark);font-weight:600;font-size:clamp(22px,2.6vw,32px);margin:0 0 12px;letter-spacing:-.01em;max-width:22ch}
@@ -234,6 +234,7 @@ form.co input,form.co select,form.co textarea{border:1px solid var(--line);backg
 </header>
 
 <main id="top">
+  <div class="brands"><div class="marq" id="marq"></div></div>
 
   <section class="wrap sec" id="catalog">
     <div class="sec-h">
@@ -245,7 +246,6 @@ form.co input,form.co select,form.co textarea{border:1px solid var(--line);backg
     <div class="grid" id="grid"></div>
   </section>
 
-  <div class="brands"><div class="marq" id="marq"></div></div>
   <section class="band"><div class="wrap" id="band"></div></section>
 </main>
 
