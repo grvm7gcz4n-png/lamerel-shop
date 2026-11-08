@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T19:11:39+00:00",
+"updated": "2026-11-08T19:15:08+00:00",
 "products": [
 {
 "id": 25494550,
@@ -860,6 +860,2316 @@
 "need": "repair",
 "price": 20,
 "stock": 8
+},
+{
+"id": 18744633,
+"brand": "Davines",
+"name": "DEDE Delicate Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "shine",
+"price": 90,
+"stock": 0
+},
+{
+"id": 18744669,
+"brand": "Davines",
+"name": "OI Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "shine",
+"price": 100,
+"stock": 0
+},
+{
+"id": 21723300,
+"brand": "Davines",
+"name": "The Renaissance Circle",
+"vol": "50 ml",
+"type": "mask",
+"need": "repair",
+"price": 35,
+"stock": 1
+},
+{
+"id": 21723306,
+"brand": "Davines",
+"name": "The Purity Circle",
+"vol": "50 ml",
+"type": "mask",
+"need": "scalp",
+"price": 35,
+"stock": 2
+},
+{
+"id": 21762561,
+"brand": "Davines",
+"name": "DEDE Delicate Shampoo",
+"vol": "75 ml",
+"type": "shampoo",
+"need": "shine",
+"price": 35,
+"stock": 0
+},
+{
+"id": 21762562,
+"brand": "Davines",
+"name": "DEDE Delicate Conditioner",
+"vol": "75 ml",
+"type": "conditioner",
+"need": "shine",
+"price": 35,
+"stock": 0
+},
+{
+"id": 21847386,
+"brand": "Davines",
+"name": "This is a Dry Shampoo",
+"vol": "",
+"type": "shampoo",
+"need": "oily",
+"price": 85,
+"stock": 0
+},
+{
+"id": 21847387,
+"brand": "Davines",
+"name": "This is a Medium Hairspray",
+"vol": "",
+"type": "styling",
+"need": "hold",
+"price": 80,
+"stock": 1
+},
+{
+"id": 21847388,
+"brand": "Davines",
+"name": "This is a Relaxing Moisturizing Fluid",
+"vol": "125 ml",
+"type": "styling",
+"need": "dry",
+"price": 80,
+"stock": 0
+},
+{
+"id": 21847390,
+"brand": "Davines",
+"name": "MINU Conditioner",
+"vol": "75 ml",
+"type": "conditioner",
+"need": "color",
+"price": 35,
+"stock": 2
+},
+{
+"id": 21847393,
+"brand": "Davines",
+"name": "LOVE Smoothing Conditioner",
+"vol": "75 ml",
+"type": "conditioner",
+"need": "shine",
+"price": 35,
+"stock": 0
+},
+{
+"id": 21847396,
+"brand": "Davines",
+"name": "MOMO Conditioner",
+"vol": "75 ml",
+"type": "conditioner",
+"need": "dry",
+"price": 35,
+"stock": 1
+},
+{
+"id": 21847401,
+"brand": "Davines",
+"name": "LOVE Curl Conditioner",
+"vol": "75 ml",
+"type": "conditioner",
+"need": "curls",
+"price": 35,
+"stock": 0
+},
+{
+"id": 21872787,
+"brand": "Davines",
+"name": "VOLU Hair Mist",
+"vol": "250 ml",
+"type": "leavein",
+"need": "volume",
+"price": 95,
+"stock": 1
+},
+{
+"id": 21885776,
+"brand": "Davines",
+"name": "This is a Curl Moisturizing Mousse",
+"vol": "250 ml",
+"type": "styling",
+"need": "curls",
+"price": 85,
+"stock": 2
+},
+{
+"id": 21930279,
+"brand": "Davines",
+"name": "A Single Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "shine",
+"price": 60,
+"stock": 0
+},
+{
+"id": 22297077,
+"brand": "Davines",
+"name": "DEDE Delicate Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "shine",
+"price": 65,
+"stock": 0
+},
+{
+"id": 22869544,
+"brand": "Davines",
+"name": "DEDE Delicate Shampoo",
+"vol": "75 ml",
+"type": "shampoo",
+"need": "shine",
+"price": 35,
+"stock": 1
+},
+{
+"id": 22929627,
+"brand": "Davines",
+"name": "This is a Sea Salt Spray",
+"vol": "250 ml",
+"type": "styling",
+"need": "volume",
+"price": 80,
+"stock": 0
+},
+{
+"id": 22929628,
+"brand": "Davines",
+"name": "This is a Shimmering Mist",
+"vol": "",
+"type": "styling",
+"need": "shine",
+"price": 80,
+"stock": 1
+},
+{
+"id": 22929629,
+"brand": "Davines",
+"name": "This is a Dry Wax Finishing Spray",
+"vol": "",
+"type": "styling",
+"need": "hold",
+"price": 95,
+"stock": 1
+},
+{
+"id": 23435558,
+"brand": "Davines",
+"name": "This is a Curl Building Serum",
+"vol": "250 ml",
+"type": "styling",
+"need": "curls",
+"price": 80,
+"stock": 1
+},
+{
+"id": 23833942,
+"brand": "Davines",
+"name": "NaturalTech Replumping Hair Filler Superactive",
+"vol": "100 ml",
+"type": "serum",
+"need": "repair",
+"price": 70,
+"stock": 4
+},
+{
+"id": 24279815,
+"brand": "Davines",
+"name": "DEDE Delicate Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "shine",
+"price": 65,
+"stock": 0
+},
+{
+"id": 24783636,
+"brand": "Davines",
+"name": "This is a Primer for Natural Shine",
+"vol": "",
+"type": "leavein",
+"need": "shine",
+"price": 80,
+"stock": 2
+},
+{
+"id": 24926867,
+"brand": "Davines",
+"name": "OI Gift Box 2025",
+"vol": "",
+"type": "kit",
+"need": "shine",
+"price": 145,
+"stock": 0
+},
+{
+"id": 24926875,
+"brand": "Davines",
+"name": "MOMO Gift Box 2025",
+"vol": "",
+"type": "kit",
+"need": "dry",
+"price": 195,
+"stock": 0
+},
+{
+"id": 24926885,
+"brand": "Davines",
+"name": "LOVE Curl Gift Box 2025",
+"vol": "",
+"type": "kit",
+"need": "curls",
+"price": 195,
+"stock": 0
+},
+{
+"id": 25438676,
+"brand": "Davines",
+"name": "LOVE Curl Nourishing Mask",
+"vol": "",
+"type": "mask",
+"need": "curls",
+"price": 95,
+"stock": 2
+},
+{
+"id": 25438695,
+"brand": "Davines",
+"name": "LOVE Curl Enhancing Shampoo",
+"vol": "",
+"type": "shampoo",
+"need": "curls",
+"price": 75,
+"stock": 0
+},
+{
+"id": 25695347,
+"brand": "Davines",
+"name": "The Let It Go Circle",
+"vol": "50 ml",
+"type": "mask",
+"need": "dry",
+"price": 35,
+"stock": 1
+},
+{
+"id": 25723181,
+"brand": "Davines",
+"name": "This is an Extra Strong Hairspray",
+"vol": "",
+"type": "styling",
+"need": "hold",
+"price": 80,
+"stock": 0
+},
+{
+"id": 25798358,
+"brand": "Davines",
+"name": "DEDE Delicate Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "shine",
+"price": 80,
+"stock": 3
+},
+{
+"id": 25873611,
+"brand": "Davines",
+"name": "MOMO Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "dry",
+"price": 80,
+"stock": 1
+},
+{
+"id": 25873631,
+"brand": "Davines",
+"name": "LOVE Curl Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "curls",
+"price": 80,
+"stock": 2
+},
+{
+"id": 25873649,
+"brand": "Davines",
+"name": "NOUNOU Nourishing Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "repair",
+"price": 80,
+"stock": 1
+},
+{
+"id": 25873651,
+"brand": "Davines",
+"name": "NOUNOU Nourishing Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "repair",
+"price": 75,
+"stock": 0
+},
+{
+"id": 25873653,
+"brand": "Davines",
+"name": "MOMO Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 75,
+"stock": 1
+},
+{
+"id": 25873660,
+"brand": "Davines",
+"name": "MOMO Deeply Moisturizing Serum",
+"vol": "150 ml",
+"type": "serum",
+"need": "dry",
+"price": 80,
+"stock": 2
+},
+{
+"id": 25873674,
+"brand": "Davines",
+"name": "NaturalTech Rebalancing Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "oily",
+"price": 80,
+"stock": 1
+},
+{
+"id": 17905286,
+"brand": "Davines",
+"name": "Heart of Glass Sheer Glaze",
+"vol": "150 ml",
+"type": "leavein",
+"need": "blonde",
+"price": 95,
+"stock": 0
+},
+{
+"id": 17905304,
+"brand": "Davines",
+"name": "NaturalTech Detoxifying Scrub Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 80,
+"stock": 1
+},
+{
+"id": 17905338,
+"brand": "Davines",
+"name": "Heart of Glass Silkening Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "blonde",
+"price": 85,
+"stock": 0
+},
+{
+"id": 17905344,
+"brand": "Davines",
+"name": "Heart of Glass Rich Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "blonde",
+"price": 100,
+"stock": 0
+},
+{
+"id": 17905431,
+"brand": "Davines",
+"name": "LOVE Smoothing Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "shine",
+"price": 75,
+"stock": 1
+},
+{
+"id": 17905451,
+"brand": "Davines",
+"name": "MINU Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "color",
+"price": 75,
+"stock": 1
+},
+{
+"id": 19560540,
+"brand": "Davines",
+"name": "LOVE Hair Smoother",
+"vol": "150 ml",
+"type": "leavein",
+"need": "shine",
+"price": 75,
+"stock": 1
+},
+{
+"id": 21180431,
+"brand": "Davines",
+"name": "LOVE Curl Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "curls",
+"price": 85,
+"stock": 0
+},
+{
+"id": 21180523,
+"brand": "Davines",
+"name": "OI Shampoo",
+"vol": "280 ml",
+"type": "shampoo",
+"need": "shine",
+"price": 90,
+"stock": 0
+},
+{
+"id": 21343284,
+"brand": "Davines",
+"name": "MELU Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "repair",
+"price": 75,
+"stock": 1
+},
+{
+"id": 21343308,
+"brand": "Davines",
+"name": "LOVE Curl Cream",
+"vol": "150 ml",
+"type": "styling",
+"need": "curls",
+"price": 75,
+"stock": 0
+},
+{
+"id": 21343324,
+"brand": "Davines",
+"name": "LOVE Curl Revitalizer",
+"vol": "250 ml",
+"type": "styling",
+"need": "curls",
+"price": 80,
+"stock": 2
+},
+{
+"id": 21343389,
+"brand": "Davines",
+"name": "MELU Hair Shield",
+"vol": "250 ml",
+"type": "leavein",
+"need": "heat",
+"price": 95,
+"stock": 2
+},
+{
+"id": 21476231,
+"brand": "Davines",
+"name": "MINU Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "color",
+"price": 80,
+"stock": 2
+},
+{
+"id": 21580299,
+"brand": "Davines",
+"name": "OI Oil",
+"vol": "50 ml",
+"type": "oil",
+"need": "shine",
+"price": 75,
+"stock": 2
+},
+{
+"id": 21580315,
+"brand": "Davines",
+"name": "OI Oil",
+"vol": "135 ml",
+"type": "oil",
+"need": "shine",
+"price": 140,
+"stock": 3
+},
+{
+"id": 21762563,
+"brand": "Davines",
+"name": "LOVE Curl Revitalizer",
+"vol": "75 ml",
+"type": "styling",
+"need": "curls",
+"price": 35,
+"stock": 0
+},
+{
+"id": 21762566,
+"brand": "Davines",
+"name": "LOVE Smoothing Shampoo",
+"vol": "75 ml",
+"type": "shampoo",
+"need": "shine",
+"price": 35,
+"stock": 1
+},
+{
+"id": 21795377,
+"brand": "Davines",
+"name": "LOVE Smoothing Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "shine",
+"price": 85,
+"stock": 0
+},
+{
+"id": 21795379,
+"brand": "Davines",
+"name": "NaturalTech Energizing Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "hairloss",
+"price": 75,
+"stock": 1
+},
+{
+"id": 21824062,
+"brand": "Davines",
+"name": "OI All in One Milk",
+"vol": "50 ml",
+"type": "leavein",
+"need": "shine",
+"price": 60,
+"stock": 0
+},
+{
+"id": 21824067,
+"brand": "Davines",
+"name": "LOVE Curl Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "curls",
+"price": 75,
+"stock": 0
+},
+{
+"id": 21930339,
+"brand": "Davines",
+"name": "MELU Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "repair",
+"price": 85,
+"stock": 1
+},
+{
+"id": 21930344,
+"brand": "Davines",
+"name": "MINU Hair Mask",
+"vol": "250 ml",
+"type": "mask",
+"need": "color",
+"price": 95,
+"stock": 1
+},
+{
+"id": 21930345,
+"brand": "Davines",
+"name": "LOVE Smoothing Instant Mask",
+"vol": "250 ml",
+"type": "mask",
+"need": "shine",
+"price": 95,
+"stock": 1
+},
+{
+"id": 21930350,
+"brand": "Davines",
+"name": "LOVE Curl Hair Mask",
+"vol": "250 ml",
+"type": "mask",
+"need": "curls",
+"price": 95,
+"stock": 0
+},
+{
+"id": 22083865,
+"brand": "Davines",
+"name": "NaturalTech Energizing Superactive",
+"vol": "100 ml",
+"type": "serum",
+"need": "hairloss",
+"price": 200,
+"stock": 1
+},
+{
+"id": 22099075,
+"brand": "Davines",
+"name": "This is a Curl Building Serum",
+"vol": "100 ml",
+"type": "styling",
+"need": "curls",
+"price": 65,
+"stock": 0
+},
+{
+"id": 22161999,
+"brand": "Davines",
+"name": "MINU Hair Serum",
+"vol": "150 ml",
+"type": "serum",
+"need": "color",
+"price": 75,
+"stock": 1
+},
+{
+"id": 22162000,
+"brand": "Davines",
+"name": "DEDE Hair Mist",
+"vol": "250 ml",
+"type": "leavein",
+"need": "shine",
+"price": 95,
+"stock": 1
+},
+{
+"id": 22190039,
+"brand": "Davines",
+"name": "This is a Dry Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "oily",
+"price": 90,
+"stock": 4
+},
+{
+"id": 22204544,
+"brand": "Davines",
+"name": "Heart of Glass Silkening Shampoo",
+"vol": "1000 ml",
+"type": "shampoo",
+"need": "blonde",
+"price": 265,
+"stock": 0
+},
+{
+"id": 22204555,
+"brand": "Davines",
+"name": "Heart of Glass Rich Conditioner",
+"vol": "1000 ml",
+"type": "conditioner",
+"need": "blonde",
+"price": 200,
+"stock": 0
+},
+{
+"id": 22297073,
+"brand": "Davines",
+"name": "SOLU Sea Salt Scrub Cleanser",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 85,
+"stock": 3
+},
+{
+"id": 22297131,
+"brand": "Davines",
+"name": "Heart of Glass Intense Treatment",
+"vol": "150 ml",
+"type": "mask",
+"need": "blonde",
+"price": 85,
+"stock": 1
+},
+{
+"id": 22297145,
+"brand": "Davines",
+"name": "MOMO Hair Potion",
+"vol": "150 ml",
+"type": "leavein",
+"need": "dry",
+"price": 75,
+"stock": 1
+},
+{
+"id": 22297146,
+"brand": "Davines",
+"name": "LOVE Smoothing Perfector",
+"vol": "150 ml",
+"type": "leavein",
+"need": "shine",
+"price": 75,
+"stock": 1
+},
+{
+"id": 22535910,
+"brand": "Davines",
+"name": "Liquid Spell Reinforcing Bodifying Fluid",
+"vol": "125 ml",
+"type": "leavein",
+"need": "volume",
+"price": 75,
+"stock": 0
+},
+{
+"id": 22535914,
+"brand": "Davines",
+"name": "NOUNOU Nourishing Conditioner",
+"vol": "75 ml",
+"type": "conditioner",
+"need": "repair",
+"price": 35,
+"stock": 0
+},
+{
+"id": 22535918,
+"brand": "Davines",
+"name": "MOMO Shampoo",
+"vol": "75 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 35,
+"stock": 2
+},
+{
+"id": 22551214,
+"brand": "Davines",
+"name": "LOVE Curl Primer",
+"vol": "150 ml",
+"type": "leavein",
+"need": "curls",
+"price": 75,
+"stock": 0
+},
+{
+"id": 23029599,
+"brand": "Davines",
+"name": "Liquid Spell Reinforcing Bodifying Fluid",
+"vol": "125 ml",
+"type": "leavein",
+"need": "volume",
+"price": 65,
+"stock": 2
+},
+{
+"id": 23435517,
+"brand": "Davines",
+"name": "Liquid Spell Reinforcing Bodifying Fluid",
+"vol": "50 ml",
+"type": "leavein",
+"need": "volume",
+"price": 45,
+"stock": 0
+},
+{
+"id": 24001227,
+"brand": "Davines",
+"name": "LOVE Curl Hair Mask",
+"vol": "75 ml",
+"type": "mask",
+"need": "curls",
+"price": 35,
+"stock": 0
+},
+{
+"id": 24032789,
+"brand": "Davines",
+"name": "This is a Dry Texturizer",
+"vol": "250 ml",
+"type": "styling",
+"need": "volume",
+"price": 80,
+"stock": 4
+},
+{
+"id": 24868132,
+"brand": "Davines",
+"name": "NOUNOU Hair Mask",
+"vol": "75 ml",
+"type": "mask",
+"need": "repair",
+"price": 40,
+"stock": 0
+},
+{
+"id": 24868153,
+"brand": "Davines",
+"name": "LOVE Curl Shampoo",
+"vol": "75 ml",
+"type": "shampoo",
+"need": "curls",
+"price": 40,
+"stock": 0
+},
+{
+"id": 24926894,
+"brand": "Davines",
+"name": "MINU Gift Box 2025",
+"vol": "",
+"type": "kit",
+"need": "color",
+"price": 195,
+"stock": 0
+},
+{
+"id": 24926921,
+"brand": "Davines",
+"name": "LOVE Smoothing Gift Box 2025",
+"vol": "",
+"type": "kit",
+"need": "shine",
+"price": 195,
+"stock": 0
+},
+{
+"id": 25115880,
+"brand": "Davines",
+"name": "This is a Dry Shampoo",
+"vol": "100 ml",
+"type": "shampoo",
+"need": "oily",
+"price": 60,
+"stock": 2
+},
+{
+"id": 18744685,
+"brand": "Davines",
+"name": "OI All in One Milk",
+"vol": "135 ml",
+"type": "leavein",
+"need": "shine",
+"price": 95,
+"stock": 1
+},
+{
+"id": 21180535,
+"brand": "Davines",
+"name": "NaturalTech Purifying Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 75,
+"stock": 1
+},
+{
+"id": 21180571,
+"brand": "Davines",
+"name": "The Quick Fix Circle",
+"vol": "50 ml",
+"type": "mask",
+"need": "dry",
+"price": 35,
+"stock": 0
+},
+{
+"id": 21343290,
+"brand": "Davines",
+"name": "OI Body Wash",
+"vol": "280 ml",
+"type": "shampoo",
+"need": "",
+"price": 65,
+"stock": 1
+},
+{
+"id": 21343302,
+"brand": "Davines",
+"name": "NaturalTech Nourishing Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 75,
+"stock": 1
+},
+{
+"id": 21343472,
+"brand": "Davines",
+"name": "NaturalTech Nourishing Vegetarian Miracle Mask",
+"vol": "250 ml",
+"type": "mask",
+"need": "dry",
+"price": 105,
+"stock": 0
+},
+{
+"id": 21343479,
+"brand": "Davines",
+"name": "OI Hand Balm",
+"vol": "",
+"type": "leavein",
+"need": "",
+"price": 70,
+"stock": 0
+},
+{
+"id": 21343483,
+"brand": "Davines",
+"name": "OI Hair Butter",
+"vol": "75 ml",
+"type": "mask",
+"need": "shine",
+"price": 40,
+"stock": 0
+},
+{
+"id": 21476224,
+"brand": "Davines",
+"name": "NaturalTech Well-Being Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 80,
+"stock": 1
+},
+{
+"id": 21720946,
+"brand": "Davines",
+"name": "OI Hair Butter",
+"vol": "250 ml",
+"type": "mask",
+"need": "shine",
+"price": 110,
+"stock": 0
+},
+{
+"id": 21762554,
+"brand": "Davines",
+"name": "NaturalTech Rebalancing Shampoo",
+"vol": "100 ml",
+"type": "shampoo",
+"need": "oily",
+"price": 35,
+"stock": 0
+},
+{
+"id": 21762555,
+"brand": "Davines",
+"name": "NaturalTech Energizing Shampoo",
+"vol": "100 ml",
+"type": "shampoo",
+"need": "hairloss",
+"price": 35,
+"stock": 1
+},
+{
+"id": 21762556,
+"brand": "Davines",
+"name": "NaturalTech Nourishing Shampoo",
+"vol": "100 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 35,
+"stock": 0
+},
+{
+"id": 21762558,
+"brand": "Davines",
+"name": "NaturalTech Purifying Shampoo",
+"vol": "100 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 35,
+"stock": 0
+},
+{
+"id": 21762567,
+"brand": "Davines",
+"name": "MINU Shampoo",
+"vol": "75 ml",
+"type": "shampoo",
+"need": "color",
+"price": 35,
+"stock": 0
+},
+{
+"id": 21762569,
+"brand": "Davines",
+"name": "NOUNOU Nourishing Shampoo",
+"vol": "75 ml",
+"type": "shampoo",
+"need": "repair",
+"price": 35,
+"stock": 0
+},
+{
+"id": 21762572,
+"brand": "Davines",
+"name": "NOUNOU Nourishing Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "repair",
+"price": 75,
+"stock": 0
+},
+{
+"id": 21762574,
+"brand": "Davines",
+"name": "NOUNOU Nourishing Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "repair",
+"price": 85,
+"stock": 1
+},
+{
+"id": 21832513,
+"brand": "Davines",
+"name": "NOUNOU Hair Mask",
+"vol": "250 ml",
+"type": "mask",
+"need": "repair",
+"price": 95,
+"stock": 1
+},
+{
+"id": 21832525,
+"brand": "Davines",
+"name": "OI Shampoo",
+"vol": "90 ml",
+"type": "shampoo",
+"need": "shine",
+"price": 35,
+"stock": 0
+},
+{
+"id": 21872788,
+"brand": "Davines",
+"name": "OI Body Scrub",
+"vol": "",
+"type": "shampoo",
+"need": "",
+"price": 105,
+"stock": 0
+},
+{
+"id": 21872789,
+"brand": "Davines",
+"name": "NaturalTech Nourishing Vegetarian Miracle Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "dry",
+"price": 95,
+"stock": 3
+},
+{
+"id": 21872792,
+"brand": "Davines",
+"name": "OI Liquid Luster",
+"vol": "300 ml",
+"type": "leavein",
+"need": "shine",
+"price": 115,
+"stock": 1
+},
+{
+"id": 21885745,
+"brand": "Davines",
+"name": "MOMO Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "dry",
+"price": 85,
+"stock": 1
+},
+{
+"id": 21885746,
+"brand": "Davines",
+"name": "MOMO Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 75,
+"stock": 1
+},
+{
+"id": 21885765,
+"brand": "Davines",
+"name": "NaturalTech Replumping Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "repair",
+"price": 75,
+"stock": 1
+},
+{
+"id": 21885772,
+"brand": "Davines",
+"name": "NaturalTech Replumping Conditioner",
+"vol": "150 ml",
+"type": "conditioner",
+"need": "repair",
+"price": 75,
+"stock": 0
+},
+{
+"id": 21885781,
+"brand": "Davines",
+"name": "This is an Oil Non Oil",
+"vol": "250 ml",
+"type": "styling",
+"need": "shine",
+"price": 85,
+"stock": 1
+},
+{
+"id": 21930328,
+"brand": "Davines",
+"name": "OI Conditioner",
+"vol": "75 ml",
+"type": "conditioner",
+"need": "shine",
+"price": 35,
+"stock": 0
+},
+{
+"id": 22099079,
+"brand": "Davines",
+"name": "Pasta & Love Softening Shaving Gel",
+"vol": "200 ml",
+"type": "shampoo",
+"need": "",
+"price": 85,
+"stock": 1
+},
+{
+"id": 22099085,
+"brand": "Davines",
+"name": "Pasta & Love After-Shave & Moisturizing Cream",
+"vol": "100 ml",
+"type": "leavein",
+"need": "",
+"price": 85,
+"stock": 0
+},
+{
+"id": 22099086,
+"brand": "Davines",
+"name": "Pasta & Love Pre-Shaving & Beard Oil",
+"vol": "",
+"type": "oil",
+"need": "",
+"price": 85,
+"stock": 0
+},
+{
+"id": 22161996,
+"brand": "Davines",
+"name": "NaturalTech Well-Being Conditioner",
+"vol": "150 ml",
+"type": "conditioner",
+"need": "dry",
+"price": 75,
+"stock": 0
+},
+{
+"id": 22161997,
+"brand": "Davines",
+"name": "NaturalTech Calming Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 75,
+"stock": 1
+},
+{
+"id": 22162002,
+"brand": "Davines",
+"name": "NaturalTech Purifying Gel",
+"vol": "150 ml",
+"type": "serum",
+"need": "scalp",
+"price": 75,
+"stock": 0
+},
+{
+"id": 22309418,
+"brand": "Davines",
+"name": "The Renaissance Circle",
+"vol": "750 ml",
+"type": "mask",
+"need": "repair",
+"price": 185,
+"stock": 0
+},
+{
+"id": 22686978,
+"brand": "Davines",
+"name": "Pasta & Love Hair, Beard & Body Wash",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "",
+"price": 80,
+"stock": 1
+},
+{
+"id": 22686980,
+"brand": "Davines",
+"name": "Pasta & Love Medium-Hold Fiber Cream",
+"vol": "",
+"type": "styling",
+"need": "hold",
+"price": 80,
+"stock": 1
+},
+{
+"id": 22686981,
+"brand": "Davines",
+"name": "Pasta & Love Strong-Hold Matte Clay",
+"vol": "",
+"type": "styling",
+"need": "hold",
+"price": 80,
+"stock": 1
+},
+{
+"id": 23029606,
+"brand": "Davines",
+"name": "OI Shampoo",
+"vol": "1000 ml",
+"type": "shampoo",
+"need": "shine",
+"price": 205,
+"stock": 1
+},
+{
+"id": 23029630,
+"brand": "Davines",
+"name": "NaturalTech Rebalancing Shampoo",
+"vol": "100 ml",
+"type": "shampoo",
+"need": "oily",
+"price": 35,
+"stock": 0
+},
+{
+"id": 23260180,
+"brand": "Davines",
+"name": "NaturalTech Renewing Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "repair",
+"price": 80,
+"stock": 1
+},
+{
+"id": 24292655,
+"brand": "Davines",
+"name": "OI Liquid Luster",
+"vol": "100 ml",
+"type": "leavein",
+"need": "shine",
+"price": 55,
+"stock": 1
+},
+{
+"id": 24292656,
+"brand": "Davines",
+"name": "OI Soufflé",
+"vol": "50 ml",
+"type": "styling",
+"need": "shine",
+"price": 55,
+"stock": 3
+},
+{
+"id": 24868137,
+"brand": "Davines",
+"name": "This is a Primer for Natural Shine",
+"vol": "100 ml",
+"type": "leavein",
+"need": "shine",
+"price": 60,
+"stock": 1
+},
+{
+"id": 24868138,
+"brand": "Davines",
+"name": "This is a Curl Building Serum",
+"vol": "100 ml",
+"type": "styling",
+"need": "curls",
+"price": 60,
+"stock": 1
+},
+{
+"id": 24868141,
+"brand": "Davines",
+"name": "This is a Sea Salt Spray",
+"vol": "100 ml",
+"type": "styling",
+"need": "volume",
+"price": 60,
+"stock": 0
+},
+{
+"id": 24868154,
+"brand": "Davines",
+"name": "This is a Strong Hairspray",
+"vol": "100 ml",
+"type": "styling",
+"need": "hold",
+"price": 60,
+"stock": 1
+},
+{
+"id": 24926892,
+"brand": "Davines",
+"name": "NOUNOU Gift Box 2025",
+"vol": "",
+"type": "kit",
+"need": "repair",
+"price": 195,
+"stock": 0
+},
+{
+"id": 24926932,
+"brand": "Davines",
+"name": "OI Gift Box Lux 2025",
+"vol": "",
+"type": "kit",
+"need": "shine",
+"price": 325,
+"stock": 0
+},
+{
+"id": 21476238,
+"brand": "Davines",
+"name": "The Restless Circle",
+"vol": "50 ml",
+"type": "mask",
+"need": "scalp",
+"price": 35,
+"stock": 2
+},
+{
+"id": 22006384,
+"brand": "Davines",
+"name": "SOLU Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 75,
+"stock": 1
+},
+{
+"id": 21762560,
+"brand": "Davines",
+"name": "SOLU Sea Salt Scrub Cleanser",
+"vol": "75 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 35,
+"stock": 0
+},
+{
+"id": 22115586,
+"brand": "Davines",
+"name": "SOLU Shampoo",
+"vol": "75 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 35,
+"stock": 0
+},
+{
+"id": 21180978,
+"brand": "Davines",
+"name": "The Spotlight Circle",
+"vol": "50 ml",
+"type": "mask",
+"need": "shine",
+"price": 35,
+"stock": 3
+},
+{
+"id": 21885778,
+"brand": "Davines",
+"name": "This is a Strong Hairspray",
+"vol": "",
+"type": "styling",
+"need": "hold",
+"price": 85,
+"stock": 0
+},
+{
+"id": 21723315,
+"brand": "Davines",
+"name": "SU Hair Mask",
+"vol": "150 ml",
+"type": "mask",
+"need": "dry",
+"price": 100,
+"stock": 1
+},
+{
+"id": 21723313,
+"brand": "Davines",
+"name": "SU Hair Milk",
+"vol": "135 ml",
+"type": "leavein",
+"need": "dry",
+"price": 100,
+"stock": 0
+},
+{
+"id": 21723317,
+"brand": "Davines",
+"name": "SU Hair & Body Wash",
+"vol": "280 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 75,
+"stock": 1
+},
+{
+"id": 21789082,
+"brand": "Davines",
+"name": "SU Hair Milk",
+"vol": "50 ml",
+"type": "leavein",
+"need": "dry",
+"price": 65,
+"stock": 0
+},
+{
+"id": 22162453,
+"brand": "Davines",
+"name": "The Spotlight Circle",
+"vol": "750 ml",
+"type": "mask",
+"need": "shine",
+"price": 185,
+"stock": 0
+},
+{
+"id": 21872790,
+"brand": "Davines",
+"name": "The Wake-Up Circle",
+"vol": "50 ml",
+"type": "mask",
+"need": "volume",
+"price": 35,
+"stock": 1
+},
+{
+"id": 21885761,
+"brand": "Davines",
+"name": "VOLU Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "volume",
+"price": 75,
+"stock": 1
+},
+{
+"id": 24292660,
+"brand": "Davines",
+"name": "We Stand Hair, Body & Face Butter",
+"vol": "100 ml",
+"type": "leavein",
+"need": "dry",
+"price": 75,
+"stock": 0
+},
+{
+"id": 14054578,
+"brand": "Philip Martin's",
+"name": "Opaco Wash",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "shine",
+"price": 81,
+"stock": 1
+},
+{
+"id": 14054590,
+"brand": "Philip Martin's",
+"name": "3 Ways Oil",
+"vol": "100 ml",
+"type": "oil",
+"need": "volume",
+"price": 58,
+"stock": 0
+},
+{
+"id": 14054591,
+"brand": "Philip Martin's",
+"name": "Aloe Pure Gel",
+"vol": "100 ml",
+"type": "serum",
+"need": "scalp",
+"price": 73,
+"stock": 1
+},
+{
+"id": 14890097,
+"brand": "Philip Martin's",
+"name": "Calming Spray",
+"vol": "150 ml",
+"type": "leavein",
+"need": "scalp",
+"price": 80,
+"stock": 1
+},
+{
+"id": 14890099,
+"brand": "Philip Martin's",
+"name": "Everyday Wash",
+"vol": "",
+"type": "shampoo",
+"need": "dry",
+"price": 85,
+"stock": 0
+},
+{
+"id": 16545031,
+"brand": "Philip Martin's",
+"name": "Potion Cream",
+"vol": "",
+"type": "leavein",
+"need": "repair",
+"price": 80,
+"stock": 2
+},
+{
+"id": 16617499,
+"brand": "Philip Martin's",
+"name": "Pepe Bianco",
+"vol": "",
+"type": "styling",
+"need": "hold",
+"price": 50,
+"stock": 0
+},
+{
+"id": 21179968,
+"brand": "Philip Martin's",
+"name": "Canapa Wash",
+"vol": "",
+"type": "shampoo",
+"need": "hairloss",
+"price": 85,
+"stock": 0
+},
+{
+"id": 21179974,
+"brand": "Philip Martin's",
+"name": "Everyday Rinse",
+"vol": "",
+"type": "conditioner",
+"need": "dry",
+"price": 75,
+"stock": 1
+},
+{
+"id": 21243533,
+"brand": "Philip Martin's",
+"name": "Moringa Rinse",
+"vol": "",
+"type": "conditioner",
+"need": "oily",
+"price": 80,
+"stock": 1
+},
+{
+"id": 21832643,
+"brand": "Philip Martin's",
+"name": "Infusion Cream",
+"vol": "",
+"type": "leavein",
+"need": "repair",
+"price": 95,
+"stock": 3
+},
+{
+"id": 21884761,
+"brand": "Philip Martin's",
+"name": "Everyday Wash",
+"vol": "200 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 75,
+"stock": 2
+},
+{
+"id": 22781533,
+"brand": "Philip Martin's",
+"name": "Maple Wash",
+"vol": "",
+"type": "shampoo",
+"need": "dry",
+"price": 80,
+"stock": 0
+},
+{
+"id": 22781576,
+"brand": "Philip Martin's",
+"name": "Canapa Wash",
+"vol": "",
+"type": "shampoo",
+"need": "hairloss",
+"price": 80,
+"stock": 1
+},
+{
+"id": 25499881,
+"brand": "Philip Martin's",
+"name": "Lip Balm",
+"vol": "",
+"type": "leavein",
+"need": "",
+"price": 35,
+"stock": 1
+},
+{
+"id": 25499983,
+"brand": "Philip Martin's",
+"name": "In Amber Wash",
+"vol": "",
+"type": "shampoo",
+"need": "dry",
+"price": 210,
+"stock": 1
+},
+{
+"id": 25500011,
+"brand": "Philip Martin's",
+"name": "In Amber Rinse",
+"vol": "",
+"type": "conditioner",
+"need": "dry",
+"price": 210,
+"stock": 0
+},
+{
+"id": 25500037,
+"brand": "Philip Martin's",
+"name": "In Amber Body Shower",
+"vol": "",
+"type": "shampoo",
+"need": "",
+"price": 210,
+"stock": 1
+},
+{
+"id": 25733322,
+"brand": "Philip Martin's",
+"name": "Ultra Violet Wash",
+"vol": "200 ml",
+"type": "shampoo",
+"need": "blonde",
+"price": 80,
+"stock": 1
+},
+{
+"id": 14054566,
+"brand": "Philip Martin's",
+"name": "Moringa Curl",
+"vol": "200 ml",
+"type": "styling",
+"need": "curls",
+"price": 70,
+"stock": 1
+},
+{
+"id": 14054567,
+"brand": "Philip Martin's",
+"name": "Babassu Rinse",
+"vol": "200 ml",
+"type": "conditioner",
+"need": "volume",
+"price": 70,
+"stock": 0
+},
+{
+"id": 14054568,
+"brand": "Philip Martin's",
+"name": "Blu Rinse",
+"vol": "200 ml",
+"type": "conditioner",
+"need": "blonde",
+"price": 88,
+"stock": 1
+},
+{
+"id": 14054569,
+"brand": "Philip Martin's",
+"name": "Four Season Treatment",
+"vol": "200 ml",
+"type": "mask",
+"need": "repair",
+"price": 104,
+"stock": 0
+},
+{
+"id": 14054570,
+"brand": "Philip Martin's",
+"name": "Blu Shampoo",
+"vol": "200 ml",
+"type": "shampoo",
+"need": "blonde",
+"price": 60,
+"stock": 0
+},
+{
+"id": 14054572,
+"brand": "Philip Martin's",
+"name": "Moringa Wash",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "oily",
+"price": 80,
+"stock": 0
+},
+{
+"id": 14054573,
+"brand": "Philip Martin's",
+"name": "Babassu Wash",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "volume",
+"price": 70,
+"stock": 0
+},
+{
+"id": 14054574,
+"brand": "Philip Martin's",
+"name": "Maple Wash",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 75,
+"stock": 0
+},
+{
+"id": 14054575,
+"brand": "Philip Martin's",
+"name": "Colour Maintenance",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "color",
+"price": 70,
+"stock": 1
+},
+{
+"id": 14054576,
+"brand": "Philip Martin's",
+"name": "Purifying Wash",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 85,
+"stock": 0
+},
+{
+"id": 14054577,
+"brand": "Philip Martin's",
+"name": "Calming Wash",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 80,
+"stock": 1
+},
+{
+"id": 14054579,
+"brand": "Philip Martin's",
+"name": "In Oud Wash",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "",
+"price": 73,
+"stock": 1
+},
+{
+"id": 14054580,
+"brand": "Philip Martin's",
+"name": "Colour Repair",
+"vol": "200 ml",
+"type": "conditioner",
+"need": "color",
+"price": 75,
+"stock": 2
+},
+{
+"id": 14054582,
+"brand": "Philip Martin's",
+"name": "Scalp Benefit",
+"vol": "200 ml",
+"type": "conditioner",
+"need": "scalp",
+"price": 75,
+"stock": 2
+},
+{
+"id": 14054583,
+"brand": "Philip Martin's",
+"name": "Maple Rinse",
+"vol": "200 ml",
+"type": "conditioner",
+"need": "dry",
+"price": 75,
+"stock": 0
+},
+{
+"id": 14054584,
+"brand": "Philip Martin's",
+"name": "Colour It Orange",
+"vol": "200 ml",
+"type": "conditioner",
+"need": "color",
+"price": 70,
+"stock": 0
+},
+{
+"id": 14054585,
+"brand": "Philip Martin's",
+"name": "Colour It Silver",
+"vol": "200 ml",
+"type": "conditioner",
+"need": "blonde",
+"price": 104,
+"stock": 0
+},
+{
+"id": 14054586,
+"brand": "Philip Martin's",
+"name": "Shine Rose",
+"vol": "50 ml",
+"type": "oil",
+"need": "shine",
+"price": 130,
+"stock": 1
+},
+{
+"id": 14054587,
+"brand": "Philip Martin's",
+"name": "Scalp Nutriment Spray",
+"vol": "100 ml",
+"type": "tonic",
+"need": "scalp",
+"price": 100,
+"stock": 1
+},
+{
+"id": 14054588,
+"brand": "Philip Martin's",
+"name": "Olive & Aloe Oil",
+"vol": "100 ml",
+"type": "oil",
+"need": "dry",
+"price": 78,
+"stock": 0
+},
+{
+"id": 14054589,
+"brand": "Philip Martin's",
+"name": "Jojoba Pure Oil",
+"vol": "100 ml",
+"type": "oil",
+"need": "dry",
+"price": 78,
+"stock": 0
+},
+{
+"id": 14054592,
+"brand": "Philip Martin's",
+"name": "Natural Mousse",
+"vol": "175 ml",
+"type": "styling",
+"need": "volume",
+"price": 40,
+"stock": 0
+},
+{
+"id": 14054593,
+"brand": "Philip Martin's",
+"name": "Sea Salt Spray",
+"vol": "250 ml",
+"type": "styling",
+"need": "volume",
+"price": 90,
+"stock": 0
+},
+{
+"id": 14054594,
+"brand": "Philip Martin's",
+"name": "Pepe Nero",
+"vol": "75 ml",
+"type": "styling",
+"need": "hold",
+"price": 75,
+"stock": 2
+},
+{
+"id": 14054595,
+"brand": "Philip Martin's",
+"name": "Hair Mud",
+"vol": "75 ml",
+"type": "styling",
+"need": "hold",
+"price": 50,
+"stock": 0
+},
+{
+"id": 14054596,
+"brand": "Philip Martin's",
+"name": "Rich Deep",
+"vol": "",
+"type": "mask",
+"need": "repair",
+"price": 133,
+"stock": 0
+},
+{
+"id": 15575514,
+"brand": "Philip Martin's",
+"name": "Revitalizing Spray",
+"vol": "100 ml",
+"type": "leavein",
+"need": "repair",
+"price": 60,
+"stock": 0
+},
+{
+"id": 21243515,
+"brand": "Philip Martin's",
+"name": "Free It",
+"vol": "200 ml",
+"type": "leavein",
+"need": "shine",
+"price": 70,
+"stock": 0
+},
+{
+"id": 21385176,
+"brand": "Philip Martin's",
+"name": "Canapa Rinse",
+"vol": "200 ml",
+"type": "conditioner",
+"need": "hairloss",
+"price": 85,
+"stock": 0
+},
+{
+"id": 23081759,
+"brand": "Philip Martin's",
+"name": "Cutting Fluid",
+"vol": "250 ml",
+"type": "leavein",
+"need": "heat",
+"price": 65,
+"stock": 0
+},
+{
+"id": 24032797,
+"brand": "Philip Martin's",
+"name": "Maple Aqua Rinse",
+"vol": "200 ml",
+"type": "conditioner",
+"need": "dry",
+"price": 60,
+"stock": 1
+},
+{
+"id": 24158872,
+"brand": "Philip Martin's",
+"name": "In Amber Body Lotion",
+"vol": "320 ml",
+"type": "leavein",
+"need": "",
+"price": 190,
+"stock": 0
+},
+{
+"id": 24158876,
+"brand": "Philip Martin's",
+"name": "In Amber Body Shower",
+"vol": "320 ml",
+"type": "shampoo",
+"need": "",
+"price": 150,
+"stock": 0
+},
+{
+"id": 24158880,
+"brand": "Philip Martin's",
+"name": "In Amber Rinse",
+"vol": "320 ml",
+"type": "conditioner",
+"need": "dry",
+"price": 150,
+"stock": 0
+},
+{
+"id": 25260794,
+"brand": "Philip Martin's",
+"name": "Maple Body Shower",
+"vol": "320 ml",
+"type": "shampoo",
+"need": "",
+"price": 150,
+"stock": 1
+},
+{
+"id": 25260795,
+"brand": "Philip Martin's",
+"name": "Infinito Beard & Hair Oil",
+"vol": "150 ml",
+"type": "oil",
+"need": "shine",
+"price": 165,
+"stock": 2
+},
+{
+"id": 25260796,
+"brand": "Philip Martin's",
+"name": "Scalp Nutriment Capsules",
+"vol": "12 pcs",
+"type": "ampoule",
+"need": "scalp",
+"price": 205,
+"stock": 1
+},
+{
+"id": 25260797,
+"brand": "Philip Martin's",
+"name": "Air Lacca Medium Hold",
+"vol": "300 ml",
+"type": "styling",
+"need": "hold",
+"price": 70,
+"stock": 0
+},
+{
+"id": 25260798,
+"brand": "Philip Martin's",
+"name": "Maple Body Lotion",
+"vol": "200 ml",
+"type": "leavein",
+"need": "",
+"price": 90,
+"stock": 0
+},
+{
+"id": 25260799,
+"brand": "Philip Martin's",
+"name": "Natural Mousse",
+"vol": "175 ml",
+"type": "styling",
+"need": "volume",
+"price": 85,
+"stock": 1
+},
+{
+"id": 25260800,
+"brand": "Philip Martin's",
+"name": "Everyday Rinse",
+"vol": "200 ml",
+"type": "conditioner",
+"need": "dry",
+"price": 70,
+"stock": 0
+},
+{
+"id": 25260802,
+"brand": "Philip Martin's",
+"name": "Maskhair",
+"vol": "200 ml",
+"type": "mask",
+"need": "dry",
+"price": 135,
+"stock": 1
+},
+{
+"id": 25260803,
+"brand": "Philip Martin's",
+"name": "Moringa Rinse",
+"vol": "200 ml",
+"type": "conditioner",
+"need": "oily",
+"price": 75,
+"stock": 0
+},
+{
+"id": 25260804,
+"brand": "Philip Martin's",
+"name": "Babassu Spray",
+"vol": "150 ml",
+"type": "leavein",
+"need": "volume",
+"price": 135,
+"stock": 0
+},
+{
+"id": 25260805,
+"brand": "Philip Martin's",
+"name": "Calming Spray",
+"vol": "150 ml",
+"type": "leavein",
+"need": "scalp",
+"price": 70,
+"stock": 1
+},
+{
+"id": 25260806,
+"brand": "Philip Martin's",
+"name": "Sea Salt Spray",
+"vol": "150 ml",
+"type": "styling",
+"need": "volume",
+"price": 85,
+"stock": 2
+},
+{
+"id": 25260807,
+"brand": "Philip Martin's",
+"name": "Sea Salt Spray",
+"vol": "150 ml",
+"type": "styling",
+"need": "volume",
+"price": 85,
+"stock": 0
+},
+{
+"id": 25260808,
+"brand": "Philip Martin's",
+"name": "In Oud Wash",
+"vol": "320 ml",
+"type": "shampoo",
+"need": "",
+"price": 90,
+"stock": 0
+},
+{
+"id": 14054565,
+"brand": "Philip Martin's",
+"name": "Tommy Baby Shampoo",
+"vol": "200 ml",
+"type": "shampoo",
+"need": "",
+"price": 68,
+"stock": 0
+},
+{
+"id": 15715562,
+"brand": "Philip Martin's",
+"name": "Calming Wash",
+"vol": "1000 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 240,
+"stock": 0
+},
+{
+"id": 24032795,
+"brand": "Philip Martin's",
+"name": "Maple Aqua Wash",
+"vol": "320 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 90,
+"stock": 0
+},
+{
+"id": 24158878,
+"brand": "Philip Martin's",
+"name": "In Amber Wash",
+"vol": "320 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 150,
+"stock": 0
+},
+{
+"id": 25260809,
+"brand": "Philip Martin's",
+"name": "Blu Shampoo",
+"vol": "200 ml",
+"type": "shampoo",
+"need": "blonde",
+"price": 70,
+"stock": 0
+},
+{
+"id": 25260810,
+"brand": "Philip Martin's",
+"name": "Colour Maintenance",
+"vol": "320 ml",
+"type": "shampoo",
+"need": "color",
+"price": 90,
+"stock": 1
+},
+{
+"id": 25260811,
+"brand": "Philip Martin's",
+"name": "Everyday Wash",
+"vol": "200 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 70,
+"stock": 0
+},
+{
+"id": 25260812,
+"brand": "Philip Martin's",
+"name": "Maple Aqua Wash",
+"vol": "320 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 90,
+"stock": 0
+},
+{
+"id": 25260813,
+"brand": "Philip Martin's",
+"name": "Moringa Wash",
+"vol": "320 ml",
+"type": "shampoo",
+"need": "oily",
+"price": 90,
+"stock": 2
+},
+{
+"id": 25260814,
+"brand": "Philip Martin's",
+"name": "Pepe Nero",
+"vol": "75 ml",
+"type": "styling",
+"need": "hold",
+"price": 85,
+"stock": 0
 }
 ]
 }
