@@ -66,6 +66,17 @@ def sync_services(auth):
         cats = unwrap(call('GET', f'/company/{LOCATION}/service_categories', auth)) or []
         source = 'company/services'
     if services: log('Поля услуги: ' + ', '.join(sorted(services[0].keys())))
+    # полные названия «ქართული / Русский / English» из настроек услуг (в онлайн-записи бывают сокращённые)
+    full = {}
+    try:
+        for x in unwrap(call('GET', f'/company/{LOCATION}/services', auth)) or []:
+            full[x.get('id')] = (x.get('title') or '').strip()
+        log(f'Полных названий услуг: {len(full)}')
+    except Exception as e:
+        log(f'company/services: {e}')
+    for x in services:
+        t = full.get(x.get('id'))
+        if t and t.count('/') >= (x.get('title') or '').count('/'): x['title'] = t
     keep = []
     for x in services:
         if x.get('active') in (0, False): continue
