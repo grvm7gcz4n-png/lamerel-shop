@@ -41,8 +41,9 @@ jobs:
             git add tools/sync_status.json
             git commit -qm "Синхронизация с Altegio: ошибка (см. tools/sync_status.json)" || exit 0
           else
-            git add products.json tools/altegio_live.json tools/altegio_titles_snapshot.json
+            git add products.json services.json tools/altegio_live.json tools/altegio_titles_snapshot.json tools/services_live.json 2>/dev/null || true
             if git diff --cached --quiet; then echo "Изменений нет"; exit 0; fi
+            git add tools/sync_status.json
             git commit -qm "Синхронизация с Altegio: цены и наличие"
           fi
           git pull -q --rebase origin main

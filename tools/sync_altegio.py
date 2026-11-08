@@ -54,6 +54,29 @@ def unwrap(resp):
         return resp['data']
     return resp
 
+def sync_services(auth):
+    services, cats, source = [], [], ''
+    try:   # то, что доступно в онлайн-записи
+        d = unwrap(call('GET', f'/book_services/{LOCATION}', auth)) or {}
+        services, cats, source = d.get('services') or [], d.get('category') or d.get('categories') or [], 'book_services'
+    except Exception as e:
+        log(f'book_services: {e}')
+    if not services:
+        services = unwrap(call('GET', f'/company/{LOCATION}/services', auth)) or []
+        cats = unwrap(call('GET', f'/company/{LOCATION}/service_categories', auth)) or []
+        source = 'company/services'
+    if services: log('Поля услуги: ' + ', '.join(sorted(services[0].keys())))
+    keep = []
+    for x in services:
+        if x.get('active') in (0, False): continue
+        keep.append(dict(id=x.get('id'), title=(x.get('title') or x.get('booking_title') or '').strip(),
+                         category_id=x.get('category_id'), price_min=x.get('price_min') or 0, price_max=x.get('price_max') or 0,
+                         duration=x.get('seance_length') or x.get('duration') or 0, weight=x.get('weight') or 0))
+    kc = [dict(id=c.get('id'), title=(c.get('title') or '').strip(), weight=c.get('weight') or 0) for c in cats]
+    json.dump(dict(source=source, services=keep, categories=kc), open(os.path.join(ROOT, 'tools/services_live.json'), 'w'),
+              ensure_ascii=False, indent=0, sort_keys=True)
+    log(f'Услуг: {len(keep)} ({source}), категорий: {len(kc)}')
+
 def main():
     partner = os.environ.get('ALTEGIO_PARTNER_TOKEN', '').strip()
     login = os.environ.get('ALTEGIO_LOGIN', '').strip()
@@ -117,6 +140,12 @@ def main():
     if sample_keys: log('Поля товара: ' + ', '.join(sample_keys))
     if not live:
         log('Не найдено ни одного товара брендов — данные сайта не меняю'); save_status(False); return 1
+
+    # 4. услуги салона для страницы «Салон» (ошибка здесь не ломает синхронизацию товаров)
+    try:
+        sync_services(auth)
+    except Exception as e:
+        log(f'Услуги не загрузились: {e}')
 
     out = dict(updated=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'), goods=live)
     json.dump(out, open(os.path.join(ROOT, 'tools/altegio_live.json'), 'w'), ensure_ascii=False, indent=0, sort_keys=True)

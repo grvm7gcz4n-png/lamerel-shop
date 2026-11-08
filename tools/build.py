@@ -139,6 +139,35 @@ def products():
         out.append(item)
     return out
 
+EMO=re.compile('[\u2190-\u21ff\u2300-\u23ff\u2460-\u24ff\u25a0-\u25ff\u2700-\u27bf\u2b00-\u2bff\ufe0f\u200d\U0001F000-\U0001FAFF]')
+def split3(title):
+    t=EMO.sub('',title)
+    parts=[re.sub(r'\s+',' ',p).strip(' -') for p in t.split('/')]
+    parts=[p for p in parts if p]
+    ka=next((p for p in parts if re.search('[\u10A0-\u10FF]',p)),'')
+    ru=next((p for p in parts if re.search('[А-Яа-яЁё]',p)),'')
+    en=next((p for p in parts if re.search('[A-Za-z]',p) and not re.search('[А-Яа-яЁё\u10A0-\u10FF]',p)),'')
+    base=ru or en or ka or t.strip()
+    out=dict(ru=ru or en or ka,ka=ka or ru or en,en=en or ru or ka)
+    if len(parts)==3 and not (ka and ru and en): out=dict(ka=parts[0],ru=parts[1],en=parts[2])
+    return {k:(v or base)[:1].upper()+(v or base)[1:] for k,v in out.items()}
+
+def build_services():
+    f=os.path.join(ROOT,'tools/services_live.json')
+    if not os.path.exists(f): return
+    d=json.load(open(f))
+    cats={c['id']:c for c in d['categories']}
+    out=[]
+    for x in d['services']:
+        if not x['title']: continue
+        out.append(dict(id=x['id'],cat=x['category_id'],n=split3(x['title']),pmin=x['price_min'],pmax=x['price_max'],dur=x['duration'],w=x.get('weight',0)))
+    used={x['cat'] for x in out}
+    cl=[dict(id=c['id'],n=split3(c['title']),w=c.get('weight',0)) for c in d['categories'] if c['id'] in used]
+    data=dict(categories=cl,services=out)
+    pf=os.path.join(ROOT,'services.json')
+    old=json.load(open(pf)) if os.path.exists(pf) else None
+    if old!=data: json.dump(data,open(pf,'w'),ensure_ascii=False,indent=0)
+
 HEAD=('<!doctype html>\n<html lang="ru">\n<head>\n<meta charset="utf-8">\n'
       '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
       '<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}'
@@ -151,6 +180,7 @@ def main(write_products=True):
         if old.get('products')!=prods:   # дату обновляем только если каталог реально изменился
             data=dict(updated=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'),products=prods)
             json.dump(data,open(pf,'w'),ensure_ascii=False,indent=0)
+    build_services()
     page=open(os.path.join(ROOT,'src/page.html')).read().replace('/*__SCRIPT__*/',open(os.path.join(ROOT,'src/script.js')).read())
     open(os.path.join(ROOT,'src/artifact.html'),'w').write(page)
     i=page.index('</style>')+len('</style>')
