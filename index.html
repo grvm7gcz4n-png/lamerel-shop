@@ -936,9 +936,18 @@ function renderSalon(){
     <div class="subrow dirrow">${['all',...dirs.map(d=>d.k)].map(k=>`<button class="schip dchip${k==='offers'?' hot':''}" data-dir="${k}" aria-pressed="${S.dir===k}">${k==='all'?L.allSvc:`<span class="di" aria-hidden="true">${DIRS.find(d=>d.k===k).ic}</span>`+DIRS.find(d=>d.k===k).n[S.lang]}</button>`).join('')}</div>
     ${S.dir==='laser'?laserIntro(svs):''}
     ${svs.length?(byCat.length?byCat.map(c=>`<details class="svcat"${S.dir!=='all'||q?' open':''}><summary><h3>${esc(svN(c))}<span>${list.filter(x=>x.cat===c.id).length}</span></h3></summary>
-      <ul class="svl">${list.filter(x=>x.cat===c.id).sort((a,b)=>(a.w||0)-(b.w||0)||svN(a).localeCompare(svN(b))).map(x=>`<li><div class="svn">${esc(svN(x))}${durFmt(x.dur)?`<small>${durFmt(x.dur)}</small>`:''}</div><div class="svp">${priceFmt(x)}</div><a class="svb" href="${bookSvc(x.id)}" target="_blank" rel="noopener">${L.bookS}</a></li>`).join('')}</ul></details>`).join(''):`<p class="empty">${L.noSvc}</p>`):`<p class="empty">${L.svcEmpty}</p>`}
+      <ul class="svl">${list.filter(x=>x.cat===c.id).sort(svSort).map(x=>`<li><div class="svn">${esc(svN(x))}${durFmt(x.dur)?`<small>${durFmt(x.dur)}</small>`:''}</div><div class="svp">${priceFmt(x)}</div><a class="svb" href="${bookSvc(x.id)}" target="_blank" rel="noopener">${L.bookS}</a></li>`).join('')}</ul></details>`).join(''):`<p class="empty">${L.noSvc}</p>`):`<p class="empty">${L.svcEmpty}</p>`}
   </div>${contactsHTML()}`;
 }
+// в лазерной эпиляции сначала комплексы: XL, L, M, S, XS, затем наборы зон (с «+»), затем отдельные зоны
+const KX=['XL','L','M','S','XS'];
+function svRank(x){
+  if(!LASERS.some(l=>l.c.includes(x.cat)))return 99;
+  const t=x.n.ru+' '+x.n.en;const m=t.match(/(^|\s)(XL|XS|L|M|S)\s+(комплекс|complex)/i);
+  if(m)return KX.indexOf(m[2].toUpperCase());
+  return /\+/.test(t)?10:99;
+}
+function svSort(a,b){const ra=svRank(a),rb=svRank(b);if(ra!==rb)return ra-rb;if(ra===10)return (b.pmin||0)-(a.pmin||0);return (a.w||0)-(b.w||0)||svN(a).localeCompare(svN(b))}
 function laserIntro(svs){
   const L=LH[S.lang];
   return `<div class="lz"><h3 class="lz-t">${L.t}</h3><p class="lz-p">${L.p}</p>
