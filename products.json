@@ -1,0 +1,865 @@
+{
+"updated": "2026-11-08T18:48:36+00:00",
+"products": [
+{
+"id": 25494550,
+"brand": "CHI",
+"name": "Dry Oil Blend",
+"vol": "15 ml",
+"type": "oil",
+"need": "shine",
+"price": 30,
+"stock": 0
+},
+{
+"id": 25494319,
+"brand": "CHI",
+"name": "Dry Shampoo",
+"vol": "150 g",
+"type": "shampoo",
+"need": "oily",
+"price": 125,
+"stock": 1
+},
+{
+"id": 25494314,
+"brand": "CHI",
+"name": "Dry Texturizing Hair Spray",
+"vol": "284 g",
+"type": "styling",
+"need": "volume",
+"price": 125,
+"stock": 1
+},
+{
+"id": 25494347,
+"brand": "CHI",
+"name": "Dry Texturizing Hair Spray",
+"vol": "74 g",
+"type": "styling",
+"need": "volume",
+"price": 55,
+"stock": 0
+},
+{
+"id": 25494559,
+"brand": "CHI",
+"name": "Hair Spray Firm Hold",
+"vol": "74 g",
+"type": "styling",
+"need": "hold",
+"price": 55,
+"stock": 1
+},
+{
+"id": 25494557,
+"brand": "CHI",
+"name": "Hair Spray Natural Hold",
+"vol": "74 g",
+"type": "styling",
+"need": "hold",
+"price": 55,
+"stock": 0
+},
+{
+"id": 25494553,
+"brand": "CHI",
+"name": "Infra Texture Hair Spray",
+"vol": "74 g",
+"type": "styling",
+"need": "volume",
+"price": 55,
+"stock": 1
+},
+{
+"id": 25494332,
+"brand": "CHI",
+"name": "Rapid Shine Spray",
+"vol": "150 g",
+"type": "styling",
+"need": "shine",
+"price": 125,
+"stock": 1
+},
+{
+"id": 25494343,
+"brand": "CHI",
+"name": "Silk Infusion",
+"vol": "15 ml",
+"type": "serum",
+"need": "repair",
+"price": 30,
+"stock": 0
+},
+{
+"id": 25494352,
+"brand": "CHI",
+"name": "Silk Infusion",
+"vol": "59 ml",
+"type": "serum",
+"need": "repair",
+"price": 95,
+"stock": 2
+},
+{
+"id": 25494368,
+"brand": "CHI",
+"name": "Silk Infusion",
+"vol": "177 ml",
+"type": "serum",
+"need": "repair",
+"price": 170,
+"stock": 2
+},
+{
+"id": 25494551,
+"brand": "CHI",
+"name": "Total Protect Defense Lotion",
+"vol": "177 ml",
+"type": "leavein",
+"need": "heat",
+"price": 110,
+"stock": 1
+},
+{
+"id": 25494340,
+"brand": "CHI",
+"name": "Ultimate Control Hairspray",
+"vol": "284 g",
+"type": "styling",
+"need": "hold",
+"price": 125,
+"stock": 1
+},
+{
+"id": 25494324,
+"brand": "CHI",
+"name": "White Truffle Foaming Mousse",
+"vol": "227 g",
+"type": "styling",
+"need": "volume",
+"price": 125,
+"stock": 1
+},
+{
+"id": 23601983,
+"brand": "BRAE",
+"name": "Blonde Repair Shampoo",
+"vol": "",
+"type": "shampoo",
+"need": "blonde",
+"price": 75,
+"stock": 1
+},
+{
+"id": 23601966,
+"brand": "BRAE",
+"name": "Blonde Repair Conditioner",
+"vol": "",
+"type": "conditioner",
+"need": "blonde",
+"price": 80,
+"stock": 0
+},
+{
+"id": 23602058,
+"brand": "BRAE",
+"name": "Blonde Repair Leave-In",
+"vol": "",
+"type": "leavein",
+"need": "blonde",
+"price": 120,
+"stock": 0
+},
+{
+"id": 23602067,
+"brand": "BRAE",
+"name": "Blonde Repair Mask",
+"vol": "",
+"type": "mask",
+"need": "blonde",
+"price": 120,
+"stock": 0
+},
+{
+"id": 25731068,
+"brand": "BRAE",
+"name": "Blonde Oil Shampoo",
+"vol": "",
+"type": "shampoo",
+"need": "blonde",
+"price": 100,
+"stock": 0
+},
+{
+"id": 25731079,
+"brand": "BRAE",
+"name": "Blonde Oil Conditioner",
+"vol": "",
+"type": "conditioner",
+"need": "blonde",
+"price": 105,
+"stock": 0
+},
+{
+"id": 24214274,
+"brand": "BRAE",
+"name": "Angel Blond Matizador Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "blonde",
+"price": 70,
+"stock": 0
+},
+{
+"id": 24214296,
+"brand": "BRAE",
+"name": "Angel Blond Matizador Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "blonde",
+"price": 75,
+"stock": 0
+},
+{
+"id": 23602074,
+"brand": "BRAE",
+"name": "Blooming Rose Hair Perfume",
+"vol": "",
+"type": "perfume",
+"need": "shine",
+"price": 115,
+"stock": 0
+},
+{
+"id": 24214049,
+"brand": "BRAE",
+"name": "Hair Perfume",
+"vol": "100 ml",
+"type": "perfume",
+"need": "shine",
+"price": 190,
+"stock": 0
+},
+{
+"id": 24219621,
+"brand": "BRAE",
+"name": "Bond Angel Power Dose",
+"vol": "",
+"type": "ampoule",
+"need": "repair",
+"price": 50,
+"stock": 1
+},
+{
+"id": 24497422,
+"brand": "BRAE",
+"name": "Divine Power Dose",
+"vol": "",
+"type": "ampoule",
+"need": "repair",
+"price": 45,
+"stock": 0
+},
+{
+"id": 23602093,
+"brand": "BRAE",
+"name": "Divine Liquid Keratin",
+"vol": "",
+"type": "ampoule",
+"need": "repair",
+"price": 50,
+"stock": 2
+},
+{
+"id": 24214289,
+"brand": "BRAE",
+"name": "Divine Leave-In 10 in 1",
+"vol": "200 g",
+"type": "leavein",
+"need": "repair",
+"price": 115,
+"stock": 0
+},
+{
+"id": 23602091,
+"brand": "BRAE",
+"name": "Soul Booster Ampoule",
+"vol": "",
+"type": "ampoule",
+"need": "repair",
+"price": 50,
+"stock": 4
+},
+{
+"id": 24772412,
+"brand": "BRAE",
+"name": "Soul Color Booster Ampoule",
+"vol": "",
+"type": "ampoule",
+"need": "color",
+"price": 50,
+"stock": 0
+},
+{
+"id": 23602108,
+"brand": "BRAE",
+"name": "Cronograma Capilar Repair",
+"vol": "",
+"type": "kit",
+"need": "repair",
+"price": 110,
+"stock": 0
+},
+{
+"id": 23602069,
+"brand": "BRAE",
+"name": "Defense Anti-Hair Loss Tonic",
+"vol": "",
+"type": "tonic",
+"need": "hairloss",
+"price": 105,
+"stock": 0
+},
+{
+"id": 24214267,
+"brand": "BRAE",
+"name": "Defense Antiqueda Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "hairloss",
+"price": 70,
+"stock": 1
+},
+{
+"id": 24214269,
+"brand": "BRAE",
+"name": "Defense Antiqueda Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "hairloss",
+"price": 75,
+"stock": 1
+},
+{
+"id": 24214298,
+"brand": "BRAE",
+"name": "Defense Antiqueda Ampoule",
+"vol": "13 ml",
+"type": "ampoule",
+"need": "hairloss",
+"price": 40,
+"stock": 0
+},
+{
+"id": 24214297,
+"brand": "BRAE",
+"name": "Essential Repair Spray",
+"vol": "60 ml",
+"type": "leavein",
+"need": "heat",
+"price": 55,
+"stock": 0
+},
+{
+"id": 24214278,
+"brand": "BRAE",
+"name": "Essential Intense Repair Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "repair",
+"price": 75,
+"stock": 0
+},
+{
+"id": 23602001,
+"brand": "BRAE",
+"name": "Repair & Shine Heat Protection Spray",
+"vol": "",
+"type": "leavein",
+"need": "heat",
+"price": 120,
+"stock": 0
+},
+{
+"id": 24214270,
+"brand": "BRAE",
+"name": "Gorgeous Volume Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "volume",
+"price": 70,
+"stock": 0
+},
+{
+"id": 24214280,
+"brand": "BRAE",
+"name": "Gorgeous Volume Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "volume",
+"price": 75,
+"stock": 0
+},
+{
+"id": 23602063,
+"brand": "BRAE",
+"name": "Gorgeous Volume Texture Spray",
+"vol": "",
+"type": "styling",
+"need": "volume",
+"price": 110,
+"stock": 0
+},
+{
+"id": 23602019,
+"brand": "BRAE",
+"name": "Gorgeous Shine Oil",
+"vol": "",
+"type": "oil",
+"need": "shine",
+"price": 110,
+"stock": 1
+},
+{
+"id": 23601949,
+"brand": "BRAE",
+"name": "Glow Shine Fluid",
+"vol": "",
+"type": "serum",
+"need": "shine",
+"price": 120,
+"stock": 0
+},
+{
+"id": 24214041,
+"brand": "BRAE",
+"name": "Glow Shine Mask",
+"vol": "200 g",
+"type": "mask",
+"need": "shine",
+"price": 120,
+"stock": 0
+},
+{
+"id": 24214374,
+"brand": "BRAE",
+"name": "Noturno Serum",
+"vol": "100 ml",
+"type": "serum",
+"need": "shine",
+"price": 125,
+"stock": 1
+},
+{
+"id": 24214030,
+"brand": "BRAE",
+"name": "Go Curly Crespos Shampoo",
+"vol": "250 ml",
+"type": "shampoo",
+"need": "curls",
+"price": 70,
+"stock": 1
+},
+{
+"id": 24214362,
+"brand": "BRAE",
+"name": "Go Curly Crespos Conditioner",
+"vol": "250 ml",
+"type": "conditioner",
+"need": "curls",
+"price": 75,
+"stock": 1
+},
+{
+"id": 24214359,
+"brand": "BRAE",
+"name": "Go Curly Cachos Conditioner",
+"vol": "200 ml",
+"type": "conditioner",
+"need": "curls",
+"price": 100,
+"stock": 0
+},
+{
+"id": 24214033,
+"brand": "BRAE",
+"name": "Go Curly Cachos Cream",
+"vol": "500 ml",
+"type": "styling",
+"need": "curls",
+"price": 150,
+"stock": 0
+},
+{
+"id": 24214036,
+"brand": "BRAE",
+"name": "Go Curly Texturizing Gel",
+"vol": "500 g",
+"type": "styling",
+"need": "curls",
+"price": 130,
+"stock": 1
+},
+{
+"id": 23602088,
+"brand": "BRAE",
+"name": "Protein Cream",
+"vol": "",
+"type": "leavein",
+"need": "repair",
+"price": 100,
+"stock": 1
+},
+{
+"id": 23602059,
+"brand": "BRAE",
+"name": "Puring Gentle Cleansing Shampoo",
+"vol": "",
+"type": "shampoo",
+"need": "scalp",
+"price": 70,
+"stock": 0
+},
+{
+"id": 25120621,
+"brand": "BRAE",
+"name": "Revival Shampoo",
+"vol": "",
+"type": "shampoo",
+"need": "repair",
+"price": 75,
+"stock": 0
+},
+{
+"id": 24154786,
+"brand": "MOCHEQI",
+"name": "Ginger Shampoo",
+"vol": "318 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 55,
+"stock": 2
+},
+{
+"id": 24154784,
+"brand": "MOCHEQI",
+"name": "Ginger Shampoo",
+"vol": "518 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 70,
+"stock": 8
+},
+{
+"id": 24154782,
+"brand": "MOCHEQI",
+"name": "Cooling Mint Shampoo",
+"vol": "318 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 55,
+"stock": 4
+},
+{
+"id": 24154794,
+"brand": "MOCHEQI",
+"name": "Cooling Mint Shampoo",
+"vol": "518 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 70,
+"stock": 6
+},
+{
+"id": 24154788,
+"brand": "MOCHEQI",
+"name": "Menthol Deep Cleansing Scalp Shampoo",
+"vol": "318 ml",
+"type": "shampoo",
+"need": "scalp",
+"price": 60,
+"stock": 2
+},
+{
+"id": 24154790,
+"brand": "MOCHEQI",
+"name": "Tea Tree Keratin Shampoo",
+"vol": "318 ml",
+"type": "shampoo",
+"need": "oily",
+"price": 55,
+"stock": 7
+},
+{
+"id": 24154785,
+"brand": "MOCHEQI",
+"name": "Tea Tree Keratin Shampoo",
+"vol": "518 ml",
+"type": "shampoo",
+"need": "oily",
+"price": 70,
+"stock": 4
+},
+{
+"id": 24154789,
+"brand": "MOCHEQI",
+"name": "Shea Butter Keratin Shampoo",
+"vol": "318 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 55,
+"stock": 3
+},
+{
+"id": 24154783,
+"brand": "MOCHEQI",
+"name": "Shea Butter Keratin Shampoo",
+"vol": "518 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 70,
+"stock": 3
+},
+{
+"id": 24154791,
+"brand": "MOCHEQI",
+"name": "Jojoba Keratin Shampoo",
+"vol": "318 ml",
+"type": "shampoo",
+"need": "repair",
+"price": 55,
+"stock": 1
+},
+{
+"id": 24154781,
+"brand": "MOCHEQI",
+"name": "Jojoba Keratin Shampoo",
+"vol": "518 ml",
+"type": "shampoo",
+"need": "repair",
+"price": 70,
+"stock": 2
+},
+{
+"id": 24447698,
+"brand": "MOCHEQI",
+"name": "Argan Oil Reconstructing Shampoo",
+"vol": "318 ml",
+"type": "shampoo",
+"need": "repair",
+"price": 55,
+"stock": 8
+},
+{
+"id": 24447702,
+"brand": "MOCHEQI",
+"name": "Argan Oil Reconstructing Shampoo",
+"vol": "518 ml",
+"type": "shampoo",
+"need": "repair",
+"price": 70,
+"stock": 6
+},
+{
+"id": 24956873,
+"brand": "MOCHEQI",
+"name": "Nourishing Shampoo",
+"vol": "738 ml",
+"type": "shampoo",
+"need": "dry",
+"price": 95,
+"stock": 0
+},
+{
+"id": 24447718,
+"brand": "MOCHEQI",
+"name": "Argan Oil Reconstructing Conditioner",
+"vol": "318 ml",
+"type": "conditioner",
+"need": "repair",
+"price": 55,
+"stock": 9
+},
+{
+"id": 24447722,
+"brand": "MOCHEQI",
+"name": "Argan Oil Reconstructing Conditioner",
+"vol": "518 ml",
+"type": "conditioner",
+"need": "repair",
+"price": 70,
+"stock": 5
+},
+{
+"id": 24154787,
+"brand": "MOCHEQI",
+"name": "Rice Germ Collagen Conditioner",
+"vol": "318 ml",
+"type": "conditioner",
+"need": "dry",
+"price": 60,
+"stock": 7
+},
+{
+"id": 24154780,
+"brand": "MOCHEQI",
+"name": "Rice Germ Collagen Conditioner",
+"vol": "518 ml",
+"type": "conditioner",
+"need": "dry",
+"price": 70,
+"stock": 6
+},
+{
+"id": 24387706,
+"brand": "MOCHEQI",
+"name": "Rice Germ Collagen Conditioner",
+"vol": "738 ml",
+"type": "conditioner",
+"need": "dry",
+"price": 90,
+"stock": 1
+},
+{
+"id": 24387707,
+"brand": "MOCHEQI",
+"name": "Collagen Nourishing Conditioner",
+"vol": "738 ml",
+"type": "conditioner",
+"need": "dry",
+"price": 90,
+"stock": 1
+},
+{
+"id": 24154770,
+"brand": "MOCHEQI",
+"name": "Avocado Conditioner Limited Edition",
+"vol": "518 ml",
+"type": "conditioner",
+"need": "repair",
+"price": 90,
+"stock": 2
+},
+{
+"id": 24154773,
+"brand": "MOCHEQI",
+"name": "Panthenol Protein Mask",
+"vol": "500 ml",
+"type": "mask",
+"need": "repair",
+"price": 90,
+"stock": 7
+},
+{
+"id": 24154771,
+"brand": "MOCHEQI",
+"name": "Hydro Spa Hair Treatment Mask",
+"vol": "450 g",
+"type": "mask",
+"need": "dry",
+"price": 80,
+"stock": 7
+},
+{
+"id": 25825223,
+"brand": "MOCHEQI",
+"name": "Keratin Golden Hour Repair Mask",
+"vol": "480 g",
+"type": "mask",
+"need": "repair",
+"price": 120,
+"stock": 3
+},
+{
+"id": 24154772,
+"brand": "MOCHEQI",
+"name": "Leave-In Collagen & Macadamia Moisturizing Mask",
+"vol": "",
+"type": "leavein",
+"need": "dry",
+"price": 60,
+"stock": 3
+},
+{
+"id": 24154774,
+"brand": "MOCHEQI",
+"name": "Leave-In Silk Curl Cream",
+"vol": "280 ml",
+"type": "leavein",
+"need": "curls",
+"price": 55,
+"stock": 4
+},
+{
+"id": 24154779,
+"brand": "MOCHEQI",
+"name": "Smoothing Hair Serum Spray",
+"vol": "150 ml",
+"type": "serum",
+"need": "repair",
+"price": 55,
+"stock": 6
+},
+{
+"id": 24154778,
+"brand": "MOCHEQI",
+"name": "Smoothing Concentrated Serum",
+"vol": "150 ml",
+"type": "serum",
+"need": "repair",
+"price": 55,
+"stock": 6
+},
+{
+"id": 24154776,
+"brand": "MOCHEQI",
+"name": "Oil Cocktail",
+"vol": "45 ml",
+"type": "oil",
+"need": "shine",
+"price": 55,
+"stock": 5
+},
+{
+"id": 24154777,
+"brand": "MOCHEQI",
+"name": "Macadamia Oil",
+"vol": "60 ml",
+"type": "oil",
+"need": "dry",
+"price": 55,
+"stock": 4
+},
+{
+"id": 24154775,
+"brand": "MOCHEQI",
+"name": "Root Volume Styling Oil",
+"vol": "100 ml",
+"type": "styling",
+"need": "volume",
+"price": 55,
+"stock": 2
+},
+{
+"id": 25353320,
+"brand": "MOCHEQI",
+"name": "Ampoule",
+"vol": "",
+"type": "ampoule",
+"need": "repair",
+"price": 20,
+"stock": 3
+},
+{
+"id": 25353325,
+"brand": "MOCHEQI",
+"name": "Hair Filler",
+"vol": "",
+"type": "ampoule",
+"need": "repair",
+"price": 20,
+"stock": 8
+}
+]
+}
