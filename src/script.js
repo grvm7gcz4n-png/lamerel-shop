@@ -19,7 +19,7 @@ ru:{ann:'Бесплатная доставка по Грузии от 300 ₾',a
  coTitle:'Оформление',name:'Имя',namePh:'Как к вам обращаться',phone:'Телефон или WhatsApp',get:'Получение',dPick:'Самовывоз из салона, Горгиладзе 98',dBat:'Курьер по Батуми',dGeo:'Доставка по Грузии',
  address:'Адрес',addrPh:'Улица, дом, квартира',payL:'Оплата',pays:['Картой при получении','Переводом на счёт','Наличными'],note:'Комментарий',notePh:'Например, нужен подарочный пакет',from15:'от 15 ₾',
  fill:'Заполните: ',fName:'имя',fPhone:'телефон (минимум 9 цифр)',fAddrE:'адрес доставки',
- doneTitle:'Заказ готов',doneP:'Отправьте этот текст нам в Telegram или WhatsApp. Администратор подтвердит наличие и время.',copy:'Скопировать текст заказа',copied:'Скопировано',selected:'Текст выделен, скопируйте его',again:'Вернуться в каталог',
+ sendingT:'Отправляем заказ',sentT:'Заказ принят',sentP:'Спасибо! Администратор скоро свяжется с вами по телефону, чтобы подтвердить наличие, оплату и доставку.',doneTitle:'Заказ готов',doneP:'Отправьте этот текст нам в Telegram или WhatsApp. Администратор подтвердит наличие и время.',copy:'Скопировать текст заказа',copied:'Скопировано',selected:'Текст выделен, скопируйте его',again:'Вернуться в каталог',
  orderHead:'Заказ LamereL Beauty Shop',oName:'Имя',oPhone:'Телефон',oGet:'Получение',oPay:'Оплата',oNote:'Комментарий'},
 ka:{ann:'უფასო მიწოდება საქართველოში 300 ₾-დან',ann2:'თვითგატანა: ზურაბ გორგილაძის ქ. 98',search:'ძიება ბრენდით ან პროდუქტით',
  dept:{all:'ყველა',hair:'თმა',face:'სახის მოვლა',makeup:'მაკიაჟი',men:'მამაკაცებისთვის',gifts:'სასაჩუქრე ნაკრებები',acc:'თმის აქსესუარები',body:'სხეულის მოვლა',instock:'მარაგშია',fav:'რჩეულები',cleanse:'წმენდა და ტონიკები',fserum:'შრატები',cream:'კრემები',eye:'თვალის ირგვლივ',fmask:'ნიღბები და პილინგები',spf:'SPF დაცვა',fkit:'ნაკრები'},
@@ -41,7 +41,7 @@ ka:{ann:'უფასო მიწოდება საქართველო
  coTitle:'გაფორმება',name:'სახელი',namePh:'როგორ მოგმართოთ',phone:'ტელეფონი ან WhatsApp',get:'მიღება',dPick:'თვითგატანა სალონიდან, გორგილაძის 98',dBat:'კურიერი ბათუმში',dGeo:'მიწოდება საქართველოში',
  address:'მისამართი',addrPh:'ქუჩა, სახლი, ბინა',payL:'გადახდა',pays:['ბარათით მიღებისას','გადარიცხვით','ნაღდი ფულით'],note:'კომენტარი',notePh:'მაგალითად, საჩუქრის პაკეტი',from15:'15 ₾-დან',
  fill:'შეავსეთ: ',fName:'სახელი',fPhone:'ტელეფონი (მინიმუმ 9 ციფრი)',fAddrE:'მიწოდების მისამართი',
- doneTitle:'შეკვეთა მზადაა',doneP:'გამოგვიგზავნეთ ეს ტექსტი Telegram-ში ან WhatsApp-ში. ადმინისტრატორი დაადასტურებს მარაგს და დროს.',copy:'შეკვეთის ტექსტის კოპირება',copied:'დაკოპირდა',selected:'ტექსტი მონიშნულია, დააკოპირეთ',again:'კატალოგში დაბრუნება',
+ sendingT:'შეკვეთა იგზავნება',sentT:'შეკვეთა მიღებულია',sentP:'გმადლობთ! ადმინისტრატორი მალე დაგიკავშირდებათ ტელეფონით მარაგის, გადახდისა და მიწოდების დასადასტურებლად.',doneTitle:'შეკვეთა მზადაა',doneP:'გამოგვიგზავნეთ ეს ტექსტი Telegram-ში ან WhatsApp-ში. ადმინისტრატორი დაადასტურებს მარაგს და დროს.',copy:'შეკვეთის ტექსტის კოპირება',copied:'დაკოპირდა',selected:'ტექსტი მონიშნულია, დააკოპირეთ',again:'კატალოგში დაბრუნება',
  orderHead:'შეკვეთა LamereL Beauty Shop',oName:'სახელი',oPhone:'ტელეფონი',oGet:'მიღება',oPay:'გადახდა',oNote:'კომენტარი'},
 en:{ann:'Free delivery across Georgia on orders over 300 ₾',ann2:'Pickup: 98 Zurab Gorgiladze St.',search:'Search brands or products',
  dept:{all:'All',hair:'Hair',face:'Skincare',makeup:'Makeup',men:'Men',gifts:'Gift sets',acc:'Hair accessories',body:'Body care',instock:'In stock',fav:'Favourites',cleanse:'Cleansers & toners',fserum:'Serums',cream:'Creams',eye:'Eye care',fmask:'Masks & peels',spf:'SPF',fkit:'Sets'},
@@ -63,7 +63,7 @@ en:{ann:'Free delivery across Georgia on orders over 300 ₾',ann2:'Pickup: 98 Z
  coTitle:'Checkout',name:'Name',namePh:'Your name',phone:'Phone or WhatsApp',get:'Delivery method',dPick:'Pickup at the salon, 98 Gorgiladze',dBat:'Courier in Batumi',dGeo:'Delivery across Georgia',
  address:'Address',addrPh:'Street, building, flat',payL:'Payment',pays:['Card on receipt','Bank transfer','Cash'],note:'Comment',notePh:'For example, gift wrapping',from15:'from 15 ₾',
  fill:'Please fill in: ',fName:'name',fPhone:'phone (at least 9 digits)',fAddrE:'delivery address',
- doneTitle:'Order ready',doneP:'Send this text to us on Telegram or WhatsApp. Our administrator will confirm availability and timing.',copy:'Copy order text',copied:'Copied',selected:'Text selected, copy it',again:'Back to the catalogue',
+ sendingT:'Sending your order',sentT:'Order received',sentP:'Thank you! Our administrator will call you shortly to confirm availability, payment and delivery.',doneTitle:'Order ready',doneP:'Send this text to us on Telegram or WhatsApp. Our administrator will confirm availability and timing.',copy:'Copy order text',copied:'Copied',selected:'Text selected, copy it',again:'Back to the catalogue',
  orderHead:'LamereL Beauty Shop order',oName:'Name',oPhone:'Phone',oGet:'Delivery',oPay:'Payment',oNote:'Comment'}
 };
 
@@ -163,6 +163,8 @@ function counts(){
   const n=S.cart.reduce((a,l)=>a+l.q,0);$('#cartCount').textContent=n||'';$('#favCount').textContent=S.fav.length||'';
 }
 const sub=()=>S.cart.reduce((a,l)=>{const p=byId(l.id);return a+(p?l.q*p.price:0)},0);
+// адрес воркера, который пересылает заказы в Telegram (пусто — заказ отправляет сам клиент)
+const ORDER_HOOK='';
 const FREE=300;
 const delivery=()=>S.del==='pickup'||sub()>=FREE?0:S.del==='batumi'?10:15;
 
@@ -204,6 +206,12 @@ function renderCart(){
     $('#co-del').value=S.del;
     const sync=()=>{S.del=$('#co-del').value;$('#addrWrap').hidden=S.del==='pickup';sumFoot()};
     $('#co-del').addEventListener('change',sync);sync();
+  } else if(S.step==='sending'){
+    $('#dTitle').textContent=L.sendingT;body.innerHTML=`<p class="empty">${L.sendingT}…</p>`;foot.innerHTML='';
+  } else if(S.sent){
+    $('#dTitle').textContent=L.sentT;
+    body.innerHTML=`<p style="margin:0;font-size:16px;line-height:1.5">${L.sentP}</p><div class="order-text" id="otext">${esc(S.text)}</div>`;
+    foot.innerHTML=`<button class="primary" id="newOrder">${L.again}</button>`;
   } else {
     $('#dTitle').textContent=L.doneTitle;
     body.innerHTML=`<p style="margin:0">${L.doneP}</p><div class="order-text" id="otext">${esc(S.text)}</div><button class="ghost" id="copy">${L.copy}</button>`;
@@ -228,6 +236,19 @@ function placeOrder(){
   const note=$('#co-note').value.trim();
   S.text=[L.orderHead,...lines,`${L.goods}: ${fmt(sub())}`,`${L.delivery}: ${S.del==='georgia'&&delivery()?L.from15:fmt(delivery())}`,`${L.total}: ${fmt(sub()+delivery())}`,'',
     `${L.oName}: ${n}`,`${L.oPhone}: ${ph}`,`${L.oGet}: ${dn}${S.del!=='pickup'?', '+a:''}`,`${L.oPay}: ${$('#co-pay').value}`,...(note?[`${L.oNote}: ${note}`]:[])].join('\n');
+  // текст для администраторов: всегда по-русски, со штрихкодом и кодом товара
+  const R=T.ru,dr={pickup:R.dPick,batumi:R.dBat,georgia:R.dGeo}[S.del];
+  const adm=['🛍 Новый заказ с сайта · '+new Date().toLocaleString('ru-RU',{timeZone:'Asia/Tbilisi'}),'',
+    ...S.cart.map(l=>{const p=byId(l.id);return `• ${p.brand} ${p.name_ru||p.name}${p.vol?' '+p.vol:''} × ${l.q} = ${p.price*l.q} ₾\n   код ${p.id}${p.barcode?' · ШК '+p.barcode:''}`}),'',
+    `Товары: ${sub()} ₾`,`Доставка: ${S.del==='georgia'&&delivery()?'от 15 ₾':delivery()+' ₾'}`,`Итого: ${sub()+delivery()} ₾`,'',
+    `👤 ${n}`,`📞 ${ph}`,`🚚 ${dr}${S.del!=='pickup'?', '+a:''}`,`💳 ${$('#co-pay').value}`,...(note?[`💬 ${note}`]:[]),`🌐 язык сайта: ${S.lang.toUpperCase()}`].join('\n');
+  S.sent=false;
+  if(ORDER_HOOK){
+    S.step='sending';renderCart();
+    fetch(ORDER_HOOK,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text:adm})})
+      .then(r=>{S.sent=r.ok}).catch(()=>{S.sent=false}).finally(()=>{S.step='done';if(S.sent){S.cart=[];ls.set('lml-cart',S.cart);counts()}renderCart()});
+    return;
+  }
   S.step='done';renderCart();
 }
 
