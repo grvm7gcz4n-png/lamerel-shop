@@ -249,7 +249,8 @@ nav.sitenav a.booklink{margin-left:auto;background:var(--accent);color:#fff}
 .hm-grid:not(:has(.hm-photo)){grid-template-columns:1fr}
 .hm-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 15%;display:block}
 @media (max-width:760px){.hm-grid{grid-template-columns:1fr;gap:24px}.hm-photo{aspect-ratio:4/3;border-radius:22px}}
-.hm-two{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding-block:8px 8px}
+.hm-two{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding-block:32px 8px}
+.hm-dirs{padding-top:8px}
 .hm-tile{position:relative;display:flex;flex-direction:column;gap:10px;min-height:260px;padding:28px;text-decoration:none;color:var(--ink);background:var(--tile);border:1px solid var(--line);overflow:hidden}
 .hm-tile.shop{background:var(--band)}
 .hm-tile.salon{background:var(--accent);color:#fff;border-color:var(--accent)}
@@ -944,12 +945,12 @@ function renderHome(){
     <div class="hm-ctas"><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a><a class="btn wa" href="${waLink()}" target="_blank" rel="noopener">${WA_ICON}${L.waBtn}</a><a class="btn" href="#shop" data-go="shop">${L.shopBtn}</a></div></div>
     <figure class="hm-photo" style="margin:0"><img src="photos/facade.jpg" alt="LamereL Beauty Center" onerror="this.parentNode.remove()"></figure>
   </div></section>
+  <section class="wrap hm-sec hm-dirs"><h2 class="hm-h">${L.dirT}</h2>
+    <div class="dirs">${DIRS.map(d=>`<a href="#salon" data-dir="${d.k}"><span class="ic" aria-hidden="true">${d.ic}</span>${d.n[S.lang]}</a>`).join('')}</div>
+  </section>
   <section class="wrap hm-two">
     <a class="hm-tile salon" href="#salon" data-go="salon"><span class="hm-n">01</span><h2>${L.salonT}</h2><p>${L.salonP}</p><span class="hm-a">${L.salonA} →</span></a>
     <a class="hm-tile shop" href="#shop" data-go="shop"><span class="hm-n">02</span><h2>${L.shopT}</h2><p>${L.shopP}</p><span class="hm-a">${L.shopA} →</span></a>
-  </section>
-  <section class="wrap hm-sec"><h2 class="hm-h">${L.dirT}</h2>
-    <div class="dirs">${DIRS.map(d=>`<a href="#salon" data-dir="${d.k}"><span class="ic" aria-hidden="true">${d.ic}</span>${d.n[S.lang]}</a>`).join('')}</div>
   </section>
   <section class="wrap hm-sec hm-about"><h2 class="hm-h">${L.aboutT}</h2>
     <div class="ab-grid"><div>${L.about.map(p=>`<p>${p}</p>`).join('')}</div>
