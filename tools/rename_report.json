@@ -1,0 +1,11 @@
+{
+ "done": {},
+ "errors": {
+  "17905286": {
+   "old": "Heart Of Glass Sheer Glaze Thermal Fluid For Blonde",
+   "note": "PUT /goods/231935/17905286 -> HTTP 422: {\"success\":false,\"data\":null,\"meta\":{\"message\":\"An error occurred\",\"errors\":{\"[cost]\":[\"The value type must be float.\"],\"[unit_equals]\":[\"The value type must be float.\"],\"[critical_amount]\":[\"The value type must be float.\"],\"[desired_amount]\":[\"The value type "
+  }
+ },
+ "total": 154,
+ "renamed": 0
+}
