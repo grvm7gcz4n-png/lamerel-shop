@@ -1,0 +1,16 @@
+name: Тестовый заказ в Telegram
+on:
+  push:
+    paths:
+      - 'tools/test_order.txt'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Отправить тестовый заказ
+        run: |
+          TEXT=$(cat tools/test_order.txt)
+          curl -sS -X POST https://lamerel-orders.grvm7gcz4n.workers.dev/ \
+            -H 'Content-Type: application/json' -H 'Origin: https://lamerel.ge' \
+            --data "$(python3 -c 'import json,sys;print(json.dumps({"text":sys.argv[1]}))' "$TEXT")" -w '\nHTTP %{http_code}\n'

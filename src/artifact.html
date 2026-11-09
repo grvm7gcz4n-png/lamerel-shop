@@ -580,7 +580,7 @@ function counts(){
 }
 const sub=()=>S.cart.reduce((a,l)=>{const p=byId(l.id);return a+(p?l.q*p.price:0)},0);
 // адрес воркера, который пересылает заказы в Telegram (пусто — заказ отправляет сам клиент)
-const ORDER_HOOK='';
+const ORDER_HOOK='https://lamerel-orders.grvm7gcz4n.workers.dev/';
 const FREE=300;
 const delivery=()=>S.del==='pickup'||sub()>=FREE?0:S.del==='batumi'?10:15;
 
