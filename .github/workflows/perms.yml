@@ -1,0 +1,33 @@
+name: Права пользователей (выгрузка)
+on:
+  push:
+    paths:
+      - 'tools/perms_request.json'
+permissions:
+  contents: write
+concurrency:
+  group: altegio-perms
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Выгрузить
+        env:
+          ALTEGIO_PARTNER_TOKEN: ${{ secrets.ALTEGIO_PARTNER_TOKEN }}
+          ALTEGIO_LOGIN: ${{ secrets.ALTEGIO_LOGIN }}
+          ALTEGIO_PASSWORD: ${{ secrets.ALTEGIO_PASSWORD }}
+        run: |
+          umask 077
+          OUT=/tmp/p.json python tools/export_perms.py
+          openssl rand -hex 32 | tr -d '\n' > /tmp/k.txt
+          openssl enc -aes-256-cbc -pbkdf2 -salt -in /tmp/p.json -out tools/perms.enc -pass file:/tmp/k.txt
+          openssl pkeyutl -encrypt -pubin -inkey tools/claude_pub.pem -pkeyopt rsa_padding_mode:oaep -pkeyopt rsa_oaep_md:sha256 -in /tmp/k.txt -out tools/perms.key.enc
+          rm -f /tmp/p.json /tmp/k.txt
+          git config user.name "lamerel-bot"; git config user.email "actions@users.noreply.github.com"
+          git add tools/perms.enc tools/perms.key.enc; git commit -m "Права пользователей (зашифровано)"
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push && break; sleep 7; done
