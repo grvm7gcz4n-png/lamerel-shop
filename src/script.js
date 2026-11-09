@@ -444,7 +444,7 @@ ru:{home:'Главная',bookShort:'Запись',salon:'Услуги',shop:'М
   'В магазине LamereL Beauty Shop — оригинальная косметика всех категорий: уход за волосами, лицом и телом, декоративная косметика, люкс-бренды и профессиональные марки. Чего нет в наличии, привезём под заказ.'],
  facts:[['400+','услуг'],['12','направлений'],['300 ₾','бесплатная доставка от']],
  contT:'Контакты',coopL:'Сотрудничество',coopM:'Менеджер',hoursL:'Часы работы',hours:'Ежедневно с 10:00 до 20:00',payL:'Оплата',payV:'Карта, перевод, наличные',addrL:'Адрес',addr:'Батуми, ул. Зураба Горгиладзе, 98',phoneL:'Телефон',map:'Открыть на карте',wa:'Написать в WhatsApp',
- svcT:'Услуги салона',svcNote:'Цены указаны в лари. «от» означает, что точная стоимость зависит от зоны, длины волос или препарата — мастер уточнит её на консультации.',
+ svcT:'Услуги салона',svcNote:'Цены указаны в лари. Если указан диапазон, точная стоимость зависит от длины волос, зоны или препарата — мастер назовёт её на консультации. Самые популярные процедуры — в начале списка.',
  allSvc:'Все',from:'от',free:'бесплатно',ask:'по консультации',bookS:'Записаться',min:'мин',hr:'ч',svcSearch:'Найти услугу',noSvc:'Ничего не нашлось. Позвоните нам, и мы подскажем.',svcLoading:'Загружаем услуги…',
  svcEmpty:'Список услуг скоро появится. Записаться можно онлайн или по телефону.'},
 ka:{home:'მთავარი',bookShort:'ჩაწერა',salon:'მომსახურებები',shop:'მაღაზია',book:'ონლაინ ჩაწერა',
@@ -461,7 +461,7 @@ ka:{home:'მთავარი',bookShort:'ჩაწერა',salon:'მომ
   'LamereL Beauty Shop-ში — ყველა კატეგორიის ორიგინალური კოსმეტიკა: თმის, სახისა და სხეულის მოვლა, დეკორატიული კოსმეტიკა, ლუქს და პროფესიონალური ბრენდები. რაც მარაგში არ არის, შეკვეთით ჩამოვიტანთ.'],
  facts:[['400+','მომსახურება'],['12','მიმართულება'],['300 ₾','უფასო მიწოდება']],
  contT:'კონტაქტი',coopL:'თანამშრომლობა',coopM:'მენეჯერი',hoursL:'სამუშაო საათები',hours:'ყოველდღე 10:00–20:00',payL:'გადახდა',payV:'ბარათი, გადარიცხვა, ნაღდი',addrL:'მისამართი',addr:'ბათუმი, ზურაბ გორგილაძის ქ. 98',phoneL:'ტელეფონი',map:'რუკაზე ნახვა',wa:'მოგვწერეთ WhatsApp-ში',
- svcT:'სალონის მომსახურებები',svcNote:'ფასები მითითებულია ლარში. „-დან“ ნიშნავს, რომ ზუსტი ღირებულება დამოკიდებულია ზონაზე, თმის სიგრძეზე ან პრეპარატზე.',
+ svcT:'სალონის მომსახურებები',svcNote:'ფასები მითითებულია ლარში. დიაპაზონის შემთხვევაში ზუსტი ღირებულება დამოკიდებულია თმის სიგრძეზე, ზონაზე ან პრეპარატზე. ყველაზე პოპულარული პროცედურები სიის დასაწყისშია.',
  allSvc:'ყველა',from:'-დან',free:'უფასო',ask:'კონსულტაციით',bookS:'ჩაწერა',min:'წთ',hr:'სთ',svcSearch:'მომსახურების ძებნა',noSvc:'ვერაფერი მოიძებნა. დაგვირეკეთ და დაგეხმარებით.',svcLoading:'იტვირთება…',
  svcEmpty:'მომსახურებების სია მალე გამოჩნდება. ჩაწერა შესაძლებელია ონლაინ ან ტელეფონით.'},
 en:{home:'Home',bookShort:'Book',salon:'Services',shop:'Shop',book:'Book online',
@@ -478,7 +478,7 @@ en:{home:'Home',bookShort:'Book',salon:'Services',shop:'Shop',book:'Book online'
   'LamereL Beauty Shop offers original cosmetics in every category: hair, face and body care, make-up, luxury and professional brands. Anything we don’t stock, we can order for you.'],
  facts:[['400+','services'],['12','service areas'],['300 ₾','free delivery from']],
  contT:'Contacts',coopL:'Partnerships',coopM:'Manager',hoursL:'Opening hours',hours:'Every day 10:00–20:00',payL:'Payment',payV:'Card, transfer, cash',addrL:'Address',addr:'98 Zurab Gorgiladze St, Batumi',phoneL:'Phone',map:'Open in maps',wa:'Message on WhatsApp',
- svcT:'Salon services',svcNote:'Prices in GEL. “from” means the final price depends on the area, hair length or product — your specialist will confirm it.',
+ svcT:'Salon services',svcNote:'Prices in GEL. Where a range is shown, the final price depends on hair length, area or product — your specialist will confirm it. The most popular treatments are listed first.',
  allSvc:'All',from:'from',free:'free',ask:'on consultation',bookS:'Book',min:'min',hr:'h',svcSearch:'Find a service',noSvc:'Nothing found. Call us and we will help.',svcLoading:'Loading services…',
  svcEmpty:'The service list is coming soon. You can book online or by phone.'}
 };
@@ -520,7 +520,7 @@ const h=()=>H[S.lang];
 const view=()=>{const x=location.hash;return /^#p-\d+$/.test(x)?'product':x==='#shop'?'shop':x==='#salon'?'salon':'home'};
 function go(v){history.pushState(null,'',v==='home'?location.pathname+location.search:'#'+v);route()}
 const durFmt=s=>{const m=Math.round((s||0)/60);if(!m)return'';const L=h();return m>=60?`${Math.floor(m/60)} ${L.hr}${m%60?' '+m%60+' '+L.min:''}`:`${m} ${L.min}`};
-const priceFmt=x=>{const L=h();if(!x.pmax&&!x.pmin)return L.ask;if(!x.pmin&&x.pmax)return `0–${x.pmax} ₾`;if(x.pmin&&x.pmax&&x.pmin!==x.pmax)return S.lang==='ka'?`${x.pmin}${L.from} ₾`:`${L.from} ${x.pmin} ₾`;const p=x.pmin||x.pmax;return p+' ₾'};
+const priceFmt=x=>{const L=h();if(!x.pmax&&!x.pmin)return L.ask;if(x.pmax&&x.pmin!==x.pmax)return `${x.pmin||0}–${x.pmax} ₾`;const p=x.pmin||x.pmax;return p+' ₾'};
 const svN=x=>x.n[S.lang]||x.n.ru;
 
 function renderSiteNav(){
@@ -601,7 +601,7 @@ function svRank(x){
   if(m)return KX.indexOf(m[2].toUpperCase());
   return /\+/.test(t)?10:99;
 }
-function svSort(a,b){const ra=svRank(a),rb=svRank(b);if(ra!==rb)return ra-rb;if(ra===10)return (b.pmin||0)-(a.pmin||0);return (a.w||0)-(b.w||0)||svN(a).localeCompare(svN(b))}
+function svSort(a,b){const ra=svRank(a),rb=svRank(b);if(ra!==rb)return ra-rb;if(ra===10)return (b.pmin||0)-(a.pmin||0);return (b.p||0)-(a.p||0)||(a.w||0)-(b.w||0)||svN(a).localeCompare(svN(b))}
 function laserIntro(svs){
   const L=LH[S.lang];
   return `<div class="lz"><h3 class="lz-t">${L.t}</h3><p class="lz-p">${L.p}</p>
