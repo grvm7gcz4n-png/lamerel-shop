@@ -17,14 +17,16 @@ def main():
     limit = int(req.get('limit') or 0)
     rep_f = os.path.join(ROOT, 'tools/client_rename_report.json')
     rep = json.load(open(rep_f)) if os.path.exists(rep_f) else {}
-    done = rep.setdefault('done', []); errors = rep.setdefault('errors', {})
+    done = rep.setdefault('done', []); dset = set(done); errors = rep.setdefault('errors', {})
     partner, login, pw = (os.environ.get(k, '') for k in ('ALTEGIO_PARTNER_TOKEN', 'ALTEGIO_LOGIN', 'ALTEGIO_PASSWORD'))
     ut = unwrap(call('POST', '/auth', f'Bearer {partner.strip()}', {'login': login.strip(), 'password': pw}))['user_token']
     auth = f'Bearer {partner.strip()}, User {ut}'
     n = 0
+    t0 = time.time()
     for cid, x in plan.items():
-        if cid in done or cid in errors: continue
+        if cid in dset or cid in errors: continue
         if limit and n >= limit: break
+        if time.time() - t0 > 320 * 60: print('время вышло, продолжим в следующем запуске'); break
         n += 1
         try:
             c = unwrap(call('GET', f'/client/{LOCATION}/{cid}', auth))
@@ -41,7 +43,7 @@ def main():
             lb = labels(c)
             if lb: body['labels'] = lb
             call('PUT', f'/client/{LOCATION}/{cid}', auth, body)
-            time.sleep(0.4)
+            time.sleep(0.15)
             c2 = unwrap(call('GET', f'/client/{LOCATION}/{cid}', auth))
             for _ in range(3):   # карточка иногда отдаётся из кэша — перечитываем
                 if (c2.get('name') or '').strip() == x['new']: break
@@ -57,7 +59,7 @@ def main():
             msg = str(e)
             for s in (x['old'], x['new']): msg = msg.replace(s, '***')
             errors[cid] = msg[:200]; print('ошибка', cid, msg[:200])
-            if len(errors) >= 3: break
+            if sum(1 for v in errors.values() if not v.startswith('имя в Altegio')) >= 5: break
     rep['total'] = len(plan); rep['renamed'] = len(done); rep['errors_count'] = len(errors)
     json.dump(rep, open(rep_f, 'w'), ensure_ascii=False, indent=1)
 
