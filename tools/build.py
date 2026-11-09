@@ -6,6 +6,9 @@ sys.path.insert(0, os.path.join(ROOT,'tools'))
 import catalog_src
 from catalog_src import P
 IMG=getattr(catalog_src,'IMG',{})
+_PF=os.path.join(ROOT,'tools/photo_found.json')
+if os.path.exists(_PF):
+    for _k,_v in json.load(open(_PF)).items(): IMG.setdefault(int(_k),_v['url'])
 RU=getattr(catalog_src,'RU',{})
 DEPT=getattr(catalog_src,'DEPT',{})
 FACE=getattr(catalog_src,'FACE',{})
