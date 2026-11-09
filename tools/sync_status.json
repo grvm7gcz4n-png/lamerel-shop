@@ -1,5 +1,5 @@
 {
- "started": "2026-11-09T13:40:24+00:00",
+ "started": "2026-11-09T14:22:16+00:00",
  "steps": [
   "Авторизация: ок",
   "Категорий: 12",
@@ -8,8 +8,9 @@
   "Поля товара: actual_amounts, actual_cost, article, barcode, category, category_id, comment, cost, critical_amount, desired_amount, good_id, is_chain, is_goods_mark_enabled, label, last_change_date, loyalty_abonement_type_id, loyalty_allow_empty_code, loyalty_certificate_type, loyalty_certificate_type_id, loyalty_expiration_type_id, loyalty_serial_number_limited, salon_id, service_unit_id, service_unit_short_title, title, unit_actual_cost, unit_actual_cost_format, unit_equals, unit_id, unit_short_title, value",
   "Поля услуги: abonement_restriction, active, category_id, comment, composite_details, discount, id, image, images, is_chain, is_composite, payment_policy_applicable, prepaid, prepaid_settings, price_max, price_min, seance_length, sex, title, weight",
   "Полных названий услуг: 416",
-  "Услуг: 331 (book_services), категорий: 21"
+  "Услуг: 331 (book_services), категорий: 21",
+  "Прочих товаров в наличии на складе «Продажа»: 287"
  ],
  "ok": true,
- "finished": "2026-11-09T13:40:47+00:00"
+ "finished": "2026-11-09T14:22:36+00:00"
 }
