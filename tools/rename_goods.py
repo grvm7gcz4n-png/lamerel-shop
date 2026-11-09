@@ -29,6 +29,8 @@ def main():
         try:
             g = unwrap(call('GET', f'/goods/{LOCATION}/{gid}', auth))
             if isinstance(g, list): g = g[0]
+            if g.get('is_chain') or g.get('chain_product'):
+                rep.setdefault('chain', {})[gid] = {'old': g.get('title'), 'new': x['new']}; n -= 1; continue
             if g.get('title', '').strip() == x['new']:
                 done[gid] = {'old': g['title'], 'new': x['new'], 'note': 'уже было'}; continue
             body = {k: g[k] for k in KEEP if g.get(k) is not None}
@@ -51,7 +53,7 @@ def main():
             errors[gid] = {'old': x.get('old'), 'note': str(e)[:300]}
             print('ошибка', gid, e)
             if len(errors) >= 3: break
-    rep['total'] = len(plan); rep['renamed'] = len(done)
+    rep['total'] = len(plan); rep['renamed'] = len(done); rep['chain_count'] = len(rep.get('chain', {}))
     json.dump(rep, open(rep_f, 'w'), ensure_ascii=False, indent=1)
 
 if __name__ == '__main__':
