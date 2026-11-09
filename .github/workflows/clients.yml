@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: altegio-sync
+  group: altegio-clients
   cancel-in-progress: false
 
 jobs:
