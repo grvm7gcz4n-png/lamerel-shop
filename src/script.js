@@ -532,11 +532,12 @@ function renderSiteNav(){
 function renderHome(){
   const L=h();
   $('#home').innerHTML=`
-  <section class="hm-hero"><div class="wrap">
+  <section class="hm-hero"><div class="wrap hm-grid"><div>
     <p class="kick">${L.kick}</p>
     <h1>${L.h1}</h1>
     <p class="hm-lead">${L.lead}</p>
-    <div class="hm-ctas"><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a><a class="btn wa" href="${waLink()}" target="_blank" rel="noopener">${WA_ICON}${L.waBtn}</a><a class="btn" href="#shop" data-go="shop">${L.shopBtn}</a></div>
+    <div class="hm-ctas"><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a><a class="btn wa" href="${waLink()}" target="_blank" rel="noopener">${WA_ICON}${L.waBtn}</a><a class="btn" href="#shop" data-go="shop">${L.shopBtn}</a></div></div>
+    <figure class="hm-photo" style="margin:0"><img src="photos/facade.jpg" alt="LamereL Beauty Center" onerror="this.parentNode.remove()"></figure>
   </div></section>
   <section class="wrap hm-two">
     <a class="hm-tile salon" href="#salon" data-go="salon"><span class="hm-n">01</span><h2>${L.salonT}</h2><p>${L.salonP}</p><span class="hm-a">${L.salonA} →</span></a>
