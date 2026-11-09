@@ -179,10 +179,13 @@ def build_services():
     if not os.path.exists(f): return
     d=json.load(open(f))
     cats={c['id']:c for c in d['categories']}
+    i18f=os.path.join(ROOT,'tools/services_i18n.json')
+    I18N=json.load(open(i18f)) if os.path.exists(i18f) else {}
     out=[]
     for x in d['services']:
         if not x['title']: continue
-        out.append(dict(id=x['id'],cat=x['category_id'],n=split3(x['title']),pmin=x['price_min'],pmax=x['price_max'],dur=x['duration'],w=x.get('weight',0)))
+        n=split3(x['title']); n.update(I18N.get(str(x['id']),{}))
+        out.append(dict(id=x['id'],cat=x['category_id'],n=n,pmin=x['price_min'],pmax=x['price_max'],dur=x['duration'],w=x.get('weight',0)))
     used={x['cat'] for x in out}
     cl=[dict(id=c['id'],n=split3(c['title']),w=c.get('weight',0)) for c in d['categories'] if c['id'] in used]
     data=dict(categories=cl,services=out)
