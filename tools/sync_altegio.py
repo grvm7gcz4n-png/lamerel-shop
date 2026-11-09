@@ -14,6 +14,7 @@ BRAND_CATEGORIES = {            # категория Altegio -> бренд на 
     1026089: 'MOCHEQI', 728170: "Philip Martin's",
     790220: 'ZO Skin Health', 983813: 'Dermalogica', 602624: 'GIGI', 1018100: 'iS Clinical',   # уход за лицом
 }
+SKIP_CATEGORIES = {599210, 614591}   # сертификаты, абонементы
 BASES = ['https://api.alteg.io/api/v1']
 ACCEPTS = ['application/vnd.api.v2+json', 'application/json']
 
@@ -134,12 +135,21 @@ def main():
         if page > 100: break
     log(f'Товаров в Altegio: {len(goods)}')
 
-    live, sample_keys = {}, None
+    live, sample_keys, other = {}, None, {}
     for g in goods:
         sample_keys = sample_keys or sorted(g.keys())
         gid = g.get('good_id') or g.get('id')
         brand = brand_of(g.get('category_id'))
-        if not gid or not brand: continue
+        if not gid: continue
+        if not brand:
+            # прочие товары: только то, что есть на складе «Продажа», без сертификатов и абонементов
+            st = 0
+            for am in g.get('actual_amounts') or []:
+                if int(am.get('storage_id') or 0) == SALES_STORAGE: st = am.get('amount') or 0
+            if float(st) > 0 and g.get('category_id') not in SKIP_CATEGORIES and (g.get('cost') or 0) > 0:
+                other[str(gid)] = dict(title=(g.get('title') or '').strip(), price=g.get('cost') or 0, stock=int(float(st)),
+                                       category_id=g.get('category_id'), barcode=g.get('barcode') or '', article=g.get('article') or '')
+            continue
         stock = 0
         for a in g.get('actual_amounts') or []:
             if int(a.get('storage_id') or 0) == SALES_STORAGE:
@@ -158,7 +168,8 @@ def main():
     except Exception as e:
         log(f'Услуги не загрузились: {e}')
 
-    out = dict(updated=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'), goods=live)
+    log(f'Прочих товаров в наличии на складе «Продажа»: {len(other)}')
+    out = dict(updated=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'), goods=live, other=other)
     json.dump(out, open(os.path.join(ROOT, 'tools/altegio_live.json'), 'w'), ensure_ascii=False, indent=0, sort_keys=True)
     save_status(True)
     return 0
