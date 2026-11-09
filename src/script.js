@@ -429,12 +429,12 @@ const waLink=()=>'https://wa.me/'+PHONE_RAW.slice(1)+'?text='+encodeURIComponent
 const mapEmbed=()=>`https://www.google.com/maps?q=${encodeURIComponent('LamereL Beauty Center, Zurab Gorgiladze St 98, Batumi')}&hl=${S.lang==='ka'?'ka':S.lang}&z=17&output=embed`;
 const MAP='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent('LamereL Beauty Center, Zurab Gorgiladze St 98, Batumi');
 const H={
-ru:{home:'Главная',salon:'Салон',shop:'Магазин',book:'Онлайн-запись',
+ru:{home:'Главная',bookShort:'Запись',salon:'Услуги',shop:'Магазин',book:'Онлайн-запись',
  kick:'Батуми · ул. Зураба Горгиладзе, 98',
  h1:'Центр красоты и магазин профессиональной косметики',
  lead:'LamereL — один центр красоты, где собраны практически все бьюти-услуги: более 400 процедур для волос, лица, тела и ногтей. А в нашем магазине — оригинальная косметика всех категорий: уход за волосами, лицом и телом, декоративная косметика, люкс-бренды и любимые марки на каждый день.',
  bookBtn:'Записаться онлайн',waBtn:'Записаться через администратора',waText:'Здравствуйте! Хочу записаться на услугу.',shopBtn:'Перейти в магазин',
- salonT:'Салон',salonP:'Услуги и цены, онлайн-запись к мастеру в удобное время.',salonA:'Смотреть услуги',
+ salonT:'Услуги',salonP:'Услуги и цены, онлайн-запись к мастеру в удобное время.',salonA:'Смотреть услуги',
  shopT:'Магазин',shopP:'Оригинальная косметика всех категорий: уход, декоративная, люкс и на каждый день. Бесплатная доставка по Грузии от 300 ₾.',shopA:'Смотреть товары',
  dirT:'Направления',
  aboutT:'О нас',
@@ -446,12 +446,12 @@ ru:{home:'Главная',salon:'Салон',shop:'Магазин',book:'Онл�
  svcT:'Услуги салона',svcNote:'Цены указаны в лари. «от» означает, что точная стоимость зависит от зоны, длины волос или препарата — мастер уточнит её на консультации.',
  allSvc:'Все',from:'от',free:'бесплатно',ask:'по консультации',bookS:'Записаться',min:'мин',hr:'ч',svcSearch:'Найти услугу',noSvc:'Ничего не нашлось. Позвоните нам, и мы подскажем.',svcLoading:'Загружаем услуги…',
  svcEmpty:'Список услуг скоро появится. Записаться можно онлайн или по телефону.'},
-ka:{home:'მთავარი',salon:'სალონი',shop:'მაღაზია',book:'ონლაინ ჩაწერა',
+ka:{home:'მთავარი',bookShort:'ჩაწერა',salon:'მომსახურებები',shop:'მაღაზია',book:'ონლაინ ჩაწერა',
  kick:'ბათუმი · ზურაბ გორგილაძის ქ. 98',
  h1:'სილამაზის ცენტრი და პროფესიონალური კოსმეტიკის მაღაზია',
  lead:'LamereL — ერთი სილამაზის ცენტრი, სადაც თითქმის ყველა ბიუტი მომსახურებაა: 400-ზე მეტი პროცედურა თმის, სახის, სხეულისა და ფრჩხილებისთვის. ჩვენს მაღაზიაში კი — ყველა კატეგორიის ორიგინალური კოსმეტიკა: თმის, სახისა და სხეულის მოვლა, დეკორატიული კოსმეტიკა, ლუქს ბრენდები და ყოველდღიური საყვარელი ბრენდები.',
  bookBtn:'ონლაინ ჩაწერა',waBtn:'ჩაწერა ადმინისტრატორთან',waText:'გამარჯობა! მინდა ჩავეწერო მომსახურებაზე.',shopBtn:'მაღაზიაში გადასვლა',
- salonT:'სალონი',salonP:'მომსახურებები და ფასები, ონლაინ ჩაწერა სასურველ დროს.',salonA:'მომსახურებების ნახვა',
+ salonT:'მომსახურებები',salonP:'მომსახურებები და ფასები, ონლაინ ჩაწერა სასურველ დროს.',salonA:'მომსახურებების ნახვა',
  shopT:'მაღაზია',shopP:'ყველა კატეგორიის ორიგინალური კოსმეტიკა: მოვლა, დეკორატიული, ლუქსი და ყოველდღიური. უფასო მიწოდება საქართველოში 300 ₾-დან.',shopA:'პროდუქტების ნახვა',
  dirT:'მიმართულებები',
  aboutT:'ჩვენ შესახებ',
@@ -463,12 +463,12 @@ ka:{home:'მთავარი',salon:'სალონი',shop:'მაღა�
  svcT:'სალონის მომსახურებები',svcNote:'ფასები მითითებულია ლარში. „-დან“ ნიშნავს, რომ ზუსტი ღირებულება დამოკიდებულია ზონაზე, თმის სიგრძეზე ან პრეპარატზე.',
  allSvc:'ყველა',from:'-დან',free:'უფასო',ask:'კონსულტაციით',bookS:'ჩაწერა',min:'წთ',hr:'სთ',svcSearch:'მომსახურების ძებნა',noSvc:'ვერაფერი მოიძებნა. დაგვირეკეთ და დაგეხმარებით.',svcLoading:'იტვირთება…',
  svcEmpty:'მომსახურებების სია მალე გამოჩნდება. ჩაწერა შესაძლებელია ონლაინ ან ტელეფონით.'},
-en:{home:'Home',salon:'Salon',shop:'Shop',book:'Book online',
+en:{home:'Home',bookShort:'Book',salon:'Services',shop:'Shop',book:'Book online',
  kick:'Batumi · 98 Zurab Gorgiladze St',
  h1:'Beauty center and professional cosmetics shop',
  lead:'LamereL is one beauty center with almost every beauty service in one place: more than 400 treatments for hair, face, body and nails. Our shop offers original cosmetics in every category: hair, face and body care, make-up, luxury brands and everyday favourites.',
  bookBtn:'Book online',waBtn:'Book via our administrator',waText:'Hello! I would like to book a service.',shopBtn:'Go to the shop',
- salonT:'Salon',salonP:'Services and prices, online booking at a time that suits you.',salonA:'See services',
+ salonT:'Services',salonP:'Services and prices, online booking at a time that suits you.',salonA:'See services',
  shopT:'Shop',shopP:'Original cosmetics in every category: care, make-up, luxury and everyday. Free delivery across Georgia from 300 ₾.',shopA:'See products',
  dirT:'What we do',
  aboutT:'About us',
@@ -525,7 +525,7 @@ const svN=x=>x.n[S.lang]||x.n.ru;
 function renderSiteNav(){
   const L=h(),v=view(),act=v==='product'?'shop':v;
   $('#siteNav').innerHTML=['home','salon','shop'].map(k=>`<a href="${k==='home'?'#':'#'+k}" data-go="${k}" aria-current="${act===k?'page':'false'}">${L[k]}</a>`).join('')+
-    `<a class="booklink" href="${BOOK}" target="_blank" rel="noopener">${L.book}</a>`;
+    `<a class="booklink" href="${BOOK}" target="_blank" rel="noopener"><span class="blf">${L.book}</span><span class="bls">${L.bookShort}</span></a>`;
   $('#q').placeholder=$('#q2').placeholder=v==='salon'?L.svcSearch:t().search;
   const sm=$('.logo small');if(sm)sm.textContent=(v==='shop'||v==='product')?'Beauty Shop':'Beauty Center';
 }
