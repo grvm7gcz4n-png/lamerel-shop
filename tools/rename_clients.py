@@ -43,6 +43,9 @@ def main():
             call('PUT', f'/client/{LOCATION}/{cid}', auth, body)
             time.sleep(0.4)
             c2 = unwrap(call('GET', f'/client/{LOCATION}/{cid}', auth))
+            for _ in range(3):   # карточка иногда отдаётся из кэша — перечитываем
+                if (c2.get('name') or '').strip() == x['new']: break
+                time.sleep(2); c2 = unwrap(call('GET', f'/client/{LOCATION}/{cid}', auth))
             diff = [k for k in CHECK if str(c.get(k)) != str(c2.get(k))]
             if labels(c) != labels(c2): diff.append('categories')
             if (c2.get('name') or '').strip() != x['new']: diff.append('name не сменилось')
