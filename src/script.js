@@ -111,7 +111,7 @@ function renderStatic(){
   $('#subRow').hidden=!SN;
   $('#subRow').innerHTML=subs.map(k=>`<button class="schip" data-cat="${k}" aria-pressed="${S.cat===k}">${k==='all'?(S.dept==='face'?L.allFace:L.allHair):L.nav[k]}</button>`).join('');
   const brands=[...new Set(P.map(p=>p.brand))];
-  const b=brands.map(x=>`<span>${esc(x)}</span>`).join('');$('#marq').innerHTML=(b+b+b+b);
+  const b=brands.map(x=>`<span>${esc(x)}</span>`).join('');$('#marq').innerHTML=(b+b+b+b);requestAnimationFrame(()=>{const m=$('#marq');if(m)m.style.animationDuration=Math.max(40,Math.round(m.scrollWidth/2/30))+'s'});
   const dbr=[...new Set(P.filter(p=>!['all','instock','fav'].includes(S.dept)?p.dept===S.dept:true).map(p=>p.brand))];
   $('#brandRow').hidden=dbr.length<2;
   $('#brandRow').innerHTML=['all',...dbr].map(x=>`<button class="bchip" data-brand="${esc(x)}" aria-pressed="${S.brand===x}">${x==='all'?L.allBrands:esc(x)}</button>`).join('');
