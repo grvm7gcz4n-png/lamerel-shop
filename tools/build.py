@@ -88,6 +88,8 @@ def face_row(pid,g,snap):
     need=FACE[pid][2] if pid in FACE else ''
     return (pid,brand,n,vol,typ,need,g['price'],g['stock'],ru)
 
+SKIP_OTHER={'24567897','21963206','24618829'}   # кофе, пакеты
+
 def products():
     live=None
     if os.path.exists(LIVE_F):
@@ -118,6 +120,29 @@ def products():
             rows.append((int(sid),g['brand'],name,vol,typ,'',g['price'],g['stock'],None))
         json.dump(snap,open(SNAP_F,'w'),ensure_ascii=False,indent=0,sort_keys=True)
     out=[]
+    # прочие товары со склада «Продажа» (все категории), карта названий в tools/other_catalog.txt
+    if live is not None:
+        omap={}
+        for ln in open(os.path.join(ROOT,'tools/other_catalog.txt')):
+            if ln.startswith('#') or not ln.strip(): continue
+            pid_,b_,d_,t_,en_,ru_=[x.strip() for x in ln.rstrip('\n').split('|')]
+            omap[pid_]=(b_,d_,t_,en_,ru_)
+        unm={}
+        for sid,g in (json.load(open(LIVE_F)).get('other') or {}).items():
+            if sid in SKIP_OTHER or not g['price'] or g['stock']<=0: continue
+            m=VOL_RE.search(g['title']); vol=''
+            if m:
+                u=m.group(2).lower(); vol=f"{m.group(1).replace(',','.')} {'ml' if u in ('ml','мл','მლ') else 'g'}"
+            if sid in omap:
+                b_,d_,t_,en_,ru_=omap[sid]
+            else:
+                unm[sid]=g['title']; nm_,vol2,t_=parse_title(g['title'],'');vol=vol or vol2
+                b_,d_,en_,ru_=g['title'].split()[0].title(),'body',nm_,None
+            item=dict(id=int(sid),brand=b_,name=en_,name_ru=ru_,dept=d_,vol=vol,type=t_,need='',price=g['price'],stock=int(g['stock']))
+            if g.get('barcode'): item['barcode']=str(g['barcode']).strip()
+            if int(sid) in IMG: item['img']=IMG[int(sid)]
+            out.append(item)
+        json.dump(unm,open(os.path.join(ROOT,'tools/other_unmapped.json'),'w'),ensure_ascii=False,indent=0)
     for pid,brand,name,vol,typ,need,price,stock,ru in face_rows:
         if not price: continue
         item=dict(id=pid,brand=brand,name=name,name_ru=ru,dept='face',vol=vol,type=typ,need=need,price=price,stock=max(0,int(stock)))
