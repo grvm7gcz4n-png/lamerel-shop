@@ -1,0 +1,526 @@
+{
+ "done": {},
+ "errors": {
+  "24868132": {
+   "old": "DEHC NOUNOU HAIR MASK 75 ML",
+   "note": "PUT /goods/231935/24868132 -> HTTP 403: {\"success\":false,\"data\":null,\"meta\":{\"message\":\"Insufficient rights\"}}"
+  }
+ },
+ "chain": {
+  "17905286": {
+   "old": "Heart Of Glass Sheer Glaze Thermal Fluid For Blonde",
+   "new": "Davines Heart of Glass Флюид для сияния блонд 150 мл"
+  },
+  "17905304": {
+   "old": "Detoxifyin Scrub Shampoo",
+   "new": "Davines NaturalTech Детокс-шампунь скраб 250 мл"
+  },
+  "17905338": {
+   "old": "Heart Of Glass Silkening Shampoo",
+   "new": "Davines Heart of Glass Шампунь для сияния блонд 250 мл"
+  },
+  "17905344": {
+   "old": "Heart Of Glass Rich Conditioner",
+   "new": "Davines Heart of Glass Питательный кондиционер для блонд 250 мл"
+  },
+  "17905431": {
+   "old": "Love Shampoo Smoothing",
+   "new": "Davines LOVE Smoothing Шампунь для разглаживания волос 250 мл"
+  },
+  "17905451": {
+   "old": "Minu Shampoo",
+   "new": "Davines MINU Шампунь для окрашенных волос 250 мл"
+  },
+  "18744633": {
+   "old": "DEDE conditioner",
+   "new": "Davines DEDE Кондиционер для деликатного ухода 250 мл"
+  },
+  "18744669": {
+   "old": "Daviness Oi Conditioner",
+   "new": "Davines OI Кондиционер для абсолютной красоты волос 250 мл"
+  },
+  "18744685": {
+   "old": "Oi All In One Milk",
+   "new": "Davines OI Многофункциональное молочко для волос 135 мл"
+  },
+  "19560540": {
+   "old": "LOVE Hair Smoother",
+   "new": "Davines LOVE Smoothing Крем для разглаживания волос 150 мл"
+  },
+  "21180431": {
+   "old": "LOVE კონდიციონერი თმის დახვევის გამაძლიერებელი ეფექტით",
+   "new": "Davines LOVE Curl Кондиционер для кудрявых волос 250 мл"
+  },
+  "21180523": {
+   "old": "DENC OI შამპუნი",
+   "new": "Davines OI Шампунь для абсолютной красоты волос 280 мл"
+  },
+  "21180535": {
+   "old": "Purifying Shampoo",
+   "new": "Davines NaturalTech Очищающий шампунь против перхоти 250 мл"
+  },
+  "21180571": {
+   "old": "Quick Fix Circle",
+   "new": "Davines The Circle Экспресс-маска Quick Fix 50 мл"
+  },
+  "21180978": {
+   "old": "Spotlight Circle",
+   "new": "Davines The Circle Маска для блеска Spotlight 50 мл"
+  },
+  "21343284": {
+   "old": "Melu Shampoo",
+   "new": "Davines MELU Шампунь против ломкости волос 250 мл"
+  },
+  "21343290": {
+   "old": "OI Body Wash",
+   "new": "Davines OI Гель для душа 280 мл"
+  },
+  "21343302": {
+   "old": "Nourishing Shampoo",
+   "new": "Davines NaturalTech Питательный шампунь 250 мл"
+  },
+  "21343308": {
+   "old": "Love Curl Cream",
+   "new": "Davines LOVE Curl Крем для усиления завитка 150 мл"
+  },
+  "21343324": {
+   "old": "Love Curl Revitalizer",
+   "new": "Davines LOVE Curl Спрей для обновления локонов 250 мл"
+  },
+  "21343389": {
+   "old": "Melu Hair Shield",
+   "new": "Davines MELU Термозащитный несмываемый спрей 250 мл"
+  },
+  "21343472": {
+   "old": "Nourishing Vegetarian Miracle Mask",
+   "new": "Davines NaturalTech Питательная маска «Вегетарианское чудо» 250 мл"
+  },
+  "21343479": {
+   "old": "OI Hand Balm",
+   "new": "Davines OI Бальзам для рук"
+  },
+  "21343483": {
+   "old": "OI Hair Butter 75მლ",
+   "new": "Davines OI Питательное масло-баттер для волос 75 мл"
+  },
+  "21476224": {
+   "old": "Naturaltech Well-being Shampoo",
+   "new": "Davines NaturalTech Увлажняющий шампунь 250 мл"
+  },
+  "21476231": {
+   "old": "MINU Conditioner",
+   "new": "Davines MINU Кондиционер для окрашенных волос 250 мл"
+  },
+  "21476238": {
+   "old": "Restless Circle",
+   "new": "Davines The Circle Маска-суперфуд Restless 50 мл"
+  },
+  "21580299": {
+   "old": "DENC OI არაზეთოვანი ზეთი 50მლ",
+   "new": "Davines OI Масло для абсолютной красоты волос 50 мл"
+  },
+  "21580315": {
+   "old": "DENC OI არაზეთოვანი ზეთ 135მლ",
+   "new": "Davines OI Масло для абсолютной красоты волос 135 мл"
+  },
+  "21720946": {
+   "old": "OI Hair Butter 250ml",
+   "new": "Davines OI Питательное масло-баттер для волос 250 мл"
+  },
+  "21723300": {
+   "old": "Davines Renaissance Circle",
+   "new": "Davines The Circle Восстанавливающая маска Renaissance 50 мл"
+  },
+  "21723306": {
+   "old": "Davines Purity Circle",
+   "new": "Davines The Circle Маска-детокс Purity 50 мл"
+  },
+  "21723313": {
+   "old": "SU Hair Milk",
+   "new": "Davines SU Солнцезащитное молочко для волос 135 мл"
+  },
+  "21723315": {
+   "old": "SU Hair Mask",
+   "new": "Davines SU Восстанавливающая маска после солнца 150 мл"
+  },
+  "21723317": {
+   "old": "SU Hair&Body Wash",
+   "new": "Davines SU Шампунь для волос и тела после солнца 280 мл"
+  },
+  "21762554": {
+   "old": "NT REBALANCING შამპუნი 100მლ",
+   "new": "Davines NaturalTech Балансирующий шампунь для жирной кожи головы 100 мл"
+  },
+  "21762555": {
+   "old": "NT ENERGIZING, თმის ცვენის სამკურნალო შამპუნი 100მლ",
+   "new": "Davines NaturalTech Энергетический шампунь против выпадения 100 мл"
+  },
+  "21762556": {
+   "old": "NT NOURISHING შამპუნი 100მლ",
+   "new": "Davines NaturalTech Питательный шампунь 100 мл"
+  },
+  "21762558": {
+   "old": "NT PURIFYING, ქერტლის სამკურნალო შამპუნი 100მლ",
+   "new": "Davines NaturalTech Очищающий шампунь против перхоти 100 мл"
+  },
+  "21762560": {
+   "old": "SOLU სკრაბი 75ML",
+   "new": "Davines SOLU Очищающий скраб с морской солью 75 мл"
+  },
+  "21762561": {
+   "old": "DEDE, შამპუნი 75ml",
+   "new": "Davines DEDE Шампунь для деликатного очищения 75 мл"
+  },
+  "21762562": {
+   "old": "DEDE, კონდიციონერი 75მლ",
+   "new": "Davines DEDE Кондиционер для деликатного ухода 75 мл"
+  },
+  "21762563": {
+   "old": "DEHC LOVE CURL REVITALIZ 75მლ",
+   "new": "Davines LOVE Curl Спрей для обновления локонов 75 мл"
+  },
+  "21762566": {
+   "old": "LOVE smoothing შამპუნი 75მლ",
+   "new": "Davines LOVE Smoothing Шампунь для разглаживания волос 75 мл"
+  },
+  "21762567": {
+   "old": "MINU, შამპუნი 75მლ",
+   "new": "Davines MINU Шампунь для окрашенных волос 75 мл"
+  },
+  "21762569": {
+   "old": "NOUNOU, შამპუნი 75მლ",
+   "new": "Davines NOUNOU Питательный шампунь 75 мл"
+  },
+  "21762572": {
+   "old": "NOUNOU შამპუნი 250მლ",
+   "new": "Davines NOUNOU Питательный шампунь 250 мл"
+  },
+  "21762574": {
+   "old": "NOUNOU კონდიციონერი 250მლ",
+   "new": "Davines NOUNOU Питательный кондиционер 250 мл"
+  },
+  "21789082": {
+   "old": "SU/ HAIR MILK 50ML, მზისგან დამცავი, დამატენიანებელი თმის რძე 50მლ",
+   "new": "Davines SU Солнцезащитное молочко для волос 50 мл"
+  },
+  "21795377": {
+   "old": "Love Smoothing Conditioner",
+   "new": "Davines LOVE Smoothing Кондиционер для разглаживания волос 250 мл"
+  },
+  "21795379": {
+   "old": "Energizing shampoo",
+   "new": "Davines NaturalTech Энергетический шампунь против выпадения 250 мл"
+  },
+  "21824062": {
+   "old": "DENC OI რძე 50მლ",
+   "new": "Davines OI Многофункциональное молочко для волос 50 мл"
+  },
+  "21824067": {
+   "old": "LOVE შამპუნი თმის დახვევის გამაძლიერებელი ეფექტით 250მლ",
+   "new": "Davines LOVE Curl Шампунь для кудрявых волос 250 мл"
+  },
+  "21832513": {
+   "old": "NOUNOU მკვებავი ნიღაბი შეღებილი, გაუფერულებული თმის 250ml",
+   "new": "Davines NOUNOU Питательная маска для волос 250 мл"
+  },
+  "21832525": {
+   "old": "OI შამპუნი 90მლ",
+   "new": "Davines OI Шампунь для абсолютной красоты волос 90 мл"
+  },
+  "21847386": {
+   "old": "Davines მშრალი შმპუნი",
+   "new": "Davines More Inside Сухой шампунь"
+  },
+  "21847387": {
+   "old": "Davines თმის ლაქი საშუალო ფიქსაციის",
+   "new": "Davines More Inside Лак средней фиксации"
+  },
+  "21847388": {
+   "old": "Davines relaxing moisturizing fluid 125ml სტიალინგი",
+   "new": "Davines More Inside Увлажняющий флюид для укладки 125 мл"
+  },
+  "21847390": {
+   "old": "Davines minu conditioner 75ml",
+   "new": "Davines MINU Кондиционер для окрашенных волос 75 мл"
+  },
+  "21847393": {
+   "old": "Davines love smoothing conditioner 75ml",
+   "new": "Davines LOVE Smoothing Кондиционер для разглаживания волос 75 мл"
+  },
+  "21847396": {
+   "old": "Davines momo conditioner 75ml",
+   "new": "Davines MOMO Увлажняющий кондиционер 75 мл"
+  },
+  "21847401": {
+   "old": "Davines love curl conditioner 75ml",
+   "new": "Davines LOVE Curl Кондиционер для кудрявых волос 75 мл"
+  },
+  "21872787": {
+   "old": "Davines VOLU hair mist",
+   "new": "Davines VOLU Несмываемый спрей для объёма 250 мл"
+  },
+  "21872788": {
+   "old": "OI Body Scrub",
+   "new": "Davines OI Скраб для тела"
+  },
+  "21872789": {
+   "old": "Naturaltech nourishing vegetarian miracle conditioner",
+   "new": "Davines NaturalTech Питательный кондиционер «Вегетарианское чудо» 250 мл"
+  },
+  "21872790": {
+   "old": "The wake-up circle",
+   "new": "Davines The Circle Тонизирующая маска Wake-Up 50 мл"
+  },
+  "21872792": {
+   "old": "OI Liquid luster",
+   "new": "Davines OI Жидкий эликсир для блеска волос 300 мл"
+  },
+  "21885745": {
+   "old": "MOMO კონდეციონერი 250 მლ",
+   "new": "Davines MOMO Увлажняющий кондиционер 250 мл"
+  },
+  "21885746": {
+   "old": "MOMO შამპუნი 250 მლ",
+   "new": "Davines MOMO Увлажняющий шампунь 250 мл"
+  },
+  "21885761": {
+   "old": "VOLU შამპუნი 250 მლ",
+   "new": "Davines VOLU Шампунь для объёма 250 мл"
+  },
+  "21885765": {
+   "old": "NT replumping shampoo 250 ml შამპუნი",
+   "new": "Davines NaturalTech Уплотняющий шампунь 250 мл"
+  },
+  "21885772": {
+   "old": "NT replumping conditioner კონდეციონერი 150მლ",
+   "new": "Davines NaturalTech Уплотняющий кондиционер 150 мл"
+  },
+  "21885776": {
+   "old": "CURL moisturazing mousse  მუსი 250 მლ",
+   "new": "Davines More Inside Увлажняющий мусс для локонов 250 мл"
+  },
+  "21885778": {
+   "old": "STRONG HAIRSPREY  თმის ძლიერი ფიქსაცია",
+   "new": "Davines More Inside Лак сильной фиксации"
+  },
+  "21885781": {
+   "old": "OIL NON OIL ბუნებრივი თმის ეფექტი 250 მლ",
+   "new": "Davines More Inside Флюид для естественного блеска Oil Non Oil 250 мл"
+  },
+  "21930279": {
+   "old": "A single shampoo  250 ml",
+   "new": "Davines A Single Шампунь для всех типов волос 250 мл"
+  },
+  "21930328": {
+   "old": "OI conditioner  75 მლ  კონდეციონერი",
+   "new": "Davines OI Кондиционер для абсолютной красоты волос 75 мл"
+  },
+  "21930339": {
+   "old": "MELU conditioner 250 მლ კონდეციონერი",
+   "new": "Davines MELU Кондиционер против ломкости волос 250 мл"
+  },
+  "21930344": {
+   "old": "MINU HAIR MASK 250 მლ ნიღაბი",
+   "new": "Davines MINU Маска для окрашенных волос 250 мл"
+  },
+  "21930345": {
+   "old": "LOVE smooth insstant mask 250 მლ ნიღაბი",
+   "new": "Davines LOVE Smoothing Экспресс-маска для разглаживания 250 мл"
+  },
+  "21930350": {
+   "old": "LOVE curl hair mask 250 ml ნიღაბი",
+   "new": "Davines LOVE Curl Маска для кудрявых волос 250 мл"
+  },
+  "22006384": {
+   "old": "SOLU shampoo 250 ml",
+   "new": "Davines SOLU Шампунь для глубокого очищения 250 мл"
+  },
+  "22083865": {
+   "old": "Energizing Superactive 100ml",
+   "new": "Davines NaturalTech Энергетическая сыворотка против выпадения 100 мл"
+  },
+  "22099075": {
+   "old": "MI CURL BUILDING SERUM 100 ML, თმის დასაკულულებელი შრატი. 100მლ",
+   "new": "Davines More Inside Сыворотка для создания локонов 100 мл"
+  },
+  "22099079": {
+   "old": "PASTA&LOVE SOFTENING SHAVING GEL . 200მლ",
+   "new": "Davines Pasta & Love Смягчающий гель для бритья 200 мл"
+  },
+  "22099085": {
+   "old": "PASTA&LOVE AFTERSHAVE&MOISTURIZING CREAM. 100მლ",
+   "new": "Davines Pasta & Love Увлажняющий крем после бритья 100 мл"
+  },
+  "22099086": {
+   "old": "PASTA&LOVE PRE-SHAVING & BEARD OIL",
+   "new": "Davines Pasta & Love Масло для бороды и до бритья"
+  },
+  "22115586": {
+   "old": "SOLU შამპუნი 75მლ",
+   "new": "Davines SOLU Шампунь для глубокого очищения 75 мл"
+  },
+  "22161996": {
+   "old": "NT WELL BEING CONDITIONER 150 ML",
+   "new": "Davines NaturalTech Увлажняющий кондиционер 150 мл"
+  },
+  "22161997": {
+   "old": "NT CALMING SHAMPOO 250ML",
+   "new": "Davines NaturalTech Успокаивающий шампунь 250 мл"
+  },
+  "22161999": {
+   "old": "EHC MINU HAIR SERUM 150ML",
+   "new": "Davines MINU Сыворотка для окрашенных волос 150 мл"
+  },
+  "22162000": {
+   "old": "EHC DEDE HAIR MIST 250ML",
+   "new": "Davines DEDE Несмываемый спрей-кондиционер 250 мл"
+  },
+  "22162002": {
+   "old": "NT PURIFYING GEL 150ML",
+   "new": "Davines NaturalTech Очищающий гель против перхоти 150 мл"
+  },
+  "22162453": {
+   "old": "TCC THE SPOTLIGHT CIRCLE 750ML",
+   "new": "Davines The Circle Маска для блеска Spotlight 750 мл"
+  },
+  "22190039": {
+   "old": "MI DRY SHAMPOO",
+   "new": "Davines More Inside Сухой шампунь 250 мл"
+  },
+  "22204544": {
+   "old": "Heart Of glass Silkening Shampoo 1000ml",
+   "new": "Davines Heart of Glass Шампунь для сияния блонд 1000 мл"
+  },
+  "22204555": {
+   "old": "Heart Of Glass Rich Conditioner 1000ml",
+   "new": "Davines Heart of Glass Питательный кондиционер для блонд 1000 мл"
+  },
+  "22297073": {
+   "old": "DEHC SOLU SALT SCRUB 250ML",
+   "new": "Davines SOLU Очищающий скраб с морской солью 250 мл"
+  },
+  "22297077": {
+   "old": "DEHC DEDE SH 250ML",
+   "new": "Davines DEDE Шампунь для деликатного очищения 250 мл"
+  },
+  "22297131": {
+   "old": "GLA INTENSE TREAT 150ML150ML\t",
+   "new": "Davines Heart of Glass Интенсивный уход для блонд 150 мл"
+  },
+  "22297145": {
+   "old": "EHC MOMO HAIR POTION 150ML",
+   "new": "Davines MOMO Увлажняющий несмываемый крем 150 мл"
+  },
+  "22297146": {
+   "old": "DEHC LOVE SMOOTH PERFECTOR 150ML",
+   "new": "Davines LOVE Smoothing Несмываемый крем для разглаживания 150 мл"
+  },
+  "22309418": {
+   "old": "Renaissance Circle 750ml",
+   "new": "Davines The Circle Восстанавливающая маска Renaissance 750 мл"
+  },
+  "22535910": {
+   "old": "LS REINFORCING BODIFYING FLUID 125ML",
+   "new": "Davines Liquid Spell Уплотняющий флюид для объёма 125 мл"
+  },
+  "22535914": {
+   "old": "EHC NOUNOU CONDITIONER 75 ML",
+   "new": "Davines NOUNOU Питательный кондиционер 75 мл"
+  },
+  "22535918": {
+   "old": "DEHC MOMO SH 75ML",
+   "new": "Davines MOMO Увлажняющий шампунь 75 мл"
+  },
+  "22551214": {
+   "old": "LOVE Curl Primer",
+   "new": "Davines LOVE Curl Праймер для кудрявых волос 150 мл"
+  },
+  "22686978": {
+   "old": "PASTA&LOVE Hair beard body wash",
+   "new": "Davines Pasta & Love Шампунь для волос, бороды и тела 250 мл"
+  },
+  "22686980": {
+   "old": "PASTA&LOVE medium hold fiber cream",
+   "new": "Davines Pasta & Love Крем для укладки средней фиксации"
+  },
+  "22686981": {
+   "old": "PASTA&LOVE strong hold mat day",
+   "new": "Davines Pasta & Love Матовая глина сильной фиксации"
+  },
+  "22869544": {
+   "old": "davines dede shampoo 75ml",
+   "new": "Davines DEDE Шампунь для деликатного очищения 75 мл"
+  },
+  "22929627": {
+   "old": "Daviness sea solt spray",
+   "new": "Davines More Inside Спрей с морской солью 250 мл"
+  },
+  "22929628": {
+   "old": "daviness shimmering mist",
+   "new": "Davines More Inside Спрей для мерцающего блеска"
+  },
+  "22929629": {
+   "old": "daviness dry wax finishing spray",
+   "new": "Davines More Inside Сухой спрей-воск"
+  },
+  "23029599": {
+   "old": "LS REINFORCING BODIFYINGFLUID 125ML",
+   "new": "Davines Liquid Spell Уплотняющий флюид для объёма 125 мл"
+  },
+  "23029606": {
+   "old": "OI SHAMPOO 1000ML",
+   "new": "Davines OI Шампунь для абсолютной красоты волос 1000 мл"
+  },
+  "23029630": {
+   "old": "NT REBALANCING SH 100ML",
+   "new": "Davines NaturalTech Балансирующий шампунь для жирной кожи головы 100 мл"
+  },
+  "23260180": {
+   "old": "Naturaltech Renewing Shampoo",
+   "new": "Davines NaturalTech Обновляющий шампунь 250 мл"
+  },
+  "23435517": {
+   "old": "Liquid Spell Reinforcing Bodifying Fluid 50ml",
+   "new": "Davines Liquid Spell Уплотняющий флюид для объёма 50 мл"
+  },
+  "23435558": {
+   "old": "Curl Building Serum 250ml",
+   "new": "Davines More Inside Сыворотка для создания локонов 250 мл"
+  },
+  "23833942": {
+   "old": "Davines Replumping Hair Filler Superactive 100ml",
+   "new": "Davines NaturalTech Уплотняющий филлер для волос 100 мл"
+  },
+  "24001227": {
+   "old": "LOVE Curl Hair Mask 75ml",
+   "new": "Davines LOVE Curl Маска для кудрявых волос 75 мл"
+  },
+  "24032789": {
+   "old": "Dry Texturizer 250ml",
+   "new": "Davines More Inside Сухой текстурайзер для объёма 250 мл"
+  },
+  "24279815": {
+   "old": "DEDE Shampoo 250ml",
+   "new": "Davines DEDE Шампунь для деликатного очищения 250 мл"
+  },
+  "24292655": {
+   "old": "OI Liquid Luster 100ml",
+   "new": "Davines OI Жидкий эликсир для блеска волос 100 мл"
+  },
+  "24292656": {
+   "old": "Oi Souffle 50ml",
+   "new": "Davines OI Суфле для абсолютной красоты волос 50 мл"
+  },
+  "24292660": {
+   "old": "WE STAND hair body and face butter 100ml",
+   "new": "Davines We Stand Масло-баттер для волос, лица и тела 100 мл"
+  },
+  "24783636": {
+   "old": "Davines Primer For natural Shine",
+   "new": "Davines More Inside Праймер для естественного блеска"
+  }
+ },
+ "total": 154,
+ "renamed": 0,
+ "chain_count": 128
+}
