@@ -80,7 +80,7 @@ const TINT={blonde:'#E6DAF0',curls:'#F2D9BF',hairloss:'#DDE8D6',volume:'#E9E2F2'
 
 const $=s=>document.querySelector(s);
 const ls={get(k,d){try{const v=JSON.parse(localStorage.getItem(k));return v??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
-const S={lang:ls.get('lml-lang','ru'),dept:'all',cat:'all',brand:'all',q:'',sort:'stock',cart:ls.get('lml-cart',[]),fav:ls.get('lml-fav',[]),step:'cart',del:'pickup',loaded:false,err:false};
+const S={lang:ls.get('lml-lang','ru'),cc:ls.get('lml-cc','ge'),dept:'all',cat:'all',brand:'all',q:'',sort:'stock',cart:ls.get('lml-cart',[]),fav:ls.get('lml-fav',[]),step:'cart',del:'pickup',loaded:false,err:false};
 if(!T[S.lang])S.lang='ru';
 const t=()=>T[S.lang];
 const fmt=n=>n.toLocaleString(S.lang==='en'?'en-US':'ru-RU')+' ₾';
@@ -183,6 +183,37 @@ function counts(){
 }
 const sub=()=>S.cart.reduce((a,l)=>{const p=byId(l.id);return a+(p?l.q*p.price:0)},0);
 // адрес воркера, который пересылает заказы в Telegram (пусто — заказ отправляет сам клиент)
+// Коды стран для телефона: сначала основные, потом все по алфавиту
+const CC_TOP=['ru','ge','us'];
+const CC={af:93,al:355,dz:213,ad:376,ao:244,ag:1268,ar:54,am:374,au:61,at:43,az:994,bs:1242,bh:973,bd:880,bb:1246,by:375,be:32,bz:501,bj:229,bt:975,bo:591,ba:387,bw:267,br:55,bn:673,bg:359,bf:226,bi:257,kh:855,cm:237,ca:1,cv:238,cf:236,td:235,cl:56,cn:86,co:57,km:269,cg:242,cd:243,cr:506,ci:225,hr:385,cu:53,cy:357,cz:420,dk:45,dj:253,dm:1767,do:1809,ec:593,eg:20,sv:503,gq:240,er:291,ee:372,sz:268,et:251,fj:679,fi:358,fr:33,ga:241,gm:220,ge:995,de:49,gh:233,gr:30,gd:1473,gt:502,gn:224,gw:245,gy:592,ht:509,hn:504,hk:852,hu:36,is:354,in:91,id:62,ir:98,iq:964,ie:353,il:972,it:39,jm:1876,jp:81,jo:962,kz:7,ke:254,ki:686,kp:850,kr:82,xk:383,kw:965,kg:996,la:856,lv:371,lb:961,ls:266,lr:231,ly:218,li:423,lt:370,lu:352,mo:853,mg:261,mw:265,my:60,mv:960,ml:223,mt:356,mh:692,mr:222,mu:230,mx:52,fm:691,md:373,mc:377,mn:976,me:382,ma:212,mz:258,mm:95,na:264,nr:674,np:977,nl:31,nz:64,ni:505,ne:227,ng:234,mk:389,no:47,om:968,pk:92,pw:680,ps:970,pa:507,pg:675,py:595,pe:51,ph:63,pl:48,pt:351,pr:1787,qa:974,ro:40,ru:7,rw:250,kn:1869,lc:1758,vc:1784,ws:685,sm:378,st:239,sa:966,sn:221,rs:381,sc:248,sl:232,sg:65,sk:421,si:386,sb:677,so:252,za:27,ss:211,es:34,lk:94,sd:249,sr:597,se:46,ch:41,sy:963,tw:886,tj:992,tz:255,th:66,tl:670,tg:228,to:676,tt:1868,tn:216,tr:90,tm:993,tv:688,ug:256,ua:380,ae:971,gb:44,us:1,uy:598,uz:998,vu:678,va:379,ve:58,vn:84,ye:967,zm:260,zw:263};
+const CC_RU={us:'США',gb:'Великобритания',ae:'ОАЭ'};
+const ccName=k=>{if(S.lang==='ru'&&CC_RU[k])return CC_RU[k];try{return new Intl.DisplayNames([S.lang==='ka'?'ka':S.lang,'en'],{type:'region'}).of(k.toUpperCase())}catch(e){return k.toUpperCase()}};
+const FLAG=k=>`<img src="flags/${k}.png" width="22" height="16" alt="" loading="lazy">`;
+function ccList(){const rest=Object.keys(CC).filter(k=>!CC_TOP.includes(k)).sort((a,b)=>ccName(a).localeCompare(ccName(b),S.lang));return [...CC_TOP,'-',...rest]}
+function ccPicker(){
+  const cur=S.cc||'ge';
+  return `<div class="ccrow"><button type="button" class="ccbtn" id="ccBtn" aria-haspopup="listbox">${FLAG(cur)}<span>+${CC[cur]}</span><i>▾</i></button>
+    <input id="co-phone" type="tel" autocomplete="tel-national" inputmode="tel" placeholder="${cur==='ge'?'5__ ___ ___':''}"></div>
+    <div class="ccpop" id="ccPop" hidden><input id="ccQ" placeholder="🔍" autocomplete="off"><div class="cclist" id="ccList" role="listbox"></div></div>`;
+}
+function ccRender(q=''){
+  q=q.trim().toLowerCase().replace(/^\+/,'');
+  $('#ccList').innerHTML=ccList().filter(k=>k==='-'?!q:(!q||ccName(k).toLowerCase().includes(q)||String(CC[k]).startsWith(q)||k===q))
+    .map(k=>k==='-'?'<hr>':`<button type="button" data-cc="${k}" role="option">${FLAG(k)}<span>${esc(ccName(k))}</span><b>+${CC[k]}</b></button>`).join('');
+}
+function ccSet(k){S.cc=k;ls.set('lml-cc',k);
+  $('#ccBtn').innerHTML=`${FLAG(k)}<span>+${CC[k]}</span><i>▾</i>`;$('#co-phone').placeholder=k==='ge'?'5__ ___ ___':'';$('#ccPop').hidden=true}
+function ccWire(){
+  $('#ccBtn').addEventListener('click',()=>{const p=$('#ccPop');p.hidden=!p.hidden;if(!p.hidden){$('#ccQ').value='';ccRender();$('#ccQ').focus()}});
+  $('#ccQ').addEventListener('input',e=>ccRender(e.target.value));
+  $('#ccList').addEventListener('click',e=>{const b=e.target.closest('[data-cc]');if(b){ccSet(b.dataset.cc);$('#co-phone').focus()}});
+  // если номер вставили целиком с «+», сами определяем страну
+  $('#co-phone').addEventListener('input',e=>{const v=e.target.value.trim();if(!v.startsWith('+'))return;const d=v.replace(/\D/g,'');
+    const pref=S.cc&&String(CC[S.cc]);let best=null;
+    for(const k of [S.cc,...CC_TOP,...Object.keys(CC)]){if(!k)continue;const c=String(CC[k]);if(d.startsWith(c)&&(!best||c.length>String(CC[best]).length))best=k}
+    if(best){ccSet(best);e.target.value=d.slice(String(CC[best]).length)}});
+}
+const ccFull=()=>{const k=S.cc||'ge',d=$('#co-phone').value.replace(/\D/g,'').replace(new RegExp('^'+CC[k]),'').replace(/^0+/,'');return {d,txt:'+'+CC[k]+' '+d}};
 const ORDER_HOOK='https://lamerel-orders.grvm7gcz4n.workers.dev/';
 const FREE=300;
 const delivery=()=>S.del==='pickup'||sub()>=FREE?0:S.del==='batumi'?10:15;
@@ -216,7 +247,7 @@ function renderCart(){
     $('#dTitle').textContent=L.coTitle;
     body.innerHTML=`<form class="co" id="co" novalidate>
       <label>${L.name}<input id="co-name" autocomplete="name" placeholder="${L.namePh}"></label>
-      <label>${L.phone}<input id="co-phone" type="tel" autocomplete="tel" placeholder="+995 5__ ___ ___"></label>
+      <label>${L.phone}${ccPicker()}</label>
       <label>${L.get}<select id="co-del"><option value="pickup">${L.dPick}</option><option value="batumi">${L.dBat}</option><option value="georgia">${L.dGeo}</option></select></label>
       <label id="addrWrap" hidden>${L.address}<input id="co-addr" autocomplete="street-address" placeholder="${L.addrPh}"></label>
       <label>${L.payL}<select id="co-pay">${L.pays.map(x=>`<option>${x}</option>`).join('')}</select></label>
@@ -224,7 +255,7 @@ function renderCart(){
       <div class="err" id="co-err"></div></form>`;
     $('#co-del').value=S.del;
     const sync=()=>{S.del=$('#co-del').value;$('#addrWrap').hidden=S.del==='pickup';sumFoot()};
-    $('#co-del').addEventListener('change',sync);sync();
+    $('#co-del').addEventListener('change',sync);sync();ccWire();
   } else if(S.step==='sending'){
     $('#dTitle').textContent=L.sendingT;body.innerHTML=`<p class="empty">${L.sendingT}…</p>`;foot.innerHTML='';
   } else if(S.sent){
@@ -247,8 +278,8 @@ function sumFoot(){
     <button class="ghost" id="backCart">${L.back}</button><button class="primary" id="placeOrder">${L.confirm}</button>`;
 }
 function placeOrder(){
-  const L=t(),n=$('#co-name').value.trim(),ph=$('#co-phone').value.trim(),a=$('#co-addr').value.trim();
-  const e=[];if(!n)e.push(L.fName);if(ph.replace(/\D/g,'').length<9)e.push(L.fPhone);if(S.del!=='pickup'&&!a)e.push(L.fAddrE);
+  const L=t(),n=$('#co-name').value.trim(),pf=ccFull(),ph=pf.txt,a=$('#co-addr').value.trim();
+  const e=[];if(!n)e.push(L.fName);if(pf.d.length<((S.cc||'ge')==='ge'?9:6))e.push(L.fPhone);if(S.del!=='pickup'&&!a)e.push(L.fAddrE);
   if(e.length){$('#co-err').textContent=L.fill+e.join(', ')+'.';return}
   const dn={pickup:L.dPick,batumi:L.dBat,georgia:L.dGeo}[S.del];
   const lines=S.cart.map(l=>{const p=byId(l.id);return `• ${p.brand} ${nm(p)}${p.vol?' '+p.vol:''} × ${l.q} = ${fmt(p.price*l.q)}`});

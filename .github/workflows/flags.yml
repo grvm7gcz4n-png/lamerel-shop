@@ -1,0 +1,19 @@
+name: Флаги стран (разовая загрузка)
+on:
+  push:
+    paths:
+      - 'tools/flag_codes.txt'
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p flags
+          for k in $(cat tools/flag_codes.txt); do curl -fsSL "https://flagcdn.com/w80/$k.png" -o "flags/$k.png" || echo "нет $k"; done
+          ls flags | wc -l
+          git config user.name "lamerel-bot"; git config user.email "actions@users.noreply.github.com"
+          git add flags; git commit -m "Флаги стран"
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push && break; sleep 7; done
