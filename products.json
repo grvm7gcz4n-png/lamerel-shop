@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T14:25:40+00:00",
+"updated": "2026-11-09T15:11:47+00:00",
 "products": [
 {
 "id": 14082527,
@@ -12,7 +12,8 @@
 "need": "",
 "price": 80,
 "stock": 1,
-"barcode": "8005610587530"
+"barcode": "8005610587530",
+"img": "https://images.openbeautyfacts.org/images/products/800/561/058/7530/front_en.3.400.jpg"
 },
 {
 "id": 15045810,
@@ -25,7 +26,8 @@
 "need": "",
 "price": 170,
 "stock": 1,
-"barcode": "7290011521042"
+"barcode": "7290011521042",
+"img": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/103_STYLE-FINISHER_INTENSE-CURL-CREAM_300mL_v3.jpg?v=1683622662"
 },
 {
 "id": 15890324,
@@ -38,7 +40,8 @@
 "need": "",
 "price": 155,
 "stock": 3,
-"barcode": "7290016494341"
+"barcode": "7290016494341",
+"img": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/31_CONDITIONER_CURL-ENHANCING_250mL_v2.jpg?v=1682738536"
 },
 {
 "id": 16184682,
@@ -135,7 +138,8 @@
 "need": "",
 "price": 165,
 "stock": 1,
-"barcode": "7290011521165"
+"barcode": "7290011521165",
+"img": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/D3271-MO.Com_Packshot_Scalp-Collection_SCALP-BALANCE_DRY-TREATMENT.jpg?v=1723496795"
 },
 {
 "id": 19319378,
@@ -148,7 +152,8 @@
 "need": "",
 "price": 125,
 "stock": 1,
-"barcode": "7290016966947"
+"barcode": "7290016966947",
+"img": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/25_SHAMPOO_COLOR-CARE_250mL_v2.jpg?v=1682817869"
 },
 {
 "id": 19319471,
@@ -161,7 +166,8 @@
 "need": "",
 "price": 130,
 "stock": 4,
-"barcode": "7290016966954"
+"barcode": "7290016966954",
+"img": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/32_CONDITIONER_COLOR-CARE_250mL_v2.jpg?v=1683622419"
 },
 {
 "id": 19320046,
@@ -187,7 +193,8 @@
 "need": "",
 "price": 45,
 "stock": 1,
-"barcode": "7290113140653"
+"barcode": "7290113140653",
+"img": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/35_COLOR-DEPOSITING-MASK_ROSE-GOLD_200mL_v2.jpg?v=1682818604"
 },
 {
 "id": 19320065,
@@ -200,7 +207,8 @@
 "need": "",
 "price": 45,
 "stock": 2,
-"barcode": "7290113140639"
+"barcode": "7290113140639",
+"img": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/34_COLOR-DEPOSITING-MASK_PLATINUM_200mL_v2.jpg?v=1682818715"
 },
 {
 "id": 20737251,
@@ -225,7 +233,8 @@
 "need": "",
 "price": 85,
 "stock": 1,
-"barcode": "7290011521448"
+"barcode": "7290011521448",
+"img": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/107_STYLE-FINISHER_CURL-CONTROL-MOUSSE_150mL_v3.jpg?v=1683622337"
 },
 {
 "id": 21759416,
@@ -420,7 +429,8 @@
 "need": "",
 "price": 320,
 "stock": 1,
-"barcode": "7290014344396"
+"barcode": "7290014344396",
+"img": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/MicrosoftTeams-image_3.jpg?v=1683584189"
 },
 {
 "id": 21928425,
@@ -524,7 +534,8 @@
 "need": "",
 "price": 50,
 "stock": 1,
-"barcode": "7290113146440"
+"barcode": "7290113146440",
+"img": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/88_HAND-CREAM_AMBRE-NOIR_100mL_v2.jpg?v=1682723620"
 },
 {
 "id": 22093188,
@@ -550,7 +561,8 @@
 "need": "",
 "price": 45,
 "stock": 1,
-"barcode": "7290113140752"
+"barcode": "7290113140752",
+"img": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/37_COLOR-DEPOSITING-MASK_BORDEAUX_200mL_v2.jpg?v=1682818453"
 },
 {
 "id": 22093190,
@@ -680,7 +692,8 @@
 "need": "",
 "price": 55,
 "stock": 1,
-"barcode": "8022297104362"
+"barcode": "8022297104362",
+"img": "https://i5.walmartimages.com/asr/638916e0-bf20-49b3-82d5-9fe90739477a.8e22c061f045532aff240c926f10fc00.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff"
 },
 {
 "id": 22799745,
@@ -693,7 +706,8 @@
 "need": "",
 "price": 70,
 "stock": 1,
-"barcode": "8022297104393"
+"barcode": "8022297104393",
+"img": "https://i5.walmartimages.com/asr/3edfed37-9b8a-41bf-bcc8-999a93d38af3.7bbc296944c8ead245a63d8caf4b1e86.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff"
 },
 {
 "id": 22799751,
@@ -706,7 +720,8 @@
 "need": "",
 "price": 35,
 "stock": 2,
-"barcode": "8022297104386"
+"barcode": "8022297104386",
+"img": "https://i5.walmartimages.com/asr/8e3e2ec1-c417-499b-b2b8-1fbd12b74e47.67e50a6fb25b5e88191c44d016a1534e.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff"
 },
 {
 "id": 22799752,
@@ -1018,7 +1033,8 @@
 "need": "",
 "price": 150,
 "stock": 1,
-"barcode": "7290016235739"
+"barcode": "7290016235739",
+"img": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/127_BODY-OIL_DRY-BODY-OIL_100mL_v3.jpg?v=1682736210"
 },
 {
 "id": 23025630,
@@ -1126,7 +1142,8 @@
 "need": "",
 "price": 70,
 "stock": 1,
-"barcode": "3700448604262"
+"barcode": "3700448604262",
+"img": "https://cdn.shopify.com/s/files/1/0045/5294/9795/files/huile_tiare_AR004373_1.png?v=1789559212"
 },
 {
 "id": 23287086,
@@ -1336,7 +1353,8 @@
 "need": "",
 "price": 550,
 "stock": 1,
-"barcode": "3700448601926"
+"barcode": "3700448601926",
+"img": "https://cdn.shopify.com/s/files/1/0045/5294/9795/files/edp_epices_AR000583_1.png?v=1789569277"
 },
 {
 "id": 23630562,
@@ -2679,7 +2697,8 @@
 "need": "",
 "price": 95,
 "stock": 1,
-"barcode": "8800289461743"
+"barcode": "8800289461743",
+"img": "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/PDRN_00_30c4ca10-5767-4df0-92ee-d4b7fae5cae0.jpg?v=1779270741"
 },
 {
 "id": 25408734,
@@ -2692,7 +2711,8 @@
 "need": "",
 "price": 20,
 "stock": 1,
-"barcode": "8800289470165"
+"barcode": "8800289470165",
+"img": "https://cdn.shopify.com/s/files/1/0156/3905/2336/files/PDRN_00_07e52dee-265e-4cf0-9cf6-c91b927411b5.jpg?v=1750144554"
 },
 {
 "id": 25440616,
@@ -2704,7 +2724,8 @@
 "type": "brush",
 "need": "",
 "price": 400,
-"stock": 4
+"stock": 4,
+"img": "https://cdn.shopify.com/s/files/1/0081/1660/0950/files/2000x2000_72dpi_0000s_0005_HOLIDAY25_PPAGE-ASSETS_TRAVEL-BRUSH-SET.png?v=1786478658"
 },
 {
 "id": 25453767,
@@ -2975,7 +2996,8 @@
 "need": "",
 "price": 50,
 "stock": 2,
-"barcode": "5060150181856"
+"barcode": "5060150181856",
+"img": "https://cdn.shopify.com/s/files/1/0587/5210/6688/files/CRE-8146W-Dream-Coat-COS-Award-2048x2048-v2_9d01adb5-b314-470d-9f85-bb70d9a60484.jpg?v=1791303813"
 },
 {
 "id": 25589914,
@@ -2988,7 +3010,8 @@
 "need": "",
 "price": 40,
 "stock": 1,
-"barcode": "5060150189562"
+"barcode": "5060150189562",
+"img": "https://cdn.shopify.com/s/files/1/0587/5210/6688/files/CW510_250ml_Shampoo_pdp_2048x2048_c702fbc7-d090-491d-a2e1-dcdb3797269d.jpg?v=1760985834"
 },
 {
 "id": 25589937,
@@ -3001,7 +3024,8 @@
 "need": "",
 "price": 40,
 "stock": 2,
-"barcode": "5060150189753"
+"barcode": "5060150189753",
+"img": "https://cdn.shopify.com/s/files/1/0587/5210/6688/files/CRE-8146W-Dream-Coat-COS-Award-2048x2048-v2_9d01adb5-b314-470d-9f85-bb70d9a60484.jpg?v=1791303813"
 },
 {
 "id": 25589943,
@@ -3039,7 +3063,8 @@
 "need": "",
 "price": 140,
 "stock": 1,
-"barcode": "810175611341"
+"barcode": "810175611341",
+"img": "https://cdn.shopify.com/s/files/1/0606/5451/8510/files/sip-main.png?v=1780103534"
 },
 {
 "id": 25640530,
@@ -3244,7 +3269,8 @@
 "need": "",
 "price": 650,
 "stock": 1,
-"barcode": "850004373538"
+"barcode": "850004373538",
+"img": "https://cdn.shopify.com/s/files/1/0081/1660/0950/files/2000x2000_72dpi_0000s_0005_HOLIDAY25_PPAGE-ASSETS_TRAVEL-BRUSH-SET.png?v=1786478658"
 },
 {
 "id": 25804283,
@@ -3411,7 +3437,8 @@
 "need": "",
 "price": 50,
 "stock": 1,
-"barcode": "877231007500"
+"barcode": "877231007500",
+"img": "https://cdn.shopify.com/s/files/1/0081/1660/0950/files/2000x2000-72dpi_0001_VeilSettingPowder_Open_64f22869-b80b-474e-b639-121b898f804f.png?v=1754510202"
 },
 {
 "id": 25951353,
@@ -3436,7 +3463,8 @@
 "type": "lotion",
 "need": "",
 "price": 80,
-"stock": 1
+"stock": 1,
+"img": "https://cdn.shopify.com/s/files/1/0045/5294/9795/products/BDKVDIMYKONOS.jpg?v=1625156115"
 },
 {
 "id": 25973262,
@@ -3460,7 +3488,8 @@
 "type": "fragrance",
 "need": "",
 "price": 120,
-"stock": 1
+"stock": 1,
+"img": "https://cdn.shopify.com/s/files/1/0045/5294/9795/files/edp_rose_AR0005077_1.png?v=1789556792"
 },
 {
 "id": 25986737,
@@ -4739,7 +4768,8 @@
 "need": "repair",
 "price": 170,
 "stock": 2,
-"barcode": "633911630891"
+"barcode": "633911630891",
+"img": "https://images.openbeautyfacts.org/images/products/063/391/163/0891/front_fr.3.400.jpg"
 },
 {
 "id": 25494551,
@@ -5752,6 +5782,7 @@
 "price": 80,
 "stock": 3,
 "barcode": "8004608293149",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70022SLC-DEDE-COND-250ML-8004608302001-1.jpg?v=1777561551",
 "alt_ids": [
 18744633
 ]
@@ -5880,7 +5911,8 @@
 "need": "color",
 "price": 35,
 "stock": 2,
-"barcode": "8004608253396"
+"barcode": "8004608253396",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70027SLC-MINU-COND-250ML-8004608302018-1.jpg?v=1777570133"
 },
 {
 "id": 21847393,
@@ -5934,7 +5966,8 @@
 "need": "volume",
 "price": 95,
 "stock": 1,
-"barcode": "8004608242543"
+"barcode": "8004608242543",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70005UCL-VOLU-HAIR-MIST-250ML-8004608301363-1.jpg?v=1777562581"
 },
 {
 "id": 21885776,
@@ -6005,7 +6038,8 @@
 "need": "shine",
 "price": 80,
 "stock": 1,
-"barcode": "8004608252153"
+"barcode": "8004608252153",
+"img": "https://images.openbeautyfacts.org/images/products/800/460/825/2153/front_fr.3.400.jpg"
 },
 {
 "id": 22929629,
@@ -6018,7 +6052,8 @@
 "need": "hold",
 "price": 95,
 "stock": 1,
-"barcode": "8004608285816"
+"barcode": "8004608285816",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-87146-dry-wax-200ml-8004608285809-1.jpg?v=1760460116"
 },
 {
 "id": 23435558,
@@ -6045,7 +6080,8 @@
 "need": "repair",
 "price": 70,
 "stock": 4,
-"barcode": "8004608275411"
+"barcode": "8004608275411",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-71337-replumping-hair-filler-superactive-leave-in-100ml-8004608275411-1.jpg?v=1770669979"
 },
 {
 "id": 24783636,
@@ -6111,7 +6147,8 @@
 "need": "curls",
 "price": 95,
 "stock": 2,
-"barcode": "8004608296447"
+"barcode": "8004608296447",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70119SLC-LOVE-CURL-MASK-250ML-8004608302063-1.jpg?v=1777568520"
 },
 {
 "id": 25438695,
@@ -6199,6 +6236,7 @@
 "price": 80,
 "stock": 2,
 "barcode": "8004608293439",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70032SLC-NOUNOU-COND-250ML-8004608302032-1.jpg?v=1777574110",
 "alt_ids": [
 21762574
 ]
@@ -6259,7 +6297,8 @@
 "need": "oily",
 "price": 80,
 "stock": 1,
-"barcode": "8004608279327"
+"barcode": "8004608279327",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-71345-rebalancing-shampoo-250ml-8004608279327-1.jpg?v=1790860232"
 },
 {
 "id": 17905286,
@@ -6286,7 +6325,8 @@
 "need": "scalp",
 "price": 80,
 "stock": 1,
-"barcode": "8004608256533"
+"barcode": "8004608256533",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-71264-detoxifying-scrub-shampoo-250ml-8004608256533-1.jpg?v=1760460112"
 },
 {
 "id": 17905338,
@@ -6327,7 +6367,8 @@
 "need": "shine",
 "price": 75,
 "stock": 1,
-"barcode": "8004608274865"
+"barcode": "8004608274865",
+"img": "https://images.openbeautyfacts.org/images/products/800/460/827/4865/front_fr.3.400.jpg"
 },
 {
 "id": 17905451,
@@ -6381,7 +6422,8 @@
 "need": "repair",
 "price": 75,
 "stock": 1,
-"barcode": "8004608246206"
+"barcode": "8004608246206",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70006UCL-MELU-SH-250ML-8004608301356-1.jpg?v=1777569340"
 },
 {
 "id": 21343308,
@@ -6407,7 +6449,8 @@
 "need": "curls",
 "price": 80,
 "stock": 2,
-"barcode": "8004608257196"
+"barcode": "8004608257196",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70122UCL-LOVE-CURL-MILK-250ML-8004608300762-1.jpg?v=1777568520"
 },
 {
 "id": 21343389,
@@ -6434,7 +6477,8 @@
 "need": "color",
 "price": 80,
 "stock": 2,
-"barcode": "8004608275879"
+"barcode": "8004608275879",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70027SLC-MINU-COND-250ML-8004608302018-1.jpg?v=1777570133"
 },
 {
 "id": 21580299,
@@ -6488,7 +6532,8 @@
 "need": "shine",
 "price": 35,
 "stock": 1,
-"barcode": "8004608275589"
+"barcode": "8004608275589",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70009UCL-LOVE-SMOOTH-SH-250ML-8004608300052-1.jpg?v=1777564617"
 },
 {
 "id": 21795377,
@@ -6556,7 +6601,8 @@
 "need": "repair",
 "price": 85,
 "stock": 1,
-"barcode": "8004608276722"
+"barcode": "8004608276722",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70007UCL-MELU-COND-250ML-8004608300038-1.jpg?v=1777569339"
 },
 {
 "id": 21930344,
@@ -6569,7 +6615,8 @@
 "need": "color",
 "price": 95,
 "stock": 1,
-"barcode": "8004608276753"
+"barcode": "8004608276753",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70028SLC-MINU-MASK-250ML-8004608302025-1.jpg?v=1777570133"
 },
 {
 "id": 21930345,
@@ -6582,7 +6629,8 @@
 "need": "shine",
 "price": 95,
 "stock": 1,
-"barcode": "8004608275565"
+"barcode": "8004608275565",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70011SLC-LOVE-SMOOTHING-MASK-250ML-8004608301981-1.jpg?v=1777565741"
 },
 {
 "id": 21930350,
@@ -6639,7 +6687,8 @@
 "need": "color",
 "price": 75,
 "stock": 1,
-"barcode": "8004608242666"
+"barcode": "8004608242666",
+"img": "https://images.openbeautyfacts.org/images/products/800/460/824/2666/front_fr.3.400.jpg"
 },
 {
 "id": 22162000,
@@ -6707,7 +6756,8 @@
 "need": "scalp",
 "price": 85,
 "stock": 3,
-"barcode": "8004608276944"
+"barcode": "8004608276944",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70015SLC-SOLU-SEA-SALT-SCRUB-250ML-8004608302070-1.jpg?v=1777570255"
 },
 {
 "id": 22297131,
@@ -6747,7 +6797,8 @@
 "need": "shine",
 "price": 75,
 "stock": 1,
-"barcode": "8004608275558"
+"barcode": "8004608275558",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70012UCL-LOVE-SMOOTH-SERUM-150ML-8004608300083-1.jpg?v=1777566964"
 },
 {
 "id": 23029599,
@@ -6790,7 +6841,8 @@
 "need": "dry",
 "price": 35,
 "stock": 2,
-"barcode": "8004608281924"
+"barcode": "8004608281924",
+"img": "https://images.openbeautyfacts.org/images/products/800/460/828/1924/front_fr.3.400.jpg"
 },
 {
 "id": 22551214,
@@ -6843,7 +6895,8 @@
 "need": "volume",
 "price": 80,
 "stock": 4,
-"barcode": "8004608248941"
+"barcode": "8004608248941",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-87154-this-is-a-dry-texturizer-250ml-8004608288817-1_1.jpg?v=1760460117"
 },
 {
 "id": 24868132,
@@ -6965,7 +7018,8 @@
 "need": "",
 "price": 65,
 "stock": 1,
-"barcode": "8004608247760"
+"barcode": "8004608247760",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-76017UCL-OI-BODY-WASH-280ml-8004608298854-1.jpg?v=1760571221"
 },
 {
 "id": 21343302,
@@ -7146,7 +7200,8 @@
 "need": "repair",
 "price": 95,
 "stock": 1,
-"barcode": "8004608276746"
+"barcode": "8004608276746",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70034SLC-NOUNOU-MASK-250ML-8004608302049-1.jpg?v=1777574110"
 },
 {
 "id": 21832525,
@@ -7242,7 +7297,8 @@
 "need": "shine",
 "price": 85,
 "stock": 1,
-"barcode": "8004608258865"
+"barcode": "8004608258865",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-87086-this-is-an-oil-non-oil-250ml-8004608258865-1.jpg?v=1760460119"
 },
 {
 "id": 21930328,
@@ -7324,7 +7380,8 @@
 "need": "scalp",
 "price": 75,
 "stock": 1,
-"barcode": "8004608256519"
+"barcode": "8004608256519",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-71262-calming-shampoo-250ml-8004608256519-1.jpg?v=1760460111"
 },
 {
 "id": 22162002,
@@ -7378,7 +7435,8 @@
 "need": "hold",
 "price": 80,
 "stock": 1,
-"barcode": "8004608280491"
+"barcode": "8004608280491",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-93016-medium-hold-fiber-cream-50ml-8004608280491-1.jpg?v=1760460114"
 },
 {
 "id": 22686981,
@@ -7446,7 +7504,8 @@
 "need": "shine",
 "price": 55,
 "stock": 3,
-"barcode": "8004608292418"
+"barcode": "8004608292418",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-76139-oi-souffle-125ml-8004608291541-1.jpg?v=1791998222"
 },
 {
 "id": 24868137,
@@ -7541,7 +7600,8 @@
 "need": "scalp",
 "price": 75,
 "stock": 1,
-"barcode": "8004608280477"
+"barcode": "8004608280477",
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70014UCL-SOLU-SH-250ML-8004608300106-1.jpg?v=1777570254"
 },
 {
 "id": 21762560,
@@ -7788,7 +7848,8 @@
 "need": "repair",
 "price": 80,
 "stock": 2,
-"barcode": "8054726574118"
+"barcode": "8054726574118",
+"img": "https://images.openbeautyfacts.org/images/products/805/472/657/4118/front_en.4.400.jpg"
 },
 {
 "id": 16617499,
@@ -7870,6 +7931,7 @@
 "price": 75,
 "stock": 2,
 "barcode": "8057587040754",
+"img": "https://cdn.shopify.com/s/files/1/0711/7488/1420/files/Everyday_Wash-200ml.png?v=1793864133",
 "alt_ids": [
 25260811
 ]
@@ -7976,7 +8038,8 @@
 "need": "volume",
 "price": 70,
 "stock": 0,
-"barcode": "8054726573647"
+"barcode": "8054726573647",
+"img": "https://cdn.shopify.com/s/files/1/0711/7488/1420/files/Babassu-Rinse-200ml-300dpi.png?v=1793863675"
 },
 {
 "id": 14054568,
@@ -8200,7 +8263,8 @@
 "need": "scalp",
 "price": 100,
 "stock": 1,
-"barcode": "8054726573715"
+"barcode": "8054726573715",
+"img": "https://cdn.shopify.com/s/files/1/0711/7488/1420/files/Scalp-Nutriment-Spray-100ml-300dpi.png?v=1793811486"
 },
 {
 "id": 14054588,
@@ -8401,7 +8465,8 @@
 "need": "dry",
 "price": 150,
 "stock": 0,
-"barcode": "8057587040327"
+"barcode": "8057587040327",
+"img": "https://cdn.shopify.com/s/files/1/0711/7488/1420/files/eb8e91_64d61cb2e0eb42d19b91884056f2bf9fmv2.jpg-2.png?v=1793810309"
 },
 {
 "id": 25260794,
@@ -8628,7 +8693,8 @@
 "need": "oily",
 "price": 90,
 "stock": 2,
-"barcode": "8054726578482"
+"barcode": "8054726578482",
+"img": "https://cdn.shopify.com/s/files/1/0711/7488/1420/files/MORINGA_WASH-320ml-300dpi.png?v=1793864667"
 },
 {
 "id": 25953929,
@@ -8706,7 +8772,8 @@
 "need": "blonde",
 "price": 135,
 "stock": 1,
-"barcode": "3474636692231"
+"barcode": "3474636692231",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/669/2231/front_en.3.400.jpg"
 },
 {
 "id": 22302927,
@@ -8951,7 +9018,8 @@
 "need": "repair",
 "price": 150,
 "stock": 0,
-"barcode": "3474636728268"
+"barcode": "3474636728268",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/672/8268/front_fr.3.400.jpg"
 },
 {
 "id": 23227428,
@@ -9136,7 +9204,8 @@
 "need": "curls",
 "price": 175,
 "stock": 1,
-"barcode": "3474636970155"
+"barcode": "3474636970155",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/697/0155/front_en.13.400.jpg"
 },
 {
 "id": 21937511,
@@ -9175,7 +9244,8 @@
 "need": "hairloss",
 "price": 135,
 "stock": 1,
-"barcode": "3474636404384"
+"barcode": "3474636404384",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/640/4384/front_fr.3.400.jpg"
 },
 {
 "id": 23030567,
@@ -9201,7 +9271,8 @@
 "need": "volume",
 "price": 215,
 "stock": 2,
-"barcode": "3474636404391"
+"barcode": "3474636404391",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/640/4391/front_en.4.400.jpg"
 },
 {
 "id": 25365510,
@@ -9253,7 +9324,8 @@
 "need": "shine",
 "price": 215,
 "stock": 1,
-"barcode": "3474636400201"
+"barcode": "3474636400201",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/640/0201/front_en.4.400.jpg"
 },
 {
 "id": 21937551,
@@ -9344,7 +9416,8 @@
 "need": "shine",
 "price": 135,
 "stock": 1,
-"barcode": "3474636614103"
+"barcode": "3474636614103",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/661/4103/front_es.8.400.jpg"
 },
 {
 "id": 21298748,
@@ -9435,7 +9508,8 @@
 "need": "hairloss",
 "price": 140,
 "stock": 1,
-"barcode": "3474636857814"
+"barcode": "3474636857814",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/685/7814/front_es.3.400.jpg"
 },
 {
 "id": 24554530,
@@ -9500,7 +9574,8 @@
 "need": "heat",
 "price": 170,
 "stock": 1,
-"barcode": "3474636857975"
+"barcode": "3474636857975",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/685/7975/front_en.3.400.jpg"
 },
 {
 "id": 21524143,
@@ -9591,7 +9666,8 @@
 "need": "hairloss",
 "price": 330,
 "stock": 1,
-"barcode": "3474636858002"
+"barcode": "3474636858002",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/685/8002/front_fr.3.400.jpg"
 },
 {
 "id": 24468629,
@@ -9695,7 +9771,8 @@
 "need": "shine",
 "price": 170,
 "stock": 1,
-"barcode": "3474637285012"
+"barcode": "3474637285012",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/728/5012/front_fr.3.400.jpg"
 },
 {
 "id": 25645832,
@@ -9708,7 +9785,8 @@
 "need": "shine",
 "price": 225,
 "stock": 1,
-"barcode": "3474637303365"
+"barcode": "3474637303365",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/730/3365/front_fr.5.400.jpg"
 },
 {
 "id": 25953919,
@@ -9735,6 +9813,7 @@
 "price": 225,
 "stock": 1,
 "barcode": "3474637155025",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/715/5025/front_fr.3.400.jpg",
 "alt_ids": [
 21928743,
 21904423
@@ -9764,7 +9843,8 @@
 "need": "dry",
 "price": 135,
 "stock": 1,
-"barcode": "3474637154943"
+"barcode": "3474637154943",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/715/4943/front_fr.3.400.jpg"
 },
 {
 "id": 22660902,
@@ -9790,7 +9870,8 @@
 "need": "dry",
 "price": 185,
 "stock": 0,
-"barcode": "3474636382699"
+"barcode": "3474636382699",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/638/2699/front_ru.4.400.jpg"
 },
 {
 "id": 22440676,
@@ -9924,7 +10005,8 @@
 "need": "repair",
 "price": 150,
 "stock": 1,
-"barcode": "3474637195809"
+"barcode": "3474637195809",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/719/5809/front_de.4.400.jpg"
 },
 {
 "id": 24554523,
@@ -10002,7 +10084,8 @@
 "need": "repair",
 "price": 135,
 "stock": 0,
-"barcode": "3474636612666"
+"barcode": "3474636612666",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/661/2666/front_fr.4.400.jpg"
 },
 {
 "id": 21298753,
@@ -10015,7 +10098,8 @@
 "need": "repair",
 "price": 135,
 "stock": 2,
-"barcode": "3474636397945"
+"barcode": "3474636397945",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/639/7945/front_en.3.400.jpg"
 },
 {
 "id": 21930595,
@@ -10054,7 +10138,8 @@
 "need": "volume",
 "price": 135,
 "stock": 0,
-"barcode": "3474636397891"
+"barcode": "3474636397891",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/639/7891/front_fr.17.400.jpg"
 },
 {
 "id": 22302926,
@@ -10093,7 +10178,8 @@
 "need": "heat",
 "price": 160,
 "stock": 0,
-"barcode": "3474630652439"
+"barcode": "3474630652439",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/065/2439/front_pt.5.400.jpg"
 },
 {
 "id": 21992677,
@@ -10239,7 +10325,8 @@
 "need": "dry",
 "price": 135,
 "stock": 0,
-"barcode": "3474636695300"
+"barcode": "3474636695300",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/669/5300/front_fr.3.400.jpg"
 },
 {
 "id": 22228787,
@@ -10310,7 +10397,8 @@
 "need": "oily",
 "price": 135,
 "stock": 1,
-"barcode": "3474636954766"
+"barcode": "3474636954766",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/695/4766/front_fr.5.400.jpg"
 },
 {
 "id": 24738389,
@@ -10388,7 +10476,8 @@
 "need": "oily",
 "price": 175,
 "stock": 0,
-"barcode": "3474636954742"
+"barcode": "3474636954742",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/695/4742/front_it.3.400.jpg"
 },
 {
 "id": 23307487,
@@ -10531,7 +10620,8 @@
 "need": "",
 "price": 170,
 "stock": 0,
-"barcode": "8719638140621"
+"barcode": "8719638140621",
+"img": "https://cdn.shopify.com/s/files/1/1059/4834/8765/files/BalmainHair_Tools_ProfessionalCeramicRoundBrush_43mm_Black_2019_800x800_f148.jpg?v=1776266634"
 },
 {
 "id": 22374640,
@@ -10648,7 +10738,8 @@
 "need": "",
 "price": 290,
 "stock": 2,
-"barcode": "8720246241525"
+"barcode": "8720246241525",
+"img": "https://cdn.shopify.com/s/files/1/1059/4834/8765/files/BalmainHair_Accessories_BarrettePourCheveux_Large_Black_800x800_b7d6.jpg?v=1776267912"
 },
 {
 "id": 22160372,
@@ -10661,7 +10752,8 @@
 "need": "",
 "price": 240,
 "stock": 3,
-"barcode": "8720246240153"
+"barcode": "8720246240153",
+"img": "https://cdn.shopify.com/s/files/1/1059/4834/8765/files/BalmainHair_Accessories_BarrettePourCheveux_Medium_Black_800x800_9e0f.jpg?v=1776267870"
 },
 {
 "id": 22160375,
@@ -10687,7 +10779,8 @@
 "need": "",
 "price": 240,
 "stock": 3,
-"barcode": "8720246240160"
+"barcode": "8720246240160",
+"img": "https://cdn.shopify.com/s/files/1/1059/4834/8765/files/BalmainHair_Accessories_BarrettePourCheveux_Medium_White_800x800_2a4f.jpg?v=1776267907"
 },
 {
 "id": 22829769,
@@ -10992,7 +11085,8 @@
 "need": "hold",
 "price": 165,
 "stock": 0,
-"barcode": "8720246249927"
+"barcode": "8720246249927",
+"img": "https://cdn.shopify.com/s/files/1/1059/4834/8765/files/styling_gel_medium_hold_packshot_554b.jpg?v=1776268659"
 },
 {
 "id": 22160247,
@@ -11073,7 +11167,8 @@
 "need": "dry",
 "price": 65,
 "stock": 0,
-"barcode": "8718969473354"
+"barcode": "8718969473354",
+"img": "https://cdn.shopify.com/s/files/1/1059/4834/8765/files/BalmainHair_Care_MoisturizingConditioner_800x800_ada7.jpg?v=1776266822"
 },
 {
 "id": 22160252,
@@ -11125,7 +11220,8 @@
 "need": "",
 "price": 750,
 "stock": 1,
-"barcode": "8720791754327"
+"barcode": "8720791754327",
+"img": "https://cdn.shopify.com/s/files/1/1059/4834/8765/files/BalmainHair_Accessories_Pince____Cheveux_Imperiale_WhiteBlack_HJ_CA_PIN_IM_M_WB_9981.jpg?v=1776269173"
 },
 {
 "id": 24402108,
@@ -11294,7 +11390,8 @@
 "need": "",
 "price": 360,
 "stock": 1,
-"barcode": "8719638146623"
+"barcode": "8719638146623",
+"img": "https://cdn.shopify.com/s/files/1/1059/4834/8765/files/BalmainHair_Tools_AllPurposeSpaBrush_Front_800x800_16eb.jpg?v=1776267475"
 },
 {
 "id": 22160216,
@@ -11899,7 +11996,8 @@
 "need": "scalp",
 "price": 85,
 "stock": 0,
-"barcode": "8719281041313"
+"barcode": "8719281041313",
+"img": "https://images.openbeautyfacts.org/images/products/871/928/104/1313/front_sv.4.400.jpg"
 },
 {
 "id": 22374356,
@@ -12580,7 +12678,8 @@
 "need": "hold",
 "price": 65,
 "stock": 0,
-"barcode": "8719281124283"
+"barcode": "8719281124283",
+"img": "https://images.openbeautyfacts.org/images/products/871/928/112/4283/front_fr.5.400.jpg"
 },
 {
 "id": 24334106,
@@ -12697,7 +12796,8 @@
 "need": "volume",
 "price": 95,
 "stock": 0,
-"barcode": "8719281040118"
+"barcode": "8719281040118",
+"img": "https://images.openbeautyfacts.org/images/products/871/928/104/0118/front_fr.11.400.jpg"
 },
 {
 "id": 21125697,
@@ -12983,7 +13083,8 @@
 "need": "shine",
 "price": 115,
 "stock": 0,
-"barcode": "8718375522622"
+"barcode": "8718375522622",
+"img": "https://images.openbeautyfacts.org/images/products/871/837/552/2622/front_en.3.400.jpg"
 },
 {
 "id": 22343946,
@@ -13574,7 +13675,8 @@
 "need": "repair",
 "price": 20,
 "stock": 0,
-"barcode": "3474636568956"
+"barcode": "3474636568956",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/656/8956/front_fr.3.400.jpg"
 },
 {
 "id": 21181086,
@@ -13587,7 +13689,8 @@
 "need": "repair",
 "price": 130,
 "stock": 0,
-"barcode": "3474636971039"
+"barcode": "3474636971039",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/697/1039/front_fr.3.400.jpg"
 },
 {
 "id": 22577756,
@@ -13694,7 +13797,8 @@
 "need": "repair",
 "price": 80,
 "stock": 1,
-"barcode": "3474636974221"
+"barcode": "3474636974221",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/697/4221/front_en.4.400.jpg"
 },
 {
 "id": 21937649,
@@ -13889,7 +13993,8 @@
 "need": "curls",
 "price": 125,
 "stock": 0,
-"barcode": "3474637069155"
+"barcode": "3474637069155",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/706/9155/front_fr.5.400.jpg"
 },
 {
 "id": 23468505,
@@ -14188,7 +14293,8 @@
 "need": "color",
 "price": 130,
 "stock": 1,
-"barcode": "30160606"
+"barcode": "30160606",
+"img": "https://images.openbeautyfacts.org/images/products/000/003/016/0606/front_ro.3.400.jpg"
 },
 {
 "id": 22949273,
@@ -14309,7 +14415,8 @@
 "need": "repair",
 "price": 110,
 "stock": 1,
-"barcode": "3474636977307"
+"barcode": "3474636977307",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/697/7307/front_fr.3.400.jpg"
 },
 {
 "id": 20181964,
@@ -14374,7 +14481,8 @@
 "need": "repair",
 "price": 80,
 "stock": 1,
-"barcode": "3474636974429"
+"barcode": "3474636974429",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/697/4429/front_en.3.400.jpg"
 },
 {
 "id": 23695756,
@@ -14569,7 +14677,8 @@
 "need": "blonde",
 "price": 80,
 "stock": 1,
-"barcode": "3474636974115"
+"barcode": "3474636974115",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/697/4115/front_fr.7.400.jpg"
 },
 {
 "id": 21107385,
@@ -14582,7 +14691,8 @@
 "need": "volume",
 "price": 75,
 "stock": 0,
-"barcode": "30160293"
+"barcode": "30160293",
+"img": "https://images.openbeautyfacts.org/images/products/000/003/016/0293/front_en.3.400.jpg"
 },
 {
 "id": 22106561,
@@ -14637,7 +14747,8 @@
 "need": "volume",
 "price": 75,
 "stock": 0,
-"barcode": "30165120"
+"barcode": "30165120",
+"img": "https://images.openbeautyfacts.org/images/products/000/003/016/5120/front_it.3.400.jpg"
 },
 {
 "id": 22106564,
@@ -14689,7 +14800,8 @@
 "need": "volume",
 "price": 75,
 "stock": 0,
-"barcode": "30162853"
+"barcode": "30162853",
+"img": "https://images.openbeautyfacts.org/images/products/000/003/016/2853/front_fr.9.400.jpg"
 },
 {
 "id": 20861769,
@@ -14822,7 +14934,8 @@
 "need": "color",
 "price": 80,
 "stock": 1,
-"barcode": "3474636975518"
+"barcode": "3474636975518",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/697/5518/front_fr.5.400.jpg"
 },
 {
 "id": 24651542,
@@ -14887,7 +15000,8 @@
 "need": "color",
 "price": 120,
 "stock": 0,
-"barcode": "3474637268442"
+"barcode": "3474637268442",
+"img": "https://images.openbeautyfacts.org/images/products/347/463/726/8442/front_fr.3.400.jpg"
 },
 {
 "id": 22158631,

@@ -97,12 +97,6 @@
 "src": "moroccanoil.com",
 "url": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/32_CONDITIONER_COLOR-CARE_250mL_v2.jpg?v=1683622419"
 },
-"19320046": {
-"match": "Rose Gold Color Depositing Mask",
-"score": 0.75,
-"src": "moroccanoil.com",
-"url": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/35_COLOR-DEPOSITING-MASK_ROSE-GOLD_200mL_v2.jpg?v=1682818604"
-},
 "19320052": {
 "match": "Rose Gold Color Depositing Mask",
 "score": 1.0,
@@ -312,23 +306,11 @@
 "src": "moroccanoil.com",
 "url": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/88_HAND-CREAM_AMBRE-NOIR_100mL_v2.jpg?v=1682723620"
 },
-"22093188": {
-"match": "Rose Gold Color Depositing Mask",
-"score": 0.75,
-"src": "moroccanoil.com",
-"url": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/35_COLOR-DEPOSITING-MASK_ROSE-GOLD_200mL_v2.jpg?v=1682818604"
-},
 "22093189": {
 "match": "Bordeaux Color Depositing Mask",
 "score": 1.0,
 "src": "moroccanoil.com",
 "url": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/37_COLOR-DEPOSITING-MASK_BORDEAUX_200mL_v2.jpg?v=1682818453"
-},
-"22093190": {
-"match": "Coral Color Depositing Mask",
-"score": 0.75,
-"src": "moroccanoil.com",
-"url": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/40_COLOR-DEPOSITING-MASK_CORAL_200mL_v2.jpg?v=1682818743"
 },
 "22106568": {
 "match": "Kerastase Paris Specifique Masque Rehydratant",
@@ -376,12 +358,6 @@
 "src": "openbeautyfacts",
 "url": "https://images.openbeautyfacts.org/images/products/800/460/824/2666/front_fr.3.400.jpg"
 },
-"22162000": {
-"match": "VOLU Hair Mist",
-"score": 0.67,
-"src": "us.davines.com",
-"url": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70005UCL-VOLU-HAIR-MIST-250ML-8004608301363-1.jpg?v=1777562581"
-},
 "22228783": {
 "match": " ",
 "src": "openbeautyfacts",
@@ -396,11 +372,6 @@
 "match": " ",
 "src": "openbeautyfacts",
 "url": "https://images.openbeautyfacts.org/images/products/347/463/706/9155/front_fr.5.400.jpg"
-},
-"22260766": {
-"match": "Matrix Total results",
-"src": "openbeautyfacts",
-"url": "https://images.openbeautyfacts.org/images/products/088/448/646/2404/front_en.12.400.jpg"
 },
 "22297073": {
 "match": "SOLU Sea Salt Scrub",
@@ -637,12 +608,6 @@
 "score": 0.67,
 "src": "us.davines.com",
 "url": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70032SLC-NOUNOU-COND-250ML-8004608302032-1.jpg?v=1777574110"
-},
-"25873653": {
-"match": "MOMO Solid Shampoo",
-"score": 1.0,
-"src": "us.davines.com",
-"url": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70043UCL-MOMO-SH-BAR-100GR-8004608300281-1.jpg?v=1777569773"
 },
 "25873674": {
 "match": "REBALANCING Shampoo",
