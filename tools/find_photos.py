@@ -59,7 +59,9 @@ def main():
     prods = json.load(open(os.path.join(ROOT, 'products.json')))['products']
     out_f = os.path.join(ROOT, 'tools/photo_found.json')
     found = json.load(open(out_f)) if os.path.exists(out_f) else {}
-    todo = [p for p in prods if not p.get('img') and str(p['id']) not in found]
+    rej_f = os.path.join(ROOT, 'tools/photo_rejected.json')
+    rej = set(json.load(open(rej_f))) if os.path.exists(rej_f) else set()
+    todo = [p for p in prods if not p.get('img') and str(p['id']) not in found and str(p['id']) not in rej]
     todo.sort(key=lambda p: (p['stock'] <= 0, p['brand']))
     def one(p):
         bc = re.sub(r'\D', '', p.get('barcode') or '')
