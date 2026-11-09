@@ -1,4 +1,4 @@
-<title>LamereL Beauty Shop</title>
+<title>LamereL Beauty Center — Батуми</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Onest:wght@400;500;600;700;800&family=Noto+Sans+Georgian:wght@400;500;600;700;800&display=swap">
@@ -285,6 +285,13 @@ nav.sitenav a.booklink{margin-left:auto;background:var(--accent);color:#fff}
 .svh{flex-wrap:nowrap;align-items:center;margin-bottom:14px}
 .svh h2{min-width:0}
 .btn.sm{padding:9px 12px;font-size:11px;letter-spacing:.06em;white-space:nowrap;flex:none}
+.cont{grid-template-columns:repeat(4,minmax(0,1fr))!important;padding-bottom:16px!important}
+.cont a.addr{color:var(--ink)!important;font-weight:500;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.mapbox{border-radius:22px;overflow:hidden;border:1px solid var(--line);height:360px;margin-bottom:44px;background:var(--tile-2)}
+.mapbox iframe{width:100%;height:100%;border:0;display:block}
+footer a{color:inherit}
+@media (max-width:980px){.cont{grid-template-columns:1fr 1fr!important}}
+@media (max-width:560px){.cont{grid-template-columns:1fr!important}.mapbox{height:280px}}
 .svnote{color:var(--muted);font-size:13px;line-height:1.5;max-width:70ch;margin:4px 0 8px}
 .svcat{margin-top:0;border-bottom:1px solid var(--line)}
 .svcat summary{list-style:none;cursor:pointer;padding:16px 0}

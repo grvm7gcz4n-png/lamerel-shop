@@ -119,8 +119,7 @@ function renderStatic(){
   $('#band').innerHTML=`<div><span class="k">${L.orderK}</span><h2>${L.orderH}</h2><p>${L.bandP}</p></div>
     <div class="steps">${L.st.map(s=>`<div><b>${s[0]}</b>${s[1]}</div>`).join('')}</div>`;
   const upd=UPDATED?new Date(UPDATED).toLocaleString(S.lang==='en'?'en-GB':(S.lang==='ka'?'ka-GE':'ru-RU'),{day:'numeric',month:'long',hour:'2-digit',minute:'2-digit'}):'';
-  $('#foot').innerHTML=`<div class="fl"><b>LamereL</b><p style="margin-top:10px">${L.fAbout}</p>${upd?`<p style="margin-top:10px;opacity:.6;font-size:12px">${L.updated}: ${upd}</p>`:''}</div>
-    <div><h4>${L.fAddr}</h4><p>${L.addr}</p></div><div><h4>${L.fPay}</h4><p>${L.pay}</p></div>`;
+  try{$('#foot').innerHTML=footHTML(upd)}catch(e){}
 }
 
 function filtered(){
@@ -427,6 +426,7 @@ const bookSvc=id=>`${BOOK}company/231935/personal/select-master?o=s${id}`;
 const PHONE='+995 555 27-77-00',PHONE_RAW='+995555277700';
 const WA_ICON='<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.2A9.8 9.8 0 0 0 3.6 17l-1.3 4.8 4.9-1.3A9.8 9.8 0 1 0 12 2.2zm0 1.8a8 8 0 1 1-4.1 14.9l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 0 1 12 4z"/><path fill="currentColor" d="M9.1 7.3c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 1.9 3 4.7 4.1 2.3.9 2.8.7 3.3.7.5 0 1.6-.7 1.8-1.3.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3l-1.9-.9c-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6l.4-.5.3-.5c.1-.2 0-.4 0-.5l-.9-2.4z"/></svg>';
 const waLink=()=>'https://wa.me/'+PHONE_RAW.slice(1)+'?text='+encodeURIComponent(h().waText);
+const mapEmbed=()=>`https://www.google.com/maps?q=${encodeURIComponent('LamereL Beauty Center, Zurab Gorgiladze St 98, Batumi')}&hl=${S.lang==='ka'?'ka':S.lang}&z=17&output=embed`;
 const MAP='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent('LamereL Beauty Center, Zurab Gorgiladze St 98, Batumi');
 const H={
 ru:{home:'Главная',salon:'Салон',shop:'Магазин',book:'Онлайн-запись',
@@ -442,7 +442,7 @@ ru:{home:'Главная',salon:'Салон',shop:'Магазин',book:'Онл�
   'Наши гости приезжают со всего мира, поэтому мы говорим с вами на удобном языке и принимаем оплату картой, переводом и наличными.',
   'В магазине LamereL Beauty Shop — оригинальная косметика всех категорий: уход за волосами, лицом и телом, декоративная косметика, люкс-бренды и профессиональные марки. Чего нет в наличии, привезём под заказ.'],
  facts:[['400+','услуг'],['12','направлений'],['300 ₾','бесплатная доставка от']],
- contT:'Контакты',addrL:'Адрес',addr:'Батуми, ул. Зураба Горгиладзе, 98',phoneL:'Телефон',map:'Открыть на карте',wa:'Написать в WhatsApp',
+ contT:'Контакты',hoursL:'Часы работы',hours:'Ежедневно с 10:00 до 20:00',payL:'Оплата',payV:'Карта, перевод, наличные',addrL:'Адрес',addr:'Батуми, ул. Зураба Горгиладзе, 98',phoneL:'Телефон',map:'Открыть на карте',wa:'Написать в WhatsApp',
  svcT:'Услуги салона',svcNote:'Цены указаны в лари. «от» означает, что точная стоимость зависит от зоны, длины волос или препарата — мастер уточнит её на консультации.',
  allSvc:'Все',from:'от',free:'бесплатно',ask:'по консультации',bookS:'Записаться',min:'мин',hr:'ч',svcSearch:'Найти услугу',noSvc:'Ничего не нашлось. Позвоните нам, и мы подскажем.',svcLoading:'Загружаем услуги…',
  svcEmpty:'Список услуг скоро появится. Записаться можно онлайн или по телефону.'},
@@ -459,7 +459,7 @@ ka:{home:'მთავარი',salon:'სალონი',shop:'მაღა�
   'ჩვენთან სტუმრები მთელი მსოფლიოდან მოდიან, ამიტომ გესაუბრებით თქვენთვის მოსახერხებელ ენაზე და ვიღებთ გადახდას ბარათით, გადარიცხვით და ნაღდი ფულით.',
   'LamereL Beauty Shop-ში — ყველა კატეგორიის ორიგინალური კოსმეტიკა: თმის, სახისა და სხეულის მოვლა, დეკორატიული კოსმეტიკა, ლუქს და პროფესიონალური ბრენდები. რაც მარაგში არ არის, შეკვეთით ჩამოვიტანთ.'],
  facts:[['400+','მომსახურება'],['12','მიმართულება'],['300 ₾','უფასო მიწოდება']],
- contT:'კონტაქტი',addrL:'მისამართი',addr:'ბათუმი, ზურაბ გორგილაძის ქ. 98',phoneL:'ტელეფონი',map:'რუკაზე ნახვა',wa:'მოგვწერეთ WhatsApp-ში',
+ contT:'კონტაქტი',hoursL:'სამუშაო საათები',hours:'ყოველდღე 10:00–20:00',payL:'გადახდა',payV:'ბარათი, გადარიცხვა, ნაღდი',addrL:'მისამართი',addr:'ბათუმი, ზურაბ გორგილაძის ქ. 98',phoneL:'ტელეფონი',map:'რუკაზე ნახვა',wa:'მოგვწერეთ WhatsApp-ში',
  svcT:'სალონის მომსახურებები',svcNote:'ფასები მითითებულია ლარში. „-დან“ ნიშნავს, რომ ზუსტი ღირებულება დამოკიდებულია ზონაზე, თმის სიგრძეზე ან პრეპარატზე.',
  allSvc:'ყველა',from:'-დან',free:'უფასო',ask:'კონსულტაციით',bookS:'ჩაწერა',min:'წთ',hr:'სთ',svcSearch:'მომსახურების ძებნა',noSvc:'ვერაფერი მოიძებნა. დაგვირეკეთ და დაგეხმარებით.',svcLoading:'იტვირთება…',
  svcEmpty:'მომსახურებების სია მალე გამოჩნდება. ჩაწერა შესაძლებელია ონლაინ ან ტელეფონით.'},
@@ -476,7 +476,7 @@ en:{home:'Home',salon:'Salon',shop:'Shop',book:'Book online',
   'Our guests come from all over the world, so we speak your language and accept card, bank transfer and cash.',
   'LamereL Beauty Shop offers original cosmetics in every category: hair, face and body care, make-up, luxury and professional brands. Anything we don’t stock, we can order for you.'],
  facts:[['400+','services'],['12','service areas'],['300 ₾','free delivery from']],
- contT:'Contacts',addrL:'Address',addr:'98 Zurab Gorgiladze St, Batumi',phoneL:'Phone',map:'Open in maps',wa:'Message on WhatsApp',
+ contT:'Contacts',hoursL:'Opening hours',hours:'Every day 10:00–20:00',payL:'Payment',payV:'Card, transfer, cash',addrL:'Address',addr:'98 Zurab Gorgiladze St, Batumi',phoneL:'Phone',map:'Open in maps',wa:'Message on WhatsApp',
  svcT:'Salon services',svcNote:'Prices in GEL. “from” means the final price depends on the area, hair length or product — your specialist will confirm it.',
  allSvc:'All',from:'from',free:'free',ask:'on consultation',bookS:'Book',min:'min',hr:'h',svcSearch:'Find a service',noSvc:'Nothing found. Call us and we will help.',svcLoading:'Loading services…',
  svcEmpty:'The service list is coming soon. You can book online or by phone.'}
@@ -556,10 +556,20 @@ function contactsHTML(){
   const L=h();
   return `<section class="wrap hm-sec" id="contacts"><h2 class="hm-h">${L.contT}</h2>
     <div class="cont">
-      <div><span class="cl">${L.addrL}</span><p>${L.addr}</p><a href="${MAP}" target="_blank" rel="noopener">${L.map} →</a></div>
-      <div><span class="cl">${L.phoneL}</span><p><a href="tel:${PHONE_RAW}">${PHONE}</a></p><a class="walink" href="${waLink()}" target="_blank" rel="noopener">${WA_ICON}${L.wa}</a></div>
+      <div><span class="cl">${L.addrL}</span><p><a class="addr" href="${MAP}" target="_blank" rel="noopener">📍 ${L.addr}</a></p><a href="${MAP}" target="_blank" rel="noopener">${L.map} →</a></div>
+      <div><span class="cl">${L.hoursL}</span><p>🕙 ${L.hours}</p></div>
+      <div><span class="cl">${L.phoneL}</span><p><a href="tel:${PHONE_RAW}">📞 ${PHONE}</a></p><a class="walink" href="${waLink()}" target="_blank" rel="noopener">${WA_ICON}${L.wa}</a></div>
       <div><span class="cl">${L.book}</span><p>${L.salonP}</p><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a></div>
-    </div></section>`;
+    </div>
+    <div class="mapbox"><iframe title="Google Maps — LamereL" src="${mapEmbed()}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+  </section>`;
+}
+function footHTML(upd){
+  const L=h(),T0=t();
+  return `<div class="fl"><b>LamereL</b><p style="margin-top:10px">${L.kick}</p>
+    <p style="margin-top:10px"><a href="${BOOK}" target="_blank" rel="noopener">${L.book} →</a></p>${upd?`<p style="margin-top:10px;opacity:.6;font-size:12px">${T0.updated}: ${upd}</p>`:''}</div>
+    <div><h4>${L.addrL}</h4><p><a href="${MAP}" target="_blank" rel="noopener">${L.addr}</a></p><h4 style="margin-top:14px">${L.hoursL}</h4><p>${L.hours}</p></div>
+    <div><h4>${L.phoneL}</h4><p><a href="tel:${PHONE_RAW}">${PHONE}</a></p><p><a href="${waLink()}" target="_blank" rel="noopener">WhatsApp</a></p><h4 style="margin-top:14px">${L.payL}</h4><p>${L.payV}</p></div>`;
 }
 function renderSalon(){
   const L=h();
@@ -611,6 +621,8 @@ function route(){
     document.title=p?`${p.brand} ${nm(p)} — LamereL Beauty Shop`:'LamereL';
   } else document.title=v==='shop'?'LamereL Beauty Shop':'LamereL Beauty Center — Батуми';
   renderSiteNav();
+  const upd=UPDATED?new Date(UPDATED).toLocaleString(S.lang==='en'?'en-GB':(S.lang==='ka'?'ka-GE':'ru-RU'),{day:'numeric',month:'long',hour:'2-digit',minute:'2-digit'}):'';
+  $('#foot').innerHTML=footHTML(upd);
 }
 let lastView=null;
 window.addEventListener('hashchange',()=>{route();if(view()!==lastView)window.scrollTo(0,0);lastView=view()});

@@ -172,7 +172,12 @@ def build_services():
 HEAD=('<!doctype html>\n<html lang="ru">\n<head>\n<meta charset="utf-8">\n'
       '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
       '<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}'
-      ':root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>\n')
+      ':root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>\n'
+      '<meta name="description" content="Центр красоты и магазин косметики в Батуми, ул. Зураба Горгиладзе, 98. Более 400 услуг, онлайн-запись. Ежедневно 10:00–20:00.">\n'
+      '<script type="application/ld+json">{"@context":"https://schema.org","@type":"BeautySalon","name":"LamereL Beauty Center",'
+      '"url":"https://lamerel.ge","telephone":"+995555277700","address":{"@type":"PostalAddress","streetAddress":"Zurab Gorgiladze St 98",'
+      '"addressLocality":"Batumi","addressCountry":"GE"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification",'
+      '"dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"10:00","closes":"20:00"}]}</script>\n')
 
 def main(write_products=True):
     if write_products:
