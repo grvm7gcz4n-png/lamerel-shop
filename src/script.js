@@ -254,7 +254,7 @@ function placeOrder(){
 document.addEventListener('click',e=>{
   const el=e.target.closest('button,a');if(!el)return;const d=el.dataset;if(el.classList.contains('ban'))e.preventDefault();
   if((d.dept||d.cat||d.brand||el.id==='favBtn')&&view()!=='shop'){history.pushState(null,'','#shop');route();window.scrollTo(0,0)}
-  if(d.lang){S.lang=d.lang;ls.set('lml-lang',S.lang);renderStatic();renderGrid();refreshP();if(!$('#drawer').hidden)renderCart()}
+  if(d.lang){S.lang=d.lang;ls.set('lml-lang',S.lang);const lp=$('#langPick');if(lp)lp.remove();document.documentElement.lang=S.lang==='ka'?'ka':S.lang;renderStatic();renderGrid();refreshP();if(!$('#drawer').hidden)renderCart()}
   else if(d.dept){S.dept=d.dept;S.cat='all';S.brand='all';renderStatic();renderGrid();if(el.closest('#hero'))$('#catalog').scrollIntoView({behavior:'smooth'})}
   else if(d.cat){S.cat=d.cat;renderStatic();renderGrid()}
   else if(d.brand){S.brand=d.brand;renderStatic();renderGrid()}
@@ -638,3 +638,15 @@ document.addEventListener('click',e=>{
     if(d.dir!=='all'){const tgt=document.querySelector('#salon .lz')||document.querySelector('#salon .svcat');if(tgt)setTimeout(()=>scrollToEl(tgt),60)}}
 });
 fetch('services.json?v='+Date.now()).then(r=>r.ok?r.json():{categories:[],services:[]}).catch(()=>({categories:[],services:[]})).then(d=>{SV=d;if(view()==='salon')renderSalon()});
+// ===== Выбор языка при первом посещении =====
+(function(){
+  let saved=null;try{saved=localStorage.getItem('lml-lang')}catch(e){}
+  if(saved)return;
+  const nl=(navigator.language||'').slice(0,2);
+  const guess=nl==='ka'?'ka':nl==='ru'||nl==='uk'||nl==='be'||nl==='kk'?'ru':'en';
+  const box=document.createElement('div');box.id='langPick';box.setAttribute('role','dialog');box.setAttribute('aria-modal','true');
+  box.innerHTML=`<div class="lp-card"><img src="logo.png" alt="LamereL" class="lp-logo">
+    <p class="lp-t">Выберите язык<br>აირჩიეთ ენა<br>Choose your language</p>
+    <div class="lp-b">${[['ru','Русский'],['ka','ქართული'],['en','English']].map(([k,n])=>`<button data-lang="${k}"${k===guess?' class="hint"':''}>${n}</button>`).join('')}</div></div>`;
+  document.body.appendChild(box);
+})();
