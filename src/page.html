@@ -340,7 +340,7 @@ footer a{color:inherit}
 .ctile.hot{background:var(--accent);border-color:var(--accent);color:#fff}.ctile.hot small{color:rgba(255,255,255,.8)}.ctile.hot .ic{background:rgba(255,255,255,.18)}
 @media (max-width:760px){.ctiles{grid-template-columns:1fr 1fr}.ctile{padding:12px;gap:9px}.ctile .ic{width:36px;height:36px;font-size:18px}.ctile b{font-size:13.5px;overflow-wrap:anywhere}}
 .svnote{color:var(--muted);font-size:13px;line-height:1.5;max-width:70ch;margin:4px 0 8px}
-.svcat{margin-top:0;border-bottom:1px solid var(--line)}
+.svcat{margin-top:0;border-bottom:1px solid var(--line);scroll-margin-top:210px}
 .svcat summary{list-style:none;cursor:pointer;padding:10px 0}
 .svcat summary::-webkit-details-marker{display:none}
 .svcat h3{font-size:15px;line-height:1.3;margin:0;display:flex;align-items:center;gap:10px}
@@ -384,6 +384,9 @@ footer a{color:inherit}
 }
 .msearch{display:none}
 @media (prefers-reduced-motion:no-preference){.drawer{animation:slide .25s ease-out}@keyframes slide{from{transform:translateX(30px);opacity:.6}}}
+.svcat.lzcat{border:1px solid var(--line);background:#fff;margin:10px 0;padding:0 14px}
+.svcat.lzcat>summary h3{font-size:17px}
+.svcat .sx{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--accent-soft);color:var(--brand);font-size:17px;margin-right:0;padding:0;flex:none}
 </style>
 
 <div class="announce"><div class="wrap">

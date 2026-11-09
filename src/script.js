@@ -624,6 +624,10 @@ function footHTML(upd){
     <div><h4>${L.phoneL}</h4><p><a href="tel:${PHONE_RAW}">${PHONE}</a></p><p><a href="${waLink()}" target="_blank" rel="noopener">WhatsApp</a></p><h4 style="margin-top:14px">${L.payL}</h4><div class="paybadges"><span class="pb">${CARD_ICON}Visa</span><span class="pb">${CARD_ICON}Mastercard</span></div><p>${L.payV}</p></div>
     <div><h4>${L.coopL}</h4><p>${L.coopM}</p><p><a class="fwa" href="https://wa.me/995558655656" target="_blank" rel="noopener">${WA_ICON}WhatsApp +995 558 655 656</a></p></div>`;
 }
+// лазер: зоны свёрнуты, клиент сам открывает «женские» или «мужские»
+const LZS={'♀':{ru:'Женские зоны',ka:'ქალის ზონები',en:'Women’s areas'},'♂':{ru:'Мужские зоны',ka:'მამაკაცის ზონები',en:'Men’s areas'}};
+const lzCat=id=>LASERS.some(l=>l.c.includes(id));
+const lzSex=c=>/мужск|мужчин|♂/.test(c.n.ru)?'♂':'♀';
 function renderSalon(){
   const L=h();
   if(!SV){$('#salon').innerHTML=`<div class="wrap sec"><p class="empty">${L.svcLoading}</p></div>`;return}
@@ -640,7 +644,7 @@ function renderSalon(){
     <div class="subrow dirrow">${['all',...dirs.map(d=>d.k)].map(k=>`<button class="schip dchip${k==='offers'?' hot':''}" data-dir="${k}" aria-pressed="${S.dir===k}">${k==='all'?L.allSvc:`<span class="di" aria-hidden="true">${DIRS.find(d=>d.k===k).ic}</span>`+DIRS.find(d=>d.k===k).n[S.lang]}</button>`).join('')}</div>
     <p class="svnote">${L.svcNote}</p>
     ${S.dir==='laser'?laserIntro(svs):''}
-    ${svs.length?(byCat.length?byCat.map(c=>`<details class="svcat"${S.dir!=='all'||q?' open':''}><summary><h3>${esc(svN(c))}<span>${list.filter(x=>x.cat===c.id).length}</span></h3></summary>
+    ${svs.length?(byCat.length?byCat.map(c=>`<details class="svcat${lzCat(c.id)?' lzcat':''}"${(S.dir!=='all'&&S.dir!=='laser')||q?' open':''}><summary><h3>${lzCat(c.id)?`<span class="sx">${lzSex(c)}</span>`:''}${lzCat(c.id)&&S.lsub!=='all'?LZS[lzSex(c)][S.lang]:esc(svN(c))}<span>${list.filter(x=>x.cat===c.id).length}</span></h3></summary>
       <ul class="svl">${list.filter(x=>x.cat===c.id).sort(svSort).map(x=>`<li><div class="svn">${esc(svN(x))}${durFmt(x.dur)?`<small>${durFmt(x.dur)}</small>`:''}</div><div class="svp">${priceFmt(x)}</div><a class="svb" href="${bookSvc(x.id)}" target="_blank" rel="noopener">${L.bookS}</a></li>`).join('')}</ul></details>`).join(''):`<p class="empty">${L.noSvc}</p>`):`<p class="empty">${L.svcEmpty}</p>`}
   </div>${contactsHTML()}`;
 }
