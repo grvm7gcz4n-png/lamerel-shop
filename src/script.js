@@ -426,6 +426,7 @@ const bookSvc=id=>`${BOOK}company/231935/personal/select-master?o=s${id}`;
 const PHONE='+995 555 27-77-00',PHONE_RAW='+995555277700';
 const WA_ICON='<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.2A9.8 9.8 0 0 0 3.6 17l-1.3 4.8 4.9-1.3A9.8 9.8 0 1 0 12 2.2zm0 1.8a8 8 0 1 1-4.1 14.9l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 0 1 12 4z"/><path fill="currentColor" d="M9.1 7.3c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 1.9 3 4.7 4.1 2.3.9 2.8.7 3.3.7.5 0 1.6-.7 1.8-1.3.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3l-1.9-.9c-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6l.4-.5.3-.5c.1-.2 0-.4 0-.5l-.9-2.4z"/></svg>';
 const waLink=()=>'https://wa.me/'+PHONE_RAW.slice(1)+'?text='+encodeURIComponent(h().waText);
+const CARD_ICON='<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M2.5 9.5h19" stroke="currentColor" stroke-width="2.2"/></svg>';
 const mapEmbed=()=>`https://www.google.com/maps?q=${encodeURIComponent('LamereL Beauty Center, Zurab Gorgiladze St 98, Batumi')}&hl=${S.lang==='ka'?'ka':S.lang}&z=17&output=embed`;
 const MAP='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent('LamereL Beauty Center, Zurab Gorgiladze St 98, Batumi');
 const H={
@@ -567,10 +568,10 @@ function contactsHTML(){
 function footHTML(upd){
   const L=h(),T0=t();
   return `<div class="fl"><b>LamereL</b><p style="margin-top:10px">${L.kick}</p>
-    <p style="margin-top:10px"><a href="${BOOK}" target="_blank" rel="noopener">${L.book} →</a></p>${upd?`<p style="margin-top:10px;opacity:.6;font-size:12px">${T0.updated}: ${upd}</p>`:''}</div>
+    <p style="margin-top:10px"><a href="${BOOK}" target="_blank" rel="noopener">${L.book} →</a></p></div>
     <div><h4>${L.addrL}</h4><p><a href="${MAP}" target="_blank" rel="noopener">${L.addr}</a></p><h4 style="margin-top:14px">${L.hoursL}</h4><p>${L.hours}</p></div>
-    <div><h4>${L.phoneL}</h4><p><a href="tel:${PHONE_RAW}">${PHONE}</a></p><p><a href="${waLink()}" target="_blank" rel="noopener">WhatsApp</a></p><h4 style="margin-top:14px">${L.payL}</h4><p>${L.payV}</p></div>
-    <div><h4>${L.coopL}</h4><p>${L.coopM}</p><p><a href="tel:+995558655656">+995 558 655 656</a></p><p><a href="https://wa.me/995558655656" target="_blank" rel="noopener">WhatsApp</a></p></div>`;
+    <div><h4>${L.phoneL}</h4><p><a href="tel:${PHONE_RAW}">${PHONE}</a></p><p><a href="${waLink()}" target="_blank" rel="noopener">WhatsApp</a></p><h4 style="margin-top:14px">${L.payL}</h4><div class="paybadges"><span class="pb">${CARD_ICON}Visa</span><span class="pb">${CARD_ICON}Mastercard</span></div><p>${L.payV}</p></div>
+    <div><h4>${L.coopL}</h4><p>${L.coopM}</p><p><a class="fwa" href="https://wa.me/995558655656" target="_blank" rel="noopener">${WA_ICON}WhatsApp +995 558 655 656</a></p></div>`;
 }
 function renderSalon(){
   const L=h();
