@@ -672,3 +672,6 @@ fetch('services.json?v='+Date.now()).then(r=>r.ok?r.json():{categories:[],servic
     <div class="lp-b">${[['ru','Русский'],['ka','ქართული'],['en','English']].map(([k,n])=>`<button data-lang="${k}"${k===guess?' class="hint"':''}>${n}</button>`).join('')}</div></div>`;
   document.body.appendChild(box);
 })();
+
+// PWA: установка на телефон как приложение
+if('serviceWorker' in navigator && location.protocol==='https:'){addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}))}

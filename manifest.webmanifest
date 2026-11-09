@@ -1,0 +1,20 @@
+{
+  "name": "LamereL Beauty Center",
+  "short_name": "LamereL",
+  "description": "Салон красоты и магазин косметики в Батуми: услуги, онлайн-запись, магазин.",
+  "start_url": "/?app=1",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F8F3EE",
+  "theme_color": "#681956",
+  "lang": "ru",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Услуги и запись", "url": "/#salon", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Магазин", "url": "/#shop", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]}
+  ]
+}

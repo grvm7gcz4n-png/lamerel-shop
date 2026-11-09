@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#681956">
+<link rel="icon" type="image/png" sizes="48x48" href="icons/favicon-48.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="LamereL">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="description" content="Центр красоты и магазин косметики в Батуми, ул. Зураба Горгиладзе, 98. Более 400 услуг, онлайн-запись. Ежедневно 10:00–20:00.">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BeautySalon","name":"LamereL Beauty Center","url":"https://lamerel.ge","telephone":"+995555277700","address":{"@type":"PostalAddress","streetAddress":"Zurab Gorgiladze St 98","addressLocality":"Batumi","addressCountry":"GE"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"10:00","closes":"20:00"}]}</script>
 <title>LamereL Beauty Center — Батуми</title>
@@ -1109,6 +1117,9 @@ fetch('services.json?v='+Date.now()).then(r=>r.ok?r.json():{categories:[],servic
     <div class="lp-b">${[['ru','Русский'],['ka','ქართული'],['en','English']].map(([k,n])=>`<button data-lang="${k}"${k===guess?' class="hint"':''}>${n}</button>`).join('')}</div></div>`;
   document.body.appendChild(box);
 })();
+
+// PWA: установка на телефон как приложение
+if('serviceWorker' in navigator && location.protocol==='https:'){addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}))}
 
 </script>
 
