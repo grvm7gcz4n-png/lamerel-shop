@@ -75,7 +75,7 @@ nav.cats button.sale{color:var(--accent)}
 
 /* brand strip */
 .brands{border-bottom:1px solid var(--line);overflow:hidden}
-.marq{display:flex;gap:56px;width:max-content;padding-block:18px;animation:mq 40s linear infinite}
+.marq{display:flex;gap:56px;width:max-content;padding-block:18px;animation:mq 240s linear infinite}
 .marq span{font-family:"Unbounded",sans-serif;font-weight:600;font-size:18px;letter-spacing:.02em;white-space:nowrap;text-transform:uppercase}
 @keyframes mq{to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){.marq{animation:none}}
@@ -539,7 +539,7 @@ function renderStatic(){
   $('#subRow').hidden=!SN;
   $('#subRow').innerHTML=subs.map(k=>`<button class="schip" data-cat="${k}" aria-pressed="${S.cat===k}">${k==='all'?(S.dept==='face'?L.allFace:L.allHair):L.nav[k]}</button>`).join('');
   const brands=[...new Set(P.map(p=>p.brand))];
-  const b=brands.map(x=>`<span>${esc(x)}</span>`).join('');$('#marq').innerHTML=(b+b+b+b);requestAnimationFrame(()=>{const m=$('#marq');if(m)m.style.animationDuration=Math.max(40,Math.round(m.scrollWidth/2/30))+'s'});
+  const b=brands.map(x=>`<span>${esc(x)}</span>`).join('');$('#marq').innerHTML=(b+b+b+b);requestAnimationFrame(()=>{const m=$('#marq');if(m)m.style.animationDuration=Math.max(120,Math.round(m.scrollWidth/2/16))+'s'});
   const dbr=[...new Set(P.filter(p=>!['all','instock','fav'].includes(S.dept)?p.dept===S.dept:true).map(p=>p.brand))];
   $('#brandRow').hidden=dbr.length<2;
   $('#brandRow').innerHTML=['all',...dbr].map(x=>`<button class="bchip" data-brand="${esc(x)}" aria-pressed="${S.brand===x}">${x==='all'?L.allBrands:esc(x)}</button>`).join('');
