@@ -1,0 +1,38 @@
+name: Переименование товаров в Altegio (разовое)
+
+on:
+  push:
+    paths:
+      - 'tools/rename_request.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: altegio-sync
+  cancel-in-progress: false
+
+jobs:
+  rename:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Переименовать по плану
+        env:
+          ALTEGIO_PARTNER_TOKEN: ${{ secrets.ALTEGIO_PARTNER_TOKEN }}
+          ALTEGIO_LOGIN: ${{ secrets.ALTEGIO_LOGIN }}
+          ALTEGIO_PASSWORD: ${{ secrets.ALTEGIO_PASSWORD }}
+        run: python tools/rename_goods.py
+      - name: Сохранить отчёт
+        if: always()
+        run: |
+          git config user.name "lamerel-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add tools/rename_report.json || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Отчёт о переименовании товаров"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
