@@ -32,6 +32,8 @@ def main():
             if g.get('title', '').strip() == x['new']:
                 done[gid] = {'old': g['title'], 'new': x['new'], 'note': 'уже было'}; continue
             body = {k: g[k] for k in KEEP if g.get(k) is not None}
+            for k in ('cost', 'unit_equals', 'critical_amount', 'desired_amount'):
+                if k in body: body[k] = float(body[k])
             body.update(title=x['new'], sale_unit_id=g.get('unit_id'), service_unit_id=g.get('service_unit_id'))
             call('PUT', f'/goods/{LOCATION}/{gid}', auth, body)
             time.sleep(0.4)
