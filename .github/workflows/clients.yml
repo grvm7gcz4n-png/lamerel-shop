@@ -1,0 +1,54 @@
+name: Имена клиентов латиницей (разовое)
+
+on:
+  push:
+    paths:
+      - 'tools/client_request.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: altegio-sync
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      ALTEGIO_PARTNER_TOKEN: ${{ secrets.ALTEGIO_PARTNER_TOKEN }}
+      ALTEGIO_LOGIN: ${{ secrets.ALTEGIO_LOGIN }}
+      ALTEGIO_PASSWORD: ${{ secrets.ALTEGIO_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Ключи шифрования (один раз)
+        if: hashFiles('tools/client_pub.pem') == ''
+        run: |
+          test -n "$ALTEGIO_PARTNER_TOKEN"
+          umask 077
+          openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:3072 -out /tmp/priv.pem
+          openssl pkey -in /tmp/priv.pem -pubout -out tools/client_pub.pem
+          openssl enc -aes-256-cbc -pbkdf2 -iter 200000 -salt -in /tmp/priv.pem -out tools/client_priv.enc -pass env:ALTEGIO_PARTNER_TOKEN
+          rm /tmp/priv.pem
+      - name: Переименовать по плану
+        if: hashFiles('tools/client_plan.enc') != ''
+        run: |
+          umask 077
+          openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -in tools/client_priv.enc -out /tmp/priv.pem -pass env:ALTEGIO_PARTNER_TOKEN
+          openssl pkeyutl -decrypt -inkey /tmp/priv.pem -pkeyopt rsa_padding_mode:oaep -pkeyopt rsa_oaep_md:sha256 -in tools/client_plan.key.enc -out /tmp/k.txt
+          openssl enc -d -aes-256-cbc -pbkdf2 -in tools/client_plan.enc -out /tmp/plan.json -pass file:/tmp/k.txt
+          PLAN_FILE=/tmp/plan.json python tools/rename_clients.py
+          rm -f /tmp/priv.pem /tmp/k.txt /tmp/plan.json
+      - name: Сохранить ключ и отчёт
+        if: always()
+        run: |
+          git config user.name "lamerel-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add tools/client_pub.pem tools/client_priv.enc tools/client_rename_report.json 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Имена клиентов: ключ/отчёт"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
