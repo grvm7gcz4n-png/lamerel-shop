@@ -1,15 +1,15 @@
 {
-"updated": "2026-11-08T21:57:39+00:00",
+"updated": "2026-11-09T14:04:03+00:00",
 "products": [
 {
 "id": 14176858,
 "brand": "GIGI",
-"name": "AROMA ESSENSE 250",
-"name_ru": null,
+"name": "Aroma Essence Soap for Sensitive Skin",
+"name_ru": "Мыло для чувствительной кожи Aroma Essence",
 "dept": "face",
 "vol": "250 ml",
-"type": "cream",
-"need": "",
+"type": "cleanser",
+"need": "sensitive",
 "price": 90,
 "stock": 1,
 "barcode": "7290003568208"
@@ -17,12 +17,12 @@
 {
 "id": 14176859,
 "brand": "GIGI",
-"name": "AROMA ESSENSE 250",
-"name_ru": null,
+"name": "Aroma Essence Soap for Oily Skin",
+"name_ru": "Мыло для жирной кожи Aroma Essence",
 "dept": "face",
 "vol": "250 ml",
-"type": "cream",
-"need": "",
+"type": "cleanser",
+"need": "acne",
 "price": 90,
 "stock": 2,
 "barcode": "7290003568215"
@@ -30,12 +30,12 @@
 {
 "id": 14176870,
 "brand": "GIGI",
-"name": "VIT.E SPF 20 50",
-"name_ru": null,
+"name": "Vitamin E Moisturizer SPF 20 for Dry Skin",
+"name_ru": "Увлажняющий крем с витамином E для сухой кожи SPF 20",
 "dept": "face",
 "vol": "50 ml",
-"type": "spf",
-"need": "",
+"type": "cream",
+"need": "dry",
 "price": 180,
 "stock": 1,
 "barcode": "7290003568451"
@@ -43,11 +43,11 @@
 {
 "id": 14176873,
 "brand": "GIGI",
-"name": "VIT.E P.H.5.5",
-"name_ru": null,
+"name": "Vitamin E Soapless Soap pH 5.5",
+"name_ru": "Жидкое мыло с витамином E pH 5.5",
 "dept": "face",
 "vol": "",
-"type": "cream",
+"type": "cleanser",
 "need": "",
 "price": 140,
 "stock": 1,
@@ -56,12 +56,12 @@
 {
 "id": 14176882,
 "brand": "GIGI",
-"name": "NUTRI-PEPTIDE 50",
-"name_ru": null,
+"name": "Nutri-Peptide Purifying Clay Mask",
+"name_ru": "Очищающая глиняная маска для жирной кожи Nutri-Peptide",
 "dept": "face",
 "vol": "",
-"type": "cream",
-"need": "",
+"type": "mask",
+"need": "acne",
 "price": 130,
 "stock": 1,
 "barcode": "7290015443326"
@@ -69,12 +69,12 @@
 {
 "id": 14176883,
 "brand": "GIGI",
-"name": "NUTRI-PEPTIDE 20",
-"name_ru": null,
+"name": "Nutri-Peptide Eye Cream",
+"name_ru": "Крем для век Nutri-Peptide",
 "dept": "face",
 "vol": "20 ml",
 "type": "eye",
-"need": "",
+"need": "antiage",
 "price": 120,
 "stock": 1,
 "barcode": "7290015443364"
@@ -82,12 +82,12 @@
 {
 "id": 14178841,
 "brand": "GIGI",
-"name": "AROMA ESSENCE calendula soap 200",
-"name_ru": null,
+"name": "Aroma Essence Calendula Soap",
+"name_ru": "Мыло с календулой для всех типов кожи Aroma Essence",
 "dept": "face",
 "vol": "200 ml",
 "type": "cleanser",
-"need": "",
+"need": "sensitive",
 "price": 95,
 "stock": 1,
 "barcode": "7290003568376"
@@ -95,12 +95,12 @@
 {
 "id": 14178915,
 "brand": "GIGI",
-"name": "VIT.E 30",
-"name_ru": null,
+"name": "Vitamin E Serum",
+"name_ru": "Сыворотка с витамином E",
 "dept": "face",
 "vol": "30 ml",
-"type": "cream",
-"need": "",
+"type": "serum",
+"need": "dry",
 "price": 180,
 "stock": 1,
 "barcode": "7290003568475"
@@ -108,12 +108,12 @@
 {
 "id": 14178929,
 "brand": "GIGI",
-"name": "VIT.E 50",
-"name_ru": null,
+"name": "Vitamin E Night Lifting Cream",
+"name_ru": "Ночной лифтинг-крем с витамином E",
 "dept": "face",
 "vol": "50 ml",
 "type": "cream",
-"need": "",
+"need": "antiage",
 "price": 180,
 "stock": 1,
 "barcode": "7290011905057"
@@ -121,12 +121,12 @@
 {
 "id": 14179054,
 "brand": "GIGI",
-"name": "NUTRI-PEPTIDE 50",
-"name_ru": null,
+"name": "Nutri-Peptide Night Cream",
+"name_ru": "Ночной крем Nutri-Peptide",
 "dept": "face",
 "vol": "50 ml",
 "type": "cream",
-"need": "",
+"need": "antiage",
 "price": 130,
 "stock": 1,
 "barcode": "7290015443340"
@@ -134,12 +134,12 @@
 {
 "id": 14179146,
 "brand": "GIGI",
-"name": "ESTER C 50",
-"name_ru": null,
+"name": "Ester C Lotion with Rice Extract",
+"name_ru": "Лосьон с экстрактом риса Ester C",
 "dept": "face",
 "vol": "50 ml",
-"type": "cream",
-"need": "",
+"type": "toner",
+"need": "bright",
 "price": 120,
 "stock": 1,
 "barcode": "7290015443098"
@@ -147,24 +147,24 @@
 {
 "id": 14179551,
 "brand": "GIGI",
-"name": "SUN CARE SPF30 75",
-"name_ru": null,
+"name": "Sun Care SPF 30 for Oily Skin",
+"name_ru": "Солнцезащитный крем SPF 30 для жирной кожи",
 "dept": "face",
 "vol": "75 ml",
 "type": "spf",
-"need": "",
+"need": "acne",
 "price": 130,
 "stock": 2
 },
 {
 "id": 14179581,
 "brand": "GIGI",
-"name": "A.N",
-"name_ru": null,
+"name": "Acnon Anti-Acne Kit",
+"name_ru": "Набор против акне Acnon",
 "dept": "face",
 "vol": "",
-"type": "cream",
-"need": "",
+"type": "kit",
+"need": "acne",
 "price": 300,
 "stock": 1,
 "barcode": "7290016912562"
@@ -172,12 +172,12 @@
 {
 "id": 14179676,
 "brand": "GIGI",
-"name": "ESTER C SPF 20 50",
-"name_ru": null,
+"name": "Ester C Moisturizer SPF 20",
+"name_ru": "Увлажняющий крем Ester C SPF 20",
 "dept": "face",
 "vol": "50 ml",
-"type": "spf",
-"need": "",
+"type": "cream",
+"need": "bright",
 "price": 140,
 "stock": 1,
 "barcode": "7290015443081"
@@ -185,12 +185,12 @@
 {
 "id": 14179885,
 "brand": "GIGI",
-"name": "RECOVERY 50",
-"name_ru": null,
+"name": "Recovery Redness Relief Cream",
+"name_ru": "Крем против покраснений Recovery",
 "dept": "face",
 "vol": "50 ml",
 "type": "cream",
-"need": "",
+"need": "sensitive",
 "price": 250,
 "stock": 1,
 "barcode": "7290011905583"
@@ -198,12 +198,12 @@
 {
 "id": 14179904,
 "brand": "GIGI",
-"name": "ESTER C 50",
-"name_ru": null,
+"name": "Ester C Whitening Cream",
+"name_ru": "Осветляющий крем Ester C",
 "dept": "face",
 "vol": "50 ml",
 "type": "cream",
-"need": "",
+"need": "bright",
 "price": 190,
 "stock": 1,
 "barcode": "7290015443029"
@@ -211,12 +211,12 @@
 {
 "id": 14179931,
 "brand": "GIGI",
-"name": "A.N, 100",
-"name_ru": null,
+"name": "Acnon Mild Soap",
+"name_ru": "Мягкое мыло Acnon",
 "dept": "face",
 "vol": "100 ml",
-"type": "cream",
-"need": "",
+"type": "cleanser",
+"need": "acne",
 "price": 120,
 "stock": 2,
 "barcode": "7290015443203"
@@ -224,12 +224,12 @@
 {
 "id": 14179993,
 "brand": "GIGI",
-"name": "BIO DERM \" \" 250",
-"name_ru": null,
+"name": "Bio Derm Lotion",
+"name_ru": "Лосьон-болтушка Bio Derm",
 "dept": "face",
 "vol": "250 ml",
-"type": "cream",
-"need": "",
+"type": "toner",
+"need": "acne",
 "price": 130,
 "stock": 1,
 "barcode": "7290011905460"
@@ -237,12 +237,12 @@
 {
 "id": 14180127,
 "brand": "GIGI",
-"name": "ESTER C Total Serum",
-"name_ru": null,
+"name": "Ester C Total Serum",
+"name_ru": "Сыворотка Ester C Total",
 "dept": "face",
 "vol": "30 ml",
 "type": "serum",
-"need": "",
+"need": "bright",
 "price": 240,
 "stock": 1,
 "barcode": "7290015443074"
@@ -250,12 +250,12 @@
 {
 "id": 14802184,
 "brand": "GIGI",
-"name": "Pore Purifying Mask For oily & problematic skin",
-"name_ru": null,
+"name": "Pore Purifying Mask",
+"name_ru": "Маска для очищения пор для жирной и проблемной кожи",
 "dept": "face",
 "vol": "",
 "type": "mask",
-"need": "",
+"need": "acne",
 "price": 130,
 "stock": 1,
 "barcode": "7290015443227"
@@ -263,20 +263,20 @@
 {
 "id": 15761197,
 "brand": "GIGI",
-"name": "SUN CARE SPF 30 75",
-"name_ru": null,
+"name": "Sun Care Ultra Mattifying SPF 30",
+"name_ru": "Ультраматирующий солнцезащитный крем SPF 30",
 "dept": "face",
 "vol": "75 ml",
 "type": "spf",
-"need": "",
+"need": "acne",
 "price": 130,
 "stock": 2
 },
 {
 "id": 17443182,
 "brand": "GIGI",
-"name": "SUN CARE SPF 40 Ultra Light Facial Sun Screen Advanced Protection",
-"name_ru": null,
+"name": "Sun Care SPF 40 Ultra Light",
+"name_ru": "Ультралёгкий солнцезащитный крем SPF 40",
 "dept": "face",
 "vol": "",
 "type": "spf",
@@ -288,12 +288,12 @@
 {
 "id": 18993892,
 "brand": "ZO Skin Health",
-"name": "ZEIN OBAGI Complexion Clearing Masque",
-"name_ru": null,
+"name": "Complexion Clearing Masque",
+"name_ru": "Очищающая маска Complexion Clearing",
 "dept": "face",
 "vol": "",
 "type": "mask",
-"need": "",
+"need": "acne",
 "price": 155,
 "stock": 1,
 "barcode": "810866012747"
@@ -327,12 +327,12 @@
 {
 "id": 19970782,
 "brand": "GIGI",
-"name": "A..N",
-"name_ru": null,
+"name": "Acnon Spot Gel",
+"name_ru": "Точечный гель Acnon",
 "dept": "face",
 "vol": "",
-"type": "cream",
-"need": "",
+"type": "serum",
+"need": "acne",
 "price": 95,
 "stock": 1,
 "barcode": "7290016906509"
@@ -366,12 +366,12 @@
 {
 "id": 21181932,
 "brand": "GIGI",
-"name": "NA G4",
-"name_ru": null,
+"name": "New Age G4 Peeling Soap",
+"name_ru": "Мыло-пилинг New Age G4",
 "dept": "face",
 "vol": "",
-"type": "cream",
-"need": "",
+"type": "cleanser",
+"need": "antiage",
 "price": 160,
 "stock": 1,
 "barcode": "7290018221662"
@@ -406,11 +406,11 @@
 "id": 21740447,
 "brand": "GIGI",
 "name": "Acnon Day Control Moisturizer",
-"name_ru": null,
+"name_ru": "Дневной увлажняющий крем Acnon",
 "dept": "face",
 "vol": "",
 "type": "cream",
-"need": "",
+"need": "acne",
 "price": 140,
 "stock": 1,
 "barcode": "7290015443845"
@@ -418,12 +418,12 @@
 {
 "id": 21839988,
 "brand": "GIGI",
-"name": "NEW AGE G4 GLOW UP 30",
-"name_ru": null,
+"name": "New Age G4 Glow Up Serum",
+"name_ru": "Сыворотка для сияния New Age G4 Glow Up",
 "dept": "face",
 "vol": "30 ml",
-"type": "cream",
-"need": "",
+"type": "serum",
+"need": "bright",
 "price": 270,
 "stock": 1,
 "barcode": "7290018221303"
@@ -444,12 +444,12 @@
 {
 "id": 21872800,
 "brand": "GIGI",
-"name": "A.N, 100",
-"name_ru": null,
+"name": "Acnon Mild Soap for Sensitive Skin",
+"name_ru": "Мягкое мыло для чувствительной кожи Acnon",
 "dept": "face",
 "vol": "100 ml",
-"type": "cream",
-"need": "",
+"type": "cleanser",
+"need": "sensitive",
 "price": 135,
 "stock": 1,
 "barcode": "7290016931754"
@@ -470,12 +470,12 @@
 {
 "id": 22121343,
 "brand": "GIGI",
-"name": "R A M.R.S 75",
-"name_ru": null,
+"name": "Retin A MRS Cream",
+"name_ru": "Крем Retin A MRS",
 "dept": "face",
 "vol": "75 ml",
 "type": "cream",
-"need": "",
+"need": "antiage",
 "price": 160,
 "stock": 1,
 "barcode": "7290018221556"
@@ -536,7 +536,7 @@
 "id": 23209748,
 "brand": "Dermalogica",
 "name": "Daily Microfoliant",
-"name_ru": null,
+"name_ru": "Рисовый эксфолиант Daily Microfoliant",
 "dept": "face",
 "vol": "74 g",
 "type": "peel",
@@ -613,11 +613,11 @@
 {
 "id": 24655526,
 "brand": "ZO Skin Health",
-"name": "Daily Power Defense & Smart Tone",
-"name_ru": null,
+"name": "Daily Power Defense + Smart Tone Set",
+"name_ru": "Набор Daily Power Defense и Smart Tone",
 "dept": "face",
 "vol": "15 ml",
-"type": "cream",
+"type": "kit",
 "need": "",
 "price": 255,
 "stock": 1
@@ -625,8 +625,8 @@
 {
 "id": 24655547,
 "brand": "ZO Skin Health",
-"name": "Broad Spectrum Sunscreen SPF50",
-"name_ru": null,
+"name": "Broad Spectrum Sunscreen SPF 50",
+"name_ru": "Солнцезащитный крем SPF 50",
 "dept": "face",
 "vol": "",
 "type": "spf",
@@ -639,11 +639,11 @@
 "id": 24655557,
 "brand": "ZO Skin Health",
 "name": "Firming Serum",
-"name_ru": null,
+"name_ru": "Укрепляющая сыворотка Firming Serum",
 "dept": "face",
 "vol": "47 ml",
 "type": "serum",
-"need": "",
+"need": "antiage",
 "price": 650,
 "stock": 1,
 "barcode": "810866012389"
@@ -833,11 +833,11 @@
 "id": 25669126,
 "brand": "Dermalogica",
 "name": "Daily Milkfoliant",
-"name_ru": null,
+"name_ru": "Мягкий эксфолиант Daily Milkfoliant",
 "dept": "face",
 "vol": "13 g",
 "type": "peel",
-"need": "",
+"need": "sensitive",
 "price": 55,
 "stock": 1,
 "barcode": "666151112780"
@@ -845,8 +845,8 @@
 {
 "id": 25669192,
 "brand": "Dermalogica",
-"name": "Liquid peelfoliant",
-"name_ru": null,
+"name": "Liquid Peelfoliant",
+"name_ru": "Жидкий пилинг Liquid Peelfoliant",
 "dept": "face",
 "vol": "59 ml",
 "type": "peel",
@@ -884,12 +884,12 @@
 {
 "id": 25895623,
 "brand": "GIGI",
-"name": "ESTER C sebotherapy",
-"name_ru": null,
+"name": "Ester C Sebotherapy",
+"name_ru": "Себорегулирующий крем Ester C Sebotherapy",
 "dept": "face",
 "vol": "50 ml",
 "type": "cream",
-"need": "",
+"need": "acne",
 "price": 150,
 "stock": 1,
 "barcode": "7290015443036"
@@ -949,12 +949,12 @@
 {
 "id": 25895891,
 "brand": "GIGI",
-"name": "Acnon spotless skin refresher for oily problematic skin",
-"name_ru": null,
+"name": "Acnon Spotless Skin Refresher",
+"name_ru": "Освежающий тоник для жирной и проблемной кожи Acnon",
 "dept": "face",
 "vol": "",
-"type": "cream",
-"need": "",
+"type": "toner",
+"need": "acne",
 "price": 160,
 "stock": 1,
 "barcode": "7290015443210"
@@ -962,12 +962,12 @@
 {
 "id": 25895896,
 "brand": "GIGI",
-"name": "Acnon blemish cover stik",
-"name_ru": null,
+"name": "Acnon Blemish Cover Stick",
+"name_ru": "Маскирующий карандаш Acnon",
 "dept": "face",
 "vol": "",
-"type": "cream",
-"need": "",
+"type": "serum",
+"need": "acne",
 "price": 130,
 "stock": 1,
 "barcode": "7290019465911"
@@ -975,12 +975,12 @@
 {
 "id": 25895907,
 "brand": "GIGI",
-"name": "Acnon triple acidrapid wipes",
-"name_ru": null,
+"name": "Acnon Triple Acid Rapid Wipes",
+"name_ru": "Салфетки с тремя кислотами Acnon",
 "dept": "face",
 "vol": "",
-"type": "cream",
-"need": "",
+"type": "peel",
+"need": "acne",
 "price": 150,
 "stock": 1,
 "barcode": "7290016914580"
@@ -2128,7 +2128,7 @@
 "stock": 8
 },
 {
-"id": 18744633,
+"id": 25798358,
 "brand": "Davines",
 "name": "DEDE Delicate Conditioner",
 "name_ru": "Кондиционер для блеска DEDE Delicate",
@@ -2136,9 +2136,12 @@
 "vol": "250 ml",
 "type": "conditioner",
 "need": "shine",
-"price": 90,
-"stock": 0,
-"barcode": "8004608276937"
+"price": 80,
+"stock": 3,
+"barcode": "8004608293149",
+"alt_ids": [
+18744633
+]
 },
 {
 "id": 18744669,
@@ -2183,7 +2186,7 @@
 "img": "https://davines.ru/upload/iblock/e09/4vw28ukcbab6gg7ttaxjr46ez4or98i2.jpg"
 },
 {
-"id": 21762561,
+"id": 22869544,
 "brand": "Davines",
 "name": "DEDE Delicate Shampoo",
 "name_ru": "Шампунь для блеска DEDE Delicate",
@@ -2192,9 +2195,12 @@
 "type": "shampoo",
 "need": "shine",
 "price": 35,
-"stock": 0,
-"barcode": "8004608242987",
-"img": "https://davines.ru/upload/iblock/1d6/tbzxqk1yuyiy5smmkcgtf7dmryfn345o.jpg"
+"stock": 1,
+"barcode": "8004608282266",
+"img": "https://davines.ru/upload/iblock/1d6/tbzxqk1yuyiy5smmkcgtf7dmryfn345o.jpg",
+"alt_ids": [
+21762561
+]
 },
 {
 "id": 21762562,
@@ -2345,7 +2351,7 @@
 "barcode": "8004608265443"
 },
 {
-"id": 22297077,
+"id": 24279815,
 "brand": "Davines",
 "name": "DEDE Delicate Shampoo",
 "name_ru": "Шампунь для блеска DEDE Delicate",
@@ -2355,22 +2361,11 @@
 "need": "shine",
 "price": 65,
 "stock": 0,
-"barcode": "8004608242185",
-"img": "https://davines.ru/upload/iblock/1d6/tbzxqk1yuyiy5smmkcgtf7dmryfn345o.jpg"
-},
-{
-"id": 22869544,
-"brand": "Davines",
-"name": "DEDE Delicate Shampoo",
-"name_ru": "Шампунь для блеска DEDE Delicate",
-"dept": "hair",
-"vol": "75 ml",
-"type": "shampoo",
-"need": "shine",
-"price": 35,
-"stock": 1,
-"barcode": "8004608282266",
-"img": "https://davines.ru/upload/iblock/1d6/tbzxqk1yuyiy5smmkcgtf7dmryfn345o.jpg"
+"barcode": "8004608280484",
+"img": "https://davines.ru/upload/iblock/1d6/tbzxqk1yuyiy5smmkcgtf7dmryfn345o.jpg",
+"alt_ids": [
+22297077
+]
 },
 {
 "id": 22929627,
@@ -2438,20 +2433,6 @@
 "price": 70,
 "stock": 4,
 "barcode": "8004608275411"
-},
-{
-"id": 24279815,
-"brand": "Davines",
-"name": "DEDE Delicate Shampoo",
-"name_ru": "Шампунь для блеска DEDE Delicate",
-"dept": "hair",
-"vol": "250 ml",
-"type": "shampoo",
-"need": "shine",
-"price": 65,
-"stock": 0,
-"barcode": "8004608280484",
-"img": "https://davines.ru/upload/iblock/1d6/tbzxqk1yuyiy5smmkcgtf7dmryfn345o.jpg"
 },
 {
 "id": 24783636,
@@ -2560,19 +2541,6 @@
 "barcode": "8004608248965"
 },
 {
-"id": 25798358,
-"brand": "Davines",
-"name": "DEDE Delicate Conditioner",
-"name_ru": "Кондиционер для блеска DEDE Delicate",
-"dept": "hair",
-"vol": "250 ml",
-"type": "conditioner",
-"need": "shine",
-"price": 80,
-"stock": 3,
-"barcode": "8004608293149"
-},
-{
 "id": 25873611,
 "brand": "Davines",
 "name": "MOMO Conditioner",
@@ -2582,9 +2550,12 @@
 "type": "conditioner",
 "need": "dry",
 "price": 80,
-"stock": 1,
+"stock": 2,
 "barcode": "8004608276715",
-"img": "https://davines.ru/upload/iblock/107/h5qcvkrmp0smcqa1hdj0jv7ldqpq4zgn.jpg"
+"img": "https://davines.ru/upload/iblock/107/h5qcvkrmp0smcqa1hdj0jv7ldqpq4zgn.jpg",
+"alt_ids": [
+21885745
+]
 },
 {
 "id": 25873631,
@@ -2598,7 +2569,10 @@
 "price": 80,
 "stock": 2,
 "barcode": "8004608296416",
-"img": "https://davines.ru/upload/iblock/aae/76uvlu23joijg5irdl7tyla9c2onv1c7.jpg"
+"img": "https://davines.ru/upload/iblock/aae/76uvlu23joijg5irdl7tyla9c2onv1c7.jpg",
+"alt_ids": [
+21180431
+]
 },
 {
 "id": 25873649,
@@ -2610,8 +2584,11 @@
 "type": "conditioner",
 "need": "repair",
 "price": 80,
-"stock": 1,
-"barcode": "8004608293439"
+"stock": 2,
+"barcode": "8004608293439",
+"alt_ids": [
+21762574
+]
 },
 {
 "id": 25873651,
@@ -2624,7 +2601,10 @@
 "need": "repair",
 "price": 75,
 "stock": 0,
-"barcode": "8004608293422"
+"barcode": "8004608293422",
+"alt_ids": [
+21762572
+]
 },
 {
 "id": 25873653,
@@ -2636,8 +2616,11 @@
 "type": "shampoo",
 "need": "dry",
 "price": 75,
-"stock": 1,
-"barcode": "8004608289005"
+"stock": 2,
+"barcode": "8004608289005",
+"alt_ids": [
+21885746
+]
 },
 {
 "id": 25873660,
@@ -2759,20 +2742,6 @@
 "price": 75,
 "stock": 1,
 "barcode": "8004608275039"
-},
-{
-"id": 21180431,
-"brand": "Davines",
-"name": "LOVE Curl Conditioner",
-"name_ru": "Кондиционер для кудрявых волос LOVE Curl",
-"dept": "hair",
-"vol": "250 ml",
-"type": "conditioner",
-"need": "curls",
-"price": 85,
-"stock": 0,
-"barcode": "8004608275893",
-"img": "https://davines.ru/upload/iblock/aae/76uvlu23joijg5irdl7tyla9c2onv1c7.jpg"
 },
 {
 "id": 21180523,
@@ -3030,7 +2999,7 @@
 "img": "https://davines.ru/upload/iblock/815/7szichb0u5k84ta0wmqe8jwxyuyubyz5.jpg"
 },
 {
-"id": 22099075,
+"id": 24868138,
 "brand": "Davines",
 "name": "This is a Curl Building Serum",
 "name_ru": "Средство для укладки для кудрявых волос This is a Curl Building",
@@ -3038,10 +3007,13 @@
 "vol": "100 ml",
 "type": "styling",
 "need": "curls",
-"price": 65,
-"stock": 0,
-"barcode": "8004608237488",
-"img": "https://davines.ru/upload/iblock/d07/umiayre28q0tsb2zkunh6rh4bq8n4o41.jpg"
+"price": 60,
+"stock": 1,
+"barcode": "8004608284604",
+"img": "https://davines.ru/upload/iblock/d07/umiayre28q0tsb2zkunh6rh4bq8n4o41.jpg",
+"alt_ids": [
+22099075
+]
 },
 {
 "id": 22161999,
@@ -3165,7 +3137,7 @@
 "barcode": "8004608275558"
 },
 {
-"id": 22535910,
+"id": 23029599,
 "brand": "Davines",
 "name": "Liquid Spell Reinforcing Bodifying Fluid",
 "name_ru": "Флюид для объёма Liquid Spell Reinforcing Bodifying",
@@ -3173,10 +3145,13 @@
 "vol": "125 ml",
 "type": "leavein",
 "need": "volume",
-"price": 75,
-"stock": 0,
-"barcode": "8004608271246",
-"img": "https://davines.ru/upload/iblock/e3f/cxta88xwk2vw3e90thoyfhg2xrlqk3hm.jpg"
+"price": 65,
+"stock": 2,
+"barcode": "8004608286417",
+"img": "https://davines.ru/upload/iblock/e3f/cxta88xwk2vw3e90thoyfhg2xrlqk3hm.jpg",
+"alt_ids": [
+22535910
+]
 },
 {
 "id": 22535914,
@@ -3216,20 +3191,6 @@
 "price": 75,
 "stock": 0,
 "barcode": "8004608284475"
-},
-{
-"id": 23029599,
-"brand": "Davines",
-"name": "Liquid Spell Reinforcing Bodifying Fluid",
-"name_ru": "Флюид для объёма Liquid Spell Reinforcing Bodifying",
-"dept": "hair",
-"vol": "125 ml",
-"type": "leavein",
-"need": "volume",
-"price": 65,
-"stock": 2,
-"barcode": "8004608286417",
-"img": "https://davines.ru/upload/iblock/e3f/cxta88xwk2vw3e90thoyfhg2xrlqk3hm.jpg"
 },
 {
 "id": 23435517,
@@ -3477,7 +3438,7 @@
 "img": "https://davines.ru/upload/iblock/587/eavtivtpw01l79vhug5cqqhlz354ldxw.jpg"
 },
 {
-"id": 21762554,
+"id": 23029630,
 "brand": "Davines",
 "name": "NaturalTech Rebalancing Shampoo",
 "name_ru": "Шампунь для жирной кожи головы NaturalTech Rebalancing",
@@ -3487,7 +3448,10 @@
 "need": "oily",
 "price": 35,
 "stock": 0,
-"barcode": "8004608256816"
+"barcode": "8004608279341",
+"alt_ids": [
+21762554
+]
 },
 {
 "id": 21762555,
@@ -3559,32 +3523,6 @@
 "barcode": "8004608242932"
 },
 {
-"id": 21762572,
-"brand": "Davines",
-"name": "NOUNOU Nourishing Shampoo",
-"name_ru": "Шампунь для восстановления NOUNOU Nourishing",
-"dept": "hair",
-"vol": "250 ml",
-"type": "shampoo",
-"need": "repair",
-"price": 75,
-"stock": 0,
-"barcode": "8004608241997"
-},
-{
-"id": 21762574,
-"brand": "Davines",
-"name": "NOUNOU Nourishing Conditioner",
-"name_ru": "Кондиционер для восстановления NOUNOU Nourishing",
-"dept": "hair",
-"vol": "250 ml",
-"type": "conditioner",
-"need": "repair",
-"price": 85,
-"stock": 1,
-"barcode": "8004608275886"
-},
-{
 "id": 21832513,
 "brand": "Davines",
 "name": "NOUNOU Hair Mask",
@@ -3651,33 +3589,6 @@
 "stock": 1,
 "barcode": "8004608278450",
 "img": "https://davines.ru/upload/iblock/73f/x4r4u02wl83v13r3wdujkbkdan07ldci.jpg"
-},
-{
-"id": 21885745,
-"brand": "Davines",
-"name": "MOMO Conditioner",
-"name_ru": "Кондиционер для увлажнения MOMO",
-"dept": "hair",
-"vol": "250 ml",
-"type": "conditioner",
-"need": "dry",
-"price": 85,
-"stock": 1,
-"barcode": "8004608290339",
-"img": "https://davines.ru/upload/iblock/107/h5qcvkrmp0smcqa1hdj0jv7ldqpq4zgn.jpg"
-},
-{
-"id": 21885746,
-"brand": "Davines",
-"name": "MOMO Shampoo",
-"name_ru": "Шампунь для увлажнения MOMO",
-"dept": "hair",
-"vol": "250 ml",
-"type": "shampoo",
-"need": "dry",
-"price": 75,
-"stock": 1,
-"barcode": "8004608280460"
 },
 {
 "id": 21885765,
@@ -3884,19 +3795,6 @@
 "img": "https://davines.ru/upload/iblock/427/6h7g3l48bddx00zyuh0b09y1k1upvmr1.png"
 },
 {
-"id": 23029630,
-"brand": "Davines",
-"name": "NaturalTech Rebalancing Shampoo",
-"name_ru": "Шампунь для жирной кожи головы NaturalTech Rebalancing",
-"dept": "hair",
-"vol": "100 ml",
-"type": "shampoo",
-"need": "oily",
-"price": 35,
-"stock": 0,
-"barcode": "8004608279341"
-},
-{
 "id": 23260180,
 "brand": "Davines",
 "name": "NaturalTech Renewing Shampoo",
@@ -3950,20 +3848,6 @@
 "stock": 1,
 "barcode": "8004608286967",
 "img": "https://davines.ru/upload/iblock/67c/y0iidwd001ae3cpov6mitjmpgcyr7ofy.jpg"
-},
-{
-"id": 24868138,
-"brand": "Davines",
-"name": "This is a Curl Building Serum",
-"name_ru": "Средство для укладки для кудрявых волос This is a Curl Building",
-"dept": "hair",
-"vol": "100 ml",
-"type": "styling",
-"need": "curls",
-"price": 60,
-"stock": 1,
-"barcode": "8004608284604",
-"img": "https://davines.ru/upload/iblock/d07/umiayre28q0tsb2zkunh6rh4bq8n4o41.jpg"
 },
 {
 "id": 24868141,
@@ -4252,7 +4136,7 @@
 "barcode": "8054726570646"
 },
 {
-"id": 14890097,
+"id": 25260805,
 "brand": "Philip Martin's",
 "name": "Calming Spray",
 "name_ru": "Спрей для кожи головы Calming",
@@ -4260,9 +4144,12 @@
 "vol": "150 ml",
 "type": "leavein",
 "need": "scalp",
-"price": 80,
-"stock": 1,
-"barcode": "8054726572404"
+"price": 70,
+"stock": 2,
+"barcode": "8057587040679",
+"alt_ids": [
+14890097
+]
 },
 {
 "id": 14890099,
@@ -4304,7 +4191,7 @@
 "barcode": "8054726573883"
 },
 {
-"id": 21179968,
+"id": 22781576,
 "brand": "Philip Martin's",
 "name": "Canapa Wash",
 "name_ru": "Шампунь против выпадения Canapa Wash",
@@ -4312,9 +4199,12 @@
 "vol": "",
 "type": "shampoo",
 "need": "hairloss",
-"price": 85,
-"stock": 0,
-"barcode": "8054726577515"
+"price": 80,
+"stock": 1,
+"barcode": "8054726578512",
+"alt_ids": [
+21179968
+]
 },
 {
 "id": 21179974,
@@ -4366,7 +4256,10 @@
 "need": "dry",
 "price": 75,
 "stock": 2,
-"barcode": "8057587040754"
+"barcode": "8057587040754",
+"alt_ids": [
+25260811
+]
 },
 {
 "id": 22781533,
@@ -4380,19 +4273,6 @@
 "price": 80,
 "stock": 0,
 "barcode": "8054726578475"
-},
-{
-"id": 22781576,
-"brand": "Philip Martin's",
-"name": "Canapa Wash",
-"name_ru": "Шампунь против выпадения Canapa Wash",
-"dept": "hair",
-"vol": "",
-"type": "shampoo",
-"need": "hairloss",
-"price": 80,
-"stock": 1,
-"barcode": "8054726578512"
 },
 {
 "id": 25499881,
@@ -4512,7 +4392,7 @@
 "barcode": "8054726574491"
 },
 {
-"id": 14054570,
+"id": 25260809,
 "brand": "Philip Martin's",
 "name": "Blu Shampoo",
 "name_ru": "Шампунь для светлых волос Blu",
@@ -4520,9 +4400,12 @@
 "vol": "200 ml",
 "type": "shampoo",
 "need": "blonde",
-"price": 60,
+"price": 70,
 "stock": 0,
-"barcode": "8054726574187"
+"barcode": "8054726574187",
+"alt_ids": [
+14054570
+]
 },
 {
 "id": 14054572,
@@ -4733,7 +4616,7 @@
 "barcode": "8054726570660"
 },
 {
-"id": 14054592,
+"id": 25260799,
 "brand": "Philip Martin's",
 "name": "Natural Mousse",
 "name_ru": "Мусс для объёма Natural",
@@ -4741,9 +4624,12 @@
 "vol": "175 ml",
 "type": "styling",
 "need": "volume",
-"price": 40,
-"stock": 0,
-"barcode": "8054726570561"
+"price": 85,
+"stock": 1,
+"barcode": "8054726577621",
+"alt_ids": [
+14054592
+]
 },
 {
 "id": 14054593,
@@ -4769,7 +4655,10 @@
 "need": "hold",
 "price": 75,
 "stock": 2,
-"barcode": "8054726573876"
+"barcode": "8054726573876",
+"alt_ids": [
+25260814
+]
 },
 {
 "id": 14054595,
@@ -4967,19 +4856,6 @@
 "barcode": "8054726573913"
 },
 {
-"id": 25260799,
-"brand": "Philip Martin's",
-"name": "Natural Mousse",
-"name_ru": "Мусс для объёма Natural",
-"dept": "hair",
-"vol": "175 ml",
-"type": "styling",
-"need": "volume",
-"price": 85,
-"stock": 1,
-"barcode": "8054726577621"
-},
-{
 "id": 25260800,
 "brand": "Philip Martin's",
 "name": "Everyday Rinse",
@@ -5032,19 +4908,6 @@
 "barcode": "8057587040617"
 },
 {
-"id": 25260805,
-"brand": "Philip Martin's",
-"name": "Calming Spray",
-"name_ru": "Спрей для кожи головы Calming",
-"dept": "hair",
-"vol": "150 ml",
-"type": "leavein",
-"need": "scalp",
-"price": 70,
-"stock": 1,
-"barcode": "8057587040679"
-},
-{
 "id": 25260806,
 "brand": "Philip Martin's",
 "name": "Sea Salt Spray",
@@ -5055,20 +4918,10 @@
 "need": "volume",
 "price": 85,
 "stock": 2,
-"barcode": "8057587040662"
-},
-{
-"id": 25260807,
-"brand": "Philip Martin's",
-"name": "Sea Salt Spray",
-"name_ru": "Спрей для объёма Sea Salt",
-"dept": "hair",
-"vol": "150 ml",
-"type": "styling",
-"need": "volume",
-"price": 85,
-"stock": 0,
-"barcode": "8057587040662"
+"barcode": "8057587040662",
+"alt_ids": [
+25260807
+]
 },
 {
 "id": 25260808,
@@ -5110,7 +4963,7 @@
 "barcode": "8054726572343"
 },
 {
-"id": 24032795,
+"id": 25260812,
 "brand": "Philip Martin's",
 "name": "Maple Aqua Wash",
 "name_ru": "Шампунь для увлажнения Maple Aqua Wash",
@@ -5120,7 +4973,10 @@
 "need": "dry",
 "price": 90,
 "stock": 0,
-"barcode": "8057587040914"
+"barcode": "8057587040914",
+"alt_ids": [
+24032795
+]
 },
 {
 "id": 24158878,
@@ -5136,19 +4992,6 @@
 "barcode": "8057587040310"
 },
 {
-"id": 25260809,
-"brand": "Philip Martin's",
-"name": "Blu Shampoo",
-"name_ru": "Шампунь для светлых волос Blu",
-"dept": "hair",
-"vol": "200 ml",
-"type": "shampoo",
-"need": "blonde",
-"price": 70,
-"stock": 0,
-"barcode": "8054726574187"
-},
-{
 "id": 25260810,
 "brand": "Philip Martin's",
 "name": "Colour Maintenance",
@@ -5162,32 +5005,6 @@
 "barcode": "8054726578536"
 },
 {
-"id": 25260811,
-"brand": "Philip Martin's",
-"name": "Everyday Wash",
-"name_ru": "Шампунь для увлажнения Everyday Wash",
-"dept": "hair",
-"vol": "200 ml",
-"type": "shampoo",
-"need": "dry",
-"price": 70,
-"stock": 0,
-"barcode": "8057587040754"
-},
-{
-"id": 25260812,
-"brand": "Philip Martin's",
-"name": "Maple Aqua Wash",
-"name_ru": "Шампунь для увлажнения Maple Aqua Wash",
-"dept": "hair",
-"vol": "320 ml",
-"type": "shampoo",
-"need": "dry",
-"price": 90,
-"stock": 0,
-"barcode": "8057587040914"
-},
-{
 "id": 25260813,
 "brand": "Philip Martin's",
 "name": "Moringa Wash",
@@ -5199,19 +5016,6 @@
 "price": 90,
 "stock": 2,
 "barcode": "8054726578482"
-},
-{
-"id": 25260814,
-"brand": "Philip Martin's",
-"name": "Pepe Nero",
-"name_ru": "Средство для укладки Pepe Nero",
-"dept": "hair",
-"vol": "75 ml",
-"type": "styling",
-"need": "hold",
-"price": 85,
-"stock": 0,
-"barcode": "8057587049672"
 },
 {
 "id": 25953929,
@@ -5292,19 +5096,6 @@
 "barcode": "3474636692231"
 },
 {
-"id": 21992682,
-"brand": "Kérastase",
-"name": "Blond Absolu Cicaplasme",
-"name_ru": "Термозащитная сыворотка для светлых волос Blond Absolu Cicaplasme",
-"dept": "hair",
-"vol": "",
-"type": "leavein",
-"need": "blonde",
-"price": 110,
-"stock": 0,
-"barcode": "3474636692446"
-},
-{
 "id": 22302927,
 "brand": "Kérastase",
 "name": "Blond Absolu Cicaplasme",
@@ -5315,7 +5106,10 @@
 "need": "blonde",
 "price": 170,
 "stock": 1,
-"barcode": "3474636692422"
+"barcode": "3474636692422",
+"alt_ids": [
+21992682
+]
 },
 {
 "id": 24515523,
@@ -5409,19 +5203,6 @@
 "barcode": "3474636909292"
 },
 {
-"id": 20692166,
-"brand": "Kérastase",
-"name": "Chroma Absolu Bain Chroma Respect",
-"name_ru": "Шампунь для окрашенных волос Chroma Absolu",
-"dept": "hair",
-"vol": "250 ml",
-"type": "shampoo",
-"need": "color",
-"price": 135,
-"stock": 0,
-"barcode": "3474637059248"
-},
-{
 "id": 22369501,
 "brand": "Kérastase",
 "name": "Chroma Absolu Bain Chroma Respect",
@@ -5432,20 +5213,10 @@
 "need": "color",
 "price": 135,
 "stock": 0,
-"barcode": "3474637059002"
-},
-{
-"id": 20692147,
-"brand": "Kérastase",
-"name": "Chroma Absolu Bain Riche Chroma Respect",
-"name_ru": "Питательный шампунь для окрашенных волос Chroma Absolu",
-"dept": "hair",
-"vol": "250 ml",
-"type": "shampoo",
-"need": "color",
-"price": 135,
-"stock": 0,
-"barcode": "3474637058975"
+"barcode": "3474637059002",
+"alt_ids": [
+20692166
+]
 },
 {
 "id": 22369503,
@@ -5458,7 +5229,10 @@
 "need": "color",
 "price": 135,
 "stock": 1,
-"barcode": "3474637059019"
+"barcode": "3474637059019",
+"alt_ids": [
+20692147
+]
 },
 {
 "id": 22228789,
@@ -5500,19 +5274,6 @@
 "barcode": "3474637059132"
 },
 {
-"id": 21832610,
-"brand": "Kérastase",
-"name": "Chroma Absolu Soin Acide Chroma Gloss",
-"name_ru": "Уход для блеска окрашенных волос Chroma Gloss",
-"dept": "hair",
-"vol": "",
-"type": "conditioner",
-"need": "color",
-"price": 35,
-"stock": 0,
-"barcode": "3474637059255"
-},
-{
 "id": 22022566,
 "brand": "Kérastase",
 "name": "Chroma Absolu Soin Acide Chroma Gloss",
@@ -5522,7 +5283,10 @@
 "type": "conditioner",
 "need": "color",
 "price": 12,
-"stock": 0
+"stock": 0,
+"alt_ids": [
+21832610
+]
 },
 {
 "id": 21928884,
@@ -5681,19 +5445,6 @@
 "barcode": "3474636968688"
 },
 {
-"id": 22228810,
-"brand": "Kérastase",
-"name": "Curl Manifesto Crème de Jour Fondamentale",
-"name_ru": "Несмываемый крем для кудрявых волос Curl Manifesto",
-"dept": "hair",
-"vol": "",
-"type": "leavein",
-"need": "curls",
-"price": 215,
-"stock": 0,
-"barcode": "3474636968749"
-},
-{
 "id": 22440727,
 "brand": "Kérastase",
 "name": "Curl Manifesto Crème de Jour Fondamentale",
@@ -5704,7 +5455,10 @@
 "need": "curls",
 "price": 210,
 "stock": 2,
-"barcode": "3474636968756"
+"barcode": "3474636968756",
+"alt_ids": [
+22228810
+]
 },
 {
 "id": 20692260,
@@ -6357,32 +6111,6 @@
 "barcode": "3474637326692"
 },
 {
-"id": 21904423,
-"brand": "Kérastase",
-"name": "Nutritive 8H Magic Night Serum",
-"name_ru": "Ночная сыворотка Nutritive 8H Magic Night",
-"dept": "hair",
-"vol": "",
-"type": "serum",
-"need": "dry",
-"price": 45,
-"stock": 0,
-"barcode": "3474637049478"
-},
-{
-"id": 21928743,
-"brand": "Kérastase",
-"name": "Nutritive 8H Magic Night Serum",
-"name_ru": "Ночная сыворотка Nutritive 8H Magic Night",
-"dept": "hair",
-"vol": "",
-"type": "serum",
-"need": "dry",
-"price": 185,
-"stock": 0,
-"barcode": "3474636721832"
-},
-{
 "id": 22440731,
 "brand": "Kérastase",
 "name": "Nutritive 8H Magic Night Serum",
@@ -6393,7 +6121,11 @@
 "need": "dry",
 "price": 225,
 "stock": 1,
-"barcode": "3474637155025"
+"barcode": "3474637155025",
+"alt_ids": [
+21928743,
+21904423
+]
 },
 {
 "id": 22369499,
@@ -6474,19 +6206,6 @@
 "barcode": "3474636382477"
 },
 {
-"id": 22228822,
-"brand": "Kérastase",
-"name": "Nutritive Masquintense",
-"name_ru": "Питательная маска Nutritive Masquintense",
-"dept": "hair",
-"vol": "",
-"type": "mask",
-"need": "dry",
-"price": 220,
-"stock": 0,
-"barcode": "3474636382705"
-},
-{
 "id": 22660626,
 "brand": "Kérastase",
 "name": "Nutritive Masquintense",
@@ -6497,20 +6216,11 @@
 "need": "dry",
 "price": 220,
 "stock": 1,
-"barcode": "3474637154967"
-},
-{
-"id": 22661101,
-"brand": "Kérastase",
-"name": "Nutritive Masquintense",
-"name_ru": "Питательная маска Nutritive Masquintense",
-"dept": "hair",
-"vol": "",
-"type": "mask",
-"need": "dry",
-"price": 390,
-"stock": 0,
-"barcode": "3474637154974"
+"barcode": "3474637154967",
+"alt_ids": [
+22661101,
+22228822
+]
 },
 {
 "id": 22660617,
@@ -6890,19 +6600,6 @@
 "barcode": "3474630713383"
 },
 {
-"id": 21832594,
-"brand": "Kérastase",
-"name": "Soleil Bain Après-Soleil",
-"name_ru": "Шампунь после солнца Soleil",
-"dept": "hair",
-"vol": "",
-"type": "shampoo",
-"need": "dry",
-"price": 45,
-"stock": 0,
-"barcode": "4690214745734"
-},
-{
 "id": 21928726,
 "brand": "Kérastase",
 "name": "Soleil Bain Après-Soleil",
@@ -6913,7 +6610,10 @@
 "need": "dry",
 "price": 135,
 "stock": 0,
-"barcode": "3474636695249"
+"barcode": "3474636695249",
+"alt_ids": [
+21832594
+]
 },
 {
 "id": 22228783,
@@ -6929,19 +6629,6 @@
 "barcode": "3474636695300"
 },
 {
-"id": 21832601,
-"brand": "Kérastase",
-"name": "Soleil Huile Sirène",
-"name_ru": "Двухфазный спрей-масло Soleil Huile Sirène",
-"dept": "hair",
-"vol": "",
-"type": "leavein",
-"need": "dry",
-"price": 45,
-"stock": 0,
-"barcode": "3474636695348"
-},
-{
 "id": 22228787,
 "brand": "Kérastase",
 "name": "Soleil Huile Sirène",
@@ -6952,7 +6639,10 @@
 "need": "dry",
 "price": 135,
 "stock": 0,
-"barcode": "3474636695324"
+"barcode": "3474636695324",
+"alt_ids": [
+21832601
+]
 },
 {
 "id": 22234830,
@@ -6968,19 +6658,6 @@
 "barcode": "3474636695287"
 },
 {
-"id": 22661117,
-"brand": "Kérastase",
-"name": "Spécifique Argile Équilibrante",
-"name_ru": "Очищающая глина Spécifique Argile Équilibrante",
-"dept": "hair",
-"vol": "",
-"type": "mask",
-"need": "oily",
-"price": 390,
-"stock": 0,
-"barcode": "3474636954674"
-},
-{
 "id": 22949276,
 "brand": "Kérastase",
 "name": "Spécifique Argile Équilibrante",
@@ -6991,7 +6668,10 @@
 "need": "oily",
 "price": 215,
 "stock": 1,
-"barcode": "3474636954681"
+"barcode": "3474636954681",
+"alt_ids": [
+22661117
+]
 },
 {
 "id": 20692163,
@@ -7436,19 +7116,6 @@
 "barcode": "8720791750800"
 },
 {
-"id": 22374606,
-"brand": "Balmain",
-"name": "Hair Claw Clip Extra Small Brown",
-"name_ru": "Заколка-краб очень маленькая, коричневая",
-"dept": "acc",
-"vol": "",
-"type": "accessory",
-"need": "",
-"price": 245,
-"stock": 2,
-"barcode": "8720246240238"
-},
-{
 "id": 22374573,
 "brand": "Balmain",
 "name": "Hair Claw Clip Extra Small Brown",
@@ -7458,8 +7125,11 @@
 "type": "accessory",
 "need": "",
 "price": 245,
-"stock": 3,
-"barcode": "8720246240245"
+"stock": 5,
+"barcode": "8720246240245",
+"alt_ids": [
+22374606
+]
 },
 {
 "id": 22640995,
@@ -7472,20 +7142,10 @@
 "need": "",
 "price": 350,
 "stock": 0,
-"barcode": "8720246240184"
-},
-{
-"id": 22640988,
-"brand": "Balmain",
-"name": "Hair Claw Clip Large Black",
-"name_ru": "Заколка-краб большая, чёрная",
-"dept": "acc",
-"vol": "",
-"type": "accessory",
-"need": "",
-"price": 630,
-"stock": 0,
-"barcode": "8720791750787"
+"barcode": "8720246240184",
+"alt_ids": [
+22640988
+]
 },
 {
 "id": 22374618,
@@ -7618,19 +7278,6 @@
 "barcode": "8720246242164"
 },
 {
-"id": 25119694,
-"brand": "Balmain",
-"name": "Hair Elastics",
-"name_ru": "Резинки для волос",
-"dept": "acc",
-"vol": "",
-"type": "accessory",
-"need": "",
-"price": 235,
-"stock": 2,
-"barcode": "8720246240283"
-},
-{
 "id": 25119711,
 "brand": "Balmain",
 "name": "Hair Elastics",
@@ -7640,8 +7287,11 @@
 "type": "accessory",
 "need": "",
 "price": 235,
-"stock": 2,
-"barcode": "8720246240276"
+"stock": 4,
+"barcode": "8720246240276",
+"alt_ids": [
+25119694
+]
 },
 {
 "id": 22160364,
@@ -7784,20 +7434,10 @@
 "need": "dry",
 "price": 65,
 "stock": 0,
-"barcode": "8718503829838"
-},
-{
-"id": 22160262,
-"brand": "Balmain",
-"name": "Leave-In Conditioning Spray",
-"name_ru": "Несмываемый спрей-кондиционер",
-"dept": "hair",
-"vol": "50 ml",
-"type": "leavein",
-"need": "dry",
-"price": 65,
-"stock": 0,
-"barcode": "8720246245288"
+"barcode": "8718503829838",
+"alt_ids": [
+22160262
+]
 },
 {
 "id": 22160244,
@@ -8385,19 +8025,6 @@
 "barcode": "666"
 },
 {
-"id": 21125774,
-"brand": "Keune",
-"name": "Brilliant Gloss Spray",
-"name_ru": "Спрей для блеска Brilliant Gloss",
-"dept": "hair",
-"vol": "",
-"type": "styling",
-"need": "shine",
-"price": 90,
-"stock": 0,
-"barcode": "27406"
-},
-{
 "id": 23681057,
 "brand": "Keune",
 "name": "Brilliant Gloss Spray",
@@ -8408,20 +8035,11 @@
 "need": "shine",
 "price": 80,
 "stock": 0,
-"barcode": "8719281062059"
-},
-{
-"id": 19999423,
-"brand": "Keune",
-"name": "Brilliant Gloss Spray",
-"name_ru": "Спрей для блеска Brilliant Gloss",
-"dept": "hair",
-"vol": "",
-"type": "styling",
-"need": "shine",
-"price": 51,
-"stock": 0,
-"barcode": "8719281039631"
+"barcode": "8719281062059",
+"alt_ids": [
+21125774,
+19999423
+]
 },
 {
 "id": 21848085,
@@ -8632,19 +8250,6 @@
 "barcode": "8719281103417"
 },
 {
-"id": 19137629,
-"brand": "Keune",
-"name": "Care Derma Exfoliate Shampoo",
-"name_ru": "Отшелушивающий шампунь Derma Exfoliate",
-"dept": "hair",
-"vol": "",
-"type": "shampoo",
-"need": "scalp",
-"price": 70,
-"stock": 0,
-"barcode": "8719281104438"
-},
-{
 "id": 21776202,
 "brand": "Keune",
 "name": "Care Derma Exfoliate Shampoo",
@@ -8655,7 +8260,10 @@
 "need": "scalp",
 "price": 95,
 "stock": 0,
-"barcode": "8719281067023"
+"barcode": "8719281067023",
+"alt_ids": [
+19137629
+]
 },
 {
 "id": 21613126,
@@ -8814,19 +8422,6 @@
 "barcode": "8719281066903"
 },
 {
-"id": 19137644,
-"brand": "Keune",
-"name": "Care Silver Savior Conditioner",
-"name_ru": "Кондиционер для светлых и седых волос Silver Savior",
-"dept": "hair",
-"vol": "",
-"type": "conditioner",
-"need": "blonde",
-"price": 90,
-"stock": 0,
-"barcode": "8719281034599"
-},
-{
 "id": 21776200,
 "brand": "Keune",
 "name": "Care Silver Savior Conditioner",
@@ -8837,7 +8432,10 @@
 "need": "blonde",
 "price": 100,
 "stock": 0,
-"barcode": "8719281058199"
+"barcode": "8719281058199",
+"alt_ids": [
+19137644
+]
 },
 {
 "id": 21613134,
@@ -8996,19 +8594,6 @@
 "barcode": "8719281040095"
 },
 {
-"id": 21848076,
-"brand": "Keune",
-"name": "Dry Shampoo",
-"name_ru": "Сухой шампунь Dry Shampoo",
-"dept": "hair",
-"vol": "200 ml",
-"type": "shampoo",
-"need": "oily",
-"price": 90,
-"stock": 0,
-"barcode": "8719281051961"
-},
-{
 "id": 22132047,
 "brand": "Keune",
 "name": "Dry Shampoo",
@@ -9019,7 +8604,10 @@
 "need": "oily",
 "price": 85,
 "stock": 0,
-"barcode": "8719281039693"
+"barcode": "8719281039693",
+"alt_ids": [
+21848076
+]
 },
 {
 "id": 23681054,
@@ -9061,19 +8649,6 @@
 "barcode": "8719281124542"
 },
 {
-"id": 21848303,
-"brand": "Keune",
-"name": "Forming Wax",
-"name_ru": "Текстурирующий воск Forming Wax",
-"dept": "hair",
-"vol": "125 ml",
-"type": "styling",
-"need": "hold",
-"price": 85,
-"stock": 0,
-"barcode": "8719281066712"
-},
-{
 "id": 22132010,
 "brand": "Keune",
 "name": "Forming Wax",
@@ -9084,7 +8659,10 @@
 "need": "hold",
 "price": 85,
 "stock": 0,
-"barcode": "27457"
+"barcode": "27457",
+"alt_ids": [
+21848303
+]
 },
 {
 "id": 21848275,
@@ -9110,33 +8688,10 @@
 "need": "hold",
 "price": 70,
 "stock": 0,
-"barcode": "8719281062103"
-},
-{
-"id": 21848038,
-"brand": "Keune",
-"name": "Freestyle Spray",
-"name_ru": "Лак для волос Freestyle",
-"dept": "hair",
-"vol": "500 ml",
-"type": "styling",
-"need": "hold",
-"price": 85,
-"stock": 0,
-"barcode": "8719281062110"
-},
-{
-"id": 21125670,
-"brand": "Keune",
-"name": "Freestyle Spray",
-"name_ru": "Лак для волос Freestyle",
-"dept": "hair",
-"vol": "75 ml",
-"type": "styling",
-"need": "hold",
-"price": 35,
-"stock": 0,
-"barcode": "8719281039853"
+"barcode": "8719281062103",
+"alt_ids": [
+21848038
+]
 },
 {
 "id": 21848402,
@@ -9149,7 +8704,10 @@
 "need": "hold",
 "price": 40,
 "stock": 0,
-"barcode": "8719281062097"
+"barcode": "8719281062097",
+"alt_ids": [
+21125670
+]
 },
 {
 "id": 24868401,
@@ -9399,19 +8957,6 @@
 "barcode": "8719281124528"
 },
 {
-"id": 21122272,
-"brand": "Keune",
-"name": "Power Paste",
-"name_ru": "Паста сильной фиксации Power Paste",
-"dept": "hair",
-"vol": "",
-"type": "styling",
-"need": "hold",
-"price": 35,
-"stock": 0,
-"barcode": "8719281040200"
-},
-{
 "id": 21125753,
 "brand": "Keune",
 "name": "Power Paste",
@@ -9422,7 +8967,10 @@
 "need": "hold",
 "price": 70,
 "stock": 0,
-"barcode": "8719281040194"
+"barcode": "8719281040194",
+"alt_ids": [
+21122272
+]
 },
 {
 "id": 24868413,
@@ -10205,17 +9753,20 @@
 "barcode": "8719281124559"
 },
 {
-"id": 21123155,
+"id": 21243780,
 "brand": "Keune",
-"name": "Thickening Cream",
+"name": "Volume Thickening Cream",
 "name_ru": "Уплотняющий крем для объёма Thickening Cream",
 "dept": "hair",
 "vol": "",
 "type": "styling",
 "need": "volume",
-"price": 75,
+"price": 80,
 "stock": 0,
-"barcode": "8719281949156"
+"barcode": "8719281040156",
+"alt_ids": [
+21123155
+]
 },
 {
 "id": 21848407,
@@ -10283,19 +9834,6 @@
 "barcode": "8719281124207"
 },
 {
-"id": 21122298,
-"brand": "Keune",
-"name": "Ultra Gel",
-"name_ru": "Гель сильной фиксации Ultra Gel",
-"dept": "hair",
-"vol": "",
-"type": "styling",
-"need": "hold",
-"price": 55,
-"stock": 0,
-"barcode": "8719281040224"
-},
-{
 "id": 21124060,
 "brand": "Keune",
 "name": "Ultra Gel",
@@ -10306,7 +9844,10 @@
 "need": "hold",
 "price": 30,
 "stock": 0,
-"barcode": "8719281040217"
+"barcode": "8719281040217",
+"alt_ids": [
+21122298
+]
 },
 {
 "id": 21848295,
@@ -10372,19 +9913,6 @@
 "price": 80,
 "stock": 0,
 "barcode": "8719281040057"
-},
-{
-"id": 21243780,
-"brand": "Keune",
-"name": "Volume Thickening Cream",
-"name_ru": "Уплотняющий крем для объёма Thickening Cream",
-"dept": "hair",
-"vol": "",
-"type": "styling",
-"need": "volume",
-"price": 80,
-"stock": 0,
-"barcode": "8719281040156"
 },
 {
 "id": 14010469,
@@ -10553,20 +10081,10 @@
 "need": "repair",
 "price": 40,
 "stock": 2,
-"barcode": "3474637154806"
-},
-{
-"id": 22577753,
-"brand": "L'Oréal Professionnel",
-"name": "Absolut Repair Shampoo",
-"name_ru": "Восстанавливающий шампунь Absolut Repair",
-"dept": "hair",
-"vol": "100 ml",
-"type": "shampoo",
-"need": "repair",
-"price": 35,
-"stock": 0,
-"barcode": "4640193109171"
+"barcode": "3474637154806",
+"alt_ids": [
+22577753
+]
 },
 {
 "id": 16385044,
@@ -11128,32 +10646,6 @@
 "barcode": "30158078"
 },
 {
-"id": 21939456,
-"brand": "L'Oréal Professionnel",
-"name": "Metal Detox Shampoo",
-"name_ru": "Шампунь против металлических частиц Metal Detox",
-"dept": "hair",
-"vol": "100 ml",
-"type": "shampoo",
-"need": "color",
-"price": 30,
-"stock": 0,
-"barcode": "3474637053604"
-},
-{
-"id": 22067472,
-"brand": "L'Oréal Professionnel",
-"name": "Metal Detox Shampoo",
-"name_ru": "Шампунь против металлических частиц Metal Detox",
-"dept": "hair",
-"vol": "100 ml",
-"type": "shampoo",
-"need": "color",
-"price": 40,
-"stock": 0,
-"barcode": "4690214964104"
-},
-{
 "id": 22795576,
 "brand": "L'Oréal Professionnel",
 "name": "Metal Detox Shampoo",
@@ -11164,7 +10656,11 @@
 "need": "color",
 "price": 35,
 "stock": 0,
-"barcode": "4640193109157"
+"barcode": "4640193109157",
+"alt_ids": [
+22067472,
+21939456
+]
 },
 {
 "id": 24087748,
@@ -11528,19 +11024,10 @@
 "need": "hold",
 "price": 95,
 "stock": 0,
-"barcode": "30162846"
-},
-{
-"id": 20861759,
-"brand": "L'Oréal Professionnel",
-"name": "Tecni.Art Fix Anti-Frizz",
-"name_ru": "Лак против пушистости Tecni.Art Fix Anti-Frizz",
-"dept": "hair",
-"vol": "400 ml",
-"type": "styling",
-"need": "hold",
-"price": 80,
-"stock": 0
+"barcode": "30162846",
+"alt_ids": [
+20861759
+]
 },
 {
 "id": 21762587,
@@ -11686,19 +11173,6 @@
 "barcode": "3474636975679"
 },
 {
-"id": 14830444,
-"brand": "L'Oréal Professionnel",
-"name": "Vitamino Color Mask",
-"name_ru": "Маска для окрашенных волос Vitamino Color",
-"dept": "hair",
-"vol": "75 ml",
-"type": "mask",
-"need": "color",
-"price": 20,
-"stock": 0,
-"barcode": "4690214403375"
-},
-{
 "id": 22577758,
 "brand": "L'Oréal Professionnel",
 "name": "Vitamino Color Mask",
@@ -11709,7 +11183,10 @@
 "need": "color",
 "price": 40,
 "stock": 0,
-"barcode": "4640193109201"
+"barcode": "4640193109201",
+"alt_ids": [
+14830444
+]
 },
 {
 "id": 25439274,
@@ -11855,19 +11332,6 @@
 "barcode": "3474636977321"
 },
 {
-"id": 21928962,
-"brand": "Matrix",
-"name": "Brass Off",
-"name_ru": "Средство против желтизны Brass Off",
-"dept": "hair",
-"vol": "75 ml",
-"type": "shampoo",
-"need": "blonde",
-"price": 15,
-"stock": 0,
-"barcode": "3474637094249"
-},
-{
 "id": 21939424,
 "brand": "Matrix",
 "name": "Brass Off",
@@ -11878,7 +11342,10 @@
 "need": "blonde",
 "price": 20,
 "stock": 0,
-"barcode": "4640193020681"
+"barcode": "4640193020681",
+"alt_ids": [
+21928962
+]
 },
 {
 "id": 22228747,

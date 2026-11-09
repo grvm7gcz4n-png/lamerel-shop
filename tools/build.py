@@ -137,7 +137,28 @@ def products():
         else:
             if pid in IMG: item['img']=IMG[pid]
         out.append(item)
-    return out
+    return dedup(out)
+
+def dedup(items):
+    '''Один товар — одна карточка: одинаковые бренд + название + объём склеиваются.
+    Остаётся позиция в наличии (при равенстве — с большим остатком, затем более новая), остатки суммируются.'''
+    def norm(p):
+        n=(p.get('name_ru') or p['name']).lower()
+        n=re.sub('[\u10A0-\u10FF]+','',n); n=re.sub('[^a-zа-яё0-9%+]+',' ',n).strip()
+        return (p['brand'],p['dept'],n,(p.get('vol') or '').replace(' ',''))
+    groups={}
+    for p in items: groups.setdefault(norm(p),[]).append(p)
+    res=[]; merged=[]
+    for k,g in groups.items():
+        if len(g)==1: res.append(g[0]); continue
+        g.sort(key=lambda p:(p['stock']>0,p['stock'],p['id']),reverse=True)
+        best=dict(g[0]); best['stock']=sum(p['stock'] for p in g)
+        best['alt_ids']=[p['id'] for p in g[1:]]
+        if not best.get('img'): best['img']=next((p['img'] for p in g if p.get('img')),None) or best.pop('img',None)
+        if best.get('img') is None: best.pop('img',None)
+        res.append(best); merged.append([(p['id'],p['price'],p['stock']) for p in g])
+    json.dump(merged,open(os.path.join(ROOT,'tools/duplicates.json'),'w'),ensure_ascii=False,indent=0)
+    return res
 
 EMO=re.compile('[\u2190-\u21ff\u2300-\u23ff\u2460-\u24ff\u25a0-\u25ff\u2700-\u27bf\u2b00-\u2bff\ufe0f\u200d\U0001F000-\U0001FAFF]')
 def split3(title):
