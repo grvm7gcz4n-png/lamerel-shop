@@ -34,10 +34,22 @@ jobs:
           openssl pkey -in /tmp/priv.pem -pubout -out tools/client_pub.pem
           openssl enc -aes-256-cbc -pbkdf2 -iter 200000 -salt -in /tmp/priv.pem -out tools/client_priv.enc -pass env:ALTEGIO_PARTNER_TOKEN
           rm /tmp/priv.pem
+      - name: Выгрузка базы (зашифрованно)
+        if: contains(hashFiles('tools/client_request.json'), '') && hashFiles('tools/claude_pub.pem') != ''
+        run: |
+          umask 077
+          if grep -q '"export"' tools/client_request.json; then
+            OUT=/tmp/exp.json python tools/export_clients.py
+            openssl rand -hex 32 | tr -d '\n' > /tmp/k.txt
+            openssl enc -aes-256-cbc -pbkdf2 -salt -in /tmp/exp.json -out tools/client_export.enc -pass file:/tmp/k.txt
+            openssl pkeyutl -encrypt -pubin -inkey tools/claude_pub.pem -pkeyopt rsa_padding_mode:oaep -pkeyopt rsa_oaep_md:sha256 -in /tmp/k.txt -out tools/client_export.key.enc
+            rm -f /tmp/exp.json /tmp/k.txt
+          fi
       - name: Переименовать по плану
         if: hashFiles('tools/client_plan.enc') != ''
         run: |
           umask 077
+          grep -q '"export"' tools/client_request.json && exit 0
           openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -in tools/client_priv.enc -out /tmp/priv.pem -pass env:ALTEGIO_PARTNER_TOKEN
           openssl pkeyutl -decrypt -inkey /tmp/priv.pem -pkeyopt rsa_padding_mode:oaep -pkeyopt rsa_oaep_md:sha256 -in tools/client_plan.key.enc -out /tmp/k.txt
           openssl enc -d -aes-256-cbc -pbkdf2 -in tools/client_plan.enc -out /tmp/plan.json -pass file:/tmp/k.txt
@@ -48,7 +60,7 @@ jobs:
         run: |
           git config user.name "lamerel-bot"
           git config user.email "actions@users.noreply.github.com"
-          for f in tools/client_pub.pem tools/client_priv.enc tools/client_rename_report.json; do [ -f "$f" ] && git add "$f"; done; true
+          for f in tools/client_pub.pem tools/client_priv.enc tools/client_rename_report.json tools/client_export.enc tools/client_export.key.enc; do [ -f "$f" ] && git add "$f"; done; true
           git diff --cached --quiet && exit 0
           git commit -m "Имена клиентов: ключ/отчёт"
           for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
