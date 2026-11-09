@@ -532,7 +532,7 @@ function renderSiteNav(){
 function renderHome(){
   const L=h();
   $('#home').innerHTML=`
-  <section class="hm-hero"><div class="wrap hm-grid"><div>
+  <section class="hm-hero bg"><div class="wrap hm-grid"><div>
     <p class="kick">${L.kick}</p>
     <h1>${L.h1}</h1>
     <p class="hm-lead">${L.lead}</p>

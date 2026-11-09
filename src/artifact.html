@@ -236,11 +236,22 @@ nav.sitenav a.booklink{margin-left:auto;background:var(--accent);color:#fff}
 .btn{border-radius:999px}
 .hm-ctas .btn{padding:10px 18px;font-size:14px;font-weight:600;letter-spacing:0;text-transform:none;box-shadow:0 1px 2px rgba(0,0,0,.06)}
 .hm-ctas .btn svg{width:18px;height:18px}
-.hm-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:40px;align-items:center}
-.hm-photo{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:4/5;background:var(--tile-2);box-shadow:0 20px 50px -24px rgba(60,20,50,.35)}
+.hm-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:center}
+.hm-photo{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:464/832;max-height:78vh;justify-self:end;background:var(--tile-2);box-shadow:0 20px 50px -24px rgba(60,20,50,.35)}
 .hm-grid:not(:has(.hm-photo)){grid-template-columns:1fr}
-.hm-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 15%;display:block}
-@media (max-width:760px){.hm-grid{grid-template-columns:1fr;gap:24px}.hm-photo{aspect-ratio:4/3;border-radius:22px}}
+.hm-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block}
+@media (max-width:760px){
+ .hm-grid{grid-template-columns:1fr;gap:0}
+ .hm-photo{display:none}
+ .hm-hero.bg{position:relative;padding:0;background:#241a1f;--ih:calc(100vw * 1.793)}
+ .hm-hero.bg::before{content:'';position:absolute;left:0;right:0;top:0;height:var(--ih);background:url(photos/facade.jpg) top center/100% auto no-repeat}
+ .hm-hero.bg::after{content:'';position:absolute;left:0;right:0;top:0;height:var(--ih);background:linear-gradient(180deg,rgba(36,26,31,0) 0%,rgba(36,26,31,0) 58%,rgba(36,26,31,.75) 80%,#241a1f 100%)}
+ .hm-hero.bg .wrap{position:relative;z-index:1;padding-top:calc(var(--ih) * .66);padding-bottom:30px}
+ .hm-hero.bg h1{color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.35)}
+ .hm-hero.bg .kick{color:#F3C9E6;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+ .hm-hero.bg .hm-lead{color:rgba(255,255,255,.86)}
+ .hm-hero.bg .btn:not(.pri):not(.wa){border-color:rgba(255,255,255,.85);color:#fff;background:rgba(255,255,255,.08)}
+}
 .hm-two{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding-block:32px 8px}
 .hm-dirs{padding-top:8px}
 .hm-tile{position:relative;display:flex;flex-direction:column;gap:10px;min-height:260px;padding:28px;text-decoration:none;color:var(--ink);background:var(--tile);border:1px solid var(--line);overflow:hidden}
@@ -935,7 +946,7 @@ function renderSiteNav(){
 function renderHome(){
   const L=h();
   $('#home').innerHTML=`
-  <section class="hm-hero"><div class="wrap hm-grid"><div>
+  <section class="hm-hero bg"><div class="wrap hm-grid"><div>
     <p class="kick">${L.kick}</p>
     <h1>${L.h1}</h1>
     <p class="hm-lead">${L.lead}</p>
