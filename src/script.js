@@ -608,6 +608,8 @@ function laserIntro(svs){
     ${n?`<button class="lz-b" data-lsub="${l.k}">${L.see} (${n}) →</button>`:`<a class="lz-b" href="tel:${PHONE_RAW}">${L.phone} →</a>`}</div>`}).join('')}</div>
   ${S.lsub!=='all'?`<button class="lz-all" data-lsub="all">← ${L.all}</button>`:''}</div>`;
 }
+function scrollToEl(el){const hd=document.querySelector('header');const off=(hd?hd.getBoundingClientRect().height:0)+8;window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-off,behavior:'smooth'})}
+document.addEventListener('toggle',e=>{const d=e.target;if(d.classList&&d.classList.contains('svcat')&&d.open){const r=d.getBoundingClientRect();if(r.top<80||r.top>window.innerHeight*0.55)scrollToEl(d)}},true);
 function route(){
   const v=view();
   const show=(sel,on)=>{const e=$(sel);if(e)e.hidden=!on};
@@ -631,6 +633,8 @@ document.addEventListener('click',e=>{
   const d=el.dataset;
   if(d.go){e.preventDefault();go(d.go);window.scrollTo(0,0);return}
   if(d.lsub){S.lsub=d.lsub;renderSalon();const g=document.querySelector('.svcat');if(g&&d.lsub!=='all')g.scrollIntoView({behavior:'smooth',block:'start'});return}
-  if(d.dir){e.preventDefault();S.dir=d.dir;S.lsub='all';if(view()!=='salon'){go('salon');window.scrollTo(0,0)}else renderSalon()}
+  if(d.dir){e.preventDefault();S.dir=d.dir;S.lsub='all';
+    if(view()!=='salon'){go('salon');window.scrollTo(0,0)}else renderSalon();
+    if(d.dir!=='all'){const tgt=document.querySelector('#salon .lz')||document.querySelector('#salon .svcat');if(tgt)setTimeout(()=>scrollToEl(tgt),60)}}
 });
 fetch('services.json?v='+Date.now()).then(r=>r.ok?r.json():{categories:[],services:[]}).catch(()=>({categories:[],services:[]})).then(d=>{SV=d;if(view()==='salon')renderSalon()});
