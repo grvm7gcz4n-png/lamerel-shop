@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.name "lamerel-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add tools/client_pub.pem tools/client_priv.enc tools/client_rename_report.json 2>/dev/null || true
+          for f in tools/client_pub.pem tools/client_priv.enc tools/client_rename_report.json; do [ -f "$f" ] && git add "$f"; done; true
           git diff --cached --quiet && exit 0
           git commit -m "Имена клиентов: ключ/отчёт"
           for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
