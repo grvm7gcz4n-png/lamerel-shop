@@ -1,0 +1,15 @@
+{
+ "deleted": [],
+ "skipped": {},
+ "errors": {
+  "89694364": "DELETE /client/231935/89694364 -> HTTP 403: {\"success\":false,\"data\":null,\"meta\":{\"message\":\"No rights to delete clients in location with ID 231935\"}}",
+  "91438081": "DELETE /client/231935/91438081 -> HTTP 403: {\"success\":false,\"data\":null,\"meta\":{\"message\":\"No rights to delete clients in location with ID 231935\"}}",
+  "92347226": "DELETE /client/231935/92347226 -> HTTP 403: {\"success\":false,\"data\":null,\"meta\":{\"message\":\"No rights to delete clients in location with ID 231935\"}}",
+  "94174854": "DELETE /client/231935/94174854 -> HTTP 403: {\"success\":false,\"data\":null,\"meta\":{\"message\":\"No rights to delete clients in location with ID 231935\"}}",
+  "94175110": "DELETE /client/231935/94175110 -> HTTP 403: {\"success\":false,\"data\":null,\"meta\":{\"message\":\"No rights to delete clients in location with ID 231935\"}}"
+ },
+ "total": 402,
+ "deleted_count": 0,
+ "skipped_count": 0,
+ "errors_count": 5
+}
