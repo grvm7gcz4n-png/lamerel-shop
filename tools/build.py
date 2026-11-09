@@ -165,7 +165,14 @@ def products():
         else:
             if pid in IMG: item['img']=IMG[pid]
         out.append(item)
-    return dedup(out)
+    out=dedup(out)
+    bf=os.path.join(ROOT,'tools/bestsellers.json')
+    if os.path.exists(bf):
+        rank={pid:i+1 for i,pid in enumerate(json.load(open(bf))['ids'])}
+        for p in out:
+            r=min([rank[i] for i in [p['id']]+p.get('alt_ids',[]) if i in rank] or [0])
+            if r: p['best']=r
+    return out
 
 def dedup(items):
     '''Один товар — одна карточка: одинаковые бренд + название + объём склеиваются.

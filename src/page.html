@@ -317,6 +317,14 @@ footer a{color:inherit}
 .lp-b button{font:inherit;font-size:17px;font-weight:600;padding:14px;border-radius:999px;border:1px solid var(--line);background:var(--tile);color:var(--ink);cursor:pointer}
 .lp-b button.hint{background:var(--accent);border-color:var(--accent);color:#fff}
 .lp-b button:hover{border-color:var(--ink)}
+.ctiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.ctile{display:flex;align-items:center;gap:12px;padding:16px;background:var(--tile);border:1px solid var(--line);border-radius:18px;text-align:left;cursor:pointer;font:inherit;color:var(--ink);min-width:0}
+.ctile:hover{border-color:var(--ink)}
+.ctile .ic{flex:none;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--accent-soft);font-size:22px}
+.ctile b{display:block;font-size:15px;line-height:1.25}
+.ctile small{display:block;color:var(--muted);font-size:12px;margin-top:3px}
+.ctile.hot{background:var(--accent);border-color:var(--accent);color:#fff}.ctile.hot small{color:rgba(255,255,255,.8)}.ctile.hot .ic{background:rgba(255,255,255,.18)}
+@media (max-width:760px){.ctiles{grid-template-columns:1fr 1fr}.ctile{padding:12px;gap:9px}.ctile .ic{width:36px;height:36px;font-size:18px}.ctile b{font-size:13.5px;overflow-wrap:anywhere}}
 .svnote{color:var(--muted);font-size:13px;line-height:1.5;max-width:70ch;margin:4px 0 8px}
 .svcat{margin-top:0;border-bottom:1px solid var(--line)}
 .svcat summary{list-style:none;cursor:pointer;padding:10px 0}
@@ -391,6 +399,7 @@ footer a{color:inherit}
   <div class="brands"><div class="marq" id="marq"></div></div>
 
   <section class="wrap sec" id="catalog">
+    <div id="shopHome" hidden></div>
     <div class="sec-h">
       <div><h2 id="secTitle"></h2><div class="count" id="count"></div></div>
       <select class="sort" id="sort" aria-label="Sort"></select>

@@ -176,25 +176,25 @@
 25589901|Color Wow|hair|leavein|Dream Coat|Спрей против пушистости Dream Coat
 25589937|Color Wow|hair|leavein|Dreamcoat Supernatural Spray|Спрей для гладкости Dream Coat
 25589914|Color Wow|hair|shampoo|Color Security Shampoo|Шампунь для окрашенных волос Color Security
-25492166|LamereL Select|acc|accessory|Hair Clip 853020|Заколка для волос 853020
-25492175|LamereL Select|acc|accessory|Hair Clip 853040|Заколка для волос 853040
+25492166||acc|accessory|Hair Clip 853020|Заколка для волос 853020
+25492175||acc|accessory|Hair Clip 853040|Заколка для волос 853040
 25844308|An Guo Er|makeup|brush|Makeup Sponge|Спонж для макияжа
-23543500|LamereL Select|acc|accessory|Hair Clip 121210|Заколка для волос 121210
-24878271|LamereL Select|acc|accessory|Hair Clip|Заколка для волос
-24878302|LamereL Select|acc|accessory|Hair Tie|Резинка для волос
-23669175|LamereL Select|acc|accessory|Hair Clips, 2 pcs|Заколки для волос, 2 шт.
-23669173|LamereL Select|acc|accessory|Hair Clips, 4 pcs|Заколки для волос, 4 шт.
-24885779|LamereL Select|acc|accessory|Hair Clip Mini|Заколка для волос мини
-23287086|LamereL Select|acc|accessory|Large Claw Clip|Заколка-краб большая
-25246079|LamereL Select|acc|accessory|Small Claw Clip|Заколка-краб маленькая
-25246074|LamereL Select|acc|accessory|Medium Claw Clip|Заколка-краб средняя
-23543196|LamereL Select|style|jewelry|Earrings 131318|Серьги 131318
-23543459|LamereL Select|style|jewelry|Earrings 131320|Серьги 131320
-24068821|LamereL Select|makeup|brush|Makeup Sponges|Спонжи для макияжа
-24068816|LamereL Select|makeup|brush|Makeup Sponges in a Bottle|Спонжи для макияжа в баночке
-24068829|LamereL Select|makeup|brush|Makeup Sponge|Спонж для макияжа
-23419975|LamereL Select|style|jewelry|Necklace|Колье
-20737251|LamereL Select|style|jewelry|Beaded Necklace|Колье из бисера
+23543500||acc|accessory|Hair Clip 121210|Заколка для волос 121210
+24878271||acc|accessory|Hair Clip|Заколка для волос
+24878302||acc|accessory|Hair Tie|Резинка для волос
+23669175||acc|accessory|Hair Clips, 2 pcs|Заколки для волос, 2 шт.
+23669173||acc|accessory|Hair Clips, 4 pcs|Заколки для волос, 4 шт.
+24885779||acc|accessory|Hair Clip Mini|Заколка для волос мини
+23287086||acc|accessory|Large Claw Clip|Заколка-краб большая
+25246079||acc|accessory|Small Claw Clip|Заколка-краб маленькая
+25246074||acc|accessory|Medium Claw Clip|Заколка-краб средняя
+23543196||style|jewelry|Earrings 131318|Серьги 131318
+23543459||style|jewelry|Earrings 131320|Серьги 131320
+24068821||makeup|brush|Makeup Sponges|Спонжи для макияжа
+24068816||makeup|brush|Makeup Sponges in a Bottle|Спонжи для макияжа в баночке
+24068829||makeup|brush|Makeup Sponge|Спонж для макияжа
+23419975||style|jewelry|Necklace|Колье
+20737251||style|jewelry|Beaded Necklace|Колье из бисера
 17470638|The Ordinary|face|oil|100% Plant-Derived Hemi-Squalane|Масло 100% гемисквалан растительного происхождения
 22272630|The Ordinary|face|serum|Resveratrol 3% + Ferulic Acid 3%|Антиоксидантная сыворотка с ресвератролом 3% и феруловой кислотой 3%
 19319378|Moroccanoil|hair|shampoo|Color Complete Shampoo|Шампунь для окрашенных волос Color Complete
@@ -229,7 +229,7 @@
 21908629|pHformula|face|cream|V.I.T.A. C Cream|Крем с витамином C
 21908618|pHformula|face|cream|V.I.T.A. A Cream|Крем с витамином A
 23367778|pHformula|face|cream|Spot On Moisture Balance|Увлажняющий крем для проблемной кожи Spot On
-22085891|LamereL Select|body|tool|Body Detox Skin Brush|Щётка для сухого массажа тела
+22085891||body|tool|Body Detox Skin Brush|Щётка для сухого массажа тела
 22799928|Alfaparf Milano|hair|leavein|Anti-Breakage Daily Fluid|Флюид против ломкости
 22799808|Alfaparf Milano|hair|shampoo|Balancing Low Shampoo|Балансирующий шампунь
 22799860|Alfaparf Milano|hair|shampoo|Calming Micellar Low Shampoo|Успокаивающий мицеллярный шампунь
@@ -275,8 +275,8 @@
 25730420|Bottega Veneta|style|glasses|Sunglasses|Солнцезащитные очки
 25730470|Gentle Monster × Prada|style|glasses|Sunglasses|Солнцезащитные очки
 25481946|Miu Miu|style|glasses|Sunglasses|Солнцезащитные очки
-25277926|LamereL Select|face|mask|Aloe Sheet Mask|Тканевая маска с алоэ
-25277918|LamereL Select|face|mask|Snail Sheet Mask|Тканевая маска с муцином улитки
+25277926||face|mask|Aloe Sheet Mask|Тканевая маска с алоэ
+25277918||face|mask|Snail Sheet Mask|Тканевая маска с муцином улитки
 24468492|Estel|men|oil|Beard Oil|Масло для бороды
 25135553|d'Alba|face|serum|Aromatic Spray Serum|Спрей-сыворотка для лица
 25135550|d'Alba|face|cream|White Truffle Double Moisture Cream|Увлажняющий крем с белым трюфелем

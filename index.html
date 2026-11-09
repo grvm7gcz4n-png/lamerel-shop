@@ -325,6 +325,14 @@ footer a{color:inherit}
 .lp-b button{font:inherit;font-size:17px;font-weight:600;padding:14px;border-radius:999px;border:1px solid var(--line);background:var(--tile);color:var(--ink);cursor:pointer}
 .lp-b button.hint{background:var(--accent);border-color:var(--accent);color:#fff}
 .lp-b button:hover{border-color:var(--ink)}
+.ctiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.ctile{display:flex;align-items:center;gap:12px;padding:16px;background:var(--tile);border:1px solid var(--line);border-radius:18px;text-align:left;cursor:pointer;font:inherit;color:var(--ink);min-width:0}
+.ctile:hover{border-color:var(--ink)}
+.ctile .ic{flex:none;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--accent-soft);font-size:22px}
+.ctile b{display:block;font-size:15px;line-height:1.25}
+.ctile small{display:block;color:var(--muted);font-size:12px;margin-top:3px}
+.ctile.hot{background:var(--accent);border-color:var(--accent);color:#fff}.ctile.hot small{color:rgba(255,255,255,.8)}.ctile.hot .ic{background:rgba(255,255,255,.18)}
+@media (max-width:760px){.ctiles{grid-template-columns:1fr 1fr}.ctile{padding:12px;gap:9px}.ctile .ic{width:36px;height:36px;font-size:18px}.ctile b{font-size:13.5px;overflow-wrap:anywhere}}
 .svnote{color:var(--muted);font-size:13px;line-height:1.5;max-width:70ch;margin:4px 0 8px}
 .svcat{margin-top:0;border-bottom:1px solid var(--line)}
 .svcat summary{list-style:none;cursor:pointer;padding:10px 0}
@@ -402,6 +410,7 @@ footer a{color:inherit}
   <div class="brands"><div class="marq" id="marq"></div></div>
 
   <section class="wrap sec" id="catalog">
+    <div id="shopHome" hidden></div>
     <div class="sec-h">
       <div><h2 id="secTitle"></h2><div class="count" id="count"></div></div>
       <select class="sort" id="sort" aria-label="Sort"></select>
@@ -428,7 +437,7 @@ footer a{color:inherit}
 <script>
 const T={
 ru:{ann:'Бесплатная доставка по Грузии от 300 ₾',ann2:'Самовывоз: ул. Зураба Горгиладзе, 98',search:'Поиск по бренду или средству',
- dept:{all:'Все',hair:'Волосы',face:'Уход за лицом',makeup:'Макияж',men:'Для мужчин',gifts:'Подарочные наборы',acc:'Аксессуары для волос',style:'Сумки и аксессуары',body:'Уход за телом и ароматы',instock:'В наличии',fav:'Избранное'},
+ dept:{all:'Все',best:'Бестселлеры LamereL',hair:'Волосы',face:'Уход за лицом',makeup:'Макияж',men:'Для мужчин',gifts:'Подарочные наборы',acc:'Аксессуары для волос',style:'Сумки и аксессуары',body:'Уход за телом и ароматы',instock:'В наличии',fav:'Избранное'},
  soon:'Раздел скоро откроется. Пока напишите нам, что ищете, и мы привезём под заказ.',allHair:'Все средства для волос',allFace:'Весь уход за лицом',
  nav:{all:'Все',shampoo:'Шампуни',conditioner:'Кондиционеры',mask:'Маски',leavein:'Несмываемый уход',oils:'Масла и сыворотки',styling:'Стайлинг',treat:'Ампулы и особый уход',acc:'Аксессуары',instock:'В наличии',fav:'Избранное',cleanse:'Очищение и тоники',fserum:'Сыворотки',cream:'Кремы',eye:'Для кожи вокруг глаз',fmask:'Маски и пилинги',spf:'Защита SPF',fkit:'Наборы'},
  type:{shampoo:'Шампунь',conditioner:'Кондиционер',mask:'Маска',leavein:'Несмываемый уход',oil:'Масло',serum:'Сыворотка',styling:'Стайлинг',ampoule:'Ампула',tonic:'Тоник',kit:'Набор',perfume:'Парфюм для волос',accessory:'Аксессуар для волос',tool:'Техника и инструменты',makeup:'Макияж',brush:'Кисти и спонжи',bag:'Косметичка',glasses:'Очки',jewelry:'Украшения',wash:'Для душа и ванны',lotion:'Крем и лосьон',tanning:'Для загара',fragrance:'Аромат',cleanser:'Очищающее средство',toner:'Тоник',cream:'Крем',eye:'Средство для век',peel:'Пилинг',spf:'Защита от солнца'},
@@ -450,7 +459,7 @@ ru:{ann:'Бесплатная доставка по Грузии от 300 ₾',a
  sendingT:'Отправляем заказ',sentT:'Заказ принят',sentP:'Спасибо! Администратор скоро свяжется с вами по телефону, чтобы подтвердить наличие, оплату и доставку.',doneTitle:'Заказ готов',doneP:'Отправьте этот текст нам в Telegram или WhatsApp. Администратор подтвердит наличие и время.',copy:'Скопировать текст заказа',copied:'Скопировано',selected:'Текст выделен, скопируйте его',again:'Вернуться в каталог',
  orderHead:'Заказ LamereL Beauty Shop',oName:'Имя',oPhone:'Телефон',oGet:'Получение',oPay:'Оплата',oNote:'Комментарий'},
 ka:{ann:'უფასო მიწოდება საქართველოში 300 ₾-დან',ann2:'თვითგატანა: ზურაბ გორგილაძის ქ. 98',search:'ძიება ბრენდით ან პროდუქტით',
- dept:{all:'ყველა',hair:'თმა',face:'სახის მოვლა',makeup:'მაკიაჟი',men:'მამაკაცებისთვის',gifts:'სასაჩუქრე ნაკრებები',acc:'თმის აქსესუარები',style:'ჩანთები და აქსესუარები',body:'სხეულის მოვლა და სუნამოები',instock:'მარაგშია',fav:'რჩეულები',cleanse:'წმენდა და ტონიკები',fserum:'შრატები',cream:'კრემები',eye:'თვალის ირგვლივ',fmask:'ნიღბები და პილინგები',spf:'SPF დაცვა',fkit:'ნაკრები'},
+ dept:{all:'ყველა',best:'LamereL-ის ბესტსელერები',hair:'თმა',face:'სახის მოვლა',makeup:'მაკიაჟი',men:'მამაკაცებისთვის',gifts:'სასაჩუქრე ნაკრებები',acc:'თმის აქსესუარები',style:'ჩანთები და აქსესუარები',body:'სხეულის მოვლა და სუნამოები',instock:'მარაგშია',fav:'რჩეულები',cleanse:'წმენდა და ტონიკები',fserum:'შრატები',cream:'კრემები',eye:'თვალის ირგვლივ',fmask:'ნიღბები და პილინგები',spf:'SPF დაცვა',fkit:'ნაკრები'},
  soon:'განყოფილება მალე გაიხსნება. მოგვწერეთ, რას ეძებთ, და შეკვეთით ჩამოვიტანთ.',allHair:'ყველა თმის საშუალება',allFace:'სახის მთელი მოვლა',
  nav:{all:'ყველა',shampoo:'შამპუნები',conditioner:'კონდიციონერები',mask:'ნიღბები',leavein:'ჩაურეცხავი მოვლა',oils:'ზეთები და შრატები',styling:'სტაილინგი',treat:'ამპულები და სპეც. მოვლა',acc:'აქსესუარები',instock:'მარაგშია',fav:'რჩეულები'},
  type:{shampoo:'შამპუნი',conditioner:'კონდიციონერი',mask:'ნიღაბი',leavein:'ჩაურეცხავი მოვლა',oil:'ზეთი',serum:'შრატი',styling:'სტაილინგი',ampoule:'ამპულა',tonic:'ტონიკი',kit:'ნაკრები',perfume:'თმის სუნამო',accessory:'თმის აქსესუარი',tool:'ტექნიკა და ინსტრუმენტები',makeup:'მაკიაჟი',brush:'ფუნჯები და სპონჟები',bag:'კოსმეტიკის ჩანთა',glasses:'სათვალე',jewelry:'სამკაულები',wash:'შხაპი და აბაზანა',lotion:'კრემი და ლოსიონი',tanning:'რუჯისთვის',fragrance:'სურნელი',cleanser:'გამწმენდი საშუალება',toner:'ტონიკი',cream:'კრემი',eye:'თვალის კრემი',peel:'პილინგი',spf:'მზისგან დაცვა'},
@@ -472,7 +481,7 @@ ka:{ann:'უფასო მიწოდება საქართველო
  sendingT:'შეკვეთა იგზავნება',sentT:'შეკვეთა მიღებულია',sentP:'გმადლობთ! ადმინისტრატორი მალე დაგიკავშირდებათ ტელეფონით მარაგის, გადახდისა და მიწოდების დასადასტურებლად.',doneTitle:'შეკვეთა მზადაა',doneP:'გამოგვიგზავნეთ ეს ტექსტი Telegram-ში ან WhatsApp-ში. ადმინისტრატორი დაადასტურებს მარაგს და დროს.',copy:'შეკვეთის ტექსტის კოპირება',copied:'დაკოპირდა',selected:'ტექსტი მონიშნულია, დააკოპირეთ',again:'კატალოგში დაბრუნება',
  orderHead:'შეკვეთა LamereL Beauty Shop',oName:'სახელი',oPhone:'ტელეფონი',oGet:'მიღება',oPay:'გადახდა',oNote:'კომენტარი'},
 en:{ann:'Free delivery across Georgia on orders over 300 ₾',ann2:'Pickup: 98 Zurab Gorgiladze St.',search:'Search brands or products',
- dept:{all:'All',hair:'Hair',face:'Skincare',makeup:'Makeup',men:'Men',gifts:'Gift sets',acc:'Hair accessories',style:'Bags & accessories',body:'Body care & fragrance',instock:'In stock',fav:'Favourites',cleanse:'Cleansers & toners',fserum:'Serums',cream:'Creams',eye:'Eye care',fmask:'Masks & peels',spf:'SPF',fkit:'Sets'},
+ dept:{all:'All',best:'LamereL bestsellers',hair:'Hair',face:'Skincare',makeup:'Makeup',men:'Men',gifts:'Gift sets',acc:'Hair accessories',style:'Bags & accessories',body:'Body care & fragrance',instock:'In stock',fav:'Favourites',cleanse:'Cleansers & toners',fserum:'Serums',cream:'Creams',eye:'Eye care',fmask:'Masks & peels',spf:'SPF',fkit:'Sets'},
  soon:'This section opens soon. Tell us what you are looking for and we will order it for you.',allHair:'All hair care',allFace:'All face care',
  nav:{all:'All',shampoo:'Shampoo',conditioner:'Conditioner',mask:'Masks',leavein:'Leave-in',oils:'Oils & serums',styling:'Styling',treat:'Ampoules & treatments',acc:'Accessories',instock:'In stock',fav:'Favourites'},
  type:{shampoo:'Shampoo',conditioner:'Conditioner',mask:'Mask',leavein:'Leave-in',oil:'Oil',serum:'Serum',styling:'Styling',ampoule:'Ampoule',tonic:'Tonic',kit:'Kit',perfume:'Hair perfume',accessory:'Hair accessory',tool:'Tools & devices',makeup:'Make-up',brush:'Brushes & sponges',bag:'Cosmetic bag',glasses:'Sunglasses',jewelry:'Jewellery',wash:'Bath & shower',lotion:'Cream & lotion',tanning:'Tanning',fragrance:'Fragrance',cleanser:'Cleanser',toner:'Toner',cream:'Cream',eye:'Eye care',peel:'Peel',spf:'Sun protection'},
@@ -497,7 +506,7 @@ en:{ann:'Free delivery across Georgia on orders over 300 ₾',ann2:'Pickup: 98 Z
 
 // Каталог приходит из products.json (собирается из Altegio)
 let P=[],UPDATED='';
-const DEPTS=['all','hair','face','makeup','body','men','gifts','acc','style','instock','fav'];
+const DEPTS=['all','best','hair','face','makeup','body','men','gifts','acc','style','instock','fav'];
 const SOON=[];
 const NAV={shampoo:['shampoo'],conditioner:['conditioner'],mask:['mask'],leavein:['leavein'],oils:['oil','serum'],styling:['styling'],treat:['ampoule','tonic','kit','perfume'],acc:['accessory','tool']};
 const FNAV={cleanse:['cleanser','toner'],fserum:['serum','oil','ampoule'],cream:['cream'],eye:['eye'],fmask:['mask','peel'],spf:['spf'],fkit:['kit']};
@@ -538,9 +547,9 @@ function renderStatic(){
   const subs=SN?['all',...Object.keys(SN).filter(k=>k!=='acc')].filter(k=>k==='all'||P.some(p=>p.dept===S.dept&&SN[k].includes(p.type))):[];
   $('#subRow').hidden=!SN;
   $('#subRow').innerHTML=subs.map(k=>`<button class="schip" data-cat="${k}" aria-pressed="${S.cat===k}">${k==='all'?(S.dept==='face'?L.allFace:L.allHair):L.nav[k]}</button>`).join('');
-  const brands=[...new Set(P.map(p=>p.brand))];
+  const brands=[...new Set(P.map(p=>p.brand))].filter(Boolean);
   const b=brands.map(x=>`<span>${esc(x)}</span>`).join('');$('#marq').innerHTML=(b+b+b+b);requestAnimationFrame(()=>{const m=$('#marq');if(m)m.style.animationDuration=Math.max(120,Math.round(m.scrollWidth/2/16))+'s'});
-  const dbr=[...new Set(P.filter(p=>!['all','instock','fav'].includes(S.dept)?p.dept===S.dept:true).map(p=>p.brand))];
+  const dbr=[...new Set(P.filter(p=>!['all','instock','fav','best'].includes(S.dept)?p.dept===S.dept:true).map(p=>p.brand))].filter(Boolean);
   $('#brandRow').hidden=dbr.length<2;
   $('#brandRow').innerHTML=['all',...dbr].map(x=>`<button class="bchip" data-brand="${esc(x)}" aria-pressed="${S.brand===x}">${x==='all'?L.allBrands:esc(x)}</button>`).join('');
   $('#sort').innerHTML=Object.entries(L.sort).map(([k,v])=>`<option value="${k}"${k===S.sort?' selected':''}>${v}</option>`).join('');
@@ -556,6 +565,7 @@ function filtered(){
     if(S.brand!=='all'&&p.brand!==S.brand)return false;
     if(S.dept==='instock'){if(!inStock(p))return false}
     else if(S.dept==='fav'){if(!S.fav.includes(p.id))return false}
+    else if(S.dept==='best'){if(!p.best)return false}
     else if(S.dept!=='all'&&p.dept!==S.dept)return false;
     const SN=SUBNAV[S.dept];if(SN&&SN[S.cat]&&!SN[S.cat].includes(p.type))return false;
     if(q&&!(p.brand+' '+p.name+' '+(p.name_ru||'')+' '+(p.barcode||'')+' '+desc(p)).toLowerCase().includes(q))return false;
@@ -564,10 +574,29 @@ function filtered(){
   a.sort((x,y)=>S.sort==='cheap'?x.price-y.price:S.sort==='exp'?y.price-x.price:S.sort==='name'?nm(x,y):((inStock(y)-inStock(x))||nm(x,y)));
   return a;
 }
+const DICON={best:'⭐',hair:'💇‍♀️',face:'🧴',makeup:'💄',body:'🛁',men:'🧔',gifts:'🎁',acc:'🎀',style:'👜'};
+const SH={ru:{t:'Выберите категорию',b:'Бестселлеры LamereL',bs:'То, что чаще всего покупают наши гости',all:'Смотреть все',allp:'Все товары',n:n=>n+' в наличии'},
+ ka:{t:'აირჩიეთ კატეგორია',b:'LamereL-ის ბესტსელერები',bs:'რასაც ჩვენი სტუმრები ყველაზე ხშირად ყიდულობენ',all:'ყველას ნახვა',allp:'ყველა პროდუქტი',n:n=>n+' მარაგშია'},
+ en:{t:'Choose a category',b:'LamereL bestsellers',bs:'What our guests buy most often',all:'See all',allp:'All products',n:n=>n+' in stock'}};
+function renderShopHome(){
+  const L=t(),Q=SH[S.lang];
+  const ds=DEPTS.filter(k=>!['all','instock','fav'].includes(k)&&(k==='best'?P.some(p=>p.best):P.some(p=>p.dept===k)));
+  const cnt=k=>P.filter(p=>(k==='best'?p.best:p.dept===k)&&inStock(p)).length;
+  const best=P.filter(p=>p.best&&inStock(p)).sort((a,b)=>a.best-b.best).slice(0,8);
+  $('#shopHome').innerHTML=`<h2 class="hm-h" style="margin-top:6px">${Q.t}</h2>
+    <div class="ctiles">${ds.map(k=>`<button class="ctile${k==='best'?' hot':''}" data-dept="${k}"><span class="ic" aria-hidden="true">${DICON[k]||'•'}</span><span><b>${L.dept[k]}</b><small>${Q.n(cnt(k))}</small></span></button>`).join('')}
+    <button class="ctile" data-dept="instock"><span class="ic" aria-hidden="true">🛍️</span><span><b>${Q.allp}</b><small>${Q.n(P.filter(inStock).length)}</small></span></button></div>
+    ${best.length?`<div class="sec-h" style="margin-top:34px"><div><h2>${Q.b}</h2><div class="count">${Q.bs}</div></div><button class="linkbtn" data-dept="best">${Q.all} →</button></div>
+    <div class="grid">${best.map(cardHTML).join('')}</div>`:''}`;
+}
 function renderGrid(){
   const L=t();
   if(!S.loaded){$('#grid').innerHTML=`<p class="empty">${S.err?L.loadErr:L.loading}</p>`;$('#secTitle').textContent=L.hits;$('#count').textContent='';return}
+  const landing=S.dept==='all'&&!S.q.trim()&&S.brand==='all';
+  $('#shopHome').hidden=!landing;['.sec-h','#subRow','#brandRow','#grid'].forEach(sel=>{const e=document.querySelector('#catalog > '+sel);if(e)e.style.display=landing?'none':''});
+  if(landing){renderShopHome();return}
   const items=filtered();
+  if(S.dept==='best')items.sort((a,b)=>(inStock(b)-inStock(a))||(a.best-b.best));
   $('#secTitle').textContent=S.dept==='all'?L.hits:(SUBNAV[S.dept]&&S.cat!=='all'?L.nav[S.cat]:L.dept[S.dept]);
   $('#count').textContent=L.items(items.length);
   if(!items.length){$('#grid').innerHTML=`<p class="empty">${S.dept==='fav'?L.favEmpty:(SOON.includes(S.dept)&&!S.q&&S.brand==='all'?L.soon:L.empty)}</p>`;return}
@@ -800,7 +829,7 @@ function productHTML(p){
   if(p.dept){crumbs.push(`<a href="#catalog" data-crumb-dept="${p.dept}">${L.dept[p.dept]||''}</a>`)}
   const sub=navOf(p);
   if(sub)crumbs.push(`<a href="#catalog" data-crumb-sub="${sub}" data-crumb-sdept="${p.dept}">${L.nav[sub]}</a>`);
-  crumbs.push(`<a href="#catalog" data-crumb-brand="${esc(p.brand)}" data-crumb-bdept="${p.dept||''}">${esc(p.brand)}</a>`);
+  if(p.brand)crumbs.push(`<a href="#catalog" data-crumb-brand="${esc(p.brand)}" data-crumb-bdept="${p.dept||''}">${esc(p.brand)}</a>`);
   const accL={ru:`${typeName} ${p.brand} — аксессуар для ухода за волосами и создания причёсок.`,ka:`${typeName} ${p.brand} — აქსესუარი თმის მოვლისა და ვარცხნილობისთვის.`,en:`${typeName} by ${p.brand} — a hair accessory for care and styling.`};
   const isFace=p.dept==='face';
   const descTxt=[(['accessory','tool'].includes(p.type)?accL[S.lang]:isFace?tr(FLEAD)(typeName,p.brand):Q.lead(typeName,p.brand)),tr((isFace?FBENEFIT:BENEFIT)[p.need]),(p.desc&&p.desc[S.lang])||''].filter(Boolean);
