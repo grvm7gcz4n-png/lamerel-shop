@@ -1,0 +1,30 @@
+name: Подсчёт продаж товаров (бестселлеры)
+on:
+  push:
+    paths:
+      - 'tools/bestseller_request.json'
+permissions:
+  contents: write
+concurrency:
+  group: altegio-bestsellers
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - env:
+          ALTEGIO_PARTNER_TOKEN: ${{ secrets.ALTEGIO_PARTNER_TOKEN }}
+          ALTEGIO_LOGIN: ${{ secrets.ALTEGIO_LOGIN }}
+          ALTEGIO_PASSWORD: ${{ secrets.ALTEGIO_PASSWORD }}
+        run: python tools/bestseller_counts.py
+      - if: always()
+        run: |
+          git config user.name "lamerel-bot"; git config user.email "actions@users.noreply.github.com"
+          [ -f tools/bestseller_counts.json ] && git add tools/bestseller_counts.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Продажи товаров для бестселлеров"
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push && break; sleep 7; done
