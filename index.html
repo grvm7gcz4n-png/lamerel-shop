@@ -258,6 +258,8 @@ nav.sitenav a.booklink{margin-left:auto;background:var(--accent);color:#fff}
 .btn.wa{background:#25D366;border-color:#25D366;color:#fff;gap:8px}
 .walink{display:inline-flex;align-items:center;gap:6px;color:#128C4A!important}
 .btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}
+.hm-slides{display:none}
+@keyframes hmfade{0%{opacity:0;transform:scale(1)}7%{opacity:1}50%{opacity:1}57%{opacity:0;transform:scale(1.06)}100%{opacity:0}}
 .hm-hero{padding:56px 0 40px;background:radial-gradient(120% 90% at 85% 0%,var(--accent-soft) 0%,transparent 60%)}
 .kick{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px}
 .hm-hero h1{font-family:var(--wordmark),Unbounded,sans-serif;font-weight:600;font-size:clamp(25px,4vw,48px);line-height:1.05;letter-spacing:-.02em;margin:0;max-width:16ch}
@@ -275,6 +277,11 @@ nav.sitenav a.booklink{margin-left:auto;background:var(--accent);color:#fff}
  .hm-photo{display:none}
  .hm-hero.bg{position:relative;padding:0;background:#241a1f;--ih:calc(100vw * .9)}
  .hm-hero.bg::before{content:'';position:absolute;left:0;right:0;top:0;height:var(--ih);background:url(photos/facade_roses.jpg) top center/100% auto no-repeat}
+ .hm-slides{display:block;position:absolute;left:0;right:0;top:0;height:var(--ih);overflow:hidden}
+ .hm-slides i{position:absolute;inset:0;background:top center/100% auto no-repeat;opacity:0;animation:hmfade 14s infinite}
+ .hm-slides i:nth-child(1){background-image:url(photos/facade_roses.jpg)}
+ .hm-slides i:nth-child(2){background-image:url(photos/facade_sign.jpg);animation-delay:7s}
+ @media (prefers-reduced-motion:reduce){.hm-slides i{animation:none}.hm-slides i:nth-child(1){opacity:1}}
  .hm-hero.bg::after{content:'';position:absolute;left:0;right:0;top:0;height:var(--ih);background:linear-gradient(180deg,rgba(36,26,31,0) 0%,rgba(36,26,31,0) 62%,rgba(36,26,31,.7) 85%,#241a1f 100%)}
  .hm-hero.bg .wrap{position:relative;z-index:1;padding-top:calc(var(--ih) * .9);padding-bottom:30px}
  .hm-hero.bg h1{color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.35)}
@@ -1046,7 +1053,7 @@ function renderSiteNav(){
 function renderHome(){
   const L=h();
   $('#home').innerHTML=`
-  <section class="hm-hero bg"><div class="wrap hm-grid"><div>
+  <section class="hm-hero bg"><div class="hm-slides" aria-hidden="true"><i></i><i></i></div><div class="wrap hm-grid"><div>
     <p class="kick">${L.kick}</p>
     <h1>${L.h1}</h1>
     <p class="hm-lead">${L.lead}</p>
