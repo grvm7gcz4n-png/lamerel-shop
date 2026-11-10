@@ -1,0 +1,2896 @@
+{
+"period": [
+"2026-05-01",
+"2026-11-09"
+],
+"rows": 7835,
+"types": {
+"4:Product write-off": 1470,
+"2:Consumables write-off": 1902,
+"1:Product sale": 1432,
+"3:Product arrival": 2945,
+"0:Product transfer": 86
+},
+"goods": {
+"24618829": {
+"title": "ხელჩანთა პატარა пакет маленький",
+"qty": 59.0,
+"sum": 92.0
+},
+"18314559": {
+"title": "L'Oreal Absolut Repair Conditioner",
+"qty": 2.0,
+"sum": 176.0
+},
+"21181086": {
+"title": "Absolut Repair ბლიოსტკების გარეშე",
+"qty": 2.0,
+"sum": 232.0
+},
+"22093188": {
+"title": "Color Depositing Mask CHAMPAGNE",
+"qty": 1.0,
+"sum": 40.0
+},
+"25137029": {
+"title": "Balmain крабик-заколка маленькая თმის სამაგრი ზაკოლკა",
+"qty": 19.0,
+"sum": 455.0
+},
+"14176869": {
+"title": "VIT E თვალის ირგვლივი კრემი 50მლ",
+"qty": 3.0,
+"sum": 425.0
+},
+"25804283": {
+"title": "pusy brow fix gel",
+"qty": 4.0,
+"sum": 220.0
+},
+"25669119": {
+"title": "Daily Microfoliant - 13 g",
+"qty": 1.0,
+"sum": 55.0
+},
+"21963206": {
+"title": "ხელჩანთა დიდი пакет большой",
+"qty": 39.0,
+"sum": 145.0
+},
+"22474434": {
+"title": "LaSultane de Saba Rassoul",
+"qty": 1.0,
+"sum": 70.0
+},
+"21759415": {
+"title": "Body Lotion Amber Vannila Patchouli",
+"qty": 12.0,
+"sum": 2444.25
+},
+"23285470": {
+"title": "Huile de Beauty Aloe Vera and Tiare beauty oil 50ml",
+"qty": 1.0,
+"sum": 70.0
+},
+"24154776": {
+"title": "Коктейль масел Mocheqi Musk 45 мл",
+"qty": 6.0,
+"sum": 322.0
+},
+"24567897": {
+"title": "ამერიკანო",
+"qty": 141.0,
+"sum": 423.0
+},
+"21180523": {
+"title": "DENC OI შამპუნი",
+"qty": 23.0,
+"sum": 2047.5
+},
+"18744669": {
+"title": "Daviness Oi Conditioner",
+"qty": 16.0,
+"sum": 1555.0
+},
+"25873651": {
+"title": "davines nounou shampoo nutriente  250ml",
+"qty": 1.0,
+"sum": 75.0
+},
+"21762569": {
+"title": "NOUNOU, შამპუნი 75მლ",
+"qty": 4.0,
+"sum": 140.0
+},
+"22799768": {
+"title": "ALFAPARF illumination low shampoo",
+"qty": 3.0,
+"sum": 155.0
+},
+"25864788": {
+"title": "Medicube PDRN booster gel",
+"qty": 1.0,
+"sum": 120.0
+},
+"25652545": {
+"title": "101B shampoo 50ml",
+"qty": 1.0,
+"sum": 21.25
+},
+"25682004": {
+"title": "Soleo Summer Night",
+"qty": 6.0,
+"sum": 90.0
+},
+"25231694": {
+"title": "Bubble Gum крем для солярия с коллагеном",
+"qty": 12.0,
+"sum": 144.0
+},
+"21924701": {
+"title": "KENZO JUNGLE სუნამო",
+"qty": 1.0,
+"sum": 103.0
+},
+"25873611": {
+"title": "Davines momo conditioner 250ml",
+"qty": 1.0,
+"sum": 80.0
+},
+"25391677": {
+"title": "pusy lamination brow fix gel",
+"qty": 26.0,
+"sum": 1297.75
+},
+"25640545": {
+"title": "olivia garden blowout speed 45",
+"qty": 1.0,
+"sum": 140.0
+},
+"14176861": {
+"title": "BIOPLASMA   კორექტორი   SPF 15 30მლ",
+"qty": 2.0,
+"sum": 276.0
+},
+"25137023": {
+"title": "Balmain крабик-заколка большая თმის სამაგრი ზაკოლკა",
+"qty": 3.0,
+"sum": 66.05
+},
+"22190039": {
+"title": "MI DRY SHAMPOO",
+"qty": 8.0,
+"sum": 616.5
+},
+"25260797": {
+"title": "PM_ლაქი \"Medium Hold Air Lacca\" საშუალო ფიქსაციის  300 მლ",
+"qty": 1.0,
+"sum": 70.0
+},
+"25115880": {
+"title": "MI DRY SHAMPOO 100 ML",
+"qty": 3.0,
+"sum": 180.0
+},
+"21945771": {
+"title": "Schwarzkopf თმის ლაქი super strong",
+"qty": 3.0,
+"sum": 210.0
+},
+"24953557": {
+"title": "TIGI Thickening Spray спрей для объема",
+"qty": 6.0,
+"sum": 665.0
+},
+"25492185": {
+"title": " Sevich Hair Shadow Powder",
+"qty": 1.0,
+"sum": 34.0
+},
+"24154772": {
+"title": "LEAVE-IN Интенсивно-увлажняющая МАСКА для волос с гидролизованным коллагеном и маслом макадамии",
+"qty": 14.0,
+"sum": 840.0
+},
+"22297131": {
+"title": "GLA INTENSE TREAT 150ML150ML\t",
+"qty": 1.0,
+"sum": 76.5
+},
+"17905286": {
+"title": "Heart Of Glass Sheer Glaze Thermal Fluid For Blonde",
+"qty": 2.0,
+"sum": 180.5
+},
+"21720946": {
+"title": "OI Hair Butter 250ml",
+"qty": 11.0,
+"sum": 1177.5
+},
+"24447718": {
+"title": "Кондиционер реконструирующий с маслом Арганы 318мл",
+"qty": 7.0,
+"sum": 385.0
+},
+"25220633": {
+"title": "Bubble Gum крем для солярий",
+"qty": 2.0,
+"sum": 24.0
+},
+"24447702": {
+"title": "Шампунь реконструирующий с маслом Арганы 518 мл",
+"qty": 5.0,
+"sum": 210.0
+},
+"18993970": {
+"title": "ZEIN OBAGI Calming Toner pH Balancer",
+"qty": 1.0,
+"sum": 136.0
+},
+"24154774": {
+"title": "LEAVE-IN Шёлковый формирующий КРЕМ для кудрявых волос MOCHEQI (несмываемый) 280 мл",
+"qty": 9.0,
+"sum": 489.5
+},
+"24515524": {
+"title": "K PREMIERE DISCOVERY SET",
+"qty": 3.0,
+"sum": 490.0
+},
+"24367444": {
+"title": "Sun Luxe Collagen Tan Activator Rejuvanation",
+"qty": 2.0,
+"sum": 90.0
+},
+"18744685": {
+"title": "Oi All In One Milk",
+"qty": 8.0,
+"sum": 740.0
+},
+"21343284": {
+"title": "Melu Shampoo",
+"qty": 1.0,
+"sum": 75.0
+},
+"25378979": {
+"title": "MAIMIQI Isolation Sunscreen Spray",
+"qty": 33.0,
+"sum": 1503.5
+},
+"23849638": {
+"title": "Texturizing Dry shampoo",
+"qty": 1.0,
+"sum": 75.0
+},
+"20692269": {
+"title": "Кер Блонд Ночная Сыворотка 90мл",
+"qty": 1.0,
+"sum": 215.0
+},
+"23665467": {
+"title": "Brae Soul Color Conditioner 250ml",
+"qty": 1.0,
+"sum": 68.0
+},
+"24154789": {
+"title": "Шампунь для сухих, повреждённых, окрашенных волос с гидролизованным кератином и маслом ШИ 318 мл",
+"qty": 9.0,
+"sum": 484.0
+},
+"24154773": {
+"title": "Восстанавливающая протеиновая маска для волос Mocheqi с пантенолом 500 мл",
+"qty": 3.0,
+"sum": 270.0
+},
+"21937551": {
+"title": "KERASTASE maskeratine morpho keratine 200 ml",
+"qty": 1.0,
+"sum": 200.0
+},
+"21732548": {
+"title": "Kerastase Discipline Bain shampoo",
+"qty": 2.0,
+"sum": 265.0
+},
+"21441476": {
+"title": "Kerastase Discipline Fluidissime",
+"qty": 1.0,
+"sum": 170.0
+},
+"24154786": {
+"title": "Шампунь Mocheqi Musk с натуральным экстрактом ИМБИРЯ 318 мл",
+"qty": 8.0,
+"sum": 431.0
+},
+"21785252": {
+"title": "Ester C მსუბუქი გამწმენდი 200მლ",
+"qty": 2.0,
+"sum": 234.0
+},
+"23429155": {
+"title": "Alfaparf Nutritive Shampoo 250ml",
+"qty": 2.0,
+"sum": 105.0
+},
+"24154778": {
+"title": "Разглаживающая концентрированная сыворотка для волос Mocheqi Musk 150 мл",
+"qty": 6.0,
+"sum": 321.0
+},
+"24154780": {
+"title": "Питательный кондиционер с гидролизованным коллагеном и ферментированным экстрактом ЗАРОДЫШЕЙ РИСА 518 мл",
+"qty": 7.0,
+"sum": 490.0
+},
+"24154771": {
+"title": "Mocheqi Hair Treatment Hydro Spa mask",
+"qty": 6.0,
+"sum": 480.0
+},
+"21824062": {
+"title": "DENC OI რძე 50მლ",
+"qty": 7.0,
+"sum": 420.0
+},
+"22297077": {
+"title": "DEHC DEDE SH 250ML",
+"qty": 1.0,
+"sum": 65.0
+},
+"24468620": {
+"title": "GLOSS ABSOLUT Shampoo 250ml",
+"qty": 3.0,
+"sum": 413.0
+},
+"25500319": {
+"title": "SEB MAN the groom oil",
+"qty": 3.0,
+"sum": 210.0
+},
+"24032789": {
+"title": "Dry Texturizer 250ml",
+"qty": 12.0,
+"sum": 936.0
+},
+"21847387": {
+"title": "Davines თმის ლაქი საშუალო ფიქსაციის",
+"qty": 3.0,
+"sum": 240.0
+},
+"14054586": {
+"title": "PM_Shine Rose|ვარდის ბზინვარება 50 მლ",
+"qty": 4.0,
+"sum": 500.0
+},
+"25697518": {
+"title": "Soleo Jungle Fruit 12X bronzer",
+"qty": 5.0,
+"sum": 75.0
+},
+"25408814": {
+"title": "Gentle Monster სატვალე очки",
+"qty": 17.0,
+"sum": 5885.0
+},
+"24032795": {
+"title": "PM_შამპუნი \"Maple Aqua Wash\" მშრალი თმის 320 მლ ",
+"qty": 1.0,
+"sum": 90.0
+},
+"14054567": {
+"title": "PM_Babassu Rinse|მოცულობის კონდიციონერი 200 მლ",
+"qty": 1.0,
+"sum": 70.0
+},
+"25486177": {
+"title": "Mango tango accelerator",
+"qty": 11.0,
+"sum": 132.0
+},
+"24447698": {
+"title": "Шампунь реконструирующий с маслом Арганы 318 мл",
+"qty": 7.0,
+"sum": 385.0
+},
+"24154787": {
+"title": "Питательный кондиционер с гидролизованным коллагеном и ферментированным экстрактом ЗАРОДЫШЕЙ РИСА 318 мл",
+"qty": 11.0,
+"sum": 588.0
+},
+"24468629": {
+"title": "GLOSS ABSOLUR Anti Frizz Glaze milk 190ml",
+"qty": 2.0,
+"sum": 360.0
+},
+"25723181": {
+"title": "Daviness extra strong hairspray",
+"qty": 2.0,
+"sum": 160.0
+},
+"24868428": {
+"title": "STAY PUTT მატი საშუალო ფიქსაციის თიხა 100 მლ",
+"qty": 1.0,
+"sum": 100.0
+},
+"22241208": {
+"title": "Body Lotion - Lotus and Frangipani Flower - Journey to Bali - 200ml / 6.8 Fl Oz",
+"qty": 1.0,
+"sum": 210.0
+},
+"25849119": {
+"title": "Mila Dopiz Concentrate  Stemcells",
+"qty": 1.0,
+"sum": 75.0
+},
+"23833942": {
+"title": "Davines Replumping Hair Filler Superactive 100ml",
+"qty": 1.0,
+"sum": 70.0
+},
+"21524167": {
+"title": "L'Oreal Hair touch up black",
+"qty": 1.0,
+"sum": 75.0
+},
+"25347743": {
+"title": "крем для солярия dark bronzer 30x",
+"qty": 7.0,
+"sum": 84.0
+},
+"24154782": {
+"title": "Шампунь Охлаждающий Лёд с натуральным экстрактом МЯТЫ 318 мл",
+"qty": 13.0,
+"sum": 586.0
+},
+"25107801": {
+"title": "ASCE Plus Firming Moisturizer Pro",
+"qty": 2.0,
+"sum": 0.0
+},
+"14178939": {
+"title": "VIT.E მატენიანებელი კრემი ცხ.კან.SPF 20 50მლ",
+"qty": 4.0,
+"sum": 720.0
+},
+"21750613": {
+"title": "Moroccanoil თმის დამატენიანებელი კონდიციონერი 70მლ",
+"qty": 1.0,
+"sum": 52.0
+},
+"23602091": {
+"title": "Brae Soul Booster Ampoule",
+"qty": 2.0,
+"sum": 100.0
+},
+"24154790": {
+"title": "Шампунь для склонных к жирности волос с гидролизованным кератином, витамином Е и маслом ЧАЙНОГО ДЕРЕВА 318 мл",
+"qty": 8.0,
+"sum": 440.0
+},
+"24868154": {
+"title": "MORE INSIDE STRONG HAIRSPRAY 100 MLMINISIZE",
+"qty": 2.0,
+"sum": 120.0
+},
+"21847396": {
+"title": "Davines momo conditioner 75ml",
+"qty": 2.0,
+"sum": 70.0
+},
+"25494343": {
+"title": "CHI Silk Infusion 15ml",
+"qty": 2.0,
+"sum": 60.0
+},
+"25107816": {
+"title": "TigiBed Head After Party Super Smoothing Cream",
+"qty": 6.0,
+"sum": 685.0
+},
+"25731039": {
+"title": "Brae Bond Angel treantment ampula",
+"qty": 1.0,
+"sum": 50.0
+},
+"22799894": {
+"title": "ALFAPARF reparative mask",
+"qty": 4.0,
+"sum": 220.0
+},
+"21759414": {
+"title": "BB Rose Bride's Day Cream 100ml",
+"qty": 1.0,
+"sum": 139.0
+},
+"25643970": {
+"title": "Rhode highlight milk lait effet lumiere 01",
+"qty": 3.0,
+"sum": 435.0
+},
+"25246079": {
+"title": "Заколки крабики маленькая",
+"qty": 2.0,
+"sum": 30.0
+},
+"24154791": {
+"title": "Шампунь с гидролизованным кератином и маслом ЖОЖОБА 318 мл",
+"qty": 2.0,
+"sum": 110.0
+},
+"24387707": {
+"title": "Питательный кондиционер с коллагеном 738 мл",
+"qty": 1.0,
+"sum": 90.0
+},
+"14091436": {
+"title": "200 ლარი ვაუჩერი",
+"qty": 5.0,
+"sum": 0.0
+},
+"25486179": {
+"title": "Sun luxe 50X",
+"qty": 10.0,
+"sum": 120.0
+},
+"24634191": {
+"title": "Sun Luxe 30x Bronzer",
+"qty": 1.0,
+"sum": 50.0
+},
+"14010465": {
+"title": "ЛП СЭ ПРО ЛОНГЕР шампунь 300мл",
+"qty": 3.0,
+"sum": 228.0
+},
+"25731079": {
+"title": "Brae blonde oil conditioner",
+"qty": 1.0,
+"sum": 105.0
+},
+"25731068": {
+"title": "Brae blonde oil shampoo",
+"qty": 1.0,
+"sum": 100.0
+},
+"23665482": {
+"title": "Brae Essential Hair Mask 200g",
+"qty": 2.0,
+"sum": 220.0
+},
+"23029599": {
+"title": "LS REINFORCING BODIFYINGFLUID 125ML",
+"qty": 2.0,
+"sum": 130.0
+},
+"22296047": {
+"title": "Perfume Gift Set - Ayurvedic Perfume + Travel Spray",
+"qty": 1.0,
+"sum": 480.0
+},
+"25211610": {
+"title": "tangle teezer finishing hairbrush",
+"qty": 1.0,
+"sum": 110.0
+},
+"21885761": {
+"title": "VOLU შამპუნი 250 მლ",
+"qty": 4.0,
+"sum": 225.0
+},
+"14176870": {
+"title": "VIT.E  მატენიანებელი კრემი მშ. კან. SPF 20 50მლ",
+"qty": 2.0,
+"sum": 360.0
+},
+"23543196": {
+"title": "საყურე 131318",
+"qty": 21.0,
+"sum": 517.25
+},
+"14054576": {
+"title": "PM_Purifying Wash|გამწმენდი შამპუნი 250 მლ",
+"qty": 2.0,
+"sum": 170.0
+},
+"25369632": {
+"title": "Dermalogica intensive moisture balance 15ml",
+"qty": 1.0,
+"sum": 60.0
+},
+"25369636": {
+"title": "Dermalogica special cleansing gel 50ml",
+"qty": 1.0,
+"sum": 55.0
+},
+"23665597": {
+"title": "Brae Divine Mask 200g",
+"qty": 2.0,
+"sum": 209.0
+},
+"21847953": {
+"title": "KEUNE salt mist brume saline მარილის სპრეი 200მლ",
+"qty": 1.0,
+"sum": 95.0
+},
+"14091421": {
+"title": "100 ლარი ვაუჩერი",
+"qty": 7.0,
+"sum": 500.0
+},
+"23607264": {
+"title": "Charlotte Tilbury  Mini Airbrush Flawless Setting Spray",
+"qty": 1.0,
+"sum": 110.0
+},
+"24334095": {
+"title": "GLOSS GUARD ბზინვარების მცველი 100 მლ",
+"qty": 1.0,
+"sum": 95.0
+},
+"23123595": {
+"title": "Pure Paw Paw Coconut",
+"qty": 1.0,
+"sum": 35.0
+},
+"24139199": {
+"title": "Olivia Garden 55MM Brushing ",
+"qty": 1.0,
+"sum": 100.0
+},
+"21343308": {
+"title": "Love Curl Cream",
+"qty": 4.0,
+"sum": 300.0
+},
+"22228789": {
+"title": "Chroma Absolu sensitized or damaged color treated hair",
+"qty": 1.0,
+"sum": 215.0
+},
+"22369503": {
+"title": "K CHROMA ABS BAIN OPA SF 250ML VD50",
+"qty": 2.0,
+"sum": 270.0
+},
+"25246307": {
+"title": "sunset time dark bronzer",
+"qty": 5.0,
+"sum": 58.0
+},
+"24468626": {
+"title": "ELIXIR ULTIME Beautifying oil 75ml",
+"qty": 1.0,
+"sum": 200.0
+},
+"21937511": {
+"title": "KERASTASE  hyaluronic  gluco peptides 250 ml",
+"qty": 1.0,
+"sum": 135.0
+},
+"25438695": {
+"title": "Davines Love curl-enchancing shampoo",
+"qty": 1.0,
+"sum": 75.0
+},
+"24154794": {
+"title": "Шампунь Охлаждающий Лёд с натуральным экстрактом МЯТЫ 518 мл\t",
+"qty": 14.0,
+"sum": 921.0
+},
+"17377043": {
+"title": "ЛП СЭ21 Витамино шампунь 300 мл",
+"qty": 4.0,
+"sum": 308.0
+},
+"25260803": {
+"title": "PM_ნიღაბი \"Moringa Rinse\" ცხმიმიანი თმის 200 მლ",
+"qty": 1.0,
+"sum": 75.0
+},
+"14054573": {
+"title": "PM_Babassu Wash|შამპუნი 250 მლ",
+"qty": 1.0,
+"sum": 70.0
+},
+"25645837": {
+"title": "Charlotte Tilbery lip cheat pillow talk fair",
+"qty": 2.0,
+"sum": 240.5
+},
+"21180535": {
+"title": "Purifying Shampoo",
+"qty": 2.0,
+"sum": 150.0
+},
+"24154779": {
+"title": "Восстанавливающая сыворотка-спрей для выпрямления волос HAIR SERUM 150 мл",
+"qty": 7.0,
+"sum": 369.74
+},
+"22929627": {
+"title": "Daviness sea solt spray",
+"qty": 2.0,
+"sum": 160.0
+},
+"19320065": {
+"title": "Color Depositing Mask Platinum",
+"qty": 1.0,
+"sum": 45.0
+},
+"25260798": {
+"title": "PM_ლოსიონი  \" Maple Body lotion\" საშხაპე 200 მლ",
+"qty": 1.0,
+"sum": 90.0
+},
+"21847393": {
+"title": "Davines love smoothing conditioner 75ml",
+"qty": 2.0,
+"sum": 65.0
+},
+"21762572": {
+"title": "NOUNOU შამპუნი 250მლ",
+"qty": 2.0,
+"sum": 150.0
+},
+"24878271": {
+"title": "თმის ზაკოლკაი",
+"qty": 2.0,
+"sum": 30.0
+},
+"25142785": {
+"title": "GIGI TEXSTURE surface hydration",
+"qty": 1.0,
+"sum": 65.0
+},
+"14179077": {
+"title": "NUTRI-PEPTIDE მატენიანებელი ცხ კანისთვის 50 მლ",
+"qty": 1.0,
+"sum": 130.0
+},
+"25494347": {
+"title": "CHI Dry Texturizing Hair Spray 74g",
+"qty": 1.0,
+"sum": 55.0
+},
+"24334110": {
+"title": "HEAD LOCK საშუალო ფიქსაციის ბზინვარების გელი 50 მლ",
+"qty": 1.0,
+"sum": 35.0
+},
+"24334105": {
+"title": "FREESTYLER საშალო ფიქსაციის სპრეი  75 მლ",
+"qty": 1.0,
+"sum": 35.0
+},
+"24154785": {
+"title": "Шампунь для склонных к жирности волос с гидролизованным кератином, витамином Е и маслом ЧАЙНОГО ДЕРЕВА 518 мл",
+"qty": 2.0,
+"sum": 140.0
+},
+"25246074": {
+"title": "Заколки крабики средняя",
+"qty": 3.0,
+"sum": 49.0
+},
+"24154797": {
+"title": "MOCHEQI პრობნიკი пробник",
+"qty": 11.0,
+"sum": 0.0
+},
+"21181977": {
+"title": "Nutri Peptide 10% glycolic cream",
+"qty": 1.0,
+"sum": 130.0
+},
+"21889012": {
+"title": "NUTRI-PEPTIDE გამწმენდი გელი 200მლ",
+"qty": 2.0,
+"sum": 265.0
+},
+"21878434": {
+"title": "pHformula E.X.F.O cleanse 200 ml",
+"qty": 1.0,
+"sum": 120.0
+},
+"24154783": {
+"title": "Шампунь для сухих, повреждённых, окрашенных волос с гидролизованным кератином и маслом ШИ 518 мл",
+"qty": 5.0,
+"sum": 350.0
+},
+"25775555": {
+"title": "Dior черная большая велюровая косметичка",
+"qty": 1.0,
+"sum": 140.0
+},
+"14179676": {
+"title": "ESTER C SPF 20 მატენ. კრემი 50 მლ",
+"qty": 1.0,
+"sum": 130.0
+},
+"14180127": {
+"title": "ESTER C Total Serum 30 ml",
+"qty": 1.0,
+"sum": 240.0
+},
+"24516773": {
+"title": "Tangle Teezer ultimate finisber",
+"qty": 1.0,
+"sum": 110.0
+},
+"25107807": {
+"title": "ASCE Plus Soothing Gel Mask",
+"qty": 1.0,
+"sum": 29.75
+},
+"21857776": {
+"title": "Zo Skin Exfoliating polish 65g",
+"qty": 1.0,
+"sum": 215.0
+},
+"23307496": {
+"title": "Kerastase micro exfoliating cellular treatment",
+"qty": 1.0,
+"sum": 195.0
+},
+"24760114": {
+"title": "Schwarzkopf Grip ",
+"qty": 1.0,
+"sum": 60.0
+},
+"24447722": {
+"title": "Кондиционер реконструирующий с маслом Арганы 518мл",
+"qty": 4.0,
+"sum": 140.0
+},
+"24994745": {
+"title": "Bvlgari კოსმეტიკური ჩანთა",
+"qty": 1.0,
+"sum": 95.0
+},
+"21580299": {
+"title": "DENC OI არაზეთოვანი ზეთი 50მლ",
+"qty": 5.0,
+"sum": 354.5
+},
+"21122298": {
+"title": "KEUNE Ultra Gel",
+"qty": 1.0,
+"sum": 55.0
+},
+"24072113": {
+"title": "Rhode Bag",
+"qty": 3.0,
+"sum": 298.0
+},
+"21762562": {
+"title": "DEDE, კონდიციონერი 75მლ",
+"qty": 2.0,
+"sum": 70.0
+},
+"22869544": {
+"title": "davines dede shampoo 75ml",
+"qty": 4.0,
+"sum": 135.0
+},
+"23287086": {
+"title": "თმის სამაგრი დიდი/Заколки крабики большие",
+"qty": 5.0,
+"sum": 140.0
+},
+"24738349": {
+"title": "Pusy Purifying Facial Cleanser 110ml",
+"qty": 1.0,
+"sum": 38.25
+},
+"17470638": {
+"title": "The Ordinary 100% Plant-Derived Hemi-Squalane",
+"qty": 1.0,
+"sum": 42.5
+},
+"25683994": {
+"title": "Rhode Glazing Mist 30ml",
+"qty": 1.0,
+"sum": 93.5
+},
+"23665512": {
+"title": "Brae Divine Conditioner 250ml",
+"qty": 1.0,
+"sum": 76.5
+},
+"21759416": {
+"title": "Moisturizing Hand Cream Amber Vanilla Patchouli",
+"qty": 2.0,
+"sum": 160.0
+},
+"23601949": {
+"title": "Brae ფლუიდი Glow Shine ბზინვარების",
+"qty": 1.0,
+"sum": 120.0
+},
+"25494550": {
+"title": "CHI Dry Oil Blendn 15ml",
+"qty": 1.0,
+"sum": 30.0
+},
+"24655528": {
+"title": "Hydrating Creme 58g",
+"qty": 1.0,
+"sum": 200.0
+},
+"19665708": {
+"title": "ZO SKIN Exfoliating Polish 16.6g",
+"qty": 5.0,
+"sum": 365.75
+},
+"24468616": {
+"title": "GLOSS ABSOLU Glaze Drops",
+"qty": 7.0,
+"sum": 1094.0
+},
+"25524114": {
+"title": "Kerastase Gloss Absolu Frizz Glaze Cream",
+"qty": 2.0,
+"sum": 409.0
+},
+"25597404": {
+"title": "ZO SKIN enzymatic peel",
+"qty": 1.0,
+"sum": 280.0
+},
+"24468636": {
+"title": "VItamino Color Spectrum Conditioner 200ml",
+"qty": 1.0,
+"sum": 140.0
+},
+"20692203": {
+"title": "К БЛОНД АБСОЛЮ ШВ Люмьер 250 мл",
+"qty": 1.0,
+"sum": 140.0
+},
+"24402101": {
+"title": "ბალმანი თმის აქსესუარი PRINCE A CHEVEUX IMPERIALE თეთრი",
+"qty": 1.0,
+"sum": 750.0
+},
+"25745604": {
+"title": "chanel les beiges",
+"qty": 1.0,
+"sum": 250.0
+},
+"25440616": {
+"title": "Hourglass Brush Set кисти набор",
+"qty": 6.0,
+"sum": 1900.0
+},
+"25107763": {
+"title": "BI_ცვილი \"Barbera\" ფიქსაციის \"სპაიდერი\" 100 მლ",
+"qty": 1.0,
+"sum": 70.0
+},
+"24919487": {
+"title": "Scalp Brush For Professional for shampooing and stling",
+"qty": 5.0,
+"sum": 250.0
+},
+"25669124": {
+"title": "Daily superfoliant - 13 g",
+"qty": 1.0,
+"sum": 55.0
+},
+"24334109": {
+"title": "THE ROCK ძლიერი ფიქსაციის გელი 50 მლ",
+"qty": 1.0,
+"sum": 0.0
+},
+"17443182": {
+"title": "SUN CARE SPF 40 Ultra Light Facial Sun Screen Advanced Protection",
+"qty": 1.0,
+"sum": 140.0
+},
+"22374515": {
+"title": "ბალმანი თმის აქსესუარი ყავისფერი",
+"qty": 1.0,
+"sum": 290.0
+},
+"23429152": {
+"title": "Alfaparf Nutritive Conditioner 200ml",
+"qty": 3.0,
+"sum": 170.0
+},
+"21928428": {
+"title": "Janeke Superbrush The Original",
+"qty": 1.0,
+"sum": 65.0
+},
+"21225360": {
+"title": "КЕР ДЕНСИФИК Молочко 200 мл",
+"qty": 2.0,
+"sum": 193.5
+},
+"24868132": {
+"title": "DEHC NOUNOU HAIR MASK 75 ML",
+"qty": 2.0,
+"sum": 80.0
+},
+"25500308": {
+"title": "SEB MAN the multi tasker",
+"qty": 2.0,
+"sum": 185.0
+},
+"20692137": {
+"title": "КЕР Э УЛЬТИМ ШВ 250мл",
+"qty": 1.0,
+"sum": 135.0
+},
+"21872790": {
+"title": "The wake-up circle",
+"qty": 3.0,
+"sum": 105.0
+},
+"23307487": {
+"title": "Kerastase symbiose moisturizing anti-dandruf cellular shampoo 250ml",
+"qty": 2.0,
+"sum": 255.0
+},
+"25746031": {
+"title": "DIOR ЗАКОЛКА",
+"qty": 1.0,
+"sum": 70.0
+},
+"14178915": {
+"title": "VIT.E შრატი 30 მლ.",
+"qty": 2.0,
+"sum": 360.0
+},
+"24468638": {
+"title": "Vitamino Color Spectrum Shampoo 300ml",
+"qty": 2.0,
+"sum": 200.0
+},
+"24468632": {
+"title": "Vitamino Color Spectrum Mask 250ml",
+"qty": 1.0,
+"sum": 120.0
+},
+"23164959": {
+"title": "Dior BACKSTAGE Eyeshadow Palette 001 ",
+"qty": 1.0,
+"sum": 230.0
+},
+"24414832": {
+"title": "Body Lotion Senteur Jasmine 50ml",
+"qty": 1.0,
+"sum": 70.0
+},
+"25753761": {
+"title": "Hourglass Brush Set кисти набор midi",
+"qty": 1.0,
+"sum": 650.0
+},
+"24154788": {
+"title": "Гель-шампунь для глубокой очистки кожи головы с МЕНТОЛОМ Mocheqi Musk 318 мл",
+"qty": 2.0,
+"sum": 115.0
+},
+"22535914": {
+"title": "EHC NOUNOU CONDITIONER 75 ML",
+"qty": 2.0,
+"sum": 70.0
+},
+"24068719": {
+"title": "CHarlotte TIlbury Pillow Talk MakeUP Bag косметичка",
+"qty": 7.0,
+"sum": 1009.0
+},
+"25730470": {
+"title": "Gentle Monster PRADA очки",
+"qty": 1.0,
+"sum": 300.0
+},
+"25365503": {
+"title": "Kerastase oil chroma absolu",
+"qty": 2.0,
+"sum": 385.0
+},
+"24154784": {
+"title": "Шампунь Mocheqi Musk с натуральным экстрактом ИМБИРЯ 518 мл",
+"qty": 3.0,
+"sum": 200.0
+},
+"23429168": {
+"title": "Barba Italiana Nebbiolo",
+"qty": 1.0,
+"sum": 65.0
+},
+"25260852": {
+"title": "ALFAPARF extrim hairspray",
+"qty": 1.0,
+"sum": 63.75
+},
+"24868141": {
+"title": "MORE INSIDE SEA SALT SPRAY 100 ML\t",
+"qty": 4.0,
+"sum": 231.0
+},
+"21759420": {
+"title": "Authentic Eucalyptus Black Soap",
+"qty": 2.0,
+"sum": 420.0
+},
+"18744633": {
+"title": "DEDE conditioner",
+"qty": 1.0,
+"sum": 76.5
+},
+"25481946": {
+"title": "MIU MIU ОЧКИ",
+"qty": 6.0,
+"sum": 1750.0
+},
+"22660617": {
+"title": "nutritive,ultra-concentrated rich mask.for  very dry hair",
+"qty": 1.0,
+"sum": 220.0
+},
+"25572289": {
+"title": "hello sun ultra accelertor",
+"qty": 4.0,
+"sum": 48.0
+},
+"25575886": {
+"title": "Rhode highlight milk lait effet lumiere 02",
+"qty": 5.0,
+"sum": 750.0
+},
+"21905168": {
+"title": "SEB MAN the boss 250 ml",
+"qty": 1.0,
+"sum": 90.0
+},
+"25622953": {
+"title": "SEB MAN konditioner",
+"qty": 1.0,
+"sum": 110.0
+},
+"22661016": {
+"title": "nutritive split ends serum",
+"qty": 1.0,
+"sum": 185.0
+},
+"23418223": {
+"title": "MASIL 8 seconds mask",
+"qty": 3.0,
+"sum": 30.0
+},
+"16249292": {
+"title": "8 Second Salon Hair Mask",
+"qty": 2.0,
+"sum": 20.0
+},
+"25733322": {
+"title": "PM ultra violet wash shampoo 200ml",
+"qty": 1.0,
+"sum": 70.0
+},
+"22799745": {
+"title": "ALFAPARF volumizing spray",
+"qty": 2.0,
+"sum": 135.0
+},
+"24738400": {
+"title": "Kerastase  Genesis Shampoo 80ml",
+"qty": 2.0,
+"sum": 100.0
+},
+"23429147": {
+"title": "Alfaparf Nutritive Mask 250ml",
+"qty": 3.0,
+"sum": 165.0
+},
+"14178873": {
+"title": "LIPACID მატენიანებელი კრ.100მლ",
+"qty": 1.0,
+"sum": 120.0
+},
+"21965143": {
+"title": "KERASTASE masque cicaextreme 200 ml",
+"qty": 1.0,
+"sum": 216.0
+},
+"21732544": {
+"title": "Kerastase Bain Ultra Violet",
+"qty": 1.0,
+"sum": 135.0
+},
+"25468150": {
+"title": "AZTK J07",
+"qty": 1.0,
+"sum": 50.0
+},
+"25643968": {
+"title": "Rhode highlight milk lait effet lumiere 03",
+"qty": 2.0,
+"sum": 300.0
+},
+"21926535": {
+"title": "pHformula  VITA   C   concentrated corrective  SERUM 30 ML",
+"qty": 1.0,
+"sum": 180.0
+},
+"25731144": {
+"title": "Alfaparf glossy pomade 91gr",
+"qty": 1.0,
+"sum": 75.0
+},
+"21795379": {
+"title": "Energizing shampoo",
+"qty": 3.0,
+"sum": 213.75
+},
+"24334101": {
+"title": "VELVET CLOUD ძლიერი მოცულობის მუსი 200 მლ",
+"qty": 1.0,
+"sum": 65.0
+},
+"21872788": {
+"title": "OI Body Scrub",
+"qty": 1.0,
+"sum": 100.0
+},
+"14010484": {
+"title": "ЛП СЭ СИЛЬВЕР ШАМПУНЬ 300МЛ",
+"qty": 2.0,
+"sum": 150.0
+},
+"25502797": {
+"title": "ORIBE gold lust dry heat protection spray",
+"qty": 1.0,
+"sum": 30.0
+},
+"21180978": {
+"title": "Spotlight Circle",
+"qty": 3.0,
+"sum": 70.0
+},
+"25724815": {
+"title": "love my hair расчестка",
+"qty": 1.0,
+"sum": 65.0
+},
+"25520911": {
+"title": "Kerastase mini",
+"qty": 1.0,
+"sum": 60.0
+},
+"25724813": {
+"title": "Shik мист для тела с сиянием",
+"qty": 1.0,
+"sum": 100.0
+},
+"22343926": {
+"title": "SKP PRO Styler Brush_ხის სავარცხელი",
+"qty": 1.0,
+"sum": 50.0
+},
+"23602019": {
+"title": "Brae Gergeois ბზინვარების ზეთი",
+"qty": 1.0,
+"sum": 110.0
+},
+"20692155": {
+"title": "ДЖЕНЕЗИС Шампунь-Ванна Гидра-Фортифант 250мл",
+"qty": 1.0,
+"sum": 126.0
+},
+"25646058": {
+"title": "Charlotte Tilbery matte revolution pillow talk",
+"qty": 1.0,
+"sum": 170.0
+},
+"25595471": {
+"title": "Rhode Lip Tint Macadamia Butter",
+"qty": 2.0,
+"sum": 200.0
+},
+"24868138": {
+"title": "MORE INSIDE CURL BUILDING SERUM 100ML",
+"qty": 2.0,
+"sum": 120.0
+},
+"21847390": {
+"title": "Davines minu conditioner 75ml",
+"qty": 1.0,
+"sum": 35.0
+},
+"25500294": {
+"title": "SEB MAN the dandy pomade",
+"qty": 4.0,
+"sum": 360.0
+},
+"25252923": {
+"title": "заколка крабик набор 3 штуки",
+"qty": 1.0,
+"sum": 30.0
+},
+"25639144": {
+"title": "Rhode Pocket Bronze Sip",
+"qty": 2.0,
+"sum": 245.0
+},
+"25414580": {
+"title": "loreal набор",
+"qty": 1.0,
+"sum": 170.0
+},
+"25137027": {
+"title": "Balmain крабик-заколка средняя",
+"qty": 2.0,
+"sum": 55.0
+},
+"14082527": {
+"title": "Wella Eimi თერმოდამცავი სპრეი",
+"qty": 6.0,
+"sum": 435.0
+},
+"14010473": {
+"title": "LP SE BLONDIFIER MASQUE 250 ML V235",
+"qty": 1.0,
+"sum": 90.0
+},
+"23849639": {
+"title": "Alfaparf Thermal Protector",
+"qty": 1.0,
+"sum": 60.0
+},
+"21343290": {
+"title": "OI Body Wash",
+"qty": 1.0,
+"sum": 65.0
+},
+"25302782": {
+"title": "DR.ALTHEA aqua marine deep serum",
+"qty": 1.0,
+"sum": 90.0
+},
+"21885745": {
+"title": "MOMO კონდეციონერი 250 მლ",
+"qty": 2.0,
+"sum": 170.0
+},
+"22369501": {
+"title": "K CHROMA ABS BAIN LIM SF 250ML VD51",
+"qty": 1.0,
+"sum": 135.0
+},
+"24469703": {
+"title": "GLOSS ABSOLU Gloss Enhancing Conditioner",
+"qty": 3.0,
+"sum": 560.5
+},
+"25411904": {
+"title": "101B tonic fabao",
+"qty": 8.0,
+"sum": 1052.0
+},
+"21885778": {
+"title": "STRONG HAIRSPREY  თმის ძლიერი ფიქსაცია",
+"qty": 1.0,
+"sum": 85.0
+},
+"22910226": {
+"title": "JANEKE თმის ჯაგრისი SUPERBRUSH THE ORIGINAL",
+"qty": 1.0,
+"sum": 55.0
+},
+"23418202": {
+"title": "ბეჭედი",
+"qty": 1.0,
+"sum": 15.0
+},
+"23417813": {
+"title": "ყელსაბამი + საყურები",
+"qty": 1.0,
+"sum": 40.0
+},
+"23986809": {
+"title": "Sol de Janeiro Perfume Mist 59 90ml",
+"qty": 1.0,
+"sum": 120.0
+},
+"21965207": {
+"title": "GIGI AN traitement nuit pour las peaux grasses 50 ml",
+"qty": 1.0,
+"sum": 140.0
+},
+"14179082": {
+"title": "NUTRI-PEPTIDE მატენიანებელი მშ. კანისთვის 50 მლ",
+"qty": 1.0,
+"sum": 130.0
+},
+"14179993": {
+"title": "BIO DERM ლოსიონი \" ბალტუშკა\" 250 მლ.",
+"qty": 1.0,
+"sum": 130.0
+},
+"22660626": {
+"title": "nutritive, ultra-concentrated soft mask",
+"qty": 1.0,
+"sum": 200.0
+},
+"22369499": {
+"title": "K NUTRITIVE BAIN SATIN 250ML VI60",
+"qty": 1.0,
+"sum": 123.0
+},
+"25030928": {
+"title": "LaSultane de Saba Santeur Ambre Musk",
+"qty": 1.0,
+"sum": 165.75
+},
+"22260786": {
+"title": "Moisturizing Body Mist - Ayurvedic Treatment - Amber Vanilla Patchouli Journey To The Spices Route",
+"qty": 2.0,
+"sum": 460.0
+},
+"20692217": {
+"title": "KER RES MSQ THERAPISTE 200ML VF62",
+"qty": 1.0,
+"sum": 210.0
+},
+"20692246": {
+"title": "KER RES BAIN THERAPISTE 250ML VF46",
+"qty": 1.0,
+"sum": 150.0
+},
+"25277926": {
+"title": "Маска для лица алое",
+"qty": 3.0,
+"sum": 30.0
+},
+"21180431": {
+"title": "LOVE კონდიციონერი თმის დახვევის გამაძლიერებელი ეფექტით",
+"qty": 2.0,
+"sum": 170.0
+},
+"21824067": {
+"title": "LOVE შამპუნი თმის დახვევის გამაძლიერებელი ეფექტით 250მლ",
+"qty": 1.0,
+"sum": 75.0
+},
+"25281803": {
+"title": "Dior косметичка бежевая летняя с дырочками",
+"qty": 2.0,
+"sum": 185.0
+},
+"25645854": {
+"title": "Charlotte Tilbery lip oil",
+"qty": 1.0,
+"sum": 85.0
+},
+"25353320": {
+"title": "MOCHEQI AMPULA",
+"qty": 4.0,
+"sum": 80.0
+},
+"25164006": {
+"title": "TINGLE TEEZER  stuling hairbrush",
+"qty": 1.0,
+"sum": 110.0
+},
+"20692227": {
+"title": "Кер Хроно Маска 200мл",
+"qty": 1.0,
+"sum": 270.0
+},
+"21010738": {
+"title": "Кер Хроно термик 150мл",
+"qty": 1.0,
+"sum": 202.5
+},
+"21937530": {
+"title": "KETASTASE serum anti chute fortifiant 90 ml",
+"qty": 1.0,
+"sum": 0.0
+},
+"25347751": {
+"title": "tingle bell",
+"qty": 1.0,
+"sum": 50.0
+},
+"24072085": {
+"title": "Rhode Blush Piggy",
+"qty": 1.0,
+"sum": 110.5
+},
+"21944953": {
+"title": "JANEKE თმის ჯაგრისი SUPERBRUSH THE ORIGINAL small",
+"qty": 1.0,
+"sum": 45.0
+},
+"25683912": {
+"title": "Rhode Pocket Blush Freckle",
+"qty": 1.0,
+"sum": 130.0
+},
+"24885779": {
+"title": "თმის სამაგრი 5 ლარიანი ",
+"qty": 2.0,
+"sum": 10.0
+},
+"23849575": {
+"title": "Balmain თმის სამაგრი თეთრი პატარა ",
+"qty": 3.0,
+"sum": 684.0
+},
+"25108390": {
+"title": "kerastase shampooing decalcifiant reparateur",
+"qty": 2.0,
+"sum": 285.0
+},
+"21762574": {
+"title": "NOUNOU კონდიციონერი 250მლ",
+"qty": 1.0,
+"sum": 85.0
+},
+"23543459": {
+"title": "საყურე 131320",
+"qty": 1.0,
+"sum": 30.0
+},
+"25645954": {
+"title": "Charlotte Tilbery magic vanish 1 fair",
+"qty": 1.0,
+"sum": 140.0
+},
+"25683992": {
+"title": "Rhode Pocket Blush Teacup",
+"qty": 1.0,
+"sum": 130.0
+},
+"24599631": {
+"title": "Black Bronzer Крем усилитель ",
+"qty": 2.0,
+"sum": 74.0
+},
+"23164891": {
+"title": "Charlotte Tilbury Hollywood Flawless Filter 2 Fair",
+"qty": 2.0,
+"sum": 440.0
+},
+"22093169": {
+"title": "Hand Cream Spa Du Maroc",
+"qty": 1.0,
+"sum": 43.0
+},
+"25114051": {
+"title": "Janeke Superbrush The Original",
+"qty": 1.0,
+"sum": 60.0
+},
+"25108409": {
+"title": "kerastase masque filler reparateur",
+"qty": 1.0,
+"sum": 250.0
+},
+"21740447": {
+"title": "Acnon Day Control Moisturizer",
+"qty": 1.0,
+"sum": 140.0
+},
+"21872800": {
+"title": "A.N, მსუბუქსი საპონი მგრძნობიარე  100 მლ",
+"qty": 1.0,
+"sum": 125.0
+},
+"21872787": {
+"title": "Davines VOLU hair mist",
+"qty": 2.0,
+"sum": 190.0
+},
+"22799796": {
+"title": "ALFAPARF volume mousse",
+"qty": 1.0,
+"sum": 46.75
+},
+"14802184": {
+"title": "Pore Purifying Mask For oily & problematic skin",
+"qty": 1.0,
+"sum": 110.0
+},
+"25142774": {
+"title": "GIGI TEXSTURE magic eye rescue",
+"qty": 1.0,
+"sum": 65.0
+},
+"22799752": {
+"title": "ALFAPARF illumination mask",
+"qty": 1.0,
+"sum": 55.0
+},
+"17829751": {
+"title": "400 ლარი ვაუჩერი",
+"qty": 1.0,
+"sum": 0.0
+},
+"25107754": {
+"title": "BI_ზეთი \"Romolo\" წვერის 50 მლ",
+"qty": 1.0,
+"sum": 70.0
+},
+"24334107": {
+"title": "VELVET CLOUD ძლიერი მოცულობის მუსი 75 მლ",
+"qty": 1.0,
+"sum": 35.0
+},
+"21937521": {
+"title": "KERASTASE serum extentioniste 50 ml",
+"qty": 1.0,
+"sum": 178.5
+},
+"22007938": {
+"title": "KERASTASE masque extentioniste 200 ml",
+"qty": 1.0,
+"sum": 204.0
+},
+"22007982": {
+"title": "KERASTASE shampooing booster de longueur 250 ml",
+"qty": 1.0,
+"sum": 114.75
+},
+"22799934": {
+"title": "ALFAPARF smoothing mask",
+"qty": 1.0,
+"sum": 60.0
+},
+"25643955": {
+"title": "Santal 33",
+"qty": 1.0,
+"sum": 900.0
+},
+"25355891": {
+"title": "Keune good fibes",
+"qty": 1.0,
+"sum": 80.0
+},
+"22799741": {
+"title": "ALFAPARF volume fine hair",
+"qty": 1.0,
+"sum": 50.0
+},
+"24214296": {
+"title": "BR_კონდიციონერი \"Angel Blond Matizador\" იასამნისფერი ქერა თმის 250მლ",
+"qty": 1.0,
+"sum": 75.0
+},
+"24214274": {
+"title": "BR_შამპუნი \"Angel Blond Matizador\" იასამნისფერი ქერა თმის 250მლ",
+"qty": 1.0,
+"sum": 70.0
+},
+"21795377": {
+"title": "Love Smoothing Conditioner",
+"qty": 1.0,
+"sum": 85.0
+},
+"14010466": {
+"title": "ЛП СЭ21 Про Лонгер крем 150мл",
+"qty": 1.0,
+"sum": 110.0
+},
+"22289064": {
+"title": "Janeke Superbrush The Original",
+"qty": 1.0,
+"sum": 65.0
+},
+"22260763": {
+"title": "LP SE КЁРЛ УВЛ ШАМП 300МЛ ",
+"qty": 1.0,
+"sum": 0.0
+},
+"22440727": {
+"title": "Curl Manifesto Daily moisturizing frizz reducing leave in treatment",
+"qty": 1.0,
+"sum": 0.0
+},
+"21107690": {
+"title": "ЛП СЭ21 Витамино 10-в-1 190 мл",
+"qty": 1.0,
+"sum": 100.0
+},
+"25645856": {
+"title": "Charlotte Tilbery air brush 2 medium",
+"qty": 1.0,
+"sum": 220.0
+},
+"22641027": {
+"title": "ბალმანი თმის აქსესუარი პრინსი პატარა კრემისფერი",
+"qty": 1.0,
+"sum": 0.0
+},
+"21885772": {
+"title": "NT replumping conditioner კონდეციონერი 150მლ",
+"qty": 1.0,
+"sum": 0.0
+},
+"23487257": {
+"title": "PUSY Keratin Serum",
+"qty": 1.0,
+"sum": 30.0
+},
+"22160370": {
+"title": "ბალმანი თმის აქსესუარი პრინსი საშუალო თეთრი",
+"qty": 1.0,
+"sum": 330.0
+},
+"22374618": {
+"title": "ბალმანი თმის აქსესუარი პრინსი ყავისფერი დიდი",
+"qty": 2.0,
+"sum": 700.0
+},
+"21343479": {
+"title": "OI Hand Balm",
+"qty": 1.0,
+"sum": 70.0
+},
+"22247046": {
+"title": "Zo Sunscreen + Powder Broad-Spectrum Refill Light 2.7g SPF 30",
+"qty": 1.0,
+"sum": 160.0
+},
+"25411932": {
+"title": "kerastase aplicator",
+"qty": 5.0,
+"sum": 180.0
+},
+"24387706": {
+"title": "Питательный кондиционер с гидролизованным коллагеном и ферментированным экстрактом ЗАРОДЫШЕЙ РИСА 738мл",
+"qty": 1.0,
+"sum": 90.0
+},
+"23616077": {
+"title": "Гель-МАСЛО для душа “Pusy. Shower body oil” 200мл",
+"qty": 1.0,
+"sum": 46.0
+},
+"23487289": {
+"title": "PUSY Body Shimmering Scrub",
+"qty": 2.0,
+"sum": 70.4
+},
+"23435558": {
+"title": "Curl Building Serum 250ml",
+"qty": 2.0,
+"sum": 160.0
+},
+"24115833": {
+"title": "Amber Vanilla Patchouli Shower Gel 50ml",
+"qty": 1.0,
+"sum": 45.0
+},
+"21992769": {
+"title": "La Sultane de Saba Body Lotion Senteur Musc Encens Rose",
+"qty": 1.0,
+"sum": 210.0
+},
+"22308365": {
+"title": "Sol de Janeiro 62 perfume mist 90ml",
+"qty": 1.0,
+"sum": 150.0
+},
+"21945144": {
+"title": "Chloe tester 75ml",
+"qty": 1.0,
+"sum": 150.0
+},
+"23934717": {
+"title": "DIOR სამკაულების ჩანთა ოქროსფერი",
+"qty": 1.0,
+"sum": 120.0
+},
+"23487272": {
+"title": "PUSY Grow Booster",
+"qty": 2.0,
+"sum": 120.0
+},
+"14205659": {
+"title": "Londa Velvet Oil lightweight oil",
+"qty": 2.0,
+"sum": 160.0
+},
+"22929628": {
+"title": "daviness shimmering mist",
+"qty": 1.0,
+"sum": 80.0
+},
+"22297073": {
+"title": "DEHC SOLU SALT SCRUB 250ML",
+"qty": 1.0,
+"sum": 72.25
+},
+"21832643": {
+"title": "PM infusion cream",
+"qty": 3.0,
+"sum": 280.0
+},
+"25502756": {
+"title": "WELLA oil 30ml",
+"qty": 1.0,
+"sum": 50.0
+},
+"25589901": {
+"title": "WOW color dream coat 50ml",
+"qty": 1.0,
+"sum": 50.0
+},
+"21759412": {
+"title": "Commage Scrub Ayurvedique Oriental",
+"qty": 1.0,
+"sum": 220.0
+},
+"25277918": {
+"title": "Маска для лица улитка",
+"qty": 1.0,
+"sum": 10.0
+},
+"22799878": {
+"title": "ALFAPARF enhancing low shampoo",
+"qty": 1.0,
+"sum": 50.0
+},
+"24868413": {
+"title": "PAWER PASTE ძლიერი ფიქსაციის პასტა 150 მლ",
+"qty": 1.0,
+"sum": 65.0
+},
+"23146147": {
+"title": "Charlotte Tilbury Beauty Highlighter Wand",
+"qty": 2.0,
+"sum": 333.0
+},
+"25595480": {
+"title": "Rhode Lip Tint Sweet Pea",
+"qty": 1.0,
+"sum": 85.0
+},
+"25385097": {
+"title": "gucci mate powder",
+"qty": 1.0,
+"sum": 221.0
+},
+"23602074": {
+"title": "Brae Blooming Rose ",
+"qty": 1.0,
+"sum": 115.0
+},
+"25502616": {
+"title": "WOW color extra large bombshell volumizer",
+"qty": 1.0,
+"sum": 160.0
+},
+"23982653": {
+"title": "Is Clinical Warming Honey Cleanser 120g",
+"qty": 1.0,
+"sum": 170.0
+},
+"25246900": {
+"title": "AZTK  blush 01",
+"qty": 5.0,
+"sum": 224.0
+},
+"25639150": {
+"title": "Rhode Pocket Bronze Sunbed",
+"qty": 1.0,
+"sum": 140.0
+},
+"24334086": {
+"title": "RUSH HOUR თერმოდამცავი - სწრაფი შრობა 200 მლ",
+"qty": 1.0,
+"sum": 80.0
+},
+"25107759": {
+"title": "BI_შამპუნი და შხაპის გელი \"Morfeo\" დამამშვიდებელი 400 მლ",
+"qty": 1.0,
+"sum": 46.75
+},
+"25081157": {
+"title": "Крем для загара в солярии 50X",
+"qty": 1.0,
+"sum": 40.0
+},
+"24219621": {
+"title": "Brae Bond Angel Power Dose",
+"qty": 4.0,
+"sum": 135.0
+},
+"25142723": {
+"title": "GIGI AROMA ESSENCE deep porecleanser",
+"qty": 1.0,
+"sum": 50.0
+},
+"24646502": {
+"title": "GIGI SPF50 for all skin typer",
+"qty": 1.0,
+"sum": 135.0
+},
+"21839988": {
+"title": "NEW AGE G4 GLOW UP შრატი 30მლ",
+"qty": 1.0,
+"sum": 270.0
+},
+"25346566": {
+"title": "Charlotte Tilbury Beauty Highlighter SPORTLIGHT",
+"qty": 1.0,
+"sum": 150.0
+},
+"25462523": {
+"title": "La Sultane de Saba Cleansing Hand Cream 50ml",
+"qty": 2.0,
+"sum": 0.0
+},
+"23041509": {
+"title": "Zo Exfoliating Cleanser Normal to Oily Skin 200ml",
+"qty": 1.0,
+"sum": 136.0
+},
+"21759418": {
+"title": "La Sultane Shea Butter Ayurvedic",
+"qty": 2.0,
+"sum": 414.0
+},
+"24279815": {
+"title": "DEDE Shampoo 250ml",
+"qty": 1.0,
+"sum": 65.0
+},
+"22374594": {
+"title": "ბალმანი თმის აქსეს. პრინსი ექსტა პატ. შავ-თეთრი",
+"qty": 1.0,
+"sum": 0.0
+},
+"22799793": {
+"title": "ALFAPARF smoothing conditioner",
+"qty": 2.0,
+"sum": 110.0
+},
+"25249245": {
+"title": "AZTK  blush 03",
+"qty": 3.0,
+"sum": 150.0
+},
+"13967448": {
+"title": "ЛП СЭ ПРО ЛОНГЕР маска 250мл",
+"qty": 1.0,
+"sum": 0.0
+},
+"14010463": {
+"title": "ЛП СЭ21 Лисс шампунь 300 мл",
+"qty": 1.0,
+"sum": 0.0
+},
+"25281878": {
+"title": "Chanel косметичка синяя",
+"qty": 2.0,
+"sum": 120.0
+},
+"25378957": {
+"title": "AZTK JC05",
+"qty": 3.0,
+"sum": 145.0
+},
+"24798964": {
+"title": "Moisturizing Hand Cream - Musk Incense Vanilla Fragrance",
+"qty": 1.0,
+"sum": 80.0
+},
+"21927584": {
+"title": "Moroccanoil Night Body Serum 100ml",
+"qty": 1.0,
+"sum": 0.0
+},
+"21927554": {
+"title": "Hand Wash Ambiance De Plage Argan - Hyaluronic acid",
+"qty": 1.0,
+"sum": 0.0
+},
+"21927546": {
+"title": "Hand Wash Fragrance Originale Argan - Hyaluronic Acid",
+"qty": 1.0,
+"sum": 0.0
+},
+"21343472": {
+"title": "Nourishing Vegetarian Miracle Mask",
+"qty": 1.0,
+"sum": 89.25
+},
+"25620867": {
+"title": "Tom Ford очки",
+"qty": 1.0,
+"sum": 300.0
+},
+"22343923": {
+"title": "OSiS Thrill  100მლ",
+"qty": 1.0,
+"sum": 65.0
+},
+"22796179": {
+"title": "osis dust it 10gr",
+"qty": 1.0,
+"sum": 75.0
+},
+"24800806": {
+"title": "Dior Lip Maximizer 015 Cherry",
+"qty": 1.0,
+"sum": 153.0
+},
+"25595465": {
+"title": "Rhode Lip Tint Colada",
+"qty": 1.0,
+"sum": 100.0
+},
+"25575898": {
+"title": "Rhode glazing milk 124ml",
+"qty": 2.0,
+"sum": 150.0
+},
+"23487312": {
+"title": "PUSY Magic Water",
+"qty": 1.0,
+"sum": 85.0
+},
+"24415410": {
+"title": "Мусс-автозагар для тела PUSY Body Tan Mousse. Body Tan Mousse PUSY. 200 мл",
+"qty": 1.0,
+"sum": 100.0
+},
+"24292656": {
+"title": "Oi Souffle 50ml",
+"qty": 1.0,
+"sum": 0.0
+},
+"21723300": {
+"title": "Davines Renaissance Circle",
+"qty": 3.0,
+"sum": 105.0
+},
+"24516772": {
+"title": "Tangle Teezer Detangling hairbrush ",
+"qty": 1.0,
+"sum": 90.0
+},
+"24515523": {
+"title": "K BLOND DISCOVERY SET ",
+"qty": 1.0,
+"sum": 155.0
+},
+"25503311": {
+"title": "ORIBE gold lust conditioner",
+"qty": 1.0,
+"sum": 30.0
+},
+"25589941": {
+"title": "orbie dry texturizing spray",
+"qty": 1.0,
+"sum": 30.0
+},
+"25143685": {
+"title": "RHODE LIP TINT ribbon",
+"qty": 1.0,
+"sum": 100.0
+},
+"21908655": {
+"title": "phformula U.V protect SPF 30+ 50 ml",
+"qty": 1.0,
+"sum": 85.0
+},
+"22250220": {
+"title": "K18 Leave in molecular mask 50ml",
+"qty": 1.0,
+"sum": 260.0
+},
+"23245452": {
+"title": "K18 Professional Meloecular Repair Hair Mist",
+"qty": 1.0,
+"sum": 0.0
+},
+"25408739": {
+"title": "Medicube Exosome Cica Calming Pad ",
+"qty": 1.0,
+"sum": 15.0
+},
+"25408734": {
+"title": "Medicube PDRN Vita Coating Mask",
+"qty": 1.0,
+"sum": 20.0
+},
+"25246941": {
+"title": "d alba mask",
+"qty": 1.0,
+"sum": 25.0
+},
+"25468157": {
+"title": "AZTK JC06",
+"qty": 1.0,
+"sum": 50.0
+},
+"25519545": {
+"title": "SHIK studio glow body foundation",
+"qty": 3.0,
+"sum": 271.0
+},
+"21298753": {
+"title": "KER RES BAIN FORCE ARCHI",
+"qty": 1.0,
+"sum": 135.0
+},
+"25230009": {
+"title": "Medicube Booster Age Pro Black/Pink/White",
+"qty": 2.0,
+"sum": 1425.0
+},
+"23375285": {
+"title": "L'Oreal Absolut Repair Molecular rinse off mask",
+"qty": 1.0,
+"sum": 180.0
+},
+"25589914": {
+"title": "WOW color sequrity shampoo 75ml",
+"qty": 1.0,
+"sum": 55.0
+},
+"24738398": {
+"title": "Kerastase Blond Absolu Shampoo 80ml",
+"qty": 1.0,
+"sum": 42.5
+},
+"19319865": {
+"title": "Brumes Du Maroc Fragrance Mist 30 ml",
+"qty": 1.0,
+"sum": 70.0
+},
+"21967213": {
+"title": "L OREAL  biondifier soin professionnel 200ml",
+"qty": 1.0,
+"sum": 95.0
+},
+"25494557": {
+"title": "CHI Hair Spray Natural Hold Hold Leverl 3 74g",
+"qty": 1.0,
+"sum": 55.0
+},
+"21927578": {
+"title": "Moroccanoil Shimmering Body Oil",
+"qty": 1.0,
+"sum": 204.0
+},
+"24570401": {
+"title": "TROPICAL KISS SOLEO ",
+"qty": 9.0,
+"sum": 94.0
+},
+"22198049": {
+"title": "ЛП СЭ Скальп Анти-Ойл шампунь 300мл",
+"qty": 1.0,
+"sum": 100.0
+},
+"25438676": {
+"title": "Davines Love curl-nourishing mascera nutriente",
+"qty": 1.0,
+"sum": 95.0
+},
+"25586739": {
+"title": "make up for ever палетка",
+"qty": 1.0,
+"sum": 400.0
+},
+"24878302": {
+"title": "თმის რეზინა Van Cleef ჰაჰაჰაჰაჰა ნაღდი თან",
+"qty": 2.0,
+"sum": 20.0
+},
+"24154777": {
+"title": "Масло макадамии Mocheqi Musk 60 мл",
+"qty": 3.0,
+"sum": 156.5
+},
+"25500639": {
+"title": "SUN CARE SPF 50 defense spray",
+"qty": 1.0,
+"sum": 125.0
+},
+"24014370": {
+"title": "ZoSkin Hydrating Cleanser normal to dry skin 60ml",
+"qty": 1.0,
+"sum": 70.0
+},
+"25575881": {
+"title": "Rhode poket brush pinceau poche",
+"qty": 1.0,
+"sum": 150.0
+},
+"25575838": {
+"title": "Rhode poket bronze (pebble)",
+"qty": 1.0,
+"sum": 130.0
+},
+"25575826": {
+"title": "Kosas консилер 01N",
+"qty": 1.0,
+"sum": 160.0
+},
+"24072112": {
+"title": "Rhode Pineapple Refresh",
+"qty": 2.0,
+"sum": 245.0
+},
+"25353325": {
+"title": "MOCHEQI FILLER",
+"qty": 2.0,
+"sum": 40.0
+},
+"22225045": {
+"title": "Dior Backstage Glow Face Palette 001 Universal",
+"qty": 2.0,
+"sum": 460.0
+},
+"21885746": {
+"title": "MOMO შამპუნი 250 მლ",
+"qty": 1.0,
+"sum": 75.0
+},
+"22297145": {
+"title": "EHC MOMO HAIR POTION 150ML",
+"qty": 1.0,
+"sum": 75.0
+},
+"21010800": {
+"title": "К Блонд Абсолю Маска УльтраВ 200мл",
+"qty": 1.0,
+"sum": 215.0
+},
+"23681057": {
+"title": "Keune Brilliant Gloss Spray ",
+"qty": 1.0,
+"sum": 80.0
+},
+"24072105": {
+"title": "Rhode Barrier Restore Cream",
+"qty": 2.0,
+"sum": 270.0
+},
+"25440790": {
+"title": "AZTK  blush 02",
+"qty": 2.0,
+"sum": 100.0
+},
+"25197565": {
+"title": "Charlotte tilbury glossy lip kit",
+"qty": 1.0,
+"sum": 125.0
+},
+"22640995": {
+"title": "ბალმანი თმის აქსესუარი პრინსი დიდი შავი",
+"qty": 1.0,
+"sum": 333.0
+},
+"25135546": {
+"title": "D'Alba double layer revitalizing serum",
+"qty": 1.0,
+"sum": 120.0
+},
+"25135553": {
+"title": "D'Alba aromatic spray serum",
+"qty": 1.0,
+"sum": 100.0
+},
+"23227428": {
+"title": "Kerastase Chronologiste Shampooing revitalisant jeunesse 80ml",
+"qty": 1.0,
+"sum": 50.0
+},
+"25479562": {
+"title": "LA SULTANE DE SABA Voyage Blinais Body Lotion",
+"qty": 1.0,
+"sum": 70.0
+},
+"25260804": {
+"title": "PM_სპრეი \"Babassu Spray\" მოცულობის 150 მლ",
+"qty": 1.0,
+"sum": 135.0
+},
+"21757760": {
+"title": "Cuticle Revitalizer Oil Jasmine",
+"qty": 1.0,
+"sum": 0.0
+},
+"17906642": {
+"title": "ხელჩანთა",
+"qty": 8.0,
+"sum": 0.0
+},
+"25502719": {
+"title": "Drunk elefant protini polypeptide crem",
+"qty": 1.0,
+"sum": 260.0
+},
+"25519416": {
+"title": "Pusy Lip Liner PARADISE",
+"qty": 1.0,
+"sum": 55.0
+},
+"24072110": {
+"title": "Rhode Glazing Milk ",
+"qty": 1.0,
+"sum": 125.0
+},
+"24014384": {
+"title": "ZoSkin Gentle Cleanser ALL skin typer 60ml",
+"qty": 1.0,
+"sum": 80.0
+},
+"23520926": {
+"title": "Janeke Small Superbrush იასავნისფერი",
+"qty": 1.0,
+"sum": 50.0
+},
+"25483394": {
+"title": "La sultane de saba voyage balinails parfum",
+"qty": 2.0,
+"sum": 320.0
+},
+"24868424": {
+"title": "CLAYTIME მატი ძლიერი ფიქსაციის თიხა 100 მლ",
+"qty": 1.0,
+"sum": 90.0
+},
+"25281805": {
+"title": "Dior зеркало наклейка на телефон",
+"qty": 10.0,
+"sum": 590.0
+},
+"21180571": {
+"title": "Quick Fix Circle",
+"qty": 3.0,
+"sum": 105.0
+},
+"21908592": {
+"title": "P.O.S.T. recovery cream 50 ml",
+"qty": 1.0,
+"sum": 90.0
+},
+"24567898": {
+"title": "კაპუჩინო",
+"qty": 3.0,
+"sum": 12.0
+},
+"25303647": {
+"title": "la sultane de saba body lotion rose fragrance",
+"qty": 1.0,
+"sum": 59.5
+},
+"25108438": {
+"title": "kerastase serum filler fondamental",
+"qty": 1.0,
+"sum": 212.5
+},
+"24655398": {
+"title": "Dermalogica Active Moist",
+"qty": 1.0,
+"sum": 0.0
+},
+"23307509": {
+"title": "Kerastase deep nutrition ultra concentrated rich mask 500ml",
+"qty": 1.0,
+"sum": 385.0
+},
+"14091427": {
+"title": "50 ლარი ვაუჩერი",
+"qty": 4.0,
+"sum": 50.0
+},
+"17905451": {
+"title": "Minu Shampoo",
+"qty": 1.0,
+"sum": 75.0
+},
+"25471010": {
+"title": "fobao 101 пробник",
+"qty": 2.0,
+"sum": 0.0
+},
+"23287218": {
+"title": "Janeke Superbrush ",
+"qty": 1.0,
+"sum": 130.0
+},
+"25118883": {
+"title": "Baume fondant corps Ayurvedic Treatment - Amber Vanilla Patchouli",
+"qty": 1.0,
+"sum": 212.5
+},
+"25499881": {
+"title": "PM LIP BAIM",
+"qty": 1.0,
+"sum": 35.0
+},
+"25500011": {
+"title": "PM in amber rinse conditioner",
+"qty": 1.0,
+"sum": 210.0
+},
+"21762588": {
+"title": "Кер Спец Дивалент ШВ 250мл",
+"qty": 1.0,
+"sum": 135.0
+},
+"25502621": {
+"title": "WOW color dream coat",
+"qty": 1.0,
+"sum": 68.0
+},
+"25502792": {
+"title": "fenty beauty gloss bomb",
+"qty": 1.0,
+"sum": 34.0
+},
+"23602093": {
+"title": "Brae Divine Liquid Keratin",
+"qty": 2.0,
+"sum": 100.0
+},
+"22106562": {
+"title": "Hair Touch up Dark Blonde",
+"qty": 1.0,
+"sum": 80.0
+},
+"23669173": {
+"title": "თმის სამაგრები 4ცალიანი 1875",
+"qty": 1.0,
+"sum": 10.0
+},
+"23669175": {
+"title": "თმის სამაგრები 2 ცალიანი ",
+"qty": 1.0,
+"sum": 10.0
+},
+"25374639": {
+"title": "Touchy wellness rich",
+"qty": 2.0,
+"sum": 180.0
+},
+"22174877": {
+"title": "Beauty Oil - Ayurvedic Treatment - Amber Vanilla Patchouli Journey To The Spices Route 50ml",
+"qty": 1.0,
+"sum": 95.0
+},
+"25453762": {
+"title": "TOUCHY баттер для тела ",
+"qty": 1.0,
+"sum": 50.0
+},
+"25468154": {
+"title": "AZTK JC14",
+"qty": 1.0,
+"sum": 50.0
+},
+"23487389": {
+"title": "PUSY Brow Fix Gel Professional",
+"qty": 1.0,
+"sum": 0.0
+},
+"24738305": {
+"title": "Pusy Lip Oil Aperol Spritz",
+"qty": 3.0,
+"sum": 150.0
+},
+"24885464": {
+"title": "Hourglass Ambient Deer",
+"qty": 1.0,
+"sum": 500.0
+},
+"22799898": {
+"title": "ALFAPARF reparative low shampoo",
+"qty": 2.0,
+"sum": 92.5
+},
+"22260782": {
+"title": "Body Lotion - Rose - Journey to the route of Delights",
+"qty": 2.0,
+"sum": 373.5
+},
+"24055553": {
+"title": "Sultane de Saba Anti-Perspirant Deodorant",
+"qty": 1.0,
+"sum": 102.0
+},
+"25142223": {
+"title": "Londa Velvet Oil 30ml",
+"qty": 1.0,
+"sum": 50.0
+},
+"24570403": {
+"title": "SUN LUXE 25X Bronzer",
+"qty": 3.0,
+"sum": 150.0
+},
+"24868444": {
+"title": "THICK TRICK მოცულობის და ღერის გასასქელებელი სპრეი 200 მლ",
+"qty": 1.0,
+"sum": 90.0
+},
+"21732540": {
+"title": "Philip Martin's Colour Repair 1000ml",
+"qty": 1.0,
+"sum": 250.0
+},
+"25478588": {
+"title": "Skims сумка",
+"qty": 1.0,
+"sum": 290.0
+},
+"25461091": {
+"title": "St Barth tanning Oil 6spf  125ml",
+"qty": 1.0,
+"sum": 260.0
+},
+"25184460": {
+"title": "LaSultane de Saba Sbb crem de jour des mariees",
+"qty": 1.0,
+"sum": 135.0
+},
+"25378057": {
+"title": "Toplash",
+"qty": 2.0,
+"sum": 296.0
+},
+"25341667": {
+"title": "Hourglass Ambient swan",
+"qty": 1.0,
+"sum": 550.0
+},
+"25454519": {
+"title": "thinkbaby",
+"qty": 1.0,
+"sum": 120.0
+},
+"24292108": {
+"title": "Soleo Orange Cake",
+"qty": 5.0,
+"sum": 54.0
+},
+"22455507": {
+"title": "Salt Scrub - Ayurvedic Treatment - Amber Vanilla Patchouli Journey To The Spices Route - 300g / 10.6 Oz",
+"qty": 1.0,
+"sum": 210.0
+},
+"25246896": {
+"title": "AZTK Cleansing balm",
+"qty": 3.0,
+"sum": 70.0
+},
+"25347757": {
+"title": "sandy candy",
+"qty": 1.0,
+"sum": 50.0
+},
+"25246309": {
+"title": "Kayali косметичка bag",
+"qty": 1.0,
+"sum": 70.0
+},
+"22834051": {
+"title": "pHformula ნაკრები",
+"qty": 1.0,
+"sum": 255.0
+},
+"21124075": {
+"title": "KEUNE Curl Cream",
+"qty": 2.0,
+"sum": 140.0
+},
+"21464445": {
+"title": "Kerastase Serum Chroma Thermique",
+"qty": 1.0,
+"sum": 190.0
+},
+"24072094": {
+"title": "Rhode Blush Freckle",
+"qty": 2.0,
+"sum": 240.0
+},
+"25456898": {
+"title": "Chanel სათვალე",
+"qty": 1.0,
+"sum": 350.0
+},
+"25454508": {
+"title": "YES SAINT LAURENT 57 coral",
+"qty": 1.0,
+"sum": 185.0
+},
+"25408726": {
+"title": "Medicube PDRN Pink Peptide Eye Cream",
+"qty": 1.0,
+"sum": 100.0
+},
+"21124086": {
+"title": "KEUNE Instant Blowout",
+"qty": 1.0,
+"sum": 75.0
+},
+"21885776": {
+"title": "CURL moisturazing mousse  მუსი 250 მლ",
+"qty": 1.0,
+"sum": 85.0
+},
+"22161997": {
+"title": "NT CALMING SHAMPOO 250ML",
+"qty": 1.0,
+"sum": 75.0
+},
+"25246305": {
+"title": "Salt & Stone Deodorant",
+"qty": 1.0,
+"sum": 102.0
+},
+"25453764": {
+"title": "TOUCHY лосьон для тела vanilla",
+"qty": 1.0,
+"sum": 43.0
+},
+"24738321": {
+"title": "Pusy Lip Oil Lavender Sparkle",
+"qty": 1.0,
+"sum": 50.0
+},
+"25264700": {
+"title": "Medicube Collagen PDNR Peptide Serum 30ml",
+"qty": 1.0,
+"sum": 100.0
+},
+"25454253": {
+"title": "TIRTIR",
+"qty": 1.0,
+"sum": 130.0
+},
+"22429875": {
+"title": "Sol Del Janeiro ნაკრები მინი",
+"qty": 1.0,
+"sum": 180.0
+},
+"25346553": {
+"title": "Charlotte Tilbury Pillow Talk Lip Kit Lip cheat and MATTE",
+"qty": 2.0,
+"sum": 260.0
+},
+"25220634": {
+"title": "Jungle Fruit крем для солярий",
+"qty": 2.0,
+"sum": 110.0
+},
+"25047397": {
+"title": "ნემსი ელექტროეპილაციის",
+"qty": 1.0,
+"sum": 10.0
+},
+"21847401": {
+"title": "Davines love curl conditioner 75ml",
+"qty": 1.0,
+"sum": 35.0
+},
+"25281874": {
+"title": "Chanel крем для рук",
+"qty": 1.0,
+"sum": 160.0
+},
+"25374633": {
+"title": "Touchy pear bergamote lily",
+"qty": 1.0,
+"sum": 100.0
+},
+"25374646": {
+"title": "Touchy крем для рук и тела vanilla",
+"qty": 1.0,
+"sum": 45.0
+},
+"22728796": {
+"title": "Schwarzkopf dressing brush სავარცხელი",
+"qty": 1.0,
+"sum": 75.0
+},
+"20692186": {
+"title": "KER BAIN PREVENTION 250ML VD47",
+"qty": 1.0,
+"sum": 135.0
+},
+"22085889": {
+"title": "ELEMIS ხელჩანთა პატარა",
+"qty": 3.0,
+"sum": 0.0
+},
+"22551214": {
+"title": "LOVE Curl Primer",
+"qty": 1.0,
+"sum": 75.0
+},
+"21948756": {
+"title": "phformula HYDRA SERUM",
+"qty": 1.0,
+"sum": 180.0
+},
+"23260528": {
+"title": "GIGI Powerful Eye Cream G4",
+"qty": 1.0,
+"sum": 230.0
+},
+"23307503": {
+"title": "Kerastase symbiose purifying anti-dandruff cellular shampoo",
+"qty": 1.0,
+"sum": 140.0
+},
+"24885502": {
+"title": "Charlotte Tilbury Pillow Talk Lip Kit Lip cheat and KISSING",
+"qty": 1.0,
+"sum": 130.0
+},
+"24655523": {
+"title": "Daily Power Defense 75ml",
+"qty": 1.0,
+"sum": 600.0
+},
+"23403297": {
+"title": "PUSY წარბების ფიქსატორი ვარდისფერი",
+"qty": 3.0,
+"sum": 165.0
+},
+"14010479": {
+"title": "ЛП СЭ Витамино См.Ух. 200мл / LP SE VITAMINO CONDI 200 ML VG61",
+"qty": 1.0,
+"sum": 81.0
+},
+"25346536": {
+"title": "Medicube deep vita c capsule cream",
+"qty": 1.0,
+"sum": 80.0
+},
+"23757987": {
+"title": "Top Face Tanning Lotion",
+"qty": 2.0,
+"sum": 20.0
+},
+"14176867": {
+"title": "LOTUS BEAUTY გამწენდი ტონიკი 250მლ",
+"qty": 1.0,
+"sum": 125.0
+},
+"25302765": {
+"title": "Medicube PDRN pink collagen capsule cream",
+"qty": 1.0,
+"sum": 95.0
+},
+"15890324": {
+"title": "Moroccanoil ხვეული თმის კონდიციონერი 250მლ",
+"qty": 1.0,
+"sum": 0.0
+},
+"25246916": {
+"title": "la sultane de saba parfume 10-15ml",
+"qty": 1.0,
+"sum": 90.0
+},
+"16385044": {
+"title": "ЛП СЭ21 Абс.Реп. Шамп. 300мл",
+"qty": 1.0,
+"sum": 80.0
+},
+"25116351": {
+"title": "ЛП СЭ СИЛЬВЕР МАСКА 200МЛ",
+"qty": 1.0,
+"sum": 95.0
+},
+"25374728": {
+"title": "olivia garden 45",
+"qty": 1.0,
+"sum": 100.0
+},
+"24601403": {
+"title": "Rhode Pocket Blush Sprinkle",
+"qty": 1.0,
+"sum": 120.0
+},
+"24700182": {
+"title": "Reconstrucion ნაკრები პატარა",
+"qty": 1.0,
+"sum": 90.0
+},
+"25400520": {
+"title": "Ok Beauty Tan Maximazer Bronzing Oil SPF 6",
+"qty": 1.0,
+"sum": 47.0
+},
+"25281885": {
+"title": "Dior сумочка золотая с цепочкой",
+"qty": 1.0,
+"sum": 170.0
+},
+"24158845": {
+"title": "Rhode Toasted Teddy Blush",
+"qty": 1.0,
+"sum": 120.0
+},
+"25019386": {
+"title": "Wella Oil Reflections ნიღაბი",
+"qty": 1.0,
+"sum": 95.0
+},
+"24970378": {
+"title": "Wella Oil Reflections Shampoo 250ml",
+"qty": 1.0,
+"sum": 75.0
+},
+"22247145": {
+"title": "Silk Protein Scrub",
+"qty": 2.0,
+"sum": 303.0
+},
+"22260753": {
+"title": "SE маска CURL 250мл",
+"qty": 1.0,
+"sum": 0.0
+},
+"22834009": {
+"title": "pHformula neck recovery",
+"qty": 1.0,
+"sum": 0.0
+},
+"25341675": {
+"title": "Dior sequin liquid duo 001",
+"qty": 1.0,
+"sum": 270.0
+},
+"24068762": {
+"title": "Beauty Oil 200ml - Ayurvedic Amber Vanilla Patchouli Fragrance",
+"qty": 1.0,
+"sum": 250.0
+},
+"25220636": {
+"title": " Kebeles Dark Bronzer",
+"qty": 1.0,
+"sum": 45.0
+},
+"21189206": {
+"title": "Zo Calming Toner Ph Balancer 50ml",
+"qty": 1.0,
+"sum": 60.0
+},
+"25378955": {
+"title": "AZTK JC04",
+"qty": 1.0,
+"sum": 45.0
+},
+"24738389": {
+"title": "Kerastase Bain Divalent Shampoo 80ml",
+"qty": 1.0,
+"sum": 50.0
+},
+"21847945": {
+"title": "KEUNE volume powder poudre volumisante 7 gr",
+"qty": 1.0,
+"sum": 80.0
+},
+"24515522": {
+"title": "K GENESIS DISCOVERY SET ",
+"qty": 1.0,
+"sum": 120.0
+},
+"21122286": {
+"title": "KEUNE Triple X Gel",
+"qty": 1.0,
+"sum": 40.0
+},
+"23986799": {
+"title": "Sol De Janeiro Perfume Mist 40 90ml",
+"qty": 1.0,
+"sum": 150.0
+}
+}
+}
