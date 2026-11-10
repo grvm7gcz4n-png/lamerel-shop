@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T15:17:07+00:00",
+"updated": "2026-11-10T05:42:22+00:00",
 "products": [
 {
 "id": 14082527,
@@ -469,8 +469,7 @@
 "need": "",
 "price": 45,
 "stock": 1,
-"barcode": "8006060650218",
-"best": 30
+"barcode": "8006060650218"
 },
 {
 "id": 21945126,
@@ -549,8 +548,7 @@
 "need": "",
 "price": 45,
 "stock": 1,
-"barcode": "7290113140608",
-"best": 19
+"barcode": "7290113140608"
 },
 {
 "id": 22093189,
@@ -642,8 +640,7 @@
 "need": "",
 "price": 480,
 "stock": 1,
-"barcode": "3700448605221",
-"best": 24
+"barcode": "3700448605221"
 },
 {
 "id": 22343924,
@@ -669,8 +666,7 @@
 "need": "",
 "price": 70,
 "stock": 1,
-"barcode": "3700448606426",
-"best": 21
+"barcode": "3700448606426"
 },
 {
 "id": 22796179,
@@ -1147,8 +1143,7 @@
 "price": 70,
 "stock": 1,
 "barcode": "3700448604262",
-"img": "https://cdn.shopify.com/s/files/1/0045/5294/9795/files/huile_tiare_AR004373_1.png?v=1789559212",
-"best": 20
+"img": "https://cdn.shopify.com/s/files/1/0045/5294/9795/files/huile_tiare_AR004373_1.png?v=1789559212"
 },
 {
 "id": 23287086,
@@ -1319,7 +1314,8 @@
 "need": "",
 "price": 25,
 "stock": 54,
-"barcode": "131318"
+"barcode": "131318",
+"best": 4
 },
 {
 "id": 23543459,
@@ -2277,7 +2273,8 @@
 "need": "",
 "price": 110,
 "stock": 1,
-"barcode": "615908431421"
+"barcode": "615908431421",
+"best": 30
 },
 {
 "id": 25114034,
@@ -2394,7 +2391,8 @@
 "type": "accessory",
 "need": "",
 "price": 25,
-"stock": 12
+"stock": 12,
+"best": 5
 },
 {
 "id": 25139358,
@@ -2433,8 +2431,7 @@
 "need": "",
 "price": 12,
 "stock": 3,
-"barcode": "5907591500573",
-"best": 18
+"barcode": "5907591500573"
 },
 {
 "id": 25220639,
@@ -2460,7 +2457,8 @@
 "need": "",
 "price": 12,
 "stock": 3,
-"barcode": "5907591500771"
+"barcode": "5907591500771",
+"best": 11
 },
 {
 "id": 25246074,
@@ -2599,7 +2597,8 @@
 "need": "",
 "price": 12,
 "stock": 1,
-"barcode": "4605319012698"
+"barcode": "4605319012698",
+"best": 27
 },
 {
 "id": 25374720,
@@ -2677,7 +2676,8 @@
 "need": "",
 "price": 50,
 "stock": 5,
-"barcode": "6978203710641"
+"barcode": "6978203710641",
+"best": 1
 },
 {
 "id": 25391677,
@@ -2690,7 +2690,8 @@
 "need": "",
 "price": 55,
 "stock": 1,
-"barcode": "4660222452771"
+"barcode": "4660222452771",
+"best": 2
 },
 {
 "id": 25408728,
@@ -2821,7 +2822,8 @@
 "type": "glasses",
 "need": "",
 "price": 300,
-"stock": 5
+"stock": 5,
+"best": 29
 },
 {
 "id": 25486177,
@@ -2834,7 +2836,8 @@
 "need": "",
 "price": 12,
 "stock": 1,
-"barcode": "5907591515515"
+"barcode": "5907591515515",
+"best": 14
 },
 {
 "id": 25492166,
@@ -2886,8 +2889,7 @@
 "need": "",
 "price": 100,
 "stock": 1,
-"barcode": "4064666301990",
-"best": 17
+"barcode": "4064666301990"
 },
 {
 "id": 25502730,
@@ -3225,8 +3227,7 @@
 "need": "",
 "price": 300,
 "stock": 1,
-"barcode": "3145891842197",
-"best": 27
+"barcode": "3145891842197"
 },
 {
 "id": 25745619,
@@ -3279,8 +3280,7 @@
 "price": 650,
 "stock": 1,
 "barcode": "850004373538",
-"img": "https://cdn.shopify.com/s/files/1/0081/1660/0950/files/2000x2000_72dpi_0000s_0005_HOLIDAY25_PPAGE-ASSETS_TRAVEL-BRUSH-SET.png?v=1786478658",
-"best": 29
+"img": "https://cdn.shopify.com/s/files/1/0081/1660/0950/files/2000x2000_72dpi_0000s_0005_HOLIDAY25_PPAGE-ASSETS_TRAVEL-BRUSH-SET.png?v=1786478658"
 },
 {
 "id": 25804283,
@@ -3293,8 +3293,7 @@
 "need": "",
 "price": 55,
 "stock": 1,
-"barcode": "4660222451316",
-"best": 3
+"barcode": "4660222451316"
 },
 {
 "id": 25840676,
@@ -4092,8 +4091,7 @@
 "need": "",
 "price": 215,
 "stock": 1,
-"barcode": "810866010040",
-"best": 26
+"barcode": "810866010040"
 },
 {
 "id": 21872800,
@@ -4754,8 +4752,7 @@
 "need": "repair",
 "price": 30,
 "stock": 0,
-"barcode": "633911631904",
-"best": 10
+"barcode": "633911631904"
 },
 {
 "id": 25494352,
@@ -5342,7 +5339,8 @@
 "price": 55,
 "stock": 2,
 "barcode": "6961136589859",
-"img": "https://mocheqi.ru/assets/images/1m8a4702-1-696x860.webp"
+"img": "https://mocheqi.ru/assets/images/1m8a4702-1-696x860.webp",
+"best": 20
 },
 {
 "id": 24154784,
@@ -5370,7 +5368,8 @@
 "price": 55,
 "stock": 4,
 "barcode": "6961136589798",
-"img": "https://mocheqi.ru/assets/images/135749942-1094699950992476-3064410060967038318-n-816x816.webp"
+"img": "https://mocheqi.ru/assets/images/135749942-1094699950992476-3064410060967038318-n-816x816.webp",
+"best": 9
 },
 {
 "id": 24154794,
@@ -5384,7 +5383,8 @@
 "price": 70,
 "stock": 6,
 "barcode": "6961136589804",
-"img": "https://mocheqi.ru/assets/images/135749942-1094699950992476-3064410060967038318-n-816x816.webp"
+"img": "https://mocheqi.ru/assets/images/135749942-1094699950992476-3064410060967038318-n-816x816.webp",
+"best": 7
 },
 {
 "id": 24154788,
@@ -5412,7 +5412,8 @@
 "price": 55,
 "stock": 7,
 "barcode": "6961136589880",
-"img": "https://mocheqi.ru/assets/images/1m8a47091-696x854.webp"
+"img": "https://mocheqi.ru/assets/images/1m8a47091-696x854.webp",
+"best": 19
 },
 {
 "id": 24154785,
@@ -5426,8 +5427,7 @@
 "price": 70,
 "stock": 4,
 "barcode": "6961136589897",
-"img": "https://mocheqi.ru/assets/images/1m8a47091-696x854.webp",
-"best": 16
+"img": "https://mocheqi.ru/assets/images/1m8a47091-696x854.webp"
 },
 {
 "id": 24154789,
@@ -5441,7 +5441,8 @@
 "price": 55,
 "stock": 3,
 "barcode": "6961136589828",
-"img": "https://mocheqi.ru/assets/images/1m8a49231-696x852.webp"
+"img": "https://mocheqi.ru/assets/images/1m8a49231-696x852.webp",
+"best": 16
 },
 {
 "id": 24154783,
@@ -5497,7 +5498,8 @@
 "price": 55,
 "stock": 8,
 "barcode": "6961136589941",
-"img": "https://mocheqi.ru/assets/images/1m8a5482-1.webp"
+"img": "https://mocheqi.ru/assets/images/1m8a5482-1.webp",
+"best": 25
 },
 {
 "id": 24447702,
@@ -5538,7 +5540,8 @@
 "price": 55,
 "stock": 9,
 "barcode": "6961136590008",
-"img": "https://mocheqi.ru/assets/images/1m8a5857-1.webp"
+"img": "https://mocheqi.ru/assets/images/1m8a5857-1.webp",
+"best": 24
 },
 {
 "id": 24447722,
@@ -5566,7 +5569,8 @@
 "price": 60,
 "stock": 7,
 "barcode": "6961136589972",
-"img": "https://mocheqi.ru/assets/images/217428027-917631778834596-6055637849160414582-n-816x816.webp"
+"img": "https://mocheqi.ru/assets/images/217428027-917631778834596-6055637849160414582-n-816x816.webp",
+"best": 13
 },
 {
 "id": 24154780,
@@ -5580,7 +5584,8 @@
 "price": 70,
 "stock": 6,
 "barcode": "6961136589989",
-"img": "https://mocheqi.ru/assets/images/217428027-917631778834596-6055637849160414582-n-816x816.webp"
+"img": "https://mocheqi.ru/assets/images/217428027-917631778834596-6055637849160414582-n-816x816.webp",
+"best": 22
 },
 {
 "id": 24387706,
@@ -5635,8 +5640,7 @@
 "price": 90,
 "stock": 7,
 "barcode": "6961136590046",
-"img": "https://mocheqi.ru/assets/images/107889484-2403467386618691-586492749168690093-n-752x940.webp",
-"best": 4
+"img": "https://mocheqi.ru/assets/images/107889484-2403467386618691-586492749168690093-n-752x940.webp"
 },
 {
 "id": 24154771,
@@ -5677,7 +5681,8 @@
 "price": 60,
 "stock": 3,
 "barcode": "6961136590183",
-"img": "https://mocheqi.ru/assets/images/photo-2024-02-03-16-11-23-1074x1032.webp"
+"img": "https://mocheqi.ru/assets/images/photo-2024-02-03-16-11-23-1074x1032.webp",
+"best": 8
 },
 {
 "id": 24154774,
@@ -5690,7 +5695,8 @@
 "need": "curls",
 "price": 55,
 "stock": 4,
-"barcode": "6961136590176"
+"barcode": "6961136590176",
+"best": 15
 },
 {
 "id": 24154779,
@@ -5704,7 +5710,8 @@
 "price": 55,
 "stock": 6,
 "barcode": "6961136590107",
-"img": "https://mocheqi.ru/assets/images/49327550-2065486150239017-2080425372513005699-n-752x752.webp"
+"img": "https://mocheqi.ru/assets/images/49327550-2065486150239017-2080425372513005699-n-752x752.webp",
+"best": 26
 },
 {
 "id": 24154778,
@@ -5814,7 +5821,8 @@
 "price": 100,
 "stock": 0,
 "barcode": "8004608266495",
-"img": "https://davines.ru/upload/iblock/1de/w2hbmpinqni9z54knqht9syc7a4zaniu.jpg"
+"img": "https://davines.ru/upload/iblock/1de/w2hbmpinqni9z54knqht9syc7a4zaniu.jpg",
+"best": 6
 },
 {
 "id": 21723300,
@@ -6203,8 +6211,7 @@
 "need": "hold",
 "price": 80,
 "stock": 0,
-"barcode": "8004608248965",
-"best": 8
+"barcode": "8004608248965"
 },
 {
 "id": 25873611,
@@ -6221,8 +6228,7 @@
 "img": "https://davines.ru/upload/iblock/107/h5qcvkrmp0smcqa1hdj0jv7ldqpq4zgn.jpg",
 "alt_ids": [
 21885745
-],
-"best": 23
+]
 },
 {
 "id": 25873631,
@@ -6272,8 +6278,7 @@
 "barcode": "8004608293422",
 "alt_ids": [
 21762572
-],
-"best": 22
+]
 },
 {
 "id": 25873653,
@@ -6330,8 +6335,7 @@
 "price": 95,
 "stock": 0,
 "barcode": "8004608271741",
-"img": "https://davines.ru/upload/iblock/f80/abwzrfvkni7jj0tu6batr281mbbp2hzc.jpg",
-"best": 15
+"img": "https://davines.ru/upload/iblock/f80/abwzrfvkni7jj0tu6batr281mbbp2hzc.jpg"
 },
 {
 "id": 17905304,
@@ -6428,7 +6432,8 @@
 "price": 90,
 "stock": 0,
 "barcode": "8004608247630",
-"img": "https://davines.ru/upload/iblock/427/6h7g3l48bddx00zyuh0b09y1k1upvmr1.png"
+"img": "https://davines.ru/upload/iblock/427/6h7g3l48bddx00zyuh0b09y1k1upvmr1.png",
+"best": 3
 },
 {
 "id": 21343284,
@@ -6455,8 +6460,7 @@
 "need": "curls",
 "price": 75,
 "stock": 0,
-"barcode": "8004608257271",
-"best": 1
+"barcode": "8004608257271"
 },
 {
 "id": 21343324,
@@ -6594,7 +6598,8 @@
 "price": 60,
 "stock": 0,
 "barcode": "8004608285205",
-"img": "https://davines.ru/upload/iblock/9fe/cvhmtse7ex83tea2x0amkq6f5xbdsaw9.jpg"
+"img": "https://davines.ru/upload/iblock/9fe/cvhmtse7ex83tea2x0amkq6f5xbdsaw9.jpg",
+"best": 23
 },
 {
 "id": 21824067,
@@ -6735,7 +6740,8 @@
 "price": 90,
 "stock": 4,
 "barcode": "8004608277408",
-"img": "https://davines.ru/upload/iblock/6d1/bgp3s13119k2ghdccnp0tfbaltlyofge.jpg"
+"img": "https://davines.ru/upload/iblock/6d1/bgp3s13119k2ghdccnp0tfbaltlyofge.jpg",
+"best": 18
 },
 {
 "id": 22204544,
@@ -6835,8 +6841,7 @@
 "img": "https://davines.ru/upload/iblock/e3f/cxta88xwk2vw3e90thoyfhg2xrlqk3hm.jpg",
 "alt_ids": [
 22535910
-],
-"best": 9
+]
 },
 {
 "id": 22535914,
@@ -6917,7 +6922,8 @@
 "price": 80,
 "stock": 4,
 "barcode": "8004608248941",
-"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-87154-this-is-a-dry-texturizer-250ml-8004608288817-1_1.jpg?v=1760460117"
+"img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-87154-this-is-a-dry-texturizer-250ml-8004608288817-1_1.jpg?v=1760460117",
+"best": 10
 },
 {
 "id": 24868132,
@@ -6998,7 +7004,8 @@
 "price": 95,
 "stock": 1,
 "barcode": "8004608285199",
-"img": "https://davines.ru/upload/iblock/dcd/1op7uubxrraciqb3o42bh6e64n0ubeur.jpg"
+"img": "https://davines.ru/upload/iblock/dcd/1op7uubxrraciqb3o42bh6e64n0ubeur.jpg",
+"best": 17
 },
 {
 "id": 21180535,
@@ -7123,7 +7130,8 @@
 "price": 110,
 "stock": 0,
 "barcode": "8004608264590",
-"img": "https://davines.ru/upload/iblock/587/eavtivtpw01l79vhug5cqqhlz354ldxw.jpg"
+"img": "https://davines.ru/upload/iblock/587/eavtivtpw01l79vhug5cqqhlz354ldxw.jpg",
+"best": 12
 },
 {
 "id": 23029630,
@@ -7208,8 +7216,7 @@
 "need": "repair",
 "price": 35,
 "stock": 0,
-"barcode": "8004608242932",
-"best": 2
+"barcode": "8004608242932"
 },
 {
 "id": 21832513,
@@ -9294,8 +9301,7 @@
 "price": 215,
 "stock": 2,
 "barcode": "3474636404391",
-"img": "https://images.openbeautyfacts.org/images/products/347/463/640/4391/front_en.4.400.jpg",
-"best": 11
+"img": "https://images.openbeautyfacts.org/images/products/347/463/640/4391/front_en.4.400.jpg"
 },
 {
 "id": 25365510,
@@ -9321,8 +9327,7 @@
 "need": "shine",
 "price": 135,
 "stock": 1,
-"barcode": "3474636400195",
-"best": 7
+"barcode": "3474636400195"
 },
 {
 "id": 21441476,
@@ -9704,8 +9709,7 @@
 "need": "shine",
 "price": 180,
 "stock": 1,
-"barcode": "3474637283445",
-"best": 6
+"barcode": "3474637283445"
 },
 {
 "id": 24468620,
@@ -9797,7 +9801,8 @@
 "price": 170,
 "stock": 1,
 "barcode": "3474637285012",
-"img": "https://images.openbeautyfacts.org/images/products/347/463/728/5012/front_fr.3.400.jpg"
+"img": "https://images.openbeautyfacts.org/images/products/347/463/728/5012/front_fr.3.400.jpg",
+"best": 21
 },
 {
 "id": 25645832,
