@@ -1395,15 +1395,6 @@
 "weight": 0
 },
 {
-"category_id": 7171915,
-"duration": 0,
-"id": 13940724,
-"price_max": 150,
-"price_min": 150,
-"title": "LED წარბების დაგრძელება / LED наращивание бровей / LED eyebrow extensions",
-"weight": 0
-},
-{
 "category_id": 7239108,
 "duration": 0,
 "id": 10854156,
@@ -1915,24 +1906,6 @@
 "price_min": 80,
 "title": "სახის მასაჟი / Массаж лица / Face massage",
 "weight": 0
-},
-{
-"category_id": 7171916,
-"duration": 0,
-"id": 13291785,
-"price_max": 90,
-"price_min": 90,
-"title": "გარე კუთხეების LED დაგრძელება / Наращивание внешних LED уголков / LED Extension of outer corners",
-"weight": 9
-},
-{
-"category_id": 7171916,
-"duration": 0,
-"id": 10854107,
-"price_max": 25,
-"price_min": 25,
-"title": "წამწამების მოშორება (სხვისი ნამუშევარი) / Снятие Ресниц (чужая работа) / Lashes Removal (not our specialist work)",
-"weight": 2
 },
 {
 "category_id": 7171916,
