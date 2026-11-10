@@ -589,7 +589,7 @@ function renderHome(){
     <h1>${L.h1}</h1>
     <p class="hm-lead">${L.lead}</p>
     <div class="hm-ctas"><a class="btn pri" href="${BOOK}" target="_blank" rel="noopener">${L.bookBtn}</a><a class="btn wa" href="${waLink()}" target="_blank" rel="noopener">${WA_ICON}${L.waBtn}</a><a class="btn" href="#shop" data-go="shop">${L.shopBtn}</a></div></div>
-    <figure class="hm-photo" style="margin:0"><img src="photos/facade.jpg" alt="LamereL Beauty Center" onerror="this.parentNode.remove()"></figure>
+    <figure class="hm-photo" style="margin:0"><img src="photos/facade_roses_full.jpg" alt="LamereL Beauty Center"><img src="photos/facade_sign_full.jpg" alt="" aria-hidden="true"></figure>
   </div></section>
   <section class="wrap hm-sec hm-dirs"><h2 class="hm-h">${L.dirT}</h2>
     <div class="dirs">${DIRS.map(d=>`<a href="#salon" data-dir="${d.k}"><span class="ic" aria-hidden="true">${d.ic}</span>${d.n[S.lang]}</a>`).join('')}</div>
