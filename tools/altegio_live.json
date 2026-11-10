@@ -3133,7 +3133,7 @@
 "barcode": "8004608255505",
 "brand": "Davines",
 "price": 75,
-"stock": 1,
+"stock": 0,
 "title": "Energizing shampoo"
 },
 "21824062": {
@@ -11263,7 +11263,7 @@
 "barcode": "",
 "category_id": 594251,
 "price": 35,
-"stock": 2,
+"stock": 1,
 "title": "Balmain крабик-заколка большая თმის სამაგრი ზაკოლკა"
 },
 "25137027": {
@@ -12059,5 +12059,5 @@
 "title": "Charlotte Tilbury Exagger Eyes Volume Mascara"
 }
 },
-"updated": "2026-11-10T10:24:13+00:00"
+"updated": "2026-11-10T11:14:10+00:00"
 }

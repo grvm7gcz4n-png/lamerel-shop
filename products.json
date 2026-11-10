@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T09:30:05+00:00",
+"updated": "2026-11-10T11:14:10+00:00",
 "products": [
 {
 "id": 14082527,
@@ -2367,7 +2367,7 @@
 "type": "accessory",
 "need": "",
 "price": 35,
-"stock": 2
+"stock": 1
 },
 {
 "id": 25137027,
@@ -6582,7 +6582,7 @@
 "type": "shampoo",
 "need": "hairloss",
 "price": 75,
-"stock": 1,
+"stock": 0,
 "barcode": "8004608255505",
 "img": "https://davines.ru/upload/iblock/9e9/98s236z64awl62p79d90dnyrge1nd8l2.jpg"
 },
