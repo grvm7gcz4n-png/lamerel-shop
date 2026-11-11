@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T14:57:28+00:00",
+"updated": "2026-11-11T15:15:07+00:00",
 "products": [
 {
 "id": 14082527,
@@ -3765,7 +3765,7 @@
 "type": "cleanser",
 "need": "acne",
 "price": 90,
-"stock": 2,
+"stock": 1,
 "barcode": "7290003568215",
 "img": "photos/p/14176859.jpg"
 },
@@ -3973,20 +3973,6 @@
 "price": 120,
 "stock": 2,
 "barcode": "7290015443203"
-},
-{
-"id": 14179993,
-"brand": "GIGI",
-"name": "Bio Derm Lotion",
-"name_ru": "Лосьон-болтушка Bio Derm",
-"dept": "face",
-"vol": "250 ml",
-"type": "toner",
-"need": "acne",
-"price": 130,
-"stock": 1,
-"barcode": "7290011905460",
-"img": "photos/p/14179993.jpg"
 },
 {
 "id": 14180127,

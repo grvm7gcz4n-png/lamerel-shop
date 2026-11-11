@@ -445,7 +445,7 @@
 "barcode": "7290003568215",
 "brand": "GIGI",
 "price": 90,
-"stock": 2,
+"stock": 1,
 "title": "AROMA ESSENSE საპ. ცხ.კ 250მლ"
 },
 "14176861": {
@@ -725,7 +725,7 @@
 "barcode": "7290011905460",
 "brand": "GIGI",
 "price": 130,
-"stock": 1,
+"stock": 0,
 "title": "BIO DERM ლოსიონი \" ბალტუშკა\" 250 მლ."
 },
 "14180060": {
@@ -12043,5 +12043,5 @@
 "title": "Charlotte Tilbury Exagger Eyes Volume Mascara"
 }
 },
-"updated": "2026-11-11T14:26:37+00:00"
+"updated": "2026-11-11T15:15:07+00:00"
 }
