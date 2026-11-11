@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T15:25:23+00:00",
+"updated": "2026-11-11T16:01:16+00:00",
 "products": [
 {
 "id": 14082527,
@@ -3727,20 +3727,6 @@
 "stock": 1,
 "barcode": "5056446640794",
 "img": "photos/p/25995459.jpg"
-},
-{
-"id": 25995462,
-"brand": "Charlotte Tilbury",
-"name": "Exagger-Eyes Volume Mascara",
-"name_ru": "Тушь для объёма Exagger-Eyes",
-"dept": "makeup",
-"vol": "",
-"type": "makeup",
-"need": "",
-"price": 40,
-"stock": 1,
-"barcode": "5056446648783",
-"img": "photos/p/25995462.jpg"
 },
 {
 "id": 14176858,
