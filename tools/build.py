@@ -9,6 +9,10 @@ IMG=getattr(catalog_src,'IMG',{})
 _PF=os.path.join(ROOT,'tools/photo_found.json')
 if os.path.exists(_PF):
     for _k,_v in json.load(open(_PF)).items(): IMG.setdefault(int(_k),_v['url'])
+_PW=os.path.join(ROOT,'tools/photo_web.json')
+if os.path.exists(_PW):
+    for _k,_v in json.load(open(_PW)).items():
+        if _v.get('status')=='ok': IMG.setdefault(int(_k),_v['file'])
 RU=getattr(catalog_src,'RU',{})
 DEPT=getattr(catalog_src,'DEPT',{})
 FACE=getattr(catalog_src,'FACE',{})
