@@ -1,6 +1,6 @@
 """Собирает products.json и index.html.
 Запуск: python3 tools/build.py  (из корня репозитория)"""
-import json, os, sys, datetime
+import json, os, sys, datetime, re
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT,'tools'))
 import catalog_src
@@ -13,6 +13,12 @@ _PW=os.path.join(ROOT,'tools/photo_web.json')
 if os.path.exists(_PW):
     for _k,_v in json.load(open(_PW)).items():
         if _v.get('status')=='ok': IMG.setdefault(int(_k),_v['file'])
+# фото, присланные через Telegram-бота (photos/u/<id>.jpg|png) — главнее всех остальных
+_PU=os.path.join(ROOT,'photos/u')
+if os.path.isdir(_PU):
+    for _f in sorted(os.listdir(_PU)):
+        _m=re.match(r'^(\d+)\.(jpg|png)$',_f)
+        if _m: IMG[int(_m.group(1))]=f'photos/u/{_f}?v={os.path.getsize(os.path.join(_PU,_f))}'
 RU=getattr(catalog_src,'RU',{})
 DEPT=getattr(catalog_src,'DEPT',{})
 FACE=getattr(catalog_src,'FACE',{})
