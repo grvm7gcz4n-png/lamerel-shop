@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T16:01:16+00:00",
+"updated": "2026-11-11T17:45:36+00:00",
 "products": [
 {
 "id": 14082527,
@@ -10616,7 +10616,7 @@
 "type": "shampoo",
 "need": "oily",
 "price": 135,
-"stock": 1,
+"stock": 0,
 "barcode": "3474636954766",
 "img": "https://images.openbeautyfacts.org/images/products/347/463/695/4766/front_fr.5.400.jpg"
 },

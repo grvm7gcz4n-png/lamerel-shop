@@ -1395,15 +1395,6 @@
 "weight": 0
 },
 {
-"category_id": 7171915,
-"duration": 0,
-"id": 13940724,
-"price_max": 150,
-"price_min": 150,
-"title": "LED წარბების დაგრძელება / LED наращивание бровей / LED eyebrow extensions",
-"weight": 0
-},
-{
 "category_id": 7239108,
 "duration": 0,
 "id": 10854156,
@@ -1915,69 +1906,6 @@
 "price_min": 80,
 "title": "სახის მასაჟი / Массаж лица / Face massage",
 "weight": 0
-},
-{
-"category_id": 7171916,
-"duration": 0,
-"id": 13291785,
-"price_max": 90,
-"price_min": 90,
-"title": "გარე კუთხეების LED დაგრძელება / Наращивание внешних LED уголков / LED Extension of outer corners",
-"weight": 9
-},
-{
-"category_id": 7171916,
-"duration": 0,
-"id": 10854105,
-"price_max": 110,
-"price_min": 110,
-"title": "1D LED წამწამების დაგრძელება / Классическое LED Наращивание Ресниц / Classic LED Lashes Extension",
-"weight": 8
-},
-{
-"category_id": 7171916,
-"duration": 0,
-"id": 10854103,
-"price_max": 130,
-"price_min": 130,
-"title": "2D LED წამწამების დაგრძელება / 2D LED Наращивание Ресниц / 2D LED Lashes Extension",
-"weight": 7
-},
-{
-"category_id": 7171916,
-"duration": 0,
-"id": 10854104,
-"price_max": 140,
-"price_min": 140,
-"title": "3დ LED წამწამების დაგრძელება / 3D LED Наращивание Ресниц / 3D LED Lashes Extension",
-"weight": 6
-},
-{
-"category_id": 7171916,
-"duration": 0,
-"id": 13177014,
-"price_max": 150,
-"price_min": 150,
-"title": "4D LED წამწამების დაგრძელება / 4D LED Наращивание Ресниц / 4D LED Lashes Extension",
-"weight": 5
-},
-{
-"category_id": 7171916,
-"duration": 0,
-"id": 13177015,
-"price_max": 160,
-"price_min": 160,
-"title": "5D LED წამწამების დაგრძელება / 5D LED Наращивание Ресниц / 5D LED Lashes Extension",
-"weight": 4
-},
-{
-"category_id": 7171916,
-"duration": 0,
-"id": 13237714,
-"price_max": 180,
-"price_min": 180,
-"title": "6D-8D LED წამწამების დაგრძელება / 6D-8D LED Наращивание ресниц / 6D-8D LED Lashes Extension",
-"weight": 3
 },
 {
 "category_id": 7171916,
