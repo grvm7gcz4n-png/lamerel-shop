@@ -1,0 +1,27 @@
+name: Поиск фото товаров (поиск картинок)
+on:
+  push:
+    paths:
+      - 'tools/photo_web_request.json'
+permissions:
+  contents: write
+concurrency:
+  group: photos-web
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - run: python tools/find_photos_web.py 600
+      - if: always()
+        run: |
+          git config user.name "lamerel-bot"; git config user.email "actions@users.noreply.github.com"
+          git add -A photos/p tools/photo_web.json tools/photo_review || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Фото товаров: найдено, на проверке"
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push && break; sleep 7; done
