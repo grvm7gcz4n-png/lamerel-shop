@@ -9898,14 +9898,6 @@
 "stock": 1,
 "title": "Moroccanoil-ხვეული თმის ქაფი 150მლ"
 },
-"21759416": {
-"article": "",
-"barcode": "3700448601537",
-"category_id": 912953,
-"price": 80,
-"stock": 1,
-"title": "Moisturizing Hand Cream Amber Vanilla Patchouli"
-},
 "21759418": {
 "article": "",
 "barcode": "3760092230750",
@@ -10121,14 +10113,6 @@
 "price": 230,
 "stock": 2,
 "title": "Dior Backstage Glow Face Palette 001 Universal"
-},
-"22260782": {
-"article": "",
-"barcode": "3700448606075",
-"category_id": 912953,
-"price": 210,
-"stock": 1,
-"title": "Body Lotion - Rose - Journey to the route of Delights"
 },
 "22272630": {
 "article": "",
@@ -10927,7 +10911,7 @@
 "barcode": "777444666",
 "category_id": 1045663,
 "price": 3,
-"stock": 36,
+"stock": 35,
 "title": "ხელჩანთა პატარა пакет маленький"
 },
 "24700182": {
@@ -12059,5 +12043,5 @@
 "title": "Charlotte Tilbury Exagger Eyes Volume Mascara"
 }
 },
-"updated": "2026-11-11T09:24:29+00:00"
+"updated": "2026-11-11T10:23:20+00:00"
 }

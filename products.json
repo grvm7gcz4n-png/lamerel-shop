@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T11:14:10+00:00",
+"updated": "2026-11-11T10:23:20+00:00",
 "products": [
 {
 "id": 14082527,
@@ -235,19 +235,6 @@
 "stock": 1,
 "barcode": "7290011521448",
 "img": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/107_STYLE-FINISHER_CURL-CONTROL-MOUSSE_150mL_v3.jpg?v=1683622337"
-},
-{
-"id": 21759416,
-"brand": "La Sultane de Saba",
-"name": "Amber Vanilla Patchouli Hand Cream",
-"name_ru": "Крем для рук «Амбра, ваниль, пачули»",
-"dept": "body",
-"vol": "",
-"type": "lotion",
-"need": "",
-"price": 80,
-"stock": 1,
-"barcode": "3700448601537"
 },
 {
 "id": 21759418,
@@ -589,19 +576,6 @@
 "price": 230,
 "stock": 2,
 "barcode": "3348901770552"
-},
-{
-"id": 22260782,
-"brand": "La Sultane de Saba",
-"name": "Rose Body Lotion",
-"name_ru": "Лосьон для тела «Роза»",
-"dept": "body",
-"vol": "",
-"type": "lotion",
-"need": "",
-"price": 210,
-"stock": 1,
-"barcode": "3700448606075"
 },
 {
 "id": 22272630,
