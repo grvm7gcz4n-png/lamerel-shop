@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T17:45:36+00:00",
+"updated": "2026-11-12T08:42:24+00:00",
 "products": [
 {
 "id": 14082527,
@@ -1039,20 +1039,6 @@
 "stock": 1,
 "barcode": "8436538412251",
 "img": "photos/p/22834049.jpg"
-},
-{
-"id": 22842954,
-"brand": "Moroccanoil",
-"name": "Dry Body Oil",
-"name_ru": "Сухое масло для тела",
-"dept": "body",
-"vol": "50 ml",
-"type": "oil",
-"need": "",
-"price": 150,
-"stock": 1,
-"barcode": "7290016235739",
-"img": "https://cdn.shopify.com/s/files/1/0647/5540/0921/files/127_BODY-OIL_DRY-BODY-OIL_100mL_v3.jpg?v=1682736210"
 },
 {
 "id": 23025630,
