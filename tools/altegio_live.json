@@ -349,7 +349,7 @@
 "barcode": "8054726574132",
 "brand": "Philip Martin's",
 "price": 130,
-"stock": 1,
+"stock": 0,
 "title": "PM_Shine Rose|ვარდის ბზინვარება 50 მლ"
 },
 "14054587": {
@@ -509,7 +509,7 @@
 "barcode": "7290018221006",
 "brand": "GIGI",
 "price": 140,
-"stock": 1,
+"stock": 0,
 "title": "VIT.E თხ.საპონი  P.H.5.5"
 },
 "14176874": {
@@ -1197,7 +1197,7 @@
 "barcode": "8004608266495",
 "brand": "Davines",
 "price": 100,
-"stock": 0,
+"stock": 3,
 "title": "Daviness Oi Conditioner"
 },
 "18744685": {
@@ -1205,7 +1205,7 @@
 "barcode": "8004608285199",
 "brand": "Davines",
 "price": 95,
-"stock": 1,
+"stock": 4,
 "title": "Oi All In One Milk"
 },
 "18981174": {
@@ -1869,7 +1869,7 @@
 "barcode": "3474636614103",
 "brand": "Kérastase",
 "price": 135,
-"stock": 1,
+"stock": 0,
 "title": "КЕР Э УЛЬТИМ ШВ 250мл"
 },
 "20692142": {
@@ -2261,7 +2261,7 @@
 "barcode": "8004608247630",
 "brand": "Davines",
 "price": 90,
-"stock": 0,
+"stock": 2,
 "title": "DENC OI შამპუნი"
 },
 "21180535": {
@@ -2717,7 +2717,7 @@
 "barcode": "8004608247609",
 "brand": "Davines",
 "price": 75,
-"stock": 2,
+"stock": 4,
 "title": "DENC OI არაზეთოვანი ზეთი 50მლ"
 },
 "21580315": {
@@ -2757,7 +2757,7 @@
 "barcode": "8004608264590",
 "brand": "Davines",
 "price": 110,
-"stock": 0,
+"stock": 3,
 "title": "OI Hair Butter 250ml"
 },
 "21723300": {
@@ -2989,7 +2989,7 @@
 "barcode": "8004608242932",
 "brand": "Davines",
 "price": 35,
-"stock": 0,
+"stock": 2,
 "title": "NOUNOU, შამპუნი 75მლ"
 },
 "21762572": {
@@ -3141,7 +3141,7 @@
 "barcode": "8004608285205",
 "brand": "Davines",
 "price": 60,
-"stock": 0,
+"stock": 3,
 "title": "DENC OI რძე 50მლ"
 },
 "21824067": {
@@ -3245,7 +3245,7 @@
 "barcode": "7290018221303",
 "brand": "GIGI",
 "price": 270,
-"stock": 1,
+"stock": 0,
 "title": "NEW AGE G4 GLOW UP შრატი 30მლ"
 },
 "21847386": {
@@ -3261,7 +3261,7 @@
 "barcode": "8004608252122",
 "brand": "Davines",
 "price": 80,
-"stock": 1,
+"stock": 3,
 "title": "Davines თმის ლაქი საშუალო ფიქსაციის"
 },
 "21847388": {
@@ -3293,7 +3293,7 @@
 "barcode": "8004608242970",
 "brand": "Davines",
 "price": 35,
-"stock": 1,
+"stock": 2,
 "title": "Davines momo conditioner 75ml"
 },
 "21847401": {
@@ -3605,7 +3605,7 @@
 "barcode": "8004608289036",
 "brand": "Davines",
 "price": 75,
-"stock": 1,
+"stock": 3,
 "title": "VOLU შამპუნი 250 მლ"
 },
 "21885765": {
@@ -3629,7 +3629,7 @@
 "barcode": "8004608247203",
 "brand": "Davines",
 "price": 85,
-"stock": 2,
+"stock": 3,
 "title": "CURL moisturazing mousse  მუსი 250 მლ"
 },
 "21885778": {
@@ -3637,7 +3637,7 @@
 "barcode": "8004608252139",
 "brand": "Davines",
 "price": 85,
-"stock": 0,
+"stock": 2,
 "title": "STRONG HAIRSPREY  თმის ძლიერი ფიქსაცია"
 },
 "21885781": {
@@ -5037,7 +5037,7 @@
 "barcode": "8004608277408",
 "brand": "Davines",
 "price": 90,
-"stock": 4,
+"stock": 7,
 "title": "MI DRY SHAMPOO"
 },
 "22198040": {
@@ -5397,7 +5397,7 @@
 "barcode": "8004608276944",
 "brand": "Davines",
 "price": 85,
-"stock": 3,
+"stock": 2,
 "title": "DEHC SOLU SALT SCRUB 250ML"
 },
 "22297077": {
@@ -5853,7 +5853,7 @@
 "barcode": "8004608281924",
 "brand": "Davines",
 "price": 35,
-"stock": 2,
+"stock": 3,
 "title": "DEHC MOMO SH 75ML"
 },
 "22551214": {
@@ -6685,7 +6685,7 @@
 "barcode": "7290018221082",
 "brand": "GIGI",
 "price": 230,
-"stock": 1,
+"stock": 0,
 "title": "GIGI Powerful Eye Cream G4"
 },
 "23260530": {
@@ -6693,7 +6693,7 @@
 "barcode": "7290018221495",
 "brand": "GIGI",
 "price": 260,
-"stock": 1,
+"stock": 0,
 "title": "GIGI Night Cream G4"
 },
 "23287243": {
@@ -7253,7 +7253,7 @@
 "barcode": "8004608248941",
 "brand": "Davines",
 "price": 80,
-"stock": 3,
+"stock": 7,
 "title": "Dry Texturizer 250ml"
 },
 "24032795": {
@@ -7525,7 +7525,7 @@
 "barcode": "6961136589804",
 "brand": "MOCHEQI",
 "price": 70,
-"stock": 6,
+"stock": 4,
 "title": "Шампунь Охлаждающий Лёд с натуральным экстрактом МЯТЫ 518 мл"
 },
 "24154797": {
@@ -7741,7 +7741,7 @@
 "barcode": "8004608280484",
 "brand": "Davines",
 "price": 65,
-"stock": 0,
+"stock": 1,
 "title": "DEDE Shampoo 250ml"
 },
 "24292655": {
@@ -8093,7 +8093,7 @@
 "barcode": "3474637285012",
 "brand": "Kérastase",
 "price": 170,
-"stock": 1,
+"stock": 0,
 "title": "GLOSS ABSOLU Glaze Drops"
 },
 "24468620": {
@@ -8157,7 +8157,7 @@
 "barcode": "3474637283421",
 "brand": "Kérastase",
 "price": 190,
-"stock": 1,
+"stock": 0,
 "title": "GLOSS ABSOLU Gloss Enhancing Conditioner"
 },
 "24497422": {
@@ -8773,7 +8773,7 @@
 "barcode": "7290018221891",
 "brand": "GIGI",
 "price": 250,
-"stock": 1,
+"stock": 0,
 "title": "GIGI NEW AGE G4 day cream spf-20"
 },
 "25142642": {
@@ -9181,7 +9181,7 @@
 "barcode": "8004608296379",
 "brand": "Davines",
 "price": 75,
-"stock": 0,
+"stock": 2,
 "title": "Davines Love curl-enchancing shampoo"
 },
 "25439274": {
@@ -9397,7 +9397,7 @@
 "barcode": "3474637303365",
 "brand": "Kérastase",
 "price": 225,
-"stock": 1,
+"stock": 0,
 "title": "Gloss absolu masque"
 },
 "25669119": {
@@ -9589,7 +9589,7 @@
 "barcode": "8004608276715",
 "brand": "Davines",
 "price": 80,
-"stock": 1,
+"stock": 3,
 "title": "Davines momo conditioner 250ml"
 },
 "25873631": {
@@ -9621,7 +9621,7 @@
 "barcode": "8004608289005",
 "brand": "Davines",
 "price": 75,
-"stock": 1,
+"stock": 3,
 "title": "davines momo shampoo  250ml"
 },
 "25873660": {
@@ -9653,7 +9653,7 @@
 "barcode": "7290019465355",
 "brand": "GIGI",
 "price": 130,
-"stock": 1,
+"stock": 0,
 "title": "GIGI TEXSTURE lba toner"
 },
 "25895638": {
@@ -9817,14 +9817,6 @@
 "price": 75,
 "stock": 4,
 "title": "Schwarzkopf paddle brush"
-},
-"16297204": {
-"article": "",
-"barcode": "4045787291698",
-"category_id": 594251,
-"price": 40,
-"stock": 1,
-"title": "Schwarzkopf dessing Brush"
 },
 "17470638": {
 "article": "",
@@ -10063,7 +10055,7 @@
 "barcode": "777444555",
 "category_id": 1045663,
 "price": 5,
-"stock": 4,
+"stock": 2,
 "title": "ხელჩანთა დიდი пакет большой"
 },
 "22085891": {
@@ -10559,7 +10551,7 @@
 "barcode": "131318",
 "category_id": 594251,
 "price": 25,
-"stock": 54,
+"stock": 53,
 "title": "საყურე 131318"
 },
 "23543459": {
@@ -10727,7 +10719,7 @@
 "barcode": "5056446620482",
 "category_id": 594251,
 "price": 180,
-"stock": 5,
+"stock": 4,
 "title": "CHarlotte TIlbury Pillow Talk MakeUP Bag косметичка"
 },
 "24068816": {
@@ -10887,7 +10879,7 @@
 "barcode": "",
 "category_id": 594251,
 "price": 3,
-"stock": 196,
+"stock": 193,
 "title": "ამერიკანო"
 },
 "24599631": {
@@ -10951,7 +10943,7 @@
 "barcode": "4660222450876",
 "category_id": 594251,
 "price": 20,
-"stock": 3,
+"stock": 2,
 "title": "PUSY Brow Fix Gel Strong 2.5ml"
 },
 "24738290": {
@@ -11295,7 +11287,7 @@
 "barcode": "5907591500771",
 "category_id": 594251,
 "price": 12,
-"stock": 3,
+"stock": 2,
 "title": "Bubble Gum крем для солярия с коллагеном"
 },
 "25246074": {
@@ -11519,7 +11511,7 @@
 "barcode": "",
 "category_id": 1086398,
 "price": 300,
-"stock": 5,
+"stock": 4,
 "title": "MIU MIU ОЧКИ"
 },
 "25486177": {
@@ -11647,7 +11639,7 @@
 "barcode": "5060150189753",
 "category_id": 594251,
 "price": 40,
-"stock": 2,
+"stock": 1,
 "title": "WOW color dreaming 50ml"
 },
 "25589943": {
@@ -11801,14 +11793,6 @@
 "price": 650,
 "stock": 1,
 "title": "Hourglass Brush Set кисти набор midi"
-},
-"25804283": {
-"article": "",
-"barcode": "4660222451316",
-"category_id": 594251,
-"price": 55,
-"stock": 1,
-"title": "pusy brow fix gel"
 },
 "25840676": {
 "article": "",
@@ -12010,14 +11994,6 @@
 "stock": 1,
 "title": "chanel bag синяя косметичкаквадратная без цепочки"
 },
-"25995456": {
-"article": "",
-"barcode": "5056446661799",
-"category_id": 594251,
-"price": 250,
-"stock": 1,
-"title": "Charlotte Tilbury Pillow Talk Everyda Icons"
-},
 "25995459": {
 "article": "",
 "barcode": "5056446640794",
@@ -12027,5 +12003,5 @@
 "title": "Charlotte Tilbury Matte Revolution 1.1"
 }
 },
-"updated": "2026-11-12T09:38:15+00:00"
+"updated": "2026-11-14T13:03:34+00:00"
 }

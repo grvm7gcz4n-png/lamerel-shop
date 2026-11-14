@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T08:42:24+00:00",
+"updated": "2026-11-14T13:03:34+00:00",
 "products": [
 {
 "id": 14082527,
@@ -99,22 +99,6 @@
 "price": 75,
 "stock": 4,
 "barcode": "4045787291735"
-},
-{
-"id": 22728796,
-"brand": "Schwarzkopf Professional",
-"name": "Dressing Brush",
-"name_ru": "Расчёска Dressing Brush",
-"dept": "acc",
-"vol": "",
-"type": "accessory",
-"need": "",
-"price": 75,
-"stock": 2,
-"barcode": "4045787816600",
-"alt_ids": [
-16297204
-]
 },
 {
 "id": 17470638,
@@ -662,6 +646,19 @@
 "stock": 1,
 "barcode": "3700448606426",
 "img": "photos/p/22474434.jpg"
+},
+{
+"id": 22728796,
+"brand": "Schwarzkopf Professional",
+"name": "Dressing Brush",
+"name_ru": "Расчёска Dressing Brush",
+"dept": "acc",
+"vol": "",
+"type": "accessory",
+"need": "",
+"price": 75,
+"stock": 1,
+"barcode": "4045787816600"
 },
 {
 "id": 22796179,
@@ -1328,7 +1325,7 @@
 "type": "jewelry",
 "need": "",
 "price": 25,
-"stock": 54,
+"stock": 53,
 "barcode": "131318",
 "best": 4
 },
@@ -1611,7 +1608,7 @@
 "type": "bag",
 "need": "",
 "price": 180,
-"stock": 5,
+"stock": 4,
 "barcode": "5056446620482"
 },
 {
@@ -1944,7 +1941,7 @@
 "type": "makeup",
 "need": "",
 "price": 20,
-"stock": 3,
+"stock": 2,
 "barcode": "4660222450876",
 "img": "photos/p/24738288.jpg"
 },
@@ -2503,7 +2500,7 @@
 "type": "tanning",
 "need": "",
 "price": 12,
-"stock": 3,
+"stock": 2,
 "barcode": "5907591500771",
 "best": 11
 },
@@ -2877,7 +2874,7 @@
 "type": "glasses",
 "need": "",
 "price": 300,
-"stock": 5,
+"stock": 4,
 "best": 29
 },
 {
@@ -3097,7 +3094,7 @@
 "type": "leavein",
 "need": "",
 "price": 40,
-"stock": 2,
+"stock": 1,
 "barcode": "5060150189753",
 "img": "https://cdn.shopify.com/s/files/1/0587/5210/6688/files/CRE-8146W-Dream-Coat-COS-Award-2048x2048-v2_9d01adb5-b314-470d-9f85-bb70d9a60484.jpg?v=1791303813"
 },
@@ -3348,20 +3345,6 @@
 "stock": 1,
 "barcode": "850004373538",
 "img": "https://cdn.shopify.com/s/files/1/0081/1660/0950/files/2000x2000_72dpi_0000s_0005_HOLIDAY25_PPAGE-ASSETS_TRAVEL-BRUSH-SET.png?v=1786478658"
-},
-{
-"id": 25804283,
-"brand": "PUSY",
-"name": "Brow Fix Gel",
-"name_ru": "Гель для фиксации бровей",
-"dept": "makeup",
-"vol": "",
-"type": "makeup",
-"need": "",
-"price": 55,
-"stock": 1,
-"barcode": "4660222451316",
-"img": "photos/p/25804283.jpg"
 },
 {
 "id": 25840676,
@@ -3687,20 +3670,6 @@
 "stock": 1
 },
 {
-"id": 25995456,
-"brand": "Charlotte Tilbury",
-"name": "Pillow Talk Everyday Icons Set",
-"name_ru": "Набор Pillow Talk Everyday Icons",
-"dept": "gifts",
-"vol": "",
-"type": "kit",
-"need": "",
-"price": 250,
-"stock": 1,
-"barcode": "5056446661799",
-"img": "photos/p/25995456.jpg"
-},
-{
 "id": 25995459,
 "brand": "Charlotte Tilbury",
 "name": "Matte Revolution Lipstick 1.1",
@@ -3754,20 +3723,6 @@
 "stock": 1,
 "barcode": "7290003568451",
 "img": "photos/p/14176870.jpg"
-},
-{
-"id": 14176873,
-"brand": "GIGI",
-"name": "Vitamin E Soapless Soap pH 5.5",
-"name_ru": "Жидкое мыло с витамином E pH 5.5",
-"dept": "face",
-"vol": "",
-"type": "cleanser",
-"need": "",
-"price": 140,
-"stock": 1,
-"barcode": "7290018221006",
-"img": "photos/p/14176873.jpg"
 },
 {
 "id": 14176882,
@@ -4141,20 +4096,6 @@
 "img": "photos/p/21740447.jpg"
 },
 {
-"id": 21839988,
-"brand": "GIGI",
-"name": "New Age G4 Glow Up Serum",
-"name_ru": "Сыворотка для сияния New Age G4 Glow Up",
-"dept": "face",
-"vol": "30 ml",
-"type": "serum",
-"need": "bright",
-"price": 270,
-"stock": 1,
-"barcode": "7290018221303",
-"img": "photos/p/21839988.jpg"
-},
-{
 "id": 21857776,
 "brand": "ZO Skin Health",
 "name": "Exfoliating Polish",
@@ -4279,32 +4220,6 @@
 "img": "photos/p/23209748.jpg"
 },
 {
-"id": 23260528,
-"brand": "GIGI",
-"name": "New Age G4 Powerful Eye Cream",
-"name_ru": "Крем для век New Age G4",
-"dept": "face",
-"vol": "",
-"type": "eye",
-"need": "antiage",
-"price": 230,
-"stock": 1,
-"barcode": "7290018221082"
-},
-{
-"id": 23260530,
-"brand": "GIGI",
-"name": "New Age G4 Night Cream",
-"name_ru": "Ночной крем New Age G4",
-"dept": "face",
-"vol": "",
-"type": "cream",
-"need": "antiage",
-"price": 260,
-"stock": 1,
-"barcode": "7290018221495"
-},
-{
 "id": 23982649,
 "brand": "iS Clinical",
 "name": "Active Serum",
@@ -4384,20 +4299,6 @@
 "stock": 1,
 "barcode": "810866012389",
 "img": "photos/p/24655557.jpg"
-},
-{
-"id": 25142635,
-"brand": "GIGI",
-"name": "New Age G4 Day Cream SPF 20",
-"name_ru": "Дневной крем New Age G4 SPF 20",
-"dept": "face",
-"vol": "",
-"type": "cream",
-"need": "antiage",
-"price": 250,
-"stock": 1,
-"barcode": "7290018221891",
-"img": "photos/p/25142635.jpg"
 },
 {
 "id": 25142642,
@@ -4646,20 +4547,6 @@
 "stock": 1,
 "barcode": "7290015443036",
 "img": "photos/p/25895623.jpg"
-},
-{
-"id": 25895630,
-"brand": "GIGI",
-"name": "Texture LBA Toner",
-"name_ru": "Тоник Texture LBA",
-"dept": "face",
-"vol": "",
-"type": "toner",
-"need": "",
-"price": 130,
-"stock": 1,
-"barcode": "7290019465355",
-"img": "photos/p/25895630.jpg"
 },
 {
 "id": 25895638,
@@ -5501,7 +5388,7 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 70,
-"stock": 6,
+"stock": 4,
 "barcode": "6961136589804",
 "img": "https://mocheqi.ru/assets/images/135749942-1094699950992476-3064410060967038318-n-816x816.webp",
 "best": 7
@@ -5940,7 +5827,7 @@
 "type": "conditioner",
 "need": "shine",
 "price": 100,
-"stock": 0,
+"stock": 3,
 "barcode": "8004608266495",
 "img": "https://davines.ru/upload/iblock/1de/w2hbmpinqni9z54knqht9syc7a4zaniu.jpg",
 "best": 6
@@ -6027,7 +5914,7 @@
 "type": "styling",
 "need": "hold",
 "price": 80,
-"stock": 1,
+"stock": 3,
 "barcode": "8004608252122",
 "img": "https://davines.ru/upload/iblock/b54/el16kojs6lou8iyephswa1qppqeolxyr.jpg"
 },
@@ -6081,7 +5968,7 @@
 "type": "conditioner",
 "need": "dry",
 "price": 35,
-"stock": 1,
+"stock": 2,
 "barcode": "8004608242970",
 "img": "https://davines.ru/upload/iblock/107/h5qcvkrmp0smcqa1hdj0jv7ldqpq4zgn.jpg"
 },
@@ -6123,7 +6010,7 @@
 "type": "styling",
 "need": "curls",
 "price": 85,
-"stock": 2,
+"stock": 3,
 "barcode": "8004608247203",
 "img": "https://davines.ru/upload/iblock/b2a/ma2i20gc1rj8vklv5t24wbdb094whuq8.jpg"
 },
@@ -6150,7 +6037,7 @@
 "type": "shampoo",
 "need": "shine",
 "price": 65,
-"stock": 0,
+"stock": 1,
 "barcode": "8004608280484",
 "img": "https://davines.ru/upload/iblock/1d6/tbzxqk1yuyiy5smmkcgtf7dmryfn345o.jpg",
 "alt_ids": [
@@ -6304,7 +6191,7 @@
 "type": "shampoo",
 "need": "curls",
 "price": 75,
-"stock": 0,
+"stock": 2,
 "barcode": "8004608296379"
 },
 {
@@ -6344,7 +6231,7 @@
 "type": "conditioner",
 "need": "dry",
 "price": 80,
-"stock": 2,
+"stock": 4,
 "barcode": "8004608276715",
 "img": "https://davines.ru/upload/iblock/107/h5qcvkrmp0smcqa1hdj0jv7ldqpq4zgn.jpg",
 "alt_ids": [
@@ -6411,7 +6298,7 @@
 "type": "shampoo",
 "need": "dry",
 "price": 75,
-"stock": 2,
+"stock": 4,
 "barcode": "8004608289005",
 "alt_ids": [
 21885746
@@ -6553,7 +6440,7 @@
 "type": "shampoo",
 "need": "shine",
 "price": 90,
-"stock": 0,
+"stock": 2,
 "barcode": "8004608247630",
 "img": "https://davines.ru/upload/iblock/427/6h7g3l48bddx00zyuh0b09y1k1upvmr1.png",
 "best": 3
@@ -6637,7 +6524,7 @@
 "type": "oil",
 "need": "shine",
 "price": 75,
-"stock": 2,
+"stock": 4,
 "barcode": "8004608247609",
 "img": "https://davines.ru/upload/iblock/c2e/iu95yfr74jsy04vnrt9au8h19g5zfar7.jpg"
 },
@@ -6719,7 +6606,7 @@
 "type": "leavein",
 "need": "shine",
 "price": 60,
-"stock": 0,
+"stock": 3,
 "barcode": "8004608285205",
 "img": "https://davines.ru/upload/iblock/9fe/cvhmtse7ex83tea2x0amkq6f5xbdsaw9.jpg",
 "best": 23
@@ -6861,7 +6748,7 @@
 "type": "shampoo",
 "need": "oily",
 "price": 90,
-"stock": 4,
+"stock": 7,
 "barcode": "8004608277408",
 "img": "https://davines.ru/upload/iblock/6d1/bgp3s13119k2ghdccnp0tfbaltlyofge.jpg",
 "best": 18
@@ -6904,7 +6791,7 @@
 "type": "shampoo",
 "need": "scalp",
 "price": 85,
-"stock": 3,
+"stock": 2,
 "barcode": "8004608276944",
 "img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-70015SLC-SOLU-SEA-SALT-SCRUB-250ML-8004608302070-1.jpg?v=1777570255"
 },
@@ -6990,7 +6877,7 @@
 "type": "shampoo",
 "need": "dry",
 "price": 35,
-"stock": 2,
+"stock": 3,
 "barcode": "8004608281924",
 "img": "https://images.openbeautyfacts.org/images/products/800/460/828/1924/front_fr.3.400.jpg"
 },
@@ -7044,7 +6931,7 @@
 "type": "styling",
 "need": "volume",
 "price": 80,
-"stock": 3,
+"stock": 7,
 "barcode": "8004608248941",
 "img": "https://cdn.shopify.com/s/files/1/0052/8085/8198/files/Davines-87154-this-is-a-dry-texturizer-250ml-8004608288817-1_1.jpg?v=1760460117",
 "best": 10
@@ -7126,7 +7013,7 @@
 "type": "leavein",
 "need": "shine",
 "price": 95,
-"stock": 1,
+"stock": 4,
 "barcode": "8004608285199",
 "img": "https://davines.ru/upload/iblock/dcd/1op7uubxrraciqb3o42bh6e64n0ubeur.jpg",
 "best": 17
@@ -7252,7 +7139,7 @@
 "type": "mask",
 "need": "shine",
 "price": 110,
-"stock": 0,
+"stock": 3,
 "barcode": "8004608264590",
 "img": "https://davines.ru/upload/iblock/587/eavtivtpw01l79vhug5cqqhlz354ldxw.jpg",
 "best": 12
@@ -7339,7 +7226,7 @@
 "type": "shampoo",
 "need": "repair",
 "price": 35,
-"stock": 0,
+"stock": 2,
 "barcode": "8004608242932"
 },
 {
@@ -7807,7 +7694,7 @@
 "type": "styling",
 "need": "hold",
 "price": 85,
-"stock": 0,
+"stock": 2,
 "barcode": "8004608252139",
 "img": "https://davines.ru/upload/iblock/b5a/wv6xg36i4qhlduhqkhmz7b4ks3ak9rbc.jpg"
 },
@@ -7905,7 +7792,7 @@
 "type": "shampoo",
 "need": "volume",
 "price": 75,
-"stock": 1,
+"stock": 3,
 "barcode": "8004608289036",
 "img": "https://davines.ru/upload/iblock/b8a/0riov8sl4glmbj1wy7h7vrms0krec772.jpg"
 },
@@ -8412,7 +8299,7 @@
 "type": "oil",
 "need": "shine",
 "price": 130,
-"stock": 1,
+"stock": 0,
 "barcode": "8054726574132"
 },
 {
@@ -9601,7 +9488,7 @@
 "type": "shampoo",
 "need": "shine",
 "price": 135,
-"stock": 1,
+"stock": 0,
 "barcode": "3474636614103",
 "img": "https://images.openbeautyfacts.org/images/products/347/463/661/4103/front_es.8.400.jpg"
 },
@@ -9924,7 +9811,7 @@
 "type": "conditioner",
 "need": "shine",
 "price": 190,
-"stock": 1,
+"stock": 0,
 "barcode": "3474637283421",
 "img": "photos/p/24469703.jpg"
 },
@@ -9964,7 +9851,7 @@
 "type": "serum",
 "need": "shine",
 "price": 170,
-"stock": 1,
+"stock": 0,
 "barcode": "3474637285012",
 "img": "https://images.openbeautyfacts.org/images/products/347/463/728/5012/front_fr.3.400.jpg",
 "best": 21
@@ -9979,7 +9866,7 @@
 "type": "mask",
 "need": "shine",
 "price": 225,
-"stock": 1,
+"stock": 0,
 "barcode": "3474637303365",
 "img": "https://images.openbeautyfacts.org/images/products/347/463/730/3365/front_fr.5.400.jpg"
 },
