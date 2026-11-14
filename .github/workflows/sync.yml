@@ -40,13 +40,22 @@ jobs:
           if [ "$SYNC_FAILED" = "1" ]; then
             git add tools/sync_status.json
             git commit -qm "Синхронизация с Altegio: ошибка (см. tools/sync_status.json)" || exit 0
-          else
-            for f in products.json services.json index.html src/artifact.html tools/altegio_live.json tools/altegio_titles_snapshot.json tools/services_live.json tools/duplicates.json tools/other_unmapped.json; do [ -f "$f" ] && git add "$f"; done; true
+            for i in 1 2 3; do git pull -q --rebase origin main && git push -q && exit 0; git rebase --abort 2>/dev/null; sleep 5; done
+            exit 0
+          fi
+          # данные из Altegio сохраняем отдельно, затем на свежей ветке пересобираем сайт и коммитим
+          mkdir -p /tmp/keep
+          for f in tools/altegio_live.json tools/altegio_titles_snapshot.json tools/services_live.json tools/sync_status.json; do [ -f "$f" ] && cp "$f" /tmp/keep/; done
+          for i in 1 2 3 4; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            cp /tmp/keep/* tools/ 2>/dev/null || true
+            python tools/build.py
+            for f in products.json services.json index.html src/artifact.html tools/altegio_live.json tools/altegio_titles_snapshot.json tools/services_live.json tools/duplicates.json tools/other_unmapped.json; do [ -f "$f" ] && git add "$f"; done
             if git diff --cached --quiet; then echo "Изменений нет"; exit 0; fi
             git add tools/sync_status.json
             git commit -qm "Синхронизация с Altegio: цены и наличие"
-          fi
-          git stash -u -q || true
-          git pull -q --rebase origin main
-          git push -q
+            git push -q && exit 0
+            sleep 7
+          done
+          exit 1
 # trigger 1794234126
