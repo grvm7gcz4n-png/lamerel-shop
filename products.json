@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T13:03:34+00:00",
+"updated": "2026-11-14T14:43:06+00:00",
 "products": [
 {
 "id": 14082527,
@@ -5702,7 +5702,7 @@
 "type": "leavein",
 "need": "curls",
 "price": 55,
-"stock": 4,
+"stock": 3,
 "barcode": "6961136590176",
 "best": 15
 },
