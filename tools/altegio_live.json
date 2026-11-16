@@ -1037,7 +1037,7 @@
 "barcode": "3474636975518",
 "brand": "L'Oréal Professionnel",
 "price": 80,
-"stock": 1,
+"stock": 0,
 "title": "ЛП СЭ21 Витамино шампунь 300 мл"
 },
 "17443150": {
@@ -12003,5 +12003,5 @@
 "title": "Charlotte Tilbury Matte Revolution 1.1"
 }
 },
-"updated": "2026-11-16T09:56:20+00:00"
+"updated": "2026-11-16T11:07:07+00:00"
 }

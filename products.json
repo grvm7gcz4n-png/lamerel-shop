@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T14:43:06+00:00",
+"updated": "2026-11-16T11:07:08+00:00",
 "products": [
 {
 "id": 14082527,
@@ -15060,7 +15060,7 @@
 "type": "shampoo",
 "need": "color",
 "price": 80,
-"stock": 1,
+"stock": 0,
 "barcode": "3474636975518",
 "img": "https://images.openbeautyfacts.org/images/products/347/463/697/5518/front_fr.5.400.jpg"
 },
