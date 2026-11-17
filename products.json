@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T09:48:41+00:00",
+"updated": "2026-11-17T10:45:26+00:00",
 "products": [
 {
 "id": 14082527,
@@ -9876,7 +9876,7 @@
 "type": "shampoo",
 "need": "shine",
 "price": 140,
-"stock": 1,
+"stock": 2,
 "barcode": "3474637308728"
 },
 {
@@ -9915,7 +9915,7 @@
 "type": "conditioner",
 "need": "shine",
 "price": 190,
-"stock": 0,
+"stock": 1,
 "barcode": "3474637283421",
 "img": "photos/p/24469703.jpg"
 },
@@ -10070,7 +10070,7 @@
 "type": "leavein",
 "need": "heat",
 "price": 170,
-"stock": 0,
+"stock": 1,
 "barcode": "3474637155049"
 },
 {
@@ -10114,7 +10114,7 @@
 "type": "mask",
 "need": "dry",
 "price": 220,
-"stock": 0,
+"stock": 1,
 "barcode": "3474637155001"
 },
 {

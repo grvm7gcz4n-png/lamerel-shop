@@ -5773,7 +5773,7 @@
 "barcode": "3474637155049",
 "brand": "Kérastase",
 "price": 170,
-"stock": 0,
+"stock": 1,
 "title": "Nutritive Lotion Thermique Sublimatrice"
 },
 "22440727": {
@@ -5981,7 +5981,7 @@
 "barcode": "3474637155001",
 "brand": "Kérastase",
 "price": 220,
-"stock": 0,
+"stock": 1,
 "title": "nutritive,ultra-concentrated rich mask.for  very dry hair"
 },
 "22660626": {
@@ -8101,7 +8101,7 @@
 "barcode": "3474637308728",
 "brand": "Kérastase",
 "price": 140,
-"stock": 1,
+"stock": 2,
 "title": "GLOSS ABSOLUT Shampoo 250ml"
 },
 "24468626": {
@@ -8157,7 +8157,7 @@
 "barcode": "3474637283421",
 "brand": "Kérastase",
 "price": 190,
-"stock": 0,
+"stock": 1,
 "title": "GLOSS ABSOLU Gloss Enhancing Conditioner"
 },
 "24497422": {
@@ -12011,5 +12011,5 @@
 "title": "chanel bag синяя косметичкаквадратная без цепочки"
 }
 },
-"updated": "2026-11-17T09:48:40+00:00"
+"updated": "2026-11-17T10:45:26+00:00"
 }
