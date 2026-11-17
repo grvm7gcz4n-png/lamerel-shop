@@ -9759,6 +9759,22 @@
 "price": 0,
 "stock": 0,
 "title": "Davines 12%"
+},
+"26031956": {
+"article": "",
+"barcode": "7290020278098",
+"brand": "GIGI",
+"price": 320,
+"stock": 1,
+"title": "Gigi pdrn pure limited edition matrix cream"
+},
+"26031958": {
+"article": "",
+"barcode": "7290011905606",
+"brand": "GIGI",
+"price": 120,
+"stock": 1,
+"title": "Gigi skin expert chamomile azulene toner"
 }
 },
 "other": {
@@ -11993,15 +12009,7 @@
 "price": 170,
 "stock": 1,
 "title": "chanel bag синяя косметичкаквадратная без цепочки"
-},
-"25995459": {
-"article": "",
-"barcode": "5056446640794",
-"category_id": 594251,
-"price": 40,
-"stock": 1,
-"title": "Charlotte Tilbury Matte Revolution 1.1"
 }
 },
-"updated": "2026-11-17T08:52:04+00:00"
+"updated": "2026-11-17T09:48:40+00:00"
 }

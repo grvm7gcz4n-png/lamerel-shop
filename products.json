@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T08:52:04+00:00",
+"updated": "2026-11-17T09:48:41+00:00",
 "products": [
 {
 "id": 14082527,
@@ -3670,20 +3670,6 @@
 "stock": 1
 },
 {
-"id": 25995459,
-"brand": "Charlotte Tilbury",
-"name": "Matte Revolution Lipstick 1.1",
-"name_ru": "Матовая помада Matte Revolution 1.1",
-"dept": "makeup",
-"vol": "",
-"type": "makeup",
-"need": "",
-"price": 40,
-"stock": 1,
-"barcode": "5056446640794",
-"img": "photos/p/25995459.jpg"
-},
-{
 "id": 14176858,
 "brand": "GIGI",
 "name": "Aroma Essence Soap for Sensitive Skin",
@@ -4721,6 +4707,32 @@
 "stock": 1,
 "barcode": "7290016914580",
 "img": "photos/p/25895907.jpg"
+},
+{
+"id": 26031956,
+"brand": "GIGI",
+"name": "Pdrn Pure Limited Edition Matrix Cream",
+"name_ru": null,
+"dept": "face",
+"vol": "",
+"type": "cream",
+"need": "",
+"price": 320,
+"stock": 1,
+"barcode": "7290020278098"
+},
+{
+"id": 26031958,
+"brand": "GIGI",
+"name": "Skin Expert Chamomile Azulene Toner",
+"name_ru": null,
+"dept": "face",
+"vol": "",
+"type": "toner",
+"need": "",
+"price": 120,
+"stock": 1,
+"barcode": "7290011905606"
 },
 {
 "id": 25494550,
