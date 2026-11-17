@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T12:12:30+00:00",
+"updated": "2026-11-17T08:52:04+00:00",
 "products": [
 {
 "id": 14082527,
@@ -3711,6 +3711,32 @@
 "img": "photos/p/14176859.jpg"
 },
 {
+"id": 14176867,
+"brand": "GIGI",
+"name": "LOTUS BEAUTY 250",
+"name_ru": null,
+"dept": "face",
+"vol": "250 ml",
+"type": "cream",
+"need": "",
+"price": 125,
+"stock": 1,
+"barcode": "7290011905286"
+},
+{
+"id": 14176869,
+"brand": "GIGI",
+"name": "VIT E 50",
+"name_ru": null,
+"dept": "face",
+"vol": "50 ml",
+"type": "eye",
+"need": "",
+"price": 150,
+"stock": 1,
+"barcode": "7290003568536"
+},
+{
 "id": 14176870,
 "brand": "GIGI",
 "name": "Vitamin E Moisturizer SPF 20 for Dry Skin",
@@ -3720,7 +3746,7 @@
 "type": "cream",
 "need": "dry",
 "price": 180,
-"stock": 1,
+"stock": 3,
 "barcode": "7290003568451",
 "img": "photos/p/14176870.jpg"
 },
@@ -4007,7 +4033,7 @@
 "type": "serum",
 "need": "acne",
 "price": 95,
-"stock": 1,
+"stock": 2,
 "barcode": "7290016906509",
 "img": "photos/p/19970782.jpg"
 },
@@ -4150,6 +4176,19 @@
 "barcode": "7290018221556"
 },
 {
+"id": 22121353,
+"brand": "GIGI",
+"name": "RECOVERY 50",
+"name_ru": null,
+"dept": "face",
+"vol": "50 ml",
+"type": "cream",
+"need": "",
+"price": 250,
+"stock": 1,
+"barcode": "7290011905545"
+},
+{
 "id": 22247049,
 "brand": "ZO Skin Health",
 "name": "Sunscreen + Powder SPF 30 Refill Medium",
@@ -4162,6 +4201,19 @@
 "stock": 1,
 "barcode": "810866017254",
 "img": "photos/p/22247049.jpg"
+},
+{
+"id": 22929637,
+"brand": "GIGI",
+"name": "Aroma Essence Soap for Dry Skin",
+"name_ru": "Мыло для сухой кожи Aroma Essence",
+"dept": "face",
+"vol": "200 ml",
+"type": "cleanser",
+"need": "dry",
+"price": 115,
+"stock": 1,
+"barcode": "7290018221594"
 },
 {
 "id": 22929640,
@@ -4218,6 +4270,32 @@
 "stock": 1,
 "barcode": "666151020467",
 "img": "photos/p/23209748.jpg"
+},
+{
+"id": 23260528,
+"brand": "GIGI",
+"name": "New Age G4 Powerful Eye Cream",
+"name_ru": "Крем для век New Age G4",
+"dept": "face",
+"vol": "",
+"type": "eye",
+"need": "antiage",
+"price": 230,
+"stock": 1,
+"barcode": "7290018221082"
+},
+{
+"id": 23260530,
+"brand": "GIGI",
+"name": "New Age G4 Night Cream",
+"name_ru": "Ночной крем New Age G4",
+"dept": "face",
+"vol": "",
+"type": "cream",
+"need": "antiage",
+"price": 260,
+"stock": 1,
+"barcode": "7290018221495"
 },
 {
 "id": 23982649,
@@ -4433,7 +4511,7 @@
 "type": "spf",
 "need": "",
 "price": 150,
-"stock": 2,
+"stock": 3,
 "barcode": "7290019465577"
 },
 {
@@ -4547,6 +4625,20 @@
 "stock": 1,
 "barcode": "7290015443036",
 "img": "photos/p/25895623.jpg"
+},
+{
+"id": 25895630,
+"brand": "GIGI",
+"name": "Texture LBA Toner",
+"name_ru": "Тоник Texture LBA",
+"dept": "face",
+"vol": "",
+"type": "toner",
+"need": "",
+"price": 130,
+"stock": 1,
+"barcode": "7290019465355",
+"img": "photos/p/25895630.jpg"
 },
 {
 "id": 25895638,

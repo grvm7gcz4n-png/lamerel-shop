@@ -485,7 +485,7 @@
 "barcode": "7290011905286",
 "brand": "GIGI",
 "price": 125,
-"stock": 0,
+"stock": 1,
 "title": "LOTUS BEAUTY გამწენდი ტონიკი 250მლ"
 },
 "14176869": {
@@ -493,7 +493,7 @@
 "barcode": "7290003568536",
 "brand": "GIGI",
 "price": 150,
-"stock": 0,
+"stock": 1,
 "title": "VIT E თვალის ირგვლივი კრემი 50მლ"
 },
 "14176870": {
@@ -501,7 +501,7 @@
 "barcode": "7290003568451",
 "brand": "GIGI",
 "price": 180,
-"stock": 1,
+"stock": 3,
 "title": "VIT.E  მატენიანებელი კრემი მშ. კან. SPF 20 50მლ"
 },
 "14176873": {
@@ -973,7 +973,7 @@
 "barcode": "7290010653102",
 "brand": "GIGI",
 "price": 0,
-"stock": 1,
+"stock": 2,
 "title": "SEA WEED ტონიკი ცხ. კ .250 მლ"
 },
 "16052885": {
@@ -1693,7 +1693,7 @@
 "barcode": "7290016906509",
 "brand": "GIGI",
 "price": 95,
-"stock": 1,
+"stock": 2,
 "title": "A..N წერტ. გელი"
 },
 "19999423": {
@@ -4485,7 +4485,7 @@
 "barcode": "7290011905545",
 "brand": "GIGI",
 "price": 250,
-"stock": 0,
+"stock": 1,
 "title": "RECOVERY აღმდგენი ღამის კრემი 50მლ"
 },
 "22121364": {
@@ -6301,7 +6301,7 @@
 "barcode": "7290018221594",
 "brand": "GIGI",
 "price": 115,
-"stock": 0,
+"stock": 1,
 "title": "gigi aroma essence საპ.მშრ.კანისთვის 200მლ"
 },
 "22929640": {
@@ -6685,7 +6685,7 @@
 "barcode": "7290018221082",
 "brand": "GIGI",
 "price": 230,
-"stock": 0,
+"stock": 1,
 "title": "GIGI Powerful Eye Cream G4"
 },
 "23260530": {
@@ -6693,7 +6693,7 @@
 "barcode": "7290018221495",
 "brand": "GIGI",
 "price": 260,
-"stock": 0,
+"stock": 1,
 "title": "GIGI Night Cream G4"
 },
 "23287243": {
@@ -8877,7 +8877,7 @@
 "barcode": "7290019465577",
 "brand": "GIGI",
 "price": 150,
-"stock": 2,
+"stock": 3,
 "title": "GIGI TEXSTURE dynamic day make up spf 30 light"
 },
 "25142819": {
@@ -9653,7 +9653,7 @@
 "barcode": "7290019465355",
 "brand": "GIGI",
 "price": 130,
-"stock": 0,
+"stock": 1,
 "title": "GIGI TEXSTURE lba toner"
 },
 "25895638": {
@@ -12003,5 +12003,5 @@
 "title": "Charlotte Tilbury Matte Revolution 1.1"
 }
 },
-"updated": "2026-11-17T07:59:39+00:00"
+"updated": "2026-11-17T08:52:04+00:00"
 }
