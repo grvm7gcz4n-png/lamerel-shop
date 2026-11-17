@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T10:45:26+00:00",
+"updated": "2026-11-17T11:30:04+00:00",
 "products": [
 {
 "id": 14082527,
@@ -3952,6 +3952,19 @@
 "need": "acne",
 "price": 130,
 "stock": 2
+},
+{
+"id": 16052882,
+"brand": "GIGI",
+"name": "SEA WEED 250",
+"name_ru": null,
+"dept": "face",
+"vol": "250 ml",
+"type": "cream",
+"need": "",
+"price": 140,
+"stock": 2,
+"barcode": "7290010653102"
 },
 {
 "id": 17443182,
