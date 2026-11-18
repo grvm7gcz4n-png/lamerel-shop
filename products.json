@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T13:34:43+00:00",
+"updated": "2026-11-18T08:48:57+00:00",
 "products": [
 {
 "id": 14082527,
@@ -717,20 +717,6 @@
 "img": "https://i5.walmartimages.com/asr/8e3e2ec1-c417-499b-b2b8-1fbd12b74e47.67e50a6fb25b5e88191c44d016a1534e.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff"
 },
 {
-"id": 22799752,
-"brand": "Alfaparf Milano",
-"name": "Illuminating Mask",
-"name_ru": "Маска для блеска",
-"dept": "hair",
-"vol": "",
-"type": "mask",
-"need": "",
-"price": 55,
-"stock": 1,
-"barcode": "8022297064970",
-"img": "photos/p/22799752.jpg"
-},
-{
 "id": 22799793,
 "brand": "Alfaparf Milano",
 "name": "Smoothing Conditioner",
@@ -743,20 +729,6 @@
 "stock": 1,
 "barcode": "8022297111216",
 "img": "photos/p/22799793.jpg"
-},
-{
-"id": 22799805,
-"brand": "Alfaparf Milano",
-"name": "Illuminating Conditioner",
-"name_ru": "Кондиционер для блеска",
-"dept": "hair",
-"vol": "",
-"type": "conditioner",
-"need": "",
-"price": 55,
-"stock": 1,
-"barcode": "8022297064956",
-"img": "photos/p/22799805.jpg"
 },
 {
 "id": 22799808,
@@ -868,20 +840,6 @@
 "stock": 1,
 "barcode": "8022297175317",
 "img": "photos/p/22799894.jpg"
-},
-{
-"id": 22799898,
-"brand": "Alfaparf Milano",
-"name": "Reparative Low Shampoo",
-"name_ru": "Восстанавливающий шампунь",
-"dept": "hair",
-"vol": "",
-"type": "shampoo",
-"need": "",
-"price": 50,
-"stock": 1,
-"barcode": "8022297175294",
-"img": "photos/p/22799898.jpg"
 },
 {
 "id": 22799904,

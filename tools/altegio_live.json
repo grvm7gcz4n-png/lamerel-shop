@@ -10202,14 +10202,6 @@
 "stock": 2,
 "title": "ALFAPARF volumizing mousse conditioner"
 },
-"22799752": {
-"article": "",
-"barcode": "8022297064970",
-"category_id": 970451,
-"price": 55,
-"stock": 1,
-"title": "ALFAPARF illumination mask"
-},
 "22799793": {
 "article": "",
 "barcode": "8022297111216",
@@ -10217,14 +10209,6 @@
 "price": 60,
 "stock": 1,
 "title": "ALFAPARF smoothing conditioner"
-},
-"22799805": {
-"article": "",
-"barcode": "8022297064956",
-"category_id": 970451,
-"price": 55,
-"stock": 1,
-"title": "ALFAPARF illuminating conditioner"
 },
 "22799808": {
 "article": "",
@@ -10289,14 +10273,6 @@
 "price": 55,
 "stock": 1,
 "title": "ALFAPARF reparative mask"
-},
-"22799898": {
-"article": "",
-"barcode": "8022297175294",
-"category_id": 970451,
-"price": 50,
-"stock": 1,
-"title": "ALFAPARF reparative low shampoo"
 },
 "22799904": {
 "article": "",
@@ -12011,5 +11987,5 @@
 "title": "chanel bag синяя косметичкаквадратная без цепочки"
 }
 },
-"updated": "2026-11-18T07:52:02+00:00"
+"updated": "2026-11-18T08:48:56+00:00"
 }
